@@ -1,0 +1,49 @@
+For the tasteful alcoholic:
+
+Beer - 6 pieces
+
+Malted Barley
+Brewer's Yeast
+Hops
+Distilled Water
+Barrel*
++
+Ale Process or
+Mead Process or
+Wheat Process or
+Stout Process or
+Porter Process or
+Pale Ale Process or
+Cider Process or
+
+
+Wine - 6 pieces
+White Grapes or
+Red Grapes
++
+Brewer's Yeast
+Distilled Water
+Still*
+Barrel*
++
+Mead Process (White) or
+Cabernet Process (Red) or
+Sauvignon Process (Red) or
+Merlot Process (Red) or
+Pinot Grigio Process (White) or
+Pinot Noir Process (White) or
+
+* = reusable item, not lost when crafting.
+
+Brandy - 2 pieces
+Mead
+Brandy Process
+
+Whisky - 6 pieces
+Still*
+Barrel*
+Brewer's Yeast
+Malt
+Sugar
+Whisky Process or
+Scotch Process

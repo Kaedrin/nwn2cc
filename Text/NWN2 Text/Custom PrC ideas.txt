@@ -1,0 +1,185 @@
+Radiant Servant is pretty much exactly the same as http://dndtools.eu/classes/radiant-servant-of-pelor/ but changed to be "any sun god, ie, Lathandar" as opposed to Pelor (a greyhawk god?). I thought about Morninglord but this seemed a better idea/fit.
+
+Wildbow is largely an archer of Solonar with some special archery perks. Less Ranger/Fighter, more utility/stealth.
+
+Deepwarden - http://dndtools.eu/classes/deepwarden/ - is going to lose the stuff we can't do in NWN2 and gain synergy with dwarven defender. It's going to have a fairly strong limit on stone warden.
+
+Silverstar is a Stormlord style prc of Selune.
+
+Black Fist which focuses on heavy armor, undead killing, and empowering the inflict line of spells.
+
+Golden Lion is a paladin prc that can not be taken with CotSF. It provides bonus feats, spell progression, and some group boosting capabilities that burn turn undead uses (such as "warding divine shield" that provides half the benefit to allies within 20'). It's a more party oriented paladin (bonuses to healing, party buffing, etc).
+
+Blightlord is a halberd wielding disease infested divine palemaster. It will lose more spellcasting progression though to make up for the toys. http://dndtools.eu/classes/talontar-blightlord
+
+Shadowcrafter (probably will be renamed) specializes in shadows and illusion magic. All illusions cast by a shadowcrafter dazzle (-1 AB) nearby enemies for several rounds regardless of saves. Your familiar is replaced with a shadow elemental (meaning it's more combat oriented as well).
+http://dndtools.eu/classes/shadowcrafter/ mixed with http://dndtools.eu/classes/master-of-shadow/ mixed with http://dndtools.eu/classes/master-of-shrouds/ and mixed with http://dndtools.eu/classes/nightcloak/ (trying to find the best synergy of shadow stuff for a shar prc).
+
+
+***
+
+
+Silverstar.
+[spoiler]<color=Gold><b>Silverstar</b></color>
+
+<color=Red>(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)</color>
+
+Silverstars are dedicated advocates of freedom and tolerance, wanderers on the path of truth, and absolute foes of Shar. They seek to build harmony among lycanthropes and nonshapechangers, and they protect the weak and oppressed everywhere. They cannot abide slavery and they hate most undead. They rarely settle in one place for long, instead moving along when seized by wanderlust or enticed by a new cause or mission. They deal with lunar energies and phenomena and are, to a limited degree, able to wield the power of the moon, bringing its fierce, pure white light to Toril.
+
+<color=Gold>Requirements:</color>
+
+<b>Alignment:</b> Any good.
+<b>Base Attack Bonus:</b> +4.
+<b>Feats:</b> Blind-Fight, Dodge, Mobility, Spring Attack.
+<b>Skills:</b> Diplomacy 4.
+<b>Spellcasting:</b> Ability to cast 2nd-level divine spells.
+
+<color=Gold>Class Features:</color>
+
+- <b>Hit Die:</b> d8
+- <b>Base Attack Bonus:</b> Medium.
+- <b>High Saves:</b> Fort, Will.
+- <b>Weapon Proficiencies:</b> None.
+- <b>Armor Proficiencies:</b> None.
+- <b>Skill Points:</b> 2 + Int modifier.
+- <b>Class Skills:</b> Craft Armor, Craft Weapon, Concentration, Diplomacy, Heal, Lore, Survival, and Spellcraft.
+
+<color=Gold>Class Abilities:</color>
+
+Level 1: Moon Bolt 3/day, Spellcasting Progression
+Level 2: Low-Light Vision
+Level 3: Moon's Hand
+Level 4: Tears of Selune
+Level 5: Prophet's Sight 1/day
+Level 6: Moon Bolt 4/day
+Level 7: Moonshield
+Level 8: Prophet's Sight 2/day
+Level 9: Moon Bolt 5/day
+Level 10: Moonfire 1/day
+
+- <b>Spellcasting:</b> At each silverstar level, the character gains new spells per day (and spells known, if applicable) as if she had also gained a level in a divine spellcasting class she belonged to before adding the prestige class. If a character had more than one spellcasting class before becoming a silverstar, she must decide which class she increases when she gains a level.
+
+- <b>Moon Bolt:</b> A silverstar can cast Moon Bolt with a caster level equal to her class level 3 times/day. She gains an additional use at 6th and 9th level.
+
+- <b>Moon's Hand:</b> Any heavy mace wielded by a 3rd-level silverstar is treated as though it were +1 with 1d6 bonus electrical damage. At 6th level, the weapon is treated as a +2 weapon. Upon reaching 9th level, the weapon gains the massive criticals property.
+
+- <b>Tears of Selune:</b> A 4th-level silverstar can project luminescent lunar energy as faerie fire at will, as if cast by a sorcerer of her caster level.
+
+- <b>Prophet's Sight:</b> Starting at 5th level, once per day a silverstar is able to see as if under the effect of a true seeing spell cast by a cleric of her level. At 8th level, this ability can be used 2/day.
+
+- <b>Moonshield:</b> At 7th level, a silverstar learns how to better resist the magic of the Shadow Weave. She gains a +2 bonus on saves against enchantment, illusion, and necromancy spells.
+
+- <b>Moonfire:</b> Upon reaching 10th level, a silverstar can cast moonfire 1/day as a spell like ability.
+
+Moonfire Details:
+Components: V,S
+Area: 60' Cone
+Duration: Instantaneous (see text)
+Saving Throw: Reflex half (see text)
+Spell Resistance: Yes
+
+A cone of fiery, white moonlight springs from your hand. Living creatures in the area feel an unnatural chill and take 1d8 points of divine damage per two caster levels, to a maximum of 10d8. Undead and shapechangers take double damage. This application of the spell allows a Reflex save for half damage.
+
+Shapechanged or polymorphed creatures and objects in the spell's area at the time the spell is cast must make Will saves or immediately return to their normal forms.[/spoiler]
+
+***
+
+Black Fist
+[spoiler]<b>Black Fist</b>
+
+(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)
+
+x
+
+Requirements:
+
+<b>Class:</b> Blackguard
+<b>Special</b> Two of the following domains: Destruction, Evil, Law, Hatred, Tyranny
+<b>Spellcasting:</b> Level 2 cleric spells
+
+Class Features:
+
+- <b>Hit Die:</b> d10
+- <b>Base Attack Bonus:</b> High.
+- <b>High Saves:</b> Fort, Will.
+- <b>Weapon Proficiencies:</b> None.
+- <b>Armor Proficiencies:</b> None.
+- <b>Skill Points:</b> 2 + Int modifier.
+- <b>Class Skills:</b> Concentration, Craft Weapon, Craft Armor, Intimidate, Lore, Spellcraft, and Taunt.
+
+
+Class Abilities:
+
+Level 1: Spellcasting Progression, Favored of Bane, Turn Undead
+Level 2: 
+Level 3: 
+Level 4: 
+Level 5: Heavy Armor Optimization
+Level 6: 
+Level 7: 
+Level 8: 
+Level 9: Greater Heavy Armor Optimization
+Level 10: 
+
+- <b>Spellcasting:</b> At each level, a black fist gains new spells per day (and spells known, if applicable) as if she had also gained a level in her cleric casting class. A black fist also gains cleric spellcasting progression for each odd level of Blackguard they have. Black Fist levels are added to Blackguard levels for determining Blackguard caster level.
+
+- <b>Favored of Bane:</b> A Black Fist is the embodiment of the martial prowess and fear that Bane inspires in mortals. As such they give up their reliance on the Divine Power spell (gaining no benefit from the spell) and instead gain the ability to inflict great harm with their inflict spells. All Inflict spells gain a damage bonus equal to the number of levels in Black Fist as well as a 50% boost to their final damage. This boost stacks with the Empower spell metamagic.  This ability also works spells cast with the Blackguard spellbook. Black Fists also gain a +2 Strength bonus with the Righteous Might spell (making the Strength bonus +8 ). At 10th level, a Black Fist automatically maximizes all inflict spells (this bonus replaces the 50% boost from Favored of Bane but it does stack with Empower spell).
+
+Note: A Cleric 10/Blackguard 10/Black Fist 10 will have a 25 caster level with cleric spells (29 with practiced caster) and a 27 BAB. 
+
+[/spoiler]
+
+***
+
+Golden Lion
+[spoiler]<b>Golden Lion</b>
+
+(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)
+
+x
+
+Requirements:
+
+<b>Class:</b> Paladin
+<b>Feats:</b> Divine Shield, Extra Turning
+<b>Special:</b> May not have levels in the Champion of the Silver Flame class.
+<b>Spellcasting:</b> Level 2 paladin spells
+
+Class Features:
+
+- <b>Hit Die:</b> d10
+- <b>Base Attack Bonus:</b> High.
+- <b>High Saves:</b> Fort, Will.
+- <b>Weapon Proficiencies:</b> None.
+- <b>Armor Proficiencies:</b> None.
+- <b>Skill Points:</b> 2 + Int modifier.
+- <b>Class Skills:</b> Concentration, Craft armor, Craft weapon, Diplomacy, Heal, Lore, Parry, Spellcraft, and Tumble.
+
+
+Class Abilities:
+
+Level 1: Spellcasting Progression, Turn Undead, Triadic Knight
+Level 2: Group Divine Shield
+Level 3: Extra Turning II
+Level 4: Heavy Armor Optimization
+Level 5: 
+Level 6: Group Divine Vigor
+Level 7: Extra Turning III
+Level 8: Greater Heavy Armor Optimization
+Level 9: 
+Level 10: Greater Sacred Purification
+
+- <b>Spellcasting:</b> At each level, a golden lion gains new spells per day (and spells known, if applicable) as if she had also gained a level in her paladin casting class.
+
+- <b>Triadic Knight:</b> A shining golden light in the darkness that stands against all evil is what it means to a Golden Lion, one of the champions of Torm dedicated to the Triad of Torm, Ilmater, and Tyr. Any divine feat that expends a use of Turn Undead gains a +1 round duration bonus. At 10th level this bonus becomes equal to your Wisdom modifier.
+
+- <b>Group Divine Shield:</b> The golden lion may spend one of his turn undead attempts to add half his Charisma bonus to the armor class (dodge AC) of all allies within 50' for a number of rounds equal to the Charisma bonus. This ability replaces the Divine Shield ability.
+
+- <b>Group Divine Vigor:</b> The golden lion may spend one of his turn undead attempts to grant a 33% movement speed buff as well as gain +2 temporary hit points per character level to all allies within 50'. These effects last a number of minutes equal to your Charisma bonus. This ability replaces the Divine Vigor ability.
+
+- <b>Greater Sacred Purification:</b> You can expend a turn undead attempt to create a pulse of divine energy. All living creatures within 60 feet of you heal an amount of damage equal to 9 times your Charisma bonus. All undead creatures in this area take damage equal to 9 times your Charisma bonus . A 22 Charisma (+6) heals and harms for 54 points. This ability has a 30 second cooldown and replaces the Sacred Purification ability.
+
+[/spoiler]
+
+***
+

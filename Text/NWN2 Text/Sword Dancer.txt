@@ -1,0 +1,77 @@
+Thoughts?
+
+Sword Dancer
+
+Eilistraee the Dark Maiden encourages drow to return to the surface world and reestablish themselves as rightful, nonevil inhabitants of the Night Above. Although they need not be drow themselves, sword dancers are expected to lead that migration and work to promote harmony between drow and surface-dwelling races. They nurture beauty, music, the craft of making musical instruments, and song wherever they find it, assist hunters and hunting, and help others in acts of kindness whenever they see ways to do so.
+
+Requirements
+
+Base Attack Bonus: +7
+Class: Not Monk
+Feats: Dodge, Combat Expertise, Skill Focus (Perform), Weapon Focus (any sword)
+Race: Elf, Half-Elf, or Half-Drow
+Skills: Diplomacy 5, Perform 5
+Spellcasting: Able to cast 2nd-level divine spells.
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Concentration, Diplomacy, Heal, Hide, Listen, Lore, Move Silently, Perform, Spellcraft, and Tumble.
+Skill points: 2 + Int modifier
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Ref, Will
+Weapon proficiency: None
+Armor proficiency: None
+
+Class Abilities
+
+Level 1: Low-light vision, Spellcasting Progression, Sword Song
+Level 2:
+Level 3: Sword Dance
+Level 4: Mobility
+Level 5: Craft magic Arms and Armor
+Level 6: Faerie Fire 1/day
+Level 7: Spring Attack
+Level 8: Faerie Fire 2/day
+Level 9:
+Level 10: Sword Shield
+Level 11: Singing Sword
+Level 12: Moonfire 1/day
+Level 13: Silverhair Armor +2
+Level 14: Bonus Epic Feat
+Level 15:
+Level 16: Moonfire 2/day
+Level 17: Silverhair Armor +4
+Level 18: Bonus Epic Feat
+Level 19:
+Level 20: Moonfire 3/day, Bonus Epic Feat
+Level 21: Silverhair Armor +6
+Level 22: Bonus Epic Feat
+
+Spellcasting Progression: At each sword dancer level, the character gains new divine spells per day as if she had also gained a level in a divine spellcasting class to which she belonged before adding the prestige class level.
+
+Sword Song: Once a day, a sword dancer wielding a sword in her right hand causes the sword to sing heroic songs, granting her a +2 bonus on attack and damage rolls and a +3 morale bonus on saving throws against mind-affecting spells and effects. This ability is instantly activated an lasts a number of rounds equal to her class level plus her Charisma modifier.
+
+Sword Dance: At 3rd level, a sword dancer causes a ghostly sword (identical to the one in her right hand) to come to life and begin attacking the enemy. It has a BAB equal to the sword dancer's and cannot be killed. The sword remains for four rounds and can be used a number of times per day equal to her class level. This is an instantly activated ability.
+
+Sword Shield: At 10th level, as an instant action, a sword dancer may command her dancing sword to fight in a defensive manner, taking a penalty of -5 on the sword's attacks in order to add the same number to her AC as a shield AC bonus.
+
+Singing Sword: At 11th level, the sword wielded in the right hand of the sword dancer is infused with the divine power of Eilistraee. It gains the ability to use bardic music to inspire courage as a bard of equal level to the character level of the sword dancer who infused it; neither the sword nor the sword dancer need have any ranks in the Perform skill to use this ability. This ability lasts for 20 rounds and is usable once per day at 11th level, twice a day at 15th level, and three times a day at 19th level.
+
+The sword also gains the Thundering ability, gaining a +1d6 sonic damage bonus at all times.
+
+Silverhair Armor: At 13th level the sword dancer's hair becomes infused with divine energy and glows softly with silver light. As long as she is not wearing armor or using a shield, she gains a +2 dodge AC bonus. This bonus increases to +4 at 17th level and to +6 at 21st level.
+
+Moonfire Details:
+Components: V,S
+Area: 60' Cone
+Duration: Instantaneous (see text)
+Saving Throw: Reflex half (see text)
+Spell Resistance: Yes
+
+A cone of fiery, white moonlight springs from your hand. Living creatures in the area feel an unnatural chill and take 1d8 points of divine damage per two caster levels, to a maximum of 10d8. Undead and shapechangers take double damage. This application of the spell allows a Reflex save for half damage.
+
+Shapechanged or polymorphed creatures and objects in the spell's area at the time the spell is cast must make Will saves or immediately return to their normal forms.
+
+(The electricity immunity part of the spell for the area the cone hit is not really possible to do in NWN2 so I'll either cut it or add electrical immunity to all subjects)

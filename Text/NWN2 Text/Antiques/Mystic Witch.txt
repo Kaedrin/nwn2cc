@@ -1,0 +1,51 @@
+Mystic Witch
+
+Requirements
+
+Alignment: Non-Lawful.
+Saving Throw: Will +4
+Feats: Spell Focus (Enchantment), Skill Focus (Healing)
+Skills: Heal 6, Lore 8.
+Divine Spellcasting: Level 2
+Arcane Spellcasting: Level 2
+
+Class Features
+
+HD: d4
+BAB: Low
+High Saves: Will
+Weapon and Armor proficiency: None
+
+Class Skills: Bluff, Concentration, Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Lore, Spellcraft, and Use Magic Device.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Master of Fear, +1 Arcane spellcasting progression
+Level 2: Healing Poultice (wounds), +1 Divine spellcasting progression
+Level 3: +1 Arcane spellcasting progression
+Level 4: Healing Poultice (poison, disease), +1 Divine spellcasting progression
+Level 5: Blight of Ill Fortune, +1 Arcane spellcasting progression
+Level 6: Healing Poultice (ability damage), +1 Divine spellcasting progression
+Level 7: +1 Arcane spellcasting progression
+Level 8: Healing Poultice (curse), +1 Divine spellcasting progression
+Level 9: Aura of Terror, +1 Arcane spellcasting progression
+Level 10: Touch of the Fey, +1 Divine spellcasting progression
+
+Master of Fear grants fear immunity and +2 DC with Fear spells.
+
+Healing Poultice heals the party of damage equal to the mystic witch's heal ranks. At 4th level it removes poisons and disease. At 6th level it removes ability damage. At 8th level it removes any curses on the party. It has a 5 minute cooldown (3 minutes with Improved Healing Poultice).
+
+Blight of Ill Fortune is a curse that affects enemies within 20' of the witch, lowering their attack bonus by 2 (4 if they have the feat Greater Master of Fear). It has a 3 minute cooldown. Blight does not affect Fear Immune creatures unless the Mystic Witch has the Greater Master of Fear feat.
+
+Aura of Terror causes any enemies within 30' to suffer a -2 Penalty to Will Saves.
+
+Touch of the Fey: The mystic witch becomes more like the Fey she trades with. She becomes immune to mind affecting spells and gains DR 5/Cold Iron.
+
+New Feats:
+
+Greater Master of Fear further improves the DC of Fear spells to +4 and allows them to affect those immune to fear and mind spells (though for each immunity the subject gets a +10 save bonus). It also improves the Blight of Ill Fortune ability.
+
+Improved Healing Poultice reduces the cooldown to 3 minutes and grants a bonus to healing equal to the levels in mystic witch.
+
+Greater Aura of Terror: The penalty to Will saves increases to -4 and the aura expands to 40' around the witch.

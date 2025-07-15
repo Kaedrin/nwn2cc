@@ -1,0 +1,53 @@
+Drow Judicator
+
+Drow Judicator
+
+Requirements
+Alignment: Any evil.
+Base Attack Bonus: +5.
+Race: Drow
+Skills: Intimidate 4, Lore 4
+Spellcasting: Arcane 1* or Divine 1 (Wizards must have 2 or more levels to gain spellcasting progression)
+
+Class Features
+
+HD: d8
+BAB: High
+High Saves: Fort
+Weapon proficiency: Simple and Martial.
+Armor proficiency: All Armor and Shields (except tower).
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Lore, Parry, Spellcraft, Survival, and Tumble
+Skill Points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Spellcasting Progression, War Strike 1/day
+Level 2: Command Spiders, Selvetarm's Blessing
+Level 3:
+Level 4: War Strike 2/day
+Level 5: Spider Servant
+Level 6:
+Level 7: War Strike 3/day
+Level 8: Spider's Grace
+Level 9:
+Level 10: Judgement 1/day, War Strike 4/day
+
+Spellcasting Progression: At every third drow judicator level, the character gains new spells per day (and spells known, if applicable) as if he had also gained a level in a spellcasting class to which he belonged before adding the prestige class.
+
+War Strike: War is the ultimate expression of Selvetarm's power, so its lessons are the very first that the drow judicator learns. Beginning at 1st level, he can attempt a melee touch attack. If he hits, he deals 2d6 points of Consitution damage in addition to his normal weapon damage. The target may attempt a Fortitude save (DC 10 + drow judicator level + Cha modifier) to halve the Constitution damage. This ability is usable once per day at 1st level, twice per day at 4th level, three times per day at 7th level, and four times per day at 10th level.
+
+Command Spiders: As a special dispensation from Lolth, Selvatarm can grant his judicators the ability to command spiders. When a drow judicator reaches 2nd level, he gains the ability to dominate a spider six times per day.
+
+Selvetarm's Blessing: At 2nd level and above, a drow judicator receives a +3 profane bonus on all saving throws.
+
+Spider Servant: At 5th level, a drow judicator can call for a spider servant which is a fiendish sword spider. Stats: Str 20, Dex 10, Con 14, 7 HD, High BAB, d6/d6/d8 damage, +10 Nat AC, Damage resistance 10 to cold and fire, SR 12, Improved Evasion, DR 5/Magic. When a drow judicator reaches 6th level the spider gains another 2 HD, 2 Natural AC, 2 Intelligence, and it's DR improves to 10/Magic. At 8th level the spider gains another 2 HD, 2 Natural AC, 2 Strength, 2 Intelligence, and a +2 bonus to attack rolls, skills, and saving throws. At 10th level the spider gains another 2 HD, 2 Natural AC, 2 Intelligence, 2 Strength, and it's SR improves to 25.
+
+The spider's final stats are: Str 24, Dex 10, Con 14, 13 HD, +16 Natural AC, Damage resistance 10 to cold and fire, SR 25, Improved Evasion, and DR 10/Magic.
+
+Spider's Grace: At 8th level, a drow judicator gains the ability to take on attributes of a spider for 10 minutes once per day. While this is active he receives a +4 insight bonus on Hide and Move Silently checks.
+
+Judgement: At 10th level, a drow judicator gains the ability to judge all creatures within 100 feet of him. Those he finds wanting (hostile) are immediately targeted with a horrid wilting effect (caster level 18th; save DC 18 + drow judicator's wisdom modifier).
+
+New Feat: Extra Judgement (+2 uses/day)
+New Feat: Extra War Strike (+2 uses/day)

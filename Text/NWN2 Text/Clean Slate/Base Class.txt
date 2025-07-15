@@ -1,0 +1,59 @@
+Sorc: 
++1 spells/known of each level
++1 bonus feat at 7/13/19
+HD to d6
+
+Cleric - Strongly suggest removal of Domains to get rid of the RP problems and the fact that RP doesn't need to be focused on those domains to worship a deity. They inform the RP. The domains have a lot of bugs and abuses (and the changes in the current domain set provide too much power and capabilities from other classes). If domains have to stay, would recommend moving back to stock NWN2 domains. Clerics already get the free +1 spell that domains grant AND it works for any spell slot not just the domain spell so I'd leave them with the bonus they already get from that (along with a free bonus feat at level 1). Evaluate spells for stacking. Add Channel Energy.
+
+Fighter - Adjust the pathfinder fighter bonuses once the server's power level has been decided.
+
+Monk - Adjust the Monk to use the lower end values from the PRC pack upgrade. Existing levels were a bit too strong on DB. Evaluate Monk upgrade for disabling pieces of the upgrade.
+
+Paladin - Evaluate Mercies. Evaluate a Smite Evil replacement (custom system) to allow flexible scaling/customization. Evaluate Spirits for removal. Evaluate spells for stacking. Add Channel Energy. Rework Lay on Hands. Evaluate Auras.
+
+Druid:
+Nerf all the changes I made to Druid forms so they don't give all of your gear bonuses while wildshaped. I went WAAAAY WAAAAY TOO FAR on Druids. SMH.
+
+Druid - Return wildshape to stock NWN2 status with just the bug fixes from the PRC pack. Design a new base class without spells that focuses on fighting as a shape to split the abuse of power between shapes, animal companion, and spells that druid overloads on. Evaluate Pathfinder's version of Wildshape where forms are additive on top of the characters physical stats (instead of replacing them). Evaluate spells for stacking. Review companions for new power level.
+
+Paladin:
+Potentially remove alignment and grant Smite Good, Smite Evil, or Smite Infidel depending on alignment. Would need to test to see if this lets Smite work correctly.
+
+Scout:
+BAB to 25/30 (high from 21-30 instead of medium) - Only if the sneak attack stacking problems are fixed.
+
+Rogue:
+HD to d8
+Rogue - Evaluate Trap/Poison crafting systems. Evaluate Rogue Talents.
+
+Bard:
+HD to d8
+Adjust Inspire Courage to be physical damage again instead of magic. Evaluate spells for stacking. Evaluate abilities for new power level.
+
+Scout - Remove access to sneak attack and improve the class focus on stealth, detection, and possibly archery or traps
+
+Hexblade - Suggest moving the AoE capability from Epic levels to lower levels. Evaluate debuffs to match new power level. Evaluate spells for stacking.
+
+Wiz: 
+HD to d6
+
+Ranger- Evaluate new combat styles. Evaluate changing the rate of combat style feats to match Pathfinder (more 1-20). Evaluate HD upgrade. Evaluate spells for stacking. Review companions for new power level.
+
+Favored Soul: 
+Replace it with Healer or new class like Inquisitor. Would love to replace it with Paladin and rework Smite to be a whole new system without the abuses of the old one. Would free up the Paladin slot for a REAL CASTER.
+
+Spirit Shaman: 
+Replace it with Ranger (if possible to preserve bonus feat system)
+Enables new spell casting class to use Ranger spellbook (REAL CASTER)
+This is so that the druid and the ranger share the same spellbook (which is pretty damn close in pnp and those ranger only spells won't tip the balance for Druids after the wildshape nerf). Doing so will open up a full spellbook for a new class.
+
+Barbarian - Evaluate Rage Powers. Evaluate integrating Frenzied Berserker (and removing the class)?
+
+[*]Warlock (replaced with Alchemist). This will open up the RP for everyone and remove the abuses that were constant with warlocks.
+
+New Base Classes:
+Alchemist
+Necromancer (active pet abilities, life drains, expend life to use abilities, etc)
+Knight (merge Knight/Armiger, start over from scratch, add in variety for Challenge system and include ability to force NPCs to attack Knight ie Taunt)
+Feral Shifter - martial/spell-free version of Druid (for those that want buffs combat shapes)
+Weave Walker - Teleporter/Rogue-like/Traps/Trick shot abilities

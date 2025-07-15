@@ -1,0 +1,42 @@
+New Projects
+
+Project Parity
+
+    New crafting system based on PnP rules and enforcing the max enchant on items.
+    New stacking buff rules based on PnP (morale, competence, sacred, etc)
+    Open discussion on changing +enhance on shields to only +Reflex like 4E
+
+Project War Machine
+
+    Warforged introduced as a race using the iron golem (new appearance row with correct size)
+    New lines of Repair spells for living constructs
+    New Base Class: Warforged Titan
+    New Prestige Class: Spirit of War
+    New Base Class: Artificer
+
+Project Ragnarok
+
+    Script-based "prestige classes" for standard creatures.
+    Allows for any creatures to be upgraded, even OC campaign ones.
+    Increases difficulty of hostiles
+    Scaling level-up system for creatures that allows a handful of blueprints to be used to generate a 1-30 range of that creature.
+
+Project Tamawrath
+
+    Token based drops from creatures redeemable for custom enchantments from a merchant
+    Nexus hub level accessing various elemental planes (shadow, fire, water/cold, air/elec, acid/earth, light)
+    Custom enchantments involve imbuing elemental spirits into armor and weapons.
+
+Project Overlord
+
+    Dungeon Keeper style dungeon manager where the player chooses creatures to develop and recruit while parties of dynamically generated heroes invade.
+    Portal based system so "doors" can lead to vastly different areas.
+    Dungeon would be much like a demi-plane where it grows according to it's masters desire but under siege by enemies
+    Support for both alignments will be built in so a "good" dungeon keeper/realm master can develop an angelic realm and defend it against demonic invaders
+    Custom creature development will be available - grow a race (such as undead) to be soakers, strikers, or healers.
+
+Project Entropy
+
+    Overland Map in SoZ tweaked to allow random dungeons to be dropped in
+    2da driven for maximum customization without recompiling
+    Could in theory allow the community to build a 1-30 SoZ campaign where community built areas offer challenges for a variety of level ranges

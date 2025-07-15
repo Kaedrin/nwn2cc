@@ -1,0 +1,111 @@
+Here's a BIG list of spells that'd make sense to remove from a pacifist's arsenal. Basically, they're all the debuffs, summons, damage boosting, and attack spells.
+[spoiler][u][b]Kaedrin Spells:[/b][/u]
+Lesser Aura of Cold
+Awaken Sin
+Blessing of the Righteous
+Castigate
+Lesser Energized Shield
+Energized Shield
+Flame of Faith
+Flaywind Burst
+Frost Breath
+Weapon of Deity
+Lion's Roar
+Weapon of Energy
+
+[u][b]Normal Spells:[/b][/u]
+
+0:
+Inflict Minor Wounds
+
+1:
+Bane
+Cause Fear
+Divine Favor
+Doom
+Magic Weapon
+Summon Creature 1
+
+2:
+Darkness
+Death Knell
+Hold Person
+Inflict Moderate Wounds
+Sound Burst
+Summon Creature 2
+
+3:
+Animate Dead
+Bestow Curse
+Blindness/Deafness
+Contagion
+Glyph of Warding
+Inflict Serious Wounds
+Prayer
+Searing Light
+Summon Creature 3
+Weapon of Impact
+
+4:
+Castigate
+Divine Power
+Hammer of the Gods
+Hypothermia
+Inflict Critical Wounds
+Magic Weapon, Greater
+Poison
+Summon Creature 4
+
+5:
+Battletide
+Flame Strike
+Inflict Light Wounds, Mass
+Mass Contagion
+Slay Living
+Summon Creature 5
+
+6:
+Blade Barrier
+Control Undead
+Create Undead
+Harm
+Inflict Moderate Wounds, Mass
+Planar Ally
+Summon Creature 6
+
+7:
+Blood to Water
+Destruction
+Inflict Serious Wounds, Mass
+Summon Creature 7
+Word of Faith
+
+8:
+Aura versus Alignment
+Bodak's Glare
+Create Greater Undead
+Earthquake
+Fire Storm
+Inflict Critical Wounds, Mass
+Summon Creature 8
+Sunbeam
+
+9:
+Energy Drain
+Gate
+Implosion
+Storm of Vengeance
+Summon Creature 9
+
+Epic Spells:
+All but Epic Mass Heal.[/spoiler]
+
+I've also got three suggestions that aren't related to cutting spells:
+
+1: Have Shield of Warding cast by a Healer provide the spell's full benefit. They can't use shields, so this wouldn't make them any stronger.
+
+2: Clerics lose their existing domains and instead gain the Healing and Renewal domains, regardless of deity. Favored Souls will have more total healing per day and a higher charisma. This would even the field a bit by making cleric healing more powerful and cheaper. It also prevents potential domain abuse.
+
+3: Instead of an epic bonus feat at Healer 26, give them a special ability:
+[i]Harmless: A divine aura protects the healer so long as he obeys his oaths. At level 26, a Healer cannot be the target of attacks or hostile spells. This does not protect them from traps and area of effect abilities. This effect ends if the healer attacks or performs another hostile action.[/i]
+This would provide a little extra incentive to go past level 20 and provides some much needed protection against ambushes when attempting to heal people.

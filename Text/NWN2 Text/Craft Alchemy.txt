@@ -1,0 +1,188 @@
+All recipes require a mold (5 gold * skill required in cost, one mold per item listed below), an alchemical crafting station, and a pestle used on the station that has the mold (the only ingredient).
+
+Craft Alchemy skill gives a +1 damage per 5 ranks and +1 DC per 10 ranks.  There is a 1% chance per rank of Craft Alchemy above the required skill to craft a second, free item with each crafting attempt. Example, a 30 skill character crafting a Lesser Acid Flask has a 26% chance to craft 2 flasks for the price of 1.
+
+Lesser Acid Flask, 1d4 Acid, 4 Skill
+Acid Flask, 1d8 Acid, 8 Skill
+Improved Acid Flask, 2d6 Acid, 12 Skill
+Greater Acid Flask, 3d6 Acid, 16 Skill
+Master Acid Flask, 4d6 Acid, 20 Skill
+Perfected Acid Flask, 5d6 Acid, 24 Skill
+Epic Acid Flask, 6d6 Acid, 28 Skill
+
+**
+
+Lesser Incendary Flask, 1d6 Fire, 4 Skill
+Incendary Flask, 2d6 Fire, 8 Skill
+Improved Incendary Flask, 3d6 Fire, 12 Skill
+Greater Incendary Flask, 4d6 Fire, 16 Skill
+Master Incendary Flask, 5d6 Fire, 20 Skill
+Perfected Incendary Flask, 6d6 Fire, 24 Skill
+Epic Incendary Flask, 7d6 Fire, 28 Skill
+
+**
+
+Lesser Bottled Hellrime, 1d6 Cold, 4 Skill
+Bottled Hellrime, 2d6 Cold, 8 Skill
+Improved Bottled Hellrime, 3d6 Cold, 12 Skill
+Greater Bottled Hellrime, 4d6 Cold, 16 Skill
+Master Bottled Hellrime, 5d6 Cold, 20 Skill
+Perfected Bottled Hellrime, 6d6 Cold, 24 Skill
+Epic Bottled Hellrime, 7d6 Cold, 28 Skill
+
+**
+
+Lesser Bottled Lightning, 1d6 Electrical, 4 Skill
+Bottled Lightning, 2d6 Electrical, 8 Skill
+Improved Bottled Lightning, 3d6 Electrical, 12 Skill
+Greater Bottled Lightning, 4d6 Electrical, 16 Skill
+Master Bottled Lightning, 5d6 Electrical, 20 Skill
+Perfected Bottled Lightning, 6d6 Electrical, 24 Skill
+Epic Bottled Lightning, 7d6 Electrical, 28 Skill
+
+**
+
+Lesser Thunderstone, 1d4 Sonic plus DC 15 Deafen (5 rds) , 4 Skill
+Thunderstone, 1d6 Sonic plus DC 18 Deafen (5 rds) , 8 Skill
+Improved Thunderstone, 2d4 Sonic plus DC 21 Deafen (5 rds) , 12 Skill
+Greater Thunderstone, 2d6 Sonic plus DC 24 Deafen (5 rds) , 16 Skill
+Master Thunderstone, 3d4 Sonic plus DC 27 Deafen (5 rds) , 20 Skill
+Perfected Thunderstone, 3d6 Sonic plus DC 30 Deafen (5 rds) , 24 Skill
+Epic Thunderstone, 4d6 Sonic plus DC 33 Deafen (5 rds) , 28 Skill
+
+**
+
+Lesser Tanglefoot Bag, DC 15 Entangle (5 rds) , 4 Skill
+Tanglefoot Bag, DC 20 Entangle (5 rds) , 8 Skill
+Improved Tanglefoot Bag, DC 25 Entangle (5 rds) , 12 Skill
+Greater Tanglefoot Bag, DC 30 Entangle (5 rds) , 16 Skill
+Master Tanglefoot Bag, DC 35 Entangle (5 rds) , 20 Skill
+Perfected Tanglefoot Bag, DC 40 Entangle (5 rds) , 24 Skill
+Epic Tanglefoot Bag, DC 45 Entangle (5 rds) , 28 Skill
+
+**
+
+Lesser Choking Powder, DC 15 Sicken (5 rds) , 4 Skill
+Choking Powder, DC 20 Sicken (5 rds) , 8 Skill
+Improved Choking Powder, DC 25 Sicken  (5 rds) , 12 Skill
+Greater Choking Powder, DC 30 Sicken  (5 rds) , 16 Skill
+Master Choking Powder, DC 35 Sicken  (5 rds) , 20 Skill
+Perfected Choking Powder, DC 40 Sicken  (5 rds) , 24 Skill
+Epic Choking Powder, DC 45 Sicken  (5 rds) , 28 Skill
+
+Sickened. The character takes a -2 penalty on all attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks.
+
+**
+
+Lesser Holy Water Vial, 1d6 Holy vs Undead, 4 Skill
+Holy Water Vial, 2d6 Holy vs Undead, 8 Skill
+Improved Holy Water Vial, 3d6 Holy vs Undead, 12 Skill
+Greater Holy Water Vial, 4d6 Holy vs Undead, 16 Skill
+Master Holy Water Vial, 5d6 Holy vs Undead, 20 Skill
+Perfected Holy Water Vial, 6d6 Holy vs Undead, 24 Skill
+Epic Holy Water Vial, 7d6 Holy vs Undead, 28 Skill
+
+**
+
+Lesser Flash Powder, Invisibility (3 rds) , 4 Skill
+Flash Powder,  Invisibility (3 rds) , 8 Skill
+Improved Flash Powder,  Invisibility (3 rds) , 12 Skill
+Greater Flash Powder,  Invisibility (3 rds) , 16 Skill
+Master Flash Powder,  Invisibility (3 rds) , 20 Skill
+Perfected Flash Powder,  Invisibility (3 rds) , 24 Skill
+Epic Flash Powder,  Invisibility (3 rds) , 28 Skill
+Cost is 20x normal for these molds.
+
+The flash powders add a sanctuary effect with a DC equal to the craft amount.
+**
+
+Cinderfire, +1 fire damage on a weapon (lasts 3 minutes), 4 Skill
+Gains +1 rd per rank of alchemy up to a maximum of +40 rounds.
+
+**
+
+Healing Kit +1, 3 Skill
+Healing Kit +3, 9 Skill
+Healing Kit +6, 15 Skill
+Healing Kit +9, 21 Skill
+Healing Kit +12, 27 Skill
+Cost is 50% of the store cost for a similar kit.
+
+***
+
+Any other alchemy style items you would like to see?
+
+***
+
+Craft Alchemy skill gives a +1 damage per 5 ranks and +1 DC per 10 ranks. There is a 1% chance per rank of Craft Alchemy above the required skill to craft a second, free item with each crafting attempt. Example, a 30 skill character crafting a Lesser Acid Flask has a 26% chance to craft 2 flasks for the price of 1.
+
+Lesser Acid Flask, 1d4 Acid, 4 Skill
+Epic Acid Flask, 6d6 Acid, 28 Skill
+
+A character with a 30 skill would create a lesser acid flask that does 1d4 +6 damage.
+A character with a 100 skill would create a lesser acid flask that does 1d4 +20 damage.
+A character with a 30 skill would create a Epic acid flask that does 6d6 +6 damage.
+A character with a 100 skill would create a Epic acid flask that does 6d6 +20 damage.
+
+To be honest I never thought about the DC for the grenades so they should probably have a reflex DC save equal to the crafter's skill. I was probably thinking that they wouldn't have a DC at all (no save).
+
+Lesser Flash Powder, Invisibility (3 rds) , 4 Skill
+Epic Flash Powder, Invisibility (3 rds) , 28 Skill
+The flash powders add a sanctuary effect with a DC equal to the craft amount.
+
+A character with a 30 skill would create a Lesser Flash Powder that has a 7 DC.
+A character with a 100 skill would create a Lesser Flash Powder that has a 14 DC.
+A character with a 30 skill would create a Epic Flash Powder that has a 31 DC.
+A character with a 100 skill would create a Epic Flash Powder that has a 38 DC.
+
+***
+
+Craft Trap is going to be:
+
+
+Contact Poison 1
+Tier 1: DC 4 to make, Poison (DC 18, d2 Con)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Con)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Con)
+
+Contact Poison 2
+Tier 1: DC 4 to make, Poison (DC 18, d2 Str)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Str)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Str)
+
+Contact Poison 3
+Tier 1: DC 4 to make, Poison (DC 18, d2 Dex)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Dex)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Dex)
+
+Contact Poison 4
+Tier 1: DC 4 to make, Poison (DC 18, d2 Cha)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Cha)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Cha)
+
+Contact Poison 5
+Tier 1: DC 4 to make, Poison (DC 18, d2 Wis)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Wis)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Wis)
+
+Contact Poison 6
+Tier 1: DC 4 to make, Poison (DC 18, d2 Int)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Int)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Int)
+
+Traps will be 5/10/15/20/25 skill to craft these:
+Acid Splash Trap
+Acid Blob Trap
+Electrical Trap
+Fire Trap
+Frost Trap
+Gas Trap
+Holy Trap
+Negative Energy Trap
+Sonic Trap
+Spike Trap
+Slicing Trap
+Crushing Trap
+
+15/20/25/30/35 DC on the trap
+5d6/10d6/15d6/20d6/25d6 damage. One trap per person can be active

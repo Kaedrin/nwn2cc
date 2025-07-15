@@ -1,0 +1,64 @@
+Champion Of Gwynharwyf
+
+Champion Of Gwynharwyf
+
+Gwynharwyf is the celestial patron of barbarians, the model for how rage and righteousness can coexist in a single being. Her champions are mortal barbarians who strive to emulate her sublime balance of fury and reserve, using their rage to smite implacably evil foes while retaining their focus on good, with its demands for mercy and respect for life. They are among the fiercest warriors for the cause of good, armed with spells, iron-willed resistance to compulsions, and a celestial resistance to attacks in addition to their fearsome rage.
+
+Requirements
+
+Alignment: Chaotic Good.
+BAB: +6
+Skills: Intimidate 9
+Feats: Sacred Vow
+
+Class Features
+
+HD: d12
+BAB: High
+High Saves: Fort
+Armor and Weapon proficiency: None
+
+Class Skills: Craft Armor, Craft Weapon, Intimidate, Listen, Lore, Survival.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Spellcasting, Rage, Smite Evil 1/day
+Level 2: Divine Grace
+Level 3: DR 2/-, Resist Enchantment
+Level 4: Fearsome Fury
+Level 5: Energy Resistance 5, Smite Evil 2/day
+Level 6: DR 3/-
+Level 7: Immune to Charm and Compulsion
+Level 8: DR 4/-
+Level 9: Smite Evil 3/day
+Level 10: DR 5/-, Energy Resistance 10
+
+Number of Spells per Day
+1st level spells: 0 at 1st, 1 at 2nd, and 2 at 7th.
+2nd level spells: 0 at 3rd, 1 at 4th, and 2 at 9th.
+3rd level spells: 0 at 5th, 1 at 6th, and 2 at 10th.
+4th level spells: 0 at 7th and 1 at 8th.
+
+Spells Known
+Level 1: Bless, Bless Weapon, Cure Light Wounds, Divine Favor, Protection from Evil
+Level 2: Bull's Strength, Eagle's Splendor, Remove Paralysis, Resist Energy, Warcry
+Level 3: Cure Moderate Wounds, Magic Circle against Evil, Prayer, Remove Blindness/Deafness, Remove Curse
+Level 4: Blood of the Martyr, Death Ward, Freedom of Movement, Holy Sword, Restoration
+
+Spellcasting: Wisdom based. xxx
+
+Rage: A champion of Gwynharwyf adds her class levels to her barbarian levels to determine how often she can rage and when she gains the greater rage, tireless rage, and mighty rage barbarian class abilities. She does not gain or improve any other barbarian class abilities.
+
+Smite Evil: A champion of Gwynhwarwyf's levels stack with Paladin levels and other classes with the Smite Evil ability.
+
+Divine Grace: A 2nd-level champion of Gwynharwyf gains a bonus equal to her Charisma bonus on all saving throws.
+Damage Reduction: Starting at 3rd level, a champion of Gwynharwyf gains the ability to shrug off some amount of injury from each blow or attack (2/-). At 6th level, and every 2 levels thereafter, this damage reduction rises by 1 point.
+
+Resist Enchantment: At 3rd level, a champion of Gwynharwyf gains a +2 morale bonus on all saving throws against Enchantment spells or effects.
+
+Fearsome Fury: At 4th level, a champion of Gwynharwyf can strike terror into the hearts of her foes while she rages. When she enters a rage, she makes an Intimidate check. Any enemy that comes within 30 feet of her while she is raging must make a Will save against a DC equal to her Intimidate check result. Those who fail become shaken for 1d4+1 rounds or the duration of the rage, whichever is longer.
+
+Energy Resistance: At 5th level, a champion of Gwynharwyf grows closer to her eladrin patrons, gaining acid, cold, and electricity resistance 5. This resistance increases to 10 at 10th level.
+
+Immune to Charm and Compulsion: A 7th-level champion of Gwynharwyf is immune to charm and compulsion spells.

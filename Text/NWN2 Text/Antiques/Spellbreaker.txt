@@ -1,0 +1,42 @@
+Spellbreaker
+
+This description is a work in progress and is not yet complete.
+
+x
+
+Requirements
+
+Class: Paladin 10 or Blackguard 10 or Ranger 11
+Feats: Greater Spell Penetration, Turn Undead
+Skills: Lore 4, Spellcraft 4.
+
+Class Features
+
+HD: d10
+BAB: Medium
+High Saves: Fort, Will
+Weapon and Armor proficiency: None
+
+Class Skills: Craft Armor, Craft Weapon, Heal, Listen, Lore, Search, Spellcraft, and Spot.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Spell Turning, Slashing Dispel, Blood of the Spelltorn
+Level 2: Steadfast Determination
+Level 3: Devour Magic
+Level 4: Assay Resistance
+Level 5: Reaving Dispel
+Level 6: Lesser Breach Defenses
+Level 7: Chain Dispel
+Level 8: Greater Breach Defenses
+Level 9: Disjunction
+Level 10: Reciprocal Gyre
+
+Spell Turning: At 1st level a spellbreaker can become immune to level 0 spells by expending a use of turn undead (duration is 2 rounds per class level). At each additional spellbreaker level this increases by 1 until the character is immune to level 9 spells at 10th level. At each spellbreaker level the character has a 10% chance of spell failure with all spells until they are completely (100%) unable to cast spells at 10th level. This penalty can not be removed in any way.
+
+Blood of the Spelltorn: The spellbreaker gains spell resistance equal to 14 + character level to ward off spells and spell like abilities. This is a passive abilities and is not fueled by turn undead uses.
+
+All abilities are powered by turn undead uses. Caster Level is equal to 3x the spellbreaker level. (This applies to Slashing Dispel, Devour Magic, Assay Resistance, Reaving Dispel, Lesser Breach Defenses, Chain Dispel, Greater Breach Defenses, Disjunction, and Reciprocal Gyre)
+
+Player's should take as many Extra Turning feats as possible.

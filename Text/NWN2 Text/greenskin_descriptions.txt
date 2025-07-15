@@ -1,0 +1,27 @@
+Goblins
+
+Goblins are the smallest of greenskins.  They stand only about four feet tall and weigh roughly 60 pounds.  Like all goblinoids, they have flat faces, broad noses, pointed ears, wide mouths, and sharp fangs.  Their arms hang down almost to their knees.  Goblin hides range in color from yellow to orange to red, and members of the same tribe usually share similar coloring.
+
+Like all greenskins, goblins are universally bullies.  They pick on smaller creatures whenever they can, and when faced with a superior force they turn tail and run.  Because of their smaller size, goblins prefer to strike from ambush, using every fighting trick they know to gain an edge.
+
+Goblins are short-lived.  Most meet a violent end long before they reach old age.  They are pressed into service as adults at just 10 years of age.  They rarely live to be older than 40, although some few lucky or wily individuals have been known to make it to 60 years of age.
+
+Living by their wits rather than their muscles, goblins favor the Rogue class.
+
+Hobgoblins
+
+Hobgoblins are much larger than their goblin kin, usually reaching 6 1/2 feet in height and weighing up to 275 pounds.  Their hairy hides come in dark shades ranging from reddish-brown to gray.  Their eyes are yellowish or dark brown, and their teeth are yellow and strong.
+
+Like all greenskins, goblins are universally bullies.  They pick on smaller creatures whenever they can, and when faced with a superior force they turn tail and run.  While tactically canny, hobgoblins usually prefer a direct approach, often driving weaker troops before them into any perceived danger.
+
+Goblins are short-lived.  Most meet a violent end long before they reach old age.  They are pressed into service as adults at just 10 years of age.  They rarely live to be older than 40, although some few lucky or wily individuals have been known to make it to 60 years of age.
+
+Hobgoblins depend on their physical impressiveness to cow both friend and foe, so they favor the Fighter class.
+
+Mountain Orcs
+
+A mountain orc is quite obviously a monstrous creature to most of the civilized folk of Faerûn.  Mountain orcs look vaguely like primitive humans but are a fair bit taller at seven or more feet in height; a rare few exceed eight feet in height.  They have stocky, powerful necks, and their bestial heads seem to sit directly on their massive shoulders.  Their eyes are always a deep shade of red, and their faces are dominated by porcine snouts and large tusks.  Mountain orcs often weave braids and tiny bones into their thick matted hair, which is usually black.  They are far from the cleanest race on Faerûn and delight in decorating their bodies with scars and warpaint.
+
+The mountain orcs are above all else warlike and destructive.  They firmly believe that one day they shall finally crush the civilized world and inherit the lands that are rightfully theirs.  Their previous defeats are not thought of as losses, but as preliminary assaults designed more to test the resources and resolve of their enemies.
+
+Mountain orcs have built their society around the concept that might makes right, and thus favor the Barbarian class.

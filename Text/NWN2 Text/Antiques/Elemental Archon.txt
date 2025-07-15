@@ -1,0 +1,59 @@
+Elemental Archon
+
+Elemental Archon
+
+The timeless conflict of element against element has engaged some individuals so deeply that they believe they are manifestations of their chosen element - the servants of poewrful, seemingly uncaring elemental forces who want to once and for all tip the balance in favor of their chosen element.
+
+Upon attaining this class, each elemental archon chooses one of the four elements (air, earth, fire, or water) and henceforth dedicates her life to proving that this element is the most important in the multiverse, and that all others are subservient to it.
+
+Requirements
+
+Alignment: Any neutral.
+Feats: Improved Turning.
+Skills: Lore 8.
+Spellcasting: 2nd level Divine or Arcane
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Fort, Will
+Weapon and Armor proficiency: None
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Diplomacy, Heal, Lore, Spellcraft, and Survival.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Mephit Underlings, Spellcasting Progression
+Level 2: Bonus Feat: Augment Summoning
+Level 3: Elemental Resilience 10
+Level 4: Elemental Affinity
+Level 5:
+Level 6: Elemental Resilience 20
+Level 7:
+Level 8:
+Level 9: Elemental Resilience 30
+Level 10: Elemental Transcendence
+
+Spellcasting: At 1st, 2nd, 4th, 5th, 7th, 8th, and 10th level you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in an arcane or divine spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one spellcasting class before becoming a elemental archon, you must decide which class to progress in.
+
+Mephit Underlings: At 1st level, an elemental archon can call a triad of mephits to act as her servitors. These toadying creatures may be used as guardians, messengers, or even battle companions. The mephits gain HD and special abilities based on the elemental archon's class level.
+
+All underlings gain Improved Evasion and Share Saving Throws (they have their master's saving throws if they are better than their own). The mephit underlings gain the following bonuses based on the elemental archon's level (non-cumulative).
+
+Level 3-5: +2 HD, +2 Natural AC, +1 Str
+
+Level 6-8: +4 HD, +4 Natural AC, +2 Str
+
+Level 9-10: +6 HD, +6 Natural AC, +3 Str
+
+Elemental Resilience: At 3rd level, an elemental archon gains resistance 10 against her chosen element. At 6th level, the resistance rises to 20. At 9th level, the archon gains resistance 30 against her associated energy type.
+
+Elemental Affinity: An elemental archon gains a +1 caster level bonus (same as Red Wizard power).
+
+Elemental Expertise: Elemental archons of 7th level or higher have achieved a sort of equilibrium with their element that gives them an edge in combat situations. They gain a +1 attack bonus and a +1 damage bonus of their chosen element with all attacks.
+
+Elemental Transcendence: Through ultimate dedication to her chosen element and long association with elementals and the Elemental Planes, the elemental archon transcends her mortal form and becomes an elemental creature. Though she retains a humanoid shape that resembles her former form, she has no discernible anatomy.
+
+She gains the special qualities and attacks of a Medium-sized elemental of her chosen element. The archon is immune to poison, sleep, paralysis, stunning, sneak attacks, and critical hits. The archon gains darkvision.

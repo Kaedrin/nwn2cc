@@ -1,0 +1,75 @@
+This was a pathfinder to NWN2 conversion I did a while back but never went any further with. It was based on the Antipaladin class:  http://paizo.com/pathfinderRPG/prd/advanced/coreClasses/paladin.html which has these spells http://paizo.com/pathfinderRPG/prd/advanced/advancedSpellLists.html
+
+I boiled it down to no spells and far fewer choices (as most of the choices/options suck).
+
+Alignment: Chaotic Evil.
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort, Will
+Weapon proficiency: Simple and Martial.
+Armor proficiency: All armor and shields (except tower shields).
+
+Class Skills: Bluff, Craft Armor, Craft Weapon, Heal, Hide, Intimidate, Lore, Move Silently, Parry, Spellcraft, Taunt, and Tumble
+Skill Points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Smite Good 1/day
+Level 2: Dark Blessing, Touch of Corruption
+Level 3: Aura of Cowardice, Plague Bringer, Cruelty
+Level 4: Smite Good 2/day, Turn Undead
+Level 5: Fiendish Boon
+Level 6: 
+Level 7: Smite Good 3/day
+Level 8: Aura of Despair, Unholy Resilience
+Level 9: 
+Level 10: Smite Good 4/day, Minor Spellcasting 1/day
+Level 11: Minor Spellcasting 2/day
+Level 12: Invisibility 1/day
+Level 13: Smite Good 5/day, Major Spellcasting 1/day
+Level 14: Major Spellcasting 2/day
+Level 15: Minor Spellcasting 3/day
+Level 16: Smite Good 6/day, Invisibility 2/day
+Level 17: Aura of Depravity
+Level 18: Major Spellcasting 3/day
+Level 19: Smite Good 7/day, Minor Spellcasting 4/day
+Level 20: Unholy Champion, Invisibility 3/day, Major Spellcasting 4/day
+Level 21:
+Level 22: Smite Good 8/day
+Level 23: Epic Bonus Feat
+Level 24:
+Level 25: Smite Good 9/day
+Level 26: Epic Bonus Feat
+Level 27:
+Level 28: Smite Good 10/day
+Level 29: Epic Bonus Feat
+Level 30: 
+
+Touch of Corruption: Beginning at 2nd level, a dark champion surrounds his hand with a fiendish flame, causing terrible wounds to open on those he touches. Each day he can use this ability a number of times equal to his dark champion level. As a touch attack, a dark champion can cause 1d6 points of damage for every two dark champion levels he possesses. Using this ability is a standard action that does not provoke attacks of opportunity.
+
+Aura of Cowardice: At 3rd level, a dark champion radiates a palpably daunting aura that causes all enemies within 10 feet to take a –4 penalty on saving throws against fear effects.
+
+Plague Bringer: At 3rd level, the powers of darkness make a dark champion a beacon of corruption and disease. A dark champion becomes immune to diseases. 
+
+Cruelty:  At 3rd level, a dark champion's touch of corruption causes the target to suffer from fatigue (-2 Str, -2 Dex). At 9th level the dark champion curses his target instead (–4 penalty on attack rolls, saves, and skill checks).
+
+Fiendish Boon (Sp): Upon reaching 5th level, a dark champion receives a boon from his dark patrons. 
+
+The bond allows the dark champion to enhance his weapon as a standard action by calling upon the aid of a fiendish spirit 24 hours. When called, the spirit causes the weapon to shed unholy light as a torch. At 5th level, this spirit grants the weapon a +1 enhancement bonus. For every three levels beyond 5th, the weapon gains another +1 enhancement bonus, to a maximum of +6 at 20th level. 
+
+These bonuses can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or they can be used to add any of the following weapon properties: anarchic, flaming, flaming burst, keen, speed, unholy, vicious, vorpal, and wounding. Adding these properties consumes an amount of bonus equal to the property's cost (see Table 15–9 in the Core Rulebook). These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. 
+
+Unholy Resilience: At 8th level, a dark champion gains a +4 enhance bonus to Strength and Charisma.
+
+Minor Spellcasting: At 10th level, the dark champion may use the greater magic weapon spell or the vampiric touch spell once per day. He gains an additional use at 11th, 15th, and 19th.
+
+Invisibility: At 12th level, the dark champion may become invisible once per day. He gains another use at 16th and 20th.
+
+Major Spellcasting: At 13th level, the dark champion may cast resounding blow or greater invisibility once per day (resounding blow adds 1d6 points of sonic damage to his weapon for 1 round per class level). He gains an additional use at 14th, 18th, and 20th.
+
+Aura of Depravity: At 17th level, an dark champion gains DR 5/cold iron. Each enemy within 10 feet takes a –4 penalty on saving throws against compulsion effects.
+
+Unholy Champion (Su): At 20th level, an dark champion becomes a conduit for the might of the dark powers. His DR increases to 10/cold iron. In addition, whenever he channels negative energy or uses touch of corruption to damage a creature, he deals the maximum possible amount.

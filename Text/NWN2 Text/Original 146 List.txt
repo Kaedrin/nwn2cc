@@ -1,0 +1,399 @@
+[color=#0000cc][size=16][b]NOTICE: These changes are possible and will be discussed with the staff. These in no way reflect what may end up on the server.[/b][/size][/color]
+
+[color=#339933][size=14][b]General items under review:[/b][/size][/color]
+[list]
+[*]Epic Curse changed to require 22 Hexblade levels when approved multiclassing/pure
+[*]Arcane Servant of Darkness updated with additional synergy
+[*]http://dalelandsbeyond.forumotion.com/t30671-epic-traps
+[*]AK/WoD oil stacking examined 
+[*]Non-evil PrC for Paladins/Knights (possibly based on Soldier of Light)
+[*]Breach changes - http://dalelandsbeyond.forumotion.com/t27483-breach-spell-list
+[*]FoM changes - http://dalelandsbeyond.forumotion.com/t27698-bigby-s-grasping
+[*]Evaluate Skill Mastery for level 9 NIs
+[*]Death attack exploit fix: http://dalelandsbeyond.forumotion.com/t30488-replace-death-attack-with-sneak-attack
+[*]Verify classes with SR can take epic feats.
+[*]New PrC: Arcane Fist (add Arcane progression to existing SF)
+[*]New Ranger Combat Style: Crossbow (Crossbow Sniper -> Rapid Reload -> Precision Shots (+2 AB) -> Epic Reload (+1 Attack at full BAB))
+[*]New PrC: Arbalest (Marksman with Heavy Crossbow)
+[*]New Ranger Combat Style: Combat Insight
+[*]New PrC: Hulking Hurler (throwing weapon master)
+[*]New PrC: Verdant Guardian (SS prc)
+[*]New PrC: Paragon Summoner
+[*]New PrC: Black Fist
+[*]New PrC: Golden Lion
+[/list]
+
+[color=#339933][size=14][b]Ranger changes:[/b][/size][/color]
+[list]
+[*]Hit Dice upgraded to d10
+[*]Bonus Feat gained at level 14
+[*]Improved Evasion gained at level 16
+[*]Bonus Feat gained at level 18
+[*]New Spell: Gravity Bow (Pathfinder)
+[*]New Spell: Abundant Ammunition (Pathfinder)
+[*]New Spell: Longstrider (Pathfinder's Linebreaker)
+[*]New Spell: (Greater) Animal Aspect (Pathfinder)
+[*]New Spell: Bloodhound (3.5's Scent)
+[*]New Spell: Chameleon Stride (Pathfinder)
+[*]New Spell: Strong Jaw (Pathfinder)
+[*]New Spell: Aspect of the Wolf (Pathfinder)
+[/list]
+
+Ranger spell descriptions can be found here: http://www.d20pfsrd.com/magic/spell-lists-and-domains/spell-lists---ranger
+
+Potential 1.46 Feats
+
+New Feat: Improved Chastise Spirits
+You have become skilled enough with Chastise Spirits to harm non-spirits with your energy burst.
+Prerequisites: Ghost Warrior
+Benefit: Your Chastise Spirits ability will deal damage to enemies that are not spirits (excluding constructs).
+
+New Feat: Improved Weaken Spirits
+You have become skilled enough with Weaken Spirits to harm non-spirits with your ability.
+Prerequisites: Improved Chastise Spirits
+Benefit: Your Weaken Spirits will affect affect enemies that are not spirits (excluding constructs).
+
+Spirit Champion
+Type of Feat: Spellcasting
+Prerequisites: Spirit Shaman level 9, 18 Wisdom
+Benefit: When you take levels in Divine Champion, you gain spirit shaman spellcasting progression at each odd level. This feat should be taken before your first level in divine champion. Using Divine Wrath will restore a use of your Spirit Form ability.
+
+New Feat: Shadowcaster
+Type of Feat: Spellcasting
+Prerequisite: Shadowdancer 9
+Benefit: You gain access to a small pool of shadow magic (six uses per day). You may cast Shield, Mage Armor, or Expeditious Retreat. Your caster level is twice your Shadowdancer level.
+
+New Feat: Epic Supremacy
+Type of Feat: Epic
+Prerequisite: Fighter 26, Weapon Supremacy, any Melee Weapon Mastery feat
+Benefit: You gain an additional attack while wielding a melee weapon. This bonus does not stack with the added attack from any Haste effect.
+Special: A fighter can select Epic Supremacy as one of his fighter bonus feats.
+Use: Automatic.
+
+* New Reserve Feat: Wind-Guided Arrows (requires Haze of Swirling Dust be memorized, grants +2 AB to ranged attacks).
+* New Spell: Haze of Swirling Dust (Ranger 3 only, 8rd duration, anyone in 20' burst area has 50% concealment, anyone in area takes 1d4 per 2 CL (max 5d4), Reflex save for half).
+
+New Feat: Blinding Distraction
+You use a handful of fine sand to throw in the face of your opponent, reducing their visibility.
+Prerequisites: Feint
+Benefit: Your opponent must make a Reflex save (DC equal to your total Bluff skill) or suffer a Spot penalty equal to half their total Spot skill for two rounds. They also suffer a -2 AB penalty regardless of their saving throw. This ability has a 30s cooldown.
+
+New Feat: Dazzling Combatant
+Your panache in battle coupled with your skill allows your improved reaction ability to last longer.
+Prerequisites: Improved Reaction, Swashbuckler Dodge
+Benefit: Your Improved Reaction ability now lasts 2 rounds for every level of Duelist as well as one additional round for each Dervish and Swashbuckler level you have.
+Note: This feat has no effect if you have levels in any class other than Swashbuckler, Dervish, and Duelist.
+
+New Feat: Arcane Bloodline
+Your bloodline has a history of strong arcane magic.
+Prerequisites: Summon Familiar
+Benefit: You activate Reserve feats as though the highest spell level available was 2 higher than normal (maximum spell level of 10).
+
+New Feat: Called Shot
+Type of Feat: General
+Your skill with ranged weapons lets you score hits others would miss due to an opponent's cover.
+Prerequisite: BAB +3, Point Blank Shot
+Benefit: Your target no longer benefits from concealment for two rounds. This ability is instant and has a five-round cooldown.
+Special: A fighter can select Called Shot as one of his fighter bonus feats.
+Use: Automatic.
+
+New Feat: Dirgesinger
+Your weave the oral history and traditions of your tribe into your bardic performances.
+Prerequisites: Rage 2/day, Bardsong 4/day
+Benefit: You add half your Barbarian levels (capped by your Bard level) to your Bard level to determine the effects of songs and inspirations you already know. This does not grant additional uses of bardsong or new songs.
+
+New Feat: Epic Rapid Reload
+Prerequisites: Rapid Reload, Ranger 20
+You gain an additional attack when using a crossbow. This extra attack does not stack with a Barbarian's Whirlwind Frenzy, Haste, or a Bladesinger's Song of Fury.
+
+New Ranger Combat Style: Combat Insight
+Combat Insight at 2nd, new feat adding spell caster and companion synergy with duelist at 6th, monk's wis to AC at 12th, and Int to Dmg at 21st (caps at +2 if non-Ranger levels are taken). An intelligent melee subversion of the Ranger trope. Wisdom still needed for spells, etc.
+
+Black Fist
+[spoiler]<b>Black Fist</b>
+
+(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)
+
+x
+
+Requirements:
+
+<b>Class:</b> Blackguard
+<b>Deity:</b>Bane
+<b>Special</b> Two of the following domains: Destruction, Evil, Law, Hatred, Tyranny
+<b>Spellcasting:</b> Level 2 cleric spells
+
+Class Features:
+
+- <b>Hit Die:</b> d10
+- <b>Base Attack Bonus:</b> High.
+- <b>High Saves:</b> Fort, Will.
+- <b>Weapon Proficiencies:</b> None.
+- <b>Armor Proficiencies:</b> None.
+- <b>Skill Points:</b> 2 + Int modifier.
+- <b>Class Skills:</b> Concentration, Craft Weapon, Craft Armor, Intimidate, Lore, Spellcraft, and Taunt.
+
+
+Class Abilities:
+
+Level 1: Spellcasting Progression, Favored of Bane, Turn Undead
+Level 2: 
+Level 3: 
+Level 4: 
+Level 5: Heavy Armor Optimization
+Level 6: 
+Level 7: 
+Level 8: 
+Level 9: Greater Heavy Armor Optimization
+Level 10: 
+
+- <b>Spellcasting:</b> At each level, a black fist gains new spells per day (and spells known, if applicable) as if she had also gained a level in her cleric casting class. A black fist also gains cleric spellcasting progression for each odd level of Blackguard they have. Black Fist levels are added to Blackguard levels for determining Blackguard caster level.
+
+- <b>Favored of Bane:</b> A Black Fist is the embodiment of the martial prowess and fear that Bane inspires in mortals. As such they give up their reliance on the Divine Power spell (gaining no benefit from the spell) and instead gain the ability to inflict great harm with their inflict spells. All Inflict spells gain a damage bonus equal to the number of levels in Black Fist as well as a 50% boost to their final damage. This boost stacks with the Empower spell metamagic.  This ability also works spells cast with the Blackguard spellbook. Black Fists also gain a +2 Strength bonus with the Righteous Might spell (making the Strength bonus +8 ). At 10th level, a Black Fist automatically maximizes all inflict spells (this bonus replaces the 50% boost from Favored of Bane but it does stack with Empower spell).
+
+Note: A Cleric 10/Blackguard 10/Black Fist 10 will have a 25 caster level with cleric spells (29 with practiced caster) and a 27 BAB. 
+
+[/spoiler]
+
+Hulking Hurler
+[spoiler]Throw
+
+x 
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort, Ref
+Weapon proficiency: Martial.
+Armor proficiency: None.
+
+Class Skills: Craft Weapon, Heal, Intimidate, Listen, Lore, Parry, Survival, Spot, Taunt, and Tumble
+
+Skill Points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Replenish Ammo
+Level 2: Improved Crit
+Level 3: Bonus Feat
+Level 4: Deadly Aim
+Level 5: Power Crit
+Level 6: Bonus Feat
+Level 7: Brutal Throw
+Level 8: Good Aim
+Level 9: Bonus Feat
+Level 10: Rapid Throw
+
+Imp Crit
+Deadly Aim (Power Attack for Thrown)
+Rapid Throw (+1 Attack)
+Brutal Throw (Str to AB)
+[/spoiler]
+
+Golden Lion
+[spoiler]<b>Golden Lion</b>
+
+(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)
+
+x
+
+Requirements:
+
+<b>Class:</b> Paladin
+<b>Deity:</b>Torm
+<b>Feats:</b> Divine Shield, Extra Turning
+<b>Special:</b> May not have levels in the Champion of the Silver Flame class.
+<b>Spellcasting:</b> Level 2 paladin spells
+
+Class Features:
+
+- <b>Hit Die:</b> d10
+- <b>Base Attack Bonus:</b> High.
+- <b>High Saves:</b> Fort, Will.
+- <b>Weapon Proficiencies:</b> None.
+- <b>Armor Proficiencies:</b> None.
+- <b>Skill Points:</b> 2 + Int modifier.
+- <b>Class Skills:</b> Concentration, Craft armor, Craft weapon, Diplomacy, Heal, Lore, Parry, Spellcraft, and Tumble.
+
+
+Class Abilities:
+
+Level 1: Spellcasting Progression, Turn Undead, Triadic Knight
+Level 2: Group Divine Shield
+Level 3: Extra Turning II
+Level 4: Heavy Armor Optimization
+Level 5: 
+Level 6: Group Divine Vigor
+Level 7: Extra Turning III
+Level 8: Greater Heavy Armor Optimization
+Level 9: 
+Level 10: Greater Sacred Purification
+
+- <b>Spellcasting:</b> At each level, a golden lion gains new spells per day (and spells known, if applicable) as if she had also gained a level in her paladin casting class.
+
+- <b>Triadic Knight:</b> A shining golden light in the darkness that stands against all evil is what it means to a Golden Lion, one of the champions of Torm dedicated to the Triad of Torm, Ilmater, and Tyr. Any divine feat that expends a use of Turn Undead gains a +1 round duration bonus. At 10th level this bonus becomes equal to your Wisdom modifier.
+
+- <b>Group Divine Shield:</b> The golden lion may spend one of his turn undead attempts to add half his Charisma bonus to the armor class (dodge AC) of all allies within 50' for a number of rounds equal to the Charisma bonus. This ability replaces the Divine Shield ability.
+
+- <b>Group Divine Vigor:</b> The golden lion may spend one of his turn undead attempts to grant a 33% movement speed buff as well as gain +2 temporary hit points per character level to all allies within 50'. These effects last a number of minutes equal to your Charisma bonus. This ability replaces the Divine Vigor ability.
+
+- <b>Greater Sacred Purification:</b> You can expend a turn undead attempt to create a pulse of divine energy. All living creatures within 60 feet of you heal an amount of damage equal to 9 times your Charisma bonus. All undead creatures in this area take damage equal to 9 times your Charisma bonus . A 22 Charisma (+6) heals and harms for 54 points. This ability has a 30 second cooldown and replaces the Sacred Purification ability.
+
+[/spoiler]
+
+Paragon Summoner
+[spoiler]Paragon Summoner
+Requirements: 10 Spellcraft, Augment Summoning
+BAB: Medium
+Saves: Will
+Skill Pts: 2
+HD: d6
+Levels: 5/5 Spellcasting progression
+L1: Your summons gain bonus hit points equal to twice their hit dice.
+L2: Your summons gain an enhance bonus on their weapons equal to your class level and an attack bonus [color=green](+1 at 1st, +2 at 3rd, and +3 at 5th).
+[/color]L3: Your summons gain a deflection and armor enhance bonus equal to your class level. [color=green](This does not stack with Warden abilities)
+[/color]L4: Your summons gain 2 points of regen (3 at level 5)
+L5: Your summons gain spell resistance equal to [color=green]12[/color] + your hit dice and 5 points of DR/- [/spoiler]
+
+Verdant Guardian
+[spoiler]Verdant Guardian
+
+x
+Requirements
+
+Skills: Lore 12.
+Feats: Spirit Form 1/day (9th level), Telthor Companion
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Fort, Will
+Weapon proficiency: None.
+Armor proficiency: None.
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Concentration, Diplomacy, Heal, Listen, Lore, Spellcraft, Spot, and Survival.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Spellcasting Progression, Telthor Companion
+Level 2: Faerie Fire (at will)
+Level 3:
+Level 4: Spirit Journey 1/day
+Level 5: Rejuvenate 1/day
+Level 6: Rejuvenate 2/day
+Level 7: Heartfire (at will), Rejuvenate 3/day
+Level 8: Spirit Journey 2/day
+Level 9:
+Level 10: Gift of the Feywild, Rejuvenate 4/day, Eagle's Majesty 1/day
+
+Spellcasting Progression: At each Feywild Warden level, the character gains new divine spells per day as if she had also gained a Spirit Shaman level.
+
+Faerie Fire and Heartfire have a caster level equal to your Spirit Shaman + Feywild Warden levels and a cooldown of 30s.
+
+Gift of the Feywild: Gain DR 5/Cold Iron. This stacks with other sources of DR/Cold Iron such as the Fey heritage line of feats and the Spirit Shaman's capstone ability.
+
+Rejuvenate is the mass heal spell.
+
+Telthor Companion levels continue to advance as a Feywild Warden (Spirit Shaman level + Feywild Warden level - 3 for the companion's HD).
+
+Eagle's Majesty is similar to Owl's Insight but for boosting Charisma. This is for deep Spirit Shamans (15+) and will scale based off total Spirit Shaman + Feywild Warden levels to prevent abuse. The likely growth rate is 1/2 your Spirit Shaman + Feywild Warden levels (capped at +12).
+
+(This is a Druid to SS conversion of the Planar Shepard, with Medium instead of High BAB)[/spoiler]
+
+[color=#00acc0][b][size=14]Changes for Rogues:[/size][/b][/color]
+
+HD from d6 to d8
+
+New Rogue Talents available:
+
+      Bleeding Wound I
+      Bleeding Wound II
+      Bleeding Wound III
+      Choking Bomb (Requires Poison Bomb)
+      Smoke Bomb
+      Poison Bomb (Requires Smoke Bomb)
+      Blinding Bomb (10+) (Requires Choking Bomb)
+      Hide in Plain Sight (10+)
+      Minor Magic (Darkness) (3/day Darkness spell)
+      Major Magic (Expeditious Retreat) (2/day Expeditious Retreat spell, requires Minor Magic)
+
+Bonus Feats
+Level 2 Use Poison
+Level 4 Stealthy
+Level 8 Skill Affinity (Move Silently)
+Level 12 Skill Affinity (Hide)
+Level 16 Greater Skill Affinity (Move Silently)
+Level 20 Swift and Silent
+
+Bomb descriptions can be found here: http://www.d20pfsrd.com/classes/alternate-classes/ninja
+
+[color=#399933][size=14][b]Possible Barbarian Changes[/b][/size][/color]
+2: Extend Rage I
+4: Extra Rage I
+6: Renewed Vigor (Heal at the beginning at rage)
+8: Regenerative Vigor (1 pt fast healing per 6 barbarian levels)
+10: Extend Rage II
+12 Fearless Rage
+14: Elemental Rage (choose element) +1d6 dmg
+16: Scent
+18: Primal Scent (+ 1/2 Barb level to Spot, Listen, and Survival)
+20: Crippling Blow
+22: Superstition (+2 Saves vs Spells, +1 for every 4 barbarian levels)
+24: Renewed Vitality (ignore negative levels and ability damage)
+26: Increased DR (+1 DR)
+28: Increased DR (+1 DR)
+30: Increased DR (+1 DR)
+http://dalelandsbeyond.forumotion.com/t30772p15-barbarian-suggestions
+
+[color=#399933][size=14][b]Possible new feats from Pathfinder[/b][/size][/color]
+
+[spoiler]
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/necromancers-of-the-northwest/general-feats---3rd-party---necromancers-of-the-northwest/master-conjurer
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/arcane-insight
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/dance-of-the-dead
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/dark-fog-shot
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/dead-shot
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/dance-of-death-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/dance-of-ruin-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/immobilizing-shot-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/surprise-shot-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/master-poisoner
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/sean-k-reynolds-games/combat-feats---3rd-party---sean-k-reynolds-games/monster-hunter-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rogue-genius-games/combat-feats/arcane-shield-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/power-shot
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/shadowdancer-s-companion
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/shadowdancer-s-familiar
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/silencing-shot
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/kobold-press/general-feats---3rd-party---kobold-press/dispel-mastery
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/kobold-press/general-feats---3rd-party---kobold-press/elemental-boost
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/kobold-press/general-feats---3rd-party---kobold-press/improved-caster-level
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/kobold-press/general-feats---3rd-party---kobold-press/touch-mastery
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/adamant-entertainment/general-feats/additional-combat-style
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/adamant-entertainment/epic-feats---3rd-party---adamant-entertainment/epic-combat-style-epic
+
+[/spoiler]

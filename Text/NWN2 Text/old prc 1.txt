@@ -1,0 +1,134 @@
+[color=green]Text in green indicates it was changed from the other thread[/color] and is the final version I'll pitch to the staff if there is enough interest (on a per prc basis). This post is in two parts because the poll has a limit of 10 options. [color=blue]Text in blue indicates it has changed since it was posted here.
+[/color]
+Weave Master
+Requirements: [color=green]No RW levels, Combat Casting[/color]
+BAB: Low [color=green](BAB lost here WILL affect the divine power cap making it 27 at 5/5 Weave Master)
+[/color]Saves: Will
+Skill Pts: 2
+HD: d4
+Levels: 5
+L1 ability: Evocation Specialist ([color=green]Evocations gain +dmg equal to class level plus spell level[/color])
+L3 ability: Illusion Specialist (Illusions gain +1 DC per class level)
+[color=green]L4 ability: Enchantment Specialist (Enchantments gain +2 DC)
+[/color]L5 ability: Shape Magic (spells no longer affect non-hostiles)
+5/5 spellcasting progression in any class
+
+
+Spellblade
+Requirements: [color=green]No EK or Swiftblade levels[/color], [color=green]Martial/Bard/Elf[/color] weapon prof
+BAB: High
+Saves: Fort, Will
+Skill Pts: 2
+HD: d8
+Levels: 5
+[color=green]-5% ASF at levels 1, 3, 5
+3/5 spellcasting progression in any arcane/invocation class (at 1,2, and 4)
+[/color]
+
+
+Chaotic Wilder
+Requirements: 10 Spellcraft
+BAB: Low
+Saves: Fort, Will
+Skill Pts: 4
+HD: d8
+Levels: 5
+No spellcasting progression, adds 5% [color=green]spell failure[/color] per class level
+Class abilities ignore spell resistance, have a 50% chance to ignore damage resistance, [color=green]a 5% chance to deal 3x the damage[/color], and a save vs [color=green](d6 + d4)[/color] * Class level DC for half dmg.
+L1 Ability: Touch of Chaos - melee touch attack deals [color=green](4*class level)d6[/color] of a random element (fire, elec, acid, cold, positive, negative, divine, slashing, blunt, piercing).
+L2 Ability: Lash of Chaos - ranged touch attack that deals [color=green](2*class level)d6[/color] of a random element (see Touch)
+L3 Ability: Breath of Chaos - 60' cone blast that deals [color=green](4*class level)d4[/color] of a random element (see Touch)
+L4 Ability: Howl of Chaos - PBAE that deals [color=green](3*class level)d4[/color] of a random element (see Touch)
+L5 Ability: Burst of Chaos - Ranged sphere that deals [color=green](3*class level)d4[/color] of a random element
+
+
+Battle Mage
+Requirements: 10 Spellcraft
+BAB: [color=green]Low[/color]
+Saves: [color=green]Fort, Will
+[/color]Skill Pts: 2
+HD: [color=green]d6[/color]
+Levels: 5
+5/5 Arcane/Invocation progression
+ASF penalty doubled
+[color=green]Shield spell provides +1 AC at levels 1, 3, 5[/color]
+May cast magic missile at will (d3 missiles per class level)
+
+
+Master Healer
+Requirements: 10 Healing
+BAB: Medium [color=#008000](BAB lost here WILL affect the divine power cap making it 28 at 5/5 Master Healer)[/color]
+Saves: Will
+Skill Pts: 4
+HD: d6
+Levels: 5
+No spellcasting progression
+Gains regen equal to class level [color=green](does not stack with Vigor spells)
+[/color]Choice: Cure spells gain a bonus equal to 3x class level and Regen spells gain +1 at each odd class level OR +Healing Skill equal to 2x class level
+
+
+[color=green]Warden[/color] (previously Wilderness Summoner)
+Requirements: 10 Survival
+BAB: Medium
+Saves: Will
+Skill Pts: 6
+HD: [color=green]d6
+[/color]Levels: 5
+5/5 Druid *and* Ranger spell progression
+[color=green]Animal Companion progression
+[/color]Your summon spells gain an enhance bonus to weapons, armor, and deflection equal to your class level
+[color=green]Your companion gains an armor and deflection bonus (+1 at 1st, +2 at 3rd, and +3 at 5th).[/color]
+No wildshape progression.
+
+Paragon Summoner
+Requirements: 10 Spellcraft, Augment Summoning
+BAB: Medium
+Saves: Will
+Skill Pts: 2
+HD: d6
+Levels: 5/5 Spellcasting progression
+L1: Your summons gain bonus hit points equal to twice their hit dice.
+L2: Your summons gain an enhance bonus on their weapons equal to your class level and an attack bonus [color=green](+1 at 1st, +2 at 3rd, and +3 at 5th).
+[/color]L3: Your summons gain a deflection and armor enhance bonus equal to your class level. [color=green](This does not stack with Warden abilities)
+[/color]L4: Your summons gain 2 points of regen (3 at level 5)
+L5: Your summons gain spell resistance equal to [color=green]12[/color] + your hit dice and 5 points of DR/- 
+
+
+Battle Archer
+Requirements: Point Blank Shot, Weapon Focus (Ranged Weapon)
+BAB: Medium
+Saves: Fort
+Skill Pts: 2
+HD: d8
+L1: +1 Mighty [color=green](stacks with the bow's existing bonus)
+[/color]L2: [color=green]+2d6 Sneak
+[/color]L3: +2 Mighty [color=green](stacks with the bow's existing bonus)[/color]
+L4: Weapon Mastery (Ranged)
+L5: Keen, [color=green]+3 Mighty[/color] [color=#008000](stacks with the bow's existing bonus)[/color]
+
+
+Battle Herald
+Requirements: Combat Expertise, Mobility, Background (Natural Leader), [color=green]May not have Marshal levels
+[/color]BAB: High
+Saves: All
+Skill Pts: [color=green]4
+[/color]HD: d8
+L1: Inspire Troops (Stand Fast) +2 Fort, [color=green]+2 Ref
+[/color]L2: Inspire Troops (Shake It Off) +2 Will
+L3: Inspire Troops (None Shall Fall) +1 Regen
+L4: Inspire Troops (Hold the Line) DR 5/-
+L5: Inspire Troops (Rally Squad) +2 AB
+Inspire Troops improves with each level gaining the new bonus. Will not stack with inspirations.
+
+
+Mage Hunter
+Requirements: 8 Survival, 5 Spellcraft
+BAB: High
+Saves: Fort, Will
+Skill Pts: 4
+HD: d8
+L1: Tracking, Skill Focus (Survival)
+L2: +2 all saves
+L3: Anti-Concentration aura (same as Dissonant Chord)
+L4: Scent, Swift Tracking
+L5: Spell Resistance of 12 + Character Level

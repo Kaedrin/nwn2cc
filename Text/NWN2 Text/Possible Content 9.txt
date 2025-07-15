@@ -1,0 +1,38 @@
+Death Attack exploit fixes [spoiler] My suggestion is to remove all Death Attack dice from classes/characters and replace it with normal sneak attack dice. Then grant the appropriate classes a new feat called Death Attack that behaves as follows:
+
+If the target is vulnerable to a sneak attack, you may make an attempt to incapacitate the enemy. If the victim of death attack fails a Fortitude save (DC 10 + the assassin’s class level + the assassin’s Int modifier), the victim is rendered helpless and unable to act for 1d6 rounds plus 1 round per level of the assassin. This is an instant ability with a 30s cooldown. Immunity to paralysis will block this ability.
+
+Assassin, Avenger, and Black Flame Zealot will correctly stack with this new ability. This fix will only be applied to characters that have Epic Precision and/or Manyshot. This will allow those not using/abusing the engine flaws/exploits to continue getting the full benefit of the existing Death Attack. [/spoiler]
+
+Daring Outlaw style feat changes
+
+[spoiler]
+Currently
+
+Daring Outlaw turns Swashbuckler levels into Rogue levels (up to the Daring Outlaw cap).
+Swift Ambusher turns Scout levels into Rogue levels.
+Swift Hunter turns Ranger levels into Scout levels.
+
+So..
+
+For every 2 levels of swashbuckler you get 1d6 sneak from Daring Outlaw.
+For every 2 levels of Scout you get 1d6 sneak from Swift Ambusher.
+For every 4 levels of Ranger you get 1d6 sneak from Swift Hunter.
+
+***
+
+After the fix it will be:
+
+Swift Ambusher provides +1d6 for every 4 levels of scout, to a maximum of +2d6 at 8th level.
+Swift Hunter provides +1d6 for every 4 levels of Ranger, to a maximum of +2d6 at 8th level.
+Daring Outlaw provides +1d6 for every 4 levels of Swashbuckler, to a maximum of +2d6 at 8th level.
+
+A 30 Scout would burn one feat and have 10d6 sneak. That is only 2d6 more than a 30 Scout without.
+A Scout 14/Ranger8/Swash8 would burn 3 feats and have 10d6 sneak. That is only 2d6 more than a 30 Scout.
+A Scout 22/Ranger 8 would burn 2 feats and have 10d6 sneak. That is only 2d6 more than a 30 Scout.
+A Swash8/Scout14/DL8 would burn 2 feats and have 12d6 sneak. That is only 2d6 more than a 22 Scout/8 DL.
+
+So essentially it turns those feats into a non-epic "Improved Sneak Attack" that actually requires an investment in the other classes. A pure scout would get slightly more benefit from a single feat as would multi-classed scouts that do NOT take any other classes that provide sneak attack.
+
+Any excess sneak attack from existing characters will be correctly removed. No more Rangers with 15d6 Sneak.
+[/spoiler]

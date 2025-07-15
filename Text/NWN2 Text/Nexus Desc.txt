@@ -1,0 +1,63 @@
+The following is a list of currently supported Persistent Worlds that have permission to use my content. These servers will continue to get the new versions.
+
+Ashaba - http://www.ashaba.webd.pl
+Dalelands Beyond - http://dalelandsbeyond.forumotion.com/
+Dragonlance - http://nwn2dragonlance.faerunonline.com/phpbb3/index.php
+Faerun Nights - http://www.faerunnights.it/
+Fanelya - http://fanelya.fr/index.php
+Legends of Arcadia - http://loa.nwn2worlds.com/
+Rigilia - http://rigilia.com/forum/
+Rivin - http://www.rivin.de
+Shadow of Iniquity - http://www.shadowofiniquity.com
+Shards of Vael - http://www.sovael.org
+Upcoming Italian PW - http://faerunplusplus.forumfree.it/
+
+The following PWs have a previous version of my content but do not plan to update to future versions or have not communicated with me recently.
+
+Aeris - http://neverwinter2.gram.pl/forum/
+Eye of the World - http://www.bonzoli.com/drupal
+Myth Drannor: The Second Age - http://mythdrannor2.com/forum/index.php
+Realms of Trinity - http://www.realmsoftrinity.com/
+Tales of Amn - http://talesofamn.myfreeforum.org/
+
+**
+
+Changes for the New Year
+
+I will no longer be releasing my content pack to the public or for single player use. Baldur's Gate has now taken some of my 100% custom content that was not based on pen and paper and added it despite me asking them not to. I'm deeply disturbed by their staff's continued actions and frankly with some of the player base of that server that is also on other servers with my content that has no trouble with their actions.
+
+This change means that new content will not be available on the nwn2 builder site or on my personal site or released to the public (nwvault, nwn nexus).
+
+A few of the incidents can be read about at these links: [url]http://nwn2db.freeforums.org/baldur-s-gate-tales-of-the-sword-coast-t20-20.html[/url] , [url]http://www.bgtscc1.com/forum/viewtopic.php?f=10&t=29075&start=45[/url] , and [url]http://nwn2customcontent.forumotion.com/t367-changes-for-the-new-year#1471[/url]
+
+These are quotes from Rasael, the developer on BG responsible for this:
+
+    [b]We certainly don't intend to copy your designs, not soley because you don't want us to but also because it simply wouldn't work for our hobby here.
+
+    Your designs are meant for generic settings with a higher base powerlevel. Our designs are meant for a low power environment in the Sword Coast region of Faerun. Those two don't match, meaning that inspiration is the most a design proposal from your pack can ever be.
+
+    If you really don't want it to happen put a big notice about that on the design page that others may not reproduce (e.a. copy) it and don't make it publically available.[/b]
+
+This is a summation of what I tried to tell Luna in the BG thread linked above:
+
+[b]    I left the server in the past with no ill will to the server, just a disagreement with how things were done. I'm 100% ok with the server changing anything/everything that is in the 1.41.4 update. I do NOT want anything after 1.41.4 to be used by the server. It's that simple.[/b]
+
+and Luna's (the server admin) response:
+
+[b]    I'm not going to enforce this. Neither will TheVoid or Maecius.
+
+    v1.42.1 is publicly posted on nwn2 vault.
+
+    If any player or developer wants to look at, talk about, or use the content of that version, I don't see any reason to stop them. Your work is sitting out there in the public domain for public usage.[/b]
+
+Yet Rasael recently stated the following in response to an announcement that I'll be stopping public work:
+
+[b]    Secondly, Baldurs Gate has never made use of any idea not publicized on the internet by its author without his permission.[/b]
+
+Then on December 31st they posted a server update ( [url]http://www.bgtscc1.com/forum/viewtopic.php?f=7&t=9194&p=390884#p390884[/url] ) that includes 7 of my 100% custom, not based on pnp in any way, feats.
+
+So the only way for me to actually stop them from continuing to take content against my permission is to stop doing public content. That means single players and the NWN2DB builder will no longer be getting my updates.
+
+It's been a long, eventful five and a half years and I'd like to thank the community for their support on this project while it lasted. It's been a great experience. You can find the latest descriptions of my content at [url]http://nwn2db.com[/url] in the Library after selecting Kaedrin's Class Pack as the game version.
+
+You can always contact me at [email]kaedrin.nwn2@gmail.com[/email]

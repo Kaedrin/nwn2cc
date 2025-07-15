@@ -1,0 +1,30 @@
+These are the rules I finally sketched out for save stacking.
+
+[list]
+[*]Shades and Protection from Spells will now remove the Conviction save bonus
+[*]Shades and Protection from Spells will now remove the Superior Resistance save bonus
+[*]Shades and Protection from Spells will now remove the Greater Resistance save bonus
+[*]Shades, Greater Heroism, Heroism, and Protection from Spells will now remove the Resistance save bonus
+[*]Shades, Greater Heroism, Conviction, Superior Resistance, and Protection from Spells will now remove the Nightshield save bonus
+[*]Shades, Protection from Spells, Conviction, Superior Resistance, Greater Heroism, Greater Resistance, and Nightshield will now remove the Heroism save bonus
+[*]Shades, Protection from Spells, Conviction, and Superior Resistance will now remove the Greater Heroism save bonus
+[*]Protection from Spells will fail if Shades is active
+[*]Superior Resistance will fail if Shades or Protection from Spells is active
+[*]Conviction will fail if Shades, Protection from Spells, or Superior Resistance is active
+[*]Greater Resistance will fail if Greater Heroism, Conviction, Superior Resistance, Protection from Spells, or Shades is active.
+[*]Nightshield (save bonus) will fail if Greater Resistance, Greater Heroism, Conviction, Superior Resistance, Protection from Spells, or Shades is active.
+[*]Heroism (save bonus) will fail if Nightshield, Greater Resistance, Greater Heroism, Conviction, Superior Resistance, Protection from Spells, or Shades is active.
+[*]Greater Heroism (save bonus) will fail if Conviction, Superior Resistance, Protection from Spells, or Shades is active.
+[*]Resistance will fail if Heroism, Nightshield, Greater Resistance, Greater Heroism, Conviction, Superior Resistance, Protection from Spells, or Shades is active.
+[*]Heroism now applies it's save bonus as a separate spell id
+[*]Greater Heroism now applies it's save bonus as a separate spell id
+[*]Nightshield now applies it's save bonus as a separate spell id
+[*]Nightshield only applies the magic missile immunity if the target has Superior Resistance, Greater Heroism, Heroism, or Conviction.
+[*]Shades now removes Protection from Spells
+[/list]
+
+These go along with what I already have: Conviction, Superior Resistance, and Greater Resistance will no longer stack with each other. Only the best spell works.
+
+That gets everything working like it should (though the protection from spells/shades should probably stack with everything else) spell wise.
+
+Comments?

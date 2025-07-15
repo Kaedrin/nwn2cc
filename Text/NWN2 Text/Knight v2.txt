@@ -1,0 +1,133 @@
+This is the cleaned up version I sketched out a while back:
+
+[spoiler="Knight"]
+Knight
+
+A knight is a proud, skilled melee combatant who fights in the name of honor and chivalry. A knight relies on more than a sharp sword and a stout suit of armor to defeat her foes. Her drive, determination, and fighting spirit allow her to control the battlefield in ways that others cannot match. A knight can challenge an opponent to a duel, calling upon the foe's pride and ego to force his hand. The knight's talent with heavy armor, shields, and defensive tactics grant her the ability to disrupt her foe's plans. 
+
+Only the most talented rogues and monks can slip past a knight's defenses to strike at her allies. An adventuring group with wizards, sorcerers, and other lightly armored members thrives with the assistance of a knight. While the knight keeps enemies occupied, her allies can use their talents and abilities without fear of attack or harassment.
+
+Alignment: Any Lawful.
+
+Class Features
+
+HD: d12
+BAB: High
+High Saves: Fort, Will
+Weapon proficiency: Simple and Martial.
+Armor proficiency: All armor and shields (excluding tower shields).
+
+Class Skills: Appraise, Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Listen, Lore, Parry, Spot, Taunt, and Tumble
+Skill Points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Knight's Challenge, Battle Fervor +1, Demoralize Opponent
+Level 2: Bonus Feat, Shield Block +1
+Level 3: Exotic Weapon Proficiency
+Level 4: Heavy Armor Optimization
+Level 5: Deflect Arrows, Bonus Feat
+Level 6: Rescue
+Level 7: Battle Fervor +2
+Level 8: Call to Battle
+Level 9: Greater Heavy Armor Optimization
+Level 10: Bonus Feat
+Level 11: Shield Block +2
+Level 12: Daunting Challenge
+Level 13: Battle Fervor +3
+Level 14: Improved Rescue
+Level 15: Bonus Feat
+Level 16: Indomitable Soul
+Level 17: Epic Resilience
+Level 18:
+Level 19: Battle Fervor +4
+Level 20: Bonus Feat, Shield Block +3
+Level 21:
+Level 22:
+Level 23: Epic Bonus Feat
+Level 24:
+Level 25: Battle Fervor +5, Epic Deflection, Bonus Feat
+Level 26: Epic Bonus Feat
+Level 27:
+Level 28:
+Level 29: Shield Block +4, Epic Bonus Feat
+Level 30: Battle Fervor +6, Epic Bonus Feat
+
+Knight's Challenge: Your dauntless fighting spirit plays a major role in your fighting style, as important as the strength of your arm or the sharpness of your blade. in battle, you use the force of your personality to challenge your enemies. You can call out foes or issue a general challenge that strikes fear into weak opponents. By playing on your enemies' ego, you can manipulate your foes.
+
+You can use this ability a number of times per day equal to your class level. As you gain levels, you gain a number of options that consume uses of this ability.
+
+***
+
+Battle Fervor: As an instant action, you can issue a challenge to your enemies, gaining a +1 bonus on Will saves, attack rolls, and damage rolls. The effect lasts for a number of rounds equal to 5 + your Constitution bonus (if any). This expends one use of your Knight's Challenge ability. This bonus does not stack with a bard's Inspire Courage.
+
+At 7th level, the bonus you gain from this ability increases to +2. At 13th level, it rises to +3. At 19th level, it increases to +4. At 25th level, it increases to +5. At 30th level, it increases to +6.
+
+***
+
+Call to Battle: Starting at 8th level, you become an inspiring figure on the battlefield. When all seems lost, you are a beacon of hope who continues to fight on despite the odds. No cause is yet lost when a knight still battles on in its name. You become immune to fear.
+
+As an instant action, you can expend one use of your Knight's Challenge ability to grant an ally a bonus against fear effects equal to your Constitution modifier as well as a number of temporary hit points equal to your knight level. If the ally's current hit point total is less than half his normal hit points, the number of temporary hit points granted to that character is doubled. The temporary hit points last for up to 1 minute per knight level. This ability does not stack with Adrenaline Boost.
+
+***
+
+Starting at 12th level, a knight can issue a daunting challenge as an instant action. Like a test of mettle, this is a general challenge to all foes within 100 feet. Affected creatures must make a Will save (DC 10 + knight level + the knight's Constitution modifier). Creatures that fail this save are shaken. A shaken character takes a –2 penalty on attack rolls, ability checks, and saving throws.
+
+***
+
+Shield Block: Starting at 2nd level, you excel in using your armor and shield to frustrate your enemy's attacks. You gain DR/- equal to your base shield AC plus your Shield Block value (+1 at level 2), your Shield enhance value, and the bonus from any Shield Specialization feats.
+
+This shield bonus increases to +2 at 11th level, +3 at 20th level, and +4 at 29th level.
+
+For example: A level 20 Knight (+3 Shield Block) using a heavy shield +4 who has the Greater Shield Specialization feat has DR 11/- against physical attacks.
+
+***
+
+Rescue: Blocks 50% of damage dealt to allies, the knight takes the other half.
+
+***
+
+Improved Rescue: Blocks 100% of damage dealt to allies, knight takes 80% of that damage.
+
+***
+
+Possible New Feats:
+[list]
+[*]Martial Study: Crusader's Strike (You gain +1 Vampiric damage)
+[*]Martial Stance: Martial Spirit (You gain +2 Vampiric damage)
+[*]Intimidating Presence (You gain a bonus to Intimidate checks equal to your Con bonus)
+[*]Agile Shield Fighter (Requires Shield Bash, Shield Spec. Provides +1d6 blunt damage on attacks)
+[*]Shield Ward (- all Shield AC, +Deflection AC, stacks with other item based deflection AC, also provides Knockdown immunity)
+[*]Hero's Call (Call to Battle temp HP always doubled, tripled if the target is below 50%; Battle Fervor provides 2 pts of Regen)
+[*]Inspiring Presence (your Battle Fervor and Call to Battle now affects allies within 30')
+[*]Battlefield Charge (your Call to Battle now grants Haste for the duration)
+[*]Improved Fervor (your Battle Fervor bonus increases by +1)
+[*]Epic Improved Fervor (your Battle Fervor bonus increases by +2, this replaces Improved Fervor)
+[*]Extra Knight's Challenge I-III (+3 uses each)
+[*]Lasting Challenge I-III (+5 rounds to the duration per feat), Affects all feats that expend a challenge
+[*]Shield Bash (Damaging knockdown attempt, deals d6 + Enhance bonus + Str mod blunt melee touch attack, one attempt per BAB granted attack until one succeeds, 6s knockdown)
+[*]Shield Specialization (+1 Shield AC, stacks, requires Knight 2)
+[*]Greater Shield Specialization (+2 Shield AC, stacks, replaces Shield Spec, requires Knight 11)
+[*]Epic Shield Specialization (+3 Shield AC, stacks, replaces Greater Shield Spec, requires Knight 20)
+[*]Heroic Deflection (Parrying Shield grants 5% concealment vs Ranged per point of shield AC, 50% max)
+[*]Shieldmate (allies within 30' gain +1 shield AC, +2 if using a tower shield, expends a challenge use, lasts 10+Cha rounds)
+[*]Improved Shieldmate (+1 Shieldmate bonus, grants Evasion)
+[*]Epic Shieldmate (+2 Shieldmate bonus, replaces Improved, also grants Reflex save bonus equal to AC bonus)
+[*]Rejuvenating Call (expends a challenge use to heal allies within 30' - value equal to knight level plus Con mod, double that if they are below 50% and you have the Hero's Call feat )
+[*]Tower Shield Mastery (you gain a +2 AB bonus when using a tower shield and your Heroic Deflection ability adds 10%, capping at 60% instead of 50%)
+[/list]
+
+Stage II (post release)
+[list]
+[*]Epic Shield Block I (Adds 3 points to your damage reduction granted by Shield Block)
+[*]Epic Shield Block II (Adds 6 points to your damage reduction granted by Shield Block, replaces Epic Shield Block I)
+[*]Spell Ward (gain SR 5 + character level + total shield AC, expends a challenge use, lasts 10+Con rounds)
+[*]Dreadful Wrath
+[/list]
+[/spoiler]
+
+My original Knight write-up had Mocking Blow which I may still do, but it depends on how the AI reacts to it. I'm not sure it's a good idea letting players have access to an ability that will force NPCs to attack them (even limiting it to hostiles only).
+
+[spoiler="Mocking Blow"]
+- <b>Mocking Challenge:</b> Starting at 4th level, you can shout a challenge to all enemies, calling out for them to face you in combat. As a swift action, you can expend one use of your Knight's Challenge ability to cause all your enemies (except for players) within 100' to make Will saves (DC 10 + 1/2 your Knight level + your Con modifier). Creatures that fail this save are forced to attack you.
+[/spoiler]

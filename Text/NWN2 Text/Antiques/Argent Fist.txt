@@ -1,0 +1,54 @@
+Argent Fist
+
+Argent Fist
+
+This description is a work in progress and is not yet complete.
+
+foe
+x
+
+Requirements
+
+Alignment: Lawful Good
+Base Attack Bonus: +5
+Feats: Evasion, Improved Unarmed Strike, Smite Evil, Turn Undead
+Skills: Lore 4.
+
+Class Features
+
+HD: d10
+BAB: Medium
+High Saves: Fort, Will
+Weapon and Armor proficiency: None
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Diplomacy, Heal, Listen, Lore, Parry, Spot, and Tumble.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Ascetic Knight, Ki Focus, Stunning Smite
+Level 2: Holy Armor
+Level 3: Balm of the Silver Flame
+Level 4: Smite Evil +1/day
+Level 5: Wrath of the Silver Flame
+Level 6:
+Level 7:
+Level 8: Mettle
+Level 9: Smite Evil +2/day
+Level 10: Embrace of the Silver Flame
+
+Ascetic Knight: Your paladin, monk, and argent fist levels stack for the purpose of determining your unarmed strike damage. Your paladin, monk, and argent fist levels also stack when determining the extra damage dealt by your smite evil ability. You continue to gain paladin spellcasting progression for each argent fist level.
+
+Ki Focus: When wielding any special monk weapon, you can deliver any of your special monk attacks through the weapon (such as stunning fist, quavering palm).
+
+Stunning Smite: You can choose to deliver a smite that also expends a use of stunning fist which adds your argent fist level to the DC of the stunning attack.
+
+Holy Armor: Beginning at 2nd level, you retain the AC bonus granted by your monk levels (including Wisdom bonus to AC), even when wearing armor or carrying a shield.
+
+Balm of the Silver Flame: Beginning at 3rd level, you can spend one of your daily turn undead attempts to enhance your healing power. Until the end of your turn, any spell or supernatural ability you use that heals hit point damage restores double the normal amount of hit points.
+
+Wrath of the Silver Flame: Starting at 5th level, you can spend one of your daily turn undead attempts to cause your fists (or any monk weapons you hold) to erupt with silver flames. The silver flames add 2d6 points of divine damage to any lycanthrope, undead, or evil outsider you strike. Once activated, the silver flame burns for a number of rounds equal to 5 + your Charisma bonus (if any).
+
+Mettle: The blessing of the Silver Flame allows you to shrug off effects that would otherwise harm you. Beginning at 8th level, if you make a successful Will or Fortitude save that would normally reduce a spell's effect, you suffer no effects from the spell at all. Only those spells with a "Will partial," "Fortitude half," or similar Saving Throw entry can be negated through this ability.
+
+Embrace of the Silver Flame: At 10th level, you gain the ability to manifest a tiny ember of the Silver Flame. By spending one of your daily turn undead attempts, you become engulfed in an aura of argent fire that sheds no heat. This lasts for a number of rounds equal to 5 + your Charisma bonus (if any) and grants several benefits. You gain Regeneration equal to your Wisdom bonus (minimum 1) as well as the Death's Ruin feat (allowing you to sneak attack undead). Any lycanthrope, undead, or evil outsider within the 60-foot radius of the pure divine energy you radiate takes a -2 penalty to AC and also takes 2d6 points of damage each round.

@@ -1,0 +1,15 @@
+I've been working on a concept (and trying to get a tester running where I can play with it) where you build a town similar to what I mentioned in the "fix the underdark" thread. It was based on the pathfinder rules for kingdom downtime found here: http://paizo.com/pathfinderRPG/prd/ultimateCampaign/downtime/buildingsAndOrganizations.html
+
+Aka, start with: 
+
+[spoiler="Original"]
+[img]http://vnmedia.ign.com/nwvault.ign.com/fms/images/nwn2prefabareas/588/1290386843_fullres.jpg[/img]
+[/spoiler]
+
+and turn it into:
+
+[spoiler="Fresh Start"]
+[img]http://nwn2customcontent.wikidot.com/local--files/index/KaedBuildATown.jpg[/img]
+[/spoiler]
+
+Event system AI and players push all the choices through the mayor NPC. Votes for what happens next, random/dynamic stuff happens, etc. Do you want food or sexy silks? Weapons or wizard robes? You decide...Living world where they make an impact. Pipe dream, I know.

@@ -1,0 +1,65 @@
+1.45.1 is live.
+
+[list]
+[*]Vengeance Taker's Harm Touch no longer targets the caster. Oops. S&M Baby!
+[*]Hexblades now correctly stack curses per day with Vengeance Taker
+[*]Hexblades now correctly stack curses per day with Blackguards who have Arcane Servant of Darkness
+[*]Hexblades are now repaired for number of curses per day as well as number of spells per day. This happens once per login session when you rest.
+[*]Monks are now repaired for any missing feats. This happens once per login session when you rest.
+[*]Vengeance Taker and Blackguard now correctly stack for gaining Greater and Dire Hexblade's Curse
+[*]Channel Positive Energy now correctly uses the right spell entry
+[*]Unstoppable Ferocity now has a description
+[*]Reserve feats no longer have additional effects unless you have the Reserve Feat Enhancement ability
+[*]Fixed ammunition and thrown drops in fw_random_loot_core to not drop more than a single stack
+[*]Add EffectHeal to AnimalCompanion after it has been summoned to account for Toughness
+[*]Companion buffs turned off for elementals
+[*]Force Mage requirements fixed, class may now be taken again
+[*]Steal Shadow now works like other clone spells (who it can target, etc)
+[*]Steal Shadow now has a caster level equal to 2/3 your Hit Dice plus your Shadowdancer level
+[*]All clone spells now only work on hostile targets
+[*]All clone spells have a HD cap equal to half their caster level similar to pen and paper.
+[*]Wholeness of Body descriptions for 1-10 updated
+[*]Updated description for Ability Focus (Hexblade's Curse)
+[*]Updated description for Practiced Caster (Hexblade)
+[*]Update description for Spellcasting Prodigy
+[*]Monks now get missing feats when they Rest.
+[/list]
+
+
+1.45.2 is now live.
+
+[list]
+[*]Update Unarmed Combat Mastery description to remove text about activating the ability.
+[*]Update Channel Energy description to mention 20 levels of Turn Undead classes and the Turn Undead classes that increase the effect.
+[*]Mystic Reservist no longer requires the Empower spell feat in order to empower reserve feats.
+[*]Heroism and Greater Heroism no longer stack with Heroic Ki
+[*]Fixed (no, really!) Curse stacking for Hexblades
+[*]Changed timing in Hexblade curse scripts to allow engine time to process. Fixes curses timing out.
+[*]Hawk's Eye set to 2 for druids to preserve existing spontaneous casters. Blame the SS's. S.
+[*]Feat allowing Yuan-Ti on the server added back in.
+[*]Empower Harm Touch spell set to the correct spells.2da entry.
+[/list]
+
+
+
+1.45.3 change set
+[list]
+[*]Empower Harm Touch spell name corrected (spells.2da)
+[*]Temporary hit points from Harm Touch no longer stack.
+[*]Fiery Burst daze effect replaced with a -1 AB, -1 AC debuff.
+[*]Winter's Blast blindness effect replaced with a -2 Save debuff.
+[*]EK now blocks Force Mage like Force Mage blocks EK (cls_pres_eknight.2da)
+[/list]
+
+1.46 change set
+[list]
+[*]New base class: Beastmaster
+[*]New animal companions available
+[*]New feats available for Beastmaster
+[*]New background feat available for Animal Companions
+[*]Hurricane Breath now has a 12s cooldown like other unlimited knockdown feats.
+[*]Hurricane Breath now provides a +4 Dodge AC bonus vs Missile Weapons for 9 seconds.
+[*]Hurricane Breath now leaves eddies of air that slightly disrupt aim, causing a 10% miss chance on attacks for 6 seconds (even if the knockdown attempt fails).
+[/list]
+
+Beastmaster is currently done and in testing with an ETA around the end of the month.

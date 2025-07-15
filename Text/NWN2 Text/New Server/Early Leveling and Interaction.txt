@@ -1,0 +1,31 @@
+Early leveling and interaction
+I've always felt that "newbie" quests should award gear in a staggered chain so that random drops aren't depended on (instead providing spice/chance at exceptional items) *and* you get to choose your 'core' gear.
+
+L1 quest -> Chest armor +1 or Weapon +1 or Bracers +1
+L2 quest -> Chest armor +1 or Weapon +1 or Bracers +1
+L3 quest -> Ring +1 or Amulet +1 or Cloak +1 or Boots +1
+L4 quest -> Ring +1 or Amulet +1 or Cloak +1 or Boots +1
+
+Generally speaking a level 4 should have ~5400 gp worth of gear. +1 stuff is usually around 1k - 2k a pop. Sure, the quest layout front loads the cash a bit but low levels are where it matters the most (especially with a game that rolls in favor of the enemies).
+
+The added advantage is that each of them can direct new players to the appropriate area for the first few levels until they get their legs under them (and can survive more than a hit or two) and until they start communicating with others.
+
+Innkeepers should always have "rumors" of where to go for 1-30s (30 convo steps) so that you always have a vague clue where to head. Level 30s should head to the spires north of the ice wyrm caves or some such. Gives them a clue to head towards X zone. Maybel slightly tweaked based on UD/Surface.
+
+I dunno, I get that players telling players is a great thing but I'm definitely of the school that there should be a rigid structure for direction/progression and exploration is done on top of that. Trying to figure out how to say "I'm level 5, where do I go" in RP speak (goblins is easy now! what's a challenge yo! Razz ) kinda gets old to me.
+
+I had a 12 level/quest design for paladins one time that would gear up every item slot they had (one per quest) so that they had a set of "Paladin quest gear" that may or may not be better than random drops. You don't want to take away the joy/benefit of random drops but you don't want a level 7 getting trashed all the time because they can't get crap for good armor/weapons/gear. Razz It would also allow them to have more cash for consumables, especially since the "online/MMO" nature of the game is FAR beyond the normal 1-2 encounters per day thing that pnp has.
+
+***
+
+[quote="Admin"]Working off your idea... what about?
+
+[size=16][b]Starting tutorial and quest line[/b][/size]
+-----------------------------------------------------------------
+New players will spawn on the ship as if it 'just arrived' in Waterdeep. Instead of starting a new toon off with gold, gear, and levels (2-5 like most servers) we start them at level 1 with 0 gold and no equipment. Just basic cloth. Then through an automatic cutscene event (to force them to read it) we offer them the ability to accept a quest-line, doable only once, that takes them through the city, our custom content, and at the end drops them at their first grinding zone. Like a tutorial.
+
+Throughout this quest line, maybe 5ish quests, we gear them up (maybe not +1 everything... maybe we give them choices of gear they want, and some of the options have +1 or bonus HP or +2 slashing or something), we get them to the starting level we want (need to decide this), and give them some starting gold ontop of rumors of where things are and places to visit.
+
+[quote="FireFly"]Innkeepers should always have "rumors" of where to go for 1-30s (30 convo steps) so that you always have a vague clue where to head. Level 30s should head to the spires north of the ice wyrm caves or some such. Gives them a clue to head towards X zone. Maybel slightly tweaked based on UD/Surface.[/quote]
+
+This is a huge part of the "living world" I want to create. I would like a few different rumors (maybe 20-30) that are selected randomly at server startup. This way the various NPC's like bartenders, inn keepers, etc, always seem to have something new to say and some new piece of advice to give. Perhaps even rare conversations that lead them to secret areas.[/quote]

@@ -1,0 +1,43 @@
+Death Blade
+
+The Death Blades are new, as the Dustmen reckon such things, meaning they've only been around for a few hundred years. Their job is simple: help those that offend the Dustmen on to the next stage of death. See, while the Dead don't really take offense when people bob, insult, or just generally oppose them, they can't really abide by it either. If they allowed that kind of thing to continue, pretty soon people would be walking all over the Dustmen, and that's not acceptable. Their answer to this problem is the Death Blades.
+
+Like all of the Dead, the Death Blades are cold and emotionless, delivering death to their victims with no malice or anger. No, they're just doing what needs to be done. Those who've seen them work and live to tell the tale claim they're a sight to watch. They move like they're dancing, avoiding opponents' blows and striking with grim efficiency. Their swords course with negative energy, and they animate the corpses of those they slay, so that in undeath they may serve those whom they offended in life.
+
+Requirements
+
+Faction: Dustmen
+BAB: +6
+Skills: Perform 4
+Feats: Weapon Focus (Bastard Sword)
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort
+Weapon and Armor proficiency: None
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Hide, Intimidate, Lore, Move Silently, Parry, Perform, and Tumble.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Death Blade +1d4, Dance with Death +1
+Level 2: Raise Enemies I
+Level 3:
+Level 4: Raise Enemies II, Dance with Death +2
+Level 5: Death Blade +1d6
+Level 6: Raise Enemies III
+Level 7: Dance with Death +3
+Level 8: Raise Enemies IV
+Level 9: Death Blade +1d8
+Level 10: Raise Enemies V, Dance with Death +4
+
+Death Blade: Death Blades imbue their chosen bastard swords, also called "death blades," with negative energy that deals an extra 1d4 points of negative energy damage. This damage increases to a 1d6 at 5th level and to a 1d8 at 9th level. Death blades are usually enchanted with other magical properties as well. As long as the Death Blades main hand is holding a bastard sword, their hands become wreathed in the energy allowing offhand weapons to benefit as well.
+
+Dance with Death: Due to her training, a Death Blade gains a dodge bonus to her AC when not wearing armor or carrying a shield. This bonus is +1 at first level, and she gains an additional +1 for every 3 levels of Death Blade after that.
+
+Raise Enemies: For centuries the Dustmen have labored to understand the secrets of death and undeath, and armed with this knowledge the Death Blades are fearsome foes. Three times a day, a Death Blade may animate an opponent as a zombie. This zombie has the same hit dice as the Death Blade.
+
+At every even level after 2nd, the zombies raised by the Death Blade become more powerful, gaining a +2 bonus to strength and constitution.

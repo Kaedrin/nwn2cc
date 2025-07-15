@@ -1,0 +1,124 @@
+Eldritch Sculptor
+Requirements: Eldritch Blast 3d6, Weapon Focus (Ranged Touch Attack), Not Hellfire Warlock
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 2
+HD: d6
+Levels: 5
+5/5 Warlock invocation progression (including blasts)
+L1: +1 AB per class level (Touch Attacks)
+L2: 
+L3: Power Blast (-3 AB, +6 Dmg, activated Mode)
+L4: 
+L5: Improved Power Blast (-6 AB, +12 Dmg, activated Mode)
+
+
+Favored Slayer
+Requirements: Level 6 Combat Style
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 6
+HD: d10
+Levels: 5
+Armor Proficiency Granted: Medium
+Wilderness Slayer counts as Ranger for Protective Ward
+Class grants the normal version of Ranger dual wield feats
+Companion progression, No spell progression
+L1: Bonus Feat
+L2: Bonus Feat
+L3: Bonus Feat
+L4: Bonus Feat
+L5: Bonus Feat
+
+Bonus Feats are drawn from Improved Favored Enemy, Favored Power Attack, Power Attack, Improved Power Attack, and Protective Ward.
+
+
+Wilderness Champion
+Requirements: Smite Evil 2/day, Level 6 Combat Style
+BAB: High
+Saves: Fort, Will
+Skill Pts: 4
+HD: d10
+Levels: 5
+Animal Comp progression, No Wildshape progression.
+5/5 Paladin and Ranger progression
+L1: Bonus Feat (Silver Fang)
+L2: 
+L3: Bonus Feat (Devoted Tracker)
+L4: 
+L5: Bonus Feat (Improved Devoted Tracker which adds full paladin levels, not -4)
+
+
+Combat Perfectionist
+Requirements: BAB +6, No base class with spellcasting ability
+BAB: Medium
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d12
+Levels: 5
+L1: +1 Enhance bonus to melee weapons (stacks with existing)
+L2: +1 Enhance bonus to armor (not shields, stacks with existing)
+L3: +2 Enhance bonus to melee weapons (stacks with existing)
+L4: +2 Enhance bonus to armor (not shields, stacks with existing)
+L5: +3 Enhance bonus to melee weapons (stacks with existing)
+Melee weapons include gauntlets for monks.
+
+Master Craftsman
+Requirements: Craft Alchemy 5, Craft Weapon 8, Craft Armor 8
+BAB: Medium
+Saves: Fort
+Skill Pts: 8
+HD: d6
+Levels: 5
+L1: Bonus Feat
+L2: Bonus Feat
+L3: Bonus Feat
+L4: Bonus Feat
+L5: Bonus Feat
+
+Bonus Feats are drawn from Brew Potion, Craft Magic Arms and Armor, Brew Potion, Craft Trap, Craft Wondrous Item, Craft Wand, Scribe Scroll, and Skill Focus feats in crafting
+
+
+Elementalist
+Requirements: Level 3 Spells
+BAB: Medium
+Saves: Will
+Skill Pts: 2
+HD: d6
+Levels: 5
+5/5 Arcane, Divine, or Invocation spellcasting progression
+L1: Bonus Feat
+L2: 
+L3: Bonus Feat
+L4: 
+L5: Bonus Feat
+Bonus Feats are drawn from the five Energy Substitution feats
+
+
+Feral Brute
+Requirements: Wildshape 3/day
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d10
+Levels: 5
+No spellcasting or companion progression. Wildshape progression.
+L1: +AB bonus when shifted equal to class level
+L2: 
+L3: 
+L4: 
+L5: Feral Claws (material of the weapon in your right hand transferred to your claws)
+
+
+Kinslayer
+Requirements: BAB +5
+BAB: High
+Saves: Fort
+Skill Pts: 4
+HD: d10
+Levels: 5
+L1: Gain a damage bonus against your race equal to your class level
+L2: Gain an AC bonus against your race equal to half your class level (+1 at 2nd, +2 at 4th)
+
+
+Still room for two more classes...  ;)

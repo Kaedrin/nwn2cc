@@ -1,0 +1,88 @@
+The possible ones I had from before are these though I'm not sure they are a great idea here these days.
+
+Pit Fighter
+[spoiler]Requirements: Iron Will, Toughness, +5 BAB, [color=green]May not have Weapon Master levels
+[/color]BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: [color=green]d14[/color]
+Levels: 5
+Shouts have a 6 round cooldown and last a number of rounds equal to your class level.
+L1: Call for Blood! (+AB equal to class level, -AC equal to half class level rounded up)
+L2: My Eyes! (Blind enemy for 1 round)
+L3: One Shall Stand (+AC equal to class level, -50% speed)
+L4: Death From Above! (+2d6 physical damage, -3 AB, -3 AC)
+L5: One Shall Fall! (+100% speed, +1 Attack)
+[/spoiler]
+
+Thane
+[spoiler]
+Requirements: Rage 3/day, Not Fury
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d12
+Levels: 10
+Thane levels stack with Barb to determine which Rage you have (10 Barb/10 Thane has Mighty Rage)
+DR stacks with Barb DR, Rage uses/day stacks.
+L1: DR 1/-
+L2: Tireless Rage
+L3: DR 2/-
+L4: 1pt Fast Regen
+L5: DR 3/-
+L6: +1d4 Sonic damage on hits
+L7: DR 4/-
+L8: +1d4 Lightning damage on hits
+L9: DR 5/-
+L10: 20% physical immunities (blunt, piercing, slashing)
+[/spoiler]
+
+Fury
+[spoiler]Requirements: Ice Troll Berserker, Not Thane, Rage 3/day
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d16
+Levels: 5
+Fury levels stack with Barb to determine which Rage you have (15 Barb/5 Fury has Mighty Rage), Rage uses/day stacks, DR stacks
+L1: Two Weapon Fighting
+L2: Improved Two Weapon Fighting
+L3: Greater Two Weapon Fighting
+L4: Oversized Two Weapon Fighting
+L5: +1d4 Cold damage, 10 pts Cold damage Resist
+[/spoiler]
+
+Thunderborn
+[spoiler]Requirements: Rage 3/day
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d16
+Levels: 5
+Thunderborn levels stack with Barb to determine which Rage you have (15 Barb/5 Thunderborn has Mighty Rage), Rage uses/day stacks, DR stacks
+L1: Power Attack
+L2: Improved Power Attack
+L3: Enhanced Power Attack
+L4: Supreme Power Attack
+L5: +1d4 Sonic damage, 10 pts Sonic damage Resist
+[/spoiler]
+
+Dreadnaught
+[spoiler]Requirements: Rage 5/day
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d20
+Levels: 10
+Dreadnaught levels stack with Barb to determine which Rage you have (10 Barb/10 Dreadnaught has Mighty Rage), Rage uses/day stacks, DR stacks
+L1: Regen 1
+L2: Phys Resists 5%
+L3: Regen 2
+L4: Phys Resists 10%
+L5: Regen 3
+L6: Phys Resists 15%
+L7: Regen 4
+L8: Phys Resists 20%
+L9: Regen 5
+L10: Phys Resists 25%
+[/spoiler]

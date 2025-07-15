@@ -1,0 +1,137 @@
+Healer
+
+This has been redone as a PrC so please read the red text carefully. The cleanse ability has been decided on and fleshed out as well. This will speed up the class being available by a factor of probably 100.
+
+[spoiler]
+
+...
+
+This is a prestige class with 29 levels. [color=red]All healer abilities apply ONLY to healer spells. Divine Power only provides a +1 AB when a character has ANY levels in Healer. This prestige class is allowed to bypass any normal rules for minimum levels with regards to cleric or favored soul as long as the rest of the levels are in healer. A 1 cleric/19 healer is perfectly valid on such servers due to the implementation.[/color]
+
+Alignment: Any good.
+Required Class: Cleric or Favored Soul.
+May not have any levels in Monk, Ninja, or Sacred Fist.
+
+Class Features
+
+HD: d8
+BAB: Low
+High Saves: Fort, Will
+Weapon proficiency: Simple.
+Armor proficiency: Light.
+
+Class Skills: Concentration, Craft Alchemy, Diplomacy, Heal, Lore, Parry, Spellcraft, Survival, and Tumble.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Healing Hands, Effortless Healing, Turn Undead, Channel Energy
+Level 2: Skill Focus (Heal), Divine Grace, Cleanse
+Level 3: Enhanced Cures
+Level 4: 
+Level 5: Protective Blessing
+Level 6:
+Level 7: Healer's Blessing
+Level 8: Divine Health
+Level 9: 
+Level 10:
+Level 11: 
+Level 12: Improved Healer's Blessing
+Level 13: 
+Level 14:
+Level 15: 
+Level 16: Greater Healer's Blessing
+Level 17: 
+Level 18:
+Level 19: 
+Level 20: Champion of Life
+Level 21: 
+Level 22: Epic Skill Focus (Heal)
+Level 23: Bonus Epic Feat
+Level 24: 
+Level 25: 
+Level 26: Bonus Epic Feat
+Level 27: 
+Level 28: 
+Level 29: Bonus Epic Feat
+
+Healers gain a bonus epic feat at 23rd, 26th, and 29th level.
+
+Spells per Day/Spells Known: When a new healer level is gained, the character gains new spells per day (and spells known, if applicable) as though he had gained a level in either cleric or favored soul. If the character has more than one applicable divine spellcasting class, he must pick one to improve at 1st level.
+
+[color=red]Special Spells: Fortunate Fate (7th), Foresight (9th), and Disjunction (9th) will only work when an appropriate number of healer levels are present  (13 for Fortunate Fate, 17 for the other two). These spells will be available for regular clerics and favored souls but will FAIL if the required healer levels are not present. Divine Power only provides a +1 AB bonus when Healer levels are present.[/color]
+
+Weapon and Armor Proficiency: Healers are proficient with all simple weapons and with light armor. [color=red]The armor of a healer is restricted by traditional oaths, not simply training. Wearing metal armor or bearing a shield violates her oath and suppresses her healer powers. Her ethos requires a certain vulnerability that allows her to more fully empathize with those in their care. Healer abilities will fail if any metal armor, armor heavier than light, or shields are used. This spell failure applies to all spells and abilities.[/color]
+
+Healing Hands: Whenever a healer casts a healer spell that cures hit point damage, she adds her Charisma modifier to the amount of damage healed. For instance, if a 5th-level healer with an 18 Charisma casts cure light wounds, she cures 1d8+5 points of damage normally, plus an additional 4 points of damage due to her Charisma bonus. This bonus applies only to spells that she casts as a healer, not to those that she may have 
+by virtue of levels in another class. 
+
+Channel Energy: A healer can release a wave of positive energy by channeling the power of her faith through her holy symbol. Channeling energy causes a burst that affects all creatures in a 30-foot radius centered on the healer. The amount of damage dealt (to undead) or healed is equal to 1d6 points of damage plus 1d6 points of damage for every two healer levels beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from channeled energy receive a Will save to halve the damage. The DC of this save is equal to 10 + 1/2 the healer's level + the healer's Charisma modifier. Creatures healed by channeled energy cannot exceed their maximum hit point total — all excess healing is lost. Each use of Channel Energy consumes a use of Turn Undead.
+
+Cleanse: You may expend a use of Turn Undead to cleanse the conditions from an ally (or yourself). At 2nd level your cleanse ability removes the fatigued condition. At 5th level, your clenase ability removes any diseases. At 8th level, your cleanse ability removes any poisons. At 11th level, your cleanse ability removes paralysis. At 14th level, your cleanse ability removes blindness and deafness. At 17th level, your cleanse ability removes curses. At 20th level, your cleanse ability restores life to the dead.
+
+Enhanced Cures: At 3rd level, whenever you cast a cure spell as a healer, the maximum number of hit points healed is based on your healer level, not the limit based on the spell. For example, an 11th-level healer may cast cure light wounds to heal 1d8+11 hit points instead of the normal 1d8+5 maximum.
+
+Protective Blessing: At 5th level, all of your buff spells are treated as though they were extended.
+
+Healer's Blessing: At 7th level, all of your healer spells are treated as if they were empowered, increasing the amount of damage healed by half (+50%). This does not apply to damage dealt to undead with a cure spell.
+
+Divine Health: At 8th level, a healer is immune to all diseases, including magical diseases such as mummy rot and lycanthropy.
+
+Improved Healer's Blessing: At 12th level, all of your healer spells are treated as if they were maximized. This power replaces the Healer's Blessing empower effect.
+
+Greater Healer's Blessing: At 16th level, all of your healer spells are treated as if they are both maximized and empowered.
+
+Divine Grace: At 20th level, a healer gains a bonus equal to her Charisma bonus on all saving throws. 
+
+Champion of Life: Upon reaching 20th level, you become a perfect channel for life energy. You become immune to bleed, death attacks, exhaustion, fatigue, ability damage, nausea effects, negative levels, and sickened effects. 
+
+**
+
+New Feat: Imbued Healing
+Type of Feat: Spellcasting
+You imbue your healing spells with protective benefits based on the power of your belief.
+Prerequisite: Healer 1
+Benefit: Whenever you cast a conjuration (healing) spell, you not only heal your subject of hit point damage, but you also confer on it a bonus effect. The bonus is 1 temporary hit point per level/HD of the target and lasts for one hour. These temporary hit points do not stack with other sources of temporary hit points.
+Use: Automatic.
+
+New Feat: Healer of the Land
+Type of Feat: Spellcasting
+Your intimate understanding of the natural world allows you to imbue your spells with life-giving magical power from the land itself.
+Prerequisite: Healer 1, Lore 5, Heal 5, Spellcraft 5
+Benefit: This feat adds +2 points per spell level to the amount of damage healed by any healing spell. E.g., a 
+
+1st level Cure Light Wounds would heal an additional 2 hit points of damage and a 3rd level Cure Moderate Wounds would heal an additional 6 hit points of damage. This bonus stacks with the bonus gained from Augment Healing.
+Use: Automatic.
+
+**
+[/spoiler]
+
+
+***
+
+Non-static damage shields are too CPU intense for multiplayer.
+
+Ranged heals will be the standard. The healer will be locked in to light armor (fails in anything heavier).
+
+I'll be taking a nod from the Pathfinder Paladin as it is actually one of the best healers.
+
+It will be feat/ability based as we can't add new add divine casters. Because of this I'm thinking of abolishing the traditional casting feats idea and trying something a little different if the engine will support it (essentially spell points but cleverly hidden).
+
+Current sources:
+http://brilliantgameologists.com/boards/index.php?topic=6849.0
+http://www.wizards.com/default.asp?x=dnd/ei/20031206a
+http://dndtools.eu/classes/healer/
+http://www.dandwiki.com/wiki/The_Healer_(3.5e_Class)
+http://brilliantgameologists.com/boards/index.php?PHPSESSID=6acf1aukj1o3ib209d3amuc8q6&topic=4079.0
+http://paizo.com/pathfinderRPG/prd/classes/paladin.html#_paladin
+http://dndtools.eu/spells/sub-schools/healing/
+
+Miniatures Handbook, Complete Champion, Complete Divine, Pathfinder PRD, Book of Exalted Deeds, Races of the Wild, Dragon Magic
+
+Magic of the Land (RotW) - Add spell's level x2 to the amount of damage healed
+Augment Healing (CD) - Add spell's level x2 to the amount of damage healed
+http://www.realmshelps.net/cgi-bin/featbox.pl?feat=Initiate_of_Ilmater
+
+***
+

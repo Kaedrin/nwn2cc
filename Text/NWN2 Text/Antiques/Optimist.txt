@@ -1,0 +1,49 @@
+Optimist
+
+An optimist promotes the idea that positive thought can help affect your chances of success in almost any action. They actively focus on imagining a positive outcome, believing that it helps them in anything they choose to.
+
+Fighters regularly become optimists, greatly benefiting from their ability to improve their chances of success in combat. They also find the healing abilities that the class provides at higher levels greatly beneficial.
+
+Requirements
+
+Faction: Godsmen
+Alignment: Any non-evil.
+Skills: Concentration 8, Diplomacy 5, Heal 4
+Feats: Iron Will, Harness Divinity
+
+Class Features
+
+HD: d6
+BAB: Medium
+High Saves: Fort, Will
+Weapon and Armor proficiency: None
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Diplomacy, Heal, and Lore.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Luck of Heroes
+Level 2: Manipulate Chance
+Level 3: True Strike 1/day
+Level 4: Minor Positivity
+Level 5: True Strike 2/day
+Level 6: Positive Energy Channeling
+Level 7: True Strike 3/day
+Level 8: Positive Aura
+Level 9: True Strike 4/day
+Level 10: Positive Energy Conduit
+
+Luck of Heroes: At first level an optimist is granted the Luck of Heroes feat.
+
+Manipulate Chance: At 2nd level an optimist can partially control the chances of an action resulting in the desired results. She gains a +1 on all saving throws.
+
+True Strike: At level 3 an optimist gains the spell-like ability <i>true strike</i> once per day. This increases to twice per day at level 5, three times per day at level 7, and four times at level 9.
+
+Minor Positivity: All healing caused by positive energy, such as that from a cure wounds spell, cast upon her are empowered. All damage cause by negative energy, such as that from an inflict wounds spell, is also empowered.
+
+Positive Energy Channeling: By level 6 the amount of positive thought contained within the optimist's head allows her to briefly channel energy from the positive energy plane into a subject of her choice. This ability works like the spell <i>cure serious wounds</i>, with a caster level equal to the character's optimist class levels and can be used at will.
+
+Positive Aura: At 8th level, an optimist is able to maintain a permanent field of postive energy around her. She is surrounded by a permanent 20-foot radius of postive energy, which in all respects has the same affect as the <i>consecrate spell</i>. This aura can be disabled if the optimist chooses and turned back on at will.
+
+Positive Energy Conduit: At 10th level, an optimist is imbued with positive energy, becoming a permanent conduit between her current location and the positive energy plane. She becomes immune to charm spells and deals an extra 1d6 positive energy upon undead foes.

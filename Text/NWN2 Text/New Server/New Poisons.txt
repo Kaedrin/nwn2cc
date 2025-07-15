@@ -1,0 +1,183 @@
+Poisons
+
+This is what I have currently. They can be added to a vendor and could eventually be in the alchemy crafting system.
+
+Nightshade
+Weapons coated with this poison will quickly debilitate most creatures. [DC 10 Save, DC 8 Handle; Initial: 1d1 Dexterity; Secondary: 1d1 Constitution]
+Tag: cmi_poison001
+
+Small Centipede Poison
+Weapons coated with this poison will quickly debilitate most creatures. [DC 11 Save, DC 9 Handle; Initial: 1d2 Dexterity; Secondary: 1d2 Dexterity]
+Tag: cmi_poison002
+
+Blade Bane
+Weapons coated with this poison will quickly debilitate most creatures. [DC 15 Save, DC 9 Handle; Initial: 1d2 Strength; Secondary: 1d4 Constitution]
+Tag: cmi_poison003
+
+Greenblood Oil
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1d1 Constitution; Secondary: 1d2 Constitution]
+Tag: cmi_poison004
+
+Bloodroot
+Weapons coated with this poison will quickly debilitate most creatures. [DC 12 Save, DC 10 Handle; Initial: 1d3 Wisdom; Secondary: 1d4 Constitution]
+Tag: cmi_poison005
+
+Purple Worm Poison
+Weapons coated with this poison will quickly debilitate most creatures. [DC 12 Save, DC 10 Handle; Initial: 1d3 Wisdom; Secondary: 1d4 Constitution]
+Tag: cmi_poison006
+
+Large Scorpion Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 12 Save, DC 10 Handle; Initial: 1d4 Constitution; Secondary: 1d4 Constitution]
+Tag: cmi_poison007
+
+Blue Whinnis
+Weapons coated with this poison will quickly debilitate most creatures. [DC 14 Save, DC 11 Handle; Initial: 1d1 Constitution; Secondary: 1 Minute Sleep]
+Tag: cmi_poison008
+
+Giant Wasp Poison
+Weapons coated with this poison will quickly debilitate most creatures. [DC 18 Save, DC 14 Handle; Initial: 1d6 Dexterity; Secondary: 1d6 Dexterity]
+Tag: cmi_poison009
+
+Shadow Essence
+Weapons coated with this poison will quickly debilitate most creatures. [DC 18 Save, DC 14 Handle; Initial: 2d6 Strength; Secondary: 1d6 Dexterity]
+Tag: cmi_poison010
+
+Black Adder Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 11 Save, DC 10 Handle; Initial: 1d6 Constitution; Secondary: 1d6 Constitution]
+Tag: cmi_poison011
+
+Deathblade
+Weapons coated with this poison will quickly debilitate most creatures. [DC 20 Save, DC 16 Handle; Initial: 1d6 Constitution; Secondary: 2d6 Constitution]
+Tag: cmi_poison012
+
+Malyss Root Paste
+Weapons coated with this poison will quickly debilitate most creatures. [DC 16 Save, DC 13 Handle; Initial: 1d1 Dexterity; Secondary: 2d4 Dexterity]
+Tag: cmi_poison013
+
+Nitharit
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: None; Secondary: 3d6 Constitution]
+Tag: cmi_poison014
+
+Sassone Leaf Residue
+Weapons coated with this poison will quickly debilitate most creatures. [DC 16 Save, DC 13 Handle; Initial: 2d12 Acid damage; Secondary: 1d6 Constitution]
+Tag: cmi_poison016
+
+Terinav Root
+Weapons coated with this poison will quickly debilitate most creatures. [DC 16 Save, DC 13 Handle; Initial: 1d6 Dexterity; Secondary: 2d6 Dexterity]
+Tag: cmi_poison017
+
+Carrion Crawler Brain Juice
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1 minute paralysis; Secondary: None]
+Tag: cmi_poison018
+
+Oil of Taggit
+Weapons coated with this poison will quickly debilitate most creatures. [DC 15 Save, DC 12 Handle; Initial: 1d2 Constitution; Secondary: 1 minute sleep.]
+Tag: cmi_poison020
+
+Id Moss
+Weapons coated with this poison will quickly debilitate most creatures. [DC 14 Save, DC 11 Handle; Initial: 1d4 Intelligence; Secondary: 2d6 Intelligence]
+Tag: cmi_poison021
+
+Striped Toadstool
+Weapons coated with this poison will quickly debilitate most creatures. [DC 11 Save, DC 9 Handle; Initial: 1d1 Wisdom; Secondary: 2d6 Wisdom]
+Tag: cmi_poison022
+
+Arsenic
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1d1 Constitution; Secondary: 2d8 Constitution]
+Tag: cmi_poison023
+
+Lich Dust
+Weapons coated with this poison will quickly debilitate most creatures. [DC 17 Save, DC 14 Handle; Initial: 2d6 Strength; Secondary: 1d6 Strength]
+Tag: cmi_poison024
+
+Dark Reaver Powder
+Weapons coated with this poison will quickly debilitate most creatures. [DC 18 Save, DC 14 Handle; Initial: 2d6 Constitution; Secondary: 2d6 Constitution]
+Tag: cmi_poison025
+
+Ungol Dust
+Weapons coated with this poison will quickly debilitate most creatures. [DC 15 Save, DC 12 Handle; Initial: 1d1 Charisma; Secondary: 1d6 Charisma]
+Tag: cmi_poison026
+
+Burnt Othur Fumes
+Weapons coated with this poison will quickly debilitate most creatures. [DC 18 Save, DC 14 Handle; Initial: 1d1 Constitution; Secondary: 3d6 Constitution]
+Tag: cmi_poison027
+
+Chaos Mist
+Weapons coated with this poison will quickly debilitate most creatures. [DC 15 Save, DC 12 Handle; Initial: 1d4 Wisdom; Secondary: 2d6 Wisdom]
+Tag: cmi_poison028
+
+Bebilith Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 20 Save, DC 16 Handle; Initial: 1d6 Constitution; Secondary: 2d6 Constitution]
+Tag: cmi_poison029
+
+Quasit Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1d4 Dexterity; Secondary: 2d4 Dexterity]
+Tag: cmi_poison030
+
+Pit Fiend Ichor
+Weapons coated with this poison will quickly debilitate most creatures. [DC 27 Save, DC 17 Handle; Initial: 1d6 Constitution; Secondary: Death]
+Tag: cmi_poison031
+
+Ettercap Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1d6 Dexterity; Secondary: 2d4 Dexterity]
+Tag: cmi_poison032
+
+Aranea Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1d6 Strength; Secondary: 2d6 Strength]
+Tag: cmi_poison033
+
+Tiny Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 10 Save, DC 9 Handle; Initial: 1d2 Strength; Secondary: 1d2 Strength]
+Tag: cmi_poison034
+
+Small Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 10 Save, DC 9 Handle; Initial: 1d3 Strength; Secondary: 1d3 Strength]
+Tag: cmi_poison035
+
+Medium Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 12 Save, DC 11 Handle; Initial: 1d4 Strength; Secondary: 1d4 Strength]
+Tag: cmi_poison036
+
+Large Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 14 Handle; Initial: 1d6 Strength; Secondary: 1d6 Strength]
+Tag: cmi_poison037
+
+Huge Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 16 Save, DC 21 Handle; Initial: 1d8 Strength; Secondary: 1d8 Strength]
+Tag: cmi_poison038
+
+Gargantuan Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 20 Save, DC 29 Handle; Initial: 2d6 Strength; Secondary: 2d6 Strength]
+Tag: cmi_poison039
+
+Colossal Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 28 Save, DC 28 Handle; Initial: 2d8 Strength; Secondary: 2d8 Strength]
+Tag: cmi_poison040
+
+Phase Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 17 Save, DC 12 Handle; Initial: 1d8 Constitution; Secondary: 1d8 Constitution]
+Tag: cmi_poison041
+
+Wraith Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 26 Save, DC 21 Handle; Initial: 1d6 Constitution; Secondary: 2d6 Strength]
+Tag: cmi_poison042
+
+Iron Golem Fumes
+Weapons coated with this poison will quickly debilitate most creatures. [DC 17 Save, DC 20 Handle; Initial: 1d4 Constitution; Secondary: Death]
+Tag: cmi_poison043
+
+Shadow Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 20 Save, DC 20 Handle; Initial: 2d6 Strength; Secondary: 1d6 Constitution]
+Tag: cmi_poison045
+
+Abomination Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 17 Save, DC 17 Handle; Initial: 2d6 Constitution; Secondary: 1d6 Constitution]
+Tag: cmi_poison046
+
+Tsous
+Weapons coated with this poison will quickly debilitate most creatures. [DC 20 Save, DC 20 Handle; Initial: 4d4 Magic damage; Secondary: 2d4 Magic damage]
+Tag: cmi_poison047
+
+Blood of Zehir
+Weapons coated with this poison will quickly debilitate most creatures. [DC 19 Save, DC 19 Handle; Initial: Death; Secondary: Death]
+Tag: cmi_poison048

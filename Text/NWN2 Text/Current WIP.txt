@@ -1,0 +1,127 @@
+[size=20][color=blue]In Development:[/color][/size]
+
+[size=18][color=red]1.45 changelog:[/color][/size]
+Missing RP text for Bloodline Exemplar, Knight of the Wild, Force Mage, and Mystic Reservist.
+Test Hostile/Friendly subradial CL for Devour Magic
+Ranger Power Attack line mentions the -4 AB penalty in armor heavier than light.
+Check Arcane Dilettante fails on having Able Learner
+Hexblade removes the upcoming feats section of the class description
+Monk and Rogue class descriptions mention high bab at 21-30
+PCLoaded debug message "hwatyyy" removed.
+Test why Adrenaline Boost isn't auto-targeting self.
+Double check Skald blocks lawful
+Adrenaline Boost lasts a minimum of 3 minutes.
+Skald icon changed to Swashbuckler icon
+Test Dragon Warrior breath weapon
+Thunder Clap now activates with Crumble, Leonal's Roar, and Wounding Whispers.
+http://dalelandsbeyond.forumotion.com/t23337-mystic-reservist
+http://dalelandsbeyond.forumotion.com/t23322-templar-favored-weaon
+http://dalelandsbeyond.forumotion.com/t23257-minor-hexblade-bug
+Skald update
+Monk update
+
+Spell sneak attack disabled if Daring Outlaw/etc is present.
+Force Mage tweaks.
+
+
+[size=18][color=red]1.44 Update: Head and Hair pack[/color][/size]
+
+Just a heads up about the new hair and head combo pack I'm working on (see what I did there) - it's going to include the following items and if there are any not on the list you would like to see please post the link.
+
+In process/being reviewed
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=157
+http://nwvault.ign.com/View.php?view=NWN2HakpaksCombined.Detail&id=61
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=62
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=350
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=246
+
+New Heads
+http://nwvault.ign.com/View.php?view=NWN2Models.Detail&id=190
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=40
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=79
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=49
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=463
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=37
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=268
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=121
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=261
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=266
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=144
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=295
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=532
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=329
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=178
+
+New Hairs
+http://nwvault.ign.com/View.php?view=NWN2Models.Detail&id=133
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=510
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=373
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=281
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=30
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=340
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=268
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=178
+
+Possible additions
+http://nwvault.ign.com/View.php?view=NWN2Models.Detail&id=194
+
+[size=18][color=red]1.45 Update: Monk Update[/color][/size]
+
+Additional Class Skills: Intimidate
+Bonus Feat at 1st: Weapon Focus (Unarmed)
+Bonus Feat at 4th: Unarmed Combat Mastery
+Bonus Feat at 10th: Weapon Specialization (Unarmed)
+Bonus Feat at 14th: Greater Weapon Focus (Unarmed)
+Bonus Feat at 18th: Greater Weapon Specialization(Unarmed)
+Bonus Feat at 22nd: Epic Weapon Focus (Unarmed)
+Bonus Feat at 26th: Epic Weapon Specialization (Unarmed)
+Bonus Feat at 30th
+
+Wholeness of Body can be used 1 time for every 3 monks levels. Wholeness of Body now provides 1 point of regen for 3 minutes when used.
+
+Change bonus epic feats from 24/28 to 23/26/29
+
+The Versatile Unarmed Strike feat listed below is melted and made a part of the Unarmed Combat Mastery feat.
+
+Tiger Combat Style
+Type of Feat: General
+Prerequisites: Improved Unarmed Strike, Intimidate 3
+Benefit: You inflict the wounding property (DC 10 + 1/2 your class level + your Wis modifier) on your foes with your unarmed strikes. Further, you gain a +2 bonus on Demoralize Opponent checks as well as gain the feat itself if you do not already have it. The DC suffers a -6 penalty if you multiclass.
+
+New Feat: Lightning Strikes Twice
+Prerequisites: Monk 5
+You gain an attack bonus with unarmed attacks, starting at +1. This bonus improves by +1 for every 5 additional monk levels (to a maximum of +4 at 20th level). You also deal an additional 2 points of lightning damage on your unarmed attacks. This is an activated ability with a 24 hour duration.
+
+New Feat: Sweeping Kick
+Your masterful legwork while fighting allows you to make a sweeping set of strikes to attempt to knockdown all foes within 10' of you.
+Prerequisites: Knockdown, Improved Knockdown, Monk 5
+Benefit: While unarmed, you make make a special Knockdown attempt against every foe within 5' of you. This ability has a 30s cooldown.
+
+New Feat: Fist of the Heavens
+Your favor with the Gods has gifted you with the ability to wreathe your fists with sacred flames.
+Prerequisites: Ki strike (Adamantine), Intuitive Attack
+Benefit: You add your Wisdom modifier as Divine damage to your unarmed attacks (bonus may not exceed 1/2 your Monk level). This bonus caps at +2 if you multiclass.
+
+New Feat: Versatile Unarmed Strike (Merged into Unarmed Combat Mastery)
+Type: General
+Prerequisite: Improved Unarmed Strike
+Text: You employ a variety of unarmed fighting styles, allowing you to alter the type of damage your attacks deal.
+Benefit: You buff your gloves or gauntlets to deal slashing and piercing damage as well as blunt. This bonus lasts 24 hours and can be used at will.
+
+New Feat: Epic Diamond Soul
+Prerequisites: Diamond Soul
+Benefit: A monk gains spell resistance equal to his current monk level + 16. Arcane Fist, Sacred Fist, and Spiritual Fist levels are treated as Monk levels.
+
+New Feat: Epic Perfect Self
+Prerequisites: Perfect Self
+Benefit: A monk gains DR 10/Adamantine instead of DR 10/Magic as well as 1 point of regen.
+
+New Feat: Crushing Blow
+Your focus allows you to smash your enemy's defenses.
+Prerequisites: Improved Unarmed Strike, Stunning Fist.
+Benefit: You can make a Stunning Fist attempt as a full-round action. If successful, instead of stunning your target, you reduce the target's AC by an amount equal to your Wisdom modifier for 1 minute (penalty may not exceed half your Monk level). This feat has no effect if you take any non-Monk levels or are wielding weapons.
+
+New Feat: Heroic Ki
+You follow a path of enlightenment that lauds heroism and martial prowess.
+Prerequisites: Monk 5
+Benefit: You gain the benefits of the Heroism spell at all times. Note: This feat has no effect if you take any non-Monk levels. This improves to Greater Heroism at 11th level. This feat has no effect if you take any non-Monk levels.

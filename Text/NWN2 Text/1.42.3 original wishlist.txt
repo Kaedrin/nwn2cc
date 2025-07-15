@@ -1,0 +1,160 @@
+The 1.42.3 update is probably going to become the 1.43 update due the amount of new content and the fact it isn't just bug fixes as well as to sever the cord from past (SP) releases. 
+
+Ok, I think I have the changelog finalized. For the most part. Now to break it into chunks to speed up the content being on the server.
+
+[list]
+[*]Arcane Archer description no longer indicates Tumble is a class skill
+[*]Aura of Cold spells have their aura changed to a blue version
+[*]Blackguard (other melees?) gains Taunt
+[*]Blade of Shadows prereqs changed to include normal 2d6 sneak attack, no longer account for NWN9's frantic reactions.
+[*]Blind-Fighting now provides immunity to blindness (except for the Yuan-ti)
+[*]Cap spear at 35m in case it has engine support for exceeding L range
+[*]Check CoN for Listen/Spot. Clean up desc?
+[*]Check Dodge debuff not applying when flat foot. Change debuffs to Deflection?
+[*]Check Snowflake applying fatigue
+[*]CICraftCraftWand function in x2_inc_craft fixed so that FS/SS are added to the divine use limitation set
+[*]Clone spells may no longer be cast while possessing a familiar.
+[*]Curse of Lethargy and Curse of Silence can no longer affect the original target twice
+[*]Curse of Lethargy and Curse of Silence now get the location of the target to cycle spells instead of using the GetSpellTargetLocation call.
+[*]Curse of Lethargy and Curse of Silence updated with a targeting UI
+[*]Daring Outlaw now mentions that only real sneak attack dice qualify
+[*]Dark Companion spell name corrected (no longer Dreadful Wrath)
+[*]Death Attack exploit fixes
+[*]Devoted Tracker now only requires a single level of Paladin instead of 5.
+[*]Double check EK/MK have the text block for Loremaster
+[*]Ember Guard is no longer a specific form. It is now a bonus when using the Earth Elemental Shape. It provides a +2 AB bonus, +1d6 Fire Shield, and +1d6 Fire damage to melee. All previous cmi_options for Ember Guard are removed.
+[*]Evaluate Fiery Fist, Improved Reaction, Divine Wrath, and Shadow Evade for instant feat status
+[*]Fighter base class upgrades (when no other classes except WM are present)
+[*]Frenzy no longer damages npcs, duration is 10x
+[*]Genasi no longer have +1 ECL, no longer gain free martial weapon proficiency
+[*]Half-elves gain a +2 Con bonus
+[*]Hexblade - New Feat: Arcane Heroism
+[*]Hexblade - New Feat: Arcane Mastery
+[*]Hexblade - New Feat: Arcane Servant of Darkness
+[*]Hexblade - New Feat: Divine Torment
+[*]Hexblade - New Feat: Siphon the Weave
+[*]Hexblade - Replace Augment Familiar with Ghostly Visage
+[*]Hexblade - Replace Hound of Doom with Haste
+[*]Hexblade - Replace Identify with Shield
+[*]Hexblade - Replace Slow with Spiderskin (no VFX)
+[*]Hospitaler no longer requires a conversation to pick the spellcasting class, now gains a free bonus feat instead of the limited fighter feats.
+[*]Improved Aura of Despair requirements changed from 25 Cha to 21 Cha/Blackguard 8
+[*]Nature's Ward: Heal Reserve feat now applies to companion as well
+[*]Nature's Ward: Poly Reserve feat now applies to companion as well
+[*]New Base Class: Knight
+[*]New Base Class: Marshal
+[*]New Base Class: Skald
+[*]New Base Class: Skald (finish two scripts)
+[*]New Base Class: Songblade
+[*]New Feat: Defensive Grasp (requires disarm, provides disarm immunity)
+[*]New Feats (Various)
+[*]New PrC: Beastmaster
+[*]New PrC: Black Fist (Bane) - 10 level melee/divine hybrid
+[*]New PrC: Bloodline Exemplar
+[*]New PrC: Bonded Summoner
+[*]New PrC: Deepwarden - 10 level dwarven melee
+[*]New PrC: Deepwood Sniper
+[*]New PrC: Dreadmaster
+[*]New PrC: Golden Lion (Torm) - 10 level melee
+[*]New PrC: Healer (29 level base class extension for Cleric/FS)
+[*]New PrC: Knight of the Wild - http://nwn2customcontent.wikidot.com/knight-of-the-wild
+[*]New PrC: Radiant Servant 10 levels divine for Lathandar
+[*]New PrC: Silverstar (Selune) - 10 level divine
+[*]New PrC: Spiritual Fist
+[*]New PrC: Stalker of the Depths - http://nwn2customcontent.wikidot.com/stalker-of-the-depths
+[*]New PrC: Templar
+[*]New PrC: Thane
+[*]New PrC: Thayan Knight - 5 level melee
+[*]New PrC: Wildbow
+[*]Nightsong party buff no longer an aura, now an activated bonus that clearly tells the recipients they gained sneak attack dice.
+[*]Oversized two-weapon fighting fixed for small races (courtesy of the PW Ashaba)
+[*]Paladin and Ranger caster level options gains a new option for CL - 3 (matching Pathfinder)
+[*]Paladin spirit feats gain complete description
+[*]Rage duration on NPCs 10x
+[*]Rangers with the power attack line in armor heavier than light suffer a -4 AB penalty
+[*]Remove custom gauntlets, add new gauntlet with both types of extra damage on them.
+[*]Remove Hosp convo
+[*]Runes of Ice account for piercing frost? Use same cmi_options as frost breath reserve
+[*]Sacred Purification now has a 30s cooldown.
+[*]Sacred Purification now heals/harms for 1d8 for every 2 points of Charisma modifier plus your Charisma modifier. A 22 Charisma (+6) now heals for 3d8 + 6.
+[*]Stage I of Alchemy Crafting
+[*]Stalker of the Depths
+[*]Swift Ambusher, Swift Hunter, and Daring Outlaw will be fixed with the new rules.
+[*]Templar may change to become a long sword expert instead of a deity weapon
+[*]The descriptions of the spells do not reflect the changes to whether they are affected by spell resistance. Examples include web, cloud of bewilderment, curse of impending blades.
+[*]Warlock's Charm removes Ret Invis and Walk Unseen
+[*]Warlock's Dead Walk removes Ret Invis and Walk Unseen
+[*]Warlock's Eldritch Glaive now does half damage while Word of Changing is active.
+[*]Whirling Dervish levels now correctly stack for sneak attack
+[*]Wildfire blades allows IB levels to count as Ranger for Protective Ward.
+[/list]
+
+Death Attack exploit fixes [spoiler] My suggestion is to remove all Death Attack dice from classes/characters and replace it with normal sneak attack dice. Then grant the appropriate classes a new feat called Death Attack that behaves as follows:
+
+If the target is vulnerable to a sneak attack, you may make an attempt to incapacitate the enemy. If the victim of death attack fails a Fortitude save (DC 10 + the assassin’s class level + the assassin’s Int modifier), the victim is rendered helpless and unable to act for 1d6 rounds plus 1 round per level of the assassin. This is an instant ability with a 30s cooldown. Immunity to paralysis will block this ability.
+
+Assassin, Avenger, and Black Flame Zealot will correctly stack with this new ability. This fix will only be applied to characters that have Epic Precision and/or Manyshot. This will allow those not using/abusing the engine flaws/exploits to continue getting the full benefit of the existing Death Attack. [/spoiler]
+Fighter base class upgrades (when no other classes except WM are present)
+[spoiler]
+Improvements for the Fighter base class!
+http://paizo.com/pathfinderRPG/prd/classes/fighter.html#_fighter
+
+Pathfinder has a few very good ideas for improving the vanilla fighter. That said, I do NOT want this to be a boost for those that splash fighter for 4-12 levels.
+
+My suggestions:
+
+Armor Training: Starting at 3rd level, a fighter learns to be more maneuverable while wearing armor. Whenever he is wearing armor, he reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum Dexterity bonus allowed by his armor by 1. Every four levels thereafter (7th, 11th, and 15th), these bonuses increase by +1 each time, to a maximum –4 reduction of the armor check penalty and a +4 increase of the maximum Dexterity bonus allowed. This bonus is lost if the character has any non-Fighter or WM levels.
+
+Weapon Training: Starting at 5th level, a fighter gains a +1 bonus on attack and damage rolls. Every four levels thereafter (9th, 13th, and 17th), the bonuses increase by +1. This bonus is lost if the character has any non-Fighter or WM levels.
+
+Armor Mastery: At 19th level, a fighter gains DR 5/— whenever he is wearing armor or using a shield.
+
+Weapon Mastery: At 20th level, a fighter cannot be disarmed.
+
+[/spoiler]
+
+Specific feat descriptions
+
+[spoiler]
+New Feat: Arcane Mastery
+Type of Feat: Spellcasting
+Prerequisites: Hexblade 6
+Specifics: The duration of your spells and curses are doubled. This bonus also applies to the following feats: Arcane Might, Arcane Shield, and Aura of Unluck. You gain a +1 DC with all Hexblade abilities (Curses, Demoralize Opponent).
+
+New Feat: Arcane Heroism
+Type of Feat: Spellcasting
+Your skill at mixing the arcane arts with martial skill are such that you inspire others with your heroics.
+Prerequisites: Hexblade 5
+Benefit: You gain the benefits of the Heroism spell at all times. These benefits improve to those of Greater Heroism once you obtain 13 levels in Hexblade. This bonus will not stack with the Heroism or Greater Heroism spells.
+
+New Feat: Arcane Servant of Darkness
+Type of Feat: Spellcasting
+Prerequisites: Hexblade 6, Blackguard 1
+Specifics: Your Blackguard levels count as Hexblade levels for determining the Hexblade caster level, curses known, and hexblade level for curses. If you have the Practiced Caster (Hexblade) feat then Blackguard levels will count as Hexblade levels for spells known as well as providing a +1 DC bonus for curses and the demoralize opponent ability.
+
+New Feat: Siphon the Weave
+Type of Feat: Spellcasting
+Prerequisites: Arcane Mastery
+Specifics: Once every two minutes you can tap the weave to restore a use of your curse and aura of unluck abilities. You take damage equal to your character level as magic damage (unresistable) as a result of the strain.
+Use: 120s Cooldown, Selected.
+
+Divine Torment
+Type of Feat: Spellcasting
+Prerequisites: Siphon the Weave, Aura of Unluck, Turn Undead
+Specifics: You can tap the weave to restore a use of your turn undead ability at the cost of one use of Aura of Unluck.
+Use: Selected.
+
+The following feat will change from:
+Improved Aura Of Despair
+Type of Feat: Epic
+Prerequisite: Cha 25, Aura of Despair.
+Benefit: Your aura of despair causes a -4 morale penalty on all saving throws. 
+Use: Automatic
+to
+Improved Aura Of Despair
+Type of Feat: Epic
+Prerequisite: Cha 21, Aura of Despair, Blackguard 8
+Benefit: Your aura of despair causes a -4 morale penalty on all saving throws and a -2 penalty on all attack rolls and skill rolls. 
+Use: Automatic
+
+[/spoiler]

@@ -1,0 +1,82 @@
+Summoner
+
+Summoner/Binder/Eldritch Binder/Master Summoner
+
+Class Features:
+HD: d6
+BAB: Medium
+High Saves: Will
+Weapon proficiency: All simple weapons.
+Armor proficiency: None.
+Skill points: 4 + Int modifier
+Class Skills: Appraise, Bluff, Craft Alchemy, Craft Armor, Craft Weapon, Diplomacy, Heal, Hide, Intimidate, Listen, Lore, Move Silently, Parry, Perform, Search, Spellcraft, Spot, Survival, Taunt, Tumble.
+
+Class Abilities:
+Level 1: Arcane Blast 1d6, Runeskin Binding,
+Arcane Binding, Arcane Discipline
+Level 2: Renew Binding 1/day
+Level 3: Arcane Blast 2d6
+Level 4: Blast Research, Renew Binding 2/day
+Level 5: Arcane Blast 3d6
+Level 6: Renew Binding 3/day
+Level 7: Arcane Blast 4d6
+Level 8: Blast Research, Renew Binding 4/day
+Level 9: Arcane Blast 5d6
+Level 10: Renew Binding 5/day
+Level 11: Arcane Blast 6d6
+Level 12: Blast Research, Renew Binding 6/day
+Level 13: Arcane Blast 7d6
+Level 14: Renew Binding 7/day
+Level 15: Arcane Blast 8d6
+Level 16: Blast Research, Renew Binding 8/day
+Level 17: Arcane Blast 9d6
+Level 18: Renew Binding 9/day
+Level 19: Arcane Blast 10d6
+Level 20: Blast Research, Renew Binding 10/day
+Level 21: Arcane Blast 11d6
+Level 22: Renew Binding 11/day
+Level 23: Arcane Blast 12d6, Bonus Epic Feat
+Level 24: Blast Research, Renew Binding 12/day
+Level 25: Arcane Blast 13d6
+Level 26: Bonus Epic Feat, Renew Binding 13/day
+Level 27: Arcane Blast 14d6
+Level 28: Blast Research, Renew Binding 14/day
+Level 29: Arcane Blast 15d6, Bonus Epic Feat
+Level 30: Renew Binding 15/day
+
+Arcane Blast (Blast) - Ranged Touch Attack, Single Target (by default), Suffers ASF from Armor/Shields
+
+Arcane Discipline - Choose from Elemental (4 choices), Artifice, Necromancy, Sacred, Infernal, and Dragon.
+
+Arcane Binding - Based on your discipline, you get a pet. All pets have full BAB, d8 HD, High Fort/Ref saves, have a number of hit dice equal to 3/4 your class level, Spell Resistance equal to 11 + your class level, an Enhance bonus on their weapons equal to 1/4 your class level, DR/- equal to half your class level, and Regeneration equal to 1/5 your class level. The pet starts with a 15 Str, 11 Dex, 13 Con and gains 1 point at each even class level (max +15 at 30th). It's mental stats are all 12.
+
+Runeskin Binding - Gain DR/Adamantine equal to half your class level. Gain a +6 Armor Enhance bonus and a +4 Shield Enhance bonus.
+
+Renew Binding - Heals d10/CL for the selected pet. One additional use is granted at each even level.
+
+Blast Research - Beginning at 4th level (and at each additional 4 levels gained) the Summoner researches a new type of blast to use from the following list:
+
+    Essence Siphon (deals half damage, heals the summoner's pet for the damage dealt)
+    Claws of Blasting (two melee touch attacks at -2 AB)
+    Essence Drain (deals half damage, heals the summoner for the damage dealt)
+    Blast Sphere (40' ranged AE blast)
+    Weakening Blast (-Str, -Dex, -Con blast)
+    Confusing Blast (-Int, -Wis, -Cha blast)
+    Blast Wave (Cone blast +Knockdown)
+    Clinging Blast (half damage dealt again next round)
+    Obscuring Blast (target suffers 20% miss chance)
+    Arcing Blast (chain blast)
+    Defensive Blast (gain a deflection AC bonus equal to the blast dice for 6s, deal no damage this round)
+    Concealing Blast (gain 20% concealment)
+    Invigorating Blast (deal no damage, gain temp hp equal to half the normal damage, gain haste)
+
+New Feats -
+
+    Armored Caster (No ASF in light armor, granted the light armor proficiency)
+    Battle Caster (No ASF in medium armor, granted the medium armor proficiency)
+    War Caster (No ASF in heavy armor, granted the heavy armor proficiency)
+    Shielded Caster (No ASF with a shield, granted the shield proficiency)
+    Improved Runeskin Binding - Gains +4 Natural AC.
+    Greater Runeskin Binding - Each AC granted by Runeskin Binding improves by 2 (to +8 Armor Enhance, +6 Shield Enhance, and +6 Natural AC)
+    Bind Element - Pet gains 1d6 energy damage based on your discipline choice (Artifice and Dragon are magic, Necromancy is Negative, Sacred and Infernal are divine, and the elementals match their element).
+    Additional Arcane Binding - Gain a second pet. Pets have medium BAB, d6 HD, High Will save, have a number of hit dice equal to 2/3 your class level, Spell Resistance equal to 11 + your class level, DR/- equal to half your class level, and Regeneration equal to 1/6 your class level. The pet starts with a 10 Str, 15 Dex, 13 Con and gains 1 point at each even class level (max +15 at 30th). It's mental stats are all 12. This is a ranged pet that has a number of blast dice equal to 1/2 it's hit dice.

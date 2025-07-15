@@ -1,0 +1,60 @@
+Alchemist
+Arcane Disciple (Ki and a staff)
+Arcane Marksman (arcane archer as a base class, any specific ranged weapon)
+Armiger (Heavy armor titan)
+Artificer (crafting, constructs, item buffs)
+Barbarian (medium armor, rage)
+Bard
+Beastmaster
+Bloodrager (barbaric sorcerer with blood magic)
+Brawler (unarmed master of combat)
+Champion (to Battle Scion, Paladin, Anti-Paladin, Duskblade, Hexblade, Bladesinger/Songblade)
+Dark Paladin (only if custom spellbooks to hide good only spells, otherwise Champion)
+Dragonfire Adept (breath weapon specialist)
+Dread Necromancer
+Druid (druid without wildshape, maybe without companion)
+Duelist
+Elementalist
+Elemental Singer (integrate into Bladesinger?)
+Factotum
+Fighter
+Healer
+Hexblade (integrate into Champion?)
+Hunter
+Inquisitor
+Knight
+Nightblade (casting assassin)
+Paladin
+Priest (caster of a faith, maybe cleric if Healer is in)
+Ranger
+Rogue
+Runecarver
+Scout
+Shadowblade (martial assassin)
+Shaman (spirit totems, party buffs)
+Shifter (druid without spells or companion)
+Skald
+Songblade (bladesinger as a base class? sword saint?)
+Sorcerer
+Spellthief
+Summoner
+Swashbuckler
+Tactician (or Strategist)
+Thug
+Weave Walker (bamf)
+Witch
+Witch Hunter
+Wizard
+
+Archer types
+Arcane Marksman
+Hunter
+Ranger
+(Scout)
+Marksman?
+
+Potentials
+Marshal (like Skald but more military less story)
+Fury - Sonic and Lightning
+Spellweave - Sings fragments of magic into a dynamic song/effect set
+Tempest?

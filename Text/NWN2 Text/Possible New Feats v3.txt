@@ -1,0 +1,601 @@
+Text in green is already completed and in testing but they can still be changed for balance reasons.
+
+Possible changes/additions:
+Telthor companion gains a subradial where you can choose between telthor bear and telthor wolf.
+Improved Maximize Spell changed to +1 and not +2 spell level.
+New Feat: Extra Invocation (Hideous Blow) - instant, 12s cooldown, same functionality as spell?
+Fire Spirit Companion added for SS (same as druid/ranger fire elemental companion)?
+Epic Spells gain a 2/day and 3/day version. Obviously not Vamp Feast. Any suggestions on which?
+
+* New Reserve Feat: Wind-Guided Arrows (requires Haze of Swirling Dust be memorized, grants +2 AB to ranged attacks).
+* New Spell: Haze of Swirling Dust (Ranger 3 only, 8rd duration, anyone in 20' burst area has 50% concealment, anyone in area takes 1d4 per 2 CL (max 5d4), Reflex save for half).
+
+[color=green]
+Holy Icon of War
+Type of Feat: Spellcasting
+Prerequisites: Warpriest level 10, Holy Warrior
+Benefit: Your Holy Warrior ability provides an additional +2 damage.
+
+Reward of Life
+Type of Feat: Spellcasting
+When you lay on hands, you are also healed.
+Prerequisite: Lay on hands class feature.
+Benefit: Each time you use your lay on hands ability to heal a
+creature other than yourself, you are healed as well. This ability has
+no effect if you use lay on hands to harm undead.
+
+Companion Barding
+You train your companion to wear a chain barding.
+Prerequisites: Natural Bond.
+Benefit: Your companion (telthor, animal, dino, elemental, dragon)
+gains a +5 armor enhance bonus.
+
+Wild Marksman
+Your bow is not your only companion.
+Prerequisites: Marksman 1, Natural Bond
+Benefit: Your Marksman level (-3) is added to your Ranger levels for
+determining your companions effectiveness.
+
+Battlefield Surveyor
+Your skill at studying the shifting tides of battle have improved your
+ability to hear or spot enemies.
+Prerequisites: Tracking, Scout 5
+Benefit: You gain a +1 bonus to Listen and Spot for every 3 levels of
+Scout and Wilderness Stalker.
+
+Epic Empty Body
+Prerequisites: Empty Body
+Benefit: A monk gains haste while using Empty Body. The duration of
+Empty Body is extended by his Wisdom modifier. Arcane Fist, Sacred
+Fist, and Spiritual Fist levels are treated as Monk levels.
+
+Extra Recall Spirit I
+Type of Feat: Spellcasting
+Prerequisite: Recall Spirit
+Benefit: You gain two extra daily uses of your recall spirit ability.
+
+Extra Recall Spirit II
+Type of Feat: Spellcasting
+Prerequisite: Recall Spirit
+Benefit: You gain four extra daily uses of your recall spirit ability.
+This feat replaces Extra Recall Spirit I.
+
+Warband Arcanist
+Type of Feat: Spellcasting
+Prerequisites: Sorcerer level 8, 16 Charisma
+Benefit: When you take levels in the Arcane Archer class, you gain
+sorcerer spellcasting progression at each odd level. This feat should
+be taken before your first level in arcane archer. Your Imbue Arrow
+abilitity will also add your Sorcerer level to your Arcane Archer
+level to determine damage. Casting Fireball as a sorcerer will cause
+you to regain a use of Imbue Arrow.
+
+Shadow Lyrist
+Type of Feat: Spellcasting
+Prerequisites: Bard level 8, 16 Charisma
+Benefit: When you take levels in Shadowdancer, you gain bard
+spellcasting progression at each odd level. This feat should be taken
+before your first level in shadowdancer. Each time you cast Darkness,
+Invisibility, or Shadow Conjuration as a bard you regain a use of
+Shadow Evade.
+
+Wildfire Blades
+Type of Feat: Spellcasting
+Prerequisites: Ranger 6, 14 Wisdom
+Benefit: When you take levels in Invisible Blade, you gain ranger
+spellcasting progression at each level. Your Blades of Fire spell
+causes any kukri or dagger you are wielding to gain 1d10 fire damage
+instead of 1d8.
+
+Blade of the Shadow
+Type of Feat: General
+Prerequisites: Shadowdancer, 2d6 Sneak Attack, BAB +6
+Benefit: You gain +1d6 dice of Sneak Attack at levels 4, 7, and 10 of
+Shadowdancer. Your Shadow Daze ability restores a use of Shadow Evade.
+[/color]
+
+Improved Stunning Fist (+2 DC), 10 feats. It was hidden in the 2da
+from NWN1 so I'm going to test if they actually still work in NWN2.
+
+New Feat: Rejuvenate Spirits
+You turn your spiritual energy into a healing wave for your allies.
+Prerequisites: Chastise Spirits
+Benefit: You may expend two uses of Chastise Spirits to generate a
+healing wave of energy that heals any allies (except yourself) within
+30' for a number of d4 equal to half your class level. This ability
+has no affect on the undead.
+
+New Feat: Selective Shaping
+Your mastery of magic has allowed you avoid your allies with your damage spells.
+Prerequisites: Empower Spell, Maximize Spell, Extend Spell
+Your spells no longer damage allies. Note that spells which hinder
+movement or similar effects are not affected by this ability.
+
+Master Healer
+Prerequisite: Imbued Healing, Healing Domain
+Benefit: All of your healing spells are maximized and then empowered.
+
+New Feat: Epic Diamond Soul
+Prerequisites: Diamond Soul
+Benefit: A monk gains spell resistance equal to his current monk level
++ 16. Arcane Fist, Sacred Fist, and Spiritual Fist levels are treated
+as Monk levels.
+
+New Feat: Epic Perfect Self
+Prerequisites: Perfect Self
+Benefit: A monk gains DR 10/Adamantine instead of DR 10/Magic.
+
+New Feat: Sacred Touch
+Your faith has granted you another use of your Lay on Hands ability.
+Prerequisites:
+Adds a third use of Lay on Hands (requires Paladin 5) and allows CotSF
+and Templar levels to count for Lay on Hands.
+
+New Feat: Crushing Blow
+Your focus allows you to smash your enemy's defenses.
+Prerequisites: Improved Unarmed Strike, Stunning Fist.
+Benefit: You can make a Stunning Fist attempt as a full-round action.
+If successful, instead of stunning your target, you reduce the
+target's AC by an amount equal to your Wisdom modifier for 1 minute
+(penalty may not exceed your Monk level). This bonus is cut in half if
+you multiclass.
+
+New Feat: Fist of the Heavens
+Your favor with the Gods has gifted you with the ability to wreathe
+your fists with sacred flames.
+Prerequisites: Ki strike (Adamantine), Intuitive Attack
+Benefit: You add your Wisdom modifier as Divine damage to your unarmed
+attacks (bonus may not exceed 1/2 your Monk level). This bonus is cut
+in half if you multiclass.
+
+New Feat: Fury of the Heavens
+Your favor with the Gods is such that you may channel some of their
+power into your attacks.
+Prerequisites: Ki Strike (Magic)
+Benefit: You can expend a use of Stunning Fist as a full-round action.
+Your BAB is treated as though the first 10 levels of Monk have a High
+BAB. This bonus lasts for 10 rounds plus your Wisdom modifier and will
+not work if you multiclass.
+
+New Feat: Sweeping Kick
+Your masterful legwork while fighting allows you to make a sweeping
+set of strikes to attempt to knockdown all foes within 5' of you.
+Prerequisites: Knockdown, Improved Knockdown, Monk 5
+Benefit: While unarmed, you make make a special Knockdown attempt
+against every foe within 5' of you. This ability has a 30s cooldown.
+
+New Feat: Heroic Swagger
+You swagger with the skill of a true hero that is not entirely based on bravado.
+Prerequisites: Swashbuckler 5
+Benefit: You gain the benefits of the Heroism spell at all times.
+These benefits improve to those of Greater Heroism once you obtain 13
+levels in Swashbuckler.
+Note: This feat has no effect if you have any fighter or weapon master levels.
+
+New Feat: Dazzling Combatant
+Your panache in battle coupled with your skill allows your improved
+reaction ability to last longer.
+Prerequisites: Improved Reaction, Swashbuckler Dodge
+Benefit: Your Improved Reaction ability now lasts 2 rounds for every
+level of Swashbuckler, Dervish, and Duelist you have.
+Note: This feat has no effect if you have any fighter or weapon master levels.
+
+New Feat: Dazzling Offense
+Your dazzling combat skills continue to improve, especially offensively.
+Prerequisites: Improved Reaction, Swashbuckler Dodge, Dazzling Combatant
+Benefit: You gain a bonus on attack rolls equal to half your
+Intelligence modifier (if any), maximum +4. This ability will not work
+if you have any levels in assassin.
+Note: This feat has no effect if you have any fighter or weapon master levels.
+
+New Feat: Swaggering Dance
+Your whirling dance of death takes on a new flair for the dramatic as
+you swagger about the battlefield.
+Prerequisites: Swashbuckler Dodge, Dervish Dance
+Benefit: For every 3 levels of Swashbuckler you have, your Dervish
+Dance bonus improves by +1 (maximum +5 bonus).
+Note: This feat has no effect if you have any fighter or weapon master levels.
+
+New Feat: Arcane Bloodline
+Your bloodline has a history of strong arcane magic.
+Prerequisites: Summon Familiar
+Benefit: You activate Reserve feats as though the highest spell level
+available was 2 higher than normal (maximum spell level of 9).
+
+Combat Focus
+Type of Feat: General
+The way of the warrior requires more than simple, brute strength. Some
+warriors bring their minds to such keen focus during the heat of
+battle that they can attain superhuman levels of endurance,
+perception, and mental toughness.
+Prerequisite: Wis 13
+Benefit: In battle, you push aside the chaos of the fight and attain a
+focused state that grants you a keen, clear picture of battle. The
+focus lasts for 10 rounds, +1 additional round per combat form feat
+you have and has a 3 minute cooldown on use.
+
+While you are maintaining your combat focus, you gain a +2 bonus on
+Will saves. If you have three or more combat form feats, this bonus
+increases to +4.
+Special: A fighter can select Combat Focus as one of his fighter bonus feats.
+Use: Selected.
+
+Combat Stability
+Type of Feat: General
+When you maintain your combat focus, you become difficult to disloge.
+Your muscles lock into an unyielding position.
+Prerequisite: Combat Focus, BAB +3
+Benefit: You gain immunity to knockdown while you maintain your combat focus.
+Special: A fighter can select Combat Stability as one of his fighter
+bonus feats.
+Use: Automatic.
+
+Combat Defense
+Type of Feat: General
+The state of keen focus and mental discipline you attain in combat
+allows you to shift the focus of your defense with careful, precise
+maneuvers.
+Prerequisite: Combat Focus, Dex 13, Dodge, BAB +6
+Benefit: While maintaining your combat focus, you gain a +1 dodge bonus to AC.
+Special: A fighter can select Combat Defense as one of his fighter bonus feats.
+Use: Automatic.
+
+Combat Vigor
+Type of Feat: General
+When you maintain your combat focus, your clarity of purpose and
+relentless drive allow you to overcome your body's frailties. Minor
+wounds heal in a matter of seconds, and you quickly recover from even
+a grievous blow.
+Prerequisite: Combat Focus, BAB +9
+Benefit: While you maintain your combat focus, you gain regeneration
+2. If you have three or more combat form feats, the benefit of this
+feat improves to regeneration 4.
+Special: A fighter can select Combat Vigor as one of his fighter bonus feats.
+Use: Automatic.
+
+Called Shot
+Type of Feat: General
+Your skill with ranged weapons lets you score hits others would miss
+due to an opponent's cover.
+Prerequisite: BAB +3, Point Blank Shot
+Benefit: Your target no longer benefits from concealment for two
+rounds. This ability is instant and has a five-round cooldown.
+Special: A fighter can select Called Shot as one of his fighter bonus feats.
+Use: Automatic.
+
+New Feat: Dirgesinger
+Your weave the oral history and traditions of your tribe into your
+bardic performances.
+Prerequisites: Rage 2/day, Bardsong 4/day
+Benefit: You add half your Barbarian levels (capped by your Bard
+level) to your Bard level to determine the effects of songs and
+inspirations you already know. This does not grant additional uses of
+bardsong or new songs.
+
+New Feat: Invulnerable Rager
+Some barbarians learn to take whatever comes their way, shrugging off
+mortal wounds with ease. These barbarians invite their enemies to
+attack them, and use pain to fuel their rage.
+Prerequisites: Rage 2/day
+Benefit: The invulnerable rager gains DR/— equal to half her barbarian
+level while raging. This DR does not stack with any other source.
+
+New Feat: Intimidating Prowess
+Your physical might is intimidating to others.
+Benefit: Add your Strength modifier to Intimidate skill checks in
+addition to your Charisma modifier.
+
+New Feat: Discordant Voice
+By singing out a precise tone, you cause discordant vibrations to run
+through allies' weapons.
+Prerequisites: Perform 10, Bard 1
+Benefit: You expend a use of bardsong to grant allies within 30' a 1d6
+sonic damage bonus to their melee attacks for 1 minute. This bonus
+does not affect you.
+
+New Feat: Diehard
+You are especially hard to kill. Not only do your wounds automatically
+stabilize when grievously injured, but you can remain conscious and
+continue to act even at death's door.
+Prerequisites: Toughness
+Benefit: Once per day you can prepare yourself against the trials to
+come. This preparation grants you a heal on death effect that will
+restore a number of points of health equal to half the total of your
+Survival and Heal skills.
+
+Spinning Halberd
+Type: General
+Prerequisite: Weapon Focus (Halberd), Dodge, Two-Weapon fighting
+Benefit: While wielding a Halberd with both hands, you gain a +1 dodge
+bonus to your Armor Class as well as an additional attack.
+
+Daring Buccaneer
+Type of Feat: General
+Prerequisite: Grace +1, Fearsome Reputation +2.
+Benefit: Your dread pirate and swashbuckler levels stack for the
+purpose of determining your competence bonus on Reflex saves from the
+grace class feature and the swashbuckler's dodge bonus to AC. For
+example, a 7th-level dread pirate/4th-level swashbuckler has grace +2
+and gains a +2 dodge bonus to AC, as if she were an 11th-level
+swashbuckler.
+Your dread pirate and swashbuckler levels also stack for the purpose
+of determining your dread pirate level for Fearsome Reputation. For
+example, a 7th-level dread pirate/4th-level swashbuckler would have
+Fearsome Reputation +6 as if she were an 10th-level dread pirate.
+You combine grace and brashness to deadly effect.
+
+Spellbreaker Song
+Type: Bardic Music
+Prerequisite: Bardic Music, Dissonant Chord 1
+Benefit: You can use your music to interfere with spells. Doing this
+costs one daily use of your bardic music ability. Enemy spellcasters
+within 30 feet of you suffer a 20% spell failure chance. This effect
+lasts for 3 rounds plus any other bardsong duration modifiers. This
+song will not stack with itself.
+Use: Selected.
+
+Dreadful Wrath
+Type: Background
+You are terrible to behold in battle, and few foes have the heart to
+face you without quailing.
+Benefit: Each enemy within a 20-foot radius of you must succeed on a
+Will save (DC 10 + 1/2 your character level + your Cha modifier) or be
+shaken (-2 Saves, -2 AC, -2 AB) for 1 minute. This ability does not
+affect those immune to fear.
+
+Roll With It I-VI
+Type: General
+Prerequisite: Con 20, Toughness
+Benefit: You gain damage reduction 2/-. This feat stacks with Epic
+Damage Reduction and Greater Resilience along with the highest single
+source of DR/- (Barbarian, Dwarven Defender, Dragonslayer, Anointed
+Knight, or Warrior of Darkness). You can gain this feat multiple
+times. Each time you gain the feat, your damage reduction increases by
+2, up to a maximum of 12/-.
+
+Imbued Healing
+Type: General
+Benefit: Whenever you cast a conjuration (healing) spell, you not only
+heal your subject of hit point damage, but you also grant them 1
+temporary hit point per level they possess. These temporary hit points
+last for up to 1 hour. This bonus does not apply to heals you cast on
+yourself. Affected spells are: x
+
+New Feat: Extra Invocation (Hideous Blow) - instant, 12s cooldown,
+same functionality as spell
+
+Fire Spirit Companion added for SS (same as druid/ranger fire
+elemental companion)?
+
+New Feat: Epic Rapid Reload
+Prerequisites: Rapid Reload, Ranger 20
+You gain an additional attack when using a crossbow. This extra attack
+does not stack with a Barbarian's Whirlwind Frenzy or a Bladesinger's
+Song of Fury.
+
+New Feat: Lightning Strikes Twice
+Prerequisites: Monk 5
+You gain an additional attack with unarmed attacks. At epic levels you
+add 2 points of electrical damage to your unarmed attacks. This is an
+activated ability with a 24 hour duration. If you multiclass, you will
+not gain the additional attack.
+
+New Feat: Improved Chastise Spirits
+You have become skilled enough with Chastise Spirits to harm
+non-spirits with your energy burst.
+Prerequisites: Ghost Warrior
+Benefit: Your Chastise Spirits ability will deal damage to enemies
+that are not spirits (excluding constructs).
+
+New Feat: Improved Weaken Spirits
+You have become skilled enough with Weaken Spirits to harm non-spirits
+with your ability.
+Prerequisites: Improved Chastise Spirits
+Benefit: Your Weaken Spirits will affect affect enemies that are not
+spirits (excluding constructs).
+
+New Feat: Energy Substitution (Fire) (also Cold, Electrical, and Acid)
+You can modify an energy-based spell to use another type of energy instead.
+Prerequisites: Lore 5, any metamagic feat.
+Benefit: Any spell you case with an elemental descriptor uses the
+chosen type of energy instead. For example, a fireball cast while
+Energy Substitution (Cold) is active will be composed of cold energy.
+Special: This is an activated feat and may be turned on or off. Only
+the last Energy Substition feat turned on will work (in the case of
+multiple energy substitution feats).
+
+Possible changes:
+Telthor companion gains a subradial where you can choose between
+telthor bear and telthor wolf.
+Improved Maximize Spell changed to +1 and not +2 spell level.
+
+Reckless Offensive
+Prerequisite: Base Attack Bonus +2, Power Attack.
+Benefit: This stance grants you a +2 attack bonus and -4 AC bonus. You
+cannot use Reckless Offensive with ranged attacks. This is an
+instantly activated ability and will last until it is cancelled.
+Special: Fighters may take this as a bonus feat.
+
+From Smite to Song
+Type: General
+Prerequisite: Perform 3, Smite Evil
+Benefit: You can spend a smite evil attempt to duplicate the effects
+of the inspire courage bardic music ability. Your effective bard level
+is equal to your paladin level.
+
+Imbued Healing
+Type: General
+Prerequisite: Augment Healing
+Benefit: Whenever you cast a conjuration (healing) spell, you not only
+heal your subject of hit point damage, but you also grant them 1
+temporary hit point per level they possess. These temporary hit points
+last for up to 1 hour.
+
+Fists of Iron
+Type: General
+Prerequisite: Improved Unarmed Strike, Stunning Fist, BAB +2
+Benefit: You deal an extra 1d6 points of blunt damage for 18 seconds.
+Each activation consumes one use of your Stunning Fist ability. This
+is an instantly activated ability.
+
+Fast Healer
+Type of Feat: General
+You benefit greatly from your healing, be it from spells or natural healing.
+Prerequisite: Con 13, Toughness, Diehard
+Benefit: When you regain hit points by resting or through magical
+healing, you recover additional hit points equal to half your Con
+modifier (minimum +1).
+Trigger Spells: Cure Critical Wounds, Mass Cure Critical Wounds, Mass
+Cure Light Wounds, Cure Moderate Wounds, Mass Cure Moderate Wounds,
+Cure Serious Wounds, Mass Cure Serious Wounds, Heal , Mass Heal, and
+Insignia of Healing
+
+Superior Summoning
+Type of Feat: Spellcasting
+You can summon more creatures.
+Prerequisites: Augment Summoning
+Benefit: Each time you cast a summoning spell you may summon an
+additional creature if the first one dies before the spell duration
+expires.
+
+Shield of Swings
+Type of Feat: General
+A wild frenzy of attacks serves to bolster your defenses.
+Prerequisites: Str 13, Power Attack, BAB +1
+Benefit: You suffer a -6 AB penalty and gain a +4 shield enhance
+bonus. This benefit lasts until cancelled.
+
+Steel Soul
+You are especially resistant to magic.
+Type of Feat: Background
+Prerequisites: Dwarf
+Benefit: You receive an additional +2 bonus on saving throws.
+
+Tiger Combat Style
+Type of Feat: General
+Prerequisites: Improved Unarmed Strike, Intimidate 3
+Benefit: You can deal bludgeoning damage or slashing damage with your
+unarmed strikes. You also inflict the wounding property on your foes.
+
+Tiger Ferocity
+Type of Feat: General
+Prerequisites: Tiger Combat Style, Intimidate 6
+Benefit: You add piercing damage to the damage types you can deal with
+your unarmed strikes. Further, you gain a +2 bonus on Demoralize
+Opponent checks as well as gain the feat itself if you do not already
+have it.
+
+Raging Knockdown
+Type of Feat: General
+You expend some of your rage to slam into your opponent with great force.
+Prerequisites: Str 13, Con 13, Rage, Improved Knockdown, Power Attack, BAB +6
+Benefit: You may expend a use of rage and make a special knockdown
+attempt with a bonus to the attempt equal to your Constitution bonus.
+You also deal blunt damage equal to your Strength modifier plus your
+Constitution modifier.
+
+Spirit of Fury
+Type of Feat: General
+Prerequisites: Rage, Power Attack, BAB +6, Str 18, Con 18
+Benefit: You have a 15% chance to gain an extra melee attack when you
+rage though you suffer a -4 AB penalty. This chance increases to 25%
+if you rage while already under the effects of Frenzy and the penalty
+is reduced to -2. This feat will not work if you have any fighter or
+weapon master levels.
+
+Blood of the Dragon
+Type of Feat: Spellcasting
+Prerequisites: Sorcerer level 8, 20 Charisma, Less than 12 Strength
+Benefit: When you take take levels in the Dragon Disciple class, you
+gain sorcerer spellcasting progression at each odd level. This feat
+should be taken before your first level in dragon disciple.
+
+Spirit Champion
+Type of Feat: Spellcasting
+Prerequisites: Spirit Shaman level 9, 18 Wisdom
+Benefit: When you take levels in Divine Champion, you gain spirit
+shaman spellcasting progression at each odd level. This feat should be
+taken before your first level in divine champion. Using Divine Wrath
+will restore a use of your Spirit Form ability.
+
+Shadow Master
+Type of Feat: General
+Prerequisites: Shadowdancer level 10
+Summon a shadow familiar with a BAB equal to yours. 18/22/26/30 HD
+
+Shadow of the Wild
+Type of Feat: Spellcasting
+Prerequisites: Ranger 6, Shadowdancer 1
+When you take levels in Shadowdancer, you gain ranger spellcasting
+progression at each level.
+
+Extra Shadow Evade
+Type of Feat: General
+Prerequisite: Shadowdancer 6
+Benefit: You gain two extra daily uses of your shadow evade ability.
+
+Shadowcaster
+Type of Feat: Spellcasting
+Prerequisite: Shadowdancer 9
+Benefit: You gain access to a small pool of shadow magic (six uses per
+day). You may cast Shield, Mage Armor, or Expeditious Retreat.
+
+Craft Spell - http://nwn2customcontent.wikidot.com/craft-spell
+
+Epic Supremacy
+Type of Feat: Epic
+Prerequisite: Fighter 26, Weapon Supremacy, any Melee Weapon Mastery feat
+Benefit: You gain an additional attack while wielding a melee weapon.
+Special: A fighter can select Epic Supremacy as one of his fighter bonus feats.
+Use: Automatic.
+
+Improved Ghost Strike
+Type of Feat: Epic
+Prerequisite: Ninja 20
+Benefit: Your Ghost Strike ability now affects all creatures. You now qualify for Epic Precision.
+
+Epic Brutality
+Type of Feat: Epic
+Prerequisite: Thug 26
+Benefit: You now qualify for Epic Precision.
+
+Epic Spell Mastery
+Type of Feat: Epic
+Prerequisite: Sorcerer 20
+Benefit: You gain a second use per day of any epic spell you know.
+
+Epic Spell Mastery
+Type of Feat: Epic
+Prerequisite: Wizard 20
+Benefit: You gain a second use per day of any epic spell you know.
+
+***
+
+Possible new feats:
+
+Epic Supremacy
+Type of Feat: Epic
+Prerequisite: Fighter 26, Weapon Supremacy, any Melee Weapon Mastery feat
+Benefit: You gain an additional attack while wielding a melee weapon.
+Special: A fighter can select Epic Supremacy as one of his fighter bonus feats.
+Use: Automatic.
+
+Improved Ghost Strike
+Type of Feat: Epic
+Prerequisite: Ninja 20
+Benefit: Your Ghost Strike ability now affects all creatures. You now qualify for Epic Precision.
+
+Epic Brutality
+Type of Feat: Epic
+Prerequisite: Thug 26
+Benefit: You now qualify for Epic Precision.
+
+Epic Spell Mastery
+Type of Feat: Epic
+Prerequisite: Sorcerer 20
+Benefit: You gain a second use per day of any epic spell you know.
+
+Epic Spell Mastery
+Type of Feat: Epic
+Prerequisite: Wizard 20
+Benefit: You gain a second use per day of any epic spell you know.

@@ -1,0 +1,161 @@
+Standard disclaimer: this is a sneak preview of possible upcoming content. It is subject to change at a moments notice. The "extra" feats have not yet been vetted and I haven't run the numbers via my spreadsheets on the class as I need to yet.
+
+Knight
+
+A knight is a proud, skilled melee combatant who fights in the name of honor and chivalry. A knight relies on more than a sharp sword and a stout suit of armor to defeat her foes. Her drive, determination, and fighting spirit allow her to control the battlefield in ways that others cannot match. A knight can challenge an opponent to a duel, calling upon the foe's pride and ego to force his hand. The knight's talent with heavy armor, shields, and defensive tactics grant her the ability to disrupt her foe's plans. Only the most talented rogues and monks can slip past a knight's defenses to strike at her allies. An adventuring group with wizards, sorcerers, and other lightly armored members thrives with the assistance of a knight. While the knight keeps enemies occupied, her allies can use their talents and abilities without fear of attack or harassment.
+
+Alignment: Any Lawful.
+
+Class Features
+
+HD: d12
+BAB: High
+High Saves: Fort, Will
+Weapon proficiency: Simple and Martial.
+Armor proficiency: All armor and shields (excluding tower shields).
+
+Class Skills: Appraise, Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Listen, Lore, Parry, Spot, Taunt, and Tumble
+Skill Points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Knight's Challenge, Battle Fervor +1, Demoralize Opponent
+Level 2: Bonus Feat, Shield Block +1
+Level 3: Exotic Weapon Proficiency
+Level 4: Heavy Armor Optimization
+Level 5: Deflect Arrows
+Level 6: Rescue
+Level 7: Battle Fervor +2
+Level 8: Call to Battle
+Level 9: Greater Heavy Armor Optimization
+Level 10: Bonus Feat
+Level 11: Shield Block +2
+Level 12: Daunting Challenge
+Level 13: Battle Fervor +3
+Level 14: Improved Rescue
+Level 15: Bonus Feat
+Level 16: Indomitable Soul
+Level 17: Epic Resilience
+Level 18:
+Level 19: Battle Fervor +4
+Level 20: Bonus Feat, Shield Block +3
+Level 21:
+Level 22:
+Level 23: Epic Bonus Feat
+Level 24:
+Level 25: Battle Fervor +5, Epic Deflection
+Level 26: Epic Bonus Feat
+Level 27:
+Level 28:
+Level 29: Shield Block +4, Epic Bonus Feat
+Level 30: Battle Fervor +6, Epic Bonus Feat
+
+Knight's Challenge: Your dauntless fighting spirit plays a major role in your fighting style, as important as the strength of your arm or the sharpness of your blade. in battle, you use the force of your personality to challenge your enemies. You can call out foes or issue a general challenge that strikes fear into weak opponents. By playing on your enemies' ego, you can manipulate your foes.
+
+You can use this ability a number of times per day equal to your class level. As you gain levels, you gain a number of options that consume uses of this ability.
+
+***
+
+Battle Fervor: As a swift action, you can issue a challenge to your enemies, gaining a +1 bonus on Will saves, attack rolls, and damage rolls. The effect lasts for a number of rounds equal to 5 + your Charisma bonus (if any). This expends one use of your Knight's Challenge ability. This bonus does not stack with a bard's Inspire Courage or any marshal auras that affect attack rolls, damage rolls, or Will Saves.
+
+At 7th level, the bonus you gain from this ability increases to +2. At 13th level, it rises to +3. At 19th level, it increases to +4. At 25th level, it increases to +5. At 30th level, it increases to +6.
+
+***
+
+Call to Battle: Starting at 8th level, you become an inspiring figure on the battlefield. When all seems lost, you are a beacon of hope who continues to fight on despite the odds. No cause is yet lost when a knight still battles on in its name. You become immune to fear.
+
+As a swift action, you can expend one use of your Knight's Challenge ability to grant an ally a bonus against fear effects equal to your Charisma modifier as well as a number of temporary hit points equal to your knight level. If the ally's current hit point total is less than half his normal hit points, the number of temporary hit points granted to that character is doubled. The temporary hit points last for up to 1 minute per knight level.
+
+***
+
+Starting at 12th level, a knight can issue a daunting challenge as a swift action. Like a test of mettle, this is a general challenge to all foes within 100 feet. Affected creatures must make Will saves (DC 10 + 1/2 knight level + the knight's Cha modifier). Creatures that fail this save are shaken.
+
+***
+
+Shield Block -> Base Shield AC + Shield Block +Shield enhance +Shield Specialization= bonus as DR/-
+Enhance bonus may not exceed the base Shield Block value (maximum +4 at 29th).
+
+***
+
+Improved Rescue: Blocks 100% of damage dealt to allies, knight takes 80% of the damage.
+
+***
+
+Possible New Feats:
+Called Shot
+Shield Ward (No disarm/knockdown, expends a challenge use, lasts 10+Cha rounds)
+Spell Ward (gain SR 5 + character level + total shield AC, expends a challenge use, lasts 10+Cha rounds)
+Combat Focus
+Combat Vigor
+Combat Stability
+Combat Awareness
+Combat Defense
+Dreadful Wrath
+Hero's Call (Call to Battle temp HP always doubled)
+Inspiring Ferver (your Battle Fervor affects allies within 30')
+Improved Fervor (your Battle Fervor bonus increases by +1)
+Extra Knight's Challenge I,II,III
+Lasting Challenge I (+5 rounds to the duration), Affects all feats that expend a challenge
+Lasting Challenge II (+5 rounds to the duration), Affects all feats that expend a challenge
+Shield Bash (Damaging knockdown attempt, deals d6 + Enhance bonus + Str mod blunt, one attempt per BAB granted attack until one succeeds, 6s knockdown)
+Shield Specialization (+1 Shield AC, stacks, requires Knight 2)
+Greater Shield Specialization (+2 Shield AC, stacks, replaces Shield Spec, requires Knight 11)
+Epic Shield Specialization (+3 Shield AC, stacks, replaces Greater Shield Spec, requires Knight 20)
+Parrying Shield (-Shield AC, +Deflection AC, stacks with other item based deflection AC)
+Force of Personality (Cha instead of Wis for Will saves)
+Heroic Deflection (5% concealment vs Ranged per point of shield AC, 50% max)
+Intercept (allies within 15' gain evasion, expends a challenge use, lasts 10+Cha rounds)
+Shieldmate (allies within 15' gain +1 shield AC, +2 if using a tower shield, expends a challenge use, lasts 10+Cha rounds)
+Improved Shieldmate (+1 Shieldmate bonus)
+Epic Shieldmate (+2 Shieldmate bonus, replaces Improved, also grants Reflex save bonus equal to AC bonus)
+Rejuvenating Call (use two charges of Knight's Challenge to heal allies within 30' - value equal to knight level plus cha mod, double that if they are below 50% and you have the Hero's Call feat )
+
+Combat Focus
+Type of Feat: General
+The way of the warrior requires more than simple, brute strength. Some warriors bring their minds to such keen focus during the heat of battle that they can attain superhuman levels of endurance, perception, and mental toughness.
+Prerequisite: Wis 13
+Benefit: In battle, you push aside the chaos of the fight and attain a focused state that grants you a keen, clear picture of battle. The focus lasts for 10 rounds, +1 additional round per combat form feat you have and has a 3 minute cooldown on use.
+
+While you are maintaining your combat focus, you gain a +2 bonus on Will saves. If you have three or more combat form feats, this bonus increases to +4.
+Special: A fighter can select Combat Focus as one of his fighter bonus feats.
+Use: Selected.
+
+Combat Stability
+Type of Feat: General
+When you maintain your combat focus, you become difficult to disloge. Your muscles lock into an unyielding position.
+Prerequisite: Combat Focus, BAB +3
+Benefit: You gain immunity to knockdown while you maintain your combat focus.
+Special: A fighter can select Combat Stability as one of his fighter bonus feats.
+Use: Automatic.
+
+Combat Defense
+Type of Feat: General
+The state of keen focus and mental discipline you attain in combat allows you to shift the focus of your defense with careful, precise maneuvers.
+Prerequisite: Combat Focus, Dex 13, Dodge, BAB +6
+Benefit: While maintaining your combat focus, you gain a +1 dodge bonus to AC.
+Special: A fighter can select Combat Defense as one of his fighter bonus feats.
+Use: Automatic.
+
+Combat Vigor
+Type of Feat: General
+When you maintain your combat focus, your clarity of purpose and relentless drive allow you to overcome your body's frailties. Minor wounds heal in a matter of seconds, and you quickly recover from even a grievous blow.
+Prerequisite: Combat Focus, BAB +9
+Benefit: While you maintain your combat focus, you gain regeneration 2. If you have three or more combat form feats, the benefit of this feat improves to regeneration 4.
+Special: A fighter can select Combat Vigor as one of his fighter bonus feats.
+Use: Automatic.
+
+Combat Awareness
+Type of Feat: General
+When you maintain your combat focus, you have an uncanny ability to sense the ebb and flow of your opponents location.
+Prerequisite: Combat Focus, BAB +12
+Benefit: While maintaining your combat focus, you gain the benefit of the Blind-Fight feat.
+Special: A fighter can select Combat Awareness as one of his fighter bonus feats.
+Use: Automatic.
+
+Called Shot
+Type of Feat: General
+Your skill with ranged weapons lets you score hits others would miss due to an opponent's cover.
+Prerequisite: BAB +3, Point Blank Shot
+Benefit: Your target no longer benefits from concealment for one round. This ability is instant and has a two-round cooldown.
+Special: A fighter can select Called Shot as one of his fighter bonus feats.
+Use: Automatic.

@@ -1,0 +1,59 @@
+Sentinel Of Bharrai
+
+Sentinel Of Bharrai
+
+Respect for the power of nature, the desire to further the ends of good, and the resolve to destroy evil are the core beliefs of the sentinels of Bharrai, strong-willed spellcasters who venerate "The Great Bear of Elysium." Their initiates hail primarily from the ranks of wizards, although sorcerers, druids, and clerics may also become sentinels.
+
+The sentinels of Bharrai hold nature as the ultimate force for good. Though lightning may kill trees and hurricanes may destroy small villages, the lightning ignites fires that cleanse the forest of rotting foliage and the hurricane teaches how to better fortify a shelter. Sentinels of Bharrai appreciate nature in all its forms, from the tranquil beauty of an undisturbed forest to the ferocious wrath of a tornado. The also harness the power of nature to cast down evil.
+
+Requirements
+
+Alignment: Any good.
+Skills: Lore 8, Spellcraft 8, Survival 8
+Feats: Sacred Vow
+
+Class Features
+
+HD: d4
+BAB: Low
+High Saves: Will
+Weapon and Armor proficiency: None
+
+Class Skills: Craft Weapon, Craft Armor, Craft Alchemy, Concentration, Heal, Lore, Spellcraft, survival, and Use Magic Device.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Track, Spellcasting Progression
+Level 2: Energy Resistance 10 (Electricity)
+Level 3: Bear Shape, Call Lightning 2/day
+Level 4: Energy Resistance 10 (Cold)
+Level 5: Nature's Veil (Hide in Plain Sight bonus feat)
+Level 6: Energy Resistance 10 (Fire)
+Level 7: Dire Bear Shape, Ursinal's Touch
+Level 8: Energy Resistance 10 (Acid)
+Level 9: Cavalry of Dire Bears 1/day
+Level 10: Lightning Storm 2/day
+
+Spellcasting: At each level, a sentinels of Bharrai gains new spells per day as if he had also gained a level in a spell-casting class to which he belonged before adding the prestige class level.
+
+Track: A 1st-level sentinel of Bharrai gains the Track feat as a bonus feat.
+
+Energy Resistance 10: A sentinel of Bharrai is resistant to certain forces of nature and the damage they wreak. At 2nd level, and again at 4th level, 6th level, and 8th level, a sentinel of Bharrai gains resistance 10 against one of four energy types (acid, cold, electricity, or fire).
+
+Bear Shape: At 3rd level, the sentinel of Bharrai gains the ability to turn himself into a bear (and back again). The selected bear form's Hit Dice cannot exceed the sentinel of Bharrai's character level. This ability takes a standard action and can be used at will. While in Bear Form the sentinel has the effects of the Natural Spell feat and can cast spells while polymorphed.
+
+Call Lightning: At 3rd level, a sentinel of Bharrai can cast call lightning twice per day. Use the sentinel of Bharrai's character level to determine the spell's effect.
+
+Nature's Veil: The Sentinel of Bharrai gains the Hide in Plain Sight feat.
+
+Dire Bear Shape: At 7th level, a sentinel of Bharrai can turn himself into a dire bear and back again. This ability is otherwise the same as the bear form ability gained at 3rd level.
+
+Ursinal's Touch: A sentinel of Bharrai gains great healing powers at 7th level. This ability works just like the paladin's lay on hands ability, except that the sentinel of Bharrai can heal as much damage per day as his own undamaged hit point total.
+
+Cavalry of Dire Bears: Once per day beginning at 9th level, a sentinel of Bharrai may call a dire bear with maximum hit points (147 hp) to aid him in battle. The dire bear remains until one minute per class level has expired at which point they disperse into the wild.
+
+Lightning Storm: At 10th level, a sentinel of Bharrai can cast a lightning storm spell twice per day. Use the sentinel of Bharrai's character level to determine the spell's effects.
+
+NOTE
+This PrC has been changed from PnP by granting the lightning spells twice a day since quickened spells are not doable. Cavalry of Dire Bears was changed from 1d6 bears summoned once per week to 1 bear summoned each day.

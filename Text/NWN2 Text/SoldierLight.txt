@@ -1,0 +1,51 @@
+
+[color=#339933][size=14][b]Soldier of Light[/b][/size][/color]
+
+[spoiler]
+<color=Gold><b>Soldier of Light</b></color>
+
+<color=Red>(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)</color>
+
+The Soldiers of Light are a military order dedicated to open warfare against the minions of their church's enemies.
+
+This is a 10 level prestige class.
+
+<color=Gold>Requirements:</color>
+
+<b>Alignment:</b> Any non-evil, non-chaotic. May not be true neutral.
+<b>BAB</b> +5
+<b>Skills:</b> Spellcraft 4.
+
+<color=Gold>Class Features:</color>
+
+- <b>Hit Die:</b> d10
+- <b>Base Attack Bonus:</b> High.
+- <b>High Saves:</b> Ref, Will.
+- <b>Weapon Proficiencies:</b> All simple and martial weapons.
+- <b>Armor Proficiencies:</b> All types of armor and all types of shields.
+- <b>Skill Points:</b> 2 + Int modifier.
+- <b>Class Skills:</b> Concentration, Craft Weapon, Craft Armor, Diplomacy, Heal, Lore, Parry, and Spellcraft.
+
+<color=Gold>Class Abilities:</color>
+
+Level 1: Spellcasting Progression, Turn Undead
+Level 2: Divine Grace
+Level 3: Positive Fortitude
+Level 4: Bonus Feat (Extra Turning)
+Level 5: Bonus Feat (Divine Vengeance)
+Level 6: 
+Level 7: Fast Healing 1
+Level 8: Positive Energy Burst
+Level 9: 
+Level 10: Fast Healing 2
+
+- <b>Turn Undead:</b> Soldier of light levels stack with all other classes for the purpose of turning undead.
+
+- <b>Spellcasting:</b> At each level, a solider of light gains new spells per day (and spells known, if applicable) as if she had also gained a Paladin level.
+
+- <b>Positive Fortitude:</b> A soldier of light of at least 3rd level gains +2 bonus on all saving throws against necromantic spells or effects.
+
+- <b>Fast Healing:</b> At 7th level, the positive energy infusing the soldier of light body allow him to heal his wounds quickly. At the beginning of each of his turns, he heals 1 hit point. At 10th level, the soldier of light heals 2 hit points per round.
+
+- <b>Positive Energy Burst:</b> In lieu of two normal turning attempts, a soldier of light of at least 8th level can create a positive energy burst that deals 1d6 points of damage per class level to all undead creatures within 100 feet of the character. Undead are allowed a Reflex save (DC 10 + effective turn undead level) for half damage.
+[/spoiler]

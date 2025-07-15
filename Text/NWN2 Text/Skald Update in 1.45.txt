@@ -1,0 +1,107 @@
+Now that Skald has settled a bit I asked a few Skald players (those that responded) for some feedback on the class and how it plays. The feats I've drawn up were some that I identified as a good fit and made some adjustments based on the player feedback.
+
+For reference, the Skald class:
+
+[spoiler="Skald"]<color=Gold><b>Skald</b></color>
+
+Accompanying heroes of great renown, warrior skalds fight at their sides while composing the epics that will be told for centuries to come.
+
+This is a base class.
+
+<color=Gold>Requirements:</color>
+
+- <b>Alignment:</b> Any non-Lawful
+
+<color=Gold>Class Features:</color>
+
+- <b>Hit Die:</b> d8
+- <b>Base Attack Bonus:</b> High.
+- <b>High Saves:</b> Fortitude, Ref.
+- <b>Weapon Proficiencies:</b> Simple and Martial weapons.
+- <b>Armor Proficiencies:</b>  Light and Medium armor, all Shields (except Tower shields).
+- <b>Skill Points:</b> 6 + Int modifier per level, x4 at first level.
+- <b>Class Skills:</b> Appraise, Bluff, Craft (alchemy, armor, trap, weapon), Diplomacy, Heal, Intimidate, Listen, Lore, Parry, Perform, Sleight of Hand, Spot, Survival, Taunt, Tumble and Use Magic Device. 
+
+<color=Gold>Class Abilities:</color>
+Level 1: Inspire Heroics (Show of Arms), Adrenaline Boost (3 minute cooldown)
+Level 2: Dash
+Level 3: Evasion
+Level 4: Demoralize Opponent
+Level 5: Bonus Feat
+Level 6: Inspire Heroics (Health)
+Level 7:
+Level 8: Defensive Roll
+Level 9:
+Level 10: Bonus Feat
+Level 11: Inspire Heroics (Protection), Adrenaline Boost (2 minute cooldown)
+Level 12:
+Level 13: Improved Evasion
+Level 14:
+Level 15: Bonus Feat
+Level 16: Inspire Heroics (Clarity)
+Level 17:
+Level 18: Slippery Mind
+Level 19:
+Level 20: Bonus Feat
+Level 21: Inspire Heroics (Cover), Adrenaline Boost (1 minute cooldown)
+Level 22:
+Level 23: Bonus Epic Feat
+Level 24:
+Level 25: Bonus Feat
+Level 26: Inspire Heroics (Excellence), Bonus Epic Feat
+Level 27:
+Level 28:
+Level 29: Bonus Epic Feat
+Level 30: Bonus Feat
+
+Skalds gain a bonus epic feat at 23rd, 26th, and 29th level.
+
+- <b>Adrenaline Boost:</b> You can exhort your allies to discover a reservoir of energy they didn't think they had. As a standard action, you can grant temporary hit points equal to your skald level to all of your allies within 50 feet (but not to yourself). If the ally's current hit point total is no more than half his full normal hit points, the number of temporary hit points granted to that character is doubled. The temporary hit points last for up to 1 minute per skald level. This ability has a 3 minute cooldown. The cooldown becomes 2 minutes at 11th level and 1 minute at 21st level.
+
+- <b>Inspire Heroics (Show of Arms)</b> - A skald can use song or poetics to inspire heroics in her allies (including herself), improving their combat abilities. Your inspiration grants a +2 enhance bonus to Strength and Dexterity with an additional +1 for every 5 skald levels (maximum +6 at 20th). Inspire Heroics will not stack with Inspire Defense from a bard. Inspire Heroics counts as singing a bard song and will stop any other inspirations that are active when started (and will be stopped if a bardic inspiration is started).
+
+- <b>Inspire Heroics (Health)</b> - Your inspire heroics ability now also provides 1 point of regeneration every round in addition to the previous effects. This improves to 2 points at 16th and 3 points at 26th level.
+
+- <b>Inspire Heroics (Protection)</b> - Your inspire heroics ability now also provides 1 point of dodge AC in addition to the previous effects. This improves to +2 AC at 18th and +3 AC at 25th level.
+
+- <b>Inspire Heroics (Clarity)</b> - Your inspire heroics ability now also provides +1 enhance bonus to Intelligence, Wisdom, and Charisma for every 5 skald levels (maximum +6 at 30th) in addition to the previous effects.
+
+- <b>Inspire Heroics (Cover)</b> - Your inspire heroics ability now also provides 5% concealment in addition to the previous effects. This improves to 10% at 28th level.
+
+- <b>Inspire Heroics (Excellence)</b> - Your inspire heroics ability now also provides +2 to all skills in addition to the previous effects. This improves to +3 at 30th level.[/spoiler]
+
+Tweak #1 - Adrenaline Boost text no longer no mentions the Skald is not affected. He is, as it should be in pnp (where Adrenaline Boost is from) since I made tweaks to tone it down from what I was going to give the Skald originally. I forgot the remove that part of the text.
+
+Tweak #2 - Adrenaline Boost grants 10 + Skald level temporary hit points instead of just Skald level (+10 points) making the ability useful even at level 1 (as 1 HP is incredibly weak for a 3 minute timer).
+
+Tweak #3 - The class will get a small text section indicating what to do to fix your character if your timer for Adrenaline Boost bugs out. Right click your character and use your ability from that GUI. This is a change I'd like to slowly roll out to any class/feat that has a timer. Common knowledge is apparently now as common as I thought for folks knowing how to fix it.
+
+The new feats are meant to address quality of life issues and to improve them a bit while still keeping them much less of a powerhouse than a bard, cleric, druid, etc. The stun/silence immunities are there strictly because the class is 100% deprived of all function when stunned or silenced. They don't have spells, divine might/shield, etc to fall back on like Bards who are silenced. Stun breaks the inspiration and causes the player to waste two rounds "recasting" just like an inspiration. Not much I can do to fix that problem, it's an engine issue as I've given it a go many times already. 
+
+Six new feats will gut most feat selections from 1-20 which could be a little limiting so I may need to cull the number down a bit? The downside of that is these feats become that much stronger for every one cut. Or some of them could be moved to the class baseline.
+
+New Feat: Hero's Call
+You drive your allies even harder with tales of the greatest heroes in the land.
+Prerequisites: Skald 1
+Benefit: Your adrenaline boost ability now always provides twice the bonus as though you and your allies were always below 50% health.  In addition, your allies (but not yourself) gain a +1 bonus to Dodge AC. In addition, you are now immune to silence.
+
+New Feat: Improved Hero's Call
+You personalize your encouragement to your allies, driving them on as though they were the great heroes.
+Prerequisites: Skald 1
+Benefit: Your adrenaline boost ability now always provides twice the bonus as though you and your allies were always below 50% health. If they actually are below 50% health they instead gain three times the bonus. In addition, your allies (but not yourself) gain a +1 bonus to Dodge AC and attack bonus.
+
+New Feat: Inspire Heroics (Aggression)
+Prerequisites: Skald 1
+Benefit: Your inspire heroics ability now also provides 2 point of bonus magic damage on attacks. This improves to 3 points at 11th and 4 points at 21st level.
+
+New Feat: Improved Inspire Heroics
+Prerequisites: Skald 5
+Benefit: Your Inspire Heroics (Health) ability now provides an additional point of regeneration. Your Inspire Heroics (Aggression) ability now provides an additional point of damage.  Your Inspire Heroics (Protection) ability now provides an additional point of Dodge AC. Your Inspire Heroics ability now provides +1 to Will saves for every seven levels of Skald (maximum +4 at 28th).
+
+New Feat: Greater Inspire Heroics
+Prerequisites: Skald 11
+Benefit: Your Inspire Heroics (Show of Arms) ability now provides an additional +2 enhance bonus to Strength and Dexterity. Your Inspire Heroics ability now provides +1 to Will saves for every five levels of Skald (maximum +6 at 30th). This bonus to Will saves replaces the bonus gained from Improved Inspire Heroics.
+
+New Feat: Inspire Heroics (Toughness)
+Prerequisites: Skald 1
+Benefit: Your inspire heroics ability now also provides 1% physical damage immunity for every 2 levels of Skald (maximum +15% to blunt, piercing, and slashing at 30th level). You become immune to being stunned.

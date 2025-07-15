@@ -1,0 +1,622 @@
+This is a work in progress so keep that firmly in mind! Feedback is of course desired.
+
+[spoiler="Alchemy - Craft Alchemy Skill"]
+All recipes require a mold (5 gold * skill required in cost, one mold per item listed below), an alchemical crafting station, and a pestle used on the station that has the mold (the only ingredient).
+
+Craft Alchemy skill gives a +1 damage per 5 ranks and +1 DC per 10 ranks.  There is a 1% chance per rank of Craft Alchemy above the required skill to craft a second, free item with each crafting attempt. Example, a 30 skill character crafting a Lesser Acid Flask has a 26% chance to craft 2 flasks for the price of 1.
+
+Lesser Acid Flask, 1d4 Acid, 4 Skill
+Acid Flask, 1d8 Acid, 8 Skill
+Improved Acid Flask, 2d6 Acid, 12 Skill
+Greater Acid Flask, 3d6 Acid, 16 Skill
+Master Acid Flask, 4d6 Acid, 20 Skill
+Perfected Acid Flask, 5d6 Acid, 24 Skill
+Epic Acid Flask, 6d6 Acid, 28 Skill
+
+**
+
+Lesser Incendary Flask, 1d6 Fire, 4 Skill
+Incendary Flask, 2d6 Fire, 8 Skill
+Improved Incendary Flask, 3d6 Fire, 12 Skill
+Greater Incendary Flask, 4d6 Fire, 16 Skill
+Master Incendary Flask, 5d6 Fire, 20 Skill
+Perfected Incendary Flask, 6d6 Fire, 24 Skill
+Epic Incendary Flask, 7d6 Fire, 28 Skill
+
+**
+
+Lesser Bottled Hellrime, 1d6 Cold, 4 Skill
+Bottled Hellrime, 2d6 Cold, 8 Skill
+Improved Bottled Hellrime, 3d6 Cold, 12 Skill
+Greater Bottled Hellrime, 4d6 Cold, 16 Skill
+Master Bottled Hellrime, 5d6 Cold, 20 Skill
+Perfected Bottled Hellrime, 6d6 Cold, 24 Skill
+Epic Bottled Hellrime, 7d6 Cold, 28 Skill
+
+**
+
+Lesser Bottled Lightning, 1d6 Electrical, 4 Skill
+Bottled Lightning, 2d6 Electrical, 8 Skill
+Improved Bottled Lightning, 3d6 Electrical, 12 Skill
+Greater Bottled Lightning, 4d6 Electrical, 16 Skill
+Master Bottled Lightning, 5d6 Electrical, 20 Skill
+Perfected Bottled Lightning, 6d6 Electrical, 24 Skill
+Epic Bottled Lightning, 7d6 Electrical, 28 Skill
+
+**
+
+Lesser Thunderstone, 1d4 Sonic plus DC 15 Deafen (5 rds) , 4 Skill
+Thunderstone, 1d6 Sonic plus DC 18 Deafen (5 rds) , 8 Skill
+Improved Thunderstone, 2d4 Sonic plus DC 21 Deafen (5 rds) , 12 Skill
+Greater Thunderstone, 2d6 Sonic plus DC 24 Deafen (5 rds) , 16 Skill
+Master Thunderstone, 3d4 Sonic plus DC 27 Deafen (5 rds) , 20 Skill
+Perfected Thunderstone, 3d6 Sonic plus DC 30 Deafen (5 rds) , 24 Skill
+Epic Thunderstone, 4d6 Sonic plus DC 33 Deafen (5 rds) , 28 Skill
+
+**
+
+Lesser Tanglefoot Bag, DC 15 Entangle (5 rds) , 4 Skill
+Tanglefoot Bag, DC 20 Entangle (5 rds) , 8 Skill
+Improved Tanglefoot Bag, DC 25 Entangle (5 rds) , 12 Skill
+Greater Tanglefoot Bag, DC 30 Entangle (5 rds) , 16 Skill
+Master Tanglefoot Bag, DC 35 Entangle (5 rds) , 20 Skill
+Perfected Tanglefoot Bag, DC 40 Entangle (5 rds) , 24 Skill
+Epic Tanglefoot Bag, DC 45 Entangle (5 rds) , 28 Skill
+
+**
+
+Lesser Choking Powder, DC 15 Sicken (5 rds) , 4 Skill
+Choking Powder, DC 20 Sicken (5 rds) , 8 Skill
+Improved Choking Powder, DC 25 Sicken  (5 rds) , 12 Skill
+Greater Choking Powder, DC 30 Sicken  (5 rds) , 16 Skill
+Master Choking Powder, DC 35 Sicken  (5 rds) , 20 Skill
+Perfected Choking Powder, DC 40 Sicken  (5 rds) , 24 Skill
+Epic Choking Powder, DC 45 Sicken  (5 rds) , 28 Skill
+
+Sickened. The character takes a -2 penalty on all attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks.
+
+**
+
+Lesser Holy Water Vial, 1d6 Holy vs Undead, 4 Skill
+Holy Water Vial, 2d6 Holy vs Undead, 8 Skill
+Improved Holy Water Vial, 3d6 Holy vs Undead, 12 Skill
+Greater Holy Water Vial, 4d6 Holy vs Undead, 16 Skill
+Master Holy Water Vial, 5d6 Holy vs Undead, 20 Skill
+Perfected Holy Water Vial, 6d6 Holy vs Undead, 24 Skill
+Epic Holy Water Vial, 7d6 Holy vs Undead, 28 Skill
+
+**
+
+Lesser Flash Powder, Invisibility (3 rds) , 4 Skill
+Flash Powder,  Invisibility (3 rds) , 8 Skill
+Improved Flash Powder,  Invisibility (3 rds) , 12 Skill
+Greater Flash Powder,  Invisibility (3 rds) , 16 Skill
+Master Flash Powder,  Invisibility (3 rds) , 20 Skill
+Perfected Flash Powder,  Invisibility (3 rds) , 24 Skill
+Epic Flash Powder,  Invisibility (3 rds) , 28 Skill
+Cost is 20x normal for these molds.
+
+The flash powders add a sanctuary effect with a DC equal to the craft amount.
+**
+
+Cinderfire, +1 fire damage on a weapon (lasts 3 minutes), 4 Skill
+Gains +1 rd per rank of alchemy up to a maximum of +40 rounds.
+
+**
+
+Healing Kit +1, 3 Skill
+Healing Kit +3, 9 Skill
+Healing Kit +6, 15 Skill
+Healing Kit +9, 21 Skill
+Healing Kit +12, 27 Skill
+Cost is 50% of the store cost for a similar kit.
+
+***
+
+Any other alchemy style items you would like to see?
+
+***
+
+Craft Alchemy skill gives a +1 damage per 5 ranks and +1 DC per 10 ranks. There is a 1% chance per rank of Craft Alchemy above the required skill to craft a second, free item with each crafting attempt. Example, a 30 skill character crafting a Lesser Acid Flask has a 26% chance to craft 2 flasks for the price of 1.
+
+Lesser Acid Flask, 1d4 Acid, 4 Skill
+Epic Acid Flask, 6d6 Acid, 28 Skill
+
+A character with a 30 skill would create a lesser acid flask that does 1d4 +6 damage.
+A character with a 100 skill would create a lesser acid flask that does 1d4 +20 damage.
+A character with a 30 skill would create a Epic acid flask that does 6d6 +6 damage.
+A character with a 100 skill would create a Epic acid flask that does 6d6 +20 damage.
+
+To be honest I never thought about the DC for the grenades so they should probably have a reflex DC save equal to the crafter's skill. I was probably thinking that they wouldn't have a DC at all (no save).
+[/spoiler]
+
+[spoiler="Alcohol"]
+For the tasteful alcoholic:
+
+Beer - 6 pieces
+
+Malted Barley
+Brewer's Yeast
+Hops
+Distilled Water
+Barrel*
++
+Ale Process or
+Mead Process or
+Wheat Process or
+Stout Process or
+Porter Process or
+Pale Ale Process or
+Cider Process or
+
+
+Wine - 6 pieces
+White Grapes or
+Red Grapes
++
+Brewer's Yeast
+Distilled Water
+Still*
+Barrel*
++
+Mead Process (White) or
+Cabernet Process (Red) or
+Sauvignon Process (Red) or
+Merlot Process (Red) or
+Pinot Grigio Process (White) or
+Pinot Noir Process (Red) or
+Champagne Process (White)
+
+* = reusable item, not lost when crafting.
+
+Brandy - 2 pieces
+Mead
+Brandy Process
+
+Whisky - 6 pieces
+Still*
+Barrel*
+Brewer's Yeast
+Malt
+Sugar
+Whisky Process or
+[/spoiler]
+
+[spoiler="Ammo/Thrown Weapon Crafting - Craft Weapon skill"]
+Ammo and thrown weapons can now be crafted from these materials: Adamantine, Cold Iron, Darksteel, Iron (normal ammo), Mithral, and Alchemical Silver. This allows ranged weapons to bypass the Damage Reduction that many creatures have. It takes 1 ingot, 1 wooden plank, and 1 ammo mold to create a stack of ammo.
+
+Crafting ammo takes the following Craft Weapon skill values:
+
+Normal Arrows: 2
+Cold Iron, Alchemical Silver: 7
+Darksteel, Mithral: 12
+Adamantine: 17
+
+Darksteel ammo adds 1 electrical damage. Adamantine ammo adds 2 magical damage.
+[/spoiler]
+
+[spoiler="Armor and Shield Enchantment - Craft Magic Arms And Armor Feat"]
+Two permanent enchantments maximum
+[list]
+[*]Arrow Deflection (Shields)
+[*]Enhance +1 to +4
+[*]Energy Resistance - 10 pts
+[*]Energy Resistance - 20 pts
+[/list]
+[/spoiler]
+
+[spoiler="Item Enchantment - Craft Magic Arms And Armor Feat"]
+Two permanent enchantments maximum
+Allows +4 to a specific skill to be added to an item slot (any - see below). 
+Skills have a specific set of body slots they can be added to (no adding +3 to 10 item slots for now)
+[/spoiler]
+
+[spoiler="Poison, PnP - Craft Alchemy Skill"]
+Nightshade
+Weapons coated with this poison will quickly debilitate most creatures. [DC 10 Save, DC 8 Handle; Initial: 1d1 Dexterity; Secondary: 1d1 Constitution]
+Tag: cmi_poison001
+
+Small Centipede Poison
+Weapons coated with this poison will quickly debilitate most creatures. [DC 11 Save, DC 9 Handle; Initial: 1d2 Dexterity; Secondary: 1d2 Dexterity]
+Tag: cmi_poison002
+
+Blade Bane
+Weapons coated with this poison will quickly debilitate most creatures. [DC 15 Save, DC 9 Handle; Initial: 1d2 Strength; Secondary: 1d4 Constitution]
+Tag: cmi_poison003
+
+Greenblood Oil
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1d1 Constitution; Secondary: 1d2 Constitution]
+Tag: cmi_poison004
+
+Bloodroot
+Weapons coated with this poison will quickly debilitate most creatures. [DC 12 Save, DC 10 Handle; Initial: 1d3 Wisdom; Secondary: 1d4 Constitution]
+Tag: cmi_poison005
+
+Purple Worm Poison
+Weapons coated with this poison will quickly debilitate most creatures. [DC 12 Save, DC 10 Handle; Initial: 1d3 Wisdom; Secondary: 1d4 Constitution]
+Tag: cmi_poison006
+
+Large Scorpion Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 12 Save, DC 10 Handle; Initial: 1d4 Constitution; Secondary: 1d4 Constitution]
+Tag: cmi_poison007
+
+Blue Whinnis
+Weapons coated with this poison will quickly debilitate most creatures. [DC 14 Save, DC 11 Handle; Initial: 1d1 Constitution; Secondary: 1 Minute Sleep]
+Tag: cmi_poison008
+
+Giant Wasp Poison
+Weapons coated with this poison will quickly debilitate most creatures. [DC 18 Save, DC 14 Handle; Initial: 1d6 Dexterity; Secondary: 1d6 Dexterity]
+Tag: cmi_poison009
+
+Shadow Essence
+Weapons coated with this poison will quickly debilitate most creatures. [DC 18 Save, DC 14 Handle; Initial: 2d6 Strength; Secondary: 1d6 Dexterity]
+Tag: cmi_poison010
+
+Black Adder Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 11 Save, DC 10 Handle; Initial: 1d6 Constitution; Secondary: 1d6 Constitution]
+Tag: cmi_poison011
+
+Deathblade
+Weapons coated with this poison will quickly debilitate most creatures. [DC 20 Save, DC 16 Handle; Initial: 1d6 Constitution; Secondary: 2d6 Constitution]
+Tag: cmi_poison012
+
+Malyss Root Paste
+Weapons coated with this poison will quickly debilitate most creatures. [DC 16 Save, DC 13 Handle; Initial: 1d1 Dexterity; Secondary: 2d4 Dexterity]
+Tag: cmi_poison013
+
+Nitharit
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: None; Secondary: 3d6 Constitution]
+Tag: cmi_poison014
+
+Sassone Leaf Residue
+Weapons coated with this poison will quickly debilitate most creatures. [DC 16 Save, DC 13 Handle; Initial: 2d12 Acid damage; Secondary: 1d6 Constitution]
+Tag: cmi_poison016
+
+Terinav Root
+Weapons coated with this poison will quickly debilitate most creatures. [DC 16 Save, DC 13 Handle; Initial: 1d6 Dexterity; Secondary: 2d6 Dexterity]
+Tag: cmi_poison017
+
+Carrion Crawler Brain Juice
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1 minute paralysis; Secondary: None]
+Tag: cmi_poison018
+
+Oil of Taggit
+Weapons coated with this poison will quickly debilitate most creatures. [DC 15 Save, DC 12 Handle; Initial: 1d2 Constitution; Secondary: 1 minute sleep.]
+Tag: cmi_poison020
+
+Id Moss
+Weapons coated with this poison will quickly debilitate most creatures. [DC 14 Save, DC 11 Handle; Initial: 1d4 Intelligence; Secondary: 2d6 Intelligence]
+Tag: cmi_poison021
+
+Striped Toadstool
+Weapons coated with this poison will quickly debilitate most creatures. [DC 11 Save, DC 9 Handle; Initial: 1d1 Wisdom; Secondary: 2d6 Wisdom]
+Tag: cmi_poison022
+
+Arsenic
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1d1 Constitution; Secondary: 2d8 Constitution]
+Tag: cmi_poison023
+
+Lich Dust
+Weapons coated with this poison will quickly debilitate most creatures. [DC 17 Save, DC 14 Handle; Initial: 2d6 Strength; Secondary: 1d6 Strength]
+Tag: cmi_poison024
+
+Dark Reaver Powder
+Weapons coated with this poison will quickly debilitate most creatures. [DC 18 Save, DC 14 Handle; Initial: 2d6 Constitution; Secondary: 2d6 Constitution]
+Tag: cmi_poison025
+
+Ungol Dust
+Weapons coated with this poison will quickly debilitate most creatures. [DC 15 Save, DC 12 Handle; Initial: 1d1 Charisma; Secondary: 1d6 Charisma]
+Tag: cmi_poison026
+
+Burnt Othur Fumes
+Weapons coated with this poison will quickly debilitate most creatures. [DC 18 Save, DC 14 Handle; Initial: 1d1 Constitution; Secondary: 3d6 Constitution]
+Tag: cmi_poison027
+
+Chaos Mist
+Weapons coated with this poison will quickly debilitate most creatures. [DC 15 Save, DC 12 Handle; Initial: 1d4 Wisdom; Secondary: 2d6 Wisdom]
+Tag: cmi_poison028
+
+Bebilith Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 20 Save, DC 16 Handle; Initial: 1d6 Constitution; Secondary: 2d6 Constitution]
+Tag: cmi_poison029
+
+Quasit Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1d4 Dexterity; Secondary: 2d4 Dexterity]
+Tag: cmi_poison030
+
+Pit Fiend Ichor
+Weapons coated with this poison will quickly debilitate most creatures. [DC 27 Save, DC 17 Handle; Initial: 1d6 Constitution; Secondary: Death]
+Tag: cmi_poison031
+
+Ettercap Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1d6 Dexterity; Secondary: 2d4 Dexterity]
+Tag: cmi_poison032
+
+Aranea Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 10 Handle; Initial: 1d6 Strength; Secondary: 2d6 Strength]
+Tag: cmi_poison033
+
+Tiny Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 10 Save, DC 9 Handle; Initial: 1d2 Strength; Secondary: 1d2 Strength]
+Tag: cmi_poison034
+
+Small Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 10 Save, DC 9 Handle; Initial: 1d3 Strength; Secondary: 1d3 Strength]
+Tag: cmi_poison035
+
+Medium Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 12 Save, DC 11 Handle; Initial: 1d4 Strength; Secondary: 1d4 Strength]
+Tag: cmi_poison036
+
+Large Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 13 Save, DC 14 Handle; Initial: 1d6 Strength; Secondary: 1d6 Strength]
+Tag: cmi_poison037
+
+Huge Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 16 Save, DC 21 Handle; Initial: 1d8 Strength; Secondary: 1d8 Strength]
+Tag: cmi_poison038
+
+Gargantuan Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 20 Save, DC 29 Handle; Initial: 2d6 Strength; Secondary: 2d6 Strength]
+Tag: cmi_poison039
+
+Colossal Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 28 Save, DC 28 Handle; Initial: 2d8 Strength; Secondary: 2d8 Strength]
+Tag: cmi_poison040
+
+Phase Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 17 Save, DC 12 Handle; Initial: 1d8 Constitution; Secondary: 1d8 Constitution]
+Tag: cmi_poison041
+
+Wraith Spider Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 26 Save, DC 21 Handle; Initial: 1d6 Constitution; Secondary: 2d6 Strength]
+Tag: cmi_poison042
+
+Iron Golem Fumes
+Weapons coated with this poison will quickly debilitate most creatures. [DC 17 Save, DC 20 Handle; Initial: 1d4 Constitution; Secondary: Death]
+Tag: cmi_poison043
+
+Shadow Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 20 Save, DC 20 Handle; Initial: 2d6 Strength; Secondary: 1d6 Constitution]
+Tag: cmi_poison045
+
+Abomination Venom
+Weapons coated with this poison will quickly debilitate most creatures. [DC 17 Save, DC 17 Handle; Initial: 2d6 Constitution; Secondary: 1d6 Constitution]
+Tag: cmi_poison046
+
+Tsous
+Weapons coated with this poison will quickly debilitate most creatures. [DC 20 Save, DC 20 Handle; Initial: 4d4 Magic damage; Secondary: 2d4 Magic damage]
+Tag: cmi_poison047
+
+Blood of Zehir
+Weapons coated with this poison will quickly debilitate most creatures. [DC 19 Save, DC 19 Handle; Initial: Death; Secondary: Death]
+Tag: cmi_poison048
+[/spoiler]
+
+[spoiler="Poison, Custom - Craft Alchemy Skill"]
+Contact Poison 1
+Tier 1: DC 4 to make, Poison (DC 18, d2 Con)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Con)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Con)
+
+Contact Poison 2
+Tier 1: DC 4 to make, Poison (DC 18, d2 Str)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Str)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Str)
+
+Contact Poison 3
+Tier 1: DC 4 to make, Poison (DC 18, d2 Dex)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Dex)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Dex)
+
+Contact Poison 4
+Tier 1: DC 4 to make, Poison (DC 18, d2 Cha)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Cha)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Cha)
+
+Contact Poison 5
+Tier 1: DC 4 to make, Poison (DC 18, d2 Wis)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Wis)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Wis)
+
+Contact Poison 6
+Tier 1: DC 4 to make, Poison (DC 18, d2 Int)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Int)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Int)
+[/spoiler]
+
+[spoiler="Ranged Weapons - Craft Weapon Skill, Craft Magic Arms And Armor Feat"]
+[list]
+[*]Unlimited Ammo Bows and Crossbows
+[/list]
+[/spoiler]
+
+[spoiler="Ring Crafting - Forge Ring Feat"]
+[list]
+[*]Ring of Summoning Affinity (+2 CL for summon spells)
+[*]Ring of Curing (+2 max healing to conjuration healing spells)
+[*]Energy Resistance - 10 pts
+[*]Energy Resistance - 20 pts
+[*]Protection +1
+[*]Protection +2
+[*]Protection +3 
+[*]Protection +4
+[*]Regeneration 1
+[*]Regeneration 2
+[*]Minor Spell Storing (Bonus level 1 Slot for Sorcerer, Bard, Wizard, Cleric, Druid, Favored Soul, Spirit Shaman, Ranger, Paladin)
+[*]Spell Storing (Bonus level 2 Slot for Sorcerer, Bard, Wizard, Cleric, Druid, Favored Soul, Spirit Shaman, Ranger, Paladin)
+[*]Spell Storing (Bonus level 3 Slot for Sorcerer, Bard, Wizard, Cleric, Druid, Favored Soul, Spirit Shaman, Ranger, Paladin)
+[*]+1 to +4 Universal Saves
+[/list]
+[/spoiler]
+
+[spoiler="Spell Crafting - Scribe Scroll Feat"]
+6 scrolls - 6 spells - 1 script
+Touch - Hostile
+Touch - Ally
+Range S
+Range M
+Range L
+Self (all shapes become burst)
+
+5 gems for shape:
+Blast (single target)
+Burst (AE)
+Chain
+Bolt
+Cone
+
+6 gems for element
+Fire
+Acid
+Elec
+Cold
+Sonic
+Positive (Heal if Touched Ally or Self scroll) -> will be a random element if no bard or divine levels are found. Will
+
+9 gems for save
+Fort
+Ref
+Will
+Fort or Ref (highest)
+Fort or Will (highest)
+Ref or Will (highest)
+Fort or Ref (lowest)
+Fort or Will (lowest)
+Ref or Will (lowest)
+
+Possible Future Gem - This will not be in the initial cut.
+4 gems for status
+None
+Daze (if Self or Touched Ally - +1 save throw per 3 levels of the spell, +3 max as a level 9 spell, 1 rd per spell level)
+Debuff - AC (-1 per 3 levels of the spell, -3 max as a level 9 spell) (Buff if Self or Touched Ally, 1 rd per spell level)
+Debuff - AB (-1 per 3 levels of the spell, -3 max as a level 9 spell) (Buff if Self or Touched Ally, 1 rd per spell level)
+DoT (or damage shield if ally)
+End Possible Future Gem
+
+9 gems for spellpower
+L1
+L2
+L3
+L4
+L5
+L6
+L7
+L8
+L9
+
+1 Craft Bag that checks for one of each of the above listed gem sets and creates 1 of 6 scrolls.
+
+Each scroll has all the localvars set for which gem was used. When the scroll is used, it reads those localvars to determine the spells properties. Thus a player will have to experiment to unlock what everything is. The only thing they will know for sure is the spell power gems. The rest will come from research. Scrolls will not have a name other than 'Researched spell' and it can't be learned by a wizard. It will always pass a UMD check. The highest level of a base class with casting is what is used for the scroll. A bard 9/wiz 1/EK 10 (wiz)/ASoC 10(wiz) is going to be treated as a bard for the feat (no realistic way around that problem). Might put in a 5% chance for any gem to actually provide a different effect (chaos crafting ftw).
+
+The feat will have a number of uses per day to limit how often these can be created (to avoid abuse).
+
+Damage spells deal d6 per caster level up to a cap of (3 + (3 * spell level)). So a level 9 spell will scale to 30d6 while a level 3 spell will scale to 12d6.
+
+It's essentially 24 spells (6 target types X 4 shapes) that use the item activator to read all of their effects (element, effect, etc).
+[/spoiler]
+
+[spoiler="Staff Crafting - Craft Staff Feat"]
+Staff of Element (each staff grants the reserve feat for the appropriate element - Acid, Sonic, Fire, Force, Electricity, Cold) as well as a +1 Activation level and 20 points of resistance to that element.
+Staff of the Frozen Death (Grants Augment Summoning, Beckon the Frozen, 10 Cold Resist)
+[/spoiler]
+
+[spoiler="Traps - Craft Trap Skill"]
+Contact Poison 1
+Tier 1: DC 4 to make, Poison (DC 18, d2 Con)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Con)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Con)
+
+Contact Poison 2
+Tier 1: DC 4 to make, Poison (DC 18, d2 Str)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Str)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Str)
+
+Contact Poison 3
+Tier 1: DC 4 to make, Poison (DC 18, d2 Dex)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Dex)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Dex)
+
+Contact Poison 4
+Tier 1: DC 4 to make, Poison (DC 18, d2 Cha)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Cha)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Cha)
+
+Contact Poison 5
+Tier 1: DC 4 to make, Poison (DC 18, d2 Wis)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Wis)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Wis)
+
+Contact Poison 6
+Tier 1: DC 4 to make, Poison (DC 18, d2 Int)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Int)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Int)
+
+Traps will be 5/10/15/20/25 skill to craft these:
+Acid Trap
+Electrical Trap
+Fire Trap
+Frost Trap
+Gas Trap (3 traps for each of the six poison types above)
+Holy Trap
+Negative Energy Trap
+Sonic Trap
+Spike Trap (Piercing)
+Slicing Trap (Slashing)
+Crushing Trap (Crushing)
+
+15/20/25/30/35 DC on the trap
+5d6/10d6/15d6/20d6/25d6 damage (d4 damage for Negative/Holy). One trap per person can be active at a time.
+
+Craft Trap skill gives a +1 damage per 5 ranks bonus.
+[/spoiler]
+
+[spoiler="Weapon Enchantment - Craft Magic Arms And Armor Feat"]
+Two permanent enchantments maximum
+[list]
+[*]Enhance +1 to +4
+[*]Deflection AC +1 to +4
+[*]Keen
+[*]Massive Criticals
+[*]+1d6 Elemental Damage (Fire, Cold, Acid, Electricity)
+[*]Seeking
+[*]Vampiric +1
+[*]Vampiric +2
+[/list]
+[/spoiler]
+
+[spoiler="Wondrous Items - Craft Wondrous Items Feat"]
+*Note - Dex, Str, Con should be able to go on boots, gauntlets, belts to allow someone to have all three (fairly). Pathfinder has a belt that is +2/4/6 to all physical stats even. Food for thought.
+[list]
+[*]Amulet of Natural Armor +2
+[*]Amulet of Natural Armor +4
+[*]Adventurers Pack (+5-20 HP, TBD)
+[*]Belt of Giant Strength +4
+[*]Belt of Ogre Strength +2
+[*]Belt of Mighty Constitution +2
+[*]Belt of Mighty Constitution +4
+[*]Belt of Incredible Dexterity +2
+[*]Belt of Incredible Dexterity +4
+[*]Belt of Stoneskin 1/day
+[*]Bracers of Armor +4
+[*]Lesser Chasuble of Fel Power (+1d6 Eld Blast)
+[*]Cloak of Charisma +4
+[*]Cloak of Charisma +2
+[*]Cloak of Resistance +1 to +4 
+[*]Dust of Appearance
+[*]Dust of Disappearance
+[*]Gloves of Dexterity +4
+[*]Gloves of Dexterity +2
+[*]Headband of Intellect +4
+[*]Headband of Intellect +2
+[*]Periapt of Health
+[*]Periapt of Wisdom +4
+[*]Periapt of Wisdom +2
+[*]Phylactery of Undead Turning
+[*]Robe, Voidfrost (Resist 5, +1 CL with Cold) - One for each element.
+[*]Robe, Monk's (+5 Monk level for AC/Dmg)
+[*]Goggles of Night (Ultravision)
+[/list]
+[/spoiler]
+
+Jewellery Crafting, Metallurgy, and Woodcrafting systems to complement the existing mining system in order to support the crafting listed above.

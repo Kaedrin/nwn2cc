@@ -1,0 +1,14 @@
+1. Hide in Plain Sight should have a 12s cooldown.
+2. Keen Senses (for elves, etc) should be replaced with a custom version so that it doesn't detect 6x as often.
+3. Craft Feats (Wand, Potion, Wondrous Item, Magic Arms/Armor) should be disabled. A custom crafting system with experience, training, etc could be implemented. That way crafting is a true focus and doesn't detract from building or roleplaying a character.
+4. Death Attack is removed and replaced with the correct implementation from pnp. This way the Death Attack/Multishot exploit won't exist.
+5. Intuitive Attack is disabled to start with.
+6. Silent spell replaced with a new metamagic.
+7. Persistent spell replaced with a new metamagic.
+8. Still spell replaced with a new metamagic.
+
+I add them because most casters won't use Silent/Still (we can support gish through gear, not feats) and because Persistent is probably not worth the headache. It also opens up a lot of possible new metamagics that could really improve real casters. I'd rather boost normal spell durations so they aren't annoyingly short. Twilight is an item property that reduces item ASF so we could let gear/itemization take care of armored mages (and frankly armored mages still have the same AC of a normally buffed mage if we actually fix the mages armor spells).
+
+Examples being Sculpt spell (no allies harmed regardless of what spell you use), Chain Spell (so your buff will cycle a party, or a damage spell will cycle enemies), Split Ray (so ray spells will fire two rays instead of one, and players can research new ray spells of every level to make the feat extremely great for all arcanes), or Enhanced Spell (your damage caps for a given spell level are higher, so fireball could do 20d6 as a level 7 spell).
+
+We could also design custom metamagics to shore up casters as desired. 

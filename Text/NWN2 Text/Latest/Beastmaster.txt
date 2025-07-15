@@ -1,0 +1,110 @@
+This is the old description and it hasn't been refreshed with adjustments for the 1.45 changes to animal companions. During the server downtime I figured it was a good opportunity to put this one up.
+
+[spoiler="Beastmaster"]
+Beastmaster
+
+Class Features:
+
+HD: d6
+BAB: High (1-10), Medium (11-30)
+High Saves: Fort, Reflex
+Weapon proficiency: All simple and martial weapons.
+Armor proficiency: Light armor and shields (except tower shields).
+Skill points: 6 + Int modifier
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Craft Trap, Heal, Hide, Intimidate, Listen, Lore, Move Silently, Parry, Search, Set Trap, Spot, Survival, Taunt, and Tumble.
+
+Class Abilities:
+
+Level 1: Track, Animal Companion
+Level 2: Nature's Gift
+Level 3: Toughness
+Level 4: Animal Companion Advancement
+Level 5: Scent
+Level 6: Second Animal Companion
+Level 7: Heal Companions
+Level 8: Woodland Stride, Swift Tracker
+Level 9: Evasion
+Level 10: Exalted Companion
+Level 11: Epic Animal Companions
+Level 12:
+Level 13: Camouflage
+Level 14:
+Level 15:
+Level 16:
+Level 17: Hide in Plain Sight
+Level 18:
+Level 19:
+Level 20:
+Level 21: Second Wind
+Level 22:
+Level 23: Bonus Epic Feat
+Level 24:
+Level 25:
+Level 26: Bonus Epic Feat
+Level 27:
+Level 28:
+Level 29: Bonus Epic Feat
+Level 30:
+
+Animal Companion: A beastmaster begins the game with an Animal companion. Animal companions are loyal allies in any battle. As your character gains experience, his or her animal companion will also grow in power (as though you were a druid).
+
+Animal companions cannot be directly controlled by their master. They can be controlled with limited efficiency through vocal commands, and set to defensive or offensive behaviors as well as force them to enter stealth. They become more powerful as the master advances. The only penalty the master suffers from the animal companion's death is that they cannot summon the companion again until they have rested.
+
+Second Animal Companion: At level 6, a beastmaster can have a second animal companion of the same type as their first companion out at the same time.
+
+[color=#339933]Heal Companions: At level 7, a beastmaster can heal her companions once every five minutes. This heals both of the animal companions for 10 times your class level.[/color]
+
+[color=#339933]Second Wind: At level 21, a beastmaster can call upon each animal companion an additional time per day.[/color]
+
+Animal Companion Advancement:
+
+[color=#339933]Nature's Gift: At second level, your animal companions gains a passive regeneration of 1 point. This improves to 2 points at level 7 and 3 points at level 12.[/color]
+
+Level 4: Your animal companions become well trained. This alteration grants your animal companions a +1 luck bonus on attack rolls and damage rolls. This bonus improves to +2 at level 6, +3 at level 9, +4 at level 12, and +5 at level 15.
+
+Level 6: Your animal companions grow more dangerous. This alteration grants your animal companions a +2 enhancement bonus on their attacks. This bonus improves to +3 at level 9, +4 at level 12, and a +5 bonus at level 15.
+
+Level 8: Your animal companions grow in strength. This alteration grants your animal companions a +4 enhancement bonus to Strength.
+
+Level 10: Your animal companions grow in ferocity. This alteration grants your animal companions a +3 deflection bonus to Armor Class. This bonus improves to +4 at level 12.
+
+Level 11: Your animal companions grow in savageness. This alteration grants your animal companions a +4 natural armor bonus. This bonus improves to +5 at level 13 and grants your animal companions a 1d6 piercing damage shield.
+
+[color=#339933]Level 14: Your animal companions gain a second chance when near death. This alteration grants your animal companions a heal on death equal to 10 times your class level.[/color]
+
+Level 15: Your animal companions grow in size and strength. This alteration grants your animal companions a +8 enhancement bonus to Strength (replacing the +4 bonus gained at level 8).
+
+Level 16: Your animal companions grow in vitality. This alteration grants your animal companions a +4 enhancement bonus to Constitution.
+
+Level 19: Your animal companions grow in agility. This alteration grants your animal companions a +4 enhancement bonus to Dexterity.
+
+[/spoiler]
+
+[spoiler="Possible New Class Feats"]
+
+Possible new templates for BM animal companions:
+
+http://www.d20srd.org/srd/monsterFeats.htm#improvedNaturalAttack
+http://eberronunlimited.wikidot.com/magebred-animal (CR 0)
+http://www.realmshelps.net/monsters/templates/warbeast.shtml (CR 1)
+http://www.d20pfsrd.com/bestiary/monster-listings/templates/dire-creature-cr-2-tohc (CR 2) 
+http://www.d20pfsrd.com/bestiary/monster-listings/templates/totem-animal-cr-1 (CR 1)
+http://www.d20pfsrd.com/bestiary/monster-listings/templates/mighty-cr-5 (CR 5)
+http://www.d20pfsrd.com/bestiary/monster-listings/templates/advanced-creature-cr-1 (CR 1)
+http://www.d20pfsrd.com/bestiary/monster-listings/templates/fey-animal (without spells, special attacks, or speaking) (CR 1)
+
+
+Note the CR increase will directly reduce the "BM level" for determining which companion.
+
+A Level 6 BM with Mighty would summon a level 1 Companion with the Mighty template. Not a good template to pick at low levels but a superb template for mid-high levels. Mightly will probably require 17+ BM to take (so that it compares with Nature's Avatar/Awaken for Druids).
+
+Minimum level of 2+ (CR*3) to take the feat. So Mighty at 17+ and Advanced at 5+
+
+Fey may get "adjusted" to where you get the benefits (skill points, DR, SR, etc) without the fey ties. Mythical or Legendary or some such flavor.
+
+If these templates are allowed the base class will be tweaked further (possibly medium BAB completely to afford the two stronger pets). The templates may apply to different companions. Such as Companion 1 gets Mighty and Companion 2 gets Fey. That way they don't stack up the power but each offers some slightly different benefits (intelligent spotter and a more savage tank).
+
+Food for thought.
+[/spoiler]
+
+Companions: http://dalelandsbeyond.forumotion.com/t27699-beastmaster-companions#234124

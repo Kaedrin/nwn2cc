@@ -1,0 +1,57 @@
+Verdant Guardian
+
+The verdant guardian is the final defender of the forest. Since most verdant guardians have little use for civilization, they tend to be loners, watching the years pass by from their groves and treasured forests. Adventuring verdant guardians are rare, but those who do exist are marvelous to behold.
+
+Requirements
+
+Alignment: Any nonevil.
+Class: Ranger 11.
+Prohibited Class: Blightlord.
+Skills: Heal 8, Survival 8.
+
+Class Features
+
+HD: d8
+BAB: High
+High Saves: Fort, Will
+Weapon proficiency: None.
+Armor proficiency: None.
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Concentration, Diplomacy, Heal, Hide, Listen, Lore, Spellcraft, and Survival.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Bonus Feat: Brew Potion, Spellcasting Progression
+Level 2:
+Level 3:
+Level 4:
+Level 5: Bonus Feat: Fast Healing I
+Level 6: Plant Shape 1/day
+Level 7:
+Level 8: Live Oak 1/day
+Level 9:
+Level 10: Gaea's Embrace
+Level 11: Natural Regeneration 3
+Level 12: Bonus Epic Feat, Plant Shape 2/day
+Level 13: Gift of the Green +3
+Level 14: Natural Regeneration 6
+Level 15: Bonus Epic Feat
+Level 16: Gift of the Green +6
+Level 17: Natural Regeneration 9
+Level 18: Bonus Epic Feat, Plant Shape 3/day
+Level 19: Gift of the Green +9
+
+Spellcasting Progression: At each level , you gain new spells per day as if you had also gained a Ranger level.
+
+Plant Shape: Beginning at 6th level, the verdant guardian can use wild shape to take the form of a treant or shambling mound once per day. The verdant guardian can cast spells normally while in plant shape.
+
+Live Oak: At 8th level, a verdant guardian can summon a treant once per day. The animated tree gains a number of bonus Hit Dice equal to the number of verdant guardian levels the character possesses (to a total of 26 HD at level 19).
+
+Gaea's Embrace: At 10th level, the verdant lord permanently becomes a plant creature. He gains low-light vision and is immune to poison, sleep, paralysis, stunning, mind-influencing effects, sneak attacks, and critical hits.
+
+Natural Regeneration: An epic verdant lord's body repairs damage to itself with shocking speed as long as he is in a natural area. At 11th level, a verdant lord gains regeneration 3; the rate of the lord's regeneration increases by +3 every three levels after that.
+
+Gift of the Green: As the verdant lord gains levels, he begins to manifest amazing abilities and qualities possessed by many plantlike creatures. At 13th level, a verdant lord's natural armor increases by +3 as his skin grows thick and bark-like. This natural armor bonus stacks with the natural armor bonus granted by the Forest Master prestige class but not with any other source of natural armor class. This bonus improves to +6 at 16th level and +9 at 19th level.
+
+New Feat: Extra Plant Shape

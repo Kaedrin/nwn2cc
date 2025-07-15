@@ -1,0 +1,105 @@
+Craftable Natral Resources.  it is a seperate leveling system for the crafting skills
+Natural*
+THink a enhanced version of our mining system
+So instead of mining out ingots you get ore, thejn you have to level up the ability to refine the ore into usable material
+
+Also need to look at6 the CNR style crafting so ther is more to do than grind for XP
+Hunter - 11/23/2016
+IF a crafting resource is in a lower level range area, we need to make a second grinding area
+Incase epics camp the one place
+I would prefer crafting stuff is from dungeons or found randomly like a root growing in the wild
+Wulfe_ischarri(Mith)DM Morriarty - 11/23/2016
+has plans to prevent that :-)  one of those  actions have consequences type things.
+Hunter - 11/23/2016
+Though we cannot always be online to manage it
+Wulfe_ischarri(Mith)DM Morriarty - 11/23/2016
+that is true
+Hunter - 11/23/2016
+Though I agree
+Please not 4-5 areas per every range
+Wulfe_ischarri(Mith)DM Morriarty - 11/23/2016
+THe reason i was looking at the CNR style crafting is it allows for People to specialize but prevents one player from being the master of all
+Hunter - 11/23/2016
+and the small amount of grindin areas we have, should be well made and have that hard mode system maybe
+CNR?
+Wulfe_ischarri(Mith)DM Morriarty - 11/23/2016
+Craftable Natral Resources.  it is a seperate leveling system for the crafting skills
+Natural*
+THink a enhanced version of our mining system
+So instead of mining out ingots you get ore, thejn you have to level up the ability to refine the ore into usable material
+Wulfe_ischarri(Mith)DM Morriarty - 11/23/2016
+Prevents some arse hat Like mith with all his skill points from mastering all trades because you are limmited to Mastery of one. Journey man of like. 2 others and Amprentice of three other ect ect  depending on settings
+Hunter - 11/23/2016
+I like a complex crafting system
+Plus it adds to having to talk to others with other skills
+Ticladesign - 11/23/2016
+The problem is Timezones. If there is a need to talk to others (who may know) Many of us EU players hit that brick wall of not having the option to talk to others about crafting. It soon enters the area of Closed off groups in a specific timezone with a specific dm that sit on all the crafting secrets. I just want things fair for EU players who are either ignored by the playerbase, or just not able to make a name due to low population.
+Hunter - 11/23/2016
+Any suggestions on how to do that?
+Ticladesign - 11/23/2016
+At least make Crafting either learnable from NPC's, or some basic crafting being commonly known so the Non guilded and Guilded (those who know the big secrets) balance is not too great.
+Not saying make Crafting not complex.. but lets say.. make it easy to get into, yet rp required to master it.
+for example DB's system was so donky fague that I just couldnt figure any of it out. even the basic stuff.
+On that way - The Talernon2 and 3 system was like this... you need to Mine Ores (they weigh 10 each, so certainly need a STR build) which then can be smelted which requires a d100 roll for sucsess or failure. (we ajusted the value a bit so sucsess happened at dc's 30 and up) Then the Craft weapon/armor checked if you could make an item. The Magical crafting was called Enchanter, and required a player to have a Wizard character with the enchanting school. Making a magical item costed some xp and gold.
+The divide between Mining needing STR and Enchanting needing a Enchanter wiz was deliberate; however in the end we got melee mages that used Troll spell to carry all the ores :stuck_out_tongue: but that's just crafty players trolling us :smiley:
+FireFlyNWN2 - 11/23/2016
+I've got a system design that should cover most of these things
+Ticladesign - 11/23/2016
+Okie dokie
+FireFlyNWN2 - 11/23/2016
+When we get forums I'll toss it up for folks to throw spears at
+Simple version is different mats for different tiers. Keeps crafting output,!zones, and skills all tied toget her
+FireFlyNWN2 - 11/23/2016
+Are mining nodes a given or could the ore drop from creatures (part of the loot table). Mining nodes are still subject to who gets there first and with fewer zones there is more competition. Unless we try to track how often they mine, etc.
+Hunter - 11/23/2016
+I'd like to keep things realistic. I'd like ores and such to have to be minable and maybe dropped by some kobolds in a cave or dwarf NPC's
+FireFlyNWN2 - 11/23/2016
+Vendors could always sell ore at a pretty good markup too
+Hunter - 11/23/2016
+I dislike that idea, once players get alot of gold there is no need to mine anymore
+It would ruin that section of the game
+FireFlyNWN2 - 11/23/2016
+For low tiers anyway
+Hunter - 11/23/2016
+Perhaps a DM run event with a vendor
+Or we could take a book out of the bandits quest
+A weekly quest that grants access to a dwarf NPC
+This NPC has a limited inventory of some ore and such you can purchase
+FireFlyNWN2 - 11/23/2016
+Nods. Some way for those that don't get there first for nodes and who don't farm for drops
+Especially for the low level stuff
+Or that play when DMs aren't around lol
+Hunter - 11/23/2016
+I get the concen, it's valid
+I just want to stay away from making everything accessible to everyone and enforce a divide. But trying to balance that with keeping it achievable for everyone
+FireFlyNWN2 - 11/23/2016
+A system not tied to character level will help with that I think
+Hunter - 11/23/2016
+This might be a very dangerous thought but...
+FireFlyNWN2 - 11/23/2016
+Really want to give a base class for crafter a shot
+Hunter - 11/23/2016
+Is there a separate crafting and mining from character levels and give it it's own thing? Like the more you mine the more levels you gain in mining?
+Wow my english
+FireFlyNWN2 - 11/23/2016
+Yes
+Hunter - 11/23/2016
+I am exhausted
+Glad you figured it out though
+It's starting to peel away from D&D and moving into a standard MMO at that point though
+FireFlyNWN2 - 11/23/2016
+If a player has that DMFI item we can store anything on it including crafting stats
+Yeah but craft skills always nerf a character. Baked into D&D. Though enchanting is ONLY about gold coins lol
+Hunter - 11/23/2016
+A base crafting class sounds like a fun idea
+But it doesn't sit well with me for a single reason
+It would restrict that player from being alot of other things, just to be a crafter. That idea makes me uneasy
+I really need to get the forums up and a couple others on board for ideas
+@Ticladesign Know anyone who would join?
+Someone that can contribute to maps preferably
+FireFlyNWN2 - 11/23/2016
+Well, but trading combat for RP and crafting might be worth it. Its not like you need to be level 30 lol. Each level would just make it easier / fewer failures / critical successes.
+Viable  path for an alt or even a primary
+Hunter - 11/23/2016
+I'd need more of a write up to be on board with it. More details
+Though it's grabbing my attention

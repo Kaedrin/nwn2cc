@@ -1,0 +1,217 @@
+Knight
+Armiger
+Tactician
+Songblade
+
+[*]Non-evil PrC for Paladins/Knights (possibly based on Soldier of Light)
+
+
+[color=#399933][size=14][b]Custom Combat Feats[/b][/size][/color]
+Combat feats drawn from http://kaedrin-nwn2.blogspot.com/p/new-feats.html
+
+[color=#399933][size=14][b]Possible new feats from Pathfinder[/b][/size][/color]
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/combat-feats---3rd-party---louis-porter-jr/single-blade-style-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/necromancers-of-the-northwest/combat-feats---3rd-party---necromancers-of-the-northwest/unarmored-specialist-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/necromancers-of-the-northwest/combat-feats---3rd-party---necromancers-of-the-northwest/wild-swing-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/armor-focus
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/armor-specialization
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/create-opening-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/short-blade-warrior-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/sean-k-reynolds-games/combat-feats---3rd-party---sean-k-reynolds-games/armor-defense-mastery-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rogue-genius-games/combat-feats/armor-focus-heavy-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rogue-genius-games/combat-feats/armor-focus-medium-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rogue-genius-games/combat-feats/cloak-fighting-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/shield-specialization
+
+Verdant Guardian
+[spoiler]Verdant Guardian
+
+x
+Requirements
+
+Skills: Lore 12.
+Feats: Spirit Form 1/day (9th level), Telthor Companion
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Fort, Will
+Weapon proficiency: None.
+Armor proficiency: None.
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Concentration, Diplomacy, Heal, Listen, Lore, Spellcraft, Spot, and Survival.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Spellcasting Progression, Telthor Companion
+Level 2: Faerie Fire (at will)
+Level 3:
+Level 4: Spirit Journey 1/day
+Level 5: Rejuvenate 1/day
+Level 6: Rejuvenate 2/day
+Level 7: Heartfire (at will), Rejuvenate 3/day
+Level 8: Spirit Journey 2/day
+Level 9:
+Level 10: Gift of the Feywild, Rejuvenate 4/day, Eagle's Majesty 1/day
+
+Spellcasting Progression: At each Feywild Warden level, the character gains new divine spells per day as if she had also gained a Spirit Shaman level.
+
+Faerie Fire and Heartfire have a caster level equal to your Spirit Shaman + Feywild Warden levels and a cooldown of 30s.
+
+Gift of the Feywild: Gain DR 5/Cold Iron. This stacks with other sources of DR/Cold Iron such as the Fey heritage line of feats and the Spirit Shaman's capstone ability.
+
+Rejuvenate is the mass heal spell.
+
+Telthor Companion levels continue to advance as a Feywild Warden (Spirit Shaman level + Feywild Warden level - 3 for the companion's HD).
+
+Eagle's Majesty is similar to Owl's Insight but for boosting Charisma. This is for deep Spirit Shamans (15+) and will scale based off total Spirit Shaman + Feywild Warden levels to prevent abuse. The likely growth rate is 1/2 your Spirit Shaman + Feywild Warden levels (capped at +12).
+
+(This is a Druid to SS conversion of the Planar Shepard, with Medium instead of High BAB)[/spoiler]
+
+
+Golden Lion
+[spoiler]<b>Golden Lion</b>
+
+(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)
+
+x
+
+Requirements:
+
+<b>Class:</b> Paladin
+<b>Deity:</b>Torm
+<b>Feats:</b> Divine Shield, Extra Turning
+<b>Special:</b> May not have levels in the Champion of the Silver Flame class.
+<b>Spellcasting:</b> Level 2 paladin spells
+
+Class Features:
+
+- <b>Hit Die:</b> d10
+- <b>Base Attack Bonus:</b> High.
+- <b>High Saves:</b> Fort, Will.
+- <b>Weapon Proficiencies:</b> None.
+- <b>Armor Proficiencies:</b> None.
+- <b>Skill Points:</b> 2 + Int modifier.
+- <b>Class Skills:</b> Concentration, Craft armor, Craft weapon, Diplomacy, Heal, Lore, Parry, Spellcraft, and Tumble.
+
+
+Class Abilities:
+
+Level 1: Spellcasting Progression, Turn Undead, Triadic Knight
+Level 2: Group Divine Shield
+Level 3: Extra Turning II
+Level 4: Heavy Armor Optimization
+Level 5: 
+Level 6: Group Divine Vigor
+Level 7: Extra Turning III
+Level 8: Greater Heavy Armor Optimization
+Level 9: 
+Level 10: Greater Sacred Purification
+
+- <b>Spellcasting:</b> At each level, a golden lion gains new spells per day (and spells known, if applicable) as if she had also gained a level in her paladin casting class.
+
+- <b>Triadic Knight:</b> A shining golden light in the darkness that stands against all evil is what it means to a Golden Lion, one of the champions of Torm dedicated to the Triad of Torm, Ilmater, and Tyr. Any divine feat that expends a use of Turn Undead gains a +1 round duration bonus. At 10th level this bonus becomes equal to your Wisdom modifier.
+
+- <b>Group Divine Shield:</b> The golden lion may spend one of his turn undead attempts to add half his Charisma bonus to the armor class (dodge AC) of all allies within 50' for a number of rounds equal to the Charisma bonus. This ability replaces the Divine Shield ability.
+
+- <b>Group Divine Vigor:</b> The golden lion may spend one of his turn undead attempts to grant a 33% movement speed buff as well as gain +2 temporary hit points per character level to all allies within 50'. These effects last a number of minutes equal to your Charisma bonus. This ability replaces the Divine Vigor ability.
+
+- <b>Greater Sacred Purification:</b> You can expend a turn undead attempt to create a pulse of divine energy. All living creatures within 60 feet of you heal an amount of damage equal to 9 times your Charisma bonus. All undead creatures in this area take damage equal to 9 times your Charisma bonus . A 22 Charisma (+6) heals and harms for 54 points. This ability has a 30 second cooldown and replaces the Sacred Purification ability.
+
+[/spoiler]
+
+
+
+Black Fist
+[spoiler]<b>Black Fist</b>
+
+(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)
+
+x
+
+Requirements:
+
+<b>Class:</b> Blackguard
+<b>Deity:</b>Bane
+<b>Special</b> Two of the following domains: Destruction, Evil, Law, Hatred, Tyranny
+<b>Spellcasting:</b> Level 2 cleric spells
+
+Class Features:
+
+- <b>Hit Die:</b> d10
+- <b>Base Attack Bonus:</b> High.
+- <b>High Saves:</b> Fort, Will.
+- <b>Weapon Proficiencies:</b> None.
+- <b>Armor Proficiencies:</b> None.
+- <b>Skill Points:</b> 2 + Int modifier.
+- <b>Class Skills:</b> Concentration, Craft Weapon, Craft Armor, Intimidate, Lore, Spellcraft, and Taunt.
+
+
+Class Abilities:
+
+Level 1: Spellcasting Progression, Favored of Bane, Turn Undead
+Level 2: 
+Level 3: 
+Level 4: 
+Level 5: Heavy Armor Optimization
+Level 6: 
+Level 7: 
+Level 8: 
+Level 9: Greater Heavy Armor Optimization
+Level 10: 
+
+- <b>Spellcasting:</b> At each level, a black fist gains new spells per day (and spells known, if applicable) as if she had also gained a level in her cleric casting class. A black fist also gains cleric spellcasting progression for each odd level of Blackguard they have. Black Fist levels are added to Blackguard levels for determining Blackguard caster level.
+
+- <b>Favored of Bane:</b> A Black Fist is the embodiment of the martial prowess and fear that Bane inspires in mortals. As such they give up their reliance on the Divine Power spell (gaining no benefit from the spell) and instead gain the ability to inflict great harm with their inflict spells. All Inflict spells gain a damage bonus equal to the number of levels in Black Fist as well as a 50% boost to their final damage. This boost stacks with the Empower spell metamagic.  This ability also works spells cast with the Blackguard spellbook. Black Fists also gain a +2 Strength bonus with the Righteous Might spell (making the Strength bonus +8 ). At 10th level, a Black Fist automatically maximizes all inflict spells (this bonus replaces the 50% boost from Favored of Bane but it does stack with Empower spell).
+
+Note: A Cleric 10/Blackguard 10/Black Fist 10 will have a 25 caster level with cleric spells (29 with practiced caster) and a 27 BAB. 
+
+[/spoiler]
+
+Wolfpack Warrior.
+
+Teamwork specialist. The more of them in the party, the deadlier the party is.
+
+Class Features
+
+HD: d8
+BAB: High
+High Saves: Fort, Ref
+Weapon proficiency: None.
+Armor proficiency: None.
+
+Class Skills: ~Ranger
+
+Skill Points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Bonus Teamwork Feat
+Level 2: Bonus Feat
+Level 3: Bonus Teamwork Feat
+Level 4: Bonus Feat
+Level 5: Bonus Teamwork Feat
+
+Bonus Teamwork Feats are drawn from the following list: Awareness, Circle of Blades, Foe Hunting, Missile Volley, Superior Flank, Team Rush
+
+You must still qualify for a Teamwork Feat to take it.
+Details: http://nwn2.wikia.com/wiki/Teamwork_Benefit
+
+New Feat: Arcane Bloodline
+Your bloodline has a history of strong arcane magic.
+Prerequisites: Summon Familiar
+Benefit: You activate Reserve feats as though the highest spell level available was 2 higher than normal (maximum spell level of 10).

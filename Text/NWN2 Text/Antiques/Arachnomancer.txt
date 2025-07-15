@@ -1,0 +1,43 @@
+Arachnomancer
+
+Arachnomancer
+
+Requirements
+Alignment: Any evil.
+Base Save Bonus: Fortitude +4.
+Skills: Lore 4
+Spell: Web
+
+Class Features
+
+HD: d6
+BAB: Medium
+High Saves: Ref
+Weapon proficiency: Simple and Martial.
+Armor proficiency: None.
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Lore, Parry, and Tumble
+Skill Points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Poison Save Bonus, Spellcasting Progression
+Level 2: Spiderform
+Level 3: Poison Touch (1d4 Str), Spiderskin 1/day
+Level 4: Dominate Spider 1/day
+Level 5:
+Level 6: Poison Touch (1d6 Str)
+Level 7:
+Level 8:
+Level 9: Poison Touch (1d8 Str)
+Level 10: Spider Blast
+
+Spellcasting Progression: At 1st, 3rd, 4th, 6th, 7th, 9th, and 10th level, an arachnomancer gains new spells per day (and spells known, if applicable) as if he had also gained a level in a spellcasting class to which he belonged before adding the prestige class. This class provides progression in divine, arcane, or invocation based classes.
+
+Poison Save Bonus: An arachnomancer adds his class level to all saves against poison.
+
+Spiderform: Beginning at 2nd level, an arachnomancer may transform himself into a small, medium, or large monstrous spider three times per day. At 5th level he can take the form of a Huge monstrous spider, and at 8th level, he can take the form of a Gargantuan monstrous spider. This form lasts 10 minutes per arachnomancer level.
+
+Poison Touch: The arachnomancer can secrete poison and deliver it with a melee touch attack attack. When he first gains this ability at 3rd level, his touch deals 1d4 points of Strength damage. The damage increases to 1d6 points at 6th level and 1d8 points at 9th level. In each case, a successful Fortitude save (DC 10 + arachnomancer level + arachnomancer's Con modifier) halves the damage, to a minimum of 1 point. This ability can be used as often as desired.
+
+Spider Blast: Once per day, a 10th-level arachnomancer can produce a 50-foot-long, cone-shaped blast of extremely poisonous venom. Every creature within the area of the blast takes 5d4 points of damage and must make 1d4 Fortitude saves against poison (DC 10 + arachnomancer + arachnomancer's Con modifier; 1d6 points of damage for both initial and secondary damage). Each creature is also allowed a Reflex save at the same DC for partial effect. Success means the victim takes half damage and need make only one Fortitude saving throw against poison.

@@ -1,0 +1,45 @@
+Elemental Savant
+
+Elemental savants study the basic building blocks of existance - air, earth, fire, and water - learnign to harness their powers. Eventually they transcend their mortal forms and become elemental beings.
+
+Requirements
+
+Feats: Any Energy Substitution feat
+Skills: Lore 12
+Spellcasting: Able to cast 3rd-level spells.
+
+Class Features
+
+HD: d4
+BAB: Low
+High Saves: Will
+Weapon proficiency: None
+Armor proficiency: None
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Concentration, Diplomacy, Lore, and Spellcraft.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Elemental Specialty, Energy Resistance 5, Spellcasting Progression
+Level 2: Immunity to Sleep
+Level 3: Energy Penetration +2
+Level 4: Energy Resistance 10
+Level 5: Energy Focus +1
+Level 6: Darkvision
+Level 7: Energy Resistance 20
+Level 8: Energy Penetration +4
+Level 9: Immunity to Paralysis and Poison
+Level 10: Elemental Perfection, Energy Focus +2, Energy Immunity
+
+Spellcasting Progression: At each elemental savant level except 5th and 10th, the character gains new spells per day as if she had also gained a level in a spellcasting class to which she belonged before adding the prestige class level.
+
+Elemental Specialty: The first step toward transcending mortal form requires an elemental savant to choose her elemental specialty. Upon entering the class, she must select an element and its associated energy type. Only elements for which she has the Energy Substitution feat are valid choices. When the savant casts a spell that normally deals energy damage, its energy descriptor changes to the savant's chosen energy type, and it deals damage of that energy type instead of its normal energy type. The chosen energy type is the only type the savant uses from this point on, the energy substitution feat no longer works.
+
+Energy Resistance: As an elemental savant gains levels in this prestige class, she becomes more resistant to the type of energy allied with her chosen element. At 1st level, she gains resistance 5 against this energy type. This resistance rises to 10 at 4th level and 20 at 7th level. At 10th level she gains immunity to the type of energy associated with her chosen element.
+
+Energy Penetration: Beginning at 3rd level, an elemental savant further refines her ability to wield energy associated with her chosen element. When she casts an energy spell, she gains a +2 bonus on caster level checks to overcome a creature's spell resistance. At 8th level this bonus increases to +4. These bonuses stack with those granted by the Spell Penetration and Greater Spell Penetration feats.
+
+Energy Focus: From 5th level on, an elemental savant is better able to manipulate energy associated with her chosen element. The save DC for any spell with that energy description increases by 1. At 10th level, these save DCs increase by 1 again (total increase of 2). These increases are cumulative with those granted by the Spell Focus and Greater Spell Focus feats.
+
+Elemental Perfection: At 10th level, an elemental savant, through long association with elemental entities and extensive study of their secrets, completely transcends her mortal form to become an elemental creature. She gains an elemental creature's immunity to stunning, sneak attacks, and critical hits.

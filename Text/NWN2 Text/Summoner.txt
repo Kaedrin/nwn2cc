@@ -1,0 +1,108 @@
+This is the pathfinder summoner (not to be confused with the summoner I already posted, this one is a WIP thread for me to clean it up while at work).
+
+Notes for http://paizo.com/pathfinderRPG/prd/advanced/baseClasses/summoner.html
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Will
+Weapon proficiency: Simple.
+Armor proficiency: Light armor.
+
+Class Skills: Appraise, Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Listen, Lore, Parry, Spot, Taunt, and Tumble
+Skill Points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Summon Monster, Eidolon Shape
+Level 2: 
+Level 3: 
+Level 4: Shield Master
+Level 5: 
+Level 6: 
+Level 7: 
+Level 8: 
+Level 9: 
+Level 10: 
+Level 11: 
+Level 12: Greater Shield Master
+Level 13:
+Level 14: 
+Level 15: 
+Level 16: 
+Level 17: 
+Level 18: 
+Level 19: 
+Level 20: 
+Level 21: 
+Level 22: 
+Level 23: Epic Bonus Feat
+Level 24: 
+Level 25: 
+Level 26: Epic Bonus Feat
+Level 27: 
+Level 28: 
+Level 29: Epic Bonus Feat
+Level 30: 
+
+Summon Monster: Starting at 1st level, a summoner can cast summon monster as a spell-like ability a number of times per day equal to half his class level. The spell level is equal to half his class level, rounded up. For example: Summon Monster VI at 11th level.
+
+Drawing upon this ability uses up the same power as the summoner uses to call his eidolon. As a result, he can only use this ability when his eidolon is not summoned (or dead). He can cast this spell as a standard action and the creatures remain for 1 minute per level (instead of 1 round per level). At 19th level, this ability becomes the equivalent of the gate spell.
+
+Shield Master: At 4th level, whenever a summoner is within his eidolon's reach, the summoner receives a +2 shield bonus to his Armor Class and a +2 circumstance bonus on his saving throws. 
+
+Greater Shield Ally: At 12th level, whenever a summoner is within his eidolon's reach, the summoner receives a +4 shield bonus to his Armor Class and a +4 circumstance bonus on his saving throws. This replaces the bonus from Shield Master.
+
+Shapes: Angel, Demon, Dragon, Fey, Undead, Elemental (4), Spider
+
+Spells per day lose 1 per day for levels 2,3,4 to account for auto perm of evo bonuses
+
+S1 - Expeditious Retreat, Mage Armor, Shield, Lesser Rejuv Eid, Protection from Alignment
+S2 - Barkskin, Blur, See Invis, Cat's Grace, Haste
+S3 - Stoneskin, Fire Shield, Rejuv Eid, Greater Invis, Greater Magic Fang
+S4 - Extended Displacement, Mass Bulls Str, Mass Bears End, Mass Cats Grace, Hold Monster
+S5 - Greater Heroism, Greater Rejuv Eid, True Seeing, Spell Turning, Shadow Simulacrum
+S6 - Protection from Spells, Greater Dispel Magic, Ethereal Jaunt, Mass Charm Monster, Dominate Monster
+
+Spells affect caster and eidolon.
+
+Creature Stats (all levels): Int 7, Wis 10, Cha 11
+
+Level Dependent Stats (NatAC past +20 is turned into armor enhance, armor enhance past 20 is turned into armor enchance)
+L1: 1 HD, Str 16, Dex 12, Con 13, +4 Nat AC, d6 claw
+L2: 2 HD, Str 17, Dex 13, Con 13, +6 Nat AC, d6 claw, Evasion
+L3: 3 HD, Str 17, Dex 13, Con 14, +6 Nat AC, d6 claw, Evasion
+L4: 3 HD, Str 17, Dex 13, Con 14, +6 Nat AC, d6 claw, Evasion, Fire Resist 15
+L5: 4 HD, Str 18, Dex 14, Con 15, +8 Nat AC, d6 claw, Evasion, Fire Resist 15, +1d6 Acid
+L6: 5 HD, Str 18, Dex 14, Con 15, +8 Nat AC, d6 claw, Evasion, Fire Resist 15, +1d6 Acid
+L7: 6 HD, Str 19, Dex 15, Con 15, +10 Nat AC, d6 claw, Evasion, Fire Immune, +1d6 Acid
+L8: 6 HD, Str 27, Dex 13, Con 19, +12 Nat AC, d8 claw, Evasion, Fire Immune, +1d6 Acid
+L9: 7 HD, Str 27, Dex 13, Con 19, +12 Nat AC, d8 claw, Evasion, Fire Immune, +1d6 Acid, DR 5/Adam, Multiattack
+L10: 8 HD, Str 28, Dex 14, Con 20, +16 Nat AC, d8 claw, Evasion, Fire Immune, +1d6 Acid, DR 5/Adam, Multiattack
+L11: 9 HD, Str 28, Dex 14, Con 20, +16 Nat AC, d8 claw, Evasion, Fire Immune, +1d6 Acid, DR 5/Adam, Multiattack, Fast Heal 1
+L12: 9 HD, Str 29, Dex 15, Con 20, +18 Nat AC, d8 claw, Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 1
+L13: 10 HD, Str 29, Dex 15, Con 20, +18 Nat AC, d8 claw, Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 1
+L14: 11 HD, Str 29, Dex 15, Con 20, +18 Nat AC, d8 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 2
+L15: 12 HD, Str 30, Dex 16, Con 21, +22 Nat AC, d8 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 2
+L16: 12 HD, Str 30, Dex 16, Con 21, +22 Nat AC, d8 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3
+L17: 13 HD, Str 31, Dex 17, Con 21, +24 Nat AC, d8 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3
+L18: 14 HD, Str 31, Dex 17, Con 21, +24 Nat AC, d8 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3
+L19: 15 HD, Str 31, Dex 17, Con 21, +24 Nat AC, d8 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3
+L20: 15 HD, Str 32, Dex 18, Con 21, +28 Nat AC, d8 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3
+L21: 16 HD, Str 32, Dex 18, Con 22, +28 Nat AC, d8 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3
+L22: 17 HD, Str 41, Dex 17, Con 26, +31 Nat AC, 2d6 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3
+L23: 18 HD, Str 41, Dex 17, Con 26, +31 Nat AC, 2d6 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3
+L24: 18 HD, Str 41, Dex 17, Con 26, +31 Nat AC, 2d6 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3
+L25: 19 HD, Str 42, Dex 18, Con 26, +35 Nat AC, 2d6 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3
+L26: 20 HD, Str 42, Dex 18, Con 27, +35 Nat AC, 2d6 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3, Spell Resistance (37)
+L27: 20 HD, Str 43, Dex 19, Con 27, +37 Nat AC, 2d6 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 3, Spell Resistance (38)
+L28: 21 HD, Str 43, Dex 19, Con 28, +37 Nat AC, 2d6 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 4, Spell Resistance (39)
+L29: 22 HD, Str 43, Dex 19, Con 28, +37 Nat AC, 2d6 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 5, Spell Resistance (40)
+L30: 23 HD, Str 44, Dex 20, Con 28, +41 Nat AC, 2d6 claw, Improved Evasion, Fire Immune, +1d6 Acid, DR 10/Adam, Multiattack, Fast Heal 5, Spell Resistance (41)
+
+Feats (to be determined): 1 (3rd), 2 (6th), 3 (9th), 4 (11th), 5 (14th), 6 (17th), 7 (19th), 8 (22nd), 9 (25th), 10 (27th), 11 (30th)
+
+1 point of Spot, Listen, Hide, Move Silently per HD
+-4 Hide/Move Silently at level 7
+-8 Hide/Move Silently at level 22

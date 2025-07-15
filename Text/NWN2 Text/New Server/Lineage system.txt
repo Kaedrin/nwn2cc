@@ -1,0 +1,9 @@
+Characters who reach level 20 and wish to "retire" from adventuring can contribute to a family lineage. When they retire they may choose a single item which becomes a legacy item that is handed down to the next character they create that has the same last name. The new character will also receive 10% of your gold (or X, whichever is lower). Each time a member of your family retires you may mark a new item which will join the collection of items that are handed down.
+
+Example:
+A level 20 Knight retires, passing down his +5 sword to the family and 10% of his 5000 gold fortune.
+A level 1 Spellthief is created with the same last name (and account/CD key) who then receives 500 gold and the +5 sword.
+The Spellthief retires at 20th, passing down the +5 sword as well as a +5 Light Shield and 10% of his 10000 gold fortune.
+A level 1 Hexblade with the same last name (and account/CD key) who then receives 1000 gold, the +5 sword, and the +5 shield.
+
+Note: Legacy items will likely have their bonus dropped to +1 and have it "improve" each time the character levels up at a certain threshold (+2 at level 6, +3 at level 10, +4 at level 14, etc). This gives them items that upgrade over time and are freely obtained roughly 2-3 levels before they should be able to find them (following the typical +1 every 5 levels). It would represent the character becoming more familiar with the item and their experience in general improving over time. It also keeps level 1s from running around with +5s.

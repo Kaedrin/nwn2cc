@@ -1,0 +1,79 @@
+Marshal
+
+Sometimes it is not enough to be a conquering warrior, a champion of all that's right, an experienced sellsword, or an elite foot soldier. Sometimes the circumstances require a solid commander of soldiers and situations. Sometimes the circumstances demand a marshal.
+
+Marshals inspire trust in those they lead. They earn that trust by slogging through harsh landscapes, dangerous battlefields, and haunted catacombs along with those under their command. With a look, they can see where to best deploy their resources or come up with a sneaky ruse to fool their enemies. A marshal has a tactician's mind, a cartographer's overview of the disputed landscape (or dungeon warren), and a way with words that can inspire battle-hardened fighters to give it their all when melee breaks out.
+
+This is a base class and has 30 levels.
+
+Class Features
+
+HD: d8
+BAB: High
+High Saves: Fort, Will
+Weapon proficiency: Simple and Martial.
+Armor proficiency: All Armor and Shields (except tower).
+
+Class Skills: Bluff, Craft Armor, Craft Weapon, Diplomacy, Intimidate, Heal, Listen, Lore, Parry, Perform, Spot, Survival, Taunt, and Tumble
+Skill Points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Demoralize Opponent, Skill Focus (Diplomacy)
+Level 2: Inspiring Aura +1, Aura choice
+Level 3: Bonus Feat
+Level 4: Adrenaline Burst 1/day, Aura choice
+Level 5: 
+Level 6: Aura choice
+Level 7: Inspiring Aura +2
+Level 8: Adrenaline Burst 2/day, Aura choice
+Level 9:
+Level 10: Aura choice
+Level 11:
+Level 12: Adrenaline Burst 3/day, Aura choice
+Level 13:
+Level 14: Inspiring Aura +3, Aura choice
+Level 15:
+Level 16: Adrenaline Burst 4/day, Aura choice
+Level 17:
+Level 18:
+Level 19:
+Level 20: Adrenaline Burst 5/day, Inspiring Aura +4
+Level 21:
+Level 22:
+Level 23: Bonus Epic Feat
+Level 24: Adrenaline Burst 6/day
+Level 25: Inspiring Aura +5
+Level 26: Bonus Epic Feat
+Level 27:
+Level 28: Adrenaline Burst 7/day
+Level 29: Bonus Epic Feat
+Level 30: Inspiring Aura +6
+
+Auras affect all allies within 60' of the marshal as well as the marshal. An aura is used in the same was as a bardic inspiration and as such only a single ability can be active at any given time (inspiring aura or bardic inspiration).
+
+Inspiring Aura: Beginning at 2nd level, a marshal can project an inspiring aura. An aura lets allies add +1 to certain rolls. This bonus improves by +1 at 7th, 14th, 20th, 25th, and 30th level. You gain an additional aura known at each even level. All of your aura's provide a bonus to all saves equal to half your Charisma bonus and a +1 bonus to all skills for every 6 levels of Marshal you have.
+
+Hardy Soldiers: The marshal's allies gain damage reduction x/- equal to the amount of bonus the aura provides.
+Motivate Ardor: Bonus on damage rolls.
+Motivate Care: Bonus to Dodge Armor Class.
+Resilient Troops: Bonus on all saves.
+Motivate Attack: Bonus on attack rolls.
+Vigor: You and your party heal 1 point for every two points of your aura bonus each round.
+Energy Shield: Any creature striking you or your ally is dealt 2 points of energy damage for each point of your aura bonus. The energy type is chosen when you activate the aura from the following choices: acid, cold, electricity, or fire.
+Resistance: Resistance to a chosen energy type equal to 5 x your aura bonus. The choices are acid, cold, electricity, or fire.
+
+Adrenaline Boost: Starting at 4th level, you can exhort your allies to discover a reservoir of energy they didn't think they had. Once per day, as a standard action, you can grant temporary hit points equal to your marshal level to all of your allies within 30 feet (but not to yourself). If the ally's current hit point total is less than half his normal hit points, the number of temporary hit points granted to that character is doubled. The temporary hit points last for up to 1 minute per marshal level. You gain an additional use for every 4 levels of marshal you gain past 4th. At 20th level you grant your allies 1 point of regeneration for 1 minute.
+
+New Feats:
+Double Aura (run two auras) - Requires Marshal 16. When used, choose from 5 major aura choices (excluding Resilient Troops, Resistance, and Energy Shield) as to what the second aura is. Will fail if the chosen aura is already active (or the player does not yet have the aura).
+Improved Aura (+1 bonus)
+Rally (provides 3 round haste with Adrenaline Burst, always treats target as below 50% life
+Extra Adrenaline Burst I-III (+2/day)
+Epic Aura (+2 bonus) replaces improved aura.
+
+***
+
+Feel free to discuss any balance issues in this thread. Might as well do this now while I have the asbestos suit on.
+
+[color=red]Edit for clarity: Bard, Knight, and Marshal +AB/Dmg bonuses will NOT stack.[/color]

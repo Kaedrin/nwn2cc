@@ -1,0 +1,54 @@
+Tamawrath
+
+Master of Tier'Kalath
+
+Ancient Fang Dragon (20 Dragon/10 Warrior of Darkness)
+Str: 33 + 10
+Dex: 10 + 6
+Con: 26 +8
+Int: 16
+Wis: 21
+Cha: 16
+Dmg: 8d8 bite (+5 enhance, +2 Vampiric), 4d8 claw x2 (claw +1d12 magic, +5 Enhance, +2 Vampiric on all weapons)
+Base AC: 10
+Size AC: -4
+Dex AC: 3
+Shield AC: 4
+Nat AC: 29
+Armor AC: 13
+Defl AC: 5
+Dodge AC: 13 (5 boots, 3 combat expertise, 5 aura)
+Misc AC: 2 (Haste, Luck of Heroes)
+Total AC: 75
+HD: 20d12 + 10d10
+HP: 760
+SR: 42
+AB: 68 -> 30 (bab) + 1 (haste) + 16 (str) + 5 (enhance) -2 (expertise + weapon focus) +1 (prowess) +4 (Grtr hero) + 5 (aura) + 8 gaunt
+Fort: 39
+Will: 53
+Ref: 33
+
+Lair Bonuses: Mind Blank, Death Ward
+
+Buffed Spells: Haste, Mirror Image, Greater Heroism, Stoneskin, Greater Resistance
+
+Abilities: Ability Drain (Bite, 8 Con damage, DC30), Globe of Invulnerability, Spell Turning, Shield, Immunity Sneak Attacks, Fast Regen 10, DR 20/-, Fear Aura (DC 28)
+
+Feats: Luck of Heroes, Iron Will, Improved Natural Attack (Claw), Improved Natural Attack (Bite), Knockdown, Improved Knockdown, Combat Expertise, Draconic Aura, Double Draconic Aura, Great Con I - III, Fast Healing I - II, Epic Toughness I - II, Epic Prowess
+
+Blackguard Feats: Blind-Fight, Toughness, Dash, Steadfast Determination, Weapon Focus (Bite), Weapon Focus (Claw), Epic Resilience
+
+Items:
+Goggles: +10 Spot
+Jaws: +1 size class on bite damage (accounted for in listed statistic)
+Helm: Helm of Darkness (Immunity to Death Magic, Fear, Darkness Spell)
+Cloak: Greater Displacement (50% concealment)
+Amulet: Amulet of Will +8
+Ring 1: Ring of Universal Resistance (30 resist to Fire, Cold, Electricity, Acid, Sonic)
+Ring 2: Ring of Protection +5
+Armor: Mithril +5 Full Plate
+Vest: +5 Save Throws
+Bracers: Imaskari Bracers of Immortality (+8 Con)
+Gauntlets: Cat's Queen's Claws (+6 Dex, +8 AB, +1d12 magic damage)
+Belt: Belt of Storm Giant Strength (+10 Str)
+Boots: Boots of Sun Soul +5 (+5 Dodge AC)

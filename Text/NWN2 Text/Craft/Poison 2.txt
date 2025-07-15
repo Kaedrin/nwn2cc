@@ -1,0 +1,80 @@
+[spoiler="Possible new crafting"] Craft Trap
+
+Alchemist's Fire
+Tier 1: ? (TBD)
+Tier 2: ? (TBD)
+Tier 3: ? (TBD)
+
+Acid Flask
+Tier 1: ? (TBD)
+Tier 2: ? (TBD)
+Tier 3: ? (TBD)
+
+Healing Kit
+Tier 1: +6 (DC 4)
+Tier 2: +12 (DC 14)
+Tier 3: +18 (DC 24)
+
+Contact Poison 1
+Tier 1: DC 4 to make, Poison (DC 18, d2 Con)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Con)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Con)
+
+Contact Poison 2
+Tier 1: DC 4 to make, Poison (DC 18, d2 Str)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Str)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Str)
+
+Contact Poison 3
+Tier 1: DC 4 to make, Poison (DC 18, d2 Dex)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Dex)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Dex)
+
+Contact Poison 4
+Tier 1: DC 4 to make, Poison (DC 18, d2 Cha)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Cha)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Cha)
+
+Contact Poison 5
+Tier 1: DC 4 to make, Poison (DC 18, d2 Wis)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Wis)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Wis)
+
+Contact Poison 6
+Tier 1: DC 4 to make, Poison (DC 18, d2 Int)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Int)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Int)
+
+There is one recipe 'book' for each type of crafting (alchemy/traps are in one). For each book there are a number of individual recipes (each tier * each output type).
+
+So you buy the book that holds the recipes then you have to buy/find the rest of the recipes. The book is little more than a container that only recipes of the correct type go in (and it's done automatically on acquiring recipes, you can't take them out of the book).
+
+Lets say there were only Healing Kits in the crafting system.
+
+Recipe Book (Alchemy and Trap crafting guide) for 100 Gold.
+Recipe 1 (Healing Kit +1) for 100 gold.
+Recipe 2 (Healing Kit +3) for 200 gold.
+Recipe 3 (Healing Kit +6) for 300 gold.
+Recipe 4 (Healing Kit +10) for 400 gold.
+
+That's it. You have the one book and 4 recipes that can be bought/found. All traps and alchemy crafting will go into this book.
+
+Ingredients
+Acid: Vitriolic Distillation
+Electrical: Sparkstone
+Fire: Brimstone
+Frost: Powdered Coldstone
+Gas/Poison: Poison Extract
+Sonic: Powdered Thunderstone
+Spike Trap: Spike set
+Healing: Healing Herb
+
+Probably have 5 tiers and not the 3 listed above.
+
+Trap Crafting would be Minor, Average, and Strong (maybe deadly) traps. I'd probably redo the damage they do to make it a smooth progression.
+http://nwn2.wikia.com/wiki/Trap_kit
+
+Additional alchemy recipes from http://nwn2.wikia.com/wiki/Thrown_recipes including Greater, Strong, and Deadly versions.
+
+Possibly new spell traps (including symbols).
+[/spoiler]

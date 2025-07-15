@@ -1,0 +1,46 @@
+Thoughts on these new feats?
+
+[color=#ff3333]New Feat: Inspired by Legend
+Your attempts to follow in the steps of the heroes of old have led you be quite brash and heroic.
+Prerequisites: Skald 5
+Benefit: You gain the benefits of the Heroism spell at all times.[/color]
+
+New Feat: Hero's Call
+You drive your allies even harder with tales of the greatest heroes in the land.
+Prerequisites: Skald 1
+Benefit: Your adrenaline boost ability now always provides twice the bonus as though your allies were always below 50% health.  In addition, your allies (but not yourself) gain a +1 bonus to Dodge AC.
+
+New Feat: Improved Hero's Call
+You personalize your encouragement to your allies, driving them on as though they were the great heroes.
+Prerequisites: Skald 1
+Benefit: Your adrenaline boost ability now always provides twice the bonus as though your allies were always below 50% health. If they are below 50% health they instead gain three times the bonus. In addition, your allies (but not yourself) gain a +1 bonus to Dodge AC and attack bonus.
+
+New Feat: Inspire Heroics (Aggression)
+Prerequisites: Skald 1
+Benefit: Your inspire heroics ability now also provides 1 point of bonus damage on attacks. This improves to 2 points at 11th and 3 points at 21st level.
+
+New Feat: Improved Inspire Heroics 
+Prerequisites: Skald 5
+Benefit: Your Inspire Heroics (Health) ability now provides an additional point of regeneration. Your Inspire Heroics (Aggression) ability now provides an additional point of damage.  Your Inspire Heroics (Protection) ability now provides an additional point of Dodge AC. Your Inspire Heroics ability now provides +1 to Will saves for every seven levels of Skald (maximum +4 at 28th).
+
+[color=#339933]New Feat: Inspire Heroics (Toughness)
+Prerequisites: Skald 1
+Benefit: Your inspire heroics ability now also provides 1% physical damage immunity for every 2 levels of Skald (maximum +15% to blunt, piercing, and slashing at 30th level).
+
+New Feat: Collaborative Legends
+Prerequisites: Skald 1
+Benefit: For each nearby Skald with the Collaborative Legends feat, the Skald's level is treated as 4 levels higher than normal for determining the effects of Inspire Heroics and Adrenaline Boost. Only the highest level Skald should be running Inspire Heroics though to ensure the highest aura is used.[/color]
+
+***
+
+I cut Inspired by Legend and added Inspire Heroics (Toughness) and Collaborative Legends.
+
+New Feat: Inspire Heroics (Toughness)
+Prerequisites: Skald 1
+Benefit: Your inspire heroics ability now also provides 1% physical damage immunity for every 2 levels of Skald (maximum +15% to blunt, piercing, and slashing at 30th level).
+
+New Feat: Collaborative Legends
+Prerequisites: Skald 1
+Benefit: For each nearby Skald with the Collaborative Legends feat, the Skald's level is treated as 4 levels higher than normal for determining the effects of Inspire Heroics and Adrenaline Boost. Only the highest level Skald should be running Inspire Heroics though to ensure the highest aura is used.
+
+Petition your local DM and ask them to give them a thumbs up. :P

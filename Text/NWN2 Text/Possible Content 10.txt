@@ -1,0 +1,93 @@
+[spoiler="Witch"]Witch
+
+(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)
+
+Some gain power through study, some through devotion, others through blood, but the witch gains power from her communion with the unknown. Generally feared and misunderstood, the witch draws her magic from a pact made with an otherworldly power. Communing with that source, using her familiar as a conduit, the witch gains not only a host of spells, but a number of strange abilities known as hexes. As a witch grows in power, she might learn about the source of her magic, but some remain blissfully unaware. Some are even afraid of that source, fearful of what it might be or where its true purposes lie.
+
+Role: While many witches are recluses, living on the edge of civilization, some live within society, openly or in hiding. The blend of witches' spells makes them adept at filling a number of different roles, from seer to healer, and their hexes grant them a number of abilities that are useful in a fight. Some witches travel about, seeking greater knowledge and better understanding of the mysterious powers that guide them.
+
+Requirements:
+
+<b>Class:</b> Sorcerer
+<b>Alignment:</b> Any.
+
+Class Features
+
+HD: d6
+BAB: Low
+High Saves: Will
+Weapon proficiency: Simple.
+Armor proficiency: None.
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Heal, Intimidate, Lore, Spellcraft, and Use Magic Device
+Skill Points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Familiar, Spellcasting Progression, Hex
+Level 2: Hex
+Level 3:
+Level 4: Hex
+Level 5:
+Level 6: Hex
+Level 7:
+Level 8: Hex
+Level 9:
+Level 10: Hex
+Level 11:
+Level 12: Hex
+Level 13:
+Level 14: Hex
+Level 15:
+Level 16: Hex
+Level 17:
+Level 18: Hex
+Level 19:
+Level 20: Hex
+Level 21:
+Level 22: Bonus Epic Feat, Hex
+Level 23:
+Level 24: Hex
+Level 25: Bonus Epic Feat
+Level 26: Hex
+Level 27:
+Level 28: Bonus Epic Feat, Hex
+Level 29:
+
+Spellcasting: At each level, a witch gains new spells per day (and spells known, if applicable) as if she had gained a Sorcerer level.
+
+Hex: Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes. At 1st level, a witch gains one hex of her choice. She gains an additional hex at 2nd level and for every 2 levels attained after 2nd level. The save to resist a hex is equal to 10 + 1/2 the witch's level + the witch's Charisma modifier. Using a hex is a full round action that does not provoke an attack of opportunity.
+
+Hex choices:
+
+Cauldron: The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.
+
+Charm: The target creature becomes allied to the witch. For the duration the spell, the charmed creature will protect the caster (and the caster's allies) and attack the caster's enemies.
+
+Misfortune: The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty to AC. This hex lasts for a number of rounds equal to 3 + the witch's Charisma modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.
+
+Evil Eye: The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty to attack rolls. This hex lasts for a number of rounds equal to 3 + the witch's Charisma modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.
+
+Healing: A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch's caster level. At 5th level, this hex acts like cure moderate wounds. This ability has a 18s cooldown.
+
+Slumber: A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch's level. This hex can affect a creature of any HD.
+
+Ward: A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. At 8th level and 16th level, the bonuses provided by this ward increase by +1.
+
+Major Healing: By calling upon eerie powers, the witch's touch can mend even the most terrible wounds of those she touches. This acts as cure serious wounds, using the witch's caster level. At 15th level, this hex acts like cure critical wounds. This ability has a 18s cooldown. A witch must be at least 10th level to take this hex.
+
+Call Lightning: All enemies within the area of effect take 1d6 points of electrical damage per caster level, to a maximum of 10d6. A witch must be at least 10th level to take this hex. This ability has a 12s cooldown.
+
+Life Giver: Once per day the witch can, as a full round action, touch a dead creature and bring it back to life. This functions as resurrection. A witch must be at least 18th level to take this hex.
+
+Life Giver 2/day: Twice per day the witch can, as a full round action, touch a dead creature and bring it back to life. This functions as resurrection. A witch must be at least 18th level to take this hex and have the Life Giver hex.
+
+Natural Disaster: A witch using this hex calls down the forces of nature to wreak havoc on an area. This functions as a storm of vengeance combined with an earthquake that occurs on the second round of the effect (while acid is raining from the sky). A witch can only use this ability once per day. A witch must be at least 18th level to take this hex.
+
+Natural Disaster 2/day: A witch using this hex calls down the forces of nature to wreak havoc on an area. This functions as a storm of vengeance combined with an earthquake that occurs on the second round of the effect (while acid is raining from the sky). A witch can only use this ability once per day. A witch must be at least 18th level to take this hex and have the Natural Disaster hex.
+
+Poison: If you succeed at a melee touch attack, the target must make a Fortitude save or suffer the effects of x.
+
+Dire Prophecy: The witch curses the target so he is doomed to die (Will negates). As long as the curse persists, the target takes a –4 penalty to his Armor Class and on attack rolls, saves, ability checks, and skill checks. A witch must be at least 18th level to take this hex. Remove Curse will remove this hex.
+
+[/spoiler]

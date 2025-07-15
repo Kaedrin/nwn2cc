@@ -1,0 +1,53 @@
+I went over the notes I had from the last upgrade/tweak along with the comments so far and here is what I have for a possible future update so I'll post it for discussion (along with a new spells per day tweak from Pathfinder).
+
+[size=16][color=#009900]Spells per day change:[/color][/size]
+
+Original Spells per Day (Charisma based for bonus spells)
+1st Level: 0 at 4th, 1 at 6th, 2 at 14th, 3 at 18th
+2nd Level: 0 at 8th, 1 at 10th, 2 at 16th, 3 at 19th
+3rd Level: 0 at 11th, 1 at 12th, 2 at 17th, 3 at 19th
+4th Level: 0 at 14th, 1 at 15th, 2 at 19th, 3 at 20th
+
+[color=#0066ff]New Spells per Day (Charisma based for bonus spells)
+1st Level: 0 at 4th, 1 at 5th, 2 at 9th, 3 at 13th, 4 at 17th
+2nd Level: 0 at 7th, 1 at 8th, 2 at 12th, 3 at 16th, 4 at 20th
+3rd Level: 0 at 10th, 1 at 11th, 2 at 15th, 3 at 19th
+4th Level: 0 at 13th, 1 at 14th, 2 at 18th, 3 at 20th[/color]
+
+
+[size=16][color=#009900]Feat Changes:[/color][/size]
+
+Curse of Silence: Now affects the area indirectly so that all targets within are automatically silenced as per the silence spell (no save curse).
+
+Practiced Caster (Hexblade): Your Mettle ability now provides 10 + Hexblade level Spell Resistance at level 13. Spellcasting Prodigy improves this by +2.
+
+Extra Aura of Unluck: Now increases Aura duration by 2 rounds.
+
+Boon of the Unlucky: Now increases the concealment of Aura of Unluck by 10%
+
+Arcane Strike: Deals 1 additional point of magic damage for every 5 levels past 5th (3 at 10th, 4 at 15th, 5 at 20th, 6 at 25th, and 7 at 30th) if Hexblade is the only class the character has.
+
+Spellcasting Prodigy: Now adds +1 additional cast per day of each spell level known (maximum still 8 ).
+
+Epic Misfortune: Now increases your Curse DC by 1.
+
+Extra Hexblade's Curse: Each feat increases your Curse DC by 1.
+
+Ability Focus (Hexblade's Curse): Your Curses now debuff your target's Will save by 4 points even when you fail to curse them.
+
+
+[size=16][color=#009900]Spell Changes:[/color][/size]
+
+Faerie Fire replaced with Touch of Idiocy
+
+Entropic Shield replaced with Ray of Enfeeblement
+
+Vampiric Touch casts as though maximized.
+
+
+
+[size=16][color=#009900]Notes:[/color][/size]
+
+Shadow Form is there for "all the time 20% concealment" to support those that burn Aura uses for Curses, etc.
+
+War Troll shape is a strong heal and required to power (without even casting) Minor Shapeshift (Hexblade) which grants free Temporary Hitpoints or +2 magic damage.

@@ -1,0 +1,29 @@
+Contact Poison 1
+Tier 1: DC 4 to make, Poison (DC 18, d2 Con)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Con)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Con)
+
+Contact Poison 2
+Tier 1: DC 4 to make, Poison (DC 18, d2 Str)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Str)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Str)
+
+Contact Poison 3
+Tier 1: DC 4 to make, Poison (DC 18, d2 Dex)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Dex)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Dex)
+
+Contact Poison 4
+Tier 1: DC 4 to make, Poison (DC 18, d2 Cha)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Cha)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Cha)
+
+Contact Poison 5
+Tier 1: DC 4 to make, Poison (DC 18, d2 Wis)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Wis)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Wis)
+
+Contact Poison 6
+Tier 1: DC 4 to make, Poison (DC 18, d2 Int)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Int)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Int)

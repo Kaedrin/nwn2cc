@@ -1,0 +1,94 @@
+Dread Necromancer
+
+A specialist wizard who calls himself a necromancer or a cleric with the Death domain has significant power over undead and the forces of negative energy, but a dread necromancer is their true master. A practicioner of vile and forbidden arts, she calls upon restless, tormented spirits of the dead, seeking their arcane secrets. She might be a consummate villain, or perhaps a tortured hero whose obsession with death leads her along questionable moral paths.
+
+Alignment must be non-good.
+
+Class Features
+
+HD: d6
+BAB: Low
+High Saves: Will
+Weapon proficiency: Simple, Martial
+Armor proficiency: Light
+
+Class Skills: Bluff, Concentration, Craft Armor, Craft Weapon, Hide, Intimidate, Lore, and Spellcraft.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Charnel Touch, Turn Undead
+Level 2: Lich Body (DR 2)
+Level 3: Negative Energy Burst 1/day
+Level 4: Mental Bastion +2, Advanced Learning
+Level 5: Fear Aura
+Level 6: Scabrous Touch 1/day
+Level 7: Lich Body (DR 4), Summon Familiar
+Level 8: Negative Energy Burst 2/day, Undead Mastery, Advanced Learning
+Level 9: Negative Energy Resistance
+Level 10:
+Level 11: Lich Body (DR 6), Scabrous Touch 2/day
+Level 12: Enervating Touch 3/day, Advanced Learning
+Level 13: Negative Energy Burst 3/day
+Level 14: Mental Bastion +4
+Level 15: Lich Body (DR 8)
+Level 16: Scabrous Touch 3/day, Enervating Touch 4/day, Advanced Learning
+Level 17: Enervating Touch 8/day
+Level 18: Negative Energy Burst 4/day, Enervating Touch 9/day
+Level 19: Craft Wondrous Item
+Level 20: Enervating Touch 10/day, Lich Transformation, Advanced Learning
+Level 21: Scabrous Touch 4/day
+Level 22: Enervating Touch 11/day
+Level 23: Negative Energy Burst 5/day
+Level 24: Mental Bastion +6, Enervating Touch 12/day, Advanced Learning, Bonus Feat
+Level 25:
+Level 26: Scabrous Touch 5/day, Enervating Touch 13/day
+Level 27:
+Level 28: Negative Energy Burst 6/day, Enervating Touch 14/day, Advanced Learning, Bonus Feat
+Level 29:
+Level 30: Enervating Touch 15/day
+
+Spells per Day (Charisma based)
+When a dread necromancer first obtains a spell level she can cast 3 per day. At each level after gaining a given spell level the count increases by one until she reaches 6 per day.
+
+Level 1 spells are granted at level 1. Level 2 through 9 spells are gained at every even level starting at 4th level (level 2 spells at 4th, level 6 spells at 12th).
+
+Dread Necromancer Spell List
+1st Level: Bane, Bestow Wound, Cause Fear, Chill Touch, Doom, Inflict Light Wounds, Ray of Enfeeblement, Summon Undead I
+2nd Level: Blindness/Deafness, Darkness, Death Knell, False Life, Ghoul Touch, Inflict Moderate Wounds, Summon Undead II
+3rd Level: Crushing Despair, Death Ward, Inflict Serious Wounds, Ray of Exhaustion, Summon Undead III, Vampiric Touch
+4th Level: Animate Dead, Bestow Curse, Dispel Magic, Enervation, Evard's Black Tentacles, Inflict Critical Wounds, Phantasmal Killer, Summon Undead IV
+5th Level: Blight, Cloudkill, Fire in the Blood, Greater Dispel Magic, Slay Living, Summon Undead V, Undead to Death, Waves of Fatigue
+6th Level: Acid Fog, Circle of Death, Create Undead, Eyebite, Harm, Mass Inflict Moderate Wounds, Waves of Exhaustion
+7th Level: Control Undead, Destruction, Finger of Death, Greater Harm, Mass Inflict Serious Wounds, Song of Discord, Vile Death
+8th Level: Create Greater Undead, Horrid Wilting, Mass Inflict Critical Wounds, Symbol of Death
+9th Level: Energy Drain, Imprison Soul, Mass Harm, Plague of Undead, Wail of the Banshee
+
+Advanced Learning
+
+    Lvl 2 Divine/Arcane spell
+    Lvl 4 Divine/Arcane spell
+    Lvl 6 Divine/Arcane spell
+    Lvl 8 Divine/Arcane spell
+    Lvl 9 Divine/Arcane spell
+    Lvl 9 Divine/Arcane spell
+    Lvl 9 Divine/Arcane spell
+
+New Feats: Corpsecrafter, Deadly Chill, Destructive Retribution, Necromantic Might, Necromantic Presence, Profane Vigor, Ignore Turn Resistance, Undead Leadership, Sacred Vitality, Profane Lifeleech, Profane Aura, Tomb Tainted Soul, Undead Leadership, Practiced Caster (Dread Necromancer), Various Ability Focus feats for the class abilities that need a DC check.
+
+Content expected when the Dread Necromancer is released that it will have access to or may be created to shore up the class based on feedback:
+
+    I'm adding 4 feats that the DN will have access to (only the hexblade, duskblade, artificer, and dread necromancer will be able to take). DN will get the full level 1-9 bonus spells.
+        New Feat: Arcane Disciple (Mysticism) - Gain Divine Favor (1), Spiritual Weapon (2), Lesser Visage of the Deity (3), Weapon of the Deity (4), Righteous Might (5), Visage of the Deity (6), Holy Word (7), Holy Aura (8), Greater Visage of the Deity (9) to a custom caster spellbook
+        New Feat: Arcane Disciple (Healing) - Gain Cure Light Wounds (1), Cure Moderate Wounds (2), Cure Serious Wounds (3), Cure Critical Wounds (4), Heal (5), Regenerate (7), Mass Cure Critical Wounds (8), Mass Heal (9) to a custom caster spellbook
+        New Feat: Arcane Disciple (Magic) - Gain Mage Armor (1), Melf's Acid Arrow (2), Assay Resistance (3), Spell Resistance (5), Spell Mantle (6), Greater Dispel Magic (7), Blackstaff (8), Mord's Disjunction (9) to a custom caster spellbook
+        New Feat: Arcane Disciple (Wrath) - Bear's Endurance (1), Bull's Strength (2), Rage (3), Shout (4), Righteous Might (5), Song of Discord (6), Tenser's Transformation (7), Greater Shout (8), Storm of Vengeance (9) to a custom caster spellbook
+    I'm adding the feat Dreadful Wrath. It's a level 1 background feat that provides a Debuff Aura like the Blackguard has (Will Save vs DC 10 + 1/2 Char Level + Cha Mod or suffer -2 Saves, -2 AC, -2 AB). It will stack with Dark Companion, the Blackguard's aura, and the Hexblade's curse.
+    I'm adding the feat Battle Casting. It's only for the custom spellbook casters and adds a +2 Dodge AC bonus for 6 seconds after casting a hexblade spell (from RotW).
+    I may add support for the Devotion feats to the custom spellbook casters.
+    Arcane Duelist for a 2 level dip gives huge rewards. Blackguard 3 has great synergy as well.
+    New Items such as Veil of Allure (+2 Cha based DCs), Bloodstone enchant (MIC), and Ring of Arcane Might (+1 CL, +1 all DCs)
+    New feat granted a level 1 to the Hexblade and Blackguard (possibly any with Intimidate as a class skill): Demoralize Opponent - Use a standard action and make an opposed Intimidate check to fear your enemy (Shaken effect for -2 AC, -2 AB, -2 Saves). Stacks with all other types of negatives.
+    I'm open to adding Dragon Leadership + Epic Leadership as feats for the custom spellbook casters that will allow them to summon a dragon companion based on their level + charisma bonus. A level 30 character with a 40 Charisma would summon a level 28 Dragon. I'm also open to using this as the foundation of my "pet upgrade" system where you give pets magic items (following the pnp rules that allow animals to equip most types of magic items). This would be quite a buff to the pet (at the expense of drops) and provide a level 23-28 full BAB, nasty pet for two feats.
+    I'm open to adding Obtain Familiar + Improved Familiar which will grant the Duskblade a Winter Wolf that follows the normal pnp familiar rules (1/2 Duskblades HP, HD equal to Duskblade levels -3 at full BAB, up to +10 Natural Armor bonus on top of the +5 the WW already has, etc) The Leadership + Familiar lines could be used at the same time if both are added.
+    I could add the polymorph spells (alter self, polymorph) to their spell list which opens up any form desired and allows Minor Shapeshift (reserve feat) to be used to continually refresh free temporary hit points.

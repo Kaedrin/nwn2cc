@@ -1,0 +1,83 @@
+Witchblade
+[spoiler]
+Alignment: Any chaotic.
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort, Will
+Weapon proficiency: Simple and Martial.
+Armor proficiency: Light, Medium, and Shields (except tower).
+
+Class Skills: Bluff, Craft Armor, Craft Weapon, Diplomacy, Intimidate, Lore, Parry, Spellcraft, and Tumble
+Skill Points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Eldritch Witchblade, Witchblade's Curse 1/day, Power Source
+Level 2: Arcane Resistance
+Level 3: Mettle, Eldritch Warding
+Level 4: Dark Companion
+Level 5: Draining Strike, Witchblade's Curse 2/day
+Level 6: Swift Shadows
+Level 7: Greater Witchblade's Curse
+Level 8: Scathing Rebuke
+Level 9: Witchblade's Curse 3/day
+Level 10: Chilling Strike
+Level 11: Devour Magic
+Level 12: Cursed Aura 1/day
+Level 13: Caustic Strike, Witchblade's Curse 4/day
+Level 14:
+Level 15: Eldritch Wave
+Level 16: Eldritch Insight, Cursed Aura 2/day
+Level 17: Witchblade's Curse 5/day
+Level 18: Invocation
+Level 19: Dire Witchblade's Curse
+Level 20: Utterdark Strike, Cursed Aura 3/day
+Level 21: Witchblade's Curse 6/day
+Level 22:
+Level 23: Bonus Epic Feat
+Level 24: Cursed Aura 4/day
+Level 25: Witchblade's Curse 7/day
+Level 26: Bonus Epic Feat
+Level 27:
+Level 28: Cursed Aura 5/day
+Level 29: Bonus Epic Feat, Witchblade's Curse 8/day
+Level 30:
+
+The Eldritch Witchblade is similar to Eldritch Glaive and deals a number of d6 equal to one third your class level (max 2 attacks like glaive). The other strikes deal a single attack but apply the added effect.
+
+Power Source: Celestial, Dragon, Elemental (4 choices), Fiendish, Fey
+
+Witchblade's Curse : Hexblade's Curse
+Cursed Aura : Aura of Unluck
+Arcane Resistance: +Cha to saves
+Mettle: +4 Fort/Will (eventually Evasion for Fort/Will)
+Dark Companion: As Hexblade
+Eldritch Witchblade: Eldritch Glaive
+Eldritch Warding: +4 Dex, 20% Concealment
+Draining Strike: Draining Blast
+Swift Shadows: Flee the Scene
+Scathing Rebuke: Voracious Dispelling
+Chilling Strike: (Cold) Brimstone Blast
+Devour Magic: Devour Magic
+Shadowspike Armor: Retributive Invisibility
+Eldritch Wave: Eldritch Cone
+Eldritch Insight: Dark Insight
+Utterdark Strike: Utterdark Blast
+
+New Feats:
+Improved Arcane Resistance
+Ability Focus (Eldritch Witchblade)
+Ability Focus (Witchblade's Curse)
+Eldritch Utterance (Witch's Lament) (Caster's Lament)
+Eldritch Utterance (Weakening Shadows) (Repelling Blast)
+Eldritch Utterance (Cursed Vulnerability) (Instill Vulnerability)
+Epic Eldritch Utterance (Eldritch Torrent) (Eldritch Doom)
+Epic Eldritch Utterance (Eldritch Titan) (Word of Changing)
+Epic Eldritch Utterance (Terror Strike) (Binding Blast)
+Extra Cursed Aura (+2 Uses)
+Extra Witchblade's Curse (+2 Uses)
+Battle Casting
+Epic Witchblade's Curse (10' AE)[/spoiler]

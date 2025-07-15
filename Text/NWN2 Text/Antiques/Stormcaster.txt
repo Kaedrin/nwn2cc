@@ -1,0 +1,46 @@
+Stormcaster
+
+Stormcaster
+
+Many things in nature have drawn the attention of the seeker of the arcane: the elements, the nature of the unseen world, the weaving of illusions. The stormcaster is a terrible figure to most who encounter him. He seems to travel, unconcerned, through the foulest of weather. A part of him revels in this destructive manifestation of the elements: the fouler the weather the happier he seems. Many who know of these weather wizards whisper that they do not follow storms but rather that the storms follow them.
+
+Requirements
+
+Alignment: Any nonlawful
+Skill: Lore 4
+Spell: Gust of Wind and (Lightning Bolt or Call Lightning)
+
+Class Features
+
+HD: d4
+BAB: Low
+High Saves: Fort, Ref
+Weapon and Armor proficiency: None
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Intimidate, Listen, Lore, Spellcraft, and Survival.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Storm Spell Power, Bonus Feat: Clap of Thunder
+Level 2: Resistance to Electricity 10
+Level 3: Shield of Winds 1/day
+Level 4:
+Level 5: Thunderbolt
+Level 6: Shield of Winds 2/day
+Level 7: Resistance to Sonic 10
+Level 8: Call Storm
+Level 9: Shield of Winds 3/day
+Level 10: Lord of the Storm
+
+Spellcasting: Beginning at 2nd level, you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in a divine or arcane spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one spellcasting class before becoming a combat medic, you must decide which class to progress in.
+
+Storm Spell Power: You are truly skilled in the use of spells that wield the power of the stormy seas. Any spell you cast that has the air, electricity, sonic, or water descriptor is cast at +2 caster level.
+
+Shield of Winds: Starting at 3rd level, you can call up high winds to cast aside the arrows of your foes. You can surround your group with an effect equal to a wind wall spell for a number of rounds equal to your class level. You can use this ability once per day at 3rd level, two times per day at 6th level, and three times per day at 9th level.
+
+Thunderbolt: Beginning at 5th level, you use your knowledge of the storm to add the poewr of thunder to your lightning-base spells. Any spell you cast that deals electricity damage also deals an extra 1 point of sonic damage per spell level and stuns any creature damaged by the spell for 1 round (Fort save negates).
+
+Call Storm: You only feel fully at home within the confines of a storm. At 8th level, you gain the ability to call a greater call lighting storm once per day. Your caster level is equal to your character level.
+
+Lord of the Storm: At 10th level, your mastery of the power of the storm is complete. You gain resistance to electricity 30 and resistance to sonic 30.

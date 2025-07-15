@@ -1,0 +1,123 @@
+Thoughts?
+
+Dark Soul v2.2
+
+x
+
+This is a base class and has 30 levels. The dark soul has access to two epic spells, Vampiric Feast and Cry of the Damned.
+
+Restrictions
+Alignment Restrictions: Any nongood.
+Class Restrictions: May not be any other class (base or prestige).
+Level Restriction: Must be taken at level 1.
+
+Class Features
+
+HD: d8
+BAB: High (1-10) / Medium (11-30)
+High Saves: Fort, Will
+Weapon proficiency: Simple, Martial
+Armor proficiency: Light
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Disable Device, Heal, Hide, Intimidate, Listen, Lore, Move Silently, Open Lock, Parry, Search, Spellcraft, Spot, Taunt, Tumble, and Use Magic Device.
+
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Trapfinding, Heart of Darkness, Black Scythe, Turn Death
+Level 2: Blighted Touch
+Level 3: Vampiric Shadows (+1)
+Level 4: Shadow Reaver, Dark Strike
+Level 5: Weapon Focus (Scythe), Dark Aura
+Level 6: Blood-caked Runes
+Level 7: Infuse Blood (DR 1/-, Regen 1)
+Level 8: Shadowskin Armor (+2 Natural Armor), Dark Strike
+Level 9: +1d6 Sneak Attack
+Level 10: Weapon Specialization (Scythe), Dark Aura
+Level 11: Consume Shadows
+Level 12: Corrupting Blows, Dark Strike
+Level 13: Vampiric Shadows (+2)
+Level 14: Blood-caked Glyphs
+Level 15: Greater Weapon Focus (Scythe), Dark Aura
+Level 16: Shadowskin Armor (+4 Natural Armor), Dark Strike
+Level 17: Infuse Blood (DR 2/-, Regen 2)
+Level 18: +2d6 Sneak Attack
+Level 19: Evasion
+Level 20: Greater Weapon Specialization (Scythe), Dark StrikeDark Aura
+Level 21: Deathless Mastery
+Level 22: Fear of the Grave
+Level 23: Bonus Feat, Vampiric Shadows (+3)
+Level 24: Shadowskin Armor (+6 Natural Armor), Dark Strike
+Level 25: Epic Weapon Focus (Scythe), Dark Aura
+Level 26: Bonus Feat
+Level 27: Infuse Blood (DR 3/-, Regen 3), +3d6 Sneak Attack
+Level 28: Dark Strike
+Level 29: Bonus Feat
+Level 30: Epic Weapon Specialization (Scythe), Dark Aura
+
+Starting gear: The dark soul begins her adventures with a suit of nightscale armor (ac 2, a max dex bonus of 10, and no skill penalty) as well as her treasured focus item, the black scythe which is composed of adamantine.
+
+Black Scythe: The soul of a banshee has been bound into the dark soul's scythe and encased within shadows. As the dark soul's mastery of shadows and negative energy grows, the power of the scythe grows as well, gaining a +1 enhance bonus for every 6 levels (+2 at 6th, +3 at 12th, +4 at 18th, +5 at 24th, and +6 at 30th). The scythe is initially a +1 scythe with a +1d4 negative energy bonus. At 11th level the scythe becomes coated with rime ice as the chill of the banshee's soul seeps through the shadowsteel blade. The scythe gains a +1d4 cold damage bonus while the negative energy bonus increases to 2d6. At 21st level the spirit of banshee becomes fully imbued within the blade and her cries echo with your every strike. The weapon gains +1d4 sonic damage bonus as well as gaining a +1d10 bonus on criticals (massive criticals). The dark soul may not part with the scythe or use any other weapon as the scythe is the focus of her powers. The enhance bonus can be replaced by a stronger enchantment.
+
+Blighted Touch: The dark soul may deliver a crippling disease born of shadow and infused with negative energy through her scythe (melee touch attack). It drains the life of the subject, causing d6 Constitution damage and healing the dark soul for 25% of her health. The DC of the drain is 20 + the dark soul's Constitution modifier. This ability has a two round cooldown. If the subject is already suffering from the blighted touch, the new effect only takes place if it was stronger than the last. Regardless, the dark soul is still healed by the strike.
+
+Heart of Darkness: The dark soul cannot be healed by spells or effects. Only heal kits can be used as they are treated with alchemy to infuse negative energy into the kits. She also suffers a particular vulnerability (50%) to positive energy.
+
+Turn Death: The dark soul gains the Turn Undead feat but when used it instead deals d4 per character level to all undead within 30' as the negative energy driving the undead is siphoned away. For each undead affected by this drain the dark soul heals a number of points equal to her Constitution mod.
+
+Consume Shadows: In times of desperation the dark soul can consume the life force of her summoned shadow reaver. This kills the reaver and sends it back to it home plane while completely healing the dark soul of any injuries.
+
+Fear of the Grave: The dark soul's experience as a mistress of death and shadows has lead to a healthy fear of dying. After all, why would one risk being raised as a revenant by an enemy? This ability can be used once per day and resets all strikes and cooldowns.
+
+Shadowskin armor: A living shadow is fused to the dark soul's armor, increasing the natural protection it offers. As the dark soul gains in power, the shadows infusing the armor become stronger as well. At 8th level the dark soul gains a +2 natural armor bonus. At 16th the natural armor bonus becomes +4 and at 24th level the bonus becomes +6. This bonus stacks with natural armor enhance bonuses. The dark soul also gains a dodge AC bonus equal to her Constitution modifier. The shadowskin armor ability only works while wearing nightscale armor.
+
+Revenant Companion: You bind a tortured soul within a specially prepared corpse of a fallen neverwinter nine member. It's strength grows as you gain levels due to unlocking more and more memories of it's former past (the revenant is a fighter/blackguard). Your mastery over the revenant is complete though and the lost soul simply suffers more and more anguish as it remembers it's former life.
+
+Shadow Reaver: Once a day you may summon a reaver from the shadow plane to serve you. This shadowhound will serve you until it is slain and has a number of hit dice equal to your own. It is the equivalent of a swashbuckler/rogue.
+
+Infuse Blood: The blood of the dark soul begins to churn with energies from the shadow and negative planes. It partially protects her from injuries and slowly repairs any damage she suffers.
+
+Corrupting Blows: The dark soul's scythe inflicts deep wounds upon her enemies, causing the wounds to bleed profusely. The scythe gains the Wounding property.
+
+Blood-caked Runes: The dark soul's alchemy skills have increased to such a degree she can etch runes with shadows and blood upon her armor. This process damages the dark soul for a number of points equal to her character level but provides a temporary hit point bonus equal to 3 times the amount lost for 6 hours.
+
+Blood-etched Glyphs: The dark soul's alchemy skills have increased to such a degree she can etch glyphs with shadows and blood upon her armor. This process damages the dark soul for a number of points equal to her character level but provides bonus hit point bonus equal to the amount lost for 6 hours. These bonus points stack with temporary hit points granted by blood-caked runes.
+
+Deathless Mastery: At 21st level the dark soul gains many of the properties of undeath without needing to die to gain the benefits. She can no longer be affected by critical strikes or sneak attacks.
+
+Vampiric Shadows: The shadows encasing the banshee within the black scythe begin to waft around the blade, hungering for life energy. The scythe gains the Vampiric property (+1 at 3rd, +2 at 13th, and +3 at 23rd).
+
+New Feat: Revenant Companion (scales 1-20 as a 12 Fighter/8 Warrior of Darkness)
+New Feat: Epic Revenant Companion (scales 21-30 as a 18 Fighter/9 Warrior of Darkness/3 Neverwinter Nine)
+New Feat: Epic Infuse Blood (+3 Regen for Infuse Blood)
+New Feat: Vile Strikes (gain +2d6 sneak attack dice)
+New Feat: Epic Spell (Cry of the Damned) (Wail of the Banshee with a penalty to the Fortitude save equal to half of the dark soul's Constitution modifier)
+New Feat: Death-Laced Blood (DR improves by 3 points)
+
+Dark Strikes - Have a 5 minute cooldown. You can learn 7 of the 12 strikes
+
+   Scourging Strike (Requires level 12) - When you use this strike, make a single melee touch attack. If you hit your opponent, a blast of shadowy energy originates from your attack's point of impact. The target of this strike takes an extra 8d6 points of negative energy damage and must succeed on a Fortitude save (DC 17 + your Con modifier) or take a -2 penalty on attack rolls for 1 minute. All of your opponents within a 30-foot radius burst of the target creature must also succeed on a Fortitude save. Those who fail take 5d6 points of negative energy damage and take a -2 penalty on attack rolls for 1 minute. A successful save results in half damage and negates the attack penalty.
+   Unholy Surge (Requires level 8)- As part of this maneuver, you make a single melee touch attack that deals an extra 8d8 damage. You gain the benefit of any sneak dice you have if the target is not immune to critical hits.
+   Doom Charge (Requires level 8)- As part of this maneuver, you make a single melee touch attack that deals double damage plus an extra 6d6 points of damage (at +2 to the attack roll). Your damage reduction doubles for 3 rounds though you take a -4 AC penalty for the duration.
+   Weakening Strike - As part of this maneuver, you make a single melee touch attack. If this attack hits, the target suffers a -4 AC and Strength penalty for 2 rounds.
+   Strike of Undying Vitality (Requires level 16) - As part of this maneuver, you make a single melee touch attack. You are completely healed of all wounds.
+   Defiler's Strike - As part of this maneuver, you make a single melee touch attack. If your attack hits, you heal 1d6 +5 points of damage. This strike has a 3 minute cooldown.
+   Tide of Death (Requires level 16) - As part of this maneuver, you make a single melee touch attack that deals double damage plus an extra 4d6 points of damage (at +10 to the attack roll). You gain 50% concealment and suffer a -4 AC penalty for 3 rounds.
+   Fear Bearer (Requires level 12) - As part of this maneuver, you make a single melee touch attack that deals double damage plus an extra 4d6 points of damage (at +10 to the attack roll). You gain a +5 bonus to saves and AC for 2 rounds.
+   Wailing Hurricane (Requires level 20) - As part of this maneuver, you make two melee touch attacks (at +4) against each enemy within 10'.
+   Mortal Blow (Requires level 20) - As part of this maneuver, you make a single melee touch attack that deals an extra 4d6 damage. If the target was damage before the strike, you deal an extra 6d6 damage. If the target is below half health before the strike, you instead deal +14d6 bonus damage.
+   Cold Heart Endurance - Instead of attacking, you focus on healing your injuries. You heal twice your level in damage. This ability has a 3 minute cooldown.
+   Shadow Creeping Ice Enervation Strike (Requires level 24) - As part of this maneuver, you make a single melee touch attack that deals an extra 15d6 damage. The enemy suffers one of three effects. 2d6 Dex loss and is slowed, 2d6 Strenght loss and -6 AB and concentration, or 2d6 damage to Str, Dex, and Con. If the enemy makes a Fort save (DC 19 + Con modifier)they only suffer half the ability damage and no other side effects. This ability has an 8 minute cooldown.
+
+Dark Auras - Can be switched instantly, only one aura can be active at a time. You can learn 6 of the 9 auras.
+
+   Death Shield (enemies take 1 point of damage for every 5 levels you have when they strike you in melee)
+   Reckless Fury (you gain a 1pt AB bonus for every 5 levels you have but you no longer regenerate; Consume Shadows and Blight Touch will fail if used).
+   Undying Fortitude (your regen bonus increases to 6, 9 if you have the epic infuse blood feat)
+   Veils of Shadow (your enemies suffer an AB penalty of 1 point for every 5 levels you posses)
+   Essence of Decay (your DC with Blight touch increases by 1 point for every 5 levels you possess and always deals 6 Constitution damage).
+   Curse of No Escape (you gain a 2 point bonus to your saving throws for every 5 levels you possess but are slowed)
+   Hunger of the Nightwalker (for every 5 levels you possess you gain +1d6 sneak attack)
+   Whispers of the Night (you gain a 1 point skill bonus to Hide and Move Silently for every 5 levels you possess as well as gain the HiPS ability)
+   Lash of the Damned (your gain a negative energy damage bonus equal to half your strength modifier and your base DR doubles) (Lash with Death-Laced Blood will provide DR 9/-)

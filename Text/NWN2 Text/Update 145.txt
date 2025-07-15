@@ -1,0 +1,339 @@
+[color=#339933][size=14][b]General 1.45 changes:[/b][/size][/color]
+
+[list]
+[*]Anoint Weapon and Darkling Weapon now affect the off-hand
+[*]Reserve Feat descriptions updated with new changes
+[*]Update description of Unarmed Combat Mastery to include the polymorph penalty.
+[*]Missing RP text added for Bloodline Exemplar, Knight of the Wild, Force Mage, and Mystic Reservist.
+[*]Blackguard's Manifest Death spell now correctly works
+[*]Mystic Reservist requirement changed from level 3 spells to level 3 caster.
+[*]Mystic Reservist now correctly empowers reserve feat damage as per it's description
+[*]The Touch of Fatigue spell, Snowflake Wardance feat, and Inspire Frenzy abilities will no longer apply fatigue if you have the Tireless feat. Currently only Rage, Frenzy, and Dervish Dance ignore fatigue for Tireless.
+[*]Elite Commando no longer provides sneak attack when you take a path other than Shadow. Those with too many dice of sneak attack will be fixed in 1.46.
+[*]Elite Commando text description updated to remove any traces of the Underdark Marauder.
+[*]Stack sizes for ammo and thrown weapons increased to 999.
+[*]Factotum description updated to indicate Combat Insight is granted at level 4 and a bonus epic feat is granted at 22. 
+[*]Factotum's Cunning Defense now mentions it is uncapped if you do not multiclass (or only have Swashbuckler).
+[*]Factotum is now allowed to take Swashbuckler without Cunning Defense suffering the multiclass penalty.
+[*]Gloves no longer require any armor proficiency to wear.
+[*]Skullclan Hunter now mentions it has Paladin spellcasting progression.
+[*]Gift of Healing now shows the affected area
+[*]Bigby's Forceful and Grasping hand now account for the higher of the targets Strength and Dexterity as a trip attack should.
+[*]Beast Heart Adept now correctly provides animal companion progression.
+[*]Factotum's Greater Magic Weapon now affects both hands to support dual wielders.
+[*]Ranger description now mentions Hide in Plain Sight is available at level 14
+[*]Neverwinter Nine renamed to Protector
+[*]Neverwinter Nine's Protective Aura now provides Dodge AC instead of Deflection AC. Aura range doubled.
+[*]Neverwinter Nine's Protective Aura affected area is now 20' and improves to 30' at 4th level.
+[*]Deep Slumber now affects up to 10 HD creatures. Creatures Immune to sleep no longer count against the affected HD total.
+[*]Reserve feats now use the highest mental stat
+[*]Templar levels now stack with Paladin for the purposes of LoH.
+[*]Doomguide description mentions it gets exotic weapon proficiency
+[*]Bards may now cast Gust of Wind
+[*]Ghost Step now has alternate text to indicate the player just dissapeared.
+[*]Ghost Step now has a 12s cooldown.
+[*]Ghostly Visage enabled for Hexblades (formerly augment familiar)
+[*]Mystic Reservist now correctly gains 4 skill points per level.
+[*]Frightful Attack will now properly respect immunities as well as the hit dice of all parties involved.
+[*]Cloudkill now sends a message to the player when they take Con damage.
+[*]Cloudkill now sends a message to the player when they are killed due to a 0 Con.
+[*]Cloudkill now correctly kills players with a zero Con during the heartbeat instead of just when entering the cloud. 
+[*]Bug with full caster level option not respecting the Pathfinder setting fixed. Rangers/Paladins will now correctly get CL - 3 when Option 2 is set in the options.
+[*]Vampiric Feast no longer summons a shadow.
+[*]Lion of Talisid correctly mentions Medium BAB for the class
+[*]Templar class description no longer mentions any ties to a deity's favored weapon
+[*]Spell based sneak attack is now disabled if Daring Outlaw/etc is present.
+[*]Skald icon changed to Swashbuckler icon
+[*]Monk and Rogue class descriptions now mention they have high bab at 21-30
+[*]Ranger Power Attack line now mentions the -4 AB penalty when wearing armor heavier than light.
+[*]Rogue description updated to indicate they have access to HiPS at 13+
+[*]Banishment now affects elementals
+[*]Dismissal and Banishment will no longer kill animal companions and familiars
+[*]Hawkeye is correctly set to be a level 1 spell for Rangers and Druids.
+[*]Ghost-faced Killer now gains Ghost Sight at 7th per pnp. Existing players will receive the feat the next time they rest.
+[*]Frenzied Berserker's Frenzy description updated to indicate it only deals 2 damage per round when you have barbarian levels and 6 if you do not.
+[*]Bloodline Exemplar now correctly unlocks when Sorcerer levels are present.
+[*]Spirit Shaman class description updated to mention it uses Wisdom for DC and spells known.
+[*]Dark Lantern now mentions that Crippling Strike must be taken while leveling up as a Dark Lantern.
+[/list]
+
+[color=#339933][size=14][b]Bard changes:[/b][/size][/color]
+Bard now has Intimidate as a class skill.
+
+[color=#339933][size=14][b]Thug changes:[/b][/size][/color]
+Thug now has Appraise as a class skill.
+
+[color=#339933][size=14][b]Swashbuckler changes:[/b][/size][/color]
+[list]
+[*]Evasion is now granted at level 9
+[*]Improved Evasion is now granted at level 16
+[*]Bleeding Wound - At 6th level, when a Swashbuckler hits with a successful sneak attack, he inflicts a bleeding wound that deals 2 points of damage per round for 3 rounds. This damage stacks with previous damage caused by a Bleeding Wound attack. He must be either unarmed or wielding only light weapons in order to inflict a Bleeding Wound. At 12th level, the damage increases to 4 per round, and at 18th level, it increases to 6 points per round. Each level of Bleeding Wound counts as one die of sneak attack damage for purposes of class and feat prerequisites.
+[*]Swashbucklers gain a bonus feat at 6, 10, 14, 18, 22, 26, and 30. They also gain a bonus epic feat at 23, 26, and 29th level.
+[/list]
+
+[color=#339933][b][size=14]Paladin changes:[/size][/b][/color]
+[list]
+[*]Paladin spellcasting now provides more spells per day by level 20 (4 level 1, 4 level 2, 3 level 3, and 3 level 4 spells - an increase of +1 level 1 and 2 spells as follows: 
+1st Level: 0 at 4th, 1 at 5th, 2 at 9th, 3 at 13th, 4 at 17th
+2nd Level: 0 at 7th, 1 at 8th, 2 at 12th, 3 at 16th, 4 at 20th
+3rd Level: 0 at 10th, 1 at 11th, 2 at 15th, 3 at 19th
+4th Level: 0 at 13th, 1 at 14th, 2 at 18th, 3 at 20th
+[*]New Ability: Channel Positive Energy (Su): 
+Type of Feat: Class
+Specifics: When a paladin reaches 4th level, she gains the supernatural ability to channel positive energy. Using this ability consumes two uses of her turn undead ability. Channeling energy causes a burst that affects all creatures in a 30-foot radius centered on the cleric. The amount of damage dealt or healed is equal to 1d6 points of damage plus 1d6 points of damage for every two paladin levels beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). At 20th level the Paladin always heals or harms for the maximum value. Undead creatures will take damage from the channeled energy and will receive a Will save to halve the damage. The DC of this save is equal to 10 + 1/2 the paladin's level + the paladin's Charisma modifier.
+[*]Paladin description updated to indicate their caster level is equal to their class level.
+[/list]
+
+[color=#339933][size=14][b]Ranger changes: [/b][/size][/color]
+[list]
+[*]Ranger description updated to indicate their caster level is equal to their class level.
+[*]Ranger gains Intimidate as a class skill
+[*]Ranger gains Demoralize Opponent at level 1
+[*]Ranger spellcasting now provides more spells per day by level 20 (4 level 1, 4 level 2, 3 level 3, and 3 level 4 spells - an increase of +1 level 1 and 2 spells as follows: 
+1st Level: 0 at 4th, 1 at 5th, 2 at 9th, 3 at 13th, 4 at 17th
+2nd Level: 0 at 7th, 1 at 8th, 2 at 12th, 3 at 16th, 4 at 20th
+3rd Level: 0 at 10th, 1 at 11th, 2 at 15th, 3 at 19th
+4th Level: 0 at 13th, 1 at 14th, 2 at 18th, 3 at 20th
+[/list]
+
+[color=#339933][size=14][b]Companion changes:[/b][/size][/color]
+
+Silver Fang companion feat renamed to Unstoppable Ferocity and changed to be +1 regen for every 3 HD (maximum +5 regen). 
+
+Druid version renamed to Grim Survival and now provides a +4 Survival bonus.
+
+All companions gain bonus feats from the following list in the order listed (one free feat for every 3 HD of the companion). This is due to animal companions only being given one feat by OEI and not the one per 3 HD they should have. All companions get the same feats (bear, wolf, etc).
+
+1. Luck of Heroes (at 3 HD)
+2. Dodge (at 6 HD)
+3. Weapon Focus (Creature) (at 9 HD)
+4. Toughness (at 12 HD)
+5. Steadfast Determination (at 15 HD)
+6. Blind Fight (at 18 HD)
+7. Epic Precision (at 21 HD)
+8. Epic Toughness I (at 24 HD)
+
+[color=#339933][size=14][b]Monk Update:[/b][/size][/color]
+
+Description updated to mention High BAB at levels 21-30
+Additional Class Skills: Intimidate
+Change bonus epic feats from 24/28 to 23/26/29
+
+Bonus Feat at 1st: Weapon Focus (Unarmed), Weapon Focus (Quarterstaff)
+Bonus Feat at 4th: Unarmed Combat Mastery
+Bonus Feat at 10th: Weapon Specialization (Unarmed), Weapon Specialization (Quarterstaff)
+Bonus Feat at 14th: Greater Weapon Focus (Unarmed), Greater Weapon Focus (Quarterstaff)
+Bonus Feat at 18th: Greater Weapon Specialization(Unarmed), Greater Weapon Specialization(Quarterstaff)
+Bonus Feat at 22nd: Epic Weapon Focus (Unarmed), Epic Weapon Focus (Quarterstaff)
+Bonus Feat at 26th: Epic Weapon Specialization (Unarmed), Epic Weapon Specialization (Quarterstaff)
+Bonus Feat at 30th
+
+Wholeness of Body can be used 1 time for every 3 monks levels. Wholeness of Body now provides 1 point of regen for 3 minutes when used if the character only has Monk levels.
+
+New Feat: Lightning Strikes Twice
+Prerequisites: Monk 5
+You gain an attack bonus with unarmed and quarterstaff attacks, starting at +1. This bonus improves by +1 for every 5 additional monk levels (to a maximum of +4 at 20th level). You also deal an additional 2 points of lightning damage on your unarmed or quarterstaff attacks. This bonus is valid when Unarmed Combat Mastery is valid. If you take levels in any class except monk you will only gain the lightning damage bonus.
+
+New Feat: Fist of the Heavens
+Your favor with the Gods has gifted you with the ability to wreathe your fists or quarterstaff with sacred flames.
+Prerequisites: Ki strike (Adamantine), Intuitive Attack
+Benefit: You add your Wisdom modifier as divine damage to your unarmed and quarterstaff attacks (total bonus may not exceed 1/2 your Monk level or +6, whichever is lower). This bonus caps at +2 if you multiclass. Unarmed Combat Mastery now deals divine damage.
+
+New Feat: Epic Diamond Soul
+Prerequisites: Diamond Soul, Heroic Ki
+Benefit: A monk gains spell resistance equal to his current monk level + 14 as long as he does not have levels in any other class.
+
+New Feat: Heroic Ki
+Your skill at mixing the arcane arts with martial skill are such that you inspire others with your heroics.
+Prerequisites: Monk 5
+Benefit: You gain the benefits of the Heroism spell at all times. These benefits improve to those of Greater Heroism once you obtain 11 levels in Monk. This bonus will not stack with the Heroism or Greater Heroism spells. This feat has no effect if you take any non-Monk levels.
+
+[h3][color=#009900]Group Experience Changes[/color][/h3]
+
+Group Experience bonus modifier changed from +60% to +100% 
+Penalty for using a Dominated creature changed from 50% to 25%
+Penalty for using a Summoned creature changed from 30% to 15%
+Penalty for using a Animal Companion changed from 20% to 10%
+Penalty for using a Familiar changed from 20% to 10%
+An added group bonus is given for more than 2 players that is 5% for each additional member to a maximum of +35% for an 8 player party (actual players, summons/companions do not count).
+The hard cap on per kill experience is still 55.
+You must still be within 30m to get the experience.
+
+Previously, a group of 4 killing a 50 XP creature would earn 35 each.
+Now, a group of 4 killing a 50 XP creature would earn 55 each (50 for the 100% group modifier and an extra 10% for a party of 3).
+
+Previously, a group of 4 with companions and summons killing a 50 XP creature would earn 23 each.
+Now, a group of 4 with companions and summons killing a 50 XP creature would earn 44 each.
+
+Previously, a group of 8 killing a 50 XP creature would earn 33 each.
+Now, a group of 8 killing a 50 XP creature would earn 55 each (50 for the 100% group modifier and an extra 10% for a party of 3).
+
+Previously, a group of 8 with companions and summons killing a 50 XP creature would earn 22 each.
+Now, a group of 8 with companions and summons killing a 50 XP creature would earn 54 each.
+
+[h3][color=#009900]Reserve Feat Changes[/color][/h3]
+[list]
+[*]Reserve feats no long damage allies.
+[*]Winter's Blast now deals d6 per level.
+[*]Umbral Shroud now lasts 1 round plus one additional round for every 2 spell levels (rounded down).
+[*]Umbral Shroud now inflicts a 5% miss chance on a failed save.
+[*]Sickening Grasp has a penalty equal to half the spell level, rounded down (-2 minimum).
+[*]Acidic Splatter, Clap of Thunder, and Invisible Needle now deal (d3+3) per spell level.
+[*]Winter's Blast, Storm Bolt, and Fiery Burst no longer have a Reflex save if you have any levels in Mystic Reservist for the purpose of dealing damage.
+[*]Clap of Thunder now activates with Crumble, Leonal's Roar, and Wounding Whispers.
+[*]Winter's Blast now uses a Fortitude save instead of Reflex (and Mystic Reservist removes the save)
+[*]New Feat: Reserve Feat Mastery - adds half the spell level to DC, rounded up (maximum +5)
+[*]New Feat: Epic Reserve Feat Mastery - adds the spell level to the DC, replaces Reserve Feat Mastery, requires Reserve Feat Mastery
+[*]New Feat: Reserve Feat Enhancement - adds secondary effects exactly like the orb spells, requires Reserve Feat Mastery
+[*]New Feat: Improved Reserve Feats - bypass resists, requires Reserve Feat Mastery
+[*]Hurricane Breath now adds two points from your highest mental ability to the DC roll.
+[*]Winter's Blast now activates with Arc of Frost and Call Frost
+[*]Fiery Bust now affects a 30' burst area
+[*]Winter's Blast now affects a 30' cone area
+[/list]
+
+[color=#339933][b][size=14]Hexblade changes:[/size][/b][/color]
+[list]
+[*]Hexblade spellcasting now provides more spells per day by level 20 (4 level 1, 4 level 2, 3 level 3, and 3 level 4 spells - an increase of +1 level 1 and 2 spells as follows: 
+1st Level: 0 at 4th, 1 at 5th, 2 at 9th, 3 at 13th, 4 at 17th
+2nd Level: 0 at 7th, 1 at 8th, 2 at 12th, 3 at 16th, 4 at 20th
+3rd Level: 0 at 10th, 1 at 11th, 2 at 15th, 3 at 19th
+4th Level: 0 at 13th, 1 at 14th, 2 at 18th, 3 at 20th
+[*]Hexblade caster level is now equal to their class level.
+[*]Hexblade removes the upcoming feats section of the class description
+[*]Spellcasting Prodigy now adds +1 additional cast per day of each spell level known for Hexblades (maximum still 8 )
+[*]Siphon the Weave increases your Curse DC by 1.
+[*]Extra Hexblade's Curse: Each feat increases your Curse DC by 1.
+[*]Epic Misfortune: Now increases your Curse DC by 1.
+[*]Boon of the Unlucky: Now increases the concealment of Aura of Unluck by 10%
+[*]Extra Aura of Unluck: Now increases Aura duration by 2 rounds.
+[*]Arcane Strike: Deals 1 additional point of magic damage for every 5 levels past 5th (3 at 10th, 4 at 15th, 5 at 20th, 6 at 25th, and 7 at 30th) if Hexblade is the only class the character has.
+[*]Vampiric Touch casts as though maximized and caps at 15d6.
+[*]Fixed bug in stacking uses per day of level 2-4 spells.
+[*]Spiderskin now lasts 10 minutes per CL
+[*]Hexblade and Factotum's Greater Magic Weapon now affects both hands to support dual wielders.
+[*]Practiced Caster (Hexblade): Your Mettle ability now provides 10 + Hexblade level Spell Resistance at level 13. Spellcasting Prodigy improves this by +2.
+[*]Fixed bugs in AE cycling for curses
+[*]Ability Focus (Hexblade's Curse): Your Curses now debuff your target's Will save by 4 points even when you fail to curse them.
+[*]Update Hexblade description with revised section of class feats.
+[*]Bug fixed which allows Epic Dark Companion to be taken
+[*]New Feat: Epic Dark Companion
+Type of Feat: Class
+Prerequisite: Character level 21+, Hexblade 26.
+Specifics: Your dark companion inflicts a -4 penalty instead of -2.
+Use: Automatic
+[*]New Feat: Arcane Servant of Darkness
+Type of Feat: Spellcasting
+Prerequisites: Hexblade 5, Blackguard 1
+Specifics: Your Blackguard levels count as Hexblade levels for determining the Hexblade caster level, curse uses per day, curses known, and hexblade level for curse DC. If you have the Practiced Caster (Hexblade) feat then Blackguard levels will count as Hexblade levels for spells known as well as providing a +1 DC bonus for curses and the demoralize opponent ability.
+[*]New Prestige Class: Vengeance Taker
+[spoiler="Vengeance Taker"]Vengeance Taker
+
+A secret society dedicated to righting wrongs, the Vengeance Takers are trained by hidden masters in the rites and rituals of revenge. These master Hexblades teach a direct and violent path for revenge or vengeance to those they consider worthy. Anyone whose personal quest of revenge has become obsessive and epic in nature is well suited to the class. A Vengeance Taker is happy to work alone, trailing her latest quarry through the land. She is usually willing to work with a larger group, so long as its members are amenable to helping her deal her own brand of justice on occasion.
+
+Requirements
+
+Feats: Hexblade's Curse 3/day, Ability Focus (Curse), Spellcasting Prodigy
+
+Class Features
+
+HD: d8
+BAB: High
+High Saves: Fort, Ref
+Weapon proficiency: None.
+Armor proficiency: None.
+
+Class Skills: As Hexblade
+
+Skill Points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Turn Undead, Curse of Shadows
+Level 2: Harm Touch (5/level)
+Level 3: Vampiric Blades
+Level 4: Curse of Blood
+Level 5:
+Level 6: Empower Harm Touch (damage increases to 10/level but deals 2/level to you)
+Level 7: Curse of Shattering
+Level 8:
+Level 9: Empower Curses (+2 DC, +2 rounds duration, +1 effect)
+Level 10: Curse of Life Draining (Next Harm Touch heals you for 100%)
+
+Hexblade Synergy: The Vegeance Taker gains additional curses per day as though taking levels in Hexblade. She also gains spells known and uses per day as though she were a Hexblade. Vengeance Taker levels are considered Hexblade levels for determining when Greater and Dire Hexblade's Curse is awarded (9 Hexblade and 10 Vengeance Taker would receive Dire Hexblade's Curse) as well as for the curse DC.
+
+Curse of Shadows: At 1st level, a Vengeance Taker can expend a use of their Hexblade Curse to cloud their targets vision with shadows. The shadows cause the target to suffer a 5% miss chance when attacking. This penalty improves to 10% if the Hexblade has Greater Hexblade's Curse, 15% if they have Dire Hexblade's Curse, and 20% if they have Epic Hexblade's Curse.
+
+Turn Undead: At 1st level, a Vengeance Taker gains the supernatural ability to turn undead. She may use this ability a number of times per day equal to 3 + her Charisma modifier.
+
+Harm Touch: At 2nd level, a Vengeance Taker gains the ability to deliver a retributive Harm Touch against her enemies. This ability has a 30s cooldown and deals 5 points of negative energy damage per level of Vengeance Taker. The Vegeance Taker gains a number of temporary hitpoints equal to the damage dealt.
+
+Vampiric Blades: At 3rd level, a Vengeance Taker learns to channel her unending fury into her weapon, allowing her blows in combat to drive her further and further along the path to vengeance. She gains a +1 vampiric bonus for every 3 Vengeance Taker levels which lasts for 10 minutes.
+
+Curse of Blood: At 4th level, a Vengeance Taker learns to inflict a terrible curse that causes the target to bleed profusely from their skin. By expending a use of Hexblade's Curse, the target suffers bleeding that deals 1 point of damage for every Vengeance Taker level with the curse lasting for 1 round per level of Vengeance Taker. This curse is potent enough that only the lingering curse ability can extend the duration and even then it only extends the duration by 50%.
+
+Empower Harm Touch: At 6th level, a Vengeance Taker learns how to empower her Harm Touch with more negative energy but the strain of channeling this power comes with a cost. The damage and number of temporary hitpoints done by Harm Touch is doubled although the Vengeance Taker suffers 2 points per class level in hit point damage before the temporary hitpoints are applied.
+
+Curse of Shattering: At 7th level, a Vengeance Taker learns to master the Curse of Lethargy and now adds her Vengeance Taker level to the DC.
+
+Empower Curses: At 9th level, a Vengeance Taker completes her mastery of curses and learns to a new phrase to any curse she uses. She gains a +2 DC bonus as well as +2 rounds to the duration of any curses she uses. In addition, any curse she uses causes her enemies to suffer 2 negative levels. This additional penalty will not stack regardless of how many curses are used.
+
+Curse of Life Draining: At 10th level, a Vengeance Taker learns how to recover from her own wounds when using her Harm Touch ability. As long as she is not empowering the Harm Touch, she heals an amount equal to the damage dealt.[/spoiler]
+[/list]
+
+
+[color=#339933][size=14][b]Force Mage changes:[/b][/size][/color]
+[list]
+[*]Reduce the entrance requirements to level 3 arcane caster.
+[*]Provides Empower Spell as a bonus feat at level 4.
+[*]Force Missiles is no longer subject to Silence like other reserve feats.
+[*]Tweaked the time of flight and casting time.
+[*]Orb of Force spell is auto-empowered at level 5.
+[*]Removed the ASF penalty.
+[*]Auto-maximize force missiles and magic missiles at level 5.
+[*]Force Mage class text updated with the substantial changes.
+[/list]
+
+[color=#339933][size=14][b]Skald Updates:[/b][/size][/color]
+[list]
+[*]Adrenaline Boost now correctly auto-targets the skald.
+[*]Adrenaline Boost lasts a minimum of 3 minutes.
+[*]Adrenaline Boost description now indicates the Skald can actually be affected by the ability.
+[*]Adrenaline Boost now grants 10 + Skald level in temporary hit points (up from just the Skald level), making the ability useful even as a level 1 skald.
+[*]Class description and Adrenaline Boost description updated to indicate how to reset the timer when it bugs out.
+[*]Inspire Heroics (Health) has been replaced with Inspire Heroics (Aggression). The Regen from Inspire Heroics (Health) has been moved into Inspire Heroics (Show of Arms). You gain 1 point at 1st level, 2 points at 11th level, and 3 points at 21st level.
+[*]Inspire Heroics (Aggression) has been added at 6th level. Your inspire heroics ability now also provides 2 point of bonus magic damage on attacks. This improves to 3 points at 11th and 4 points at 21st level.
+[*]5 new feats have been added to further improve the group utility of the Skald as well as to address some qualify of life issues.
+[/list]
+
+New Feat: Hero's Call
+You drive your allies even harder with tales of the greatest heroes in the land.
+Prerequisites: Skald 1
+Benefit: Your adrenaline boost ability now always provides twice the bonus as though you and your allies were always below 50% health. In addition, your allies (but not yourself) gain a +1 bonus to Dodge AC. When you use the Adrenaline Boost ability, you become immune to silence for the duration.
+
+New Feat: Improved Hero's Call
+You personalize your encouragement to your allies, driving them on as though they were the great heroes of lore.
+Prerequisites: Skald 1, Hero's Call
+Benefit: Your adrenaline boost ability now always provides twice the bonus as though you and your allies were always below 50% health. If they actually are below 50% health they instead gain three times the bonus. In addition, your allies (but not yourself) gain a +1 bonus to Dodge AC and attack bonus.
+
+New Feat: Improved Inspire Heroics
+Prerequisites: Skald 5
+Benefit: Your Inspire Heroics (Health) ability now provides an additional point of regeneration. Your Inspire Heroics (Aggression) ability now provides an additional point of damage. Your Inspire Heroics (Protection) ability now provides an additional point of Dodge AC.
+
+New Feat: Greater Inspire Heroics
+Prerequisites: Skald 11, Improved Inspire Heroics
+Benefit: Your Inspire Heroics (Show of Arms) ability now provides an additional +2 enhance bonus to Strength and Dexterity. Your Inspire Heroics ability now provides +1 to Will saves for every five levels of Skald (maximum +6 at 30th). 
+
+New Feat: Inspire Heroics (Toughness)
+Prerequisites: Skald 1
+Benefit: Your inspire heroics ability now also provides 1% physical damage immunity for every 2 levels of Skald (maximum +15% to blunt, piercing, and slashing at 30th level). When you use the Adrenaline Boost ability, you become immune to being stunned for the duration.
+
+[h3][color=#009900]Monk changes and Polymorph[/color][/h3]
+
+Polymorph effects suffer a scaling penalty that is based on the number of monk levels they have (it was originally just going to be the -8AB Sacred Fist feat but that wasn't fair to low level characters).
+
+The AB penalty is equal to 2 plus whatever AB they would have gotten from the new feats (weapon focus unarmed, greater weapon focus unarmed, epic weapon focus unarmed, and unarmed combat mastery) which leads to a net 2 AB penalty. This is to make up for the free improvements they get to Wholeness of Body.
+
+The damage penalty is equal to whatever damage bonus they would have gotten from the new feats (weapon specialization unarmed, greater weapon specialization unarmed, epic weapon specialization unarmed, and unarmed combat mastery) which negates the 10 points of free damage they would have gotten.
+
+So the net result is that they get a small improvement to the healing ability of monk at a small cost to AB and NO AB/Dmg benefits from splashing monk. In return they still get the Wis to AC, Monk AC, and Flurry affecting their forms.

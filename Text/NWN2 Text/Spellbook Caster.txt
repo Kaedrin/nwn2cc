@@ -1,0 +1,40 @@
+Lets play the what if game. Assuming that we can add a new spellbook caster to the game, what would you like to see?
+
+Here are the rules: It can have a maximum of 6 spell levels (I don't intend to bite off a 0-9 spell level class to start with). It can't be tied to a specific deity or race. I'd prefer it not to have much of an alignment restriction, if any, but that's not a deal-breaker.
+
+
+
+Possible options: 
+
+Arcane Ranger (as Ranger with different, arcane spellbook)
+Artificer
+Bloodrager
+Battle Scion (Arcane Paladin)
+Dragonfire Adept
+Elemental Singer
+Inquisitor
+Magus (Duskblade)
+Nightblade
+Runecarver
+Spellblade
+Spellthief
+Summoner
+Warpriest
+
+http://kaedrin-nwn2.blogspot.com/2014/08/Artificer.html
+http://www.d20pfsrd.com/classes/3rd-party-classes/kobold-press-open-design/battle-scion
+http://www.d20pfsrd.com/classes/hybrid-classes/bloodrager
+http://kaedrin-nwn2.blogspot.com/2015/02/dragonfire-adept.html
+http://www.d20pfsrd.com/classes/base-classes/inquisitor
+http://www.d20pfsrd.com/classes/base-classes/magus
+http://www.d20pfsrd.com/classes/3rd-party-classes/ascension-games-llc/nightblade
+http://www.d20pfsrd.com/classes/3rd-party-classes/adamant-entertainment/spellblade
+http://kaedrin-nwn2.blogspot.com/2014/08/spellthief.html - Add a small spellbook instead of progression.
+http://kaedrin-nwn2.blogspot.com/2014/08/Summoner.html
+http://www.d20pfsrd.com/classes/hybrid-classes/warpriest
+
+I don't currently have a description for Runecarver or Elemental Singer. 
+
+Runecarver carves a number of runes per day that act as spells and allows them to mix and match elements with runes to unlock different effects (say you use an earth rune with a body symbol it would provide DR/Adamantine while an air rune with the same symbol would provide concealment). 4 elements, and 4 levels of symbols. Spontaneous caster where you can use a specific level X times a day and choose which of the symbols you carve into the rune (with voice commands, no expectation of using a chisel in combat).
+
+Elemental Singer is always singing a song, much like a bard, but instead of spells or different inspirations she mixes in different refrains (probably 4-6 levels of refrains) which alter the effects of the song. The basic song is unlimited but each refrain only lasts a minute. Using a new refrain cancels the last one but the spent energy extends the lifetime of your new refrain (so using a new one after 3 rounds would give your second refrain a 17 round uptime). The levels of refrains increase the power of a basic or add new capabilities (move speed may increases from 25 to 50%, or add concealmwn

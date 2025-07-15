@@ -1,0 +1,20 @@
+Goblins are the smallest of all goblinoids in Faerûn. They stand only about four feet tall and weigh about 60 pounds. Like all goblinoids, they have flat faces, broad noses, pointed ears, wide mouths, and sharp fangs. Their arms hang down almost to their knees. Goblin hides range in color from yellow through orange to red, and members of the same tribe usually share similar coloring. Goblins wear dark leather clothing, which is usually heavily soiled due to their lack of concern with hygiene.
+
+Whatever the subrace, goblinoids are universally bullies. They pick on smaller creatures whenever they can, and when faced with a superior force they turn tail and run. Because of their smaller size, goblins prefer to strike from ambush, using every fighting trick they know to gain an edge. While tactically canny, the larger hobgoblins and bugbears usually prefer a more direct approach, often driving weaker troops before them into any perceived danger.
+
+Goblinoids are all short-lived. Most meet a violent end long before they reach old age. They are pressed into service as adults at just 10 years of age. They rarely live to be older than 40, although some few lucky or wily individuals have been known to make it to 60 years of age.
+
+
+Size: Small 
+Alignment: NE or CE
+Languages: Common, Goblin
+
+Racial Traits
+
+Goblins have the following racial traits:
+ 
++4 Dexterity, –2 Strength, and –2 Charisma
+Small: As Small creatures, goblins gain a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 bonus on Hide checks. 
+
+Darkvision 60 ft.
++4 racial bonus on Move Silently and Tumble checks.

@@ -1,0 +1,4 @@
+I've got some ideas for a disguise system too. Essentially a polymorph like wildshape that lets you look like someone else. No stat transfers or anything, just a basic disguise. That way you can look like a "semi-random" elf/human/orc (or dwarf/gnome/halfling for small races). Maybe with an ongoing script that when you get near the effect is dispelled because your disguise failed. Maybe with an opposed spot check, etc. Still working out the details. Won't be anytime soon, but a possible system nonetheless.
+
+For high skills you might even be able to look like goblins, orcs, or monstrous humanoids to get away with a crime or to frame someone (that faction A is working with Orcs!)
+Players would have all the tools they need to do that kind of stuff without needing DMs. Keep it IC and ingame so less maintenance and time consumption (letting you do it when you want, specifically).

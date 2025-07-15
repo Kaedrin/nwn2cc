@@ -1,0 +1,60 @@
+All races lose "favored class", all base classes lose the experience penalty.
+Green are new bonuses. 
+Red are removed stats. 
+Races not listed aren't changed.
+
+[list]
+[*]Gold dwarf: +2 Con, [color=#006600]+2 Wis[/color], -2 Dex
+[*]Shield dwarf: +2 Con,[color=#006600] +2 Wis[/color], -2 Cha
+[*]Sun elf: [color=#006600]+2 Dex[/color], +2 Int, -2 Con
+[*]Wood elf: +2 Str, +2 Dex, -2 Con, -2 Int
+[*]Wild elf: +2 Dex, -2 Int, [color=#006600]+2 Con[/color]
+[*]Rock Gnome: +2 Con, [color=#006600]+2 Cha[/color], -2 Str 
+[*]Half-elf: [color=#006600]+2 Cha[/color]
+[*]Half-drow: [color=#006600]+2 Con[/color]
+[*]Half-orc: [color=#006600]+2 Str[/color] [color=#ff0000](removed -2 Int/Cha)[/color]
+[*]Strongheart halfling: +2 Dex, -2 Str, [color=#006600]+2 Con[/color]
+[*]Lightfoot halfling: +2 Dex, [color=#006600]+2 Cha[/color], -2 Str
+[*]Human: [color=#003300]+2 Con[/color]
+[*]Aasimar: +2 Wis, +2 Cha, [color=#006600]no +1 ECL[/color]
+[*]Tiefling: +2 Dex, +2 Int, -2 Cha, [color=#006600]no +1 ECL[/color]
+[*]Air genasi: +2 Dex, +2 Int, -2 Con, [color=#006600]no +1 ECL[/color], [color=#ff0000]No -2 Wis[/color]
+[*]Earth genasi: +2 Str, +2 Wis, -2 Cha [color=#006600]no +1 ECL[/color], [color=#ff0000]No +2 Constitution, No -2 Wisdom[/color]
+[*]Fire genasi: +2 Dex, +2 Cha, -2 Wis, [color=#006600]no +1 ECL[/color], [color=#ff0000]No +2 Intelligence, No -2 Charisma[/color]
+[*]Water genasi: +2 Dex, +2 Wis, -2 Str, [color=#006600]no +1 ECL[/color], [color=#ff0000]No +2 Constitution, No -2 Charisma[/color]
+[*]Deep Gnome: -2 Strength, +2 Dexterity, +2 Wisdom, -2 Charisma, [color=#ff0000]No Slippery Defense, +1 ECL (down from +3)[/color]
+[*]Star Elf: [color=#006600]+2 Int[/color], +2 Cha, -2 Con
+[*]Painted Elf: [color=#006600]+2 Con[/color], +2 Dexterity, -2 Intelligence
+[*]Yuan-Ti: +2 Dex, +2 Int, [color=#ff0000]No Spell Resistance, No AC bonus, No +2 Cha, No Alertness, No +2 ECL[/color]
+[*]Grey Orc: +2 Strength, -2 Intelligence, +2 Wisdom, -2 Charisma, [color=#ff0000]No Light Blindness, No +1 ECL[/color]
+[*]Goblin: +4 Dexterity, –2 Strength, and –2 Charisma, Small race
+[*]Hobgoblin: +2 Dexterity, and +2 Constitution, Medium sized Goblin
+[*]Kayal: +2 Dex, +2 Cha, -2 Wis
+[*]Imaskari: -2 Dex, +2 Int, [color=#006600]+2 Con[/color]
+[*]Spellscale: +4 Cha, -2 Con, -2 Dex
+[*]Feytouched: +2 Cha, +2 Dex, -2 Con
+[*]Mountain Orc: +4 Strength, –2 Intelligence, –2 Wisdom, and –2 Charisma
+[*]Surface Drow: +2 Dexterity, +2 Intelligence -2 Constitution, [color=#ff0000]No Spell Resist, No +2 Cha, No +2 ECL[/color]
+[*]Oakling: +2 Strength, +2 Wisdom, -2 Charisma, Humanoid Plant: While technically a plant, an oakling has more in common with most humanoids. This commonality precludes them from having the same level of immunities as other plants.  Variation 1 of a plant race
+[*]Volodni: +2 Wis, +2 Con, -2 Int, -2 Cha, Humanoid Plant: While technically a plant, an oakling has more in common with most humanoids. This commonality precludes them from having the same level of immunities as other plants. Variation 2 of a plant race
+[*]Lythari: +2 Con, +2 Int, -2 Dex, Wolf Shape (no bonuses on transfer, not wildshape)
+[*]Svartalfar: +2 Dexterity, +2 Charisma, -2 Constitution
+[/list]
+
+Kayal: Known as Fetchlings by humans on the material plane. Descended from humans trapped on the Shadow Plane, fetchlings are creatures of darkness and light intertwined. Generations of contact with that strange plane and its denizens have made fetchlings a race apart from humanity. While fetchlings acknowledge their origins, they exhibit little physical or cultural resemblance to their ancestors on the Material Plane, and are often insulted when compared to humans. Some members of the race also take offense at the name fetchling, as it was given to them by humans who saw them as little more than fetchers of rare materials from the Shadow Plane. Most fetchlings instead prefer to be called kayal, a word borrowed from Aklo that roughly translates to “shadow people” or “dusk dwellers.” Infused with the essence of the Shadow Plane and possessing human blood commingled with that of the Shadow Plane’s natives, fetchlings have developed traits and abilities that complement their native plane’s bleak and colorless terrain. Though most fetchlings treat the Shadow Plane as home, they often trade and deal with creatures of the Material Plane. Some fetchlings go so far as to create enclaves on the Material Plane in order to establish alliances and trade routes in areas where the boundary between the two planes is less distinct. These fetchlings often serve as merchants, middlemen, and guides for races on both sides of the planar boundary.
+
+Spellscale: Among the humanoid races, spellscales are the most creative, experimental, and varied. Most generalities about spellscales collapse under examination, because each spellscale displays a unique philosophy and behavior. What's most true of them as a group is that these dragonblood humanoids have a very strong racial inclination towards sorcery.
+
+Feytouched: Feytouched are a widely varied group of beings — some are wispy and beautiful, while others are ugly and brutish. Some resemble elves, with pointed ears and almond-shaped eyes. Others look more like trolls, with warty skin and disproportioned limbs. Regardless, all feytouched have at least one feature or characteristic that is out of the norm — vibrantly colored hair, feathered eyebrows, or a propensity for speaking in rhyme, for example. Despite their actual appearance, all feytouched are highly charismatic beings that draw attention wherever they go.
+
+Feytouched have no cohesive culture; either they become isolated loners, or they immerse themselves in cosmopolitan society, sampling everything life has to offer. They are also drawn to the same natural settings that other fey called home. Most fey respond favorably to feytouched and consider them distant cousins. Feytouched that seclude themselves in nature are usually druids or rangers. Feytouched clerics are rare, since most fey have a strong aversion to the worship of gods.
+
+Imaskari: Secret and few, the deep Imaskari are heirs to the lost empire of Imaskar. One of the earliest human empires, Imaskar rose in what is now the Dust Desert and Plains of Purple Dust. Wizard-kings of heady power, the Imaskari were destroyed by the slaves they had abducted from other worlds (who eventually became the folk of Mulhorand and Unther) and the machinations of unusual creatures of their own creation (the phaerimms). The Imaskari faded away into history as their empire crumbled, leaving behind nothing but mysterious ruins. A secret few, however, charged with epic wizardry, managed to preserve themselves and their kin. Fleeing deep into the bowels of the earth, they sealed themselves away from both the knowledge and the recriminations of the surface world.
+
+The deepest fissures of the earth have long hidden an ancient secret: The descendants of the Imaskari still live. Thousands of years of isolation combined with purposeful magical modifications have transformed these deep Imaskari into a human subrace adapted to life underground. The deep Imaskari have long managed to conceal the existence of their hidden kingdom even from other Underdark races by enforcing complete separation. Now, however, deep Imaskari isolation is coming to an end. The magical seal that so long protected the kingdom of Deep Imaskar has been breached, and a few deep Imaskari have begun to wander the deep ways of the world that their ancestors fled long ago.
+
+Oakling: Oaklings are unusual plant creatures distantly related to treants, though much further removed from the forces of nature. While a fairly new race, their origins are a mystery even to themselves. The first oaklings crept from the darkest forests en mass a little over a dozen decades ago, with little memory of or interest in where they came from.
+
+Lythari: Lythari (originally Ly-tel-quessir) are good-aligned elven lycanthropic wolves, similar in appearance to werewolves and often mistaken as such. Lythari differ from werewolves in that they have no hybrid form and are friendly and companionable when in lupine form. Although much less numerous than werewolves, a lot of Lythari are sponsored by the church of Selûne.
+
+Svartalfar : Svartalfar are the descendents of fey who settled on the Plane of Shadow. By bonds of oath and bonds of blood, they became servants of a dark god. They can be found anywhere the dark god’s work is being done. Often they take the role of the leaders or protectors of cults dedicate to dark gods. Other times they use their darkly seductive natures to torment others, preferring to inflict spiritual pain over physical. They are often blamed for bringing nightmares or tragedy, even if they had no role in the events.
