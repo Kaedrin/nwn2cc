@@ -1,3 +1,5 @@
+This is the old description and it hasn't been refreshed with adjustments for the 1.45 changes to animal companions. During the server downtime I figured it was a good opportunity to put this one up.
+
 [spoiler="Beastmaster"]
 Beastmaster
 
@@ -81,4 +83,29 @@ Level 19: Your animal companions grow in agility. This alteration grants your an
 [spoiler="Possible New Class Feats"]
 Magebred Companions - http://eberronunlimited.wikidot.com/magebred-animal
 Warbeast Training - http://www.realmshelps.net/monsters/templates/warbeast.shtml
+[/spoiler]
+
+Possible new templates for BM animal companions:
+
+http://www.d20srd.org/srd/monsterFeats.htm#improvedNaturalAttack
+http://eberronunlimited.wikidot.com/magebred-animal (CR 0)
+http://www.realmshelps.net/monsters/templates/warbeast.shtml (CR 1)
+http://www.d20pfsrd.com/bestiary/monster-listings/templates/dire-creature-cr-2-tohc (CR 2) 
+http://www.d20pfsrd.com/bestiary/monster-listings/templates/totem-animal-cr-1 (CR 1)
+http://www.d20pfsrd.com/bestiary/monster-listings/templates/mighty-cr-5 (CR 5)
+http://www.d20pfsrd.com/bestiary/monster-listings/templates/advanced-creature-cr-1 (CR 1)
+http://www.d20pfsrd.com/bestiary/monster-listings/templates/fey-animal (without spells, special attacks, or speaking) (CR 1)
+
+
+Note the CR increase will directly reduce the "BM level" for determining which companion.
+
+A Level 6 BM with Mighty would summon a level 1 Companion with the Mighty template. Not a good template to pick at low levels but a superb template for mid-high levels. Mightly will probably require 17+ BM to take (so that it compares with Nature's Avatar/Awaken for Druids).
+
+Minimum level of 2+ (CR*3) to take the feat. So Mighty at 17+ and Advanced at 5+
+
+Fey may get "adjusted" to where you get the benefits (skill points, DR, SR, etc) without the fey ties. Mythical or Legendary or some such flavor.
+
+If these templates are allowed the base class will be tweaked further (possibly medium BAB completely to afford the two stronger pets). The templates may apply to different companions. Such as Companion 1 gets Mighty and Companion 2 gets Fey. That way they don't stack up the power but each offers some slightly different benefits (intelligent spotter and a more savage tank).
+
+Food for thought.
 [/spoiler]

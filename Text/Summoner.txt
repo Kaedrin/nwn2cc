@@ -10,13 +10,13 @@ High Saves: Will
 Weapon proficiency: Simple.
 Armor proficiency: Light armor.
 
-Class Skills: Appraise, Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Listen, Lore, Parry, Spot, Taunt, and Tumble
+Class Skills: Appraise, Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Listen, Lore, Parry, Spot, Taunt, Tumble, and UMD.
 Skill Points: 2 + Int modifier
 
 Class Abilities
 
-Level 1: Summon Monster, Eidolon Shape
-Level 2: 
+Level 1: Summon Eidolon, Summon Monster, Reserve Feat Mastery
+Level 2: Augment Summons
 Level 3: 
 Level 4: Shield Master
 Level 5: 
@@ -46,6 +46,12 @@ Level 28:
 Level 29: Epic Bonus Feat
 Level 30: 
 
+Spells: A summoner casts arcane spells drawn from the summoner spell list. He can cast any spell he knows without preparing it ahead of time, assuming he has not yet used up his allotment of spells per day for the spell's level. To learn or cast a spell, a summoner must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a summoner's spell is 10 + the spell level + the summoner's Charisma modifier. A summoner can cast summoner spells while wearing light armor without incurring the normal arcane spell failure chance. His spells affect his Eidolon or summons when he casts the spell on himself.
+
+Summon Eidolon: A summoner begins play with the ability to summon to his side a powerful outsider called an eidolon. The eidolon forms a link with the summoner, who, forever after, summons an aspect of the same creature. An eidolon has the same alignment as the summoner that calls it and can speak all of his languages. The eidolon can be summoned once every three minutes.
+
+Eidolon Shapes: Angel, Demon, Devil, Dragon, Fey (Dryad), Undead (Female Vampire), Elemental (4), Spider
+
 Summon Monster: Starting at 1st level, a summoner can cast summon monster as a spell-like ability a number of times per day equal to half his class level. The spell level is equal to half his class level, rounded up. For example: Summon Monster VI at 11th level.
 
 Drawing upon this ability uses up the same power as the summoner uses to call his eidolon. As a result, he can only use this ability when his eidolon is not summoned (or dead). He can cast this spell as a standard action and the creatures remain for 1 minute per level (instead of 1 round per level). At 19th level, this ability becomes the equivalent of the gate spell.
@@ -54,22 +60,33 @@ Shield Master: At 4th level, whenever a summoner is within his eidolon's reach, 
 
 Greater Shield Ally: At 12th level, whenever a summoner is within his eidolon's reach, the summoner receives a +4 shield bonus to his Armor Class and a +4 circumstance bonus on his saving throws. This replaces the bonus from Shield Master.
 
-Shapes: Angel, Demon, Dragon, Fey, Undead, Elemental (4), Spider
+Reserve Feat Mastery: Your activation level for reserve feats is equal to half his class level, rounded up.
 
+Augment Summoning: Each creature you conjure with any summon spell (as well as your Eidolon) gains a +4 enhancement bonus to Strength and Constitution for the duration of the spell that summoned it.
+
+S1 - 1 at 1st, 2 at 2nd, 3 at 3rd, 4 at 5th, and 5 at 9th
+S2 - 1 at 4th, 2 at 5th, 3 at 6th, 4 at 8th, and 5 at 12th
+S3 - 1 at 7th, 2 at 8th, 3 at 9th, 4 at 11th, and 5 at 15th
+S4 - 1 at 10th, 2 at 11th, 3 at 12th, 4 at 14th, and 5 at 18th
+S5 - 1 at 13th, 2 at 14th, 3 at 15th, 4 at 17th, and 5 at 19th
+S6 - 1 at 16th, 2 at 17th, 3 at 18th, 4 at 19th, and 5 at 20th
 Spells per day lose 1 per day for levels 2,3,4 to account for auto perm of evo bonuses
 
 S1 - Expeditious Retreat, Mage Armor, Shield, Lesser Rejuv Eid, Protection from Alignment
 S2 - Barkskin, Blur, See Invis, Cat's Grace, Haste
 S3 - Stoneskin, Fire Shield, Rejuv Eid, Greater Invis, Greater Magic Fang
 S4 - Extended Displacement, Mass Bulls Str, Mass Bears End, Mass Cats Grace, Hold Monster
-S5 - Greater Heroism, Greater Rejuv Eid, True Seeing, Spell Turning, Shadow Simulacrum
-S6 - Protection from Spells, Greater Dispel Magic, Ethereal Jaunt, Mass Charm Monster, Dominate Monster
+S5 - Greater Dispel Magic, Greater Heroism, Greater Rejuv Eid, True Seeing, Spell Turning
+S6 - Dominate Monster, Protection from Spells, Ethereal Jaunt, Heal Eidolon, Greater Stoneskin
 
-Spells affect caster and eidolon.
+Spells affect both caster and eidolon.
 
-Creature Stats (all levels): Int 7, Wis 10, Cha 11
+Eidolon Stats (all levels): Int 7, Wis 10, Cha 11
+Fort/Will are High saves.
+4 skill points per HD allocated to Spot, Listen, Spellcraft, and Tumble
+BAB is equal to HD
 
-Level Dependent Stats (NatAC past +20 is turned into armor enhance, armor enhance past 20 is turned into armor enchance)
+Level Dependent Stats (NatAC past +20 is turned into armor enhance, armor enhance past +20 is turned into armor enchance)
 L1: 1 HD, Str 16, Dex 12, Con 13, +4 Nat AC, d6 claw
 L2: 2 HD, Str 17, Dex 13, Con 13, +6 Nat AC, d6 claw, Evasion
 L3: 3 HD, Str 17, Dex 13, Con 14, +6 Nat AC, d6 claw, Evasion
@@ -106,3 +123,11 @@ Feats (to be determined): 1 (3rd), 2 (6th), 3 (9th), 4 (11th), 5 (14th), 6 (17th
 1 point of Spot, Listen, Hide, Move Silently per HD
 -4 Hide/Move Silently at level 7
 -8 Hide/Move Silently at level 22
+New Feats: 
+Resilient Eidolon (Eidolon is immune to knockdown)
+Vigilant Eidolon (You and your Eidolon gain +4 Listen/Spot. If you have 10 or more ranks in Spot and Listen, this bonus increases to +8)
+Summoner's Call (Eidolon gains a +4 Dex bonus)
+Extra Casting (Level 1-6 Spells) I and II (+1 cast of a given spell level)
+
+The class may need a bonus feat every 5 levels and it may need the new feats punched up for NWN2 (since they are on the weak end of abilities for Pathfinder).
+[/spoiler]

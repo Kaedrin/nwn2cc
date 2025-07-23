@@ -14,3 +14,6 @@ Staff of Magic Missile (50 charges) - Bonus Feat (reserve feat, likely invisible
 Bards, Beastmaster, Weave Walker, Feral Shifter, Rogues, Factotum, Hexblades, Knights, Armigers, Fighters, Barbarians, Swashbucklers, Skalds, and Scouts start with Double the number of potions and kits.
 
 Rogues and Factotums start with a 20 pack of weak poisons.
+
+Bards and Rogues start with
+Stack of 5 Shield scrolls
