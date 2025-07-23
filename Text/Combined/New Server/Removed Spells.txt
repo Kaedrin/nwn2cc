@@ -1,0 +1,145 @@
+This list is currently only the stock NWN2 spells. I haven't gone over the spells in the Kaedrin PrC pack yet.
+
+Bard Spells
+
+Level 1
+Amplify
+
+Level 2
+Mirror Image
+
+Level 3
+Clairaudience/Clairvoyance
+
+Level 4
+Greater Resistance
+Warcry
+
+Level 5
+Ethereal Visage
+
+Level 6
+Energy Immunity
+Superior Resistance 
+
+Ranger Spells
+
+Level 1
+Camouflage 
+
+Paladin Spells
+
+Level 2
+Aura of Glory
+Stabilize
+
+Level 4
+Lesser Visage of the Deity 
+
+Sorcerer/Wizard Spells
+
+Level 1
+Nightshield
+True Strike
+Lesser Orb of X (Replace with Elemental Orb, give all Wizards/Sorcerers energy substituion (cuts down on spell count, gives arcanes flexibility)
+
+Level 2
+Animalistic Power
+Mirror Image
+Death Armor
+Blind Sight
+Snake's Swiftness
+
+Level 3
+Clairaudience/Clairvoyance
+Spiderskin
+
+Level 4
+Greater Resistance
+Spell Breach, Lesser
+Spell Mantle, Least
+Orb of X
+Assay Resistance
+Polymorph Self
+
+Level 5
+Mind Blank, Lesser
+Spell Mantle, Lesser
+Glass Doppelganger
+
+Level 6
+Spell Breach, Greater
+Superior Resistance
+True Seeing
+Ethereal Visage
+Mass Bull/Cat/Bear etc.
+Stone Body
+Stoneskin, Greater
+Tenser's Transformation
+
+Level 7
+Energy Immunity
+Spell Mantle
+Shadow Shield
+Ethereal Jaunt
+
+Level 8
+Mind Blank
+Premonition
+Iron Body
+
+Level 9
+Shadow Simulacrum
+Etherealness
+Shapechange 
+
+Cleric Spells
+
+Level 1
+Conviction
+Nightshield
+
+Level 2
+Animalistic Power
+Living Undeath
+
+Level 3
+Blind Sight
+Lesser Visage of the Deity
+Mass Aid
+Mass Lesser Vigor
+
+Level 4
+Assay Resistance
+Greater Resistance
+Recitation
+Spell Mantle, Least
+
+Level 5
+Battletide
+Inflict Light Wounds, Mass
+Spell Mantle, Lesser
+Spell Resistance
+True Seeing
+
+Level 6
+Energy Immunity
+Inflict Moderate Wounds, Mass
+Mass Bears/Bulls/Owls etc
+Stone Body
+Superior Resistance
+
+Level 7
+Ethereal Jaunt
+Spell Mantle
+Word of Faith
+
+Level 8
+Cure Critical Wounds, Mass
+Inflict Critical Wounds, Mass
+
+Level 9
+Etherealness
+Greater Visage of the Deity 
+
+Druid Spells

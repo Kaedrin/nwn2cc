@@ -1,0 +1,9 @@
+2DA V2.0
+
+  LABEL              ReqType ReqParam1        ReqParam2 
+0 ScriptVar          VAR     cmi_AllowDivSeek 0         
+1 Stealthy           FEAT    387              ****      
+2 Hide               SKILL   5                8         
+3 Lore               SKILL   7                3         
+4 MoveSilently       SKILL   8                10        
+5 Spot               SKILL   17               5         

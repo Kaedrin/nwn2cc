@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Neverwinter Nights 2 -->
+<!-- Copyright (C) 2006 Obsidian Entertainment, Inc. -->
+
+<UIScene name="SCREEN_DMCTOOLBAR" x=620 y=0 width=325 height=60 draggable=true fadeout="0.2" fadein="0.2"
+    capturemouseclicks=false capturemouseevents=false 
+    priority="SCENE_INGAME"/>
+    
+    <UICollapsable name="DMC_TOOLBAR" x=0 y=0 width=PARENT_WIDTH height=PARENT_HEIGHT yPadding=0 xPadding=0 indent=5 isexpanded=true>
+        <UIButton name=HeaderButton strref="184678" x="0" y="0" width="171" height="20" header=true >
+            <UIText align=center valign=middle fontfamily="Title_Font" style=1 />
+            <UIFrame state=up			fill="qs_title_closed_normal.tga" />
+            <UIFrame state=down			fill="qs_title_closed_normal.tga" />
+            <UIFrame state=hilited		fill="qs_title_closed_normal.tga" />
+            <UIFrame state=focused		fill="qs_title_closed_normal.tga" />
+            <UIFrame state=hifocus		fill="qs_title_closed_normal.tga" />
+            <UIFrame state=disabled		fill="qs_title_closed_normal.tga" />
+            <UIFrame state=header		fill="qs_title_open_normal.tga" />
+            <UIFrame state=hiheader		fill="qs_title_open_normal.tga" />
+            <UIFrame state=downheader	fill="qs_title_open_normal.tga" />
+        </UIButton>
+        <UIPane name="DMC_TOOLBAR_PANE" x=0 y=0 width=320 height=100 hidden=false capturemouseclicks=false capturemouseevents=false >
+<!-- Dungeon Master Buttons Go Here -->    
+            <UIButton name="DMC_CREATOR_TOGGLE" x=0 y=0 width=40 height=40 OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(10577,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") OnLeftClick=UIButton_Input_ToggleScreen("SCREEN_DMC_CREATOR") 
+			hotbartype="HOTBAR_DM_COMMAND" SetDataString="DM_COMMAND_TOGGLECREATOR" draggable=true >
+                <UIFrame state=up		fill="ia_tauntcreature.tga" />
+                <UIFrame state=down		fill="ia_tauntcreature.tga" />
+                <UIFrame state=focused	fill="ia_tauntcreature.tga" />
+                <UIFrame state=hilited	fill="ia_tauntcreature.tga" />
+                <UIFrame state=hifocus	fill="ia_tauntcreature.tga" />
+                <UIFrame state=disabled	fill="ia_tauntcreature.tga" />
+            </UIButton>
+            
+            <UIButton name="DMC_CHOOSER_TOGGLE" x=40 y=0 width=40 height=40 OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(10578,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") OnLeftClick=UIButton_Input_ToggleScreen("SCREEN_DMC_CHOOSER") 
+			hotbartype="HOTBAR_DM_COMMAND" SetDataString="DM_COMMAND_TOGGLECHOOSER" draggable=true >
+                <UIFrame state=up		fill="ife_nimblefingers.tga" />
+                <UIFrame state=down		fill="ife_nimblefingers.tga" />
+                <UIFrame state=focused	fill="ife_nimblefingers.tga" />
+                <UIFrame state=hilited	fill="ife_nimblefingers.tga" />
+                <UIFrame state=hifocus	fill="ife_nimblefingers.tga" />
+                <UIFrame state=disabled	fill="ife_nimblefingers.tga" />
+            </UIButton>
+            
+            <UIButton name="DMC_TRAPS_TOGGLE" x=80 y=0 width=40 height=40 OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(184702,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") OnLeftClick=UIButton_Input_DMCTrapsToggle()
+			hotbartype="HOTBAR_DM_COMMAND" SetDataString="DM_COMMAND_TOGGLETRAPS" draggable=true >
+                <UIFrame state=up		fill="ia_traps.tga" />
+                <UIFrame state=down		fill="ia_traps.tga" />
+                <UIFrame state=focused	fill="ia_traps.tga" />
+                <UIFrame state=hilited	fill="ia_traps.tga" />
+                <UIFrame state=hifocus	fill="ia_traps.tga" />
+                <UIFrame state=disabled	fill="ia_traps.tga" />
+            </UIButton>
+            
+            <UIButton name="DMC_VISIBILITY_TOGGLE" x=120 y=0 width=40 height=40 OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(184673,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") 
+			update=true OnUpdate=UIButton_OnUpdate_DMCVisibilityToggle() 
+			OnLeftClick=UIButton_Input_DMCVisibilityToggle()
+			hotbartype="HOTBAR_DM_COMMAND" SetDataString="DM_COMMAND_TOGGLEMANIFEST" draggable=true >
+                <UIFrame state=up		fill="isk_persuade.tga" />
+                <UIFrame state=down		fill="isk_persuade.tga" />
+                <UIFrame state=focused	fill="isk_persuade.tga" />
+                <UIFrame state=hilited	fill="isk_persuade.tga" />
+                <UIFrame state=hifocus	fill="isk_persuade.tga" />
+                <UIFrame state=disabled	fill="isk_persuade.tga" />
+            </UIButton>
+            
+            <UIButton name="DMC_PAUSE_TOGGLE" x=160 y=0 width=40 height=40 OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(10570,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") OnLeftClick=UIButton_Input_DMCPauseToggle()
+			hotbartype="HOTBAR_DM_COMMAND" SetDataString="DM_COMMAND_TOGGLEPAUSE" draggable=true  >
+                <UIFrame state=up		fill="ia_wait.tga" />
+                <UIFrame state=down		fill="ia_wait.tga" />
+                <UIFrame state=focused	fill="ia_wait.tga" />
+                <UIFrame state=hilited	fill="ia_wait.tga" />
+                <UIFrame state=hifocus	fill="ia_wait.tga" />
+                <UIFrame state=disabled	fill="ia_wait.tga" />
+            </UIButton>
+            
+             <UIButton name="DMC_CAMERA_TOGGLE" x=200 y=0 width=40 height=40 OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(184674,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") OnLeftClick=UIButton_Input_DMCCameraToggle()
+			 hotbartype="HOTBAR_DM_COMMAND" SetDataString="DM_COMMAND_TOGGLECAMERA" draggable=true >
+                <UIFrame state=up		fill="is_freedomofmovement.tga" />
+                <UIFrame state=down		fill="is_freedomofmovement.tga" />
+                <UIFrame state=focused	fill="is_freedomofmovement.tga" />
+                <UIFrame state=hilited	fill="is_freedomofmovement.tga" />
+                <UIFrame state=hifocus	fill="is_freedomofmovement.tga" />
+                <UIFrame state=disabled	fill="is_freedomofmovement.tga" />
+            </UIButton>
+			
+			<UIButton name="DMC_BLUEPRINTS_CREATOR" x=240 y=0 width=40 height=40  OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","launchtool") OnToolTip='UIObject_Tooltip_DisplayTooltipString("Another DM Creator","OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2","ALIGN_NONE","ALIGN_NONE","0","0","ALIGN_LEFT","ALIGN_CENTER")'
+			 hotbartype="HOTBAR_DM_COMMAND" SetDataString="DM_COMMAND_TOGGLECAMERA" draggable=true >
+                <UIFrame state=up		fill="ia_tauntcreature.tga" />
+                <UIFrame state=down		fill="ia_tauntcreature.tga" />
+                <UIFrame state=focused	fill="ia_tauntcreature.tga" />
+                <UIFrame state=hilited	fill="ia_tauntcreature.tga" />
+                <UIFrame state=hifocus	fill="ia_tauntcreature.tga" />
+                <UIFrame state=disabled	fill="ia_tauntcreature.tga" />
+            </UIButton>
+            
+            
+        </UIPane>
+    </UICollapsable>				
+
+    

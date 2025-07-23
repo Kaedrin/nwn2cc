@@ -1,0 +1,288 @@
+[[span style="color: green;"]]Last Updated: Feb 25, 2008 [[/span]]
+[[[mod-pw-docs| Return to the main page for Module and PW documentation]]]
+
++++ 2da files and ids.
+
+[[span style="color: green;"]]Avenger [[/span]]
+
+2DA Files
+cls_pres_avenger
+
+***
+
+[[span style="color: green;"]]Hospitaler [[/span]]
+
+FeatIds
+2993-2998
+
+2DA Files
+cls_bfeat_hosp
+cls_bsplvl_hosp
+cls_feat_hosp
+cls_featmap_hosp
+cls_pres_hosp
+cls_skill_hosp
+
+***
+
+[[span style="color: green;"]]Shining Blade [[/span]]
+
+FeatIds
+2999-3004
+3077-3081
+
+SpellIds
+1789
+1792
+
+2DA Files
+cls_bfeat_sb
+cls_bsplvl_sb
+cls_feat_sb
+cls_featmap_sb
+cls_pres_sb
+cls_skill_sb
+
+***
+
+[[span style="color: green;"]]Black Flame Zealot [[/span]]
+
+FeatIds
+3005-3010
+3056-3057
+
+SpellIds
+1790-1791
+
+2DA Files
+cls_bfeat_bfz
+cls_bsplvl_bfz
+cls_feat_bfz
+cls_featmap_bfz
+cls_pres_bfz
+cls_skill_bfz
+
+***
+
+[[span style="color: green;"]]Assassin [[/span]]
+
+FeatIds
+3028 - 3051
+
+SpellIds
+1698-1714
+1762
+
+***
+
+[[span style="color: green;"]]Blackguard [[/span]]
+
+FeatIds
+3011-3027
+
+SpellIds
+1715-1735
+
+***
+
+[[span style="color: green;"]]Domains [[/span]]
+
+FeatIds
+3058-3076
+
+SpellIds
+1797-1800
+
+***
+
+[[span style="color: green;"]]Tempest [[/span]]
+
+FeatIds
+3054-3055
+
+SpellIds
+1736-1737
+
+2DA Files
+cls_bfeat_temp
+cls_feat_temp
+cls_pres_temp
+cls_skill_temp
+
+
+***
+
+[[span style="color: green;"]]General Feats [[/span]]
+
+FeatIds
+2991-2992
+3052-3053
+
+***
+
+[[span style="color: green;"]]Divine Seeker [[/span]]
+
+FeatIds
+3082-3084
+
+SpellIds
+1834-1836
+
+2DA Files
+cls_bfeat_divseek
+cls_feat_divseek
+cls_pres_divseek
+cls_skill_divseek
+
+***
+
+[[span style="color: green;"]]Nightsong Infiltrator [[/span]]
+
+FeatIds
+3085-3088
+3091
+
+SpellIds
+1837-1838
+1843
+
+2DA Files
+cls_bfeat_nsinfil
+cls_feat_nsinfil
+cls_pres_nsinfil
+cls_skill_nsinfil
+
+***
+
+[[span style="color: green;"]]Nightsong Enforcer [[/span]]
+
+FeatIds
+3089-3090
+
+SpellIds
+1839-1840
+
+2DA Files
+cls_bfeat_nsenforce
+cls_feat_nsenforce
+cls_pres_nsenforce
+cls_skill_nsenforce
+
+***
+
+[[span style="color: green;"]]Reserve Feats [[/span]]
+
+FeatIds
+3092-3105
+
+SpellIds
+1864-1877
+
+2DA Files (allowing wizards to take as bonus feats)
+cls_feat_wiz
+
+***
+
+[[span style="color: green;"]]Dread Commando [[/span]]
+
+FeatIds
+3106-3107
+
+SpellIds
+1878-1879
+
+2DA Files
+cls_bfeat_nobonus
+cls_feat_dreadcom
+cls_pres_dreadcom
+cls_skill_dreadcom
+
+***
+
+[[span style="color: green;"]]Warrior of Darkness [[/span]]
+
+FeatIds
+3109-3111
+
+SpellIds
+1880-1887
+
+2DA Files
+cls_bfeat_warrdark
+cls_feat_warrdark
+cls_pres_warrdark
+cls_skill_warrdark
+
+***
+
+[[span style="color: green;"]]Bladesinger [[/span]]
+
+FeatIds
+3112-3119
+
+SpellIds
+1888-1890
+
+2DA Files
+cls_bfeat_bladesinger
+cls_bsplvl_bladesinger
+cls_feat_bladesinger
+cls_featmap_bladesinger
+cls_pres_bladesinger
+cls_skill_bladesinger
+
+***
+
+[[span style="color: green;"]]Paladin/Divine Champion Lay on Hands fix [[/span]]
+
+FeatIds
+2989
+
+SpellIds
+1802
+
+2DA Files
+cls_feat_divcha
+cls_feat_pal
+
+***
+
+[[span style="color: green;"]]New Spells [[/span]]
+
+SpellIds
+1738-1761
+1764-1774
+1793-1796
+1812-1833
+1857-1863
+
+***
+
+[[span style="color: green;"]]Dispel Fixes (Subradials) [[/span]]
+
+SpellIds
+1845-1856
+
+***
+
+[[span style="color: green;"]]Arcane Trickster fix (allows all forms of sneak attack to qualify) [[/span]]
+
+2DA Files
+cls_pres_arctr
+
+
+
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

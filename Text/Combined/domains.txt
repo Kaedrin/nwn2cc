@@ -1,0 +1,411 @@
+This upgrade has been integrated into my PRC pack found here: http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=209
+It is available as both an Override version and a Hak version.
+
+I've put together a set of new cleric domains to complement the new domains we are getting with MotB. I have 13 new domains, 10 revised domains from the original set, and 6 revised domains from the new MotB domains.
+
++++ New and Revised Domains
+
+Section I (Revised OEI domains)
+Air
+Feat: Uncanny dodge
+1. Ghostly Visage
+3. Call lightning			
+6. Chain lightning
+9. Elemental Swarm
+
+Animal
+Feat: Animal Companion
+2. Cat's grace		
+3. Dominate Animal
+4. True seeing
+
+Chaos
+Feat: Slippery mind	
+1. Color Spray				
+5. Confusion
+
+Cold
+Feat: Cold resistance 5		
+2. Creeping Cold	
+3. Hypothermia						
+4. Ice Storm
+6. Cone of Cold
+9. Polar Ray
+
+Darkness
+Feat: Blind Fight
+1. Ghostly Visage		
+2. Blindness/Deafness			
+5. Shadow Conjuration		
+7. Power Word, Blind
+9. Power Word Kill
+
+Death
+Feat: Negative plane avatar	 	 	 	 	
+3. Death Ward
+4. Phantasmal killer
+9. Wail of the Banshee
+
+Destruction
+Feat: Smite infidel
+3. Rage			
+6. Acid fog
+7. Disintegrate
+
+Dream
+Feat: Immunity to sleep	
+1. Sleep
+3. Deep Slumber			
+4. Phantasmal Killer			
+7. Hiss of Sleep
+9. Weird
+
+Earth
+Feat: Toughness					
+3. Spike Growth
+4. Stoneskin
+5. Energy immunity
+8. Iron Body
+9. Elemental Swarm
+
+Evil 	
+Feat: Able to turn outsiders				
+4. Evard's black tentacles					
+9. Weird
+
+Fire
+Feat: Fire Resistance 5
+1. Burning Hands
+3. Fireball
+4. Wall of Fire
+5. Elemental Shield
+7. Fire Storm
+8. Incendary Cloud
+9. Elemental Swarm
+
+Fury 	
+Feat: Battle Master	
+1. Enlarge person					
+6. Tenser's transformation	
+
+Good
+Feat: Aura of Courage
+2. Magic circle against alignment			
+5. Planar Binding, Lesser
+
+Healing
+Feat: Empowered Healing
+2. Cure serious wounds			
+5. Heal
+
+Knowledge
+Feat: Extra spells
+1. Identify
+2. Knock	
+3. Clairaudience/Clairvoyance	
+4. True seeing	
+5. Legend lore
+
+Law
+Feat: Iron Will	
+1. Lionheart				
+5. Hold Monster		
+7. Mass Hold Person
+
+Luck 	
+Feat: Luck of Heroes			
+3. Freedom of Movement					
+8. Spell Mantle, Greater	
+
+Magic 	
+Feat: Extra spells	
+1. Mage armor	
+2. Melf's acid arrow	
+3. Assay resistance		
+5. Greater Dispel Magic	
+6. Spell mantle		
+8. Blackstaff	
+
+Plant 	
+Feat: Woodland stride	
+1. Entangle	
+2. Barkskin	
+3. Poison	
+4. Mass camouflage	
+5. Vine Mine				
+
+Protection
+Feat: Divine Protection
+4. Globe of Invulnerability, Lesser	
+5. Energy immunity	
+6. Stoneskin
+8. Mind Blank
+9. Prismatic Spray
+
+Strength
+Feat: Divine Strength
+1. Bull's Strength
+3. Divine Power
+6. Stoneskin
+
+Sun
+Feat: Exceptional turning		
+2. Searing Light					
+4. Elemental Shield
+7. Sunbeam
+8. Sunburst
+
+Time
+Feat: Improved Initiative			
+1. True Strike
+4. Haste				
+6. Legend Lore
+7. Premonition
+
+Travel 	
+Feat: Fast movement			
+3. Freedom of movement		
+5. Haste
+
+Trickery 	
+Feat: Feint	
+1. Grease	
+2. Invisibility		
+4. Confusion
+
+Undeath	
+Feat: Extra Turning		
+2. Animate Dead						
+6. Circle of Death
+7. Create Greater Undead
+8. Energy Drain
+
+War
+Feat: Weapon Focus				
+4. Flame Strike				
+8. Power Word, Stun	
+9. Power Word Kill
+
+Water
+Feat: Evasion
+1. Ghostly Visage
+3. Poison
+5. Ice Storm
+6. Cone of Cold
+7. Acid Fog
+8. Horrid Wilting
+9. Elemental Swarm
+
+**
+
+Section II (Domains I added the first time)
+Celerity
+Bonus Feat: Dash
+Bonus Spells:
+1. Expeditious Retreat
+2. Cat's Grace
+3. Invisibility
+4. Haste
+7. Cat's Grace, Mass
+
+Dwarf
+Bonus Feat: Great Fortitude
+Bonus Spells:
+8. Protection from Spells
+9. Elemental Swarm
+
+Elf
+Bonus Feat: Point Blank Shot
+Bonus Spells:
+1. True Strike
+2. Cat's Grace
+7. Liveoak (Spell I need to implement now that MotB is out)
+8. Sunburst
+
+Fate
+Bonus Feat: Uncanny Dodge
+Bonus Spells:
+1. True Strike
+5. Mark of Justice (New spell)
+7. Legend Lore
+8. Mind Blank
+9. Premonition
+
+Hatred
+Bonus Feat: Inspire Hatred (New feat)
+Bonus Spells:
+2. Scare
+4. Rage
+7. Blasphemy
+9. Wail of the Banshee
+
+Illusion
+Bonus Feat: Spell Focus (Illusion)
+Bonus Spells:
+2. Blur
+3. Invisibility Sphere
+4. Phantasmal Killer
+9. Weird
+
+Mysticism
+Bonus Feat: Mystic Protection
+Bonus Spells:
+2. Lesser Visage of the Deity
+4. Righteous Might
+7. Holy Word
+
+Pestilence
+Bonus Feat: Divine Health
+Bonus Spells:
+2. Contagion
+3. Poison
+7. Scourge (New spell I did)
+8. Horrid Wilting
+
+Pride
+Bonus Feat: Epic Resilience
+Bonus Spells:
+3. Heroism
+7. Greater Heroism
+9. Mass Charm Monster
+
+Repose
+Bonus Feat: Death Touch (New feat I did)
+Bonus Spells:
+3. Death Ward
+4. Phantasmal Killer
+6. Destruction
+9. Wail of the Banshee
+
+Storm
+Bonus Feat: Resist Energy: Electricity
+Bonus Spells:
+2. Gust of Wind
+3. Call Lightning
+5. Ice Storm
+7. Chain Lightning
+
+Suffering
+Bonus Feat: Pain Touch (New feat)
+Bonus Spells:
+4. Enervation
+5. Feeblemind
+6. Destruction
+9. Horrid Wilting
+
+Tyranny
+Bonus Feat: Spell Focus: Enchantment
+Bonus Spells:
+4. Fear
+7. Bigby's Grasping Hand
+8. Mass Charm Monster
+9. Dominate Monster
+
+**
+
+Section III (New domains needed to finish the Faerun domain set, released in 1.42f)
+
+Cavern Domain
+Bonus Feat: Stonecunning
+Bonus Spells: Earthquake (7), Power Word Petrify (9)
+
+Charm Domain
+Bonus Feat: Skill Focus (Diplomacy)
+Bonus Spells: Charm Person (1), Charm Monster (5), Dominate Monster (9)
+
+Craft Domain
+Bonus Feat: Craft Wand
+Bonus Spells: Stone Body (5), Iron Body (8)
+
+Drow Domain
+Bonus Feat: Lightning Reflexes
+Bonus Spells: Clairaudience and Clairvoyance (2), Greater Planar Binding (8)
+
+Family Domain
+Bonus Feat: NWN9 Protective Aura (doesn't affect cleric)
+Bonus Spells: Superior Resistance (5), Prismatic Spray (9)
+
+Gnome Domain
+Bonus Feat: Spell Focus (Illusion)
+Bonus Spells: Stoneskin (5), Elemental Swarm (9)
+
+Halfling Domain
+Bonus Feat: Skill Focus (Hide)
+Bonus Spells: Cat's Grace (2), Greater Stoneskin (9)
+
+Mentalism Domain
+Bonus Feat: Iron Will
+Bonus Spells: Clairaudience and Clairvoyance (3), Mind Fog (4), Mind Blank (7)
+
+Metal Domain
+Bonus Feat: Weapon Focus (Light Hammer)
+Bonus Spells: Keen Edge (3), Blade Barrier (5), Iron Body (8)
+
+Moon Domain
+Bonus Feat: Faerie Fire 1/day
+Bonus Spells: Faerie Fire (1), Moon Bolt (4), Confusion (7), Moonfire (9)
+
+Nobility Domain
+Bonus Feat: NWN9 Protective Aura (doesn't affect cleric)
+Bonus Spells: Dominate Person (5), Charm Monster (6)
+
+Ocean Domain
+Bonus Feat: Resist Energy (Cold 5)
+Bonus Spells: Sound Burst (1), Greater Creeping Cold (6), Elemental Swarm (9)
+
+Orc Domain
+Bonus Feat: Smite Infidel
+Bonus Spells: Power Word Kill (9)
+
+Planning Domain
+Bonus Feat: Extend Spell
+Bonus Spells: Clairaudience and Clairvoyance (3)
+
+Portal Domain
+Bonus Feat: Skill Focus (Search)
+Bonus Spells: Banishment (5), Etherealness (8)
+
+Renewal Domain
+Bonus Feat: Augment Healing
+Bonus Spells: Lesser Restoration (1), Restoration (3), Greater Restoration (6)
+
+Retribution Domain
+Bonus Feat: Divine Vengeance
+Bonus Spells: Elemental Shield (4), Greater Spell Mantle (9)
+
+Rune Domain
+Bonus Feat: Scribe Scroll
+Bonus Spells: Glyph of Warding (2), Lesser Planar Binding (5), Planar Binding (7), Greater Planar Binding (9)
+
+Scalykind Domain
+Bonus Feat: Dragon Slayer
+Bonus Spells: Magic Fang (1), Greater Magic Fang (3), Animal Growth (5), Creeping Doom (7)
+
+Slime Domain
+Bonus Feat: Use Poison
+Bonus Spells: Melf's Acid Arrow (2), Poison (3), Evard's Black Tentacles (5), Power Word Blind (8)
+
+Spell Domain
+Bonus Feat: Skill Focus (Spellcraft)
+Bonus Spells: Mage Armor (1), Greater Spell Mantle (8)
+
+Spider Domain
+Bonus Feat: Use Poison
+Bonus Spells: Tenacious Plague (6), Creeping Doom (8)
+
+Trade Domain
+Bonus Spells: Skill Focus (Appraise)
+Bonus Feat: Identify (1), Legend Lore (5), Mind Blank (9)
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

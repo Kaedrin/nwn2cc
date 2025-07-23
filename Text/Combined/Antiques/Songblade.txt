@@ -1,0 +1,62 @@
+Songblade
+
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.
+
+Requirements
+
+Skills: Perform 9, Tumble 9
+Feat: Skill Focus (Perform), Battle Caster
+Special: Bardic Music ability
+Special: Not a seeker of the song
+
+Class Features
+
+Class Skills: Bluff, Concentration, Craft Alchemy, Craft Weapon, Craft Armor, Diplomacy, Intimidate, Listen, Lore, Parry, Perform, Spellcraft, Spot, and Tumble.
+Skill points: 4 + Int modifier
+
+HD: d6
+BAB: Medium
+High Saves: Ref, Fort
+Weapon proficiency: None
+Armor proficiency: None
+
+Class Abilities
+
+Level 1: Songblade Dance (+2 AC), Songblade Focus
+Level 2: Revitalizing Chant
+Level 3: Elemental Anthems
+Level 4: Songblade Dance (+2 saves), Songblade Focus Bonus
+Level 5: Lasting Music (Lingering Song)
+Level 6: Aria of Everywhere
+Level 7: Songblade Dance (DR 2/-), Songblade Focus Bonus
+Level 8: Dirge of the Furies
+Level 9: Elemental Anthems
+Level 10: Songblade Dance (Freedom of Movement), Songblade Focus Bonus
+
+Songblade Music
+Songblade levels stack with bard levels for purposes of determining how many daily uses of bardic music the character has as well as the effect of songs and inspirations. Songblade levels do not stack with bard levels for determining which songs a bard has access to unless they take the Songblade Dancer focus.
+
+Songblade Dance
+A songblade is so focused on weaving bladework with music that she gains special insight, physical fortitude, and a graceful elegance while lost in the dance. A songblade gains a +2 insight bonus to Armor Class whenever she uses her bard music ability, inspirations, songblade music, or similar ability.
+
+At 4th level and higher, a songblade also gains a +2 insight bonus on saving throws. At 7th level and higher, a songblade also gains damage reduction 2/-. At 10th level, a songblade gains these abilities and also acts as though affected by a freedom of movement spell.
+
+Songblade Focus
+At first level, a songblade choose a path to focus their dance and singing skills around. They are given a choice from the following: Dancer (dual wield and bardic focus), Stalker (ranger focus), and Reaver (rogue focus).
+
+    The Songblade Stalker focus grants spellcasting progression with Ranger spells (9/10) and songblade levels stack with Ranger levels for the Ranger's bonus weapon feats (including Perfect Two-Weapon Fighting), and their animal companion.
+    The Songblade Reaver focus grants the Curse song at 1st and +1d6 dice of sneak attack at 4th and 7th level. At 10th she gains the ability to infuse her weapons with Death's Ruin (duration equal to class level in hours).
+    The Songblade Dancer focus grants spellcasting progression with Bard spells (9/10). The songblade gains new songs and inspirations as if her bard level was equal to the total of bard and songblade levels. At 4th and 10th level the songblade dancer gains an increase in two-weapon fighting ability. If the songblade dancer does not have two-weapon fighting, she gains it at 4th and improved at 7th. If she does, they improve to the next two-weapon fighting feat.
+    The Songblade Rager focus allows songblade levels to stack with Barbarian levels for the purpose of determining how many uses of rage per day are available and which rage is available. At 4th level the songblade rager causes sonic damage equal to her barbarian and songblade levels plus half of a perform check to all enemies within 20' each time she enters a rage state. At 7th level the damage done increases to a full perform check plus her barbarian and songblade levels.
+
+Revitalizing Chant
+When she uses the revitalizing chant (expending a use of bardic music), a songblade can make a Perform check to heal all living creatures of an amount of hit point damage equal to the check result. The chant heals those allies within 50' and has no effect on hostile, undead, or non-living creatures.
+
+Elemental Anthems
+A songblade of 3rd level or higher with x or more ranks in the Perform skill can sing a song (expending a use of bardic music) that evokes the essence of the element she chooses. Elemental anthems grants resistance 5 to the chosen element and a damage bonus of the element equal to half her class level for a number of rounds equal to half a perform check. This ability has a 5 minute cooldown. At 9th level the elemental resistance increases to 10 while the cooldown decreases to 3 minutes.
+
+Aria of Everywhere
+A songblade of 6th level or higher with x or more ranks in the Perform skill can sing an aria that seems to bend light around her as she dances, making it hard to tell where she actually is. She can expend a use of bardic music to gain the benefits of the haste spell and 10% concealment for a number of rounds equal to half a perform check.
+
+Dirge of the Furies
+When she expends a use of bardic music to createa a dirge of the furies, a blast of horrific sound and lightning assail those enemies within 30' of the songblade. This dark energy seeks hostile targets and deals d4 points of sonic and d4 points of electrical damage for each songblade level. This ability has a 5 minute cooldown.

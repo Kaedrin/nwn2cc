@@ -1,0 +1,57 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+Throughout the city, even the vilest assassin does not command more respect than the nightsong enforcers.  They could be anywhere - thre could strike at any time.  You cannot escape their uncanny senses.  And worst of all, they often work in elite teams.
+
+The enforcers of the Nightsong Guild focus on the stealth-centered combat training that rogues usually learn; they forgo some of the sleight of hand or fast-talking aspect of being a thief.  However, nightsong enforcers are not merely thugs.  They are deadly opponents who strike from hidden positions and move silently behind their foes.  When in battle, their goal is to eliminate their enemies, not to fight.  Thus, they strike quickly from the shadows.  They do not worry about honor or fighting fair, scoffing at such ideals as childish.
+
+Rogues most often become nightsong enforcers, although bards, fighters, and urban rangers are also known to undertake the class.  On occasion a wizard or sorcerer will endure the intensive training required to join the enforcers' ranks.
+
+**Requirements:**
+
+BAB: +5
+Feats: Improved Initiative, Evasion
+Skills: Hide 10 ranks, Move Silently 10 ranks.
+
+**Class Features:**
+
+Hit Die: d8
+Base Attack Bonus: High.
+High Saves: Reflex.
+Weapon Proficiencies: None.
+Armor Proficiencies: Light armor.
+Skill Points: 4 + Int modifier.
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Disable Device, Hide, Intimidate, Listen, Lore, Move Silently, Open Lock, Search, Spot, and Tumble.
+
+**Class Abilities:**
+
+Level 1: Sneak Attack 1d6
+Level 2: Agility Training
+Level 3: Skill Teamwork +2
+Level 4: Sneak Attack 2d6
+Level 5: Expert Tactician
+Level 6: Impromptu Sneak Attack 1/day
+Level 7: Sneak Attack 3d6, Skill Teamwork +4
+Level 8: Improved Evasion
+Level 9: Impromptu Sneak Attack 2/day
+Level 10: Sneak Attack 4d6
+
+Agility Training:  The nightsong enforcer gains a +2 bonus to Hide, Move Silently, and Tumble when wearing light armor.
+
+Skill Teamwork: All allies within 30 feet of the nightsong enforcer gain a +2 competence bonus on Hide, Listen, Move Silently, and Spot checks. At 7th level, this bonus increases to +4.
+
+Expert Tactician: If you hit a creature with an attack of opportunity, you and all your allies gain a +2 circumstance bonus on attack and damage rolls against that creature for one round.
+
+Impromptu Sneak Attack: You can deny your targeted opponent their Dex mod in the next round, allowing a sneak attack once per day.  At 9th level this ability can be used twice a day.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

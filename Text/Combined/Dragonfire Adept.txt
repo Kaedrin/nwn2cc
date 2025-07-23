@@ -1,0 +1,167 @@
+Thoughts?
+
+Dragonfire Adept
+
+Whether they are bold champions defending the weak and downtrodden, or merciless raiders seeking might and riches, dragonfire adepts are imposing figures who command the magic of dragonkind. Able to call upon a dragon's fiery breath and augment themselves with spell-like abilities, dragonfire adepts have access to powers normally beyond the reach of mortals.
+
+Dragonfire adepts have no arcane or divine magic, nor are they masters of martial prowess. Instead, they draw upon a driect link wtih the nature of draconic existence, infusing their soul with the raw magic of dragons. Cunning, hearty, and learned, dragonfire adepts can be warleaders or sages with equal ease.
+
+Evil dragonfire adepts are cruel tyrants who impose their will on others, seeking to control the land, build strongholds, and amass vast treasures. Good dragonfire adepts are champions of justice and freedom, using their powers to aid others.
+
+The DC for a dragonfire adept's breath weapon is based on Constitution, while her invocations are based on Charisma.
+
+This is a base class.
+
+Class Features
+
+HD: d8
+BAB: Low
+High Saves: Fort, Will
+Weapon proficiency: Simple.
+Armor proficiency: None.
+
+Class Skills: Appraise, Bluff, Craft Armor, Craft Alchemy, Craft Weapons, Diplomacy, Intimidate, Listen, Lore, Search, Spellcraft, Spot, and Use Magic Device.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Breath Weapon (1d6), Dragontouched, Least Invocations, 1 Invocation Known
+Level 2: Breath Effect, Scales +2
+Level 3: Breath Weapon (2d6), 2 Invocations Known
+Level 4: Dragonkin
+Level 5: Breath Weapon (3d6), Breath Effect
+Level 6: DR 2/Magic, Lesser Invocations, 3 Invocations Known
+Level 7: Breath Weapon (4d6)
+Level 8: Scales +3, 4 Invocations Known
+Level 9: Breath Weapon (5d6)
+Level 10: Breath weapon range doubles, Breath Effect
+Level 11: Breath Weapon (6d6), Greater Invocations, 5 Invocations Known
+Level 12: Breath Effect
+Level 13: Scales +4, 6 Invocations Known
+Level 14: Breath Weapon (7d6)
+Level 15: Breath Effect
+Level 16: DR 5/Magic, Dark Invocations, 7 Invocations Known
+Level 17: Breath Weapon (8d6)
+Level 18: Scales +5, 8 Invocations Known
+Level 19: Immunities
+Level 20: Breath Weapon (9d6), Breath Effect
+Level 21:
+Level 22: Breath Weapon (10d6), Breath Effect
+Level 23: Bonus Epic Feat, Scales +6
+Level 24: Breath Weapon (11d6)
+Level 25: Breath Effect
+Level 26: Bonus Epic Feat, DR 9/Magic, Breath Weapon (12d6)
+Level 27:
+Level 28: Breath Weapon (13d6), Scales +7
+Level 29: Bonus Epic Feat
+Level 30: Breath Weapon (14d6), Breath Effect
+
+Dragonfire Adepts get bonus epic feats at 23, 26, and 29.
+
+Invocations: A dragonfire adept has a repertoire of attacks, defense, and other abilities known as draconic invocations, which allow her to focus the draconic energy that suffuses her soul. A dragonfire adept may use any invocation she knows at will. At each levelup you may choose to replace one invocation with another.
+
+These invocations are drawn from the Warlock list (and some specific to the dragonfire adept) and are identical in all respects. They are subject to arcane spell failure. A dragonfire adept's caster level with her invocations is equal to her class level.
+
+Breath Weapon: At 1st level, you gain a breath weapon that you can use at will. Each time you use your breath weapon, you can choose whether it takes the form of a 15-foot cone or a 30-foot line. This breath weapon deals 1d6 points of fire damage; a successful Reflex save (DC 10 + 1/2 your class level + your Con modifier) halves the damage. The damage improves as you increase your level.
+
+At 10th level, your cone-shaped breath weapon's range doubles to 30 feet, and your line-shaped breath weapon's range doubles to 60 feet.
+
+Dragontouched: At 1st level, you gain Dragontouched as a bonus feat.
+
+Breath Effect: A levels 2, 5, 10, 12, 15, 20, 22, 25, and 30 you can select a new breath effect listed below for which you meet the minimum level prerequisite. These breath effects can alter your breath weapon's damage type or area, or apply a condition to targets in place of damage. You choose from one shape (cone, line, and cloud) along with one of the essences. You can only apply an essence which is valid for a given shape (such as lightning breath can not be used with the cone or cloud shapes).
+
+Choices available at level 2+: Frost Breath, Lightning Breath
+Choices available at level 5+ : Acid Breath, Shaped Breath, Slow Breath, Weakening Breath
+Choices available at level 10+ : Cloud Breath, Enduring Breath, Thunder Breath
+Choices available at level 15+ : Discorporating Breath of Bahamut, Force Breath, Paralyzing Breath, Fivefold Breath of Tiamat
+
+Details on the breath effects can be found below:
+
+Frost Breath (Essence): Your cone or cloud shaped breath weapon deals cold damage.
+Lightning Breath (Essence): Your line-shaped breath weapon deals electricity damage.
+Acid Breath (Essence): Your breath weapon deals cold damage.
+Shaped Breath: Your breath weapons no longer affect allies (all shapes/essences gain this benefit).
+Slow Breath (Essence): Your cone or cloud shaped breath weapon slows enemies for 2 rounds (1 round with a Fort save), dispels haste, and inflicts a -1 Penalty to Reflex, AC, and attack rolls.
+Weakening Breath (Essence): Your cone or cloud shaped breath weapon inflicts a -6 Strength penalty on enemies for 4 rounds (2 with a Fort save).
+Cloud Breath (Shape): Your breath weapon becomes a 20' radius cloud centered on yourself.
+Enduring Breath (Essence): Your breath weapon deals full damage the first round, and half damage the second round.
+Thunder Breath (Essence): Your cone or cloud shaped breath weapon deals sonic damage and uses a Fort save instead of Reflex save for half damage.
+Discorporating Breath of Bahamut (Essence): Your line-shaped breath weapon deals double damage and you take twice your class level in damage (4x if evil). You can not use your breath weapon for two rounds.
+Force Breath (Essence): Your line-shaped breath weapon deals magic damage.
+Paralyzing Breath (Essence): Your cone or cloud shaped breath weapon paralyzes enemies for one round (Fort save negates).
+Fivefold Breath of Tiamat (Essence): You breath a cone of acid, cone of cold, cone of fire, line of acid, and line of electricity that each deals normal damage (and allows for the Reflex save) while you suffer twice your class level in damage (4x if good). You can not use your breath weapon for two rounds.
+
+Scales: At 2nd level, your skin becomes thick and scaly, granting you a +2 bonus to your natural armor. This bonus improves to +3 at 8th level, +4 at 13th level, +5 at 18th level, +6 at 23rd level, and +7 at 28th level. This does not stack with other sources of natural armor.
+
+Dragonkin: At 4th level, you gain immunity to fear.
+
+Immunities: At 19th level, you gain immunity to paralysis and sleep effects.
+
+Prestige Classes:
+Levels of prestige classes that provide +1 level of spellcasting effectively stack with the dragonfire adept's level to determine her breath weapon damage and save DC. She also gains new invocations (and caster level for the invocation) at each prestige class level as though she had risen a level in the dragonfire adept.
+
+The following prestige classes advance spellcasting and are open to the Dragonfire adept: Doomlord, Dragonslayer, Knight of Tierdrial, and Stormsinger.
+
+***
+
+New Feat: Extra Draconic Invocation
+New Feat: Dragontouched
+New Feat: Ability Focus (Dragonbreath)
+New Feat: Ability Focus (Draconic Invocation)
+New Feat: Draconic Aura (see Dragon Shaman for the Auras) (The aura grants a +1 bonus when taken. For dragonfire adepts the bonus improves to +2 at 7th level, +3 at 14th level, +4 at 20th level, and a +5 bonus at 27th level. It does not stack with Dragon Shaman auras)
+New Feat: Double Draconic Aura
+New Feats: Epic Dragon Breath (+1d6) through Epic Dragon Breath (+10d6)
+New Feat: Entangling Exhalation
+New Feat: Practiced Invoker
+
+New Item: Dragon Spirit Cincture - A belt-slot item that adds +1d6 to breath weapon damage and +1 to your breath weapon's DC.
+
+See the handbook for short descriptions of the invocations (they typically get 2 invocations from each tier)
+Least Invocations:
+
+   Beguiling Influence
+   Draconic Knowledge
+   Endure Exposure (party becomes immune to your breath weapon)
+   Magic Insight
+   Scalding Gust
+   See the Unseen
+
+Lesser Invocations:
+
+   Charm
+   Energy Resistance
+   Frightful Presence
+   Voracious Dispelling
+   Walk Unseen
+
+Greater Invocations:
+
+   Aura of Flame (much better than in PnP due to NWN limitations)
+   Baleful Geas (as Dominate Monster)
+   Chilling Fog
+   Devour Magic
+   Draconic Toughness
+   Terrifying Roar
+
+Dark Invocations:
+
+   Energy Immunity
+   Instill Vulnerability
+   Perilous Veil (as Retributive Invisibility)
+
+I may or may not bend the rules to add the following (depends on how it goes)
+Scaled One's Own Luck (as Dark One's Own Luck) - Least
+Flamebound Glaive (as Eldritch Glaive) - Lesser
+Draconic Frenzy (as Flee the Scene) - Lesser
+Draconic Foresight (as Dark Foresight) - Dark
+Word of Scales (as Word of Changing) - Dark
+
+Content expected when the Dragon Shaman is released that it will have access to or may be created to shore up the class based on feedback:
+
+   I'm adding the feat Dreadful Wrath. It's a level 1 background feat that provides a Debuff Aura like the Blackguard has (Will Save vs DC 10 + 1/2 Char Level + Cha Mod or suffer -2 Saves, -2 AC, -2 AB). It will stack with Dark Companion, the Blackguard's aura, and the Hexblade's curse.
+   I'm adding the feat Battle Casting. It's only for the custom spellbook casters and adds a +2 Dodge AC bonus for 6 seconds after casting a custom spellbook spell (from RotW).
+   I may add support for the Devotion feats to the custom spellbook casters.
+   Arcane Duelist for a 2 level dip gives huge rewards. Blackguard 3 has great synergy as well.
+   New Items such as Veil of Allure (+2 Cha based DCs), Bloodstone enchant (MIC), and Ring of Arcane Might (+1 CL, +1 all DCs)
+   New feat granted a level 1 to the Hexblade and Blackguard (possibly any with Intimidate as a class skill): Demoralize Opponent - Use a standard action and make an opposed Intimidate check to fear your enemy (Shaken effect for -2 AC, -2 AB, -2 Saves). Stacks with all other types of negatives.
+   I'm open to adding Dragon Leadership + Epic Leadership as feats for the custom spellbook casters that will allow them to summon a dragon companion based on their level + charisma bonus. A level 30 character with a 40 Charisma would summon a level 28 Dragon. I'm also open to using this as the foundation of my "pet upgrade" system where you give pets magic items (following the pnp rules that allow animals to equip most types of magic items). This would be quite a buff to the pet (at the expense of drops) and provide a level 23-28 full BAB, nasty pet for two feats.

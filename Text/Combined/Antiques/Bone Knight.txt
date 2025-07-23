@@ -1,0 +1,65 @@
+Bone Knight
+
+Bone Knight
+
+Bone Knights are patriots, living protectors who fight alongside the undead legions of their land. They provide tactical expertise and fine control to the legions of undead raised to defend their people. They serve as elite knights who travel abroad to complete missions that server the greater glory of their king. They wear suits of bonecraft armor that they craft themselves and learn to harness the power of necromancy, turning hordes of undead into disciplined, even cunning, troops.
+
+Requirements
+
+Alignment: Lawful Good.
+Feats: Smite Evil 2/day.
+Skills: Craft Armor 6, Lore 6.
+Special: Must not have any Champion of the Silver Flame levels.
+Spellcasting: Level 2 Paladin spells.
+
+Class Features
+
+HD: d10
+BAB: Medium
+High Saves: Fort, Will
+Weapon proficiency: All simple and martial weapons.
+Armor proficiency: All armor and shields (including tower shields).
+
+Class Skills: Concentration, Craft Weapon, Craft Armor, Diplomacy, Intimidate, Heal, Intimidate, Lore, Parry, Spellcraft, and Tumble.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Bonecraft Armor, Spellcasting Progression, Turn Undead
+Level 2: Bone March, Faithful Spirit
+Level 3: Master of the White Banner
+Level 4: Improved Bonecraft Armor
+Level 5: Fill the Ranks 1/day
+Level 6: Bonecraft Weapon
+Level 7:
+Level 8:
+Level 9: Death Strike 1/day
+Level 10:
+
+Spellcasting: Beginning at 2nd level, you gain new spells per day and an increase in caster level (and spells known) as if you had also gained a Paladin level.
+
+Turn Undead: Bone knights levels stack with all other classes for the purpose of turning undead.
+
+Bonecraft Armor: At 1st level, you learn to weave enchanted bonecraft into the armor you wear, granting you a +4 skill bonus to Intimidate while worn. In addition, the armor grants you damage reduction 1/bludgeoning if it is medium armor or damage reduction 2/bludgeoning if it is heavy armor.
+
+Bone March: At 2nd level, you gain the ability to subvert undead to follow your commands (as a dominate undead spell). You may not control any individual undead creature with more Hit Dice than your class level.
+
+Faithful Spirit: Starting at 2nd level, bone knight levels stack with Paladin levels to determine your effective Paladin level for the Divine Spirit abilities.
+
+Master of the White Banner: Beginning at 3rd level, you grant any undead under your control turn resistance equal to your Charisma bonus.
+
+Improved Bonecraft Armor: At 4th, 7th, and 10th levels, the damage reduction afforded by your bonecraft armor increases by 1. Moreover, you gain additional benefits while clad in your bonecraft armor as described below:
+
+At 4th level, your bonecraft armor grants you immunity to stunning attacks.
+
+At 8th level, your bonecraft armor shrouds your body with the essence of undeath. You gain immunity to poison, sleep effects, paralysis, disease, death magic, ability damage, and energy drain.
+
+At 10th level, your bonecraft armor grants you immunity to critical hits and sneak attack damage.
+
+Fill the Ranks: At 5th level, you can use a limited form of animate dead once per day. You can control this undead as well as the one dominated by your Bone March ability.
+
+Bonecraft Weapon: At 6th level, if you have at least 6 ranks in Craft Weapon, you can wield weapons with pieces of bone worked into the design. The bonecraft weapons deal +1d6 points of divine damage.
+
+Death Strike: At 9th level, once per day, you use your bonecraft weapon to strike down a living foe. If the attack succeeds, the target must succeed on a Fortitude save (DC 10 + your bone knight level + your Cha modifier) or die. This is a necromantic death effect.
+
+New Feat Available: Extra Death Strike (3 uses/day)

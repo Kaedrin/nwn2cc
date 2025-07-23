@@ -1,0 +1,51 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 5 levels.
+
+Dread commandos are the elite scouts and strike force of a well-trained mercenary band.  They combine stealth with protection, quickly moving through the battlefield even while heavily armored, and they are deadly when they catch an opponent unawares.  Dread commandos are called upon when a mission requires an excursion deep into enemy territory and conflict is inevitable.
+
+Most dread commandos begin their adventuring careers as rangers or rogues.  Barbarians and fighters make good dread commandos, though they typically multiclass as rangers or rogues to gain the requisite stealth.
+
+**Requirements:**
+
+BAB: +5
+Skills: Hide 6, Move Silently 6
+Feats: Dodge, Mobility
+
+**Class Features:**
+
+Hit Die: d8
+Base Attack Bonus: High.
+High Saves: Reflex.
+Weapon Proficiencies: None.
+Armor Proficiencies: None.
+Skill Points: 6 + Int modifier.
+Class Skills: Bluff, Craft Weapon, Craft Armor, Disable Device, Hide, Listen, Lore, Move Silently, Open Lock, Spot, Tumble.
+
+**Class Abilities:**
+
+Level 1: Sneak Attack 1d6, Improved Initiative, Improved Flanking
+Level 2: Armored Ease 2
+Level 3: Sneak Attack 2d6
+Level 4: Armored Ease 4, Stealthy Movement
+Level 5: Sneak Attack 3d6, Superior Initiative
+
+Improved Flanking
+You gain Improved Flanking as a bonus feat.
+
+Armored Ease
+You learn to adapt your movements to the restrictive nature of armor.  Beginning at 2nd level, you gain a +2 bonus to Hide, Move Silently, and Tumble.  At 4th level, this bonus increases to 4 points.
+
+Stealthy Movement
+You learn to remain quiet and hidden even while mobile.  Beginning at 4th level, you gain the Dash feat.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

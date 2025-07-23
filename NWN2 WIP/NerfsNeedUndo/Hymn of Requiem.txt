@@ -1,0 +1,9 @@
+Type of Feat: Epic
+Prerequisites: Bard level 21, Song of Requiem, Perform 30.
+Specifics: The character's Song of Requiem now also heals all party members. The amount healed is the same as the damage caused by the Hymn and is divided among all party members; the minimum amount healed per ally is Perform/3. For example, if the total damage dealt is 60 and four characters are in the party, each is healed 15 hit points per round.
+Use: Automatic.
+
+Type of Feat: Epic
+Prerequisites: 20 Bard Songs/day, Song of Requiem, Perform 30.
+Specifics: The character's Song of Requiem now also heals all party members. The amount healed is Perform Skill/2 per each ally.  For example, with Perform 30, each ally is healed for 15 hit points per round.  The maximum number of allies is 6.
+Use: Automatic.

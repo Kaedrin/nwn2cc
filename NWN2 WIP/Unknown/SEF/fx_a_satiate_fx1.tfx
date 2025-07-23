@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Trail>
+  <EffectType>5</EffectType>
+  <Color>
+    <r>98</r>
+    <g>150</g>
+    <b>0</b>
+    <a>255</a>
+  </Color>
+  <UpdateFrequency>30</UpdateFrequency>
+  <FadeOutTime>1</FadeOutTime>
+  <Texture>fx_amoeba_a.dds</Texture>
+  <SourceBlend>5</SourceBlend>
+  <DestBlend>2</DestBlend>
+  <TextureType>1</TextureType>
+  <AnimatedTextureSpeed>0.6</AnimatedTextureSpeed>
+  <RequiresFrameBuffer>0</RequiresFrameBuffer>
+  <FrameBufferPixelDisplacement>0.1</FrameBufferPixelDisplacement>
+</Trail>

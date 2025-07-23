@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<serverlist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultServer="0" nextServerId="6">
+  <servers>
+    <server id="0" url="ftp://104.156.48.53:556/" password="f1nfangf00m" username="db_public" />
+    <server id="1" url="ftp://104.156.48.53:556/" password="f1nfangf00m" username="db_public" />
+    <server id="3" url="ftp://104.156.48.53:556/" password="f1nfangf00m" username="db_public" />
+    <server id="4" url="ftp://104.156.48.53:556/" password="f1nfangf00m" username="db_public" />
+    <server id="5" url="ftp://104.156.48.53:556/" password="f1nfangf00m" username="db_public" />
+  </servers>
+</serverlist>

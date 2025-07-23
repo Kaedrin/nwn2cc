@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Neverwinter Nights 2 -->
+<!-- Copyright 2012 Vainberg Entertainment, Inc. -->
+
+<UIScene name="hv_dm_notes" x=ALIGN_CENTER y=ALIGN_CENTER width=1000 height=600 fadeout="0.3" fadein="0.3" idleexpiretime="1.0" backoutkey=true priority="SCENE_SCRIPT" modal=false
+	 scriptloadable=true draggable="true" OnAdd=UIObject_Misc_ExecuteServerScript("gui_hv_dmnotes","ppc") />
+
+	<!-- Categories pane container -->
+	<UIPane name="CategoriesPane" x=700 y=31 width="308" height="564" >
+
+	<UIText text="<C=pink>~ Categories ~" x=45 y=10 width=300 height=28 fontfamily="Special_Font" style=4 />
+
+        <!-- Categories list-->
+        <UIPane name="PANE_CATEGORIES" x="23" y="11" width="258" height="540" hidden=false >
+            <UIListBox name="CATEGORIES_LISTBOX" x="5" y="43" width="248" height="470" xPadding="0" yPadding="5" showpartialchild="true"
+                unequalcontrols="true" scrollsegmentsize="30" hidescrollbarwhennotneeded="false" selectonleftclick="true" >
+
+                <UIButton name="PROTO_BUTTON" style="STYLE_CHARGEN_LIST_BUTTON" prototype="true" 
+						OnLeftClick0=UIObject_Misc_ExtractData(self:,"string",0,local:1)
+						OnLeftClick1=UIObject_Misc_ExtractData(self:,"string",1,local:2)
+						OnLeftClick2=UIObject_Misc_ExecuteServerScript("gui_hv_dmnotes","getnotes",local:1,local:2)>
+                    <UIText name="CATEGORY" fontfamily="Title_Font" style=1 align="center" valign="middle" />
+                </UIButton>
+
+                <UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>
+            </UIListBox>
+
+        </UIPane>
+
+        <UIFrame x="0" y="6" width="304" height="557" topleft="frame_main_t_TL.tga" topright="frame_main_t_TR.tga" 
+			bottomleft="frame_main_BL.tga" bottomright="frame_main_d_BR.tga" top="frame_main_T.tga" bottom="frame_main_b.tga"
+			left="frame_main_l.tga" right="frame_main_r.tga" fillstyle="stretch" fill="frame_main_bg.tga"  border="64" />
+    </UIPane>
+	
+	<!-- Input panel -->
+	<UIPane name="INPUT_PANEL" x=318 y=51 width=372 height=550>
+		<UIListBox name="INPUT_BOX" x=10 y=10 width=352 height=505 showpartialchild=true unequalcontrols=true hidescrollbarwhennotneeded=false>
+			<UIText name="INPUT_BOX_TEXT" text="Select or create a new category." allowspace="true" width=PARENT_WIDTH height=DYNAMIC align=left valign=top fontfamily="International" multiline="true" returnrestricted="false" editable="true" update="true" selectable="true" OnUpdate=UIObject_Misc_SetLocalVarString(local:0) />
+			<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>
+		</UIListBox>
+
+		<UIFrame x=0 y=0 width=372 height=530 topleft="frame1_tl.tga" topright="frame1_tr.tga" 
+			bottomleft="frame1_bl.tga" bottomright="frame1_BR.tga" top="frame1_t.tga" bottom="frame1_b.tga" left="frame1_l.tga" 
+			right="frame1_r.tga" border=32 />
+	</UIPane>
+	
+	<!-- Tools pane container -->
+	<UIPane name="ToolsPane" x=0 y=31 width="308" height="564" >
+
+	<UIText text="<C=pink>~ Tools ~" x=70 y=10 width=300 height=28 fontfamily="Special_Font" style=4 />
+
+        <UIPane name="PANE_TOOLS" x="23" y="11" width="258" height="540" hidden=false >
+					
+			<UIButton name="create_category" text="Create Category" fontfamily="Body_Font" x=ALIGN_CENTER y=50 height=25 width=200 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_dmnotes","create") >
+			</UIButton>
+			<UIButton name="rename_category" text="Rename Category" fontfamily="Body_Font" x=ALIGN_CENTER y=85 height=25 width=200 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_dmnotes","rename",local:1) >
+			</UIButton>
+			<UIButton name="delete_category" text="Delete Category" fontfamily="Body_Font" x=ALIGN_CENTER y=120 height=25 width=200 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_dmnotes","delete",local:1) >
+			</UIButton>
+			
+			<UIButton name="toggle_public" text="Toggle public" fontfamily="Body_Font" x=ALIGN_CENTER y=155 height=25 width=200 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_dmnotes","toggle_prv",local:1) >
+			</UIButton>
+			<UIButton name="view_public" text="View public notes" fontfamily="Body_Font" x=ALIGN_CENTER y=190 height=25 width=200 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_dmnotes","view_public") >
+			</UIButton>
+			<UIButton name="view_personal" text="View personal notes" fontfamily="Body_Font" x=ALIGN_CENTER y=225 height=25 width=200 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_dmnotes","view_personal") >
+			</UIButton>
+		
+			<UIButton name="save_notes" text="<C=pink>Save notes" fontfamily="Body_Font" x=ALIGN_CENTER y=455 height=25 width=200 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_dmnotes","save",local:1,local:0,local:2) >
+			</UIButton>
+			<UIButton name="clear_text" text="Clear text" fontfamily="Body_Font" x=ALIGN_CENTER y=490 height=25 width=200 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_dmnotes","clear") >
+			</UIButton>
+
+        </UIPane>
+
+        <UIFrame x="0" y="6" width="304" height="557" topleft="frame_main_t_TL.tga" topright="frame_main_t_TR.tga" 
+			bottomleft="frame_main_BL.tga" bottomright="frame_main_d_BR.tga" top="frame_main_T.tga" bottom="frame_main_b.tga"
+			left="frame_main_l.tga" right="frame_main_r.tga" fillstyle="stretch" fill="frame_main_bg.tga"  border="64" />
+    </UIPane>
+
+	<!-- Close Button -->
+	<UIButton name="CloseButton" x=968 y=1 style="STYLE_CLOSE_BUTTON" 
+		OnLeftClick=UIButton_Input_ScreenClose()>
+	</UIButton>
+	
+	<!-- Background Image -->
+	<UIText name="dmnotes_title" text="DM notes" x="10" y="6" width="900" height="33" fontfamily="Title_Font" style="2" />
+	<UIIcon name="OPTIONS_SCREEN_TITLE" img="title_large01.tga" x=1 y=1 width=998 height=34 />
+	<UIFrame x=0 y=0 width=PARENT_WIDTH height=PARENT_HEIGHT topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+		bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" alpha="0.85"
+		left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="solid_black_fill.tga" border=5 />

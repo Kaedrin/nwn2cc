@@ -1,0 +1,49 @@
+Blightlord
+
+Blightlord
+
+Corrupt priests who revel in decay, the blightlords are feared and reviled in many lands. Their plagues have transformed several lands into a foul green hell of diseased monsters and deadly poisons. Worse yet, the blightlords seek to infect the healthy forests and lands nearby with the same sickness. Most of the blightlords are drawn from evil clerics, druids, or rangers.
+
+Requirements
+
+Alignment: Any evil
+Feats: Great Fortitude, Martial Weapon Proficiency
+Spellcasting: Able to cast 4th-level divine spells.
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Concentration, Heal, Hide, Listen, Lore, Spellcraft, Spot, and Survival.
+Skill points: 2 + Int modifier
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Fort, Will
+Weapon proficiency: None
+Armor proficiency: None
+
+Class Abilities
+
+Level 1: Turn Plants, Blightblood, Spellcasting Progression
+Level 2: Illmaster
+Level 3: Blight Touch 1/day
+Level 4:
+Level 5: Blight Touch 2/day
+Level 6: Black Halberd
+Level 7: Blight Touch 3/day
+Level 8: Corrupting Blows
+Level 9: Blight Touch 4/day
+Level 10: Winterheart
+
+Spellcasting Progression: At each blightlord level (except 6th and 10th), the character gains new divine spells per day as if she had also gained a level in a divine spellcasting class to which she belonged before adding the prestige class level.
+
+Blightblood: A blightlord is completely immune to all diseases, magical or otherwise.
+
+Illmaster: Any animal companion a blightlord possesses gains the blightspawned template. This provides immunity to poison, immunity to sleep, immunity to paralysis, immunity to stunning, immunity to critical hits and sneak attacks, and immunity to mind-affecting effects. The companion also recieves the following ability changes: Str +4, Con +2, Wis -2, and Cha -2. Their natural attacks also inflict the same blight that the blightlord's blight touch ability confers.
+
+Blight Touch: Starting at 3rd level, once per day as a standard action, a blightlord may attempt a melee touch attack to infect a victim with the blight. This disease (DC 10 + blightlord class level + Wisdom modifier) deals d4 Constitution and d4 Charisma damage. At 5th, 7th, and 9th level, the blightlord gains one more use of this power per day.
+
+Black Halberd: Starting at 6th level, any halberd wielded by a blightlord gains the icy burst ability, dealing +1d6 bonus cold damage and increased criticals (2d10). In addition, the blightlord now makes her blight touch attack with her halberd (dealing both melee damage and attempting to infect the target with the disease).
+
+Corrupting Blows: An 8th-level blightlord's black halberd gains the wounding ability. A creature struck by the black halberd loses 1 hit point per round.
+
+Winterheart: At 10th level, a blightlord's infected blood effects a terrible change in her physiology. Her skin blackens and splits, becoming cold and slimy to the touch, although she does not bleed or suffer pain from this transformation. She is no longer subject to poison, sleep, mind-affecting effects, paralysis, critical hits, or sneak attacks.

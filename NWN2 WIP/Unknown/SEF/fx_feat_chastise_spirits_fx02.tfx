@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Trail>
+  <EffectType>5</EffectType>
+  <Color>
+    <r>255</r>
+    <g>242</g>
+    <b>143</b>
+    <a>255</a>
+  </Color>
+  <UpdateFrequency>30</UpdateFrequency>
+  <FadeOutTime>1</FadeOutTime>
+  <Texture>fx_holy_flare_a2.tga</Texture>
+  <SourceBlend>6</SourceBlend>
+  <DestBlend>2</DestBlend>
+  <TextureType>0</TextureType>
+  <AnimatedTextureSpeed>1</AnimatedTextureSpeed>
+  <RequiresFrameBuffer>0</RequiresFrameBuffer>
+  <FrameBufferPixelDisplacement>0.1</FrameBufferPixelDisplacement>
+</Trail>

@@ -1,0 +1,15 @@
+2DA V2.0
+
+   LABEL                              ReqType  ReqParam1 ReqParam2 
+0  LoreSkill                          SKILL    7         8         
+1  Search                             SKILL    14        4         
+2  Diplomacy                          SKILL    12        4         
+3  Divine                             DIVSPELL 2         ****      
+4  SneakAttack                        FEATOR   221       ****      
+5  FEAT_PRESTIGE_DEATH_ATTACK_1       FEATOR   455       ****      
+6  FEAT_BLACKGUARD_SNEAK_ATTACK_1D6   FEATOR   460       ****      
+7  FEAT_NW9_SNEAK_ATTACK_1            FEATOR   1497      ****      
+8  FEAT_ARCTRICKSTER_SNEAK_ATTACK_1   FEATOR   1502      ****      
+9  FEAT_SHADOWTHIEFAMN_SNEAK_ATTACK_1 FEATOR   1562      ****      
+10 FEAT_BLEEDING_WOUND_I              FEATOR   2052      ****      
+11 FEAT_NW9_FRANTIC_REACTIONS         FEATOR   1806      ****      

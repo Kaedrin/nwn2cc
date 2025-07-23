@@ -1,0 +1,11 @@
+2DA V2.0
+
+  LABEL                        ReqType ReqParam1 ReqParam2 
+0 FEAT_SPELLCASTING_PRODIGY    FEAT    1114      ****      
+1 Dodge                        FEAT    10        ****      
+2 WeapProfMar                  FEATOR  45        ****      
+3 LoreSkill                    SKILL   7         8         
+4 Concentration                SKILL   1         2         
+5 Tumble                       SKILL   21        2         
+6 Base_Attack                  BAB     4         ****      
+7 FEAT_WEAPON_PROFICIENCY_BARD FEATOR  1763      ****      

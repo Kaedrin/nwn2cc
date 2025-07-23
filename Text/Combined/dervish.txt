@@ -1,0 +1,69 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.
+
+Wild, exotic, and as dangerous as her whirling blades, the dervish epitomizes speed, quickness, and abandon.  Her motions appear to be as random as they are graceful, but the steps of her lethal dance play out according to their own rhythm.
+
+Nearly all dervishes belong to nomadic cultures.  These nomads are not simple wanderers with no roots to call their own - they have their ancient traditions, and their societies simply do not consider permanent settlements an important part of their nature.  They are gypsies, keeping their own traditions and forging their own familial and societal bonds while they move throughout the world.  Often, these tribes adopt the attitudes and even some of the laws of the lands they live in - for the sake of expedience, if nothing else.  The dervish treats fighting styles the same way.  A dervish learns the dance of war as she grows up among her family and her tribe.  She watches others as she travels, however, and brings new steps to the dance as she goes.
+
+Fighters, rangers, and monks often take up the role of the dervish.  Many paladins look at the wildness of the dance and assume it has some roots in chaos, but those who look past the seeming randomness can find things to learn.  Barbarians seldom choose to learn the ways of the dance - the dervish depends on subtlety more than brute force.  The way of the dervish has been known to appeal to some druids, bards, and even sorcerers - those who wish to learn a type of fighting that does not rely on heavy arms or armor find the class interesting.
+
+**Requirements:**
+
+Skills: Perform 3, Tumble 3
+Feats: Combat Expertise, Dodge, Mobility, Weapon Focus (any slashing melee weapon)
+BAB: +5
+
+**Class Features:**
+
+Hit Die: d10
+Base Attack Bonus: High.
+High Saves: Reflex, Will.
+Weapon Proficiencies: None.
+Armor Proficiencies: None.
+Skill Points: 4 + Int modifier.
+Class Skills: Bluff, Craft Weapon, Craft Armor, Listen, Lore, Parry, Perform, Taunt, and Tumble.
+
+**Class Abilities**
+
+Level 1: AC Bonus (+1), Dervish Dance 1/day, Skill Focus (Tumble)
+Level 2: Bonus Feat: Dash
+Level 3: Spring Attack, Dervish Dance 2/day
+Level 4: Dance of Death
+Level 5: AC Bonus (+2), Dervish Dance 3/day
+Level 6: Improved Initiative
+Level 7: Defensive Parry, Dervish Dance 4/day
+Level 8: 
+Level 9: AC Bonus (+3), Tireless dance, Dervish Dance 5/day
+Level 10: A Thousand Cuts
+
+**AC Bonus**: At 1st level, a dervish gains a +1 dodge bonus to AC.  This bonus improves to +2 at 5th level and +3 at 9th level.
+
+A dervish gains this bonus to Armor Class as long as she is wearing no armor or light armor.
+
+**Dervish Dance**: A dervish can become a whirling dancer of death a certain number of times per day. She gains a bonus on her attack and damage rolls; +1 at 1st level, and it increases by an extra +1 at every odd-numbered level thereafter.
+
+A dervish may only perform a dervish dance while wielding a slashing weapon (she may use multiple weapons only if both weapons are of the slashing type). She cannot perform a dervish dance in any armor heavier than light or if she is using a shield.
+
+A dervish dance lasts 1 round for every 2 ranks of Perform that the character has. At the end of a dervish dance, the character becomes fatigued for 1 minute (unless she is a 9th-level dervish, at which point this limitation no longer applies).
+
+Fatigue causes a -2 penalty to Strength and Dexterity as well as a 10% movement speed reduction.
+
+**Dance of Death**: At 4th level, a dervish gains the benefit of the Cleave feat while performing a dervish dance, even if she does not meet the prerequisites for the feat. At 10th level this improves to Great Cleave.
+
+**Defensive Parry**: When she attains 7th level, a dervish gains an extra +4 bonus to Dodge Armor Class when she chooses to fight defensively (Combat Expertise or Improved Combat Expertise is activated).
+
+**Tireless Dance**: When a dervish reaches 9th level, the character no longer becomes fatigued at the end of a dervish dance.
+
+**A Thousand Cuts**: When a dervish reaches 10th level, once per day she gains a +2d6 slashing damage bonus on her attacks for one minute.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

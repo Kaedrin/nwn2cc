@@ -1,0 +1,75 @@
+[[span style="color: green;"]]Last Updated: Feb 25, 2008 [[/span]]
+[[[mod-pw-docs| Return to the main page for Module and PW documentation]]]
+
+
++++ Details on removing specific sections of my content.
+
+[[span style="color: green;"]]Blackguard Servant [[/span]]
+
+Delete the entire "Blackguard_Servant_Override" folder for the override versions.
+
+Delete the following files for the hak/erf version:
+cmi_bghound.utc
+cmi_bghound_bite.uti
+cmi_bghound_hide.uti
+x0_s2_fiend.nss
+
+***
+
+[[span style="color: green;"]]Fletching Upgrade [[/span]]
+
+Delete the entire "cmi_Fletching" folder for the override versions.
+
+Delete the following files for the hak/erf version:
+cmi_ammo_*.uti
+cmi_thrown_*.uti
+n2_crft_mold_arrow.uti
+n2_crft_mold_bolt.uti
+n2_crft_mold_bullet.uti
+n2_crft_mold_dart.uti
+n2_crft_mold_shuriken.uti
+n2_crft_mold_taxe.uti
+ginc_crafting.nss
+i_smithhammer_ac.nss
+i_smithhammer_ac.ncs
+crafting.2da
+crafing_index.2da
+
+***
+
+[[span style="color: green;"]]MotB pre-order items [[/span]]
+
+Delete the entire "my_oc" folder for the overrides.
+
+These files are not included in the Hak/Erf version.
+
+***
+
+Removing the changed/new Cleric Domains.
+
+Delete the following file: Domains.2da
+
+***
+
+[[span style="color: green;"]]Dispel Magic Subradial fix [[/span]]
+
+Delete the following files:
+x0_i0_spells.nss
+nw_s0_dismagic
+nw_s0_grdispel
+nw_s0_lsdispel
+nw_s0_morddisj
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

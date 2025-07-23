@@ -1,0 +1,20 @@
+2DA V2.0
+
+   FeatLabel                    FeatIndex List GrantedOnLevel OnMenu 
+0  FEAT_DRGWRR_RESIST_ENERGY    3595      3    1              0      
+1  FEAT_DRGWRR_IMMUNE_FEAR      3596      3    3              0      
+2  FEAT_DRGWRR_ELEMENTAL_WEAPON 3597      3    4              1      
+3  FEAT_DRGWRR_DRG_BREATH_1     3598      3    1              1      
+4  FEAT_DRGWRR_DRG_BREATH_2     3599      3    2              1      
+5  FEAT_DRGWRR_DRG_BREATH_3     3600      3    6              1      
+6  FEAT_DRAGON_DIS_BLACK        3238      2    1              0      
+7  FEAT_DRAGON_DIS_BLUE         3239      2    1              0      
+8  FEAT_DRAGON_DIS_BRASS        3240      2    1              0      
+9  FEAT_DRAGON_DIS_BRONZE       3241      2    1              0      
+10 FEAT_DRAGON_DIS_COPPER       3242      2    1              0      
+11 FEAT_DRAGON_DIS_GOLD         3243      2    1              0      
+12 FEAT_DRAGON_DIS_GREEN        3244      2    1              0      
+13 FEAT_DRAGON_DIS_RED          3245      2    1              0      
+14 FEAT_DRAGON_DIS_SILVER       3246      2    1              0      
+15 FEAT_DRAGON_DIS_WHITE        3247      2    1              0      
+16 BlindFight                   408       3    8              0      

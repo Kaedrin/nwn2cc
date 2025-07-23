@@ -1,0 +1,30 @@
+2DA V2.0
+
+     FeatLabel                      FeatIndex List GrantedOnLevel OnMenu 
+0    WeapProfSim                    46        3    1              0      
+1    ArmProfLgt                     3         3    1              0      
+2    ArmProfMed                     4         3    1              0      
+3    Shield                         32        3    1              0      
+4    FEAT_DRAGON_DIS_BLACK          3238      2    1              0      
+5    FEAT_DRAGON_DIS_BLUE           3239      2    1              0      
+6    FEAT_DRAGON_DIS_BRASS          3240      2    1              0      
+7    FEAT_DRAGON_DIS_BRONZE         3241      2    1              0      
+8    FEAT_DRAGON_DIS_COPPER         3242      2    1              0      
+9    FEAT_DRAGON_DIS_GOLD           3243      2    1              0      
+10   FEAT_DRAGON_DIS_GREEN          3244      2    1              0      
+11   FEAT_DRAGON_DIS_RED            3245      2    1              0      
+12   FEAT_DRAGON_DIS_SILVER         3246      2    1              0      
+13   FEAT_DRAGON_DIS_WHITE          3247      2    1              0      
+14   FEAT_SKILL_FOCUS_BLUFF         915       3    2              0      
+15   SkillFocusHide                 178       3    8              0      
+16   SkillFocusMove                 181       3    16             0      
+17   FEAT_DRAGON_IMMUNE_PARALYSIS   963       3    4              0      
+18   immunitysleep                  235       3    4              0      
+19   FEAT_DRAGON_DIS_IMMUNITY       3249      3    9              0      
+20   FEAT_DRAGON_SHAMAN_BREATH_1    3296      3    4              1      
+21   FEAT_DRAGON_SHAMAN_BREATH_2    3297      3    12             1      
+22   FEAT_DRAGON_SHAMAN_BREATH_3    3298      3    20             1      
+23   FEAT_DRAGON_TOTEM              3299      3    1              0      
+24   FEAT_DRGSHMN_DRACONIC_ADAPTION 3300      3    4              0      
+25   FEAT_DRGSHMN_NATURAL_ARMOR     3301      3    7              0      
+26   FEAT_DRGSHMN_TOUCH_VITALITY    3302      3    6              1      

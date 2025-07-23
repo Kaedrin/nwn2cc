@@ -1,0 +1,39 @@
+[spoiler="Beguiler"]
+Class Requirements:
+Level 2 Sorcerer or Wizard.
+
+Class Features
+
+This base class has 28 levels.
+
+HD: d6
+BAB: Low
+High Saves: Will
+Weapon proficiency: Simple, Rogue.
+Armor proficiency: Light Armor.
+
+Class Skills: Appraise, Bluff, Concentration, Craft (All), Diplomacy, Disable Device, Hide, Listen, Lore, Move Silently, Open Lock, Parry, Search, Sleight of Hand, Spellcraft, Spot, Tumble, and UMD.
+
+Skill Points: 6 + Int modifier
+
+Class Abilities
+
+Armored Mage: Normally, armor of any type interferes with an arcane spellcaster's gestures, which can cause your spells to fail if those spells have a somatic component. A beguiler's limited focus and specialized training, however, allow you to avoid any chance of arcane spell failure as long as you restrict yourself to light armor.
+
+Trapfinding: A beguiler can use the Search skill to locate traps with a DC higher than 20, and he can use Disable Device to bypass a trap or disarm magic traps. See the rogue class feature.
+
+Spellcasting: At each level, a beguiler gains new spells per day, plus another effective casting level, as if they progressed in an arcane spellcasting class that they had prior to becoming a beguiler (sorcerer or wizard). 
+
+Surprise Casting: Starting at 2nd level, you gain a +10 skill bonus to Bluff as well as Feint as a bonus feat. At 6th level you gain Feint Mastery as a bonus feat.
+
+Cloaked Casting: Starting at 2nd level, a beguiler's spells become more effective when cast against an unwary foe. You gain Spell Focus (Enchantment) and Spell Focus (Illusion) as bonus feats. At 8th level you gain Spell Penetration. At 14th level you gain Greater Spell Focus (Enchantment) and Greater Spell Focus (Illusion) as bonus feats. At 20th level you gained the Cloaked Casting ability which will negate any spell resistance the target has for 5 rounds (instant ability, 30 second cooldown).
+
+Advanced Learning: At 3rd level, you gain Bonus Slot (Level 3) as a bonus feat. At 7th, you gain Bonus Slot (Level 4) as a bonus feat. At 11th, you gain Bonus Slot (Level 5) as a bonus feat. At 15th, you gain Bonus Slot (Level 6) as a bonus feat. At 19th, you gain Bonus Slot (Level 7) as a bonus feat. At 23rd, you gain Bonus Slot (Level 8) as a bonus feat.
+
+Silent Spell: At 5th level, you gain Silent Spell as a bonus feat.
+
+Still Spell: At 10th level, you gain Still Spell as a bonus feat.
+
+Bonus Epic Feats: The beguiler gains a bonus epic feat at levels 22, 25, 27, and 28.
+
+[/spoiler]

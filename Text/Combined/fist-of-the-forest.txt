@@ -1,0 +1,48 @@
+"To be one with the wild, you must become wild yourself. It's only natural."
+
+Though the two classes seem to have little in common, the paths of the monk and the barbarian often converge in the fist of the forest. Monks and other disciplined characters seek heightened connections with nature through a primal devotion to its defense. Barbarians and other wild characters seem to simply end up on this path if they are fated for it.
+
+Requirements
+
+Base Attack Bonus: +4
+Feats: Great Fortitude, Improved Unarmed Strike, Power Attack
+Skills: Survival 4.
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort, Ref
+Weapon and Armor proficiency: None
+
+Class Skills: Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Listen, Lore, Parry, Move Silently, Spot, Survival, and Tumble.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: AC Bonus, Bonus Feat: Dash, Feral Stance 1/day, Unarmed Damage Increase
+Level 2: Uncanny Dodge, Ki Strike (Magic)
+Level 3: Feral Stance 2/day, Blind-Fight
+
+AC Bonus: While unarmored, you gain a bonus to your dodge Armor Class equal to your Constitution bonus (if any). Only your base Constitution is used for this bonus (spell/item enhancements are not used). This bonus will not work while wildshaped.
+
+Feral Trance: Once per day, you can enter a feral battle trance. While you are in this state, the raw power of the beast flows through you. For the duration of the trance, you gain a +4 bonus to Dexterity and a +2 bonus on attack rolls. A feral trance lasts for a number of rounds equal to 3 + your Con modifier. At 3rd level, you can use this ability twice per day. The Extend Rage feat increases the duration by 5 rounds.
+
+Unarmed Damage Increase: Your unarmed attacks deal more damage than usual. You deal +1d6 blunt damage when not wielding any weapons.
+
+
+
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

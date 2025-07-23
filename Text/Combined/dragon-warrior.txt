@@ -1,0 +1,44 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.
+
+Dragon warriors are dedicated warriors, members of special, self-selected class who revere dragon-kind and emulate dragons' ferocious martial abilities to the point of taking on some draconic traits.
+
+Each dragon warrior is bound to a single dragon clan, of which there are ten. Five good dragon clans are each devoted to a kind of metallic dragon, and five evil dragon clans are each devoted to a kind of chromatic dragon. In time the fires of the clan dragon awakens within her.
+
+Martial classes of all types can apply for membership in dragon clans. If the dragon's roar is as a song to one's ears, she should consider becoming a dragon warrior.
+
+**Requirements:**
+
+BAB: +5
+Skills: Lore 2
+Special: May not have levels in the Dragon Disciple prestige class.
+
+**Class Features:**
+
+HD: d10
+BAB: Medium
+High Saves: Fort, Will
+Weapon proficiency: None
+Armor proficiency: None
+Skill points: 2 + Int modifier
+Class Skills: Craft Weapon, Craft Armor, Concentration, Diplomacy, Intimidate, Lore, Parry.
+
+**Class Abilities**
+
+Level 1: Dragon Disciple, Dragon Breath, Resistance to Energy 5
+Level 2: Dragon Breath 2/day
+Level 3: Immune to Fear
+Level 4: Elemental weapon +1d6
+Level 5: Resistance to Energy 10
+Level 6: Dragon Breath 3/day
+Level 7: Resistance to Energy 15
+Level 8: Blind-Fight
+Level 9: Elemental weapon +2d6
+Level 10: Resistance to Energy 20
+
+Dragon Breath: A dragon warrior can use a breath weapon once per day as a standard action. The type of breath weapon depends on the chosen dragon type. The breath weapon deals 1d8 points of damage per class level in a 30' cone. The Reflex save DC for the breath weapon is 10 + the dragon warrior's class level + the dragon warrior's Con modifier. This can be used once per day at 1st level, twice a day at 2nd level, and three times per day at 6th level.
+
+Resistance to Energy: A dragon warrior gains resistance 5 against attacks involving the same energy types as the character's breath weapon (for example, acid for a green dragon warrior). At 5th level, the resistance improves to 10. At 7th level it improves to 15, and at 10th level it becomes 20.
+
+Immune to Fear: Starting at 3rd level, a dragon warrior is immune to fear effects due their interaction with the great wyrms.
+
+Elemental Weaponry: Starting at 4th level, a dragon warrior can endow her weapons with elemental energy while she wields them in battle. This energy is of the same type as her breath weapon. At 4th level, this bonus deals an extra 1d6 points of energy damage, and this extra damage increases to 2d6 at 9th level. This ability lasts for one hour per class level at a time (no limit on uses).

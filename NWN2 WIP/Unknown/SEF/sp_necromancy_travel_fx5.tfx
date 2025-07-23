@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Trail>
+  <EffectType>5</EffectType>
+  <Color>
+    <r>3</r>
+    <g>0</g>
+    <b>0</b>
+    <a>255</a>
+  </Color>
+  <UpdateFrequency>50</UpdateFrequency>
+  <FadeOutTime>0.7</FadeOutTime>
+  <Texture>fx_smoke_stretch.tga</Texture>
+  <SourceBlend>5</SourceBlend>
+  <DestBlend>6</DestBlend>
+  <TextureType>0</TextureType>
+  <AnimatedTextureSpeed>1</AnimatedTextureSpeed>
+  <RequiresFrameBuffer>0</RequiresFrameBuffer>
+  <FrameBufferPixelDisplacement>0.1</FrameBufferPixelDisplacement>
+</Trail>

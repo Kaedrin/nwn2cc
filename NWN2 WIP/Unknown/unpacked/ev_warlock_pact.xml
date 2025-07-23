@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Neverwinter Nights 2 -->
+<!-- Copyright � 2012 Vainberg Entertainment, Inc. -->
+
+<!--
+
+
+-->
+
+<UIScene name="ev_warlock_pact" x=ALIGN_CENTER y=ALIGN_CENTER width=400 height=550 fadeout="0.3" fadein="0.3" idleexpiretime="1.0" backoutkey=false priority="SCENE_SCRIPT" 
+			draggable=false scriptloadable=true modal=true OnAdd=UIObject_Misc_ExecuteServerScript("gui_ev_warlock_pact","init") />
+
+	<!-- Main Pane -->
+	<UIPane name="PACTS_PANE" x=0 y=67 width=PARENT_WIDTH height=495 hidden=false >
+		<!-- listbox pane -->
+		<UIPane x=0 y=16 width="380" height="410" >				
+				
+			<UIListbox name="LIST_PACTS" x=-5 y=5 height=390 width=380 hidescrollbarwhennotneeded=false
+				showpartialchild=false scrollbaronright=true draggable=false selectonleftclick=true update=true >
+				
+				<UIPane name="Pact" x=0 y=0 width=330 height=40 prototype=true tupple=true update=false >
+						
+						<UIButton name="NAME_B" x=30 y=0 width=330 height=40 style="STYLE_LOOT_TEXT" prototype=true draggable=false
+							OnLeftClick0=UIObject_Misc_ExtractData(selected:LIST_PACTS,"string",0,local:0) >
+							<UIText align=center indent=10 hangingindent=10 valign=middle fontfamily="Default" style="2"/>
+							<UIFrame state=up		fill="b_g_sm02_normal.tga" />
+							<UIFrame state=down		fill="ev_gi_pressed.tga" />
+							<UIFrame state=focused	fill="b_g_sm02_hover.tga" />
+							<UIFrame state=hilited	fill="" />
+							<UIFrame state=hifocus	fill="ev_gi_pressed.tga" />
+							<UIFrame state=disabled	fill="b_g_sm02_disabled.tga" />
+						</UIButton>
+							
+				</UIPane>
+				
+				<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>	
+			</UIListbox>
+		
+				<UIFrame x="0" y="-30" width=400 height=450 topleft="frame_main_TL.tga" topright="frame_main_TR.tga" 
+				bottomleft="frame_main_d_BL.tga" bottomright="frame_main_BR.tga" top="frame_main_T.tga" bottom="frame_main_b.tga"
+					 left="frame_main_l.tga" right="frame_main_r.tga" fillstyle="stretch" fill="frame_main_bg.tga"  border="64" />
+    	</UIPane>
+		
+		<!-- Bottom buttons -->
+		<UIPane name="BUTTON_CONTAINER" x=30 y=440 width=350 height=35 >
+		
+			<UIButton text="Select pact" x=10 y=0 style="BEHAVIOR_TEXT_BUTTON" width=100 height=30 MouseUpSFX="gui_ev_button" 
+				OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_warlock_pact","select_pact",local:0) >
+				<UIText  align=center valign=middle fontfamily="Body_Font" color=819E5C hilite=true highlightcolor=white />
+			</UIButton>
+			
+			<!--
+			<UIButton text="Description" x=120 y=0 style="BEHAVIOR_TEXT_BUTTON" width=100 height=30 MouseUpSFX="gui_ev_button" 
+				OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_mq","show_desc",local:0) >
+				<UIText  align=center valign=middle fontfamily="Body_Font" color=819E5C hilite=true highlightcolor=white />
+			</UIButton>
+			-->
+			
+		</UIPane>
+			
+		
+		<!-- Frame -->
+		<UIFrame x=0 y=0 width=PARENT_WIDTH height=PARENT_HEIGHT topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+			bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga" border=5 />		
+
+	</UIPane>
+
+	<!-- chat bubble icon -->
+	<UIIcon name="CUSTOM_PORTRAIT_ICON"  x=4 y=4 width=55 height=55 img="ev_chat_bubble.tga"/>
+	
+	<!-- Spoken text -->
+	<UIText text="Select source of power:" x=65 y=15 width=300 height=32 align=left valign=middle fontfamily="Special_Font" style="2" color=white />
+	
+	<!-- Background Image -->
+	<UIIcon name="CRAFTING_SCREEN_TITLE" img="frame_main_bg.tga" x=1 y=1 width=398 height=65 />
+	<UIIcon name="HORIZONTAL_BAR" img="frame1_B.tga" x=0 y=42 width=PARENT_WIDTH height=32 />
+	<UIFrame x=0 y=0 width=PARENT_WIDTH height=PARENT_HEIGHT topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+		bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" alpha="0.85"
+		left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="ev_background.tga" border=5 />

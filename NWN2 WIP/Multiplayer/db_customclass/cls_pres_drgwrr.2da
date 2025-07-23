@@ -1,0 +1,6 @@
+2DA V2.0
+
+     LABEL          ReqType  ReqParam1 ReqParam2 
+0    LoreSkill      SKILL    7         2         
+1    Base_Attack    BAB      5         ****      
+2    DragonDisciple CLASSNOT 37        ****      

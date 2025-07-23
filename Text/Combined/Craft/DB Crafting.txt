@@ -1,0 +1,7 @@
+I currently have these systems designed (rough drafts):
+
+Traps, two Poison systems (pnp and custom), Alchemy, Ammo, Bows with Unlimited Ammo, Ranged/Thrown weapon enchanting, Spells, Alcohol, limited Weapon/Armor enchanting (meant to bypass essences and the existing system to provide the bulk of general crafting in an accessible manner), a small selection of wondrous items, jewellery making (for rings/amulets suitable to be enchanted), woodworking (using either a node system or a "trade merchant system that returns random results system"), and staff/rod crafting (predefined items).
+
+I haven't taken a shot at runes yet or a base class crafter (no combat experience, no multiclassing, only gains exp from RP and crafting). I'm still struggling to define a cost and rarity (special materials, specific enchantments) system for the designs though I do really appreciate the feedback in this thread so far. I'm also worried about making it too accessible. :P
+
+In an ideal world, a new "area" with a bunch of NPCs would be added that cover all of this crafting and copies could be make to add it to multiple hubs/areas (and the NPCs could be tweaked such as changing humans to drow, etc). That way the whole set of NPCs is something I can define, test, and update as needed. I also only have the output right now, I'm still trying to decide what to do as far as skills vs feats vs something else.

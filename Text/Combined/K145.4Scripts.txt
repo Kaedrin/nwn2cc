@@ -1,0 +1,5 @@
+1. Curse of Blood DC fixed (now uses the normal Curse DC function)
+2. Temporary hit points from Harm Touch no longer stack.
+3. Fiery Burst daze effect replaced with a -1 AB, -1 AC debuff.
+4. Winter's Blast blindness effect replaced with a -2 Save debuff.
+5. Fixed Hexblade's Mirror Image dropping after one hit regardless of how many images are left.

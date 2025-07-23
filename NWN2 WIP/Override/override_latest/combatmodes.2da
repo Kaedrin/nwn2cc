@@ -1,0 +1,30 @@
+2DA V2.0
+
+     CombatMode                ActivatedName DeactivatedName NeedsTarget 
+0    Detect                    58275         58276           0           
+1    Stealth                   58277         58278           0           
+2    Parry                     58279         58280           0           
+3    Power_Attack              58281         58282           0           
+4    Improved_Power_Attack     58283         58284           0           
+5    DEL_Counterspell          53239         53239           0           
+6    Flurry_of_Blows           63811         63812           0           
+7    Rapid_Shot                63809         63810           0           
+8    Combat_Expertise          1758          1759            0           
+9    Improved_Combat_Expertise 1760          1761            0           
+10   Defensive_Cast            1766          1767            0           
+11   DEL_Dirty_Fighting        3873          3876            0           
+12   Defensive_Stance          84556         84555           0           
+13   Taunt                     11468         11468           1           
+14   Track                     113788        113789          0           
+15   Inspire_Courage           112394        112394          0           
+16   Inspire_Competance        112395        112395          0           
+17   Inspire_Defense           112396        112396          0           
+18   Inspire_Regeneration      112397        112397          0           
+19   Inspire_Toughness         112398        112398          0           
+20   Inspire_Slowing           112399        112399          0           
+21   Inspire_Jarring           112400        112400          0           
+22   DEL                       ****          ****            0           
+23   Rescue                    185806        185807          0           
+24   NightVision               58580         58580           0           
+25   Hellfire_Blast            225222        225223          0           
+26   Hellfire_Shield           220663        220662          0               

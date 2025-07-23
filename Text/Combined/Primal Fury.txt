@@ -1,0 +1,83 @@
+Thoughts?
+
+Primal Fury
+
+Primal Fury
+
+Restrictions
+Alignment: Any Chaotic
+Class: May not be any other base or prestige class.
+Weapon: May only uses hand axes, battle axes, dwarven axes, throwing axes, and great axes.
+Armor: Class abilities only work while wearing light or no armor.
+
+Class Skills: Craft Armor, Craft Weapon, Heal, Intimidate, Listen, Lore, Spot, Survival, and Tumble.
+Skill points: 2 + Int modifier
+
+Class Features
+
+HD: d12
+BAB: High
+High Saves: Fort, Ref
+Weapon proficiency: Simple, Martial
+Armor proficiency: Light
+
+Class Abilities
+
+Level 1: Bonus Primal Feat, Frenzied Recovery (Stance), Thunderous Fury (Stance), Cruel Lacerations (Stance)
+Level 2: Blade Parry (+1)
+Level 3: Primal Strike
+Level 4: Light Armor Optimization
+Level 5: Tracking
+Level 6: Bonus Primal Feat
+Level 7: Blade Parry (+2)
+Level 8: Evasion
+Level 9:
+Level 10: Primal Roar
+Level 11: Bonus Primal Feat
+Level 12: Blade Parry (+3)
+Level 13: Primal Strike
+Level 14: Greater Light Armor Optimization
+Level 15: Swift Tracking
+Level 16: Bonus Primal Feat
+Level 17: Blade Parry (+4)
+Level 18: Improved Evasion
+Level 19:
+Level 20: Improved Primal Roar
+Level 21: Bonus Primal Feat, Master of the Axe
+Level 22: Blade Parry (+5)
+Level 23: Bonus Epic Feat, Primal Strike
+Level 24: Epic Light Armor Optimization
+Level 25:
+Level 26: Bonus Epic Feat, Bonus Primal Feat
+Level 27: Blade Parry (+6)
+Level 28: Self-Concealment 10%
+Level 29: Bonus Epic Feat
+Level 30: Greater Primal Roar
+
+Bonus Primal Feats: These are drawn from the power attack line, the two-weapon fighting line, the cleave line, knockdown line, the damage reduction lines, or the two-weapon defense line.
+
+Stances: You may only have one stance up at a time.
+
+Frenzied Recovery (Stance): For every 10% of his total hit points the primal fury has lost to damage he gains a +1 Dodge AC bonus. The primal fury also heals 10% of this lost health each round. He gains a 25% resistance to physical damage in this stance. He suffers a -1 attack bonus penalty for every 20% of his total hit points that are lost (rounded down).
+
+Thunderous Fury (Stance): For every 10% of his total hit points the primal fury has lost to damage he gains a +1 attack bonus (which counts against the +20 cap) as well as 1 points of bonus sonic damage. He suffers a 25% vulnerability to physical damage in this stance as well as a -1 AC penalty for every 20% of his total hit points that are lost (rounded down).
+
+Cruel Lacerations (Stance): Your weapons gain the Wounding and Keen properties but your attacks deal 2 points less damage per hit.
+
+Blade Parry: Beginning at 2nd level the primal fury can deflect enemy attacks while continuing his assault. He gains a +1 shield enhancement bonus. This bonus improves to +2 at 7th level, +3 at 12th level, +4 at 17th level, +5 at 22nd level, and +6 at 27th level.
+
+Primal Roar: The primal fury unleashes a devastating roar of sound which staggers nearby foes within 30 feet. It deals d6 sonic damage for each point of his Constitution modifier and knocks down enemies for one round. Those that make a Fortitude save (DC 19 + your Constitution modifier) take half damage and are simply dazed for one round. This ability has a 6 minute cooldown. At 20th level this ability improves, dealing +50% damage and granting you a number of temporary hit points equal to 2 times your Con modifier. At 30th level this ability improves, granting you a number of temporary hit points equal to 4 times your Con modifier and it may no longer be resisted.
+
+Master of the Axe: The primal fury has achieved such a mastery of the axe coupled with his frenzied actions that he acts as though under a haste spell.
+
+Primal Strike: The primal fury chooses a strike from one of the following five choices at levels 3, 13, and 23. Each can be used at will.
+
+Overwhelming Strike: You make a single melee touch attack with each weapon you wield. If an attack hits, your target must make a successful Fortitude save (DC 14 + your Strength modifier) or be slowed for two rounds.
+
+Crippling Strike: You make a single melee touch attack with each weapon you wield. If an attack hits, your enemy suffers 2 points of Constitution loss (if not immune to critical hits). Successive strikes continue to weaken the foe.
+
+Unstoppable Strike: You make a single melee touch attack with each weapon you wield. If an attack hits, it ignores all damage reduction and resistances the target has for your basic weapon damage (weapon damage + enhance bonus + strength modifier). Any additional bonuses on the character or weapon deal with the targets defenses normally.
+
+Hamstring Attack: You make a single melee touch attack with each weapon you wield. If an attack hits, the enemy takes 1d8 points of Dexterity damage for 1 minute. A successful Fortitude save (DC 17 + your Strength modifier) halves the Dexterity damage. This ability damage does not stack.
+
+Hammering Strike: You make a single melee touch attack with each weapon you wield. If an attack hits, your opponent is stunned for one round. A successful Fortitude save (DC 10 + Level/6 + your Strength modifier) reduces this to dazed for one round.

@@ -1,0 +1,274 @@
+[[tabview]]
+[[tab December 24th, 2008]]
+##green|Last updated 11:29pm CST##
+
+Merry Christmas and Happy Holidays to everyone!
+
+It's been a month since my last update on the front page though I've been busy almost daily with either CC or the forums.  I'll try and make it a priority to keep this updated but usually "hey, I did stuff" falls pretty low on the priority list. ;)  
+
+Depending on when patch 1.22 hits 1.35 should deliver 4-12 new prestige classes and a slew of other fixes/tweaks.  1.36 will deliver a host of new spells as well the rest of the prestige class set.  After this update I'll only be doing Purgatorio prestige classes for a while, having hit what I consider critical mass with classes and options (and stress).  
+
+I plan to pick back up a number of projects that have been sidelined (new vfx, energy substitution, area design, new spells, new base classes such as the Hexblade, Duskblade, and Dragon Shaman, spells on scrolls, new blueprints for the new armor rules that have been languishing, etc etc). The wish list is pretty much never ending so don't consider the freeze on prestige class development a negative issue.
+
+For the new year I plan to experiment with fielding a new dungeon that is discovered by SoZ players.  I'd like to use the RWS tilesets to craft a lengthy, massive dungeon that is wrought with triggers, traps, and topped with a companion that provides a solid interactive experience while seeking an escape from the //##0080FF|Nexus of Tier'Kalath##//
+
+I'm also working on a massive documentation update that will reflect everything accurately.  Once I get the 1.36 update finished with all the new prestige classes and spells it will be fielded.  It will be a PDF document for easy reference and printing.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab November 24th, 2008]]
+##green|Last updated 11:10pm cst##
+
+It's been a busy couple of days. 1.34 is up with Storm of Zehir support.  1.34.1 was uploaded the next day with new content (two more prcs) as well as some more fixes and changes. I'll see what I can get done tomorrow but I'm going to be out of town for Thanksgiving.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab November 19th, 2008]]
+##green|Last updated 10:24pm cst##
+
+Last night I uploaded the 1.33.3 update which has Patch 1.21 compatibility.  I'm currently working on the SoZ update (2da's done, tlk done) which I would like to get done tomorrow but this weekend is more likely.  I spent a few hours on the 2da's since SoZ files *are* a bit different than the 1.21 files.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab November 12th, 2008]]
+##green|Last updated 11:30pm cst##
+
+[[[Knight Phantom]]] is finished. The [[[Dragon Shaman]]] is about 40% of the way done. [[[Dragon Lord]]] will take maybe an hour or two once the Dragon Shaman is finished. I can probably knock out [[[Wildrunner]]] and [[[Dragon Slayer]]] this weekend along with the three Purgatorio prcs.  Still messing with the gui stuff for the remaining ones though. I'm sketching out the spellbooks for the [[[Duskblade]]] and [[[Hexblade]]] while I'm at it.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab November 10th, 2008]]
+##green|Last updated 11:00pm cst##
+
+Talk about a bad few nights. Meh.  I haven't had a chance to get much done except for the tlk work and the Star Elf race.  I'm going to focus on knocking stuff out tomorrow since I have the day off (Holiday and all).
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab November 5th, 2008]]
+##green|Last updated 11:49pm cst##
+
+I didn't get much time in tonight but the time I did get in was spent testing a new issue that has absolute top priority due to it's possible (huge and negative) impact.  I'm probably going to be spending most of tomorrow night working on it as well trying to get a good handle on it and developing an optimal fix.  Once that's done I will be releasing a 1.33.3 update with the fixes.
+
+I'm probably going to be helping my folks move some of this weekend (and I really shouldn't take monday off unless I need to) but Tuesday is a holiday for me.  So more than likely the next 3 Purgatorio classes will be in the 1.33.3 update.
+
+This weekend I'll also be putting up a tentative "magic list" of spells that may see their way into the game.  I really need some icon work help with this as I don't want to overload Brian with them (I'm talking a LOT).  I've done nearly 60 spells already and only about 15 or so have unique (non-OEI/retinted OEI) icons.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab November 4th, 2008]]
+##green|Last updated 11:45pm cst##
+
+Not much to report, was just working on Purgatorio classes and watching the election.  I'll get a few more description updates done tomorrow most likely and I'll be taking a look at the tempest/greater two-weapon defense issue. I also need to wrap up the non-English tlk files so I can upload them.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
+[[tabview]]
+[[tab November 3rd, 2008]]
+##green|Last updated 11:00pm cst##
+
+I've updated the [[[PRC| New PRCs (ongoing project)]]] page again with more descriptions: New descriptions were added for the [[[Dragon Lord]]] and [[[Daggerspell Mage]]] and the following descriptions were updated: [[[Elemental Archon]]], [[[Champion of Gwynharwyf]]], [[[War Chanter]]], and [[[Dragon-Slayer | Dragonslayer]]].
+
+I've also released v1.33.2 tonight which includes a small number of fixes:
+* Frost Mage's armor ability now upgrades with level correctly.
+* Fiery Fist will no longer work with weapons 
+* Restoration spells cleaned up (no functional change)
+* Weapon of the Deity tweaked for stacking 
+* New option to disable/enable the Two-Weapon Defense upgrade 
+* New option to control the damage bonus of Holy Warrior
+* MP Only: Leonal's Roar spell description corrected (bad tlk reference) 
+* Skullclan Hunter's Divine Strike description updated for clarity.
+* k_mod_player_rest has now been hooked for the Skullclan Hunter which allows Divine Strike (Death's Ruin) to be applied to their weapon when they rest and not just when they equip a weapon.
+* Spellcasting descriptions cleaned up
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab November 2nd, 2008]]
+##green|Last updated 11:52pm cst##
+
+I got a round of bug-fixes finished with 1.33.2 so when I get home tomorrow I'll package them up and upload them.  Since I've been bug chasing the last few days I haven't had a chance to do the non-English versions but I'll get that done tomorrow as well (since it's must see TV night with Chuck, Big Bang Theory, How I Met Your Mother, Heroes, and My Own Worst Enemy).
+
+I've also done a MASSIVE update to the following pages trying to clean up and organize for SoZ and beyond.
+* [[[current | Current Release Plans]]]
+* [[[wip | Work in Progress (Current Update)]]]
+* [[[PRC| New PRCs (ongoing project)]]]
+
+I'm going to attempt to make an update to this blog every day to get back in the rhythm of keeping this site as up to date as possible.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab October 28th, 2008]]
+##green|Last updated 11:40pm cst##
+
+Silence is golden and it's because I've been burning up as much free time as I have getting the MP stuff done and a few more fixes.  As a result... 1.33.1 is now up and available!
+
+For good reading: Here are a few descriptions of some fun base classes that I could easily implement.
+[[[Dragon Shaman]]]
+[[[Duskblade]]]
+[[[Hexblade]]]
+[[[Ninja]]]
+
+and here are the descriptions for the rest of the Purgatorio classes:
+
+[[[Bleaknik]]] (The Bleak Cabal) - The typical Bleaknik is a poet, but they also engage in painting (largely in dark shades), dirges, or even near-suicidal stunts. 
+[[[Knight of the Cage]]] (Mercykillers)
+[[[Ardent Dilettante]]] (Sensate)
+[[[Death Blade]]] (Dustmen)
+[[[Enforcer of Law]]] (Harmonium)
+[[[Optimist]]] (Godsmen)
+[[[Doomlord]]] (Doomguard)
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab October 18th, 2008]]
+##green|Last updated 1:55am cst##
+
+The parts for my new computer arrived on Thursday and I spent it and part of today getting my machine back up and running.  I've been working day to day off a flash drive backup because my hard drive was at the edge of death.  A new processor, memory, motherboard, and hard drive later and it's a brand new world (again).
+
+I'm out of town at the moment but when I get back on Sunday I'm hopeful that I'll be able to wrap up the 1.33.1 (including MP) content.  I'm still trying to chase down a reported issue with Elegant Strike that I haven't been able to reproduce yet.
+
+I could use a save game from Ch2 (OC or MotB) if anyone has one.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab October 15th, 2008]]
+##green|Last updated 5:45pm cst##
+
+Looks like Bones isn't on TV tonight so I'll be working through the reported bugs trying to reproduce them and doing fixes for them.  If anyone has any issues, now is the time to speak up.  Well... game issues, I'm not a shrink!
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab October 14th, 2008]]
+##green|Last updated 9:00am cst##
+
+I'm back for the most part though my time is still going to be a little limited while I help my folks move, continue looking for a house to buy (or a house to rent), and deal with some other issues.  I'm working on the fix list for 1.33.1 and trying to wrap up the MP version so it can finally be released.  The upside I guess is that there have been few reported problems with 1.33.  Either everyone is asleep or it didn't have too many bugs to be found (the desired choice, of course). I spent most of yesterday investigating the bug reports and doing a few fixes so hopefully today will be the last of the checking/fixing and then the release.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

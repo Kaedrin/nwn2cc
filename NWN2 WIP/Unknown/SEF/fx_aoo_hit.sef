@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<EventList>
+  <Name>Magic Missile Hit</Name>
+  <MaxDuration>2</MaxDuration>
+  <SpecialTargetPosition>0</SpecialTargetPosition>
+  <Event0>
+    <Type>6</Type>
+    <Name>Glow</Name>
+    <DefinitionFile>sp_magmis_hit_fx1.bbx</DefinitionFile>
+    <DelayTime>0</DelayTime>
+    <MaxDuration>0.5</MaxDuration>
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <SourceAttachment>12</SourceAttachment>
+    <TargetAttachment>0</TargetAttachment>
+    <SourceAttachmentObject>1</SourceAttachmentObject>
+    <TargetAttachmentObject>1</TargetAttachmentObject>
+  </Event0>
+  <Event1>
+    <Type>1</Type>
+    <Name>
+    </Name>
+    <DefinitionFile>sp_magmis_hit_fx3.pfx</DefinitionFile>
+    <DelayTime>0</DelayTime>
+    <MaxDuration>0</MaxDuration>
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <SourceAttachment>12</SourceAttachment>
+    <TargetAttachment>0</TargetAttachment>
+    <SourceAttachmentObject>1</SourceAttachmentObject>
+    <TargetAttachmentObject>1</TargetAttachmentObject>
+  </Event1>
+</EventList>

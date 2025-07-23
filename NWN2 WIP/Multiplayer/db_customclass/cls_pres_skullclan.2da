@@ -1,0 +1,13 @@
+2DA V2.0
+
+   LABEL                              ReqType ReqParam1          ReqParam2 
+0  TurnUndead                         FEAT    294                ****      
+1  Lore                               SKILL   7                  8         
+2  SneakAttack2                       FEATOR  345                ****      
+3  FEAT_BLACKGUARD_SNEAK_ATTACK_2D6   FEATOR  461                ****      
+4  FEAT_NW9_SNEAK_ATTACK_2            FEATOR  1498               ****      
+5  FEAT_ARCTRICKSTER_SNEAK_ATTACK_2   FEATOR  1503               ****      
+6  FEAT_SHADOWTHIEFAMN_SNEAK_ATTACK_2 FEATOR  1563               ****      
+7  FEAT_NW9_FRANTIC_REACTIONS         FEATOR  1806               ****      
+8  FEAT_PRESTIGE_DEATH_ATTACK_2       FEATOR  456                ****      
+9  FEAT_BLEEDING_WOUND_II             FEATOR  2053               ****      

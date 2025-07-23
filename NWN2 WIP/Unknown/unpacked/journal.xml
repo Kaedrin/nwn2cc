@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8">
+
+<UIScene name="SCREEN_JOURNAL" x=0 y=ALIGN_CENTER width=459 height=460 draggable=true idleexpiretime="1.0" OnAdd=UIScene_Misc_RequestJournalUpdates("true","NOTES_FIELD") 
+	fadeout=.3 fadein=.3 backoutkey=true priority="SCENE_INGAME" scriptloadable=true
+	OnRemove=UIScene_Misc_RequestJournalUpdates("false","NOTES_FIELD") />
+
+	<!-- ***SCENE TITLE*** -->
+	<UIText name="SceneTitle" strref="181392" x=80 y=12 width=280 height=24 align=left valign=middle uppercase=true fontfamily="Title_Font" style="1" />
+
+	<!-- Close Button -->
+	<UIButton name="CloseButton" x=422 y=8 style="STYLE_CLOSE_BUTTON" 
+		OnLeftClick=UIButton_Input_ScreenClose()>
+	</UIButton>
+
+	<UIIcon name="JOURNAL_ICON" img="qj_icon.tga" x=0 y=0 width=78 height=71 />
+
+	<!-- ***JOURNAL OPTION TABS*** -->
+	<UIButton name="SHOW_QUESTS_ACTIVE" x=82 y=43 style="STYLE_SMALL_TAB" strref="63497" buttontype=radio groupid=1 groupmemberid=1
+		OnSelected=UIButton_Input_SetJournalPage("QUESTS_PAGE","PAGE_QUEST_ACTIVE") OnUnselected=UIButton_Input_HideObject("QUESTS_PAGE")>
+	</UIButton>
+	<UIButton name="SHOW_QUESTS_COMPLETED" x=165 y=43 style="STYLE_BIG_TAB" strref="181393" buttontype=radio groupid=1 groupmemberid=2 
+		OnSelected=UIButton_Input_SetJournalPage("QUESTS_PAGE","PAGE_QUEST_COMPLETED") OnUnselected=UIButton_Input_HideObject("QUESTS_PAGE") >
+	</UIButton>
+	<UIButton name="SHOW_NOTES" x=286 y=43 style="STYLE_SMALL_TAB" strref="63498" buttontype=radio groupid=1 groupmemberid=3
+		OnSelected=UIButton_Input_SetJournalPage("NOTES_PAGE","PAGE_NOTES") OnUnselected=UIButton_Input_HideObject("NOTES_PAGE") >
+	</UIButton>
+		<UIButton name="SHOW_JOBS" x=367 y=43 style="STYLE_SMALL_TAB" text="Jobs" buttontype=radio groupid=1 groupmemberid=4
+		OnSelected0=UIButton_Input_ShowObject("JOBS_PAGE") OnSelected1=UIObject_Misc_ExecuteServerScript("gui_ev_mq","quests_log") OnUnselected=UIButton_Input_HideObject("JOBS_PAGE") >
+	</UIButton>
+
+
+	<!-- ***JOURNAL LIST OF COLLAPSABLES*** -->
+	<UIPane name="QUESTS_PAGE" x=34 y=84 width=336 height=368 hidden=false >
+
+		<!-- ***JOURNAL SORT OPTIONS*** -->
+		<UIPane name="SORT_DATE_PANE" x=0 y=0 width=100 height=20 >
+			<UIButton name="ByDate" x=0 y=0 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=1
+				OnSelected=UIButton_Input_SetJournalSort("SORT_DATE") >
+			</UIButton>
+			<UIText name="DATE_TEXT" strref="6325" x=22 y=0 width=78 height=20 
+				align=left valign=middle fontfamily="Title_Font" style="1" uppercase=true />
+		</UIPane>
+		<UIPane name="SORT_NAME_PANE" x=100 y=0 width=100 height=20 >
+			<UIButton name="ByAlpha" x=0 y=0 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=2
+				OnSelected=UIButton_Input_SetJournalSort("SORT_NAME") >
+			</UIButton>
+			<UIText name="NAME_TEXT" strref="154" x=22 y=0 width=78 height=20 
+				align=left valign=middle fontfamily="Title_Font" style="1" uppercase=true />
+		</UIPane>
+		<UIPane name="SORT_PRIORITY_PANE" x=200 y=0 width=130 height=20 >
+			<UIButton name="ByPriority" x=0 y=0 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=3
+				OnSelected=UIButton_Input_SetJournalSort("SORT_PRIORITY") >
+			</UIButton>
+			<UIText name="PRIORITY_TEXT" strref="6326" x=22 y=0 width=108 height=20
+				align=left valign=middle fontfamily="Title_Font" style="1" uppercase=true />
+		</UIPane>		
+		
+		<UIListbox name="JournalEntryList" x=1 y=47 width=352 height=320 yPadding=2  
+		showpartialchild=true scrollbaronright=true unequalcontrols=true scrollsegmentsize=32
+		update=true OnUpdate=UIObject_OnUpdate_GetJournalEntries() >
+			<UICollapsable prototype=true name="JournalCollapsable" x=0 y=0 height=PARENT_HEIGHT width=299 isexpanded=true 
+			yPadding=1 xPadding=5 >
+				<UIButton name="PROTO_HEADER" x=0 y=0 height=44 width=299 header=true >
+					<UIText indent=18 hangingindent=18 align=left valign=middle fontfamily="Default" style=2 uppercase=true prototype=true maxlines=2 />
+					<UIFrame state=up			fill="b_qjd_hover_pressed.tga" />
+					<UIFrame state=down			fill="b_qjd_hover_pressed.tga" />
+					<UIFrame state=hilited		fill="b_qjd_hover_pressed.tga" />
+					<UIFrame state=focused		fill="b_qjd_hover_pressed.tga" />
+					<UIFrame state=hifocus		fill="b_qjd_hover_pressed.tga" />
+					<UIFrame state=disabled		fill="b_qjd_hover_pressed.tga" />
+					<UIFrame state=header		fill="b_qjd_normal.tga" />
+					<UIFrame state=hiheader		fill="b_qjd_normal.tga" />
+					<UIFrame state=downheader	fill="b_qjd_normal.tga" />
+				</UIButton>
+				<UIText name="PROTO_TEXT" x=0 y=0 width=299 height=DYNAMIC prototype=true align=left valign=top multiline=true color="312A0A"
+				fontfamily="NWN1_Dialog" style="bold" />
+			</UICollapsable>
+
+			<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>	
+		</UIListbox>
+	</UIPane>
+
+	<UIPane name="NOTES_PAGE" x=34 y=84 width=396 height=368 hidden=true >
+		<UIListBox name="NOTES_LISTBOX" x=1 y=47 width=392 height=320 showpartialchild=true
+			unequalcontrols=true scrollsegmentsize=30 hidescrollbarwhennotneeded=false >
+			<UIText name="NOTES_FIELD" width=PARENT_WIDTH height=DYNAMIC align=left valign=top multiline=true color="black" fontfamily="NWN1_Dialog" style="bold" clearonescape="false"
+			editable=true selectable=true maxlength=16384 allowspace="true" />
+			<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>	
+		</UIListBox>	
+	</UIPane>
+	
+	<UIPane name="JOBS_PAGE" x=34 y=84 width=396 height=368 hidden=true >
+		<UIListBox name="JOBS_LISTBOX" x=1 y=47 width=392 height=320 showpartialchild=true
+			unequalcontrols=true scrollsegmentsize=30 hidescrollbarwhennotneeded=true >
+			<UIText name="JOBS_FIELD" width=PARENT_WIDTH height=DYNAMIC align=left valign=top multiline=true color="black" fontfamily="NWN1_Dialog" style="bold" clearonescape="false"
+			editable=false selectable=false maxlength=16384 allowspace="true" />
+			<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>	
+		</UIListBox>	
+	</UIPane>
+
+	<!-- Background Image -->
+	<UIIcon name="BACKGROUND_TOP" img="qj_top.tga" x=10 y=8 width=440 height=120 />
+	<UIIcon name="BACKGROUND" img="qj_paper.tga" x=10 y=128 width=440 height=323 />
+	<UIFrame x=0 y=0 width=PARENT_WIDTH height=PARENT_HEIGHT topleft="frame1_tl.tga" topright="frame1_tr.tga" bottomleft="frame1_bl.tga"
+		bottomright="frame1_BR.tga" top="frame1_t.tga" bottom="frame1_b.tga"
+		left="frame1_l.tga" right="frame1_r.tga" border=32 />	

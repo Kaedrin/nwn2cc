@@ -1,0 +1,17 @@
+I'm probably going to move Song of Rest to an earlier level so low level songblades can regen slowly if need be. 
+
+Their weapon can not be given to another (it will be deleted if it leaves their inventory, and I still need to add hooks to allow a DM to give one away for token enchanting) so they will only be allowed to upgrade it with tokens.  
+
+I'm honestly still on the fence about this. One one hand I'd like it to be a "great" weapon you start with, like a family or bloodline blade but I don't want it to become something that can be exploited. No creating a level 1 char and handing off the blade, etc.
+
+Regardless, the enhance bonus will NOT stack with any other source of enhance bonus. So if a cleric tries to buff you, you only get the temporary cleric bonus if it's higher than yours.
+
+The point of the class is that your best weapon is agility... agile, mobile, and hostile (get the movie reference?) melee type that has TERRIBLE defenses unless actively focusing on a specific type of defense (at the cost of their speed and some offense).
+
+Keep in mind they have NO umd OR stealth skills. Not even cross class. They simply can't put points into them. So their maximum stealth skill is going to be their dex mod. 
+
+The crit/sneak immunity from Song of Defense will likely move to Song of Rest.
+
+
+
+

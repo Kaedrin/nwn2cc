@@ -1,0 +1,100 @@
+Forgot I had this base class write up buried on my website (from June 2009 LOL).
+
+Artificers are perhaps the ultimate magical dabblers. They can use just about any spell from a wand or scroll, empower ordinary items with a temporary magical power, repair damage constructs (including warforged), alter the function of existing magic items, as well as1 craft magic items and constructs. They have a limited list of their own spell-like infusions that they can apply to objects, and they can also work with any of the spells on other classes' spell lists. Their magic is neither arcane nor divine, and they are not bound by that limitation. Their trade is magic in its most abstract (they might say purest) form.
+
+
+Class Features
+
+HD: d6
+BAB: Medium
+High Saves: Will
+Weapon proficiency: Simple
+Armor proficiency: Light armor, medium armor, and with shields (except tower shields)
+
+Class Skills: Appraise, Concentration, Craft Alchemy, Craft Armor, Craft Weapon, Craft Trap, Diplomacy, Disable Device, Lore, Open Lock, Search, Spellcraft, and Use Magic Device.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Artisan Bonus, Trapfinding, Scribe Scroll, Item Creation
+Level 2: Brew Potions
+Level 3: Craft Wondrous Item
+Level 4: Bonus Feat, Craft Homunculus
+Level 5: Craft Arms and Armor
+Level 6: Bonus Feat
+Level 7: Craft Wand
+Level 8: Bonus Feat
+Level 9: Craft Rod
+Level 10:
+Level 11: Bonus Feat
+Level 12: Craft Staff, Bonus Feat
+Level 13: Skill Focus (UMD), Skill Focus (Spellcraft)
+Level 14: Forge Ring
+Level 15:
+Level 16: Bonus Feat
+Level 17:
+Level 18:
+Level 19:
+Level 20: Bonus Feat
+Level 21:
+Level 22:
+Level 23: Bonus Feat
+Level 24:
+Level 25:
+Level 26: Bonus Feat
+Level 27:
+Level 28:
+Level 29: Bonus Feat
+Level 30:
+
+Infusions per day (Int based)
+1st: 2 at 1st level, 3 at 2nd level, 4 at 14th level
+2nd: 1 at 3rd level, 2 at 4th level, 3 at 5th level, 4 at 15th level
+3rd: 1 at 5th level, 2 at 6th level, 3 at 8th level, 4 at 16th level
+4th: 1 at 8th level, 2 at 9th level, 3 at 13th level, 4 at 17th level
+5th: 1 at 11th level, 2 at 12th level, 3 at 14th level, 4 at 18th level
+6th: 1 at 14th level, 2 at 15th level, 3 at 17th level, 4 at 19th level
+
+Infusions:
+
+1st: Energy Alteration, Enhancement Alteration, Identify, Lesser Armor Enhancement, Personal Weapon Augmentation, Repair Light Damage, Resistance Item, Shield of Faith, Skill Enhancement
+2nd: Align Weapon, Armor Enhancement, Lesser Weapon Augmentation, Reinforce Construct, Repair Moderate Damage, Toughen Construct, *Stat Buffs
+3rd: Adamantine Weapon, Blast Rod, Construct Energy Ward, Greater Armor Enhancement, Greater Magic Weapon, Metamagic Item, Repair Serious Damage, Stone Construct
+4th: Censure Elementals, Greater Construct Energy Ward, Item Alteration, Iron Construct, Lesser Globe of Invulernerability, Mass Shield of Faith, Repair Critical Damage, Weapon Augmentation
+5th: Disrupting Weapon, Energy Touch (Storm Touch), Greater Blast Rod, Slaying Arrow
+6th: Blade Barrier, Disable Construct, Globe of Invulnerability, Greater Weapon Augmentation, Total Repair
+
+Artisan Bonus: +2 UMD
+Craft Homunculus: Combat Familiar (probably the clockwork spider and renamed Craft Construct)
+
+New Feats:
+Attune Magic Weapon (+1 stacking enhance bonus)
+Bind Elemental (+2 stacking enhance bonus, stacks with attune magic weapon)
+Practiced Artificer
+Forge Ring
+Craft Staff
+
+New Items:
+Acidic Fire
+Alchemist's lightning
+Alchemist's frost
+
+**
+
+Well, at the time I was debating either a new custom crafting system or more likely putting 5 subradials under each feat that would choose which rod/staff you craft (at the cost of gold and/or xp).
+
+Example would be:
+a) Defensive (Ghostly Visage at 1 charge/use, Stoneskin at 2 charges/use, Summon Creature VI at 3 charges/use)
+b) Offensive (Electric Loop at 1 charge/use, Ice Storm at 2 charges/use, Chain Lightning at 3 charges/use)
+c) Utility (Mage Armor at 1 charge/use, Greater Resistance at 2 charges/use, Greater Heroism at 3 charges/use)
+d) Metamagic (one random metamagic feat)
+e) Magic (Shield at 1 charge/use, Spell Mantle at 2 charges/use, Greater Spell Breach at 3 charges/use)
+
+Staff would be the same except it would add the following
+a) Summon Creature VIII at 4 charges/use
+b) Polar Ray at 4 charges/use
+c) Blackstaff at 4 charges/use
+d) Second metamagic feat
+e) Protection from Spells at 4 charges/use
+
+CL of 10-15 for rods, 20-25 for staves.

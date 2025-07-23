@@ -1,0 +1,18 @@
+2DA V2.0
+
+   LABEL                  ReqType  ReqParam1 ReqParam2 
+0  SpiritShaman           CLASSNOT 55        ****      
+1  FavoredSoul            CLASSNOT 58        ****      
+2  Swashbuckler           CLASSNOT 59        ****      
+3  Warlock                CLASSNOT 39        ****      
+4  Barbarian              CLASSNOT 0         ****      
+5  Bard                   CLASSNOT 1         ****      
+6  Cleric                 CLASSNOT 2         ****      
+7  Druid                  CLASSNOT 3         ****      
+8  Fighter                CLASSNOT 4         ****      
+9  Monk                   CLASSNOT 5         ****      
+10 Paladin                CLASSNOT 6         ****      
+11 Ranger                 CLASSNOT 7         ****      
+12 Rogue                  CLASSNOT 8         ****      
+13 Sorcerer               CLASSNOT 9         ****      
+14 Wizard                 CLASSNOT 10        ****      

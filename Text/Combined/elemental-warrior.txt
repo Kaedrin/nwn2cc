@@ -1,0 +1,65 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 5 levels.
+
+The elemental warrior sees that great strength comes from focusing on the most basic aspects of reality. The sages say that the worlds are formed through combinations of fire, water, earth, and air, and that any problem can be overcome with the correction application of these forces. The elemental warrior becomes attuned to one of these building blocks of reality, channeling its power to great effect.
+
+Fighters, monks, paladins, and barbarians make the best elemental warriors. This prestige class is focused on fighting and applying the elements in just the right way to bring down even the toughest adversary. Bards, rogues, rangers, and druids also may find this class useful if they often find themselves involved in close combat; a few levels of elemental warrior give them access to a range of weapons and defenses that will make them much more versatile.
+
+**Requirements:**
+
+Skills: Lore 5
+Base Attack Bonus: +7
+
+**Class Features:**
+
+HD: d10
+BAB: Medium
+High Saves: Fortitude
+Weapon and Armor proficiency: None
+Skill points: 2 + Int modifier
+Class Skills: Craft Weapon, Craft Armor, Intimidate, Lore, Parry, and Taunt.
+
+**Class Abilities:**
+
+Level 1: Elemental Affinity
+Level 2: Elemental Manifestation
+Level 3: Elemental Weapon
+Level 4: Elemental Movement (Bonus feat: Dash), Elemental Sanctuary
+Level 5: Elemental Strike
+
+Elemental Affinity: An elemental warrior is attuned to one of the Elemental Planes, which imbues her with certain related abilities. At 1st level, she selects one of the four elements (air, earth, fire, or water) as the one for which she has an affinity. She gains resistance 10 to a particular energy type based on her chosen element (electricity for air, acid for earth, fire for fire, and cold for water).
+
+Elemental Manifestation: An elemental warrior of 2nd level or higher can cause her body to manifest aspects of her chosen element. The effect lasts for 1 minute and may be used a number of times per day equal to her class level.
+
+Air: All ranged attacks against her have a 20% miss chance.
+Earth: The elemental warrior's skin is partially sheathed in rocky hide. Her natural armor bonus increased by 3 (this is an enhancement bonus).
+Fire: A sheath of flame envelops the elemental warrior. Any opponent who lands a successful melee attack against her takes 1d6 points of fire damage.
+Water: The elemental warrior becomes coated in water. She gains damage reduction 3/piercing.
+
+Elemental Weapon: At 3rd level and higher, an elemental warrior can imbue her melee weapons with the energy of her chosen element. The imbued weapons deals an extra 2d6 points of energy damage on each hit. The effect lasts for 1 minute and can be used a number of times per day equal to her class level. The bonus is applied to the character so works with all types of weapons.
+
+When an elemental warrior reaches 5th level, this ability improves. The extra damage remains the same, but on a successful critical hit, the weapons release a burst of energy that deals an additional 4d6 damage (Massive Criticals: 4d6).
+
+Elemental Movement: At 4th level, an elemental warrior's base land speed increases by 10 feet (Bonus Feat: Dash).
+
+Elemental Sanctuary: At 4th level, elemental warriors of all kinds also gain the ability to plane shift once per day for 1 minute (equivalent to the ethereal jaunt spell for 10 rounds).
+
+Elemental Strike: Once per day, a 5th-level elemental warrior can channel her chosen element to deal a devastating melee touch attack. No save is allowed against the damage dealt by the attack, but a successful Fortitude save negates the secondary effect. The save DC for these effects is 15 + the elemental warrior's Con modifier.
+
+Air, Earth: Target takes 10d6 points of blunt damage from the crushing touch attack and is knocked down (Fort save negates knockdown).
+Fire: Target takes 10d6 points of fire damage and catches fire for 1d4 rounds (Fort save negates catching on fire). The target takes 1d6 fire damage for each round they are on fire unless they make a Reflex save, in which case the flames end.
+Water: Target takes 10d6 points of magic damage as moisture is drawn from its body and becomes nauseated for 1 round (Fort save negates nausea).
+
+New Feats: Extra Elemental Strike (adds 2 uses per day of Elemental Strike)
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

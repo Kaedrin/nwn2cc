@@ -1,0 +1,86 @@
+[[tabview]]
+[[tab September 7th, 2008]]
+##green|Last updated 9:14pm cst##
+
+The new icons from Brian Meyer will be in tomorrows release and here is a teaser for them:
+
+[[image http://nwn2customcontent.wikidot.com/local--files/index/1-ElementalWarrior.jpg width="150" height="150"]]Elemental Warrior PrC
+[[image http://nwn2customcontent.wikidot.com/local--files/index/2-WhirlingDervish.jpg width="150" height="150"]]Whirling Dervish PrC
+[[image http://nwn2customcontent.wikidot.com/local--files/index/3-Bleaknik.jpg width="150" height="150"]]Bleaknik PrC
+
+I'm getting close on the 1.33 final.  I need to wrap up the [[[Daggerspell Shaper]]] and decide if the Eldritch Glaive is ready or needs another week or two of testing.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab September 4th, 2008]]
+##green|Last updated 9:37pm cst##
+
+Beta 5b is available on the Vault now and it's only fix is to disable the Child of Night.  A teaser for Purgatorio is that the class to be unveiled on Monday is from the Bleak Cabal faction.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab September 3rd, 2008]]
+##green|Last updated 11:00pm cst##
+
+Beta 5a is available on the Vault now and the 1.33 final is getting close.  I'm currently working to iron out a few issues with the [[[Daggerspell Shaper]]].  I'll try and get the Eldritch Glaive invocation in for Warlocks as well.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab September 1st, 2008]]
+##green|Last updated 9:05pm cst##
+
+The first Purgatorio PrC, [[[Elemental Warrior]]], has been uploaded to the vault and is awaiting authorization.  It is a new PrC pack that will only contain the Purgatorio content that will be updated weekly.  My 1.33 will also include this PrC and I'll try to keep my pack updated within a day of these weekly releases. 1.33 is getting close (I'm still trying to jam in and test as much as possible).  
+
+The next PrC for Purgatorio is the [[[Whirling Dervish]]] which is an agile, stylish combatant.
+
+Updates here on the blog part of the site should go back to daily or every other day at the very least.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

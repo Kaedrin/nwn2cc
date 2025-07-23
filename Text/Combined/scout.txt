@@ -1,0 +1,67 @@
+Any force on the move, whether it's an army or an adventuring group, needs information about what's ahead and what's behind and, more important, time to prepare for battle. A scout can navigate difficult terrain at good speed, and she specializes in seeing her foe before the opponent ever detects her presence. In a dungeon or in the wild, a scout is seen only when she wants to be. 
+
+This is a base class and has 30 levels.
+
+**Class Features:**
+
+HD: d8
+BAB: Medium
+High Saves: Ref
+Weapon proficiency: All simple and rogue weapons.
+Armor proficiency: Light armor.
+Skill points: 8 + Int modifier
+Class Skills: Craft Armor, Craft Weapon, Diplomacy, Disable Device, Heal, Hide, Listen, Lore, Move Silently, Search, Spot, Survival, and Tumble.
+
+**Class Abilities:**
+
+Level 1: Sneak Attack +1d6, Trapfinding
+Level 2: Battle Fortitude, Uncanny Dodge
+Level 3: Dash, +1 Dodge AC, Trackless Step
+Level 4: Bonus Feat
+Level 5: Evasion, Sneak Attack +2d6
+Level 6:
+Level 7: +2 Dodge AC
+Level 8: Bonus Feat, Camouflage
+Level 9: Sneak Attack +3d6
+Level 10:
+Level 11: +3 Dodge AC, Improved Initiative
+Level 12: Bonus Feat
+Level 13: Sneak Attack +4d6
+Level 14: Hide in Plain Sight
+Level 15: +4 Dodge AC
+Level 16: Bonus Feat
+Level 17: Sneak Attack +5d6
+Level 18: Free Movement
+Level 19: +5 Dodge AC
+Level 20: Bonus Feat, Blind-Fight
+Level 21: Sneak Attack +6d6
+Level 22: 
+Level 23: Bonus Epic Feat, +6 Dodge AC
+Level 24: 
+Level 25: Sneak Attack +7d6
+Level 26: Bonus Epic Feat
+Level 27: +7 Dodge AC
+Level 28: 
+Level 29: Bonus Epic Feat, Sneak Attack +8d6
+Level 30:
+
+Scouts gain bonus epic feats at 23rd, 26th, and 29th level.
+
+Battle Fortitude: At 2nd level, a scout gains a +1 bonus on Fortitude saves. This bonus increases to +2 at 11th, +3 at 20th, and +4 at 29th. 
+
+Free Movement: At 18th level and higher, a scout can slip out of bonds, grapples, and even the effects of confining spells easily. This ability duplicates the effect of a freedom of movement spell, except that it is always active. 
+
+New Feats: Swift Ambusher, Swift Hunter
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

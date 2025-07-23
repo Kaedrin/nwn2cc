@@ -1,0 +1,2 @@
+string BARMAID1 = "**(Barmaid|barmaid|Waitress|waitress|Wench|wench|Woman|woman)**(bring|want|get|have|fetch|order|buy|like|purchase)**(food|drink|ale|meal|beer|wine|dinner|lunch|breakfast|supper)**";
+string BARMAID2 = "(Barmaid|barmaid|Waitress|waitress|Wench|wench|Woman|woman|Barmaid!|barmaid!|Waitress!|waitress!|Wench!|wench!|Woman!|woman!)";

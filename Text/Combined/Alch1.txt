@@ -1,0 +1,225 @@
+[quote="Kaedrin"]This thread is for discussion of the upcoming Alchemist. It should arrive after the Beast Master, Knight, Armiger, Songblade, X, Y, and Witch Hunter. Barring any surprise additions beforehand. Feel free to ask questions, make suggestions, or comment on the abilities.
+
+***
+
+Notes:
+Using bombs will likely be restricted to light armor. Bombs will probably have a rather hefty penalty (on the order of the -8 Sacred Fist penalty) when using medium/heavy armor or a shield. Fast bombs won't work at all in medium/heavy armor or when using a shield and probably wont be in the first release, if ever.
+
+Accurate Finesse is like Intuitive Strikes. If your Int is higher than your Dex, you get the extra bonus (up to +4). So Dex mod +4.
+
+***
+
+Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected school of magic, the alchemist is often regarded as being just as unstable, unpredictable, and dangerous as the concoctions he brews. While some creators of alchemical items content themselves with sedentary lives as merchants, providing tindertwigs and smokesticks, the true alchemist answers a deeper calling. Rather than cast magic like a spellcaster, the alchemist captures his own magic potential within liquids and extracts he creates, infusing his chemicals with virulent power to grant him impressive skill with poisons, explosives, and all manner of self-transformative magic.
+
+The key ability of the Alchemist is Intelligence.
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Fort, Ref
+Weapon proficiency: Simple.
+Armor proficiency: Light armor.
+
+Class Skills: Appraise, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Disable Device, Diplomacy, Heal, Intimidate, Listen, Lore, Open Locks, Parry, Search, Sleight of Hand, Spellcraft, Spot, Survival, Tumble, and Use Magic Device
+Skill Points: 6 + Int modifier
+
+Class Abilities
+
+Level 1: Alchemy, Bomb 1d6, Brew Potion, Mutagen
+Level 2: Discovery, Poison Resistance +2, Poison Use
+Level 3: Bomb 2d6
+Level 4: Discovery
+Level 5: Bomb 3d6, Poison Resistance +4
+Level 6: Discovery, Swift Poison Use
+Level 7: Bomb 4d6
+Level 8: Discovery, Poison Resistance +6
+Level 9: Bomb 5d6
+Level 10: Discovery, Poison Immunity
+Level 11: Bomb 6d6
+Level 12: Discovery
+Level 13: Bomb 7d6
+Level 14: Discovery
+Level 15: Bomb 8d6
+Level 16: Discovery
+Level 17: Bomb 9d6
+Level 18: Discovery
+Level 19: Bomb 10d6
+Level 20: Discovery x3
+Level 21: Bomb 11d6
+Level 22: Discovery
+Level 23: Bomb 12d6, Bonus Epic Feat
+Level 24: Discovery
+Level 25: Bomb 13d6
+Level 26: Bonus Epic Feat, Discovery
+Level 27: Bomb 14d6
+Level 28: Discovery
+Level 29: Bomb 15d6, Bonus Epic Feat
+Level 30: Discovery
+
+Alchemy: Alchemists are not only masters of creating mundane alchemical substances such as alchemist's fire and smokesticks, but also of fashioning magical potion-like extracts in which they can store spell effects. In effect, an alchemist prepares his spells by mixing ingredients into a number of extracts, and then “casts” his spells by drinking the extract. When an alchemist creates an extract or bomb, he infuses the concoction with a tiny fraction of his own magical power—this enables the creation of powerful effects, but also binds the effects to the creator.
+
+An alchemist gains a bonus to the Craft Alchemy skill equal to his class level.
+
+An alchemist can create three special types of magical items — extracts, bombs, and mutagens. Bombs are explosive splash weapons, and mutagens are transformative elixirs that the alchemist drinks to enhance his physical abilities—both of these are detailed in their own sections below.
+
+Extracts are the most varied of the three. In many ways, they behave like spells in potion form, and as such their effects can be dispelled by effects like dispel magic using the alchemist's level as the caster level. Unlike potions, though, extracts can have powerful effects and duplicate spells that a potion normally could not.
+
+An alchemist can create only a certain number of extracts of each level per day. His base daily allotment of extracts is given in the extracts section. In addition, he receives bonus extracts per day if he has a high Intelligence score, in the same way a wizard receives bonus spells per day. You must have an Intelligence score of 10 + the extract level to use an extract.
+
+Bomb: In addition to magical extracts, alchemists are adept at swiftly mixing various volatile chemicals and infusing them with their magical reserves to create powerful bombs that they can hurl at their enemies. Thrown bombs have a range of 20 feet and require a ranged touch attack to hit. Bombs are affected by weapon feats that affect ranged touch attacks (point blank shot, weapon focus - ranged touch attack, etc).
+
+On a direct hit, an alchemist's bomb inflicts 1d6 points of fire damage + additional damage equal to the alchemist's Intelligence modifier. The damage of an alchemist's bomb increases by 1d6 points at every odd-numbered alchemist level. Splash damage from an alchemist bomb is always equal to the bomb's minimum damage (so if the bomb would deal 2d6+4 points of fire damage on a direct hit, its splash damage would be 6 points of fire damage) and affects those within 5'. Those caught in the splash damage can attempt a Reflex save for half damage. The DC of this save is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier.
+
+Alchemists can learn new types of bombs as discoveries (see the Discovery ability) as they level up.
+
+Mutagen: At 1st level, an alchemist discovers how to create a mutagen that he can imbibe in order to heighten his physical prowess at the cost of his personality. Only one mutagen can be active at a time and this ability has a 2 minute cooldown.
+
+When an alchemist brews a mutagen, he selects one physical ability score—either Strength, Dexterity, or Constitution. It's a standard action to drink a mutagen. Upon being imbibed, the mutagen causes the alchemist to grow bulkier and more bestial, granting him a +2 natural armor bonus and a +4 alchemical bonus to the selected ability score for 10 minutes per alchemist level.
+
+In addition, while the mutagen is in effect, the alchemist takes a –2 penalty to one of his mental ability scores. If the mutagen enhances his Strength, it applies a penalty to his Intelligence. If it enhances his Dexterity, it applies a penalty to his Wisdom. If it enhances his Constitution, it applies a penalty to his Charisma.
+
+***
+
+Discovery: At 2nd level, and then again every 2 levels thereafter, an alchemist makes an incredible alchemical discovery. Unless otherwise noted, an alchemist cannot select an individual discovery more than once. Some discoveries can only be made if the alchemist has met certain prerequisites first, such as uncovering other discoveries. Discoveries that modify bombs that are marked with an asterisk (*) do not stack. Only one such discovery can be applied to an individual bomb. The DC of any saving throw called for by a discovery is equal to 10 + 1/2 the alchemist's level + the alchemist's Intelligence modifier.
+
+Acid bomb*: When the alchemist creates a bomb, he can choose to have it inflict acid damage. Creatures that take a direct hit from an acid bomb take an additional 1d6 points of acid damage 1 round later.
+
+Additional Extra Extract (Level 1 through Level 6) - You gain one additional uses of the selected extra level. This feat can be taken twice for each extract level.
+
+Alchemical Zombie: The alchemist gains the ability to animate a relatively complete corpse as an alchemy-powered zombie. Zombies that are created in this manner count as undead created by animate dead. An alchemist must be at least 8th level before selecting this discovery.
+
+Blinding Bomb*: When the alchemist creates a bomb, he can choose for it to detonate very brightly. Creatures that take a direct hit from a blinding bomb are blinded for 1 minute unless they succeed at a Fortitude save. Creatures in the splash area that fail their saves against the bomb are dazzled for 1 minute. This is a light effect. An alchemist must be at least 8th level before selecting this discovery.
+
+Cognatogen: The alchemist gains the ability to create a cognatogen, a mutagen-like mixture that heightens one mental ability score at the expense of a physical ability score. If the cognatogen enhances his Intelligence, it applies a penalty to his Strength. If it enhances his Wisdom, it applies a penalty to his Dexterity. If it enhances his Charisma, it applies a penalty to his Constitution. Otherwise, this ability works just like the mutagen ability (including the natural armor bonus). Anytime the alchemist would prepare a mutagen, he may instead prepare a cognatogen. All limitations of mutagens apply to cognatogens as if they were the same substance—an alchemist can only maintain one mutagen or cognatogen at a time.
+
+Concussive bomb*: When the alchemist creates a bomb, he can choose to have it inflict sonic damage. Concussive bombs deal 1d4 points of sonic damage, plus 1d4 points of sonic damage for every odd-numbered level, instead of 1d6. Creatures that take a direct hit from a concussive bomb are deafened for 1 minute unless they succeed at a Fortitude save. An alchemist must be at least 6th level before selecting this discovery.
+
+Confusion Bomb*: The alchemist's bombs twist the target's perception of friend and foe. A creature that takes a direct hit from a confusion bomb takes damage from the bomb and is under the effect of a confusion spell for 1 round per caster level of the alchemist. Reduce the amount of normal damage dealt by the bomb by 2d6 (so a bomb that would normally deal 6d6+4 points of damage deals 4d6+4 points of damage instead). An alchemist must be at least 8th level before selecting this discovery.
+
+Delayed bomb: The alchemist can place a bomb so that it explodes five rounds after the alchemist ceases contact with the bomb. A delayed bomb detonates immediately if any other creature moves near it. The bomb deals damage as if it scored a direct hit to any creature in the square with the bomb when it detonates, and splash damage to all adjacent creatures as normal. An alchemist must be at least 8th level before selecting this discovery.
+
+Dilution: Once per day, the alchemist can dilute any one potion or elixir, creating two doses of the same potion from one. Diluting a potion costs a number of gp equal to one-quarter of the potion's market value. A potion that has been diluted cannot be diluted again. An alchemist must be at least 12th level before selecting this discovery.
+
+Dispelling Bomb: When the alchemist creates a bomb, he can choose to have it dispel magic effects instead of deal damage. Creatures that take a direct hit from a dispelling bomb are subject to a targeted dispel magic spell, using the alchemist's level as the caster level (maximum +25). The alchemist must be at least 6th level before selecting this discovery.
+
+Elixir of life: Once per day, an alchemist can brew an elixir of life. An elixir of life, when administered by the alchemist who brewed it, restores life to a dead creature as per the spell true resurrection. Alternatively, the alchemist himself may drink the elixir of life, after which point he is immediately targeted with a resurrection spell the next time he is killed. An alchemist must be at least 16th level before selecting this discovery.
+
+Epic Purify Essence: The alchemist greatly improves and purifies the mixtures he uses for bombs. Your bombs will not deal less than 4 damage per die. An alchemist must be at least 21st level before selecting this discovery. Epic Purify Essence with 16d6 bomb dice will essentially become 16d3 + 48.
+
+Epic Elixir of Life: Twice per day, an alchemist can brew a greater elixir of life. A greater elixir of life, when administered by the alchemist who brewed it, restores life to any allied dead creatures within 50' as per the spell true resurrection. Alternatively, the alchemist himself may drink the greater elixir of life, after which point he is immediately targeted with a resurrection spell the next time he is killed. An alchemist must be at least 21st level before selecting this discovery.
+
+Epic Transmutation Bomb: Once per day, an alchemist can throw a bomb designed to transmute all creatures within 20' of the impact area into chickens. Targets are allowed a Fortitude save (DC +5) to negate the effects of the spell. An alchemist must be at least 21st level before selecting this discovery.
+
+Epic Hellball Bomb: Twice per day, an alchemist can throw a bomb that unleashes a massive blast of energy which detonates upon all in the AoE, dealing 6d6 fire, 6d6 acid, 6d6 electrical and 6d6 sonic damage. The Hellball bomb ignores Evasion and Improved Evasion. An alchemist must be at least 21st level before selecting this discovery.
+
+Explosive bomb*: The alchemist's bombs now have a splash radius of 10 feet rather than 5 feet. Creatures that take a direct hit from an explosive bomb catch fire, taking 1d6 points of fire damage for five rounds.
+
+[color=#ff0000]Fast bombs: An alchemist with this discovery can quickly create enough bombs to throw two in a single round. An alchemist must be at least 8th level before selecting this discovery. This second bomb is thrown with a -5 AB penalty. If the first bomb does not deal damage, the second bomb thrown will be a normal one. This affects the following bombs: [add list]. Fast bombs will not work if you have HIPS.
+[/color]
+Fast Healing: The alchemist's flesh responds to damage with shocking speed — he gains fast healing 5. An alchemist must be at least 21st level before selecting this discovery. This discovery replaces the bonus from Lesser Fast Healing.
+
+Feral Mutagen: The alchemist can brew a mutagen that grant's him evasion.
+
+Force bomb*: When the alchemist creates a bomb, he can choose to have it inflict force damage. Force bombs deal 1d4 points of magic damage, plus 1d4 points of magic damage for every odd-numbered level, instead of 1d6. Creatures that take a direct hit from a force bomb are knocked prone unless they succeed on a Reflex save. An alchemist must be at least 8th level before selecting this discovery.
+
+Frost bomb*: When the alchemist creates a bomb, he can choose to have it inflict cold damage. Creatures that take a direct hit from a frost bomb are staggered on their next turn unless they succeed on a Fortitude save.
+
+Great Dexterity: The alchemist can use a discovery to brew a potion which grants a bonus Great Dexterity feat. An alchemist must be at least 21st level before selecting this discovery.
+
+Great Intelligence: The alchemist can use a discovery to brew a potion which grants a bonus Great Intelligence feat. An alchemist must be at least 21st level before selecting this discovery.
+
+Grand Cognatogen: The alchemist's cognatogen now grants a +6 natural armor bonus, a +8 alchemical bonus to one mental ability score (Intelligence, Wisdom, or Charisma), a +6 alchemical bonus to a second mental ability score, and a +4 alchemical bonus to a third mental ability score. The alchemist takes a –2 penalty to his Strength, Dexterity, and Constitution as long as the cognatogen persists. An alchemist must be at least 16th level and must have the greater cognatogen discovery or class ability before selecting this discovery.
+
+Grand mutagen: The alchemist's mutagen now grants a +6 natural armor bonus, a +8 alchemical bonus to one ability score (Strength, Dexterity, or Constitution), a +6 alchemical bonus to a second physical ability score, and a +4 alchemical bonus to a third physical ability score. The alchemist takes a –2 penalty to his Intelligence, Wisdom, and Charisma as long as the mutagen persists (see Mutagen). An alchemist must be at least 16th level and must possess the greater mutagen discovery before selecting this discovery.
+
+Greater Cognatogen: The alchemist's mutagen now grants a +4 natural armor bonus, a +6 alchemical bonus to one mental ability score (Intelligence, Wisdom, or Charisma), and a +4 alchemical bonus to a second mental ability score. The alchemist takes a –2 penalty on both associated physical ability scores as long as the mutagen persists, and takes 2 points of ability damage to both associated physical ability scores when the cognatogen ends. An alchemist must be at least 12th level and must have the cognatogen discovery before selecting this discovery.
+
+Greater mutagen: The alchemist's mutagen now grants a +4 natural armor bonus, a +6 alchemical bonus to one physical ability score (Strength, Dexterity, or Constitution), and a +4 alchemical bonus to a second physical ability score. The alchemist takes a –2 penalty on both associated mental ability scores as long as the mutagen persists. An alchemist must be at least 12th level before selecting this discovery.
+
+Healing Touch: The alchemist gains the ability to heal other creatures. The alchemist may touch a creature and apply the effect of his spontaneous healing discovery to that creature. The alchemist gains two more uses of spontaneous healing with this discovery. An alchemist must be at least 6th level and must have the spontaneous healing discovery before selecting this discovery.
+
+Immolation Bomb*: When the alchemist creates a bomb, he can choose to have its substance coat the direct target's body, causing the bomb to deal its damage over time instead of all at once. The bomb's effect lasts for a number of rounds equal to the number of damage dice the bomb would normally deal (for instance, a 5d6 bomb lasts for 5 rounds). When the bomb hits the direct target, the bomb deals 1d6 + the alchemist's Intelligence modifier in damage, and those within the splash zone take damage equal to 1 + the alchemist's Intelligence modifier. It repeats this damage against the direct target of the bomb each round the immolation bomb lasts, dealing the damage at the start of the alchemist's turn. Splash damage is dealt again to any creature that is adjacent to the direct target when it takes damage from the immolation bomb. An alchemist must be at least 3rd level before selecting this discovery.
+
+Improved bomb damage: The base damage of your bombs is increased by 1d6. (may only be taken once)
+
+Improved Purify Essence: The alchemist further improves and purifies the mixtures he uses for bombs. Your bombs will not deal less than 3 damage per die. An alchemist must be at least 5th level before selecting this discovery.
+
+Inferno bomb*: The effects of the smoke created by an alchemist's bomb duplicate the effects of incendiary cloud instead of fog cloud, filling an area equal to twice the bomb's splash radius for 1 round per level. An alchemist must be at least 16th level and must possess the smoke bomb discovery before selecting this discovery.
+
+Lesser Fast Healing: The alchemist's flesh responds to damage with shocking speed — he gains fast healing 2. An alchemist must be at least 11th level before selecting this discovery.
+
+Madness bomb: The alchemist's bombs do more than sear flesh—they sear the mind. A creature that takes a direct hit from a madness bomb takes damage from the bomb plus 1d4 points of Wisdom damage. Reduce the amount of normal damage dealt by the bomb by 2d6 (so a bomb that would normally deal 6d6+4 points of damage deals 4d6+4 points of damage instead). An alchemist must be at least 12th level before selecting this discovery. This is an activated mode that affects all bombs thrown by the alchemist.
+
+Night Vision: The alchemist can brew a mutagen that grants the alchemist low-light vision and darkvision.
+
+Poison bomb*: The effects of the smoke created by an alchemist's bomb duplicates the effects of cloudkill instead of fog cloud, filling an area equal to twice the bomb's splash radius for 1 round per level. An alchemist must be at least 12th level and must possess the smoke bomb discovery before selecting this discovery.
+
+Poison Touch: The alchemist gains a poisonous touch, as if under the effects of a poison spell, which enables him to make a melee touch attack to deliver the poison. An alchemist must be at least 21st level before selecting this discovery.
+
+Precise bombs: Whenever the alchemist throws a bomb, he no longer affects allies with splash damage.
+
+Purified Essence: The alchemist improves and purifies the mixtures he uses for bombs. Your bombs will not deal less than 2 damage per die.
+
+Shadow Bomb*: When you throw a bomb and hit a direct target, a shadowy substance is released from the bomb covering the direct target and up to three creatures that take damage from the bomb's splash. The affected creatures must successfully make a Fortitude saving throw, or they gain concealment but treat all other creatures as having concealment (20% miss chance) for one round per level. This effect is subject to spell resistance.
+
+Shock bomb*: When the alchemist creates a bomb, he can choose to have it inflict electricity damage. Creatures that take a direct hit from a shock bomb are dazzled for 1d4 rounds.
+
+Smoke bomb*: When the alchemist creates a bomb, he can choose to have it create a cloud of thick smoke when it detonates. The cloud functions as fog cloud, filling an area equal to twice the bomb's splash radius for 1 round per level.
+
+Spontaneous Healing: The alchemist gains the ability to heal from wounds rapidly. He can heal 5 hit points in this manner for every 2 alchemist levels he possesses twice per day.
+
+Sticky bomb: The effects of the alchemist's bombs are persistent and continue to damage creatures for 1 round after the initial damage. Creatures that take a direct hit from a sticky bomb take the splash damage 1 round later. An alchemist must be at least 10th level before selecting this discovery.
+
+Sticky poison: Any poison the alchemist creates and uses is sticky—when the alchemist applies it to a weapon, the weapon remains poisoned for a number of rounds equal to 3 + the alchemist's Intelligence modifier. An alchemist must be at least 6th level before selecting this discovery.
+
+Stink bomb*: The effects of the smoke created by an alchemist's bomb can duplicate the effects of stinking cloud instead of fog cloud, filling an area equal to twice the bomb's splash radius for 1 round. An alchemist must possess the smoke bomb discovery before selecting this discovery.
+
+Strafe Bomb: The alchemist can throw bombs that splash in a 40-foot line rather than affecting a radius. The line starts at the alchemist and extends away from him in the direction he chooses. The alchemist designates one creature in the squares affected by the line to be the target of the bomb and makes his attack roll against that creature; all other squares in the line take splash damage. If the alchemist has the explosive bomb discovery and throws an explosive strafe bomb, the line of splash damage is 80 feet long instead of 40 feet.
+
+Sunlight Bomb*: The alchemist can throw bombs that explode with a searing radiance equivalent to that of sunlight and that act as blinding bombs. Undead, fungi, molds, oozes, slimes, and creatures to which sunlight is harmful or unnatural take +2 damage per die from the bomb. Undead that are harmed by sunlight and that fail their saves against the bomb are staggered for 1 round. An alchemist must be at least 10th level and must have the blinding bomb discovery before he can select this discovery.
+
+Tanglefoot Bomb*: A creature that takes a direct hit from a tanglefoot bomb must save against the bomb's DC or be entangled and glued to the floor as if it had failed its save against a tanglefoot bag. Creatures in the splash area that fail their saves are entangled but not glued to the floor; those who make this save are not entangled at all.
+
+True Cognatogen: The alchemist's cognatogen now grants a +8 natural armor bonus and a +8 alchemical bonus to Intelligence, Wisdom, and Charisma. The alchemist takes a –2 penalty to his Strength, Dexterity, and Constitution as long as the cognatogen persists (see Mutagen). An alchemist must possess the grand cognatogen discovery before selecting this discovery. An alchemist must be at least 21st level before selecting this discovery.
+
+True Feral Mutagen: The alchemist can brew a mutagen that grant's him improved evasion. An alchemist must be at least 21st level before selecting this discovery.
+
+True Mutagen: The alchemist's mutagen now grants a +8 natural armor bonus and a +8 alchemical bonus to Strength, Dexterity, and Constitution. The alchemist takes a –2 penalty to his Intelligence, Wisdom, and Charisma as long as the mutagen persists (see Mutagen). An alchemist must possess the grand mutagen discovery before selecting this discovery. An alchemist must be at least 21st level before selecting this discovery.
+
+Volatile Bombs: The alchemist can brew bombs that are exceptionally volatile and which will explode with a larger radius. The splash radius is increased by 10'
+
+***
+
+Poison Resistance: At 2nd level, an alchemist gains a +2 bonus on all saving throws against poison. This bonus increases to +4 at 5th level, and then again to +6 at 8th level. At 10th level, an alchemist becomes completely immune to poison.
+
+Poison Use: Alchemists are trained in the use of poison and starting at 2nd level, cannot accidentally poison themselves when applying poison to a weapon.
+
+Swift Poison Use: At 6th level, an alchemist can apply a dose of poison to a weapon instantly.
+
+Extracts (modified by Intelligence for bonus extracts):
+Level 1 Extracts: 1/day at 1st level, 2/day at 2nd level, 3/day at 3rd level, 4/day at 5th level, and 5/day at 9th level
+Level 2 Extracts: 1/day at 4th level, 2/day at 5th level, 3/day at 6th level, 4/day at 8th level, and 5/day at 12th level
+Level 3 Extracts: 1/day at 7th level, 2/day at 8th level, 3/day at 9th level, 4/day at 11th level, and 5/day at 15th level
+Level 4 Extracts: 1/day at 10th level, 2/day at 11th level, 3/day at 12th level, 4/day at 14th level, and 5/day at 18th level
+Level 5 Extracts: 1/day at 13th level, 2/day at 14th level, 3/day at 15th level, 4/day at 17th level, and 5/day at 19th level
+Level 6 Extracts: 1/day at 16th level, 2/day at 17th level, 3/day at 18th level, 4/day at 19th level, and 5/day at 20th level
+
+Level 1 Extracts: Bomber's Eye (+1 AB), Cure Light Wounds, Expeditious Retreat, Shield, and True Strike
+Level 2 Extracts: Aid, Barkskin, Blur, Invisibility, and Resist Energy
+Level 3 Extracts: Cure Serious Wounds, Elemental Aura, Haste, Heroism, Thorn Body
+Level 4 Extracts: Death Ward, Fire Shield, Freedom of Movement, Greater Invisibility, Stoneskin
+Level 5 Extracts: Cure Critical Wounds, Curative Displacement (Displacement + Cure Serious Wounds), Greater Sanctuary, Restoration, Spell Resistance
+Level 6 Extracts: Curative Spell Turning (Cure Critical + Minor Spell Turning), Flesh to Stone, Heal, Legend Lore, and True Seeing
+
+[color=#ff3333]Special Rules: Discoveries can be learned by spending a normal feat during level up (ie, bonus feats like a rogue that can take special abilities).[/color]
+
+New Feat: Splash Weapon Mastery I (+1 AB, splash damage now extends an extra 5').
+
+New Feat: Accurate Finesse - A character with this feat is adept at using bomb weapons with great accuracy as they intelligently predict where the targets will move, allowing him to make ranged touch attack rolls with his intelligence modifier instead of dexterity (if his intelligence is higher than his dexterity). This feat provides a maximum bonus of +4.
+
+New feat: Buckler Defense - allows a light shield to be used with bombs.
+
+New feat: Craft Rod of Focus - allows you to gain the enhance bonus of a light mace as a +AB bonus on bomb attacks.
+
+New feat: Crossbow Bomber - you can use bombs while wielding a light crossbow without penalty. Your Xbow shots deal +1 acid and fire damage.[/quote]

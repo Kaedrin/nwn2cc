@@ -1,0 +1,45 @@
+Charnag Maelthra
+
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 5 levels.
+
+The Charnag Maelthra are the Conclave's feared political police. It's main role is to enforce the will of the Conclave through administering the day-to-day implementation of Sshamath's "laws" and the Conclave's "edicts". Upon admission initiates swear an oath to follow the directives of the Conclave whatever their personal beliefs.
+
+In addition they are charged with supporting the Sshamathian Guard in times of crisis to protect the city from dangers, real and perceived. They are often sent out of the city on important errands for the Conclave acting as bodyguards to high-ranking emissaries, to retrieve artifacts or anywhere the Conclave needs a representative. When a high ranking drow needs to be detained or otherwise punished due to a ruling of the Conclave the Charnag Maelthra are sent to collect them.
+
+Requirements:
+
+Race: Drow or Half-Drow
+Skill: Intimidate 8
+
+Class Features:
+
+Hit Die: d6
+Base Attack Bonus: High.
+High Saves: Fortitude.
+Armor Proficiencies: Light Armor.
+Weapon Proficiencies: Rogue.
+Skill points: 4 + Int modifier
+Class skills: Bluff, Concentration, Diplomacy, Hide, Intimidate, Listen, Lore, Parry, Move Silently, Search, Spellcraft, and Spot.
+
+Class Abilities:
+
+At first level a Charnag Maelthra chooses a path to follow which will dictate the bonuses they gain as they progress.
+
+Way of the Shadow : A Charnag Maelthra who chooses the way of the shadow seeks to master the arts of war and stealth and in doing so gains +1d6 dice of sneak attack at 1st, 3rd, and 5th level.
+
+Way of the Kinslayer: A Charnag Maelthra who chooses the way of the kinslayer seeks to master the art of war with a minor emphasis on stealth and gains +1 Dodge AC at 1st level, a +1 Attack Bonus at 3rd level, and +2 magic damage at 5th level.
+
+Way of the Tome: A Charnag Maelthra who chooses the way of the tome seeks to blend the ways of war and stealth with further studies of magic. They gain +1 level of spellcasting progression as a Wizard at levels 3, 4, and 5.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

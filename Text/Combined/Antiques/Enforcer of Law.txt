@@ -1,0 +1,71 @@
+Enforcer Of Law
+
+Enforcers of Law are the ultimate warriors of the Harmonium. They see it
+as their duty to scour the planes of chaos wherever they may find it and
+bring peace and harmony to the multiverse via force. They rarely spend
+time in any one place, and are usually involved in one quest or another.
+Enforcers of Law are highly regarded by other members of the Harmonium,
+though they rarely rank high within the bureaucracy, instead spending
+more time in the field. Lawful Neutral champions are the most common,
+though good and evil Enforcers are not entirely unknown.
+
+Requirements
+
+Alignment: Any Lawful.
+Faction: Harmonium
+BAB: +7
+Feats: Hardheaded, Command
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort, Will
+Weapon and Armor proficiency: All armors, shields, simple weapons, and
+martial weapons.
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Heal,
+Intimidate, and Lore.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Smite Chaos
+Level 2:
+Level 3:
+Level 4: Bonus Feat
+Level 5:
+Level 6:
+Level 7: Bonus Feat
+Level 8:
+Level 9:
+Level 10: Shield of Law
+
+Enforcer of Law Spell List
+1st Level: Charm Person, Magic Weapon, Protection from Chaos, Summon
+Creature I
+2nd Level: Bull's Strength, Bear's Endurance, Summon Creature II
+3rd Level: Keen Edge, Greater Magic Weapon, Magic Circle against Chaos,
+Summon Creature III
+4th Level: Dismissal, Lesser Planar Ally, Summon Creature IV
+5th Level: Atonement, Dispel Chaos, Charm Monster, Mark of Justice,
+Summon Creature V
+
+Spells Per Day (Wisdom based for bonus spells)
+1st Level: 0 at 1st, 1 at 2nd, 2 at 4th, 3 at 6th, 4 at 8th, 5 at 10th
+2nd Level: 0 at 3rd, 1 at 4th, 2 at 6th, 3 at 8th, 4 at 10th
+3rd Level: 0 at 5th, 1 at 6th, 2 at 8th, 3 at 10th
+4th Level: 0 at 7th, 1 at 8th, 2 at 10th
+5th Level: 0 at 8th, 1 at 9th
+
+Smite Chaos: Once per day, an Enforcer of Law may attempt to smite chaos
+with one normal melee attack. He adds his Charisma bonus to his attack
+roll and deals 1 extra point of damage per level. If the Enforcer of Law
+attempts to smite a creature that is not chaotic, then the smite has no
+effect but is still used up for that day.
+
+Bonus Feat: At 4th and 7th level, the Enforcer of Law gains a bonus
+feat, which may be used to gain any feat from the Fighter list.
+
+Shield of Law: Upon reaching 10th level, an Enforcer of Law gains Shield
+of Law. He is always under the effect of the shield of law spell.

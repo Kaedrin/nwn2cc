@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8">
+<UIScene name="SCREEN_TARGETSCRIPT" x=0 y=0 width=0 height=0 draggable=false fadeout="0.0" fadein="0.0" scriptloadable=true backoutkey=false
+	OnAdd0=UIObject_Input_ActionTargetScript(local:1,37,39,17,local:2,local:0,"target:object","target:x","target:y","target:z")
+	/>

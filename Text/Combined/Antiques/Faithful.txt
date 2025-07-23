@@ -1,0 +1,97 @@
+Faithful
+
+This is one of the set of ground-up custom classes I was sketching out as a replacement for the core classes. I've got my notes for a summoner as well though they aren't typed up (nor are the new feats list for this class).
+
+Faithful/Sentinel/Keeper/Warden
+
+Class Features:
+
+HD: d8
+BAB: Medium
+High Saves: Fort, Will
+Weapon proficiency: All simple weapons.
+Armor proficiency: All armor and shields (except tower shields).
+Skill points: 2 + Int modifier
+Class Skills: Appraise, Bluff, Craft Alchemy, Craft Armor, Craft Weapon, Diplomacy, Heal, Hide, Intimidate, Listen, Lore, Move Silently, Parry, Perform, Search, Spellcraft, Spot, Survival, Taunt, Tumble.
+
+Class Abilities:
+
+Level 1: Channel Faith 1d6, Channel Faith (Blast), Channel Faith (Heal)
+Level 2: Blessing of Faithful 1/day
+Level 3: Channel Faith 2d6
+Level 4: Blessing of Faithful 2/day
+Level 5: Channel Faith 3d6
+Level 6: Blessing of Faithful 3/day
+Level 7: Channel Faith 4d6
+Level 8: Blessing of Faithful 4/day
+Level 9: Channel Faith 5d6
+Level 10: Blessing of Faithful 5/day, Lesser Icon of Faith
+Level 11: Channel Faith 6d6
+Level 12: Blessing of Faithful 6/day
+Level 13: Channel Faith 7d6
+Level 14: Blessing of Faithful 7/day
+Level 15: Channel Faith 8d6
+Level 16: Blessing of Faithful 8/day
+Level 17: Channel Faith 9d6
+Level 18: Blessing of Faithful 9/day
+Level 19: Channel Faith 10d6
+Level 20: Blessing of Faithful 10/day, Icon of Faith
+Level 21: Channel Faith 11d6
+Level 22: Blessing of Faithful 11/day
+Level 23: Channel Faith 12d6, Bonus Epic Feat
+Level 24: Blessing of Faithful 12/day
+Level 25: Channel Faith 13d6
+Level 26: Bonus Epic Feat, Blessing of Faithful 13/day
+Level 27: Channel Faith 14d6
+Level 28: Blessing of Faithful 14/day
+Level 29: Channel Faith 15d6, Bonus Epic Feat
+Level 30: Greater Icon of Faith, Blessing of Faithful 15/day
+
+Channel Faith (Blast) - Ranged Touch Attack, Single Target (by default)
+Channel Faith (Heal) - Ranged, Single Target (be default)
+
+Blessing of Faith - Beginning at 2nd level, Faithful are granted a new power of their faith that can be used once per day. They gain an additional power at each even level (to a maximum of 10 powers at 20th level), all of which share the same number of uses per day. At each even level the Faithful also gain an additional use per day of their powers (up to 15/day at 30th level). You make take additional powers at the expense of normal feat choices as well.
+
+    Blessing of Grace - You gain a bonus to your saving throws equal to your charisma modifier for 24 hours.
+    Lesser Prayer of Healing - You channel your healing faith into a 40' radius sphere, healing your allies an amount equal to your channel faith dice.
+    Prayer of Healing - You channel your healing faith into a 40' radius sphere, healing your allies an amount equal to your channel faith dice with a 50% bonus. This power replaces Lesser Prayer of Healing.
+    Greater Prayer of Healing - You channel your healing faith into a 40' radius sphere, healing your allies an amount equal to your channel faith dice with a 100% bonus. This power replaces Prayer of Healing.
+    Faith Healer - You gain a bonus equal to your class level any time you channel your faith to heal. This bonus is applied to Prayer of Healing and Greater Prayer of Healing after the amount healed has been calculated. For example, a level 30 Faithful using Greater Prayer of Healing will heal for (15d6 * 2) + 30 (for a range of 60-210). This ability is passive and is always active.
+    Avenger of the Faith - You gain a bonus equal to your class level any time you channel your faith to damage enemies. This bonus is applied to Word of Faith and Greater Word of Faith after the damage amount has been calculated. For example, a level 30 Faithful using Greater Word of Faith deal (15d6 * 2) + 30 damage (for a range of 60-210). This ability is passive and is always active.
+    Tend to the Weak - The minimum amount healed by your channel faith ability can not be less than your class level. This improvement takes place before any other healing modifiers. For example, a level 30 Faithful using Greater Prayer of Healing who also has Faith Healer will roll 15d6 and this value can not be less than 30. The adjusted value is then doubled and the +30 class level bonus is added (for a range of 90-210).
+
+This ability is passive and is always active.
+
+    Without Mercy - The minimum amount of damage dealt by your channel faith ability can not be less than your class level. This improvement takes place before any other damage modifiers. For example, a level 30 Faithful using Greater Word of Faith who also has Avenger of the Faith will roll 15d6 and this value can not be less than 30. The adjusted value is then doubled and the +30 class level bonus is added (for a range of 90-210). This ability is passive and is always active.
+    Warding (Shield) - You gain a shield AC enhance bonus equal to half your Charisma modifier for 24 hours.
+    Warding (Armor) - You gain an armor AC enhance bonus equal
+
+to half your Charisma modifier for 24 hours.
+
+    Warding (Faith) - You gain a dodge AC bonus equal to half your Charisma modifier for 24 hours.
+    Lesser Word of Faith - You channel your faith to damage targets within a 40' radius sphere, damaging your enemies an amount equal to your channel faith dice.
+    Word of Faith - You channel your faith to damage targets within a 40' radius sphere, damaging your enemies an amount equal to your channel faith dice with a 50% bonus. This power replaces Lesser Word of Faith.
+    Greater Word of Faith - You channel your faith to damage targets within a 40' radius sphere, damaging your enemies an amount equal to your channel faith dice with a 100% bonus. This power replaces Word of Faith.
+    Lesser Dichotomy of Faith - You channel your faith into a 40' radius that damages your enemies and heals your allies an amount equal to your channel faith dice.
+    Dichotomy of Faith - You channel your faith into a 40' radius that damages your enemies and heals your allies an amount equal to your channel faith dice with a 25% bonus. This power replaces Lesser Dichotomy of Faith.
+    Greater Dichotomy of Faith - You channel your faith into a 40' radius that damages your enemies and heals your allies an amount equal to your channel faith dice with a 50% bonus. This power replaces Dichotomy of Faith.
+    Inspiration of Battle - You channel your faith into a 40' radius that grants your allies a number of temporary hit points equal to your channel faith dice.
+    Breath of Life - You return a fallen ally to life.
+    Purifying Touch - You remove any poisons that afflict the target. In addition, you become immune to poisons.
+    Cleansing Touch - You remove any diseases that afflict the target. In addition, you become immune to diseases.
+    Blessed Touch - You remove any curses that afflict the target. In addition, you become immune to curses.
+    Fortify the Body - You grant the subject a number of bonus hit points equal to your channel faith dice.
+    Lesser Seeker of Perfection - You gain a +4 enhance bonus to all attributes for 24 hours.
+    Seeker of Perfection - You gain a +6 enhance bonus to all attributes for 24 hours. This power replaces Lesser Seeker of Perfection.
+    Greater Seeker of Perfection - You gain a +8 enhance bonus to all attributes for 24 hours. This power replaces Seeker of Perfection.
+    Lesser Guidance - You gain a +2 bonus to all skills for 24 hours.
+    Guidance - You gain a +4 bonus to all skills for 24 hours. This power replaces Lesser Guidance.
+    Greater Guidance - You gain a +6 bonus to all skills for 24 hours. This power replaces Guidance.
+    Spirit of Battle - You gain an additional melee attack and an AB bonus equal to your Charisma modifier.
+    Righteous Vigor - You gain an amount of regeneration equal to your charisma modifier for two minutes.
+
+Lesser Icon of Faith - At 10th level, a Faithful gains a small amount of protection from their deity to ward against harm. They gain DR 5/- to physical attacks and 5/- damage resistance to fire, electrical, acid, and cold.
+
+Icon of Faith - At 20th level, a Faithful gains a moderate amount of protection from their deity to ward against harm. They gain DR 5/- to physical attacks and 10/- damage resistance to fire, electrical, acid, and cold.
+
+Greater Icon of Faith - At 30th level, a Faithful gains a substantial amount of protection from their deity to ward against harm. They gain DR 10/- to physical attacks and 10/- damage resistance to fire, electrical, acid, and cold.

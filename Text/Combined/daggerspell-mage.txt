@@ -1,0 +1,63 @@
+Daggerspell mages see the quick movements of their deadly daggers as an attendant part of their spellcasting. These sometimes reclusive figures remain spellcasters first and melee combatants second. Daggerspell mages are closely related to the daggerspell shapers, but where the shaper is quiet and calculating, a daggerspell mage is wild and impulsive.
+
+This class provides spellcasting progression in Arcane and Invocation based casters.
+
+Requirements
+
+Alignment: Any nonevil.
+Feats: Weapon Focus (dagger), Two-Weapon Fighting
+Skills: Concentration 8.
+Caster level: 5th
+Required Base Class: Bard, Sorcerer, Warlock, or Wizard
+Special: Sneak Attack 1d6
+
+Class Features
+
+HD: d6
+BAB: Medium
+High Saves: Ref, Will
+Weapon proficiency: None
+Armor proficiency: None
+
+Class Skills: Concentration, Craft Alchemy, Craft Armor, Craft Weapon, Heal, Hide, Intimidate, Listen, Lore, Move Silently, Spellcraft, Spot, Survival, and Tumble.
+Skill points: 6 + Int modifier
+
+Class Abilities
+
+Level 1: Daggercast, Spellcasting Progression
+Level 2: 
+Level 3: Sneak Attack +1d6
+Level 4:
+Level 5: Double Daggercast 
+Level 6: Sneak Attack +2d6
+Level 7: Arcane Infusion
+Level 8: Arcane Throw
+Level 9: Sneak Attack +3d6 
+Level 10: Improved Two-Weapon Fighting
+
+Spellcasting: At each level except 2nd, you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in an arcane or invocation based spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one arcane or invocation spellcasting class before becoming a daggerspell mage, you must decide which class to progress in.
+
+Sneak Attack: Beginning at 3rd level, a daggerspell mage deals an extra dice of sneak attack.  It increases to two dice at 6th level and three dice at 9th level.
+
+Daggercast: Daggerspell mages seamlessly blend the use of their twin daggers with powerful spellcasting abilities. A daggerspell mage delivers melee touch attack spells with a dagger attack (adding the base dagger damage plus any enhance bonus from the right hand).
+
+Double Daggercast: As a daggerspell mage advances in level, the connection between his spellcasting abilities and his two-dagger fighting style strengthens. At 5th level or higher, a daggerspell mage delivers melee touch attack spells with both of his daggers (adding the base dagger damage plus any enhance bonus from each dagger).
+
+Arcane Infusion: Arcane Infusion: At 7th level and higher, a daggerspell mage can infuse arcane spell power into his daggers, temporarily enabling them to deal extra energy damage. The daggers deal an extra 1d6 points of magic damage for a number of rounds equal to their class level and has a 5 minute cooldown.
+
+Arcane Throw: At 8th level and higher, a daggerspell mage can imbue arcane spell power into his thrown daggers. The mage can deliver a ranged touch attack spell with one of his daggers, adding it's damage to that of the spell (adding the base dagger damage plus any enhance bonus from the right hand). The dagger returns to the mage automatically.
+
+Improved Two-Weapon Fighting: A daggerspell mage gains Improved Two-Weapon Fighting as a bonus feat at 10th level.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

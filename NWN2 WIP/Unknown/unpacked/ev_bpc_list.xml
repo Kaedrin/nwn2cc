@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8">
+
+	
+<UIScene name="EV_BPC_LIST" x=ALIGN_CENTER y=ALIGN_CENTER width="140" height="325" draggable="true" idleexpiretime="1.0f" 
+	backoutkey="true" scriptloadable="true" priority="SCENE_SCRIPT" />
+	
+<UIText name="ListTitle" text="TITLE" x=25 y=15 width="105" height="30" fontfamily="Body_Font" />
+<UIIcon name="DIVIDER" img="frame1_b.tga" x=8 y=50 width=124 height=10 />
+
+<UIListbox name="GENERIC_LIST" x=15 y=65 width=115 height=250 ypadding=5 showpartialchild=false 
+	unequalcontrols=false scrollbaronright=true selectonleftclick=false update=true hidescrollbarwhennotneeded=true >
+	<UIButton name="LIST_B" x=0 y=0 fontfamily="Body_Font" width="100" height="25" prototype=true 
+			OnLeftClick0=UIObject_Misc_ExtractData(self:,"string",0,local:1)		
+			OnLeftClick1=UIObject_Misc_ExtractData(self:,"string",1,local:2)
+			OnLeftClick2=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","selectedoption",local:2,local:1) 
+			OnLeftClick3=UIButton_Input_CloseContainer() >
+		<UIText  name="LIST_T" x=0 y=0 width="115" height="20" fontfamily="Body_Font" color=CC2EFA hilite=true highlightcolor=white />
+	</UIButton>
+	<UIScrollBar name="SCRY_SCROLL" style="STYLE_SB_THIN" hidescrollbarwhennotneeded=true > </UIScrollBar>
+</UIListbox>	
+	
+	
+
+<UIFrame x="0" y="0" width="PARENT_WIDTH" height="PARENT_HEIGHT" border="32"
+	topleft="frame1_tl.tga" 		topright="frame1_tr.tga"
+	bottomleft="frame1_bl.tga"		bottomright="frame1_BR.tga"
+	top="frame1_t.tga"			bottom="frame1_b.tga"
+	left="frame1_l.tga"			right="frame1_r.tga" />		
+	
+<UIFrame x="8" y="8" width="124" height="309" fillstyle="tile" fill="ev_background.tga"/>

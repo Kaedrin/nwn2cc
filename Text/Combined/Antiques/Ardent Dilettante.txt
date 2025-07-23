@@ -1,0 +1,81 @@
+Ardent Dilettante
+
+The breeze that caresses the face brings with it a cooling balm and
+scent traces that trigger memories of old. The flavor of the fruit
+plucked form the tree is tart but sweet, and the sticky juice explodes
+in the mouth with a texture just as important as taste.
+
+All it takes to become an ardent dilettante is a diversity of interests
+and a moderate level of ability in a skill. Bards and rogues are the
+most common among the members, but characters of all classes can find
+the calling of the ardent dilettante to their liking.
+
+Requirements
+
+Faction: Sensate
+Skills: SKILLOR? 8
+Arcane Spells: Level 1
+Divine Spells: Level 1
+Feats: Martial Weapon Proficiency
+
+Class Features
+
+HD: d8
+BAB: Low
+High Saves: Ref
+Weapon and Armor proficiency: None
+
+Class Skills: All.
+Skill points: 6 + Int modifier
+
+Class Abilities
+
+Level 1: Heightened Senses, Lore, Spellcasting Progression
+Level 2: Enthrall
+Level 3: Joie de Vivre
+Level 4: Bonus Feat
+Level 5: Blindfight
+Level 6: Seen It Before
+Level 7: Bonus Feat
+Level 8:
+Level 9:
+Level 10: Bonus Feat, Death Holds No Mysteries
+
+Spellcasting Progression: Starting at level 2, the ardent dilettante
+chooses which spellcasting class (arcane, divine, or warlock) she wishes
+to advance in and gains a level of bonus progression at each level of
+
+Starting at level 2 and every level after that, the ardent dilettante
+gets spellcasting progression in the class of her choice (arcane,
+divine, or warlock).
+
+Heightened Senses: An ardent dilettante gains a competence bonus on
+Listen, Search, Diplomacy, and Spot equal to 1 + one-half her class
+level.
+
+Lore: An ardent dilettante hears many intriguing rumors and learns odd
+facts while travelling. She gains a +1 bonus to Lore for each class
+level.
+
+Enthrall: Starting at 2nd level, an ardent dilettante can recount one of
+her many adventures or experiences, capturing the attention of an
+audience as with an <i>enthrall</i> spell. An ardent dilettante can use
+this ability once per day for every two class levels she has. Caster
+level equals character level; save DC 12 + Cha modifier.
+
+Joie de Vivre: An ardent dilettante of 3rd level or higher takes such
+obvious pleasure in life that she can influence those around her to feel
+the same way, as with a <i>good hope</i> spell. An ardent dilettante can
+use this ability once per day for every 3 class levels she has. Caster
+level equals character level; svae DC 12 + Cha modifier.
+
+Bonus Feat: At 4th, 7th, and 10th level, an ardent dilettante gains a
+bonus feat. She must meet the prerequisites for the feat she selects.
+
+Seen It Before: Beginning at 6th level, an ardent dilettante gains a +2
+Will save bonus against Illusions.
+
+Death Holds No Mysteries: When a 10th level ardent dilettante is about
+to die, they gain a sudden burst of life having already faced death
+before. This is an activated ability that can only be triggered once per
+day and brings the ardent dilettante back to life with 30 health.

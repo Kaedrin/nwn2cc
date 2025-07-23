@@ -1,0 +1,36 @@
+The barbarian is an excellent warrior. Where the fighter's skill comes from training and discipline, however, the barbarian draws upon a powerful primal rage. While in this berserk fury, he becomes stronger and tougher, better able to defeat his foes and withstand their attacks. These rages leave him winded, and he has the energy for only a few such spectacular displays per day, but those few rages are usually sufficient. He is at home in the wild, and he runs at great speed.
+
+**Class Features:**
+
+Alignment Restrictions: Any nonlawful - barbarians are wild at heart.
+Hit Die: d12
+Base Attack Bonus: High.
+High Saves: Fortitude.
+Weapon Proficiencies: Simple and martial weapons.
+Armor Proficiencies:  Light armor, medium armor, and shields (except tower shields).
+Skill Points: 4 + Int modifier per level, x4 at first level.
+Class Skills: Craft Armor, Craft Trap, Craft Weapon, Intimidate, Listen, Parry, Survival, and Taunt.
+
+Rage choice: At level 1 a barbarian can choose between the standard Rage and Whirlwind Frenzy.
+
+Rage: A barbarian can fly into a screaming blood frenzy a certain number of times per day. In a rage, a barbarian gains phenomenal strength and durability but becomes reckless and less able to defend himself. He temporarily gains a +4 bonus to Strength, a +4 bonus to Constitution, and a +2 morale bonus on Will saves, but he takes a -2 penalty to Armor Class. Rage lasts for 3 + Constitution bonus (including bonus from rage) rounds. After rage expires, the barbarian is tired and suffers -2 Strength, -2 Dexterity, and a -10% movement penalty for 5 rounds.
+
+Whirlwind Frenzy: A barbarian with this variant form of rage doesn't gain the normal bonuses when he enters a rage. Instead, when a barbarian with whirling frenzy enters a rage, he temporarily gains a +4 bonus to Strength and a +2 dodge bonus to Armor Class and on Reflex saves. While in a whirling frenzy, the barbarian may make one extra attack in a round at his highest base attack bonus, but this attack takes a -2 penalty, as does each other attack made that round. This extra attack does not stack with Haste and uses the haste improvement instead (no penalty applied to all attacks).
+
+Whirling frenzy is otherwise identical to the standard barbarian rage in all other ways. At 11th level (when a standard barbarian gains greater rage), the Strength bonus increases to +6, and the dodge bonus to Armor Class and on Reflex saves increases to +3. At 20th level (when a standard barbarian gains mighty rage), the Strength bonus increases to +8, and the dodge bonus to Armor Class and on Reflex saves increases to +4. This bonus increases to +10 Strength and +5 AC/Reflex saves with the Epic Rage feat.
+
+Fast Movement: A barbarian has a 10% bonus to his movement rate.
+
+Uncanny Dodge: At 2nd level, a barbarian gains the ability to react to danger before his senses would normally allow him to do so. He retains his Dexterity bonus to AC (if any) even if he is caught flat-footed or struck by an invisible attacker. However, he still loses his Dexterity bonus to AC if immobilized.
+
+Trap Sense: Starting at 3rd level, a barbarian has an intuitive sense that alerts him to danger from traps, giving him a +1 bonus on Reflex saves made to avoid traps and a +1 dodge bonus to AC against attacks made by traps. These bonuses rise by +1 every three barbarian levels thereafter (6th, 9th, 12th, 15th, and 18th level).
+
+Damage Reduction: At 7th level, a barbarian gains the ability to shrug off some amount of injury from each blow or attack. Subtract 1 from the damage the barbarian takes each time he is dealt damage from a weapon or a natural attack. At 10th level, and every three barbarian levels thereafter (13th, 16th, and 19th level), this damage reduction rises by 1 point.
+
+Greater Rage: At 11th level, a barbarian's bonuses to Strength and Constitution during his rage each increase to +6, and his morale bonus on Will saves increases to +3. The penalty to AC remains at -2.
+
+Indomitable Will: While in a rage, a barbarian of 14th level or higher gains a +4 bonus on Will saves to resist mind-affecting spells. This bonus stacks with all other modifiers, including the morale bonus on Will saves he also receives during his rage.
+
+Tireless Rage: When a barbarian reaches 17th level, he no longer gets fatigued from using rage and can ignore the penalties to Strength, Dexterity, and movement.
+
+Mighty Rage: At 20th level, a barbarian's bonuses to Strength and Constitution during his rage each increase to +8, and his morale bonus on Will saves increases to +4. The penalty to AC remains at -2.

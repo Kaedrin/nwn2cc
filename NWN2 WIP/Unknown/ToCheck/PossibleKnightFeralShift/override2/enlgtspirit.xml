@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Neverwinter Nights 2 -->
+<!-- Selea: Screen for Enlightned Spirits -->
+
+<UIScene name="SCREEN_ENLGTSPIRIT" x="600" y="600" width="180" height="70" fadeout=".2" fadein="0.2" capturemouseclicks="false" capturemouseevents="true"
+	priority="SCENE_INGAME"	draggable="true" dragregion_x="0" dragregion_y="0" dragregion_width="180" dragregion_height="24" scriptloadable=true 
+	updaterate="30" update=false OnUpdate=UIObject_Misc_ExecuteServerScript("gui_enlgtspirit")/>
+
+
+	<UIPane name="TitlePane" x="0" y="0" width="180" height="24" capturemouseclicks="false">	
+		<UIText x="0" y="0" text="Energy Substitution" width="180" height="22" align="center" valign="middle" fontfamily="Title_Font" style="1" multiline="false" />
+		<UIFrame x="0" y="0" width="180" height="PARENT_HEIGHT" topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+		bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga"
+		left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="tp_frame_bg.tga"
+		border=5 />
+	</UIPane>
+
+	<UIPane name="ButtonsPane" x="0" y="26" width="180" height="32" capturemouseclicks="false" capturemouseevents="true">
+
+		<UIButton buttontype=radio groupid=1 groupmemberid=1 hideoverride=false 
+name="SpiritBlastButton" x="0" y="0" height="32" width="32" MouseUpSFX="gui_check" hidden=false
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_enlgtspirit_buttons",1)
+			OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(241363,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") >
+			<UIText align="center" valign="middle" fontfamily="Title_Font" style="1" />
+		<UIFrame state=base		fill="isc_general2.tga" />
+		<UIFrame state=up		fill="b_empty.tga" />
+		<UIFrame state=down		fill="b_overlay_active.tga" />
+		<UIFrame state=focused		fill="b_overlay_active.tga" />
+		<UIFrame state=hilited		fill="b_overlay.tga" />
+		<UIFrame state=hifocus		fill="b_overlay.tga" />
+		<UIFrame state=disabled 	fill="b_overlayd.tga" />
+		</UIButton>
+
+		<UIButton buttontype=radio groupid=1 groupmemberid=2 hideoverride=false 
+name="CelestialSpeedButton" x="44" y="0" height="32" width="32" MouseUpSFX="gui_check" hidden=false
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_enlgtspirit_buttons",2)
+			OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(100,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") >
+			<UIText align="center" valign="middle" fontfamily="Title_Font" style="1" />
+		<UIFrame state=base		fill="is_coneofcold2.tga" />		
+		<UIFrame state=up		fill="b_empty.tga" />
+		<UIFrame state=down		fill="b_overlay_active.tga" />
+		<UIFrame state=focused		fill="b_overlay_active.tga" />
+		<UIFrame state=hilited		fill="b_overlay.tga" />
+		<UIFrame state=hifocus		fill="b_overlay.tga" />
+		<UIFrame state=disabled 	fill="b_overlayd.tga" />
+		</UIButton>
+
+		<UIButton buttontype=radio groupid=1 groupmemberid=3 hideoverride=false 
+name="HolyBlastButton1" x="78" y="0" height="32" width="32" MouseUpSFX="gui_check" hidden=false
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_enlgtspirit_buttons",3)
+			OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(100,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") >
+			<UIText align="center" valign="middle" fontfamily="Title_Font" style="1" />
+		<UIFrame state=base		fill="is_calllightningstorm2.tga" />	
+		<UIFrame state=up		fill="b_empty.tga" />
+		<UIFrame state=down		fill="b_overlay_active.tga" />
+		<UIFrame state=focused		fill="b_overlay_active.tga" />
+		<UIFrame state=hilited		fill="b_overlay.tga" />
+		<UIFrame state=hifocus		fill="b_overlay.tga" />
+		<UIFrame state=disabled 	fill="b_overlayd.tga" />
+		</UIButton>
+
+		<UIButton buttontype=radio groupid=1 groupmemberid=4 hideoverride=false 
+name="HolyBlastButton2" x="112" y="0" height="32" width="32" MouseUpSFX="gui_check" hidden=false
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_enlgtspirit_buttons",4)
+			OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(100,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") >
+			<UIText align="center" valign="middle" fontfamily="Title_Font" style="1" />
+		<UIFrame state=base		fill="is_fireball2.tga" />	
+		<UIFrame state=up		fill="b_empty.tga" />
+		<UIFrame state=down		fill="b_overlay_active.tga" />
+		<UIFrame state=focused		fill="b_overlay_active.tga" />
+		<UIFrame state=hilited		fill="b_overlay.tga" />
+		<UIFrame state=hifocus		fill="b_overlay.tga" />
+		<UIFrame state=disabled 	fill="b_overlayd.tga" />
+		</UIButton>
+
+		<UIButton buttontype=radio groupid=1 groupmemberid=5 hideoverride=false 
+name="HolyBlastButton3" x="146" y="0" height="32" width="32" MouseUpSFX="gui_check" hidden=false
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_enlgtspirit_buttons",5)
+			OnToolTip=UIObject_Tooltip_DisplayTooltipStringRef(100,"OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2") >
+			<UIText align="center" valign="middle" fontfamily="Title_Font" style="1" />
+		<UIFrame state=base		fill="is_acidsplash2.tga" />	
+		<UIFrame state=up		fill="b_empty.tga" />
+		<UIFrame state=down		fill="b_overlay_active.tga" />
+		<UIFrame state=focused		fill="b_overlay_active.tga" />
+		<UIFrame state=hilited		fill="b_overlay.tga" />
+		<UIFrame state=hifocus		fill="b_overlay.tga" />
+		<UIFrame state=disabled 	fill="b_overlayd.tga" />
+		</UIButton>
+
+
+	</UIPane>
+
+			

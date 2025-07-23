@@ -1,0 +1,16 @@
+2DA V2.0
+
+   LABEL                              ReqType ReqParam1 ReqParam2 
+0  FEAT_TRACK                         FEAT    1116      ****      
+1  Listen                             SKILL   6         8         
+2  Spot                               SKILL   17        8         
+3  Survival                           SKILL   29        8         
+4  SneakAttack                        FEATOR  221       ****      
+5  FEAT_BLACKGUARD_SNEAK_ATTACK_1D6   FEATOR  460       ****      
+6  FEAT_NW9_SNEAK_ATTACK_1            FEATOR  1497      ****      
+7  FEAT_ARCTRICKSTER_SNEAK_ATTACK_1   FEATOR  1502      ****      
+8  FEAT_SHADOWTHIEFAMN_SNEAK_ATTACK_1 FEATOR  1562      ****      
+9  FEAT_NW9_FRANTIC_REACTIONS         FEATOR  1806      ****      
+10 FEAT_PRESTIGE_DEATH_ATTACK_1       FEATOR  455       ****      
+11 FEAT_BLEEDING_WOUND_I              FEATOR  2052      ****      
+12 BAB                                BAB     5         ****      

@@ -1,0 +1,8 @@
+2DA V2.0
+
+  LABEL             ReqType  ReqParam1 ReqParam2 
+0 FEAT_SMITE_EVIL_2 FEAT     1400      ****      
+1 Paladin           CLASSOR  6         ****      
+2 LoreSkill         SKILL    7         8         
+3 Divine            DIVSPELL 2         ****      
+4 Angelskin         SPELLOR  1738      ****      

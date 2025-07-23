@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="NWN2UI">
+
+<UIScene name="hv_vfx_tool" x=ALIGN_CENTER y=ALIGN_CENTER width=360 height=270 idleexpiretime="1.0f" 
+	draggable="true" backoutkey="true" scriptloadable="true" priority="SCENE_SCRIPT" />
+
+
+<!-- Close Button -->
+	<UIButton name="CloseButton" x=325 y=6 style="STYLE_CLOSE_BUTTON" 
+		OnLeftClick=UIButton_Input_ScreenClose()>
+	</UIButton>
+
+
+
+<!-- Title -->	
+	<UIText name="title" text="Player VFX Tool" x=20 y=4 width=180 height=31 align=left valign=middle fontfamily="Title_Font" style="1" />
+	<UIIcon name="DETAIL_TOP" img="title_medium03.tga" x=10 y=8 width=341 height=31 ignoreevents="true" />
+
+<!-- Listbox -->
+	<UIListbox name="effects" x=15 y=40 width=330 height=190 yPadding=0 xPadding=0
+		showpartialchild=false scrollbaronright=true unequalcontrols=false scrollsegmentsize=1 >
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton text="Blur" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","0","D") >
+			</UIButton>
+			<UIButton text="Entangle" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","2","D") >
+			</UIButton>
+			<UIButton text="Web" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","17","D") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton text="Doom" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","834","D") >
+			</UIButton>
+			<UIButton text="Polymorph" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","835","D") >
+			</UIButton>
+			<UIButton text="Storm" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","836","D") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton text="Gate" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","841","D") >
+			</UIButton>
+			<UIButton text="Powder" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","880","D") >
+			</UIButton>
+			<UIButton text="Air E" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","881","D") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton text="Shadow" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","887","D") >
+			</UIButton>
+			<UIButton text="Aurora" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","891","D") >
+			</UIButton>
+			<UIButton text="Shiny S" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","893","D") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton text="Fire" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","894","D") >
+			</UIButton>
+			<UIButton text="Halo" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","902","D") >
+			</UIButton>
+			<UIButton text="Light" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","903","D") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton text="Impolsion" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","24","I") >
+			</UIButton>
+			<UIButton text="Fireball" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","22","I") >
+			</UIButton>
+			<UIButton text="Holy" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","190","I") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton text="B Cold" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","211","D") >
+			</UIButton>
+			<UIButton text="B Elect." fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","595","D") >
+			</UIButton>
+			<UIButton text="B Holy" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","593","D") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton text="B Rescue" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","1015","D") >
+			</UIButton>
+			<UIButton text="Candle" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","886","I") >
+			</UIButton>
+			<UIButton text="Shadow" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","888","D") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton text="Nova" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","892","I") >
+			</UIButton>
+			<UIButton text="C. Elect." fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","915","D") >
+			</UIButton>
+			<UIButton text="Shades" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","739","I") >
+			</UIButton>
+		</UIPane>
+			
+	</UIListbox>
+
+	
+	<UIButton name="remove_effect" text="<C=orange>Remove" fontfamily="Default" x=ALIGN_CENTER y=230 width=315 height=30
+		style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_vfx_tool","","R") >
+	</UIButton>
+
+<!-- BACKGROUND -->
+	<UIFrame width=PARENT_WIDTH height=PARENT_HEIGHT topleft="frame1_tl.tga" topright="frame1_tr.tga" bottomleft="frame1_bl.tga"
+		bottomright="frame1_BR.tga" top="frame1_t.tga" bottom="frame1_b.tga"
+		left="frame1_l.tga" right="frame1_r.tga" border=32 />	
+	<UIFrame x=7 y=8 width=345 height=255 fillstyle="stretch" fill="frame_main_bg.tga"/>
+
+

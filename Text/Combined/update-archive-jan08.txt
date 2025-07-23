@@ -1,0 +1,528 @@
+[[tabview]]
+[[tab January 29th, 2008]]
+##green|Last updated 12:28pm cst##
+
+I spent most of last night chasing the companion issue and I believe I've got it all mapped out.  I need to code up my planned solution and then test it.  That still leaves creatures but I need to get companions working first.  
+
+The packages.2da issue doesn't seem to be quite wrapped up yet as now it seems the game may not be reading past 255 (while the toolset does).  I'll test that when I get home tonight.  If it **is** limited to 255 then we are out of options when it comes to creating creatures/companions that level up correctly in the toolset.  They would have to be created manually by adding the feats, spells, etc by hand.
+
+I talked with Strat from the PRC group this weekend about the PRC and NWN2.  The official stance right now is that the PRC is **NOT** coming to NWN2.  He has offered to let me try and move what I can to NWN2.  There are a number of spells I could rapidly move over but most of the classes and feats will take a lot of work since they rely on systems built for NWN1.  That, and the new issues I've been grappling with for NWN2 were not problems in NWN1 so that has to be accounted for as well.  
+
+The last few weeks have been a struggle to deal with all the issues and there isn't really anyone to talk to that has dealt with these particular problems before.  New ground/issues have been calling for new solutions.  Every one of them has required a lot of testing to set up and make sure as many of the problems for a single issue are identified.  So new content has pretty much come to standstill as you can tell by the [[[wip| Work in Progress]]] page which shows all of the issues I'm trying to test and resolve at the moment.  This isn't even taking into account the looming impact of 1.12.
+
+Fun, fun.
+
+##green|Last updated 8:05pm cst##
+
+Tested the packages.2da issue in the game and it's a non-issue.  Packages from 200 to 1000 showed up so it's not limited to 255 thankfully.  Turns out I can't fix modules without the right module events with scripting so folks are going to end up having to manually open and paste in the required lines. :(  I'll go ahead and finish writing the documentation on how instead of trying to fix it with coding. :(
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 28th, 2008]]
+##green|Last updated 12:56pm cst##
+
+I had a few work related social functions the past few days and spent the free time left working on identifying what needs to be done to fix companions.  I'm fairly close but I still need some more testing before I start working on the fixes for it.  I'm also fairly close to wrapping up the documentation on including my custom content in a module or using it on a creature in the toolset.  There is a possible problem with packages that could be very bad that I'll check in to as part of the testing/documentation of using custom content in the toolset.  I should have the non-English dialogs up tonight as well with a new addition of the Polish version.  I could **really** use the Spanish version if someone can get the files to me.
+
+##green|Last updated 2:14pm cst##
+I've got the documentation (and testing) finished for making creatures in the toolset with custom content.  It can be found here: http://nwn2forums.bioware.com/forums/viewtopic.html?topic=615195&forum=115  I've about wrapped up my testing of what is needed to fix companions when using custom content.  Now I need to test this for creatures and then document all of it for another post.  I'm slowly catching up with my emails as well, please be patient. :P
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 24th, 2008]]
+##green|Last updated 11:10pm cst##
+
+I'm in the process of uploading a v1.28 to NWVault to fix some issues with the Bladesinger.  There was a bug in their IsValid check that never let them gain the benefit outside of my test module. The spellcasting progression had a serious issue I fixed by raising the spellcaster requirement to level 2 arcane spells that only happens when you take the prestige class with a level 1 caster (1 wizard/6 caster was giving 8 spells known per bladesinger level) when it should have been giving 2 spells known at each odd bladesinger level.  I'm going to give that bug to Obsidian to fix and reduce the requirement if they fix it.  Should be a half hour or so for me to get everything packaged up and documented right.  Sorry folks. :(
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 23rd, 2008]]
+##green|Last updated 6:26pm cst##
+
+NWVault is down for me so I can't reach it to do any work at the moment.  I'm re-testing some changes to the [[[Bladesinger]]]'s Song of Fury and once that is done I'll clean up the readme and package up the files while I wait for connectivity to NWVault.
+
+##green|Last updated 9:07pm cst##
+
+v1.27 is up on NWVault for all versions!  I'll do the combined works and foreign language dialog.tlk files tomorrow and then try to get caught up on email and test projects that are long overdue.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 22nd, 2008]]
+##green|Last updated 5:58pm cst##
+
+I'm still working on the v1.27 update having tried to narrow down and fix the companion issues.  Given how many companion issues remain I've decided to push them off for another update along with the half finished [[[Stormsinger]]].  The [[[wip| Work in Progress]]] page has been updated to reflect how the updates are planned now and their content.  I'll migrate this to the [[[current| Current Release Plans]]] page when I get a chance.  I need to wrap up the testing on the [[[Warrior of Darkness]]] and [[[Bladesinger]]] along with finishing the documentation needed for the 1.27 update and I'll publish a new release (and get cracking on the next one).
+
+
+***
+
+At lunch I took a look at the Animal Companion update part of the Nature updates. 
+
+Dragon Companion gets the following tweaks: Gains +2 Natural AC, +3 SR, Blind-Fight, Cleave, Great Cleave, Toughness, Weapon Focus (Creature), Knockdown, Improved Knockdown, Dragon Fear Aura.  I'm tempted to add a number of "buffs" to the companion when summoned as though they were a caster (as in MM1).  Pick a few good prebuilt spells and use all the spells of a level to make sure you can get 24 hour coverage.  I'll test this first and see.   
+
+##green|Last updated 10:24pm cst##
+
+I've just about wrapped up the testing of v1.27 but I haven't had a chance to do the documentation yet or clean up the files yet so the release is looking like a safe bet for tomorrow.  I'll get the readme files typed up tomorrow so that when I get home I can finish up the testing and put the packages together.  After the update tomorrow I'll try to catch up on email and test projects before I get back to fixing the companions made/leveled with custom content.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 21st, 2008]]
+##green|Last updated 12:14pm cst##
+
+It turns out that the issue with companions not leveling up correctly is because they don't fire the levelup script despite being possessed by a PC.  As NPCs don't have a levelup script event I'm having to look into ways to still fire the script off when needed.  Thanks to Weby I've got a way to do it using the levelup summary UI file which should be a rarely modified xml file.  It's a one line addition so it shouldn't have too much impact.  I've got to write a new script to scan the party and update all of the companions since even with the levelup UI event I can't tell who did it (it still points to the PC even when you level up a companion).  So that problem should be solved soon where you can multiclass companions and have custom classes work correctly.  It also indicates a need to write a custom chunk of code for the OnSpawn for creatures built with custom classes as well.  This change will also mean that my classes will work in most any module except for the Tempest and Nightsong Enforcer as they still require OnEquip and OnUnEquip hooks (along with a number of future prcs that gain benefits from having certain gear equipped).
+
+It also seems that companions do NOT fire off the OnRest script either which means I'm going to have to modify the gb_comp_rest script to get it to do the same as the module event.  The more I dig in to this the more I find I have to work around and fix. :(
+
+While thinking about the upcoming v1.12 patch and the need to rewrite the entire assassin/blackguard spellbook code I've come up with a simpler solution that achieves the exact benefits of the current one.  I'll only need one feat per spell level (for each 5 spells) now instead of needing one for each possible use/day of each spell level.  As an example, the Assassin will go from 24 feats down to 4 feats.  It will also remove the need to dynamically add the feats on the fly each time the character levels up as the uses per day will be decremented as needed to get it to the correct number.  I'll be using a 2da file to drive the number of spells per level.  This change will make it much, much easier to add PrCs in the future that have small spellbooks like the blackguard and assassin.
+
+Brian Meyer sent me a new batch of [[[icons2| icons]]] that are very sweet.  It includes a new Dread Commando icon among others that will be replacing the hack job I did on the Palemaster icon.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 20th, 2008]]
+##green|Last updated 12:40am cst##
+
+I'll be back home tomorrow so I can work on wrapping up v1.27.  Aside from the new PrCs ([[[Bladesinger]]], [[[Warrior of Darkness]]], and [[[Stormsinger]]]), it will allow for custom classes to be used on creatures in the toolset, some updated descriptions for existing prcs, and add a number of minor improvements and fixes from the nature update.
+
+There were a few issues reported this weekend I want to try and reproduce and solve if I can.  One is that you sometimes see an invalid number instead of a class name in the image when you load a save game.  The other is that if you level up a companion with the multi-class mod you might not get the stacking sneak attack dice for Neeshka.  If you have a savegame where you can reproduce either of these issues I'd love to get a zip (or 7z/rar, what have you) of your savegame along with a list of what overrides you are using as well as what module.
+
+With the community override scripts defined I'll be implementing the calls to them in my stuff for the v1.27 update.  I've got a short list of module developers (such as Vordan) to get in touch with and see if they would be willing to add the needed events or calls to existing events to their next version.  This way the custom classes, feats, etc done by the community (not just mine) will work in a broader base of modules than the OC/MotB.  I really wish that all of the module events had default scripts when you create a new module but unfortunately they don't.
+
+I'll have some new documentation as well for Module and PW developers such as 
+* 2da files changed from v1.26 along with which lines
+* Detailed instructions on how to create creatures with custom classes in the toolset
+* Detailed instructions on how to add my content to any module that doesn't support the override content.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 18th, 2008]]
+##green|Last updated 11:30am cst##
+
+[[[Bladesinger]]] and [[[Warrior of Darkness]]] are done except for some serious script polish and testing.   [[[Stormsinger]]] has the tlk work finished.
+
+##green|Last updated 11:59 pm cst##
+
+I've got a new [[[spell-poll| poll]]] up asking if I should have a separate download available that just has the new spells I've added.  I ask now because the reorganization needed for patch 1.12 means I should plan ahead for this feature to keep a cleaner 2da file.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 16th, 2008]]
+##green|Last updated 6:06pm cst##
+
+Guess what goes well with [http://nwvault.ign.com/View.php?view=Nwn2hakpaksoriginal.Detail&id=285 Dragonkin]?  The description for [[[Dragon Samurai]]]. [[[Bonded Summoner]]]'s description might as well.
+
+Off to work on the packages issue, just about to wrap it. Seeker of the Song is about 60% typed up and I have all the Blade Magic (Devoted Spirit) I plan to implement typed up for the Paladin.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 15th, 2008]]
+##green|Last updated 5:43pm cst##
+
+I didn't get much time to work on NWN2 last night so tonight I plan to wrap up the toolset issues with custom classes and then knock out the content for v1.27.  The update should be released tomorrow unless I hit a snag tonight.
+
+##green|Last updated 8:44pm cst##
+Grinning Fool and I tested out using the custom content in the toolset and have found a way to get it to work correctly.  I've finished updating my stuff for it so I'll start doing the readme that module developers will need to follow.  You will have to use his creature editor because of toolset limitations.  I might get the two PrCs done tonight but this took a few hours when I expected to be doing just 2da and scripting work.  I've got 3 [[[Warrior of Darkness]]] scripts to do and about 60% of the [[[Bladesinger]]] work left to do.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 13th, 2008]]
+##green|Last updated 6:22 pm cst##
+
+I got the [[[Bladesinger]]] about 60% done before I started looking into a problem [http://ladyelvenstar.blogspot.com/ Lady Elvenstar] found trying to use custom PrCs in the toolset.  After a LOT of untangling it turns out the toolset is hard coded to look into the dialog.tlk in the install folder for some text strings.  I also learned the "placeholder" labels I had in the classes.2da are causing them to all show up in the toolset so that's fixed.  The last thing is the packages I thought were optional turned out to not be.  Seems that just setting the packages column in the classes.2da only works for playing the game.  For it to work in the toolset you have to create seperate packages.2da entries.  
+
+Soo... I'm going to be working on those packages for a bit.  Once I get a first cut at the packages, the classes.2da file cleaned up, the [[[Warrior of Darkness]]], and the [[[Bladesinger]]] PrCs finished I'll be rolling it all into an early 1.27 release.  The fixes to use custom classes in the toolset are pretty important for module developers so it's worth updating early. :) 
+
+The [[[wip| Work in Progress]]] page has been updated as has the [[[current| Current Release Plans]]] page with the v1.27 update details.
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 12th, 2008]]
+##green|Last updated 4:27 pm cst##
+
+I just got done finishing a good chunk of content so the [[[wip| Work in Progress]]] page has been updated.  The [[[Hospitaler]]] description has been revamped and cleaned up.  New fixes and changes are on the [[[wip| Work in Progress]]] as well.  The [[[Warrior of Darkness]]] is about 80% done and is currently lacking 3 scripts and a classes.2da entry after which it can be tested.  The descriptions for the [[[Warrior of Darkness]]] and [[[Anointed Knight]]] were tweaked as well since Combat Reflexes isn't a feat in the game.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 11th, 2008]]
+##green|Last updated 6:34 pm cst##
+
+Looks like I'm not heading out of town for the weekend so some of those PrCs may show up by the end of it.  I'm looking into how to remap feats, spells, and domains from the character's save files (.rso, .ifo, .bic) into a new range to be saved out as a "fixed" character file.  I don't suppose anyone knows how or can help come up with a tool for this?  The CC community would love an easy way to "repair" characters and player's save games. 
+
+##green|Last updated 7:20 pm cst##
+I got the [[[wip| Work in Progress]]] page, the [[[current| Current Release Plans]]] page, and the [[[prc| New PrCs]]] pages updated.  The [[[prc| New PrCs]]] page was updated with all of the missing simple class descriptions.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 10th, 2008]]
+##green|Last updated 12:31 pm cst##
+
+As of right now, my Nature update is being put on hold (reason to follow).  I'm fairly close to being finished with the updated and documented event-tagged module v1.01 but after last nights news I took a break from doing CC work and played some games for relaxation.
+
+I've removed the entire section about patch 1.12 until I get some more information.
+
+If your a module developer and there is a PrC you would like to see ahead of the planned schedules let me know and I'll see about bumping it up.  
+
+Good news for paladins: a friend of mine sent me a write-up of an alternate class option for the paladin that is very, very impressive.  It comes from the Dungeonscape sourcebook and provides a few celestial abilities to the Paladin (celestial spirit replaces the mount).
+
+##green|Last updated 6:46 pm cst##
+Looks like Quimble is down so the poll won't be working until they come back up.  I updated the [[[prc| New PrCs]]] page with some new descriptions.
+[[[Bladesinger]]], [[[Stormsinger]]], [[[Dervish]]], and half of [[[War Chanter]]]
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 8th, 2008]]
+##green|Last updated 5:24 pm cst##
+
+Looks like last night my PrC pack made it into the Hall of Fame on NWVault for January so I'd like to say thank you to you folks as it's users that made that happen.  I'm glad you enjoy it and I plan to keep it coming! :)
+
+I'm home and beginning to work on v1.12 of the combined content.  I also plan to release v 1.01 of the event-tagged module tonight as I'm about 3 scripts from being done.  I need to do a lot of commenting though so I'll probably release 1.01 and plan for 1.02 to wrap up the commenting work as I'd like it to be fully developed for public use.
+
+The [[[Elemental Archer]]] is about 50% done.
+
+You folks should be safe from updates for a while after this as I plan to be busy with the Nature update unless there are problems found that warrant a new update.
+
+##green|Last updated 6:46 pm cst##
+I'm uploading a new combined content version to the Vault now so it should be available soon.  Then dinner and then the event tagged module.
+
+##green|Last updated 10:54 pm cst##
+I took a couple minutes to toss up an [[[About Me]]] placeholder with a couple pics (for a friend to engage in a photoshop war with lol).  I'll put some more info on it and open it up as a general link when I find time.  Given this has turned into a semi-blog I figured I might as well get around to it. :)
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 7th, 2008]]
+##green|Updated 5:50 pm cst##
+[[[Elemental Archer]]] has been updated with new requirements and some bonus feats I'll be adding.  It no longer requires Genasi but now provides a bonus for those races.
+
+##green|Updated 7:25 pm cst##
+[[[Sentinel of Bharrai]]] and [[[Lion of Talisid]]] have had their descriptions updated as well.  I'll have a lot of the TLK work done (and hidden) in the combined works when I hear from Reeron.   Elemental Archer is about 60% done.
+
+##green|Updated 9:30 pm cst##
+Looks like the new combined version is going to be tomorrow night.  I'm about to upload a new [http://nwvault.ign.com/View.php?view=NWN2ModulesEnglish.Detail&id=219 Module Event Tagged Module] here soon.  Just putting the finishing touches on it and then I need to try and document the events.
+
+##green|Updated 11:12 pm cst##
+I'm going to start rolling out a v1.26 that fixes some snafu's with the [[[Dread Commando]]].
+# Class Description properly shows up now (invalid tlk number in the classes.2da file)
+# Debug k_mod_player_levelup spam removed from the k_mod_player_levelup script
+# Correct feats awarded to the Dread Commando (Dash, Team Initiative, Armored Ease instead of Dash 3 times, cls_feat_dreadcom)
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 6th, 2008]]
+##green|Updated 8:08 pm cst##
+I'm working on cleaning up the descriptions I typed up for all of the Bard PrCs I plan to do.  After that set and the Champion set is finished I'm going to stop working on the future PrC descriptions for a bit and work on getting that spell library fleshed out.  That's a horrible job I've been avoiding but I need to do it. :P  I'm also working on the v1.01 event tagged module so hopefully I'll have it up soon.  I'm also doing general cleanup of the site now that another release is out.
+
+
+##green|Updated 5:22 pm cst##
+v1.25 is released for all versions and languages.
+
+##green|Updated 12:06 pm cst##
+
+Another fix for v1.25:
+* Divine Seeker's saving throws corrected.
+
+After lunch I'll be putting the finishing touches on the multiplayer versions and the new language files.  I'm going to be pulling the Spanish language file until such time as someone emails me a set of v1.11 dialog files for it.  There won't be a new combined project for a while as I'm waiting to hear back from Reeron on some text corrections.  Should be tonight or tomorrow on the combined version though.
+
+I'll have a new version of the event tagged module and scripts as well that further cleans up the concept and allows for community content to be executed with almost no effort/impact for the module developer.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 5th, 2008]]
+##green|Last updated 9:21 pm cst##
+
+I'm working on the [[[Dread Commando]]] and am close to wrapping it up.  It looks like the stealth revamp Obsidian did made the two "run while stealthed" feats useless so I'll be granting Dash for now.  I may do a heartbeat based run buff while in stealth mode as well.  Still trying to decide on that one.
+
+Another fix for v1.25:
+* Safety check added to the level up script so that Sneak Attack (and Death Attack) dice stacking can't go beyond 20 dice.
+
+The release is coming tomorrow.  Found a problem I have to deal with first.  There is no way to boost initiative short of adding the feats that do (imp initiative, epic superior initiative).  So for now I'll be granting the [[[Dread Commando]]] both Improved Initiative and Superior Initiative. 
+
+Dread Commando is done so tomorrow I'll package up the single player release and do the tlk/2da work needed for the multiplayer version.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 4th, 2008]]
+##green|Last updated 6:27 pm cst##
+
+Hot off the presses are the descriptions for the [[[Dread Commando]]] and [[[Forest Master]]] PrCs.  The Dread Commando will be coming this weekend as part of the v1.25 update.  Additional fixes in this release are:
+# My Ranged and Melee Touch spells will gain sneak attack when appropriate due to a newly developed sneak attack include function.
+# Nightsong Infiltrator class description updated to include the new Disable Device 10 requirement
+# Acidic Splatter, Invisible Needle, and Clap of Thunder descriptions updated to include the new Orb of Sound/Acid/Force spells to their trigger lists.
+# Orb of Fire, Orb of Cold, Orb of Acid, Orb of Electricity, Orb of Sound, Orb of Force, Lesser Orb of Fire, Lesser Orb of Cold, Lesser Orb of Acid, Lesser Orb of Electricity, Lesser Orb of Sound spell descriptions updated to mention they gain sneak attack (and death attack) damage where appropriate.
+# Acidic Splatter, Clap of Thunder, Invisible Needle feat descriptions updated to mention they gain sneak attack (and death attack) damage where appropriate.
+# Scourge added as a Necromancy trigger (Level 7)
+
+I'll be releasing the full singleplayer and multiplayer releases this weekend at the same time.
+
+The [http://nwvault.ign.com/View.php?view=NWN2ModulesEnglish.Detail&id=219 Module Event Tagged Module] has been uploaded to the vault as a way for new module developers to start with modules that have the module events hooked up.  This way the override or hak versions of my content will work with them.  This will hopefully help alleviate new module developers creating modules that won't work with anything that uses certain module events.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 3rd, 2008]]
+##green|Last updated 7:18 pm cst##
+
+It's a bit disappointing but it looks like Mysteries of Westgate won't work with my content because it doesn't have the module events hooked up.  The spells and domains portion of my content will work but the classes won't for sure.  I'll have to look into it and draw up a "known issues" for using it with modules that don't have module events hooked up.
+
+When a module is created from scratch in the toolset, it doesn't register a script on some of the module events.  Since most builders don't seem to know about those events and their purpose, they leave it blank.  This means that any content that needs the events will fail to work.  There are a number of popular modules out there right now that this is an issue for and there isn't a good solution.  I could look into a module "updater" like the PRC group from NWN1 has that injects a hak and some scripts into the module but if the module *did* have scripts they would be replaced.  This means content in the module would work fine for my stuff but anything they had done custom would be lost, potentially breaking the module.  This is a thorny issue I'm not really sure how (or if I can) address.
+
+I'm going to work on the multiplayer versions tonight.
+
+Another thing I found last night while putting together the archive for uploading: Eldritch Glaive.  I coded it up (completely, it's done) back on November 11 but decided to sit on it due to balance concerns.  I'm not sure what is needed to add a new blast shape for Warlocks though I suspect it has some GUI work that would have to be done.  That GUI work will conflict with a number of public offerings so I'm not sure it's worth the headache.  The other alternative is to put the essences as subradials for the spell and fail the invocation if you don't know that essence.  Inelegant but without maintenance issues.  I'll think about it some more.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 2nd, 2008]]
+##green|Last updated 11:59 pm cst##
+
+Version 1.24 is up on the Vault for the single player version and the combined works.  I'm working on getting the multiplayer versions up soon.  The new language files are up for French, Italian, and German.  I still need the Spanish dialog files for patch 1.11 so I can update it.
+
+In other news: sometime in February I might be interviewed for a NWN podcast here: http://nwnpodcast.com/ By then I should be working on the Nature and Music spells having released the Nature update.
+
+v1.23 changes:
+1. [[[Reserve Feats]]] system introduced with these feats: Acidic Splatter, Clap of Thunder, Fiery Burst, Hurricane Breath, Invisible Needle, Storm Bolt, Sickening Grasp, Winter's Blast, Holy Warrior, Touch of Healing, Umbral Shroud 
+2. General script cleanup - All spells will be updated to use the new include file with constants for spells, feats, domains, classes, and vfx_persistent entries. 
+3. Spell description for Awaken Sin will correctly indicate a single target, not a 50' area. 
+4. Shield of Warding issue with targeting a creature to get their shield fixed 
+5. Blasphemy now ignores Death Immunity for outsiders 
+6. Weapon of Deity issue with granting the wrong enhance bonus fixed (was 1 level too low on the checks). 
+7. Domains updated for missing spells and incorrect descriptions thanks to Kaerius 
+8. Aura of Despair will not affect allies in Hardcore mode 
+9. Nightsong Infiltrator Teamwork feat description will be updated as it is currently confusing and does not indicate at what level the feat upgrades. 
+10. German version of the non-English dialog files made available. 
+11. Nightsong Infiltrator Requirements changed to prevent level 2 rogues from taking the PrC. Disable Device requirement changed from 5 to 10. 
+12. Holy Word correctly reduces strength 
+13. Nightsong Infiltrator will gain the bonus sneak attack dice from Teamwork Sneak Attack (fixed stacking sneak attack bug) 
+14. New Spells: Orb of Acid, Lesser Orb of Acid, Orb of Sound, Lesser Orb of Sound, Orb of Force 
+ 
+Version v1.24 is up (and v1.10 of the combined)  that fixes a number of minor issues that popped up.  Tomorrow I'll also be releasing the multiplayer versions.
+
+v1.24 changes:
+1. Hostile flag needs to be set for Fiery Burst
+2. Holy Warrior needs the War domain epithet feat as a requirement. 
+3. Storm bolt has the units in feet when they need to be in meters so it's about 3x what it should be (effects wise). 
+4. Wizards can choose the reserve feats as bonus feats when leveling up.
+5. The description for Touch of Healing will warn Wizards, Warlocks, and Sorcerers that unless they have access to heal spells they can't use the feat.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 1st, 2008]]
+Happy New Year!
+
+I'm hoping to get v1.23 done today but I keep adding in more.  Must. Stop. Adding!
+
+New spells added to v1.23: Orb of Sound, Lesser Orb of Sound, Orb of Acid, Lesser Orb of Acid, Orb of Force
+
+Trigger spells have been added to the [[[Reserve Feats]]] page so you know which spells will activate the feat.
+
+**##red|I've finished the single player version of v1.23 and I'm working on packaging it up for release.  I should get the combined version with Reeron also done tonight after dinner and a movie.  Tomorrow I'll be doing the multiplayer version, the non-English dialogs (including German for the first time), and the new readme files.##**
+
+I'll get the v1.23 uploaded to NWVault tonight when I get back from dinner and a movies so expect a near midnight release. :)  I still have some cleanup to do in the readme so I'll probably wait till tomorrow to post the new and improved readme.
+
+Laaaaaaate night note: I'll be doing the full release set tomorrow, need some sleep. :)
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

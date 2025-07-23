@@ -1,0 +1,12 @@
+2DA V2.0
+
+  FeatLabel                         FeatIndex List GrantedOnLevel OnMenu 
+0 FEAT_TRACK                        1116      3    1              0      
+1 FEAT_DEATHS_RUIN                  2129      3    2              0      
+2 SneakAttack                       221       3    3              0      
+3 SneakAttack2                      345       3    6              0      
+4 SneakAttack3                      346       3    9              0      
+5 FEAT_SKULLCLAN_HUNTERS_IMMUNITIES 3287      3    3              0      
+6 FEAT_SKULLCLAN_PROTECTION_EVIL    3288      3    4              0      
+7 FEAT_SKULLCLAN_SWORD_LIGHT        3289      3    5              0      
+8 FEAT_SKULLCLAN_SWORD_DARK         3290      3    9              0      

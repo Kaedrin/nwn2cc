@@ -1,0 +1,7 @@
+2DA V2.0
+
+  LABEL                  ReqType  ReqParam1 ReqParam2 
+0 LoreSkill              SKILL    7         12        
+1 Warlock                CLASSOR  55        ****      
+2 FEAT_FOLLOW_THE_GUIDE  FEAT     2019      ****      
+3 FEAT_TELTHOR_COMPANION FEAT     3704      ****      

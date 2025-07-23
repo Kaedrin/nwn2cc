@@ -1,0 +1,8 @@
+2DA V2.0
+
+  LABEL       ReqType ReqParam1 ReqParam2 
+0 GreatFort   FEAT    14        ****      
+1 PowerAtk    FEAT    28        ****      
+2 ImpStrike   FEAT    21        ****      
+3 Survival    SKILL   29        4         
+4 Base_Attack BAB     4         ****      

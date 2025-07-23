@@ -1,0 +1,57 @@
+In a reclusive monastery in the heart of an ancient forest, a varied group of druids and arcane spellcasters train together.  The adherents of this monastery work to perfect a unique fighting and spellcasting style that relies on wielding a pair of daggers at all times.  Some of these students - known as daggerspell shapers - blend the fighting style with druid magic, spinning a deadly web of steel in front of them as they perform powerful feats of natural magic, or blending their daggers into the claws and talons of their wild-shaped forms.
+
+Daggerspell shapers see the precise martial powers of their twin-dagger style and their magic as an extension of one powerful philosophy.  The shapers seek truth in all things, believing that you can seperate right from wrong and nature from corruption with the clean slice of a blade.  Although never numerous, shapers are respected as judges, warriors, and defenders of the weak.
+
+Almost every daggerspell shaper begins her career as a druid, taking a level or two of rogue after a few successful adventures.  These individuals are drawn to the exotic fighting style and balanced ideals of the guild.  Although most daggerspell shapers are primarily spellcasters, some have more complicated multiclass pathways that include ranger or barbarian levels.  These shapers follow all the precepts of the guild, but they are more likely to defend nature with the steel of their daggers than with their spells.
+
+**Requirements**
+
+Alignment: Any nonevil
+Skills: Concentration 8
+Feats: Weapon Focus (Dagger), Two-Weapon Fighting, Wild Shape, Sneak Attack 1d6
+
+**Class Features**
+
+HD: d6
+BAB: Medium
+High Saves: Reflex, Will
+Weapon and Armor proficiency: None
+
+Class Skills: Craft Weapon, Craft Armor, Concentration, Heal, Hide, Listen, Lore, Move Silently, Spellcraft, Spot, Survival, Tumble
+Skill points: 6 + Int modifier
+
+**Class Abilities**
+
+Level 1: Daggercast, Wild Shape (1/day), Spellcasting Progression
+Level 2: Dagger claws
+Level 3: Sneak Attack +1d6
+Level 4: Wild Shape (2/day)
+Level 5: 
+Level 6: Sneak Attack +2d6
+Level 7: Wild Shape (3/day)
+Level 8: 
+Level 9: Sneak Attack +3d6
+Level 10: Daggerspell flurry, Wild Shape (4/day)
+
+Spellcasting Progression: At each level except 2nd, a daggerspell shaper gains new spells per day as if he had also gained a level in a divine spell-casting class to which he belonged before adding the prestige class level.
+
+Daggercast: When making a melee touch attack spell the shaper uses her dagger to deliver the spell, adding her right hand's dagger damage to the spells (base dagger damage plus any enhance bonus). Supported spells are Cause Light Wounds, Cause Moderate Wounds, Cause Serious Wounds, Harm, and the reserve feat Clap of Thunder.
+
+Wild Shape: Wild Shape: Daggerspell shaper class levels stack with druid levels (along with Lion of Talisid and Nature's Warrior) to determine wild shape abilities. A daggerspell shaper gains one additional daily use of her wild shape ability at 1st level, 4th level, 7th level, and 10th level.
+
+Dagger Claws: When a daggerspell shaper of 2nd level or higher uses wild shape, she adds the enhance bonus from the dagger she is holding in her right hand into the natural attacks of her new form.  
+
+Daggerspell Flurry: A 10th-level daggerspell shaper can blend spellcasting with a flurry of dagger attacks. When delivering a touch attack spell and wielding daggers, the daggerspell shaper adds each of her dagger's damage (base damage plus any enhance bonus) to the touch spell's damage. This replaces the Daggercast ability by adding both daggers damage instead of the main hand's damage. Supported spells are Cause Light Wounds, Cause Moderate Wounds, Cause Serious Wounds, Harm, and the reserve feat Clap of Thunder. Each dagger's damage is applied separately of the touch spell's affect.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

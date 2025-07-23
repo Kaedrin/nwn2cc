@@ -1,0 +1,26 @@
+2DA V2.0
+
+   FeatLabel                                     FeatIndex List GrantedOnLevel OnMenu 
+0  WeapProfSim                                   46        3    1              0      
+1  ArmProfLgt                                    3         3    1              0      
+2  ArmProfMed                                    4         3    1              0      
+3  ArmProfHvy                                    2         3    1              0      
+4  Shield                                        32        3    1              0      
+5  WeapProfMar                                   45        3    1              0      
+6  FEAT_SB_SHOCK_BLADE1                          3077      3    1              1      
+7  FEAT_SB_SHOCK_BLADE2                          3078      3    3              1      
+8  FEAT_SB_HOLY_BLADE1                           3079      3    5              1      
+9  FEAT_SB_SHOCK_BLADE3                          3171      3    5              1      
+10 FEAT_SB_HOLY_BLADE2                           3080      3    7              1      
+11 FEAT_SB_SHOCK_BLADE4                          3172      3    7              1      
+12 FEAT_SB_HOLY_BLADE3                           3081      3    9              1      
+13 FEAT_SB_SHOCK_BLADE5                          3173      3    9              1      
+14 FEAT_SHINING_BLADE_SPELLCASTING_SPIRIT_SHAMAN 2999      2    1              0      
+15 FEAT_SHINING_BLADE_SPELLCASTING_CLERIC        3000      2    1              0      
+16 FEAT_SHINING_BLADE_SPELLCASTING_DRUID         3001      2    1              0      
+17 FEAT_SHINING_BLADE_SPELLCASTING_PALADIN       3002      2    1              0      
+18 FEAT_SHINING_BLADE_SPELLCASTING_RANGER        3003      2    1              0      
+19 FEAT_SHINING_BLADE_SPELLCASTING_FAVORED_SOUL  3004      2    1              0      
+20 FEAT_EPIC_SPELL_DAMNATION                     1991      0    21             2      
+21 FEAT_EPIC_SPELL_EPIC_GATE                     1993      0    21             2      
+22 FEAT_EPIC_SPELL_VAMPIRIC_FEAST                1995      0    21             2      

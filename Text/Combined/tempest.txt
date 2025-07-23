@@ -1,0 +1,47 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 5 levels.
+
+A tempest is the point of calm within a whirling barrier of deadly blades.  Poets use colorful terms such as "dancing" to describe the movement of a tempest and her two blades, but mastery of this fighting style is not about dancing, nor is it about impressing anyone - least of all poets.  A tempest focuses on learning the secrets of two-weapon fighting for a single purpose: the destruction of her enemies.
+
+**Requirements:**
+
+Base Attack Bonus: +6
+Required Feats: Dodge, Mobility, Spring Attack, Improved Two-Weapon Fighting (including Ranger version)
+
+**Class Features:**
+
+Hit Die: d10
+Base Attack Bonus: High.
+High Saves: Fortitude.
+Weapon Proficiencies: None.
+Armor Proficiencies: None.
+Skill Points: 2 + Int modifier.
+Class Skills: Concentration, Craft Alchemy, Craft Armor, Craft Weapon, Lore, Parry, Sleight of Hand, Taunt, and Tumble.
+
+**Class Abilities:**
+
+Level 1: Tempest Defense (+1 AC)
+Level 2: Tempest Defense (+1 AC, +1 AB)
+Level 3: Tempest Defense (+2 AC, +1 AB), Greater Two-Weapon Fighting
+Level 4: Tempest Defense (+2 AC, +2 AB)
+Level 5: Tempest Defense (+3 AC, +2 AB), Whirlwind Attack, Tempest Whirlwind
+
+Bonus Feats: At level 3, the Tempest is granted Greater Two-Weapon Fighting.  At level 5, the Tempest is granted Whirlwind Attack.
+
+Tempest Defense: When wielding two weapons and wearing light or no armor, the Tempest gains the ability to defend herself with more skill and to seek out the gaps in an opponents defense.  At level 1, the tempest gains a +1 Dodge AC bonus.  At level 2, the tempest gains a +1 Attack Bonus in addition to the AC bonus.  At level 3 the Dodge bonus improves to +2.  At level 4 the Attack bonus improves to +2.  At level 5, the Dodge bonus improves to +3.
+
+Tempest Whirlwind: The Tempest's skill with two weapons has improved to the point her whirlwind attack is a deadly dance of blades.  This is an improved Whirlwind Attack that deals an additional 2d6 slashing damage on each attack made.
+
+If the Tempest was a Ranger, the normal Two-Weapon and Improved Two-Weapon feats are granted at level 1.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

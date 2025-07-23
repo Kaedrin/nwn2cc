@@ -1,0 +1,54 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+Hospitalers are a fighting force of necessity, sworn to poverty, obedience, and the defense of those in their care.  It is the duty of knights hospitaler to protect people traveling on religious pilgrimages.  Over the years, this single duty has expanded to include the construction and administration of hospitals and refugee facilities.
+
+**Requirements:**
+
+Alignment: Any nonchaotic.
+Base Attack Bonus: +5
+Spellcasting: Able to cast 1st level divine spells.
+Skills: Diplomacy 5 ranks
+
+**Class Features:**
+
+Hit Die: d8
+Base Attack Bonus: High.
+High Saves: Fortitude.
+Weapon Proficiencies: Simple and martial weapons.
+Armor Proficiencies: All armors (light, medium, and heavy) as well as shields (excluding tower shields).
+Skill Points: 2 + Int modifier.
+Class Skills: Concentration, Craft Alchemy, Craft Armor, Craft Weapon, Diplomacy, Heal, Lore, and Parry
+
+**Class Abilities:**
+
+Level 1: Lay on Hands, Bonus Feat, Divine Spellcasting
+Level 2: 
+Level 3: Remove Disease 1/day
+Level 4: 
+Level 5: Bonus Feat
+Level 6: 
+Level 7: Remove Disease 2/day
+Level 8: 
+Level 9: Bonus Feat
+Level 10: 
+
+Divine Spellcasting: Hospitalers gain new spells per day and an added level of effective spellcasting in any divine casting class. This spellcasting ability increase is gained at the levels 2, 3, 4, 6, 7, 8, and 10.
+
+Bonus Feats: Hospitalers gain bonus feats as a fighter at levels 1, 5, and 9. The bonus feats are drawn from the following list: Armor Specialization (any), Battle Dancer, Blind Fight, Champion of the Wild's Extra Wrath feats, Cleave, Combat Mastery (any), Deadly Defense, Deflect Arrow, Disarm, Dodge, Elemental Archer's Improved Elemental Shield, Elemental Archer's Improved Elemental Storm, Epic Toughness, Epic Weapon Focus (any), Exotic Weapon Proficiency, Expertise, Fiery Fist, Fiery Ki Defense, Great Attribute increase line, Great Cleave, Greater Weapon Focus (any), Improved Critical (any), Improved Disarm, Improved Expertise, Improved Initiative, Improved Knockdown, Improved Parry, Improved Power Attack, Improved Unarmed Strike, Improved Whirlwind Attack, Knockdown, Manyshot, Mobility, Oversized Two-Weapon Fighting, Penetrating Shot, Point Blank Shot, Power Attack, Rapid Reload, Rapid Shot, Spring Attack, Stunning Fist, Toughness, Two-Weapon Defense line, Weapon Focus (any), Weapon Finesse, and Whirlwind Attack.
+
+Remove Disease: Starting at 3rd level a hospitaler can remove disease with a touch once per day.  This increase to two uses per day at 7th level.
+
+Lay on Hands: Beginning at 1st level, a hospitaler with a Charisma score of 12 or higher can heal wounds (her own or those of others) by touch. Each day she can heal a total number of hit points of damage equal to her hospitaler level times her Charisma bonus. For example, a 7th-level hospitaler with a 16 Charisma (+3 bonus) can heal 21 points of damage per day.  Hospitaler levels stack with Paladin and Divine Champion for determining the effects of the heal.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

@@ -1,0 +1,67 @@
+Feral Shifter
+[spoiler]This is a base class. You may not take any other class (base or prestige).
+
+Class Features
+
+HD: d6
+BAB: High
+High Saves: Fort, Ref
+Weapon proficiency: Simple, Creature
+Armor proficiency: None
+
+Class Skills: Appraise, Bluff, Craft Alchemy, Craft Armor, Craft Weapon, Craft Trap, Disable Device, Intimidate, Healing, Hide, Listen, Lore, Move Silently, Search, Set Trap, Spot, Survival, and Tumble
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Damage Reduction 5/Alchemical Silver, Chosen Form
+Level 2: Weapon Focus (Bite)
+Level 3: Multiattack
+Level 4: +1 Enhanced Claws
+Level 5: Bonus Feat: Improved Critical (Creature Weaponry)
+Level 6: Fast Healing 1
+Level 7: Improved Damage I
+Level 8: +2 Enhanced Claws
+Level 9: Trapfinding
+Level 10: Bonus Feat: Weapon Specialization (Creature Weaponry)
+Level 11: Damage Reduction 10/Alchemical Silver
+Level 12: +3 Enhanced Claws, Fast Healing 2
+Level 13: Nature's Recovery
+Level 14:
+Level 15: Bonus Feat: Greater Weapon Focus (Creature Weaponry)
+Level 16: +4 Enhanced Claws
+Level 17: Improved Damage II
+Level 18: Fast Healing 3
+Level 19:
+Level 20: +5 Enhanced Claws, Bonus Feat: Greater Weapon Specialization (Creature Weaponry)
+Level 21: Damage Reduction 15/Alchemical Silver
+Level 22:
+Level 23: Bonus Epic Feat
+Level 24: +6 Enhanced Claws, Fast Healing 4
+Level 25: Bonus Feat: Epic Weapon Focus (Creature Weaponry)
+Level 26: Bonus Epic Feat
+Level 27: Improved Damage III
+Level 28: +7 Enhanced Claws
+Level 29: Bonus Epic Feat
+Level 30: Fast Healing 5, Bonus Feat: Epic Weapon Specialization (Creature Weaponry)
+
+Chosen Form: You choose the shape you always assume from the following list: wolf, dire wolf, worg, telthor wolf, bear, dire bear, leopard, werewolf (requires lythari), black/bronze dragonling (requires spellscale) and spider (2 types?).
+
+Physical stats in feral form are 14 plus half your level (improves on even levels). Base damage is d8.
+
+Improved Damage: Your base damage increases from d6 to d8 at 7th. It improves again at 17th level to 2d6 and again at 27th level to 3d6.
+
+Nature's Recovery: This ability has a five minute cooldown and allows a feral shifter to regenerate 25% of their total hit points while out of combat.
+
+Equipment properties transfer to the feral form just like a druid. You can shift at will with no limit.
+
+Final Stats (level 30 Feral Shifter)
+Strength: 29
+Dexterity: 29
+Constitution: 29
+Armor Class: 36 (10 + 9 Dex + 17 Nat AC) (Could boost by adding defl, dodge, and armor enh from items)
+Damage: 3d6 + 9 (Strength) +7 (Enhance) +8 (Wpn Spec)
+
+Keep in mind you will not be able to use any activated feats while shifted due to engine limitations (such as knockdown, etc).
+
+UMD will not be available to the class.[/spoiler]

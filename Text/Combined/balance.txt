@@ -1,0 +1,434 @@
+These numbers do not reflect Tumble AC, Dodge Feat, Haste, Luck of
+Heroes, Power Attack, Combat Expertise, Armored Skin, or Epic Prowess
+(Fighter does due to sheer number of feats).
+
+
+**
+
+Cleric 30 (Sword/Board)
+
+Weapon Focus +1 AB
+
+10 Base AC
++8 Armor (Mith Full Plate)
++5 Armor Enhance
++3 Dex (16 Dex)
++3 Dodge (Boots)
++3 Dodge (Recitation)
++3 NatAC (Amulet)
++4 Defl (Aura vs Align)
++2 Heavy Shield
++5 Shield Enhance
+
+46 Total AC (Not counting Divine Shield)
+
+
+30 BAB
++8 AB (27 Str, 21 Base +6 DivPower)
++1 AB (Bless)
++3 AB (DivFav)
++1 AB (Aid)
++1 AB (Prayer)
++3 AB (Recitation)
++1 AB (Wpn Focus)
++5 AB (Enhance, GMW)
++4 AB (Intuit Attack)
+
++57 Total AB, 6 Attacks
+
+
++8 Dmg (27 Str, 21 Base +6 DivPower)
++3 Dmg (DivFav)
++1 Dmg (Prayer)
++5 Dmg (Enhance, GMW)
++12 Dmg (EDM, 22 Cha)
+
++29 Total Dmg (Not Counting Holy Warrior for the War domain)
+
+**
+
+Spirit Shaman 30 (Sword/Board)
+
+Weapon Focus +1 AB
+
+10 Base AC
++8 Armor (Mith Full Plate)
++3 Armor Enhance
++3 Dex (16 Dex)
++3 Dodge (Boots)
++9 NatAC (Tortoise)
++4 Defl (Halo Sand)
++2 Heavy Shield
++3 Shield Enhance
+
+45 Total AC
+
+22 BAB
++4 AB (18 Str, 14 Base +4 BullStr)
++1 AB (Wpn Focus)
++3 AB (Enhance)
+
++30 Total AB, 5 Attacks
+
+
+
++4 Dmg (18 Str, 14 Base +4 BullStr)
++3 Dmg (Enhance)
++5 Dmg (Flame Weapon)
++11 Dmg (Storm Avat)
++3 Dmg (Thorn Skin)
+
++26 Total Dmg
+
+
+**
+
+Fighter 30 (Sword/Board)
+
+10 Base AC
++8 Armor (Full Plate)
++3 Armor Enhance
++1 Dex (12 Dex)
++3 Dodge (Epic HAO)
++1 Dodge (WpnSupreme)
++3 Dodge (Boots)
++3 NatAC (Amulet)
++3 Defl (Cloak)
++2 Heavy Shield
++3 Shield Enhance
+
+40 Total AC
+
+30 BAB
++9 AB (28 Str, 25 Base +3 Enhance)
++4 AB (Epic Wpn Focus)
++3 AB (Enhance)
++2 AB (MWM)
++1 AB (WpnSupreme)
++1 AB (EpicProwess)
+
++50 Total AB, 6 Attacks
+
+
++9 Dmg (28 Str, 25 Base +3 Enhance)
++3 Dmg (Enhance)
++6 Dmg (Epic Wpn Spec)
++2 Dmg (MWM)
+
++20 Total Dmg
+
+**
+
+Monk 30 (Unarmed)
+
+10 Base AC
++3 Armor Enhance
++8 Dodge (26 Wisdom, 23 Base, 3 Enhance)
++6 Dodge (Monk)
++3 Dex (16 Dex)
++3 Dodge (Boots)
++3 NatAC (Amulet)
++3 Defl (Cloak)
+
+40 Total AC
+
+25 BAB
++3 AB (16 Str, 14 Base +2 Enhance)
++8 AB (Intuit Attack)
++3 AB (Enhance)
++1 AB (Wpn Focus)
+
+
++40 Total AB, 9 Attacks (Flurry is bugged and grants +3)
+
+
++3 Dmg (16 Str, 14 Base +2 Enhance)
++3 Dmg (Enhance)
++4 Dmg (Fiery Fist)
+
++10 Total Dmg (on 3d10 fists)
+
+**
+
+Rogue 30
+
+10 Base AC
++3 Armor Enhance
++10 Dex (30 Dex, 27 Base, +3 Enhance)
++3 Dodge (Boots)
++3 NatAC (Amulet)
++3 Defl (Cloak)
++4 Shield Enh (Scroll)
+
+36 Total AC
+
+25 BAB
++10 AB (30 Dex, 27 Base, +3 Enhance)
++1 AB (Wpn Focus)
++3 AB (Enhance)
+-2 AB (Dual Wield)
+
++37 Total AB, 10 Attacks (5 main, 5 off)
+
+
++3 Dmg (16 Str, 14 Base +2 Enhance)
++3 Dmg (Enhance)
+
++6 Total Dmg (not counting 15d6+ sneak attack, 1d6 Deadly Defense)
+
+**
+
+Paladin 30 (Sword/Board)
+
+Weapon Focus +1 AB
+
+10 Base AC
++8 Armor (Mith Full Plate)
++3 Armor Enhance
++3 Dex (14 Dex, +2 Enhance)
++3 Dodge (Boots)
++4 NatAC (DracMight)
++3 Defl (Cloak)
++2 Heavy Shield
++3 Shield Enhance
++4 Shield Enhance (ShieldWard)
++2 Dodge (Silverbeard)
+
+45 Total AC
+
+30 BAB
++7 AB (25 Str, 21 Base +4 Enhance)
++1 AB (Wpn Focus)
++4 AB (Enhance, GMW)
++2 AB (RightFury)
++1 AB (Bless)
++1 AB (Aid)
+
++46 Total AB, 6 Attacks
+
+
++7 Dmg (25 Str, 21 Base +4 Enhance)
++4 Dmg (Enhance, GMW)
++2 Dmg (RightFury)
++18 Dmg (EDM, 29 Cha, 21 Base +8 Enhance)
+
++31 Total Dmg
+
+**
+
+Bard 30
+
+Weapon Focus +1 AB
+
+10 Base AC
++4 Armor (Mith Chain Shirt)
++3 Armor Enhance
++6 Dex (22 Dex, 20 Base +2 Enhance)
++3 Dodge (Boots)
++3 NatAC (Amulet)
++3 Defl (Cloak)
++4 Shield Enh (Scroll)
+
+36 Total AC (Does not account for Mirror Image)
+
+22 BAB
++3 AB (16 Str, 14 Base +2 Enhance)
++1 AB (Wpn Focus)
++3 AB (Enhance)
+-2 AB (Dual Wield)
++9 AB (Inspire Courage, +1 Inspir Boost, +1 Song Heart, +2 Epic Inspir)
++2 AB (Battle Dancer)
++4 AB (Greater Heroism)
+
++42 Total AB, 10 Attacks (5 main, 5 off)
+
+
++3 Dmg (16 Str, 14 Base +2 Enhance)
++3 Dmg (Enhance)
++9 Dmg (Inspire Courage, +1 Inspir Boost, +1 Song Heart, +2 Epic Inspir)
++4 Dmg (Sonic Wpn)
+
++19 Total Dmg
+
+**
+
+Barbarian 30 (Sword/Board)
+
+10 Base AC
++8 Armor (Mithril Full Plate)
++3 Armor Enhance
++3 Dex (14 Dex, +2 Enhance)
++3 Dodge (Boots)
++8 NatAC (Ice Troll Berserker)
++3 Defl (Cloak)
++2 Heavy Shield
++3 Shield Enhance
++5 Dodge (Whirlwind Frenzy)
+
+48 Total AC
+
+30 BAB
++14 AB (28 Str, 25 Base +3 Enhance, +10 Rage)
++1 AB (Wpn Focus)
++3 AB (Enhance)
+-2 AB (Whirlwind Frenzy)
+
++46 Total AB, 7 Attacks (+1 Whirlwind Frenzy)
+
+
++14 Dmg (38 Str, 25 Base +3 Enhance, +10 Rage)
++3 Dmg (Enhance)
+
++17 Total Dmg
+
+**
+
+Swashbuckler 30 (Sword/Board)
+
+10 Base AC
++4 Armor (Mithril Chain Shirt)
++3 Armor Enhance
++6 Dex (22 Dex, 20 Base, +2 Enhance)
++3 Dodge (Boots)
++3 NatAC (Amulet)
++3 Defl (Cloak)
++2 Heavy Shield
++3 Shield Enhance
++6 Dodge (Swash Dodge)
+
+43 Total AC
+
+30 BAB
++7 Dex (24 Dex, 22 Base, +2 Enhance)
++1 AB (Wpn Focus)
++3 AB (Enhance)
++1 AB (Epic Prowess)
+
++42 Total AB, 6 Attacks
+
++3 Dmg (Enhance)
++4 Dmg (Insightful Strike, 19 Int, 16 Base +3 Enhance)
++4 Dmg (Combat Insight, 19 Int, 16 Base +3 Enhance)
+
++11 Total Dmg (not counting 1d6 Deadly Defense)
+
+**
+
+Ranger 30 (Dual Wield)
+
+10 Base AC
++3 Armor Enhance
++10 Dex (30 Dex, 26 Base, +4 Enhance)
++3 Dodge (Boots)
++5 NatAC (Barkskin)
++4 Defl (Halo Sand)
++4 Dodge (Protective Ward)
+
+39 Total AC
+
+30 BAB
++10 AB (30 Dex, 26 Base, +4 Enhance)
++1 AB (Wpn Focus)
++3 AB (Enhance)
+-2 AB (Dual Wield)
++2 AB (Protective Ward)
++1 AB (Aid)
+
++45 Total AB, 10 Attacks (5 main, 5 off)
+
+
++3 Dmg (16 Str, 14 Base +2 Enhance)
++3 Dmg (Enhance)
+
++6 Total Dmg (not counting 1d6 Deadly Defense)
+
+**
+
+Scout 30
+
+10 Base AC
++3 Armor Enhance
++10 Dex (30 Dex, 27 Base, +3 Enhance)
++3 Dodge (Boots)
++3 NatAC (Amulet)
++3 Defl (Cloak)
++7 Dodge (Scout)
+
+39 Total AC
+
+22 BAB
++10 AB (30 Dex, 27 Base, +3 Enhance)
++1 AB (Wpn Focus)
++3 AB (Enhance)
+-2 AB (Dual Wield)
+
++34 Total AB, 10 Attacks (5 main, 5 off)
+
+
++3 Dmg (16 Str, 14 Base +2 Enhance)
++3 Dmg (Enhance)
+
++6 Total Dmg (not counting 8d6+ sneak attack, 1d6 Deadly Defense)
+
+**
+
+Hexblade 30 (Sword/Board)
+
+10 Base AC
++8 Armor (Mithril Full Plate)
++3 Armor Enhance
++3 Dex (14 Dex, +2 Enhance)
++3 Dodge (Boots)
++3 NatAC (Amulet)
++3 Defl (Cloak)
++2 Heavy Shield
++3 Shield Enhance
+
+38 Total AC (Potential +8 from Epic Hexblade Curse)
+
+30 BAB
++3 AB (16 Str, 14 Base +2 Enhance)
++1 AB (Wpn Focus)
++5 AB (Enhance, GMW)
+
++39 Total AB, 6 Attacks (Potential +10 from Epic Hexblade Curse + Dark
+Companion)
+
+
++3 Dmg (16 Str, 14 Base +2 Enhance)
++5 Dmg (Enhance, GMW)
++2 Dmg (Arcane Strike)
+
++10 Total Dmg
+
+**
+
+Knight 30 (Sword/Board)
+
+10 Base AC
++8 Armor (Mithril Full Plate)
++3 Armor Enhance
++3 Dex (14 Dex, +2 Enhance)
++3 Dodge (Boots)
++3 NatAC (Amulet)
++3 Defl (Cloak)
++2 Heavy Shield
++3 Shield Enhance
++3 Shield Enhance (Improved Shield Specialization)
+
+41 Total AC
+
+30 BAB
++3 AB (16 Str, 14 Base +2 Enhance)
++1 AB (Wpn Focus)
++3 AB (Enhance)
++6 AB (Battle Fervor)
+
++43 Total AB, 6 Attacks
+
+
++3 Dmg (16 Str, 14 Base +2 Enhance)
++3 Dmg (Enhance)
++6 Dmg (Battle Fervor)
+
++12 Total Dmg

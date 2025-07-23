@@ -1,0 +1,7 @@
+2DA V2.0
+
+  LABEL             ReqType  ReqParam1 ReqParam2 
+0 LoreSkill         SKILL    7         8         
+1 Warlock           CLASSOR  39        ****      
+2 Divine            DIVSPELL 2         ****      
+3 TurnUndead        FEAT     294       ****      

@@ -1,0 +1,115 @@
+Thoughts?
+
+Dragon Shaman
+
+Empires crumble, eons pass, and even gods wither and die, but dragons remain. Mortal but eternal, the races of true dragons weather the roll of the ages because of their unsurpassed might. Few creatures can match a dragon in its full fury, whether in a combat of arms or battle of wits. Dragon shamans recognize this fact and see true dragons as more powerful beings. To a dragon shaman, the passing shadow of a dragon flying overhead isn't a sign that invokes fear; it's a blessing that reveals you to be in the presence of greatness.
+
+Dragon shamans respect true dragons as power incarnate. Some worship dragons, but most simply aspire to gain dragon powers for themselves. In assuming the abilities and the likeness of a dragon, a dragon shaman seeks to emulate that might and embody that power within himself.
+
+This is a base class. It has unique access to the Dragon Lord prestige class.
+
+Class Features
+
+HD: d10
+BAB: Medium
+High Saves: Fort, Will
+Weapon proficiency: Simple.
+Armor proficiency: Light, Medium and Shields (except Tower Shields).
+
+Class Skills: Bluff, Craft Armor, Craft Weapon, Heal, Hide, Intimidate, Lore, Move Silently, Parry, and Search.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Draconic Aura +1, Totem Dragon, 3 Aura's Known
+Level 2: Skill Focus
+Level 3: 4 Auras Known
+Level 4: Breath Weapon (2d6), Draconic Resolve
+Level 5: Draconic Aura +2, 5 Auras Known
+Level 6: Breath Weapon (3d6), Touch of Vitality (heal wounds)
+Level 7: Natural Armor +1, 6 Auras Known
+Level 8: Breath Weapon (4d6), Skill Focus
+Level 9: Energy Immunity, 7 Auras Known
+Level 10: Breath Weapon (5d6), Draconic Aura +3
+Level 11: Touch of Vitality (remove conditions), 8 Auras Known
+Level 12: Breath Weapon (6d6), Natural Armor +2
+Level 13: 9 Auras Known
+Level 14: Breath Weapon (7d6)
+Level 15: Draconic Aura +4, 10 Auras Known
+Level 16: Breath Weapon (8d6), Skill Focus
+Level 17: Natural Armor +3
+Level 18: Breath Weapon (9d6)
+Level 19: Draconic Wings (FS replacement ability)
+Level 20: Breath Weapon (10d6), Draconic Aura +5
+Level 21:
+Level 22: Breath Weapon (11d6), Natural Armor +4
+Level 23: Bonus Epic Feat
+Level 24: Breath Weapon (12d6)
+Level 25: Draconic Aura +6
+Level 26: Breath Weapon (13d6), Bonus Epic Feat
+Level 27: Natural Armor +5
+Level 28: Breath Weapon (14d6)
+Level 29: Bonus Epic Feat
+Level 30: Breath Weapon (15d6), Draconic Aura +7
+
+Dragon Shamans get bonus epic feats at 23, 26, and 29.
+
+Draconic Aura: You can channel the mighty powers of dragonkind to project an aura that grants you and nearby allies a special benefit. An aura remains in effect until you dismiss it or you activate another aura in it's place. Your draconic aura affects all allies within 30 feet (including yourself).
+
+The bonus granted by your aura begins at +1 and increases to +2 at 5th level, +3 at 10th level, +4 at 15th level, +5 at 20th level, +6 at 25th level, and +7 at 30th level. You start with three auras and gain another at each odd level.
+
+Totem Dragon: At first level, you choose which type of true dragon you venerate above all others. Your breath weapon will be based upon the dragon you select.
+
+Skill Focus: At 2nd level, you gain Skill Focus (Bluff) as a bonus feat. At 8th level you gain Skill Focus (Hide) and at 16th level you gain Skill Focus (Move Silently).
+
+Breath Weapon: At 4th level, you gain a breath weapon corresponding to your totem dragon. All breath weapons deal 2d6 points of damage, plus an extra 1d6 points of damage for every two addtional class levels (3d6 at 6th level, 4d6 at 8th level, and so forth). A successful Reflex save halves the damage dealth; the save DC is equal to 10 + 1/2 your Dragon Shaman level + your Con modifier. This ability has a 15 second cooldown before it can be used again.
+
+The breath weapon is a cone shaped blast of energy dependent on your dragon choice (see below) that initially extends out to 15 feet. This increases to 30 feet at 12th level and 60 feet at 20th level.
+
+Black, Copper, Green: Acid
+Blue, Bronze: Electricity
+Brass, Gold, Red: Fire
+Silver, White: Cold
+
+Draconic Resolve: At 4th level, you gain immunity to paralysis, fear, and sleep effects.
+
+Touch of Vitality: At 6th level, you can heal the wounds of living creatures (your own or others) by touch. Each day you can heal a number of points of damage equal to twice your class level * your Charisma bonus. For example, a 7th-level dragon shaman with a Charisma score of 14 (+2 bonus) can heal 28 points of damage. It has no effect on undead. This ability can be used repeatedly until you run out of points (so you can heal a player for 20 points and then another for 8 points using the previous example).
+
+Beginning at 11th level your touch of vitality can remove status effects from your target. Damage is healed first, followed by curses, then poison, and finally negative levels, blindness, deafness, and disease.
+
+   Curse: 20 points to remove.
+   Poison: 10 points to remove.
+   Negative Levels: 20 points to remove.
+   Blindness: 20 points to remove.
+   Deafness: 20 points to remove.
+   Disease: 20 points to remove.
+
+Natural Armor: At 7th level, your skin thickens, developing faint scales. Your natural armor bonus improves by 1. At 12th level, this improvement increases to +2, +3 at 17th level, +4 at 22nd level, and at 27th level to +5.
+
+Energy Immunity: At 9th level, you gain immunity to the energy type of the breath weapon you gained at 4th level.
+
+Auras:
+
+   Energy Shield: Any creature striking you or your ally is dealt 2 points of energy damage for each point of your aura bonus. The energy type is that of your totem dragon's damage dealing breath weapon. This aura is gained at 1st level.
+   Power: Bonus on melee damage rolls equal to your aura bonus. This aura is gained at 1st level.
+   Vigor: You and your party heal 1 point for each point of your aura bonus every 2 rounds. This aura is gained at 1st level.
+   Toughness: DR 1/Magic for each point of your aura bonus. This aura is gained at 3rd level.
+   Resistance: Resistance to your totem dragon's energy type equal to 5 x your aura bonus. This aura is gained at 5th level.
+   Energy: This aura grants you a bonus on the save DC for your acid, cold, electricity, or fire effects. The bonus applies to spells, powers, spell-like abilities, supernatural abilities, or any other ability that either has the appropriate descriptor or deals damage of the chosen type. This aura is gained at 7th level.
+   Stamina: This aura grants you a bonus on Fortitude saves. This aura is gained at 9th level.
+   Resolve: This aura grants you a bonus on Concentration checks and on saves against fear, paralysis, and sleep effects. This aura is gained at 11th level.
+   Senses: Bonus on Listen and Spot checks equal to your aura bonus. This aura is gained at 13th level.
+   Presence: Bonus on Bluff, Diplomacy, and Intimidate checks equal to your aura bonus. This aura is gained at 15th level.
+
+New Feat: Ability Focus (Dragon Breath)
+New Feat: Double Draconic Aura
+
+Content expected when the Dragon Shaman is released that it will have access to or may be created to shore up the class based on feedback:
+
+   I'm adding the feat Dreadful Wrath. It's a level 1 background feat that provides a Debuff Aura like the Blackguard has (Will Save vs DC 10 + 1/2 Char Level + Cha Mod or suffer -2 Saves, -2 AC, -2 AB). It will stack with Dark Companion, the Blackguard's aura, and the Hexblade's curse.
+   I'm adding the feat Battle Casting. It's only for the custom spellbook casters and adds a +2 Dodge AC bonus for 6 seconds after casting a custom spellbook spell (from RotW).
+   I may add support for the Devotion feats to the custom spellbook casters.
+   Arcane Duelist for a 2 level dip gives huge rewards. Blackguard 3 has great synergy as well.
+   New Items such as Veil of Allure (+2 Cha based DCs), Bloodstone enchant (MIC), and Ring of Arcane Might (+1 CL, +1 all DCs)
+   New feat granted a level 1 to the Hexblade and Blackguard (possibly any with Intimidate as a class skill): Demoralize Opponent - Use a standard action and make an opposed Intimidate check to fear your enemy (Shaken effect for -2 AC, -2 AB, -2 Saves). Stacks with all other types of negatives.
+   I'm open to adding Dragon Leadership + Epic Leadership as feats for the custom spellbook casters that will allow them to summon a dragon companion based on their level + charisma bonus. A level 30 character with a 40 Charisma would summon a level 28 Dragon. I'm also open to using this as the foundation of my "pet upgrade" system where you give pets magic items (following the pnp rules that allow animals to equip most types of magic items). This would be quite a buff to the pet (at the expense of drops) and provide a level 23-28 full BAB, nasty pet for two feats.

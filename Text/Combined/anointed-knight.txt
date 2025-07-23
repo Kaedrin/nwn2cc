@@ -1,0 +1,71 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+The anointed knight is a holy soldier who has taken great pains to learn the intricacies of alchemy in order to become a more capable combatant.  Armed with an ancestral weapon, she searches for obscure lore, consults with alchemists and sages, and communes with the powers of good.  Her unquenchable thirst for knowledge is matched only by her extraordinary combat prowess.
+
+An anointed knight crafts and draws power from magically created oils.  By anointing herself with these oils, she unlocks new supernatural powers within her being.  She also coats her ancestral weapon with special oils that bestow additional qualities upon the weapon.
+
+Anointed knights are typically paladins or fighters with one or more wizard or cleric levels.  Occasionally, an anointed knight emerges from the ranks of single-class wizards, sorcerers, clerics, or bards.
+
+**Requirements**
+
+Alignment: Any good.
+Skills: Craft Alchemy 3, Lore 3, Spellcraft 1.
+BAB: +5
+Feats: Iron Will
+
+**Class Features**
+
+HD: d10
+BAB: High
+High Saves: Fort, Will
+Weapon and Armor proficiency: All simple and martial weapons, all types of armor, and all types of shields.
+
+Class Skills: Craft Weapon, Craft Armor, Craft Alchemy, Concentration, Diplomacy, Heal, Lore, Parry, Spellcraft, and Tumble.
+Skill points: 4 + Int modifier
+
+**Class Abilities**
+
+Level 1: Anoint Self (Holy Sight)
+Level 2: Anoint ancestral weapon
+Level 3: Bonus feat
+Level 4: Anoint Self (Celestial Strategy)
+Level 5: Unbroken Flesh
+Level 6: Bonus feat
+Level 7: Anoint Self (Call to Battle)
+Level 8: Sacred Flesh
+Level 9: Bonus feat
+Level 10: Bonus feat
+
+Anoint Self: An anointed knight concocts a magical oil with which to anoint herself.  Once the oil is applied, the anointed knight permanently gains a new supernatural ability listed below.  
+
+Level 1: Holy Sight (Blind-Fight)
+Level 4: Celestial Strategy (Toughness)
+Level 7: Call to Battle (Alertness)
+
+Anoint Ancestral Weapon: An anointed knight concocts a magic oil with which to coat her ancestral weapon. Once the oil is applied, the ancestral weapon gains a new supernatural ability chosen from the list below for 4 rounds per level. This ability can be used ten times per day.
+
+List of Choices:
+Flaming
+Frost
+Vampiric +2
+Shock
+Massive Criticals (2d10)
+
+Unbroken Flesh: The anointed knight uses a special concoction of magical oils to apply to her flesh at 5th-level granting permanent damage reduction of 3/-. Note: Only Greater Resiliency and the Epic Damage Reduction feats stack with this DR.
+
+Sacred Flesh: Through sacred rituals and special magical oils, an 8th-level anointed knight gains spell resistance equal to 10 + character level.
+
+Bonus Feat: At 3rd level, and again at 6th, 9th, and 10th level, the anointed knight gains a bonus feat.  This feat must be drawn from the following feats and the anointed knight must meet all the prerequisites for it: Armor Specialization (Heavy), Armor Specialization (Medium), Battle Dancer, Cleave, Combat Expertise, Deadly Defense, Deflect Arrows, Dodge, Elemental Archer's Improved Elemental Shield, Elemental Archer's Improved Elemental Storm, Epic Ability increases, Epic Heavy Armor Optimization, Epic Toughness, Exotic Weapon Proficiency, Fiery Fist, Fiery Ki Defense, Great Cleave, Greater Two-Weapon Defense, Heavy Armor Optimization, Improved Critical, Improved Disarm, Improved Feint, Improved Heavy Armor Optimization, Improved Initiative, Improved Knockdown, Improved Two-Weapon Fighting, Improved Unarmed Strike, Indomitable Soul, Knockdown, Mobility, Oversized Two-Weapon Fighting, Penetrating Shot, Point Blank Shot, Power Attack, Rapid Shot, Spring Attack, Steadfast Determination, Stunning Fist, Two-Weapon Fighting, Weapon Finesse, Weapon Focus, Weapon Mastery (Ranged), Weapon Mastery (Unarmed), Weapon Specialization, Whirlwind Attack.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

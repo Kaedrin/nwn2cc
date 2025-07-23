@@ -1,0 +1,97 @@
+Shadowblades move through the shadows, striking down the unwary and vanishing again with ease. Shadowblades walk where others cannot. They blend their training in stealth and assassination with a focused mind. Their rigorous preparation sharpens their minds and bodies, giving them supernatural abilities of stealth and making them phantoms in the eyes of many. Although shadowblades in battle lack the staying power of martial characters such as fighters or barbarians, they excel at making combat occur on their terms: appearing and disappearing seemingly at a whim.
+This is a base class.
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Ref
+Weapon proficiency: Simple, Monk, and Rogue Weapons.
+Armor proficiency: Light armor.
+
+Class Skills: Appraise, Bluff, Concentration, Craft Alchemy, Craft Traps, Craft Weapon, Craft Armor, Diplomacy, Disable Device, Hide, Intimidate, Listen, Lore, Move Silently, Open Lock, Perform, Search, Sleight of Hand, Spot, Tumble, and Use Magic Device.
+Skill points: 8 + Int modifier
+
+Class Abilities
+
+Level 1: Shadow Power, Trapfinding, Sneak Attack +1d6, Poison Use
+Level 2: Vanishing Trick
+Level 3: Sneak Attack +2d6
+Level 4: Evasion
+Level 5: Sneak Attack +3d6
+Level 6: Shadow Clone
+Level 7: Sneak Attack +4d6
+Level 8: Shadow Strike
+Level 9: Sneak Attack +5d6
+Level 10: Shadowblade Talent
+Level 11: Sneak Attack +6d6
+Level 12: Shadowblade Talent
+Level 13: Sneak Attack +7d6
+Level 14: Shadowblade Talent
+Level 15: Sneak Attack +8d6
+Level 16: Ghost Sight
+Level 17: Sneak Attack +9d6
+Level 18: Shadowblade Talent
+Level 19: Sneak Attack +10d6
+Level 20: Shadowblade Talent
+Level 21: Sneak Attack +11d6
+Level 22: Shadowblade Talent
+Level 23: Bonus Epic Feat, Sneak Attack +12d6
+Level 24: Shadowblade Talent
+Level 25: Sneak Attack +13d6
+Level 26: Bonus Epic Feat, Shadowblade Talent
+Level 27: Sneak Attack +14d6
+Level 28: Shadowblade Talent
+Level 29: Bonus Epic Feat, Sneak Attack +15d6
+Level 30: Shadowblade Talent
+
+Shadowblades gain bonus epic feats at 23rd, 26th, and 29th level.
+
+Shadow Power: A shadowblade can tap into the shadow plane to manifest special powers of stealth and mobility. She can use her shadow powers a number of times per day equal to her class level (up to 30 uses/day). Shadow powers can be used only if a shadowblade is wearing no armor and is unencumbered.
+
+Vanishing Trick: Starting at 2nd level, a shadowblade can spend one daily use of her Shadow Power to become invisible for one round per class level. 
+
+Shadow Clone: At 6th level and higher, a shadowblade can spend one daily use of her Shadow Power to create 1d4 shadowy duplicates of herself that conceal her true location that function as the mirror image spell for one round per class level.
+
+Shadow Strike: At 8th level and higher, a shadowblade can spend one daily use of her Shadow Power to gain an additional attack for 12 seconds. This is an instantly activated ability.
+
+Ghost Sight: At 16th level and higher, a shadowblade can see invisible and ethereal creatures as easily as she sees material creatures and objects.
+
+Shadowblade Talent: At 10th level, the shadowblade gains access to a small set of special abilities or they can take an additional feat they qualify for instead. They gain an additional trick at levels 12, 14, 18, 20, 22, 24, 26, 28, and 30.
+Bleeding Wound I
+Bleeding Wound II
+Bleeding Wound III
+Choking Bomb (Requires Poison Bomb)
+Smoke Bomb
+Poison Bomb (Requires Smoke Bomb)
+Blinding Bomb (10+) (Requires Choking Bomb)
+Ghost Step (Spend one daily use of her Shadow Power to become ethereal for 3 rounds)
+Invisible Blade (10+) (Vanishing Trick now provides Greater Invisibility) 
+Improved Evasion (10+)
+Crippling Strike (10+)
+Defensive Roll (10+)
+Opportunist (10+)
+Skill Mastery (10+)
+Slippery Mind (10+)
+Hide in Plain Sight (10+) As Shadowdancer.
+Any Feat.
+Minor Magic (Light) (3/day Light spell)
+Major Magic (Shield) (2/day Shield spell, requires Minor Magic)
+Major Magic (2/day Expeditious Retreat spell, requires Minor Magic)
+
+
+General "Conversion" from Ninja to Shadowblade
+HD from d6 to d8
+Appraise, Intimidate, Perform, and UMD added as class skills.
+Skill Points from 6 to 8
+Ki Power renamed to Shadow Power
+Poison Use from 3rd to 1st
+Lose AC bonus at 1st level
+Vanishing Trick replaces Ghost Step. Now lasts 1 round per class level (up from 3 rounds), no longer provides ethereal at level 10.
+Evasion gained at level 4 instead of level 12
+Acrobatics removed at level 6 (Tumble bonus)
+Shadow Clone replaces Ki Dodge. Mirror image for 1 round per class level instead of 20% concealment for 3 rounds.
+Shadow Strike replaces Ghost Strike. +1 attack for 12 seconds with the use of Shadow Power instead of the (useless) Ghost Warrior feat. Instant ability.
+Greater Ki Dodge at 18 removed (Ki Dodge no longer provides 50% concealment for 3 rounds)
+Ghost Walk at 20 removed (ethereal 1 round per class level for 2 Shadow Power uses)
+Improved Evasion removed at level 24

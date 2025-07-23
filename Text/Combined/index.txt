@@ -1,0 +1,129 @@
+[!--
+
+
+Greetings.  I'm Kaedrin (Matt) and I've been working on putting together new content for the community.  So far I've done 3 base classes, 46 prestige classes, 123 new spells, new and revised Domains for Clerics (13 new, 16 revised), craftable ammo for Ranged Weapons, craftable thrown weapons, as well as enabling enchantments to be cast on ranged and thrown weapons.  I've also done spellbooks for Blackguards and Assassins along with an upgrade to the Blackguards servant.  There are 93 new feats along with an overhaul of the wildshape ability (and more to come). Alternate class features have been added for the Barbarian (Whirlwind Frenzy) and Red Dragon Disciple (Dragon Disciple).
+
+I've organized the releases I plan to do and put them in my [[[current| Current Projects]]] section.
+
+On November 2nd I was [http://forums.obsidianent.com/index.php?s=51ca3946485ee6af88c2c15d90664e6f&automodule=blog&blogid=2&showentry=95 featured] in the NWN2 community update blog done by Rob at Obsidian.  On January 7th the [http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=209 Kaedrin's PRC Pack] made it into the Hall of Fame on NWVault.  Many thanks to you folks for making it happen!
+
+The [http://neverwinternightspodcast.com/index.php/2008/08/08/nwnp-episode-66-kaedrins-prc-pack/ NWN Podcast] is now available where I was interviewed by Jay.
+
+Michael Hawkins has added support for my content to his [http://nwn2db.com/ NWN2 Character Builder] which allows you to build and plan characters using my content via a very slick web interface.
+
+If you have any comments, feedback, bug reports on my stuff, or requests I'd like to hear them!
+--]
+++ Current Versions
+**##0080FF|1.42.1 is available for Patch v1.23.1765##** and can be found on the [http://www.neverwinter.nexusmods.com/mods/200/ Neverwinter Nexus]
+[!-- [http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=209 Vault]
+--]
+
+[[tabview]]
+[[tab Current News]]
+##green|Last updated 5:00 PM CST, June 3 2013##
+
+Just a heads up about the new hair and head combo pack I'm working on (see what I did there) - it's going to include the following items and if there are any not on the list you would like to see please email me.
+
+In process/being reviewed
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=157
+http://nwvault.ign.com/View.php?view=NWN2HakpaksCombined.Detail&id=61
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=62
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=350
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=246
+
+New Heads
+http://nwvault.ign.com/View.php?view=NWN2Models.Detail&id=190
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=40
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=79
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=49
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=463
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=37
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=268
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=121
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=261
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=266
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=144
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=295
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=532
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=329
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=178
+
+New Hairs
+http://nwvault.ign.com/View.php?view=NWN2Models.Detail&id=133
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=510
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=373
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=281
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=30
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=340
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=268
+http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=178
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab Current News]]
+##green|Last updated 10:00 PM CST, May 28 2013##
+
+I've been crazy busy lately and haven't had much free time but I'm trying to catch up on my emails. If you sent an email and haven't recieved a reply yet, please ping me again and I'll try to make sure I respond.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab Current News]]
+##green|Last updated 6:00 PM CST, May 28 2013##
+
+The following is a list of currently supported Persistent Worlds that have permission to use my content. These servers will continue to get the new versions.
+
+Ashaba - http://www.ashaba.webd.pl
+Dalelands Beyond - http://dalelandsbeyond.forumotion.com/
+Dragonlance - http://nwn2dragonlance.faerunonline.com/phpbb3/index.php
+Faerun Nights - http://www.faerunnights.it/
+Fanelya - http://fanelya.fr/index.php
+Legends of Arcadia - http://loa.nwn2worlds.com/
+Rigilia - http://rigilia.com/forum/
+Rivin - http://www.rivin.de
+Shadow of Iniquity - http://www.shadowofiniquity.com
+Shards of Vael - http://www.sovael.org
+[!-- Upcoming Italian PW - http://faerunplusplus.forumfree.it/ --]
+Fallen Empire - http://fallenempire.nwn2worlds.com
+Racconti delle Valli - http://www.raccontidellevalli.eu
+Realms of Trinity - http://www.realmsoftrinity.com/
+
+PW's that may be adding my content to their server soon:
+
+Chlodne Ziemie - http://www.wrc.webd.pl/ (Polish server)
+Known Lands - http://www.knownlands.com/custom ##green|(APPROVED)##
+Olympia - ?
+Le Royaume des Lunesdargent - http://www.lunesdargent.com (French Canadian) ##green|(APPROVED)##
+Isles of the Raveners - http://nwn2raveners.forumotion.com/
+City of Neverwinter - http://thecityofneverwinter.freeforums.org/ ##green|(APPROVED)##
+La Colere d'Aurile - http://lacoleredaurile.xooit.fr/portal.php ##green|(APPROVED)##
+
+The following PWs have a previous version of my content but do not plan to update to future versions or have not communicated with me recently.
+
+Aeris - http://neverwinter2.gram.pl/forum/
+Eye of the World - http://www.bonzoli.com/drupal
+Myth Drannor: The Second Age - http://mythdrannor2.com/forum/index.php
+Tales of Amn - http://talesofamn.myfreeforum.org/
+
+[[/tab]]
+[[/tabview]]
+
+
+

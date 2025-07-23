@@ -1,0 +1,191 @@
+* Compare Two TLK Files...
+
+Master TLK FileName = [C:\Users\mattw\OneDrive\Documents\GitHub\nwn2cc\NWN2 WIP\Override\dialog.TLK]
+Second TLK FileName = [C:\Users\mattw\OneDrive\Documents\GitHub\nwn2cc\NWN2 WIP\Override\KaedPRCPack_v1.42.1_Override_Dialogtlk\dialog.TLK]
+
+* Master TLK File Summary
+------------------------------------------------------------
+File Name = [C:\Users\mattw\OneDrive\Documents\GitHub\nwn2cc\NWN2 WIP\Override\dialog.TLK]
+
+* Header Infomation
+
+FileType       = [TLK]
+FileVersion    = [V3.0]
+Language       = [English]
+String Count   = [243093]
+Entries Offset = [9723740]
+
+* Talk Table Elements Infomation
+
+Total Element         = [243093]
+String Present        = [144191]
+Sound Present         = [310]
+String Empty          = [562]
+String Not Present    = [98902]
+Table Usages          = [143629/243093], [59.1%]
+
+String Max Length     = [12108] Bytes
+String Average Length = [854.96] Bytes
+------------------------------------------------------------
+* Second TLK File Summary
+------------------------------------------------------------
+File Name = [C:\Users\mattw\OneDrive\Documents\GitHub\nwn2cc\NWN2 WIP\Override\KaedPRCPack_v1.42.1_Override_Dialogtlk\dialog.TLK]
+
+* Header Infomation
+
+FileType       = [TLK]
+FileVersion    = [V3.0]
+Language       = [English]
+String Count   = [242805]
+Entries Offset = [9712220]
+
+* Talk Table Elements Infomation
+
+Total Element         = [242805]
+String Present        = [143903]
+Sound Present         = [310]
+String Empty          = [562]
+String Not Present    = [98902]
+Table Usages          = [143341/242805], [59.0%]
+
+String Max Length     = [12108] Bytes
+String Average Length = [255.23] Bytes
+------------------------------------------------------------
+* Header Difference
+------------------------------------------------------------
+<> String Count : 243093 -> 242805
+<> String Entries Offset : 9723740 -> 9712220
+------------------------------------------------------------
+* Elements Difference
+------------------------------------------------------------
+#240050 := String Size : 646 -> 549
+#240056 := String Size : 444 -> 443
+#240064 := String Size : 387 -> 386
+#240151 := String Size : 171 -> 151
+#240236 := String Size : 519 -> 536
+#240266 := String Size : 600 -> 593
+#240278 := String Size : 2859 -> 2844
+#240298 := String Size : 708 -> 706
+#240300 := String Size : 779 -> 753
+#240302 := String Size : 955 -> 859
+#240304 := String Size : 684 -> 612
+#240306 := String Size : 810 -> 808
+#240310 := String Size : 924 -> 828
+#240312 := String Size : 1246 -> 1191
+#240316 := String Size : 787 -> 654
+#240324 := String Size : 937 -> 806
+#240362 := Text Presence : 1 -> 0
+#240363 := Text Presence : 1 -> 0
+#240480 := String Size : 4215 -> 4208
+#240529 := String Size : 5404 -> 5280
+#240542 := String Size : 4589 -> 4582
+#240563 := String Size : 13 -> 9
+#240564 := String Size : 348 -> 257
+#240565 := String Size : 16 -> 11
+#240566 := String Size : 447 -> 165
+#240567 := Text Presence : 0 -> 1
+#240568 := Text Presence : 0 -> 1
+#240569 := Text Presence : 0 -> 1
+#240570 := Text Presence : 0 -> 1
+#240571 := Text Presence : 0 -> 1
+#240572 := Text Presence : 0 -> 1
+#240681 := String Size : 981 -> 407
+#240718 := String Size : 5456 -> 5441
+#240777 := String Size : 1553 -> 1543
+#240811 := String Size : 2225 -> 2157
+#240878 := String Size : 4086 -> 4079
+#240961 := String Size : 2872 -> 2823
+#241003 := String Size : 4736 -> 4690
+#241008 := String Size : 481 -> 435
+#241024 := String Size : 2204 -> 2190
+#241369 := String Size : 542 -> 522
+#241385 := String Size : 13 -> 11
+#241386 := String Size : 234 -> 286
+#241387 := String Size : 20 -> 23
+#241388 := String Size : 344 -> 315
+#241403 := Text Presence : 0 -> 1
+#241404 := Text Presence : 0 -> 1
+#241417 := Text Presence : 0 -> 1
+#241418 := Text Presence : 0 -> 1
+#241472 := String Size : 1177 -> 1132
+#241519 := String Size : 3063 -> 3056
+#241533 := String Size : 2993 -> 3001
+#241665 := String Size : 2910 -> 2732
+#241675 := String Size : 4699 -> 4685
+#241859 := String Size : 3148 -> 3134
+#241873 := String Data : (Type: General
+Prerequisite: Pala.. -> Type: General
+Prerequisite: Pala..)
+#241890 := Text Presence : 0 -> 1
+#241891 := Text Presence : 0 -> 1
+#241896 := Text Presence : 0 -> 1
+#241897 := Text Presence : 0 -> 1
+#241940 := String Size : 199 -> 239
+#241956 := String Size : 579 -> 589
+#241962 := String Size : 298 -> 235
+#241983 := String Size : 6615 -> 5236
+#242016 := String Size : 16 -> 10
+#242017 := Text Presence : 1 -> 0
+#242018 := String Data : (Reward of Life.. -> Silvered Claws..)
+#242019 := Text Presence : 1 -> 0
+#242020 := Text Presence : 1 -> 0
+#242021 := Text Presence : 1 -> 0
+#242062 := Text Presence : 1 -> 0
+#242063 := Text Presence : 1 -> 0
+#242064 := Text Presence : 1 -> 0
+#242065 := Text Presence : 1 -> 0
+#242066 := Text Presence : 1 -> 0
+#242067 := Text Presence : 1 -> 0
+#242081 := String Size : 2512 -> 2380
+#242086 := String Size : 19 -> 10
+#242087 := String Size : 273 -> 173
+#242091 := String Size : 388 -> 341
+#242095 := String Size : 1427 -> 1413
+#242161 := String Size : 338 -> 327
+#242184 := String Size : 279 -> 260
+#242212 := String Data : (Transmutation
+Level: Druid 2, Ra.. -> Transmutation
+Level: Druid 1, Ra..)
+#242238 := String Size : 7905 -> 7893
+#242271 := String Size : 630 -> 544
+#242279 := String Size : 4341 -> 4335
+#242287 := String Size : 2494 -> 2513
+#242289 := String Size : 22 -> 26
+#242290 := String Size : 349 -> 353
+#242297 := Text Presence : 1 -> 0
+#242298 := Text Presence : 1 -> 0
+#242310 := String Size : 406 -> 407
+#242353 := String Size : 7264 -> 7717
+#242367 := String Size : 149 -> 153
+#242371 := String Size : 145 -> 156
+#242408 := String Size : 2979 -> 2970
+#242435 := String Size : 1871 -> 1472
+#242441 := String Size : 3059 -> 3067
+#242442 := String Size : 2782 -> 1616
+#242443 := String Size : 5739 -> 4784
+#242452 := String Size : 289 -> 196
+#242456 := String Size : 214 -> 171
+#242458 := String Size : 192 -> 134
+#242460 := String Size : 315 -> 195
+#242462 := String Size : 397 -> 290
+#242466 := String Size : 364 -> 138
+#242470 := String Size : 219 -> 175
+#242476 := String Size : 210 -> 166
+#242477 := String Size : 14 -> 24
+#242478 := String Size : 270 -> 117
+#242480 := String Size : 744 -> 664
+#242536 := String Size : 6 -> 8
+#242538 := String Size : 14 -> 16
+#242545 := String Size : 5 -> 13
+#242546 := String Size : 10 -> 4
+#242599 := String Size : 5256 -> 3867
+#242602 := Text Presence : 1 -> 0
+#242604 := String Size : 502 -> 432
+#242631 := String Size : 3187 -> 2818
+#242639 := String Size : 2732 -> 2736
+
+<> Master's Elements exceeds than Second : [288] = [242805 ~ 243092]
+------------------------------------------------------------
+* Two TLK File is different, Different Count = [124]
+
+___ END ___ [Elapsed = 0.64 Seconds]

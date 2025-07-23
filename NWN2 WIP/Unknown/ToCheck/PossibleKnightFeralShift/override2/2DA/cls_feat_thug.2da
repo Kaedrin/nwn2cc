@@ -1,0 +1,21 @@
+2DA V2.0
+
+   FeatLabel     FeatIndex List GrantedOnLevel OnMenu 
+0  WeapProfSim   46        3    1              0      
+1  ArmProfLgt    3         3    1              0      
+2  WeapProfMar   45        3    1              0      
+3  SneakAttack   221       3    2              0      
+4  SneakAttack2  345       3    4              0      
+5  SneakAttack3  346       3    6              0      
+6  SneakAttack4  347       3    8              0      
+7  SneakAttack5  348       3    10             0      
+8  SneakAttack6  349       3    12             0      
+9  SneakAttack7  350       3    14             0      
+10 SneakAttack8  351       3    16             0      
+11 SneakAttack9  352       3    18             0      
+12 SneakAttack10 353       3    20             0      
+13 SneakAttack11 1032      3    22             0      
+14 SneakAttack13 1033      3    24             0      
+15 SneakAttack14 1034      3    26             0      
+16 SneakAttack15 1035      3    28             0      
+17 SneakAttack16 1036      3    30             0      

@@ -1,0 +1,20 @@
+2DA V2.0
+
+   LABEL                                                  ReqType ReqParam1 ReqParam2 
+0  Spellcasting                                           SPELL   3         ****      
+1  TwoWeap                                                FEATOR2 41        ****      
+2  WeapFocDagger                                          FEAT    90        ****      
+3  Bard                                                   CLASSOR 1         ****      
+4  Sorcerer                                               CLASSOR 9         ****      
+5  Wizard                                                 CLASSOR 10        ****      
+6  Warlock                                                CLASSOR 39        ****      
+7  Concentration                                          SKILL   1         8         
+8  SneakAttack                                            FEATOR  221       ****      
+9  FEAT_BLACKGUARD_SNEAK_ATTACK_1D6                       FEATOR  460       ****      
+10 FEAT_NW9_SNEAK_ATTACK_1                                FEATOR  1497      ****      
+11 FEAT_ARCTRICKSTER_SNEAK_ATTACK_1                       FEATOR  1502      ****      
+12 FEAT_SHADOWTHIEFAMN_SNEAK_ATTACK_1                     FEATOR  1562      ****      
+13 FEAT_NW9_FRANTIC_REACTIONS                             FEATOR  1806      ****      
+14 FEAT_PRESTIGE_DEATH_ATTACK_1                           FEATOR  455       ****      
+15 FEAT_BLEEDING_WOUND_I                                  FEATOR  2052      ****      
+16 FEAT_COMBATSTYLE_RANGER_DUAL_WIELD_TWO_WEAPON_FIGHTING FEATOR2 1734      ****      

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Trail>
+  <EffectType>5</EffectType>
+  <Color>
+    <r>82</r>
+    <g>76</g>
+    <b>122</b>
+    <a>100</a>
+  </Color>
+  <UpdateFrequency>100</UpdateFrequency>
+  <FadeOutTime>1</FadeOutTime>
+  <Texture>fx_akachi_trail_2.tga</Texture>
+  <SourceBlend>5</SourceBlend>
+  <DestBlend>2</DestBlend>
+  <TextureType>0</TextureType>
+  <AnimatedTextureSpeed>2</AnimatedTextureSpeed>
+  <RequiresFrameBuffer>0</RequiresFrameBuffer>
+  <FrameBufferPixelDisplacement>0.1</FrameBufferPixelDisplacement>
+</Trail>

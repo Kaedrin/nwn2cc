@@ -1,0 +1,566 @@
+[[tabview]]
+[[tab May 30th, 2008]]
+##green|Last updated 6:30pm cst##
+
+Back from Vegas. After my coma (this weekend) I'll get back to it.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 27th, 2008]]
+##green|Last updated 5:50am cst##
+
+Due to rather hectic and crazy events going on here I haven't had a chance to get 1.32.3 polished and uploaded so it will have to wait till I get back.  
+
+I'll be gone for the rest of the week for a business trip to Las Vegas (been out of town this weekend too).  When I get back I'll try and sort out the mess that is the padded NWVault poll, total up all the votes on the forums that **are** actually unique votes, and try and lay out 1.33.
+
+Back soon folks!
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 19th, 2008]]
+##green|Last updated 9:00pm cst##
+
+I'll have 1.32.3 up tomorrow night (need to do some final tweaks on vfx for the elemental archer). I'll be out of town starting this weekend until the 1st of June.  When I get back I'll pick 1.33 up and start running with it.  I'm going to push the Forest Master back to 1.33 to avoid any possible issues coming up with it (it's got a lot of abilities) while I'm gone as I won't be able to do fixes. Check out this [http://nwn2customcontent.wikidot.com/forum/t-59638/prc-and-base-class-hitlist thread] as I'm working to clean up the prc list into a more organized set.  I'll be reorganizing the planned content as well into more focused chunks.
+
+On the updside...  I will be in Vegas again next week! Woohoo!!
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 13th, 2008]]
+##green|Last updated 11:14pm cst##
+
+I've been taking it easy lately, cleaning up the magic lists, and getting ready for the inevitable storm of 1.33 work.  I'm going to be releasing a 1.32.3 Thursday night that includes two new PrCs and a few more fixes for the 1.32 line of updates.  I'm strongly tempted to push it to Friday night so I can get the new Animal Companion system in place (allowing druid, ranger, and lion of talisid levels to stack).  I've put up a new [[[spell-poll| Spell Flavor Text Poll]]] to see if folks like the added flavor text at the bottom of spells and feats.  If it's an overwhelming no then I'll stop adding it to future spells and feats and think about pulling it from existing ones.
+
+The 1.33 update looks to feature 9 new prcs (two showing up in the 1.32.3 update), close to 20 feats, about 60 spells, 3 enchants, more cmi_options entries, as well as plenty more fixes, additions, and tweaks as usual.  This update is going to be broken up into 4 releases to make the work load more manageable and to get finished content out sooner.
+
+I'm still WAAAAAAY behind on emails and IM's so have patience while I try to catch up as well as continue the content development. =)
+
+The upcoming [[[Heartwarder]]] prc will be featuring a new warlock progression setup that will allow the spellcasting progression to work with Warlock based on the Complete Arcane rules.  This will allow the warlock to gain more invocations as though leveling up as a warlock and to improve their eldritch blast damage.  Their normal warlock abilities will NOT continue to improve (fiendish resilience, resistances, etc).  This makes the Heartwarder an ideal prc for good warlocks.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 8th, 2008]]
+##green|Last updated 5:11pm cst##
+
+I'm working on the MP version for release tonight and I should have the new feats and new spells pages updated (alphabetical order). I'll also have a release of the non-English Dialog.tlk files tonight. If there's any time left I'll start on 1.33 by wrapping up the [[[Elemental Archer]]]
+
+##green|Last updated 10:30pm cst##
+The MP versions are now up and available.  I'll save the alphabetizing of the feats/spells for tomorrow and hit the sack early for a change.  Time to begin on 1.33!
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 6th, 2008]]
+##green|Last updated 7:00pm cst##
+
+v1.32.2 is up for the single player version, and the Combined works with Reeron has been updated to 1.27 (including my 1.32, 1.32.1, and 1.32.2 updates).
+I'm working on the MP version of 1.32.2 for a release tomorrow.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 5th, 2008]]
+##green|Last updated 11:15pm cst##
+
+Just a quick update but I'll be doing a 1.32.2 first thing tomorrow when I get home as well as wrap up the MP version and start on the combined works.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 4th, 2008]]
+##green|Last updated 4:22pm cst##
+
+It's finally done! 1.32 has been uploaded to the vault for the single player version.  I'm working on the multiplayer version and the combined works with Reeron now.
+
+##green|Last updated 9:40pm cst##
+v1.32.1 is up since I missed a few things. Grrr...  Tomorrow I'll finish the MP and Combined versions.  I'll also try to get caught up on email and forum threads as I am currently WAAAAAAAY behind on them.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 3rd, 2008]]
+##green|Last updated 10:20pm cst##
+
+As far as I can tell 1.32 is finished!  I'm going to take one last look tomorrow morning and package it up for the vault.  Incidentally, the beta didn't happen as I kept finding a number of areas I needed to go back and retouch (thought of new situations that needed to be handled for the wildshape feats and wasted a lot of time on Penetrating shot).  The good news is that the groundwork for the new weapon damage function (courtesy of Penetrating Shot) is nearly finished so feats that deal weapon damage plus a spell effect (smites, ranger spells, epic feats) will be available soon.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 30th, 2008]]
+##green|Last updated 7:03pm cst##
+
+Assuming the next few hours go well I'll be putting up a 1.32 beta.  It will have everything available except the MoR which I'm still doing a little work on.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 28nd, 2008]]
+##green|Last updated 5:10pm cst##
+
+It's been a busy week! I got the stitches out of my back and I'm healing though getting in and out of my eclipse is fun.  I'm still working on 1.32 as I hit a few snags with the Master of Radiance that wasted a night.  I'm working on the finishing touches for about a dozen scripts and finishing my scrub of the MoR and it should be good to go. I need to do a good test run with the Stormsinger as well due to the new feats that impact Bardic inspirations.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 22nd, 2008]]
+##green|Last updated 5:59pm cst##
+
+It looks like the Bladesong style is still acting up in isolated cases so I'm going to rip the current implementation out and replace it with the Equip/Unequip version.  I'll return it to a constant check when the heartbeat system is done for 1.33.  Due to this I'm likely going to go ahead and cut the rest of the new spells that aren't finished and move them to the 1.33 update.  I'll get the feats wrapped up tonight along with working on the bladesong rework.  I'll integrate the 2da stuff from Johnny Ree's work into mine and work on shaking out the Master of Radiance a bit more.  Come hell or high water 1.32 will be released this weekend!  1.33 has grown to a nice update on it's own so it's not like I'll be lacking things to do once this one goes out.  :P
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 21st, 2008]]
+##green|Last updated 4:51pm cst##
+
+Meh, a migraine knocked me into the worthless at CC category last night so I'm playing catch up. Got the Stormsinger finished, caught a few bugs in testing, and finished half a dozen of the feats on the list.  Tonight I hope to get the feats knocked out (and hopefully most of the spells).  That leaves a few fixes tomorrow and whatever is left for a hopeful wednesday release.  I'll probably be cutting stuff that isn't finished tomorrow to make sure the Wednesday release happens because I'm going in Thursday to get the stitches removed and I doubt I'm in the mood Thursday.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 19th, 2008]]
+##green|Last updated 12:33pm cst##
+
+It's been a very long week but with my back feeling MUCH better I'm ready to get back to working on CC (amazing how much a 2 inch stitched up wound on your lower back slows you down :P).  I'm going to put the finishing touches on the Italian language version of 1.31 and then jump back into 1.32 and see if I can't finish testing the [[[Stormsinger]]] and knock out the last few things on the [[[Master of Radiance]]]. From there I'll try to knock out of many of the unfinished spells and feats as a I can this weekend to release 1.32 on Monday night.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 16th, 2008]]
+##green|Last updated 3:44pm cst##
+
+Just wanted to post an update on what's been going on.  I had minor back surgery on Monday and I haven't been feeling up to doing much CC work this week. I'm going back to work tomorrow so if I'm not too wiped out afterwards I'll get back to working on finishing 1.32.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 12th, 2008]]
+##green|Last updated 11:59am cst##
+
+Time for a few quick updates while I'm out of town! 
+
+After 1.32 is finished I will be releasing a version of the Harp & Chrysanthemum hak and TLK file which will add support for my content to the module (thanks to Maerduin for permission). This will allow my spells, feats, prcs, and crafting changes etc to be used while playing.
+
+Another note for 1.33: Courtesy of the [http://worldoftalernon.com/ Talernon Team] (Persistent World) I'll be adding nearly 40 new spells to my pack. They have been adding my content to their world (customized for the setting) for a while so it's very nice to be able to exchange content with the community. :)  I will also be working to include their Stormlord variants (earth, fire, water) to complement the Air based one we have now though that will likely come in a later version than 1.33.
+
+I also plan on working on the packages.2da some more for 1.33.
+
+With the release of 1.32 and in preparation of 1.33 I'll also be doing a cleanup and update for the website so that it has all of the spells and feats documented that I have added to game along with better information for PW/Module integration and a concise list of everything my pack adds.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+++ Recent Updates
+[[tabview]]
+[[tab April 10th, 2008]]
+##green|Last updated 5:25pm cst##
+
+Alright, more time spent chasing issues and fixing things under the hood.  Not the kind of work that is visible but the kind that makes things much easier for me to work with. :)  I'm free all night so I hope to get a lot of the "almost done" issues finished and wrapped up.  I'll be heading out of town this weekend and I have a minor surgery Monday so the 1.32 release is likely going to be next Wednesday.  If I wrap 1.32 up a little early I'll see what I can move back in ahead of time.  I'd like to get the alternate turn undead rules in since it's a single script upgrade.  Since [[[Master of Radiance]]] is one of the only PrCs that grant Turn Undead without requiring cleric levels this would be a great time for it.
+
+##green|Last updated 10:15pm cst##
+
+Looks like two itemproperties of the same elemental damage type do NOT stack when applied in combat even though they show up on the item.  What this means is that I'm going to have to do so more work to get the Paladin PrCs done and the feats that add holy damage are going to need to be applied as damage bonus effects and not item properties.  Easy enough to do but it's a midstream change for some of my current stuff.  If it should stack, it needs to be a damage bonus effect.  If it doesn't stack, it should be an item property.  The upside of this change is that dual wield is going to be getting an unintended buff (as the damage bonus will now apply to both weapons). Given the miss rate of dual wield compared to power attacking with a 2-hander this probably isn't a bad thing.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 7th, 2008]]
+##green|Last updated 11:33pm cst##
+
+After I got over the migraine I had I spent the evening chasing and fixing a couple of reported bugs.  I've got the [[[Stormsinger]]] finished but I need to test it a lot as there are quite a few powers tied to the bardsong uses/day. The [[[Master of Radiance]]] just needs a few scripts and it will be finished.  I'm behind on the feats and spells due to chasing bugs and helping with integration issues the last few nights.  Bug fixes are better than new content! ;)
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 6th, 2008]]
+##green|Last updated 12:14pm cst##
+
+Work continues on 1.32 as I've completed a number of items on the [[[wip|Work in Progress]]] list this morning.
+
+##green|Last updated 10:10pm cst##
+I'm going to take down the Alternate Download poll as I plan to do that (optional download) once I merge in the spell fixes from Reeron and RPGPlayer1. I'll put one up soon for which content type should I favor in releases (feats, prcs, or spells) to get a feel for the topic since it's come up a few times now.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 4th, 2008]]
+##green|Last updated 11pm cst##
+
+This weekend is looking good for finishing a lot of the 1.32 content for a Monday release.  I've got the [[[Stormsinger]]] finished though I need to test it still.  Tomorrow I plan to make a solid pass through the new spells and feats and see if I can't get them all ready for testing as well.
+
+I've posted what I hope to be a nice clarification on the PRG and myself up above the current versions section.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 2nd, 2008]]
+##green|Last updated 7:05am cst##
+
+I've made some good headway on the 1.32 release. The [[[Stormsinger]]] is just about finished, the [[[Master of Radiance]]] is about half done, and epic spells are in for my spellcasting prcs. I wasted most of last night trying to find a way to enable the hotbar again while polymorphed so that feats can be used in wildshape.  Someone who actually understands the GUI system is going to have to track that one down as I had no luck at all with it and I'm not even sure what I was doing wrong.  I should have the [[[Bladesinger]]] revisions done tonight along with most of the new feats.  As things stand I'll probably release 1.32 this Sunday and anything not done and tested by then will get moved to 1.33 (which is why 1.33 to 1.40 are skeletons, so I can move stuff around with flexibility). Tomorrow night I'd like to knock out the new spells, clean up the feat icons, and start testing for the release. The heartbeat changes will likely wait until 1.33 given how much work it will take to test and debug.
+
+##green|Last updated 7:12pm cst##
+I got a couple more descriptions typed up for PrCs available here: [[[Champion of the Silver Flame]]] and [[[Fist of Raziel]]]
+[[[Armor Types| New armor types]]] have been finished in the armorrulesstats.2da file though only Nightscale has a prefab suit so far. The rest will likely come in v1.33. 
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab March 29th, 2008]]
+##green|Last updated 1:00am cst##
+
+It's been a very long and crazy week to say the least.  Everything seems to be settling down finally with the release of 1.31.1 though there are still a few small issues that are getting nailed down for 1.32. I'd like to apologize for the buggier than usual nature of 1.31.  Between splitting up my 1.30 stuff into two updates, updating for the 1.12 patch, and trying to jam more in when I knew better it was a very rocky release.  Needless to say the lesson learned is to not do an update at the same time as a patch and to just get the existing content working for the new patch before trying to add in a new update. ;)  
+
+This weekend I'll be ironing out any remaining issues as folks report them (and I try to test everything) as well as trying to make headway on my 1.32 list.  Druids and Lion's of Talisids will be getting the Panther shape in 1.32.  I've got the first new armor type done (Nightscale) but it will have to be spawned in using the console for the time being. I need to see how to set up a unique power for an item (or simply add a new feat and then make it an item property) that will summon a genie vendor to sell these new armor types (as well as my crafted ammo and thrown weapons) to the player.  The magic lamp will be given to players the next time they start or load up a game if they have room in the inventory.  If not they can spawn it in using the debug console.  I also plan on getting the Stormsinger finished so Lady Elvenstar doesn't kill me. =)  I'm going to focus more on the cleanup side of the 1.32 change list first and see how far I get this weekend on the whole update. I'm also going to test the bladesinger's armored caster bit and do a workaround fix if custom feats don't work for that (probably a -15% ASF buff).
+
+Now that the madness is over and I've taken it easy for a few days I should be back to daily updates of the blog here along with constant updates to the [[[wip| Work in Progress]]] page. I should be able to knock out about a dozen new feats and the 4 spells on the list.  Most of this depends on how many issues come up in getting the Stormsinger working and if any serious problems are found in the current release.   [[[Master of Radiance]]] and [[[Elemental Archer]]] are at the bottom of the heap of the 1.32 update for the time being.
+
+So... back to the regularly broadcast madness!
+
+##green|Last updated 12:45pm cst##
+
+I forgot to mention it last night but there is a new [http://forums.obsidianent.com/index.php?automodule=blog&blogid=2& Obsidian Community Update] blog up!
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab March 23rd, 2008]]
+##green|Last updated 7:31pm cst##
+
+Two down, one nearly finished, and one prc to go.  I spent a lot of time chasing a issue with OC no longer working due to something different in the k_mod scripts so for now all but the needed ones are being pulled till I can look into it more.  It's ironic that the ones causing problems are the ones I'm not using yet and just carried for the ccs_ stuff.  I'm racing the clock trying to get this stuff done so I'll probably get it finished tonight and have to package it up tomorrow. Stormsinger is proving to be a bit thornier than usual because of how many things are hard coded to bard levels and/or the number of bard scripts. Still, it's the foundation of future bard work so it's all good. I'll be doing a new multiplayer drop with the 1.31 code base since it fixes a few issues and has the new prcs (which has a LOT of tlk work so no sense doing two massive updates in a row, one big one is painful enough).
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab March 19th, 2008]]
+##green|Last updated 7:12pm cst##
+
+Patch 1.12 has been released and [http://nwn2forums.bioware.com/forums/viewtopic.html?topic=622711&forum=109 information] can be found at the link.  I'm fairly close to finishing the single player part of updating my work.  I've had to cut the two PrCs until this weekend as a number of bard spells were changed and I wasn't quite finished with them.  This weekend should be a 5 pack PrC release!  I'm heading off to dinner so the single player will be up in a couple hours and the multiplayer versions should be available by midnight.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab March 18th, 2008]]
+##green|Last updated 7:17pm cst##
+
+Tomorrow should be the 1.12 patch so I'm scrambling to wrap up the 1.30 release.  I'm still a ways from finishing the new PrCs so they may get cut at the last minute until this weekend if I find any problems.  I haven't had a chance to test them much and I'm still tinkering with the [[[Lion of Talisid]]] trying to get it where I want it.  So 1.30 looks to be a lot of tweaks, fixes, and new stuff with 1.31 being a very heavy PrC release.
+
+##green|Last updated 11:58pm cst##
+
+The single player version of 1.30 is up.  I'll have the multiplayer and non-English TLK files done tomorrow night.
+
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab March 15th, 2008]]
+##green|Last updated 12:57pm cst##
+
+I've gone through my text files and put some of the upcoming spell descriptions on the site here: http://nwn2customcontent.wikidot.com/temp4 Reeron is going to look at doing some of them for both of our releases so more content should show up faster. :)  I've added to my "to-do" list as an ongoing project the task of adding all of my new spells to the scribe scroll crafting 2da's.  I'll add some of them for wands and potions as well but the scrolls is the first priority for that though it will be a few weeks before I start.  I've also pasted the blade magic stuff from Tome of Battle I want to add for Paladins here: [[[Blade magic]]]
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab March 13th, 2008]]
+##green|Last updated 11:55pm cst##
+
+I've split up the 1.30 release into what I can get done before the 1.12 patch on Monday and what I expect to wrap up in the next week or so after that.  There are a number of things that are "close" but I don't want to push them without at least some testing.  I've got a little remapping to do for 1.12 (about 10 spell rows) but these changes won't affect any characters. I wish I had more done but the migraine I've had the last couple of days hasn't exactly helped.  I'm back to cc full steam though (out of town this weekend for my Grandmothers birthday) so the content rate should pick back up!
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab March 10th, 2008]]
+##green|Last updated 6:05pm cst##
+
+I've been steaming along with the 1.30 update and it's progress is reflected on the [[[wip| Work in Progress]]] page.
+
+Recent fixes: Wildshape no longer loses memorized spells, stats, and experience. Jagged Tooth, Magic Fang, and Greater Magic fang now affect all of a druids forms (including Plant, Dragon, and Magical Beast). Wildshaped forms now gain the benefits of the jewelery you were wearing.  I've also done some more new feats, some general domain cleanups, and some more work on the PrCs.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab March 4th, 2008]]
+##green|Last updated 6:20pm cst##
+
+I got the [http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=214 fletching mod] fletching mod udpated last night with v1.21 for the single player only version (other versions did not need an update).  I also updated the [http://nwvault.ign.com/View.php?view=NWN2Other.Detail&id=162 Language files pack] to include Spanish again as I was given an updated set of TLK files.
+
+Today at lunch I got the [[[seeker-of-the-song| Seeker of the Song]]] description typed up so it's now available for viewing.  I also typed up part of a custom Bard PrC I've love to do but it probably won't be anytime soon.  The [[[Songblade]]]: an ancient order of bards that blends bladework, music, and magic into a deadly yet beautiful dance. The PrC can choose one of five focuses or paths in which to specialize their bardic training.  It's like 5 PrCs in one. ;)
+
+There are a few domain fixes/tweaks that were wrapped up late last night as well and are reflected on the [[[wip| Work in Progress]]] page.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab March 3rd, 2008]]
+##green|Last updated 2:00pm cst##
+
+February has been moved to the [[[update-archive-feb08| February 2008 Blog Archive]]] now that it's March.  I've been quiet the last few days as I've been working on a number of different things.  I should have an update for the crafting pack, for the event tagged module, an updated domains.2da for PWs, and I'm getting fairly close on 1.30.  Later today I'll put up a news item about the PRG and how it affects me. One thing I plan to do this month is get back to the daily updates of this blog (and not just update the [[[wip| Work in Progress]]] page.
+
+##green|Last updated 5:16pm cst##
+
+Brian Meyer has delivered another outstanding set of icons for upcoming PrCs and you preview them here: [[[icons3| Upcoming PrC Icons - Set 3]]]
+
+I updated the [[[prc| New and future PrC's]]] page with the last few sets of updates from my master list.
+
+The 1.12 patch beta is going well, I'm going to slide in some more testing of the natural AC and updated spells scripts to check the bugs fixed list.  
+
+I wish I had time to work on a character creation module but the rudimentary test I have just isn't fit for public consumption. ;)
+
+Speaking of time, if someone would like to volunteer some time to create and test item and creature blueprints for me I'd really appreciate it.  It would seriously speed up me working on the Nature update.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

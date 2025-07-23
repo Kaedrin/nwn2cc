@@ -1,0 +1,46 @@
+Paladins Rejoice!
+
++++ Divine Spirit
+
+Here is a taste of the upcoming Paladin's mount replacement (courtesy of the Dungeonscape sourcebook).
+
+Level: 5th
+Benefit: Upon reaching 5th level, you can call upon your deity for aid in the form of a celestial spirit. Using this ability is a standard action that does not provoke attacks of opportunity. See below for detailed spirit descriptions and rules.
+
+Your paladin level determines which kinds of celestial spirits answer your summons. You can summon the spirit available at your current level as well as any that became available at lower levels.
+
+Paladin Level
+5th: Spirit of Healing
+10th: Spirit of Combat
+15th: Spirit of Heroism
+20th: Spirit of the Fallen
+25th: Spirit of Heroism 2/day
+30th: Spirit of the Fallen 2/day
+
+Each spirit available to you can be summoned once per day. A spirit remains for a number of rounds equal to your paladin level (except for Spirit of Healing which provides a passive benefit).
+
+Spirit of Healing
+This spirit increases your ability to heal damage done to you or your allies. This grants the Paladin the equivalent of two additional uses of Lay on Hands.
+
+Spirit of Combat
+This spirit enhances combat ability. You and your allies within 10' gains holy fervor. Holy fervor grants a +1 sacred bonus on attack and damage rolls for every four paladin levels you possess (up to a maximum of +7 at 28th level). This is an instantly activated ability. This divine damage bonus will not stack with other sources of a divine damage bonus.
+
+Spirit of Heroism
+You gain DR 10/-. In addition, you gain a number of bonus hit points equal to your hit dice. This is an instantly activated ability. 
+
+Spirit of the Fallen
+You summon a celestial spirit to watch over you and your allies. You and your allies gain fast healing 10. If you or an ally within 30 feet when the spirit is summoned drop to 0 or fewer hit points the spirit revives that character. The character revived heals an amount equal to twice your paladin level and this revival can only happen once. This is an instantly activated ability. 
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

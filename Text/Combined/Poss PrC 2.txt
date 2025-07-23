@@ -1,0 +1,149 @@
+I'll pitch these to the staff if there is enough interest (on a per prc basis). This post is in two parts because the poll has a limit of 10 options. Green text indicates a change from when the class was originally posted.
+
+Beastmaster
+Requirements: Animal Companion or Telthor Companion, Exalted Companion
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 6
+HD: d8
+Levels: 5
+3/5 Druid, Ranger, or Spirit Shaman spell progression
+Animal Companion progression, no wildshape progression.
+L1: Natural Bond
+L2: Nature's Gift (Animal companion gains Regen 1, Regen 2 at 3rd, and Regen 3 at level 5)
+L3: Improved Natural Bond
+L4: Improved Exalted Companion (SR is 12 + hit dice, not 5 + hit dice)
+L5: Epic Animal Companion
+
+
+Thayan Knight
+Requirements: Human, Nongood alignment, +5 BAB, Intimidate 2, Lore 4, Iron Will, Weapon Focus (longsword).
+BAB: High
+Saves: Fort
+Skill Pts: 2
+HD: d10
+Levels: 5
+L1: Tower Shields, +2 saves vs Fear, +1 saves vs Charm, +2 Ref save, +2 Intimidate
+L2: +2 AB, +2 Dmg
+L3: Bonus Feat
+L4: +4 saves vs Fear/+2 saves vs Charm (replaces level 1 ability), Final Stand (+2d10 Temp HP for allies for Class Level + Cha rounds)
+L5: +4 Intimidate (replaces level 1 ability), +1 all saves
+
+
+Skald
+Requirements: Battle Dancer, Curse Song
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 6
+HD: d8
+Levels: 5
+Bard songs/day improves, Bard songs known improves, Bardic song effect improves, Rage improves
+L1: Bonus Feat (Epic of the Lost King)
+L2: [color=green]Dirge of Fury (regain rage use at the cost of a bardsong use)[/color]
+L3: Funeral Dirge (Song, Fear Aura)
+L4: Inspire Fervor +4 (gain bonus HP = 4*HD)
+L5: Battle Dirge (Song, Improved Heroism)
+
+
+Arcane Fist
+Requirements: Not EK, Not Dragon Warrior, Must have Monk levels, Level 2 arcane spells
+BAB: High
+Saves: All
+Skill Pts: 4
+HD: d8
+Levels: 5
+3/5 Arcane progression (1,3,5)
+L1: Arcane Armor (Gain AC bonus from Int or Cha instead of Wis) (Counts against +20 Dodge cap)
+L2: Arcane Accuracy (+Enhance bonus to gloves/gauntlets equal to class level)
+L3: Weapon Specialization (Unarmed)
+L4: Diamond Soul (stacks with Monk ability for class levels), Arcane Flames (Fiery Fist feat deals magic damage instead of fire)
+L5: Weapon Mastery (Unarmed)
+
+
+Stalker of the Depths
+Requirements: Tracking, May not have DreadCom or Underdark Marauder levels, [color=green]Survival 5
+[/color]BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d10
+Levels: 5
+L1: Trap Mastery (gain +Set Trap skill equal to 2x Class level), Low-Light Vision
+L2: Sneak 1d6, Craft Trap, [color=green]Darkvision[/color]
+L3: +1 AC, Skill Focus (Hide)
+L4: Scent, Skill Focus (Move Silently)
+L5: Sneak 2d6, Swift Tracker
+
+
+Mystic Reservist
+Requirements: Level 3 spells
+BAB: Low [color=#008000](BAB lost here WILL affect the divine power cap making it 27 at 5/5 Mystic Reservist)[/color]
+Saves: Will
+Skill Pts: 2
+HD: d6
+Levels: 5
+5/5 Arcane/Divine spell progression
+L1: Acidic Splatter
+L2: Fiery Burst
+L3: Clap of Thunder
+L4: Winter's Blast
+L5: Invisible Needle, Storm Bolt
+
+
+Shaman
+Requirements: Healing 5, Spellcraft 4, Survival 8, Not FotF
+BAB: Medium
+Saves: Fort, Will
+Skill Pts: 4
+HD: d8
+Levels: 5
+Totems provide a bonus equal to 1 + Class Level to allies within 20', only one can be active at a time
+L1: Spirit of the Bear (Totem, Con -> granted as temporary hit points)
+L2: Spirit of the Jaguar (Totem, Dex)
+L3: Spirit of the Wolf (Totem, Str)
+L4: Tenacity of the Wild (+1 Regen/Dodge AC per 10 pts of natural Con and +1 AB per 5 pts of natural Con, rounded down)
+L5: One with the Spirits (all three totems are active at the same time)
+
+
+Thaumaturge
+Requirements: Sorcerer, Level 3 arcane spells
+BAB: Low
+Saves: Will
+Skill Pts: 2
+HD: d6
+Levels: 5
+5/5 Sorcerer progression
+L1: Bonus Spell Slots 0,1,2
+L2: Bonus Spell Slots 3,4,5
+L3: Bonus Spell Slots 6,7
+L4: Bonus Spell Slots 8,9
+L5: Force of Personality (Will saves use Cha, not Wis)
+
+
+Mesmer
+Requirements: Level 2 spells
+BAB: Low
+Saves: Will
+Skill Pts: 2
+HD: d4
+Levels: 5
+5/5 Arcane/Divine progression
+L1: Mind Fog at will (2 minute cooldown)
+L2: Deepest Slumber at will (2 minute cooldown)
+L3: Fear at will (2 minute cooldown)
+L4: Confusion at will (2 minute cooldown)
+L5: Crushing Despair at will (2 minute cooldown)
+
+
+Pit Fighter
+Requirements: Iron Will, Toughness, +5 BAB, [color=green]May not have Weapon Master levels
+[/color]BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: [color=green]d14[/color]
+Levels: 5
+Shouts have a 6 round cooldown and last a number of rounds equal to your class level.
+L1: Call for Blood! (+AB equal to class level, -AC equal to half class level rounded up)
+L2: My Eyes! (Blind enemy for 1 round)
+L3: One Shall Stand (+AC equal to class level, -50% speed)
+L4: Death From Above! (+2d6 physical damage, -3 AB, -3 AC)
+L5: One Shall Fall! (+100% speed, +1 Attack)

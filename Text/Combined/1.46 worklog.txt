@@ -1,0 +1,22 @@
+
+1.46 Content
+
+[*]Epic Curse changed to require 22 Hexblade levels when approved multiclassing/pure
+[*]Non-evil PrC for Hexblades (Vengeance Taker)
+[*]Arcane Servant (hexblade feat)
+[*]Faerie Fire replaced with Touch of Idiocy
+[*]Entropic Shield replaced with Ray of Enfeeblement
+[*]http://dalelandsbeyond.forumotion.com/t29264-master-of-radience
+[*]"The Earth Elemental 21 level version (I think. The one before the final one) is the wrong size, has the wrong portrait and misses some feats."
+[*]Master of Radiance issues (scorching ray issues)
+[*]Shadowdancer description updated with new custom feats available to the class
+[*]Update GFK description to indicate armor usage and ability limits.
+[*]Curse of Silence: Now affects the area indirectly so that all targets within are automatically silenced as per the silence spell (no save curse).
+[*]Revamp plant shape with Wildshape changes
+[*]Add class skill section to paladin description
+
+Tiger Combat Style
+Type of Feat: General
+Prerequisites: Improved Unarmed Strike, Intimidate 3
+Benefit: You inflict the wounding property (DC 10 + 1/2 your class level + your Wis modifier) on your foes with your unarmed strikes. Further, you gain your Wisdom modifier on Demoralize Opponent checks as well as gain the feat itself if you do not already have it. The DC suffers a -8 penalty if you multiclass.
+

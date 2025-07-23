@@ -1,0 +1,45 @@
+Spell Review: Assuming the possibility of new spellbooks pans out, the spellbook set for the Alchemist is completely open to being revised (since I'm not limited to 5 per spell level).
+
+Likely candidates: 
+
+Level 1: Identify
+Level 2: Fox's Cunning, Bear's Endurance, Cat's Grace, Cure Moderate Wounds, Owl's Wisdom, Lesser Restoration, See Invisibility, Nightshield, Alchemical Allocation, Bull's Strength
+Level 3: Displacement, Remove Curse, Remove Disease, Remove Blindness/Deafness
+Level 4: Cure Critical Wounds, Restoration, Night Armor, Persistent Vigor
+Level 5: 
+Level 6: Transformation
+
+Each level past 2nd can combine two spells from previous levels to make a new combo spell (so Shield + Barkskin as a level 3 spell, etc). These may be added to make a few combos. Metamagics would be accessible too allowing the usual extend/empower feats to be used.
+
+As an Arcane class that can do research, I'm open to adding spells not listed on this list or the original list as long as it comes from an Arcane source (ie, they could learn Fireball from a wizard). I'd rather keep that part focused on buffs/abjurations and avoid combat spells/conjurations as they don't really fit the class.
+
+
+
+My only suggestion as of right now is if there are "spells" make them well... not spells but alchemical brews. Personally I'd rather see this class's RP have no arcane knowledge but TONS of alchemical knowledge. 
+
+[quote="Kaedrin"]Specific question: what kind of crafting would you like to see for Alchemist? [/quote]
+
+- Vial-tipped arrows/bolts! Let the alchemist make explosive arrows and stuff (nothing too powerful)
+
+- Potions, when i think of alchemy I think of potions, personally I think potions should be craftable without needing spells
+
+
+The alchemist won't have spells (unless things really change) so I'll need to do something custom for them to actually be able to craft potions since potions require spells. While I do that I figured I'd put a custom spin on it to make Alchemists cool.  I figure it's a system the Witch, Witch Hunter, and Alchemist can share.
+
+My early draft of it is to have two feats: Craft Alchemical Potion and Gather Alchemical Herbs.
+
+Gather Alchemical Herbs has a 5 minute cooldown and will gather 1 herb for every 10 levels of craft alchemy skill you have (including your modifiers, and a 7/10 will be rounded up). Each herb is randomly selected from eight colors (red, blue, green, yellow, orange, purple, white, and black). 
+
+Craft Alchemical Potion will consume 1-4 herbs and will generate a potion or elixer based on a recipe. There will be a 10% chance for critical success, multipled by (1 + (Alchemist Level / 100)) for a 13% maximum chance. There will also be a 10% chance for a critical failure (reduced by Alchemist Level/10) for a 7% minimum chance. 
+
+A critical success will randomly have one of the following benefits: craft two potions, empower one of the effects to be slightly stronger, or provide an additional effect.  A critical failure will randomly have one of the following side effects: one of the effects will be slightly weaker, the potion will have an additional penalty such as an attribute debuff, or a slight chance for a total failure.
+
+I need to gather together a list of "spells" that the potions should replicate or brainstorm for ideas for new ones (think Witcher potions).
+
+I could easily see adding additional recipes to craft poison ammo, explosive elemental ammo, and possibly new alchemical devices such as oil arrows that will explosively ignite if followed up with a fire arrow.
+
+I don't have any plans to add Craft Wand support though I may revisit that.  
+
+I had thought about adding a new feat called Craft Alchemical Bandolier that creates a single belt item that you can keep adding 1/day abilities to (potions, cures, etc). That way you might end up with a belt that has six different spells you could use each day (and possibly even allowing for more than 1 use per day to be added) that would cost you gold each time you rest for any potions you did use (less than a brew potion cost but not zero).
+
+I pretty much except the Alchemist to be my crowning achievement for NWN2 and intend to make it so. ;)

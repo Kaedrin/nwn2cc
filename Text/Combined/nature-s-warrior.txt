@@ -1,0 +1,55 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 5 levels.
+
+Nature's warriors are defenders of the wild, protectors of the natural world .. and often druids who have spent "too much time" in wild shape form.  Members of this prestige class share a bond that transcends race and outside appearance.  It is not uncommon for a nature's warrior to spend days or even weeks in a single animal or elemental form, or to shift from form to form regularly, without returning to whatever humanoid form she started with.
+
+Virtually all nature's warriors begin as members of the druid class, but some members of other prestige classes or creatures with the wild shape ability have adopted this class.  Many more militant druids - those with levels in fighter, barbarian, or ranger - find this class ideal for their purposes.
+
+**Requirements:**
+
+Alignment: Any neutral.
+BAB: +4
+Skills: Lore 8, Survival 8
+Feat: Track, Wild shape (Druid or Lion of Talisid)
+
+**Class Features:**
+
+HD: d10
+BAB: High
+High Saves: Fortitude
+Weapon and Armor proficiency: None
+Skill points: 2 + Int modifier
+Class Skills: Craft Weapon, Craft Armor, Diplomacy, Intimidate, Listen, Lore, Survival
+
+**Class Abilities:**
+
+Level 1: Nature's armament, Wilding, Divine Spellcasting progression
+Level 2: 
+Level 3: Nature's armament
+Level 4: 
+Level 5: Nature's armament
+
+Divine Spellcasting: At each even level, a Nature's Warrior gains new spells per day as if he had also gained a level in both the Druid and Ranger class (only if the character has those classes).
+
+Wilding: Nature's warrior class levels stack with druid levels (along with Lion of Talisid and Daggerspell Shaper) to determine wild shape abilities.  
+
+Nature's Armament: The Nature's Warrior can choose a bonus ability while in wild shape from from the following list:
+
+* Armor of the Crocodile: The nature's warrior's natural armor bonus is improved by +1 per class level.  <b>Note: This "stacking" bonus only applies at the time the spell is cast. It does not affect your stats if they later change due to items or spells.</b>
+* Blaze of Power: While in fire elemental form, the nature's warrior is covered in a blaze of power, which functions as a warm fire shield at a caster level equal to her druid level (if any) plus her ranger level (if any) plus her nature's warrior level.
+* Claws of the Grizzly: The nature's warrior gains a +3 bonus on damage when using her natural weapons.
+* Earth's Resilience: The nature's warrior gains DR 3/-.
+* Robe of Clouds: While in air elemental form, her body is wreathed in mist and clouds which is equivalent to concealment (20%).
+* Wild Growth: The nature's warrior gains fast healing 1.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

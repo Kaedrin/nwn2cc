@@ -1,0 +1,28 @@
+2DA V2.0
+
+   Name   Label                 LevelAdjustment FeatRequired SpellRequired Bits     MetaExcludes IconPrefixResRef   IconSuffixResRef AssociatedSpell ImprovedFeat ImprovedLevelAdjustment 
+0  202    None                  0               ****         ****          0x000000 0x000000     ****               ****             ****            -1           ****                    
+1  209    Empower               2               11           ****          0x000001 0x000000     imm_empower        ****             ****            1892         1                       
+2  293    Extend                1               12           ****          0x000002 0x000000     imm_extend         ****             ****            3537         0                       
+3  413    Maximize              3               25           ****          0x000004 0x000000     imm_maximize       ****             ****            1893         2                       
+4  216    Quicken               4               29           ****          0x000008 0x000000     imm_quicken        ****             ****            1894         3                       
+5  218    Silent                1               33           ****          0x000010 0x000000     imm_silent         ****             ****            3538         0                       
+6  220    Still                 1               37           ****          0x000020 0x000000     imm_still          ****             ****            3539         0                       
+7  182803 Persistent            6               1679         ****          0x000040 0x000040     imm_persistent     ****             ****            -1           ****                    
+8  241417 Chain                 3               3540         ****          0x000080 0x000000     imm_chain          ****             ****            3536         2                       
+9  111966 Invoc_Drain_Blst      0               1411         ****          0x000100 0x000000     is_wdrblast-alpha  ****             812             -1           ****                    
+10 111967 Invoc_Eldr_Spear      0               1411         ****          0x000200 0x000000     is_weldspear       ****             813             -1           ****                    
+11 111969 Invoc_Fright_Blst     0               1411         ****          0x000400 0x000000     is_wfrblast-alpha  ****             815             -1           ****                    
+12 111970 Invoc_HideousBlow     0               1411         ****          0x000800 0x000000     is_weldspear       ****             816             -1           ****                    
+13 111973 Invoc_Beshad_Blst     0               1411         ****          0x001000 0x000000     is_wbsblast-alpha  ****             819             -1           ****                    
+14 111974 Invoc_Brimst_Blst     0               1411         ****          0x002000 0x000000     is_wbrblast-alpha  ****             820             -1           ****                    
+15 111978 Invoc_Eldr_Chain      0               1411         ****          0x004000 0x000000     is_weldchain       ****             824             -1           ****                    
+16 111980 Invoc_Helrim_Blst     0               1411         ****          0x008000 0x000000     is_whrblast-alpha  ****             826             -1           ****                    
+17 111984 Invoc_Bewitc_Blst     0               1411         ****          0x010000 0x000000     is_wbwblast-alpha  ****             830             -1           ****                    
+18 111987 Invoc_Eldr_Cone       0               1411         ****          0x020000 0x000000     is_weldcone        ****             833             -1           ****                    
+19 111988 Invoc_Noxous_Blst     0               1411         ****          0x040000 0x000000     is_wnxblast-alpha  ****             834             -1           ****                    
+20 111990 Invoc_Vitrio_Blst     0               1411         ****          0x080000 0x000000     is_wvtblast-alpha  ****             836             -1           ****                    
+21 111993 Invoc_Eldr_Doom       0               1411         ****          0x100000 0x000000     is_welddoom        ****             839             -1           ****                    
+22 111996 Invoc_Utterd_Blst     0               1411         ****          0x200000 0x000000     is_wudblast-alpha  ****             842             -1           ****                    
+23 196041 Invoc_Hnd_Blst        0               1411         ****          0x400000 0x000000     is_whndblast-alpha ****             1130            -1           ****                    
+24 196042 Invoc_Bnd_Blst        0               1411         ****          0x800000 0x000000     is_wbndblast-alpha ****             1131            -1           ****                    

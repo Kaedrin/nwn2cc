@@ -1,0 +1,26 @@
+2DA V2.0
+
+   LABEL             STRING_REF TILESET 
+0  Standard_Interior 113585     SI      
+1  Standard_Castle   113586     SC      
+2  Crypt             113587     CR      
+3  Standard_Mine     113588     SM      
+4  Caves             113589     CV      
+5  Illefarn          113590     IL      
+6  Shadow_Fortress   113591     SF      
+7  Tree_Dungeon      113592     TD      
+8  Sunken_Ruin       185833     SR      
+9  Estate            185834     ES      
+10 padding           ****       ****    
+11 padding           ****       ****    
+12 padding           ****       ****    
+13 padding           ****       ****    
+14 padding           ****       ****    
+15 padding           ****       ****    
+16 padding           ****       ****    
+17 padding           ****       ****    
+18 Deep_halls        ****       DH      
+19 Deep_sewers       ****       DS      
+20 Deep_Chasms       ****       DC      
+21 Citadel_Revisited ****       CIT     
+22 RWS_TOWERS        RWS_Towers RT      

@@ -1,0 +1,46 @@
+The wilderness is unforgiving, and the ability to find food often means the difference between survival and starvation. The best hunters, wilderness stalkers, are consummate trackers with an instinctive knowledge of their wilderness territories.
+
+Scouts are the most likely candidates to become wilderness stalkers, but rogues are well represented, and the prestige class attracts a fair number of multiclass barbarians and rangers who qualify.
+
+Requirements
+
+Base Attack Bonus: +5.
+Feats: Track
+Skills: Listen 8, Spot 8, Survival 8
+Special: Sneak Attack 1d6
+
+Class Features
+
+HD: d8
+BAB: High
+High Saves: Fort
+Weapon proficiency: None
+Armor proficiency: Light.
+Skill points: 4 + Int modifier
+Class Skills: Craft Armor, Craft Weapon, Intimidate, Heal, Hide, Listen, Lore, Move Silently, Search, Spot, Survival, and Tumble.
+
+Class Abilities
+
+Level 1: 
+Level 2: Sneak Attack +1d6
+Level 3: Swift Tracker
+Level 4: +1 Dodge AC
+Level 5: 
+Level 6: Sneak Attack +2d6
+Level 7: Camouflage
+Level 8: +2 Dodge AC
+Level 9: 
+Level 10: Sneak Attack +3d6
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

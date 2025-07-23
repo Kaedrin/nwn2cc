@@ -1,0 +1,140 @@
+Combining the dynamic powers of martial prowess and arcane might, the hexblade presents a deadly challenge to opponents unused to such a foe. The hexblade balances talents in combat and arcane spellcasting.  
+
+Though a capable melee combatant, the hexblade relies on opportunistic use of her spells and special abilities to augment this role in the group. A hexblade with the proper skill selection can make a fine leader for a group comfortable with her style.
+
+Hexblade spellcasting is based on Charisma.
+
+This is a base class. [[span style="color: red;"]]It will be unable to qualify for prestige classes that expect a certain arcane level or caster level. It will qualify for Dragon Disciple and Arcane Archer.[[/span]]
+
+Alignment: Any nongood.
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort, Will
+Weapon proficiency: Simple and Martial.
+Armor proficiency: All armor and Shields (except tower shields).
+
+Class Skills: Bluff, Craft Alchemy, Craft Armor, Craft Weapon, Diplomacy, Intimidate, Lore, Parry, Spellcraft, Taunt, and Tumble.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Hexblade's Curse 1/day, Armored Caster, Dreadful Wrath, Demoralize Opponent
+Level 2: Arcane Resistance
+Level 3: Mettle, Hexblade's Curse 2/day
+Level 4: Dark Companion
+Level 5: Hexblade's Curse 3/day
+Level 6:
+Level 7: Greater Hexblade's Curse, Hexblade's Curse 4/day
+Level 8:
+Level 9: Hexblade's Curse 5/day
+Level 10: 
+Level 11: Hexblade's Curse 6/day
+Level 12: Aura of Unluck 1/day
+Level 13: Hexblade's Curse 7/day
+Level 14:
+Level 15: Hexblade's Curse 8/day
+Level 16: Aura of Unluck 2/day
+Level 17: Hexblade's Curse 9/day
+Level 18:
+Level 19: Dire Hexblade's Curse, Hexblade's Curse 10/day
+Level 20: Aura of Unluck 3/day
+Level 21: Hexblade's Curse 11/day
+Level 22:
+Level 23: Bonus Epic Feat, Hexblade's Curse 12/day
+Level 24: Aura of Unluck 4/day
+Level 25: Hexblade's Curse 13/day
+Level 26: Bonus Epic Feat
+Level 27: Hexblade's Curse 14/day
+Level 28: Aura of Unluck 5/day
+Level 29: Hexblade's Curse 15/day, Bonus Epic Feat
+Level 30: 
+
+Hexblades gain a bonus epic feat at 23rd, 26th, and 29th level.
+
+Spells per Day (Charisma based for bonus spells)
+1st Level: 0 at 4th, 1 at 6th, 2 at 14th, 3 at 18th
+2nd Level: 0 at 8th, 1 at 10th, 2 at 16th, 3 at 19th
+3rd Level: 0 at 11th, 1 at 12th, 2 at 17th, 3 at 19th
+4th Level: 0 at 14th, 1 at 15th, 2 at 19th, 3 at 20th
+
+5 Spells are known at each level and are spontaneously cast. A hexblades caster level is equal to hexblade level - 3 (this can be brought up to her total hit dice using practiced caster).
+
+Level 1 spells: Augment Familiar, Entropic Shield, Expeditious Retreat, Identify, and Protection from Alignment
+Level 2 spells: Glitterdust, Invisibility, Eagle's Splendor, Mirror Image, and See Invisibility
+Level 3 spells: Slow, Greater Magic Weapon, Hound of Doom, Protection from Energy, and Vampiric Touch
+Level 4 spells: Enervation, Greater Invisibility, Polymorph Self (War Troll), Remove Curse, and Shadow Form
+
+Armored Caster: As a martial arcane caster using spell-like abilities, the hexblade does not suffer from arcane spell failure, her spells cannot be interrupted, her spells bypass spell resistance, and she cannot use metamagics.
+
+Demoralize Opponent - You try to intimidate your opponent and demoralize them. Failure to make a Will save (DC equal to d20 + your Intimidate skill) causes the enemy to suffer a 2 point penalty to attack rolls, saving throws, and skill checks. This ability does not affect those immune to fear.
+
+Hexblade's Curse: Once per day, a hexblade can unleash a curse upon a foe as an instant action. The target of a hexblade's curse takes a -2 penalty on attacks, saves, skill checks, and armor class rolls for 1 hour. A successful Will save (DC 10 + 1/2 hexblade's class level + hexblade's Cha modifier) negates the effect and does not consume a use of the curse.
+
+At every odd level after 1st a hexblade gains the ability to use her curse one additional time per day. Multiple hexblade's curses do not stack and can be removed with a Remove Curse spell.
+
+Arcane Resistance: At 2nd level, a hexblade gains a bonus equal to her base Charisma bonus (minimum +1) on saving throws. This bonus can not exceed a hexblades level.
+
+Mettle: At 3rd level and higher, a hexblade can resist magical and unusual attacks with great willpower and gains a +4 bonus on Fort and Will saving throws. [[span style="color: red;"]]This will be replaced with the real mettle in version 2.[[/span]]
+
+Dark Companion: In combat, a dark companion functions like a floating hex that you place upon your foes. By weakening the defenses of enemies, your dark companion makes your spells and attacks (and those of your allies) more powerful. Any enemy within 20' of you takes a -2 penalty on its saves and to its AC. This penalty stacks with the hexblades curse abilities.
+
+Greater Hexblade's Curse: When a hexblade attains 7th level, the penalty on attacks, saves, skill checks, and armor class rolls incurred by a target of the hexblade's curse becomes -4 instead of -2.
+
+Aura of Unluck: Once per day, a hexblade of 12th level or higher can create a baleful aura of misfortune. Any melee or ranged attack made against the hexblade while this aura of unluck is active has a 20% miss chance (similar to the effect of concealment). The aura lasts for a number of rounds equal to 4 + the hexblade's Charisma bonus (if any).
+
+At 16th level and every four levels after that (20th, 24th, and 28th) the hexblade gains an additional use of the aura.
+
+Dire Hexblade's Curse: When a hexblade attains 19th level, the penalty on attacks, saves, skill checks, and armor class rolls incurred by a target of the hexblade's curse becomes -6 instead of -4.
+
+New feats for the class:
+* Curse of Lethargy: You curse the target and any enemies within 30' with the Slow spell for the duration of your curse effect instead of your normal curse effect. A Will save negates.
+* Curse of Silence: You curse the target and any enemies within 30' with the Silence spell for the duration of your curse effect instead of your normal curse effect. A Will save negates.
+* Rhyme of Misfortune - Your hexblade level stacks with your bard level to determine the effects of the Curse Song feat.
+* Ability Focus (Hexblade's Curse)
+* Extra Hexblade Curse I-III (+3 uses/day each)
+* Extra Aura of Unluck (+3 uses/day)
+* Practiced Caster (Hexblade)
+* Minor Shapeshift (Hexblade)
+* Arcane Strike (+2 magic damage)
+* Lingering Curse (2 min duration)
+* Lingering Aura (double duration)
+* Boon of the Unlucky - You may trade aura of unluck uses for Curse uses.
+* Epic Hexblade's Curse (-8 to stats, requires Hexblade 26)
+* Epic Misfortune - Your curse now affects other hostile targets within 30' of the original target.
+* Epic Improved Aura of Unluck  - You now gain 50% concealment when using Aura of Unluck
+
+Upcoming feats for the class:
+* Extra Slot (Level 1-4 spells, I & II versions - 8 feats total)
+* Extra Spell (Shield)
+* Extra Spell (Ghostly Visage)
+* Extra Spell (Heroism)
+* Extra Spell (Haste)
+* Extra Spell (Keen)
+* Extra Spell (Spiderskin)
+* Epic Dark Companion
+* Dreadful Wrath - It's a level 1 background feat that provides a Debuff Aura like the Blackguard has (Will Save vs DC 10 + 1/2 Char Level + Cha Mod or suffer -2 Saves, -2 AC, -2 AB). It will stack with Dark Companion, the Blackguard's aura, and the Hexblade's curse.
+
+
+New Items such as Hexbands (+1 Curse DC), Veil of Allure (+2 Cha based DCs), Bloodstone enchant (MIC), and Ring of Arcane Might (+1 CL, +1 all DCs) may become available in Version 2.
+
+Dark Companion  
+It's an aura with a vfx that sits back behind your shoulder and pulses. It's an orb that slowly fills and twists (hard to describe) and shifts between black and a tinge of dried blood. [[image http://nwn2customcontent.wikidot.com/local--files/index/darkcomp.JPG]]
+Dark Companion  
+The picture doesn't really do it justice and if I remember right I made the orb about 1/2 the size it was there.
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

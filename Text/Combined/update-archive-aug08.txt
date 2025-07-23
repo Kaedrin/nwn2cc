@@ -1,0 +1,74 @@
+[[tabview]]
+[[tab August 8th, 2008]]
+##green|Last updated 2:05pm cst##
+
+The [http://neverwinternightspodcast.com/index.php/2008/08/08/nwnp-episode-66-kaedrins-prc-pack/ NWN Podcast] is now available where I was interviewed by Jay. It was a lot of fun to do! The podcast can be listened to or downloaded from here: [http://theseoldgeeks.com/nwnp/NWNP-00066.mp3 NWN Podcast with Kaedrin]. They have been having hosting issues to be patient if the link doesn't work at first. They have a comments section at the first link if you have any commentary on how it went. :)
+
+They have one of the non-faction based Purgatorio PrCs to reveal as well though I'm not sure yet when they plan to reveal it.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab August 7th, 2008]]
+##green|Last updated 11:45pm cst##
+
+This weekend I'm looking forward to finishing the Beta 5 content for update 1.33.  Once that is done and released I'll be working on re-testing the classes and changes in preparation for a full release (single player and multiplayer versions) with the 1.13 hotfix.  Once those are complete I'll start integrating 1.33 into the combined works with Reeron for a new release.
+
+There are two Persistent World servers that are working to include my content and they are: [http://nwn2thefrontier.com/ The Frontier] and [http://www.dungeoneternal.com/phpBB2/portal.php Dungeon Eternal X 2].  They are working on version 1.32.3 at the moment and I expect 1.33 to take a while due to just how much content it adds.  With this one update I'm nearly doubling my number of new classes I've added for the game (16 to 28).
+
+ShadowAvatar87, author of the [http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=108 Sexy OC] mod for NWN2, has released a new version of the mod that includes Yume-Kun's new prefab armors with sexier versions.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab August 5th, 2008]]
+##green|Last updated 11:15am cst##
+
+Time seriously continues to fly.  I'm currently working my through the content for Beta 5 of 1.33 which will add 3 more prcs and some other goodies that can be found on the [[[wip| Work in Progress]]] page.  This weekend I did a interview for the [http://www.neverwinternightspodcast.com/  NWN Podcast] folks which was really cool and should be showing up soon. 1.33 will be released for the 1.13 patch once it has been hotfixed.
+
+I'm also trying to get feedback on the warlock invocation Eldritch Glaive so I can decide how to finally add it to my content.  It's been sitting on the cutting room floor since November or so (the script has been included since then) waiting for me to find a good way to balance it out.
+
+I also wrapped up work on four of the [[[Purgatorio]]] prcs so that leaves me with 5 more to go (along with 18 faction feats).
+
+##green|Last updated 12:20pm cst##
+
+I'm going to take a break for a few days so it's probably going to be quiet around here.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

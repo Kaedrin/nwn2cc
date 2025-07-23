@@ -1,0 +1,248 @@
+//:://////////////////////////////////////////////////////////////////////////
+//:: Bard Song: Song/Hymn of Requiem
+//:: nx_s2_sngrequiem
+//:: Created By: Andrew Woo (AFW-OEI)
+//:: Created On: 02/23/2007
+//:: Copyright (c) 2007 Obsidian Entertainment Inc.
+//:://////////////////////////////////////////////////////////////////////////
+/*
+    Song of Requiem:
+    This song damages all enemies within 20 feet for 5 rounds.
+    The total sonic damage caused is equal to 2*Perform skill; the minimum damage
+    caused per target is Perform/3. For example, with Perform 30, a total of
+    60 points of damage is inflicted each round. If six (or more) enemies are
+    affected, they would each take 10 sonic damage per round. This ability has a
+    cooldown of 20 rounds.
+    
+    Hymn of Requiem:
+    The character's Song of Requiem now also heals all party members. The amount
+    healed is the same as the damage caused by the Hymn and is divided among all
+    party members; the minimum amount healed per ally is Perform/3. For example,
+    if the total damage dealt is 60 and four characters are in the party, each is
+    healed 15 hit points per round.
+*/
+// ChazM 5/31/07 renamed DoHealing() to DoPartyHealing() (DoHealing() is declared in nw_i0_spells)
+// AFW-OEI 07/20/2007: NX1 VFX.
+// RPGplayer1 11/16/2008: modified DoPartyHealing() to work with non-player faction
+// RPGplayer1 12/29/2008: modified DoPartyHealing() to limit effects to single area
+
+#include "x0_i0_spells"
+#include "nwn2_inc_spells"
+#include "cmi_ginc_chars"
+
+void DoDamage(object oCaster, int nSpellId)
+{
+    //SpeakString("nx_s2_SngRequiem: Entering Do Damage");
+
+   location locCaster   = GetLocation(oCaster);
+    int nNumEnemies   = 0;
+   
+    // Count up enemy targets so we can divide up damage evenly.  Stop if there's more than 6, since min damage is floored at Total/6.
+    object oTarget; //= GetFirstObjectInShape(SHAPE_SPHERE, RADIUS_SIZE_HUGE, locCaster );
+    //while(GetIsObjectValid(oTarget))
+    //{
+    //    if ( GetIsObjectValidSongTarget( oTarget ) &&  GetIsEnemy( oTarget ) )
+    //    {
+    //        nNumEnemies = nNumEnemies + 1;
+    //    }
+       
+    //    if (nNumEnemies >= 6)
+    //    {   // Don't need to go higher than 6 enemies.
+    //        break;
+    //  }
+    //
+    //   oTarget = GetNextObjectInShape( SHAPE_SPHERE, RADIUS_SIZE_HUGE, locCaster );
+    //}
+    //SpeakString("nx_s2_SngRequiem: DoDamage: nNumEnemies = " + IntToString(nNumEnemies));
+   
+    //if (nNumEnemies <= 0)
+    //{
+    //    return;
+    //}
+   
+    int nPerformSkill = GetSkillRank(SKILL_PERFORM, oCaster);
+    //int nDamage = (2 * nPerformSkill) / nNumEnemies;    // Damage per target is (2*Perform)/Number of Enemies, capped at most 6 enemies.
+    int nDamage=0;
+    //int nLevel = GetBardicClassLevelForUses(OBJECT_SELF);
+
+
+    // Inflict Sonic damage.  No save.
+    oTarget = GetFirstObjectInShape(SHAPE_SPHERE, RADIUS_SIZE_HUGE, locCaster );
+    while(GetIsObjectValid(oTarget))
+    {
+        //SpeakString("nx_s2_SngRequiem: DoDamage: iterating through damage while loop");
+        if ( GetIsObjectValidSongTarget( oTarget ) &&  GetIsEnemy( oTarget ) )
+        {
+            SignalEvent(oTarget, EventSpellCastAt(oCaster, nSpellId, TRUE));
+           
+            if(nNumEnemies==0) //First attack,..  Bard Level + Perform
+            {
+                nDamage = nPerformSkill;
+            }
+            else if(nNumEnemies==1 || nNumEnemies==2) //Second attack,..  (Bard Level + Perform Skill) / 2
+            {
+                nDamage = nPerformSkill * 2;
+				nDamage = nDamage / 3;
+            }
+            else //Third, 4th,5th Attack.  (Bard Level + Perform Skill) /3
+            {
+                nDamage = nPerformSkill / 2;
+            }
+
+
+            effect eDam = EffectDamage(nDamage, DAMAGE_TYPE_SONIC);
+            effect eVis = EffectVisualEffect(VFX_HIT_SPELL_SONIC);
+            float fDelay = 0.15 * GetDistanceToObject( oTarget );
+
+            DelayCommand( fDelay, ApplyEffectToObject( DURATION_TYPE_INSTANT, eDam, oTarget ) );
+            DelayCommand( fDelay, ApplyEffectToObject( DURATION_TYPE_INSTANT, eVis, oTarget ) );
+            nNumEnemies++;
+            if(nNumEnemies>5)
+                return;
+        }
+
+       oTarget = GetNextObjectInShape( SHAPE_SPHERE, RADIUS_SIZE_HUGE, locCaster );
+    }
+	
+	SetActionMode(oCaster, ACTION_MODE_STEALTH, FALSE);
+    //SpeakString("nx_s2_SngRequiem: DoDamage: exiting function");
+}
+
+void DoPartyHealing(object oCaster, int nSpellId)
+{
+    //SpeakString("nx_s2_SngRequiem: Entering DoHealing");
+
+    // Count up party members so we can divide up damage evenly.  Stop if there's more than 6, since min damage is floored at Total/6.
+    int nNumPartyMembers = 0;
+    int bPCOnly    = FALSE;
+    //object oLeader = GetFactionLeader( oCaster );
+    object oLeader = oCaster; //FIX: NPC bards don't have faction leader
+
+	location locCaster   = GetLocation(oCaster);
+    object oTarget; // = GetFirstFactionMember( oLeader, bPCOnly );
+    //while ( GetIsObjectValid( oTarget ) )
+    //{
+    //      //if ( GetIsObjectValidSongTarget(oTarget) )
+    //      if ( GetIsObjectValidSongTarget(oTarget) && GetArea(oTarget) == GetArea(oLeader) )
+    //      {
+    //        nNumPartyMembers = nNumPartyMembers + 1;
+    //    }
+    //   
+    //    if ( nNumPartyMembers >= 6 )
+    //    {
+    //        break;
+    //    }
+    //   
+    //    oTarget = GetNextFactionMember( oLeader, bPCOnly );
+	//    oTarget = GetNextObjectInShape( SHAPE_SPHERE, RADIUS_SIZE_COLOSSAL, locCaster );
+    //}
+   
+    //if (nNumPartyMembers <= 0)
+    //{
+    //    return;
+    //}
+   
+    int nPerformSkill = GetSkillRank(SKILL_PERFORM, oCaster);
+    //int nHeal = (2 * nPerformSkill) / nNumPartyMembers;
+    //int nLevel = GetBardicClassLevelForUses(OBJECT_SELF);
+    //Healing
+    //All Party Members: (Bard Level + Perform Skill) / 2   
+    int nHeal = nPerformSkill /2 ;
+
+    // Apply healing to party members
+    //oTarget = GetFirstFactionMember( oLeader, bPCOnly );
+    oTarget = GetFirstObjectInShape(SHAPE_SPHERE, RADIUS_SIZE_COLOSSAL, locCaster );
+    while ( GetIsObjectValid( oTarget ) )
+    {
+      if(GetMaxHitPoints(oTarget)==GetCurrentHitPoints(oTarget))
+      {
+         oTarget = GetNextObjectInShape( SHAPE_SPHERE, RADIUS_SIZE_COLOSSAL, locCaster );
+         continue;
+      }
+        //if ( GetIsObjectValidSongTarget(oTarget) )
+        if ( GetIsObjectValidSongTarget(oTarget) && spellsIsTarget( oTarget, SPELL_TARGET_ALLALLIES, oCaster ) )
+        {
+        SignalEvent(oTarget, EventSpellCastAt(oCaster, nSpellId, FALSE));
+       
+        effect eHeal = EffectHeal(nHeal);
+        effect eVis = EffectVisualEffect(VFX_IMP_HEALING_M);
+        float fDelay = 0.15 * GetDistanceToObject( oTarget );
+
+        DelayCommand( fDelay, ApplyEffectToObject( DURATION_TYPE_INSTANT, eHeal, oTarget ) );
+        DelayCommand( fDelay, ApplyEffectToObject( DURATION_TYPE_INSTANT, eVis, oTarget ) );
+        nNumPartyMembers = nNumPartyMembers +1;
+
+        /* Only heal 6 people, then return our */
+        if(nNumPartyMembers==5) //This is really 6 since we are zero based.
+      		return;
+        }
+        oTarget = GetNextObjectInShape( SHAPE_SPHERE, RADIUS_SIZE_COLOSSAL, locCaster );
+        //oTarget = GetNextFactionMember( oLeader, bPCOnly );
+    }
+} 
+          
+void RunSongEffects(int nCallCount, object oCaster, int nSpellId)
+{
+    //SpeakString("nx_s2_SngRequiem: Entering RunSongEffects");
+	//SendMessageToPC(oCaster, "[DEBUG] REQUIEM CALL COUNT="+IntToString(nCallCount));
+    // See if you are still allowed to sing.
+   if ( GetCanBardSing( oCaster ) == FALSE )
+   {
+      return;   
+   }
+
+    // Make sure you have enough perform ranks.
+   int   nPerformRanks = GetSkillRank(SKILL_PERFORM, oCaster, TRUE);
+   if (nPerformRanks < 24 )
+   {
+      FloatingTextStrRefOnCreature ( 182800, oCaster );
+      return;
+   }
+
+      effect ePulse = EffectVisualEffect(VFX_HIT_BARD_REQUIEM);
+      ApplyEffectToObject(DURATION_TYPE_INSTANT, ePulse, oCaster);
+         
+      DoDamage(oCaster, nSpellId);
+       
+        // If you have Hymn of Requiem, heal your party, too
+        if (GetHasFeat(FEAT_EPIC_HYMN_OF_REQUIEM, oCaster))
+        {
+            DoPartyHealing(oCaster, nSpellId);
+        }
+           
+        // Schedule the next ping
+        nCallCount = nCallCount + 1;
+        if (nCallCount > ApplySongDurationFeatMods(5, OBJECT_SELF)) // Requiem is for 5 rounds.
+        {
+         RemoveBardSongSingingEffect(oCaster, GetSpellId());   // AFW-OEI 07/19/2007: Terminate song.
+            return;
+        }
+        else
+        {   // Run once per "round" (5.5 secs gives time for some processing lag).
+            //SpeakString ("nx_s2_SngRequiem: RunSongEffects: queuing up call to RunSongEffects.  Call count: " + IntToString(nCallCount));
+            DelayCommand(5.5f, RunSongEffects(nCallCount, oCaster, nSpellId));
+        }
+}
+
+
+void main()
+{
+    if ( !GetCanBardSing( OBJECT_SELF ) )
+    {
+        //SpeakString("nx_s2_SngRequiem: main: !GetCanBardSing()");
+   		return;   
+    }
+   
+    if (!GetHasFeat(FEAT_BARD_SONGS, OBJECT_SELF))
+    {
+        FloatingTextStrRefOnCreature(STR_REF_FEEDBACK_NO_MORE_BARDSONG_ATTEMPTS,OBJECT_SELF); // no more bardsong uses left
+        return;
+    }
+
+    effect eFNF = ExtraordinaryEffect( EffectVisualEffect(VFX_DUR_BARD_SONG) );
+    ApplyEffectAtLocation(DURATION_TYPE_INSTANT, eFNF, GetLocation(OBJECT_SELF));
+
+    DelayCommand(0.1f, RunSongEffects(1, OBJECT_SELF, GetSpellId()));
+   
+    DecrementRemainingFeatUses(OBJECT_SELF, FEAT_BARD_SONGS);
+}

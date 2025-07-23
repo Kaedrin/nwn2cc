@@ -1,0 +1,46 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+Warrior, thief, spy, poet, woodland champion: the Canaith lyrist is a legendary figure who serves as the herald and teacher to great kings, the champion of the common folk, and the keeper of lore long forgotten elsewhere. Only the best and brightest are invited to become Canaith lyrists, and those who eventually win the approval of the Canaith College's masters are remarkable individuals indeed, skilled in swordplay, magic, and diplomacy.
+
+**Requirements:**
+
+Alignment: Any neutral.
+Required Class: Bard.
+Skills: Diplomacy 7, Lore 7, Perform 13, and Sleight of Hand 7.
+Special: Evasion
+Arcane Spell Level 2
+
+**Class Features:**
+
+Hit Die: d6
+Base Attack Bonus: High.
+High Saves: Reflex, Will.
+Weapon Proficiencies: None.
+Armor Proficiencies: None.
+Skill Points: 6 + Int modifier.
+Class Skills: Appraise, Bluff, Concentration, Craft Alchemy, Craft Armor, Craft Weapon, Diplomacy, Heal, Hide, Listen, Lore, Move Silently, Perform, Sleight of Hand, Spellcraft, Survival, Tumble, and Use Magic Device.
+
+**Class Abilities**
+
+Spellcasting: At each Canaith lyrist level, the character gains new spells per day (and spells known, if applicable) as if she had also gained a level in an arcane or divine class.
+
+Bardic Music: A Canaith lyrist adds her lyrist level to her bard level to determine the number of times per day she can use her bardic music, which bard songs she knows, and the power of those abilities.
+
+[!--
+Bardic Knowledge: A Canaith lyrist can attempt to recall some relevant piece of information about notable people, legendary items, or noteworthy places. She adds half her Fochlucan lyrist class level as a bonus to her Lore skill.
+--]
+
+NWN2 Adaption: This class is based on the Fochlucan Lyrist and has been renamed to Canaith Lyrist.  It does not require the Druid class to take and does not provide dual progression (one arcane, one divine). You simply choose which spellcasting progression you want.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

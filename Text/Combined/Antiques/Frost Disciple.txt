@@ -1,0 +1,68 @@
+Frost Disciple
+
+Frost Disciple
+
+This description is a work in progress and is not yet complete.
+
+x
+
+Requirements
+
+Alignment: Any nongood.
+Base Attack Bonus: +4.
+Feat: Weapon Focus (Greataxe)
+Skills: Intimidate 4, Survival 8.
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Will
+Weapon proficiency: All simple and martial weapons.
+Armor proficiency: All armor and shields (including tower shields).
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Diplomacy, Lore,
+Spellcraft, and Survival.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Protection of Winter
+Level 2: Resistance to Fire 5
+Level 3: Powerful Grip
+Level 4: Frost Greataxe
+Level 5: Agonizing Strike 1/day
+Level 6: Resistance to Fire 10
+Level 7:
+Level 8: Icy Greataxe
+Level 9: Agonizing Strike 2/day
+Level 10: Immunity to Fire
+
+Frost Disciple Spell List
+1st Level: Divine Favor, Doom, Lesser Frostburn, Magic Weapon, Lesser Shivering Touch
+2nd Level: Bull's Strength, Eagle's Splendor, Frost Weapon, Zone of Glacial Cold
+3rd Level: Lesser Aura of Cold, Shivering Touch
+4th Level: Boreal Wind, Minor Globe of Invulnerability, Frostburn, Summon Giants
+5th Level: Ice Storm, Stoneskin
+
+Spells Per Day (Wisdom based for bonus spells)
+1st Level: 1 at 1st, 2 at 2nd, 3 at 4th, 4 at 7th.
+2nd Level: 1 at 3rd, 2 at 4th, 3 at 6th, 4 at 9th.
+3rd Level: 1 at 5th, 2 at 6th, 3 at 8th.
+4th Level: 1 at 7th, 2 at 8th, 3 at 10th.
+5th Levle: 1 at 9th, 2 at 10th.
+
+Protection of Winter: At 1st level, the frost disciple gains +1 sacred bonus on all saving throws and a +1 bonus to dodge armor class.
+
+Powerful Grip: At 3rd level, the frost disciple gains a damage bonus equal to half his Strength bonus when he attacks with a greataxe.
+
+Frost Greataxe: At 4th level, the frost disciple can cause a greataxe he wields to become sheated in a layer of intense cold, grant the axe the
+frost special ability (+1d6 cold damage). It lasts for a number of rounds equal to his class level and can be used at will.
+
+Agonizing Strike: At 5th level, the frost disciple gains the ability to focus all the anger and hatred in his frozen heart into a single blow
+once per day. He makes a normal melee attack; if he hits, he deals +1d6 points of cold damage for every 2 class levels (+2d6 at 5th, +3d6 at
+6th, +4d6 at 8th, +5d6 at 10th. At 9th level, the frost disciple can use the ability twice per day.
+
+Icy Greataxe: At 8th level, the frost disciple can cause a greataxe he wields to become sheated in a layer of intense cold, grant the axe the
+icy burst special ability (+1d6 cold damage, +2d10 massive criticals). It lasts for a number of rounds equal to his class level and can be used
+at will.

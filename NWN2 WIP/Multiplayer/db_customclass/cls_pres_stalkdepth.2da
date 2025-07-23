@@ -1,0 +1,8 @@
+2DA V2.0
+
+   LABEL                              ReqType  ReqParam1 ReqParam2 
+0  FEAT_TRACK                         FEAT     1116      ****      
+1  Survival                           SKILL    29        8         
+2  DreadComm                          CLASSNOT 166       ****      
+3  EliteComm                          CLASSNOT 141       ****      
+4  NWN9                               CLASSNOT 47        ****      

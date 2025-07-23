@@ -1,0 +1,53 @@
+Children of night are more than spellcasters, more than scholars, and they claim to be more than mortal. For those who have the will and the depth of knowledge to join their ranks, ascension beyond the earthly form awaits, for the children of night become the stuff of shadow itself.
+
+Requirements
+
+Skills: Lore 12.
+Spellcasting: 2nd level.
+
+Class Features
+
+HD: d6
+BAB: Low
+High Saves: Will
+Weapon and Armor proficiency: None
+
+Class Skills: Craft Armor, Craft Weapon, Concentration, Hide, Intimidate, Listen, Lore, Move Silently, Spellcraft, and Spot.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Cloak of Shadows, Cold Resistance 5, Spellcasting Progression
+Level 2: 
+Level 3: Dancing Shadows 1/day
+Level 4: 
+Level 5: Cold Resistance 10
+Level 6: 
+Level 7: Dancing Shadows 2/day
+Level 8: 
+Level 9: Cold Resistance 15
+Level 10: Dancing Shadows 3/day, Night Form
+
+Spellcasting: At each level except 2nd, you gain new spells per day and an increase in caster level and spells known as if you had also attained a level in a casting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained such as bonus feats. If you had more than one spellcasting class before becoming a child of night, you must decide which class to progress in. This is a 9/10 progression class in either Divine, Arcane, or Invocation magic.
+
+Cloak of Shadows: Your flesh takes on a hazy, almost translucent hue, granting a bonus equal to your child of night level on Hide checks. At 6th level you become immune to poisons and diseases. At 8th level, your form permanently becomes hazy and you continually have a blur effect (20% concealment).
+
+Cold Resistance: At 1st level, the shaow in your essence provides cold resistance 5. This resistance increases to 10 at 5th level and 15 at 9th level.
+
+Dancing Shadows: At 3rd level, you can grant yourself 50% concealment for one round per class level. At 7th level and above, you can use dancing shadows twice per day. At 10th level, you can use dancing shadows three times per day. This is an instant feat.
+
+Night Form: For 1 minute per day, you can take the form of a Nightwalker while retaining your ability to cast spells.
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

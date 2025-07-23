@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<EventList>
+  <Name>TEST_LINE_P</Name>
+  <MaxDuration>0</MaxDuration>
+  <SpecialTargetPosition>0</SpecialTargetPosition>
+  <Event0>
+    <Type>5</Type>
+    <Name>test_line_event</Name>
+    <DefinitionFile>test_line.ifx</DefinitionFile>
+    <DelayTime>0</DelayTime>
+    <MaxDuration>0</MaxDuration>
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>1</z>
+    </Position>
+    <SourceAttachment>0</SourceAttachment>
+    <TargetAttachment>0</TargetAttachment>
+    <SourceAttachmentObject>0</SourceAttachmentObject>
+    <TargetAttachmentObject>1</TargetAttachmentObject>
+  </Event0>
+</EventList>

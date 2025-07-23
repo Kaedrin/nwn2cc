@@ -1,0 +1,22 @@
+2DA V2.0
+
+   FeatLabel                                   FeatIndex List GrantedOnLevel OnMenu 
+0  FEAT_FROSTMAGE_SPELLCASTING_BARD            3275      2    1              0      
+1  FEAT_FROSTMAGE_SPELLCASTING_CLERIC          3276      2    1              0      
+2  FEAT_FROSTMAGE_SPELLCASTING_DRUID           3277      2    1              0      
+3  FEAT_FROSTMAGE_SPELLCASTING_FAVORED_SOUL    3278      2    1              0      
+4  FEAT_FROSTMAGE_SPELLCASTING_PALADIN         3279      2    1              0      
+5  FEAT_FROSTMAGE_SPELLCASTING_RANGER          3280      2    1              0      
+6  FEAT_FROSTMAGE_SPELLCASTING_SORCERER        3281      2    1              0      
+7  FEAT_FROSTMAGE_SPELLCASTING_SPIRIT_SHAMAN   3282      2    1              0      
+8  FEAT_FROSTMAGE_SPELLCASTING_WIZARD          3283      2    1              0      
+9  FEAT_EPIC_SPELL_DAMNATION                   1991      0    21             2      
+10 FEAT_EPIC_SPELL_ENTROPIC_HUSK               1992      0    21             2      
+11 FEAT_EPIC_SPELL_EPIC_GATE                   1993      0    21             2      
+12 FEAT_EPIC_SPELL_HELLBALL                    876       0    21             2      
+13 FEAT_EPIC_SPELL_MASS_FOWL                   1994      0    21             2      
+14 FEAT_EPIC_SPELL_VAMPIRIC_FEAST              1995      0    21             2      
+15 FEAT_FROSTMAGE_ARMOR_FROST                  3284      3    1              0      
+16 FEAT_RACIAL_RESIST_COLD_10                  2115      3    2              0      
+17 FEAT_FROSTMAGE_PIERCING_COLD                3285      3    6              0      
+18 FEAT_FROSTMAGE_ONE_WITH_COLD                3286      3    10             0      

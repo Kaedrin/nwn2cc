@@ -1,0 +1,58 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+An expert at breaking into "secure" areas, a nightsong infiltrator is the perfect thief and the perfect spy.  Whether she is there to steal gold, information, jewels, or secrets, an infiltrator is trained to do her job quickly and efficiently.  She practices extensively with locks and traps, focusing on doing her job under pressure and in unfavorable conditions.
+
+Rogues most frequently and most easily become nightsong infiltrators.  Bards, urban rangers, and intelligent fighters can make good members of the class as well.  Rarer, but possible, are spellcasting nightsong infiltrators who use spells to get in and out of place.  When working as part of a team, a nightsong infiltrator works best as the advance scout and point person, while the other team members take care of the threats that she is unable to deal with (guards, mostly).
+
+**Requirements:**
+
+Feats: Alertness, Evasion
+Skills: Disable Device 10 Ranks, Open Lock 5 Ranks, Search 5 Ranks.
+
+**Class Features:**
+
+Hit Die: d6
+Base Attack Bonus: Medium.
+High Saves: Reflex.
+Weapon Proficiencies: None.
+Armor Proficiencies: None.
+Skill Points: 8 + Int modifier.
+Class Skills: Appraise, Bluff, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Diplomacy, Disable Device, Hide, Listen, Lore, Move Silently, Open Lock, Search, Sleight of Hand, Spot, and Tumble.
+
+**Class Abilities:**
+
+Level 1: Teamwork Trap Sense +1, Trapfinding
+Level 2: Skill Focus (Tumbling), Teamwork Infiltration +2
+Level 3: Adrenaline Boost 1/day, Trackless Step (self)
+Level 4: Teamwork Sneak Attack 1d6, Teamwork Trap Sense +2
+Level 5: Defensive Roll, Adrenaline Boost 2/day
+Level 6: Improved Evasion, Skill Focus (Disable Device), Skill Focus (Open Locks), Skill Focus (Search)
+Level 7: Teamwork Trap Sense +3, Trackless Step (allies)
+Level 8: Teamwork Infiltration +4, Teamwork Sneak Attack 2d6
+Level 9: Adrenaline Boost 3/day
+Level 10: Hide in plain sight, Teamwork Trap Sense +4
+
+Teamwork Trap Sense +1: The nightsong infiltrator grants herself and her allies (within 30 feet) a +1 bonus on Reflex saves made to avoid traps.  This ability improves to +2 at 4th level, +3 at 7th level, and +4 at 10th level.
+
+Trapfinding: Nightsong infiltrators can now use the Disable Device skill to overcome traps with a DC of 20 or more as a Rogue.
+
+Teamwork Infiltration +2: The nightsong infiltrator grants herself and her allies (within 30 feet) a +2 competence bonus the following skills: Disable Device, Hide, Move Silently, Open Lock, Search, and Tumble. This bonus improves to +4 at 8th level.
+
+Adrenaline Boost: You can exhort your allies to discover a reservoir of energy they didn't think they had.  Once per day, as a standard action, you can grant temporary hit points equal to your nightsong infiltrator level to all of your allies within 30 feet (but not to yourself).  If the ally's current hit point total is no more than half his full normal hit points, the number of temporary hit points granted to that character is doubled.  The temporary hit points last for up to 1 minute per nightsong infiltrator level.  At 5th level you can use this ability twice per day and three times per day at 9th level.
+
+Teamwork Sneak Attack: The nightsong infiltrator grants herself and her allies (within 30 feet) a 1d6 sneak attack bonus when flanking an opponent or any time the target would be denied its Dexterity bonus.  This bonus increases to 2d6 at 8th level.
+
+Trackless Step (allies): The nightsong infiltrator can grant the trackless step ability to her allies.  This benefit lasts for 24 hours.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

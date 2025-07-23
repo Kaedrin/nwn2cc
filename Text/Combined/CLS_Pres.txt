@@ -1,0 +1,37 @@
+Rob gave me the info in the NWN2 community rep chat room so I thought I'd repost it here for CC developers.
+
+cls_pres_*.2da options for REQTYPE:
+
+SKILL: skill & required ranks.
+
+FEAT: required single feat. ANDed together with all other feat prereqs and the two OR lists.
+
+RACE: required race.
+
+SUBRACE: required subrace.
+
+FEATOR: You must have at least one of the feats of the set of feats that are marked as FEATOR (as well as all the FEAT-labeled feats, and one of the set of FEATOR2 feats).
+
+FEATOR2: You must have at least one of the feats of the set of feats that are marked as FEATOR2 (as well as all the FEAT-labeled feats, and one of the set of FEATOR feats).
+
+BAB: minimum base attack bonus.
+
+SAD: minimum number of sneak attack dice.
+
+SPELL: minimum level in any class that can cast spells.
+
+ARCSPELL: minimum spell level in arcane spells.
+
+DIVSPELL: minimum spell level in divine spells.
+
+ARCSPELLOR: minimum spell level in arcane spells; works with DIVSPELLOR -> you only need to meet one of ARCSPELLOR or DIVSPELLOR to pass the prereq.
+
+DIVSPELLOR: minimum spell level in divine spells; works with ARCSPELLOR -> you only need to meet one of ARCSPELLOR or DIVSPELLOR to pass the prereq.
+
+CLASSNOT: may not be this class.
+
+CLASSOR: must be at least one of the classes of the set of classes that are marked CLASSOR.
+
+SPECIALIST: must be a specialist wizard.
+
+SAVE: save type and minimum save bonus. 1 = fort, 2 = reflex, 3 = will.

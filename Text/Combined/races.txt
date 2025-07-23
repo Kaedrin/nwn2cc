@@ -1,0 +1,333 @@
+Current as of 1.40.4
+
+[[tabview]]
+[[tab New Races]]
+
+[[table style="margin: 0 0px;"]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+##blue| **Star Elf**##
+
+Star elves are the least common sort of elves in Faerûn. Also called mithral elves, they have fair skin (sometimes tinged with blue) and hair of silver-white, black, or blue. Their eyes are blue or green, with gold flecks. They are the elven subrace least tolerant of humankind, and few half-elves are descended from star elves.
+
+##red| **Racial Traits:**##
+
+- **Ability Adjustments:** +2 Charisma, -2 Constitution.
+
+- **Hardiness vs. Enchantments:** Immunity to magic sleep effects, +2 racial bonus to saving throws against enchantment spells or effects.
+
+- **Low-Light Vision:** An elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination.
+
+- **Weapon Proficiency:** Elves receive the Martial Weapon Proficiency feats for the longsword, rapier, longbow (including composite longbow), and shortbow (including composite shortbow) as bonus feats.
+
+- **Keen Senses:** +2 racial bonus to Listen, Search, and Spot checks.
+
+- **Favored Class:** Bard. A multiclass star elf 's bard class does not count when determining whether she takes an experience point penalty for multiclassing. Being a bard comes naturally to elves - indeed, they sometimes claim to have invented disciplines focused around it such as the Bladesinger.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+##blue| **Painted Elf**##
+
+More closely related to wild elves than high elves, painted elves commonly dwell in petrified forests - which in ages past, they claim, were their ancestral homes. The painted elves take their name from the nature of the wastes in which they dwell, but also from their habit of camouflaging themselves with pigments derived from the mineral deposits found in such places. Though they rarely see visitors - since painted deserts and petrified forests offer little in the way of treasure - painted elves are extremely distrustful of outsiders, and can turn on guests at the slightest provocation.
+
+##red| **Racial Traits:**##
+
+- **Ability Adjustments:** +2 Dexterity, -2 Intelligence.
+
+- **Hardiness vs. Enchantments:** Immunity to magic sleep effects, +2 racial bonus to saving throws against enchantment spells or effects.
+
+- **Low-Light Vision:** An elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination.
+
+- **Weapon Proficiency:** Elves receive the Martial Weapon Proficiency feats for the longsword, rapier, longbow (including composite longbow), and shortbow (including composite shortbow) as bonus feats.
+
+- **Keen Senses:** +2 racial bonus to Listen, Search, and Spot checks.
+
+- **Favored Class:** Druid. A multiclass painted elf 's druid class does not count when determining whether she takes an experience point penalty for multiclassing.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+##blue| **Imaskari**##
+
+Secret and few, the deep Imaskari are heirs to the lost empire of Imaskar. One of the earliest human empires, Imaskar rose in what is now the Dust Desert and Plains of Purple Dust. Wizard-kings of heady power, the Imaskari were destroyed by the slaves they had abducted from other worlds (who eventually became the folk of Mulhorand and Unther) and the machinations of unusual creatures of their own creation (the phaerimms). The Imaskari faded away into history as their empire crumbled, leaving behind nothing but mysterious ruins. A secret few, however, charged with epic wizardry, managed to preserve themselves and their kin. Fleeing deep into the bowels of the earth, they sealed themselves away from both the knowledge and the recriminations of the surface world.
+
+The deepest fissures of the earth have long hidden an ancient secret: The descendants of the Imaskari still live. Thousands of years of isolation combined with purposeful magical modifications have transformed these deep Imaskari into a human subrace adapted to life underground. The deep Imaskari have long managed to conceal the existence of their hidden kingdom even from other Underdark races by enforcing complete separation. Now, however, deep Imaskari isolation is coming to an end. The magical seal that so long protected the kingdom of Deep Imaskar has been breached, and a few deep Imaskari have begun to wander the deep ways of the world that their ancestors fled long ago.
+
+##red| **Racial Traits:**##
+
+- **Ability Adjustments:** -2 Dexterity, +2 Intelligence.
+
+- **Low-Light Vision:** An Imaskari can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination.
+
+- **Spell Clutch:** Because the deep Imaskari have studied magic for ages on end, a certain facility with magic has seeped into their blood. A deep Imaskari can add one extra 1st-level spell to her known spellbook (after the first time they rest).
+
+- **Feats:** Imaskari gain Skill Focus (Hide) as a bonus feat.
+
+- **Favored Class:** Wizard. A multiclass Deep Imaskari's wizard class does not count when determining whether he takes an experience point penalty for multiclassing.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+##blue| **Spellscale**##
+
+Among the humanoid races, spellscales are the most creative, experimental, and varied. Most generalities about spellscales collapse under examination, because each spellscale displays a unique philosophy and behavior. What's most true of them as a group is that these dragonblood humanoids have a very strong racial inclination towards sorcery.
+
+##red| **Racial Traits:**##
+
+- **Ability Adjustments:** +2 Charisma, -2 Constitution
+
+- **Low-Light Vision:** A spellscale can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination.
+
+- **Bonus Feats:** - A spellscale gains the bonus feats: Skill Focus (Concentration) and Still Spell.
+
+- **Favored Class:** Sorcerer.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+##blue| **Feytouched (Lyrical)**##
+
+Feytouched are a widely varied group of beings -- some are wispy and beautiful, while others are ugly and brutish. Some resemble elves, with pointed ears and almond-shaped eyes. Others look more like trolls, with warty skin and disproportioned limbs. Regardless, all feytouched have at least one feature or characteristic that is out of the norm -- vibrantly colored hair, feathered eyebrows, or a propensity for speaking in rhyme, for example. Despite their actual appearance, all feytouched are highly charismatic beings that draw attention wherever they go.
+
+Feytouched have no cohesive culture; either they become isolated loners, or they immerse themselves in cosmopolitan society, sampling everything life has to offer. They are also drawn to the same natural settings that other fey called home. Most fey respond favorably to feytouched and consider them distant cousins. Feytouched that seclude themselves in nature are usually druids or rangers. Feytouched clerics are rare, since most fey have a strong aversion to the worship of gods.
+
+##red| **Racial Traits:**##
+
+- **Ability Adjustments:** +2 Charisma, -2 Constitution, +2 Dexterity.
+
+- **Low-Light Vision:** A feytouched can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination.
+
+- **Weapon Proficiency:** Feytouched receive the Simple Weapon Proficiency feat.
+
+- **Bonus Feat: Fey Heritage:** You are descended from creatures native to the fey realms. You are naturally resistant to the most common effects produced by your ancestors. +3 bonus to saves against enchantments.
+
+- **Favored Class:** Bard. A multiclass feytouched's bard class does not count when determining whether she takes an experience point penalty for multiclassing. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+##blue| **Feytouched (Shadowy)**##
+
+Feytouched are a widely varied group of beings -- some are wispy and beautiful, while others are ugly and brutish. Some resemble elves, with pointed ears and almond-shaped eyes. Others look more like trolls, with warty skin and disproportioned limbs. Regardless, all feytouched have at least one feature or characteristic that is out of the norm -- vibrantly colored hair, feathered eyebrows, or a propensity for speaking in rhyme, for example. Despite their actual appearance, all feytouched are highly charismatic beings that draw attention wherever they go.
+
+Feytouched have no cohesive culture; either they become isolated loners, or they immerse themselves in cosmopolitan society, sampling everything life has to offer. They are also drawn to the same natural settings that other fey called home. Most fey respond favorably to feytouched and consider them distant cousins. Feytouched that seclude themselves in nature are usually druids or rangers. Feytouched clerics are rare, since most fey have a strong aversion to the worship of gods.
+
+##red| **Racial Traits:**##
+
+- **Ability Adjustments:** +2 Charisma, -2 Constitution, +2 Dexterity.
+
+- **Low-Light Vision:** A feytouched can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination.
+
+- **Weapon Proficiency:** Feytouched receive the Simple Weapon Proficiency feat.
+
+- **Bonus Feat: Fey Heritage:** You are descended from creatures native to the fey realms. You are naturally resistant to the most common effects produced by your ancestors. +3 bonus to saves against enchantments.
+
+- **Favored Class:** Rogue. A multiclass feytouched's rogue class does not count when determining whether she takes an experience point penalty for multiclassing.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[/table]]
+
+[[/tab]]
+
+[[tab New Items]]
+
+[[table style="margin: 0 0px;"]]
+[[row]]
+[[cell]]
+**Name**
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+**Type**
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+**Info**
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Battle Plate
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Heavy Armor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Armor Class: 9, Maximum Dexterity Bonus: 1, Armor Check Penalty: -7, Arcane Spell Failure: 50%
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Bondleaf Ivy
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Light Armor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Armor Class: 1, Maximum Dexterity Bonus: 100, Armor Check Penalty: 0, Arcane Spell Failure: 0%
+[[/cell]]
+[[/row]]
+
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Living Coral
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Medium Armor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Armor Class: 6, Maximum Dexterity Bonus: 3, Armor Check Penalty: -4, Arcane Spell Failure: 20%
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Mithral Battle Plate
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Heavy Armor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Armor Class: 9, Maximum Dexterity Bonus: 3, Armor Check Penalty: -4, Arcane Spell Failure: 40%
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Mithral Mountain Plate
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Heavy Armor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Armor Class: 10, Maximum Dexterity Bonus: 2, Armor Check Penalty: -6, Arcane Spell Failure: 50%
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Mountain Plate
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Heavy Armor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Armor Class: 10, Maximum Dexterity Bonus: 0, Armor Check Penalty: -9, Arcane Spell Failure: 60%
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Nightscale
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Light Armor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Armor Class: 2, Maximum Dexterity Bonus: 10, Armor Check Penalty: 0, Arcane Spell Failure: 5%
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Sharkskin
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Light Armor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Armor Class: 3, Maximum Dexterity Bonus: 6, Armor Check Penalty: -1, Arcane Spell Failure: 10%
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Spidersilk
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Light Armor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Armor Class: 3, Maximum Dexterity Bonus: 8, Armor Check Penalty: -1, Arcane Spell Failure: 10%
+[[/cell]]
+[[/row]]
+
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Lesser Chasuble of Fel Power
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Necklace
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Eldritch Blast deals +1d6 points of damage.
+[[/cell]]
+[[/row]]
+
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Chasuble of Fel Power
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Necklace
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Eldritch Blast deals +2d6 points of damage.
+[[/cell]]
+[[/row]]
+
+[[/table]]
+
+[[/tab]]
+
+[[/tabview]]
+
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

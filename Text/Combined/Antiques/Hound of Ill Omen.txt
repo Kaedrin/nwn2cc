@@ -1,0 +1,36 @@
+Hound Of Ill Omen
+
+Hound Of Ill Omen
+
+A hound of Ill Omen is a spectral hound of the underworld. They typically have features such as black fur color, glowing red or some times glowing yellow eyes, super strength or speed, ghostly or phantom characteristics, foul odor, and sometimes even the ability to talk. The hounds appear out of nowhere suddenly and have been known to vanish in a blink of an eye after warning their mark of impending death or actually killing the mark themselves. They are often assigned to guard the entrances to the world of the dead or undertake other duties related to the afterlife or the supernatural, such as hunting down lost souls or guarding a supernatural treasure. The howling of these huge dogs foretells the death of anyone who hears them.
+
+Note: This class will only be available for about two weeks before it is turned off.
+
+Requirements:
+
+Alignment: Neutral
+Race: Human
+
+Class Features:
+
+Hit Die: d10
+Base Attack Bonus: High.
+High Saves: Fort, Ref
+Weapon Proficiencies: All simple and martial.
+Armor Proficiencies: Light armor.
+Skill Points: 2 + Int modifier.
+Class Skills: Hide, Intimidate, Listen, Move Silently, Search, Spot, and Tumble.
+
+Class Abilities:
+
+Bonus Feats: Hounds of Ill Omen gain a bonus feat every four levels.
+
+Hound of Ill Omen: Starting at first level, you may assume your true form as a hound of ill omen. Your human guise is only to find your mark peacefully so that you may begin the hunt. While in your hound form (hellhound shape) you gain the following bonuses based on your class level as well as the multiattack feat:
+
+Damage Reduction (Cold Iron) equal to half your class level (DR 15/Cold Iron at 30th level).
+Fast Healing equal to your level divided by 10 (3 points at 30th level).
+Damage shield (divine damage) equal to your level divided by five (6 points at 30th level).
+Concealment equal to five times your level divided by three (50% at 30th level).
+Divine Damage Bonus equal to 1d6 for every seven class levels (+4d6 at 28th level).
+Natural Armor Class Bonus equal to half their level (+15 at 30th level).
+Sneak Attack Dice equal to 1d6 for every six class levels (+5d6 at 30th level).

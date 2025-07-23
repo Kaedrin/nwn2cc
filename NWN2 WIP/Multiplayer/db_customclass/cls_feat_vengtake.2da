@@ -1,0 +1,12 @@
+2DA V2.0
+
+     FeatLabel                        FeatIndex List GrantedOnLevel OnMenu 
+0    FEAT_VENGTAKE_CURSE_SHADOWS      4032      3    1              1      
+1    TurnUndead                       294       3    1              1      
+2    FEAT_VENGTAKE_HARM_TOUCH         4037      3    2              1      
+3    FEAT_VENGTAKE_VAMP_BLADES        4038      3    3              1      
+4    FEAT_VENGTAKE_CURSE_BLOOD        4033      3    4              1      
+5    FEAT_VENGTAKE_EMPOWER_HARM_TOUCH 4039      3    6              1      
+6    FEAT_VENGTAKE_CURSE_SHATTERING   4034      3    7              0      
+7    FEAT_VENGTAKE_EMPOWERED_CURSES   4035      3    9              0      
+8    FEAT_VENGTAKE_CURSE_LIFEDRAINING 4036      3    10             0      

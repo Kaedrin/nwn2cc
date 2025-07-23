@@ -1,0 +1,71 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+The stormsingers have learned secret methods of harnessing the magic powers of music to influence and control the weather.
+
+The music used by stormsingers to control the weather derives from a specific form of bardic music; as a result all stormsingers have at least a little bit of training as bards.  Many of them are actually multiclass bard/druids, although bard/clerics and bard/sorcerers make excellent stormsingers as well.  They depend upon their sharp wits and ability to control weather for protection, so it is fairly unusual to encounter a stormsinger with any levels of fighter or similar classes.
+
+**Requirements:**
+
+Skills: Concentration 8, Lore 8, Perform 8, Spellcraft 4
+Feats: Bardic Song
+
+**Class Features:**
+
+Hit Die: d6
+Base Attack Bonus: Medium.
+High Saves: Reflex, Will.
+Weapon Proficiencies: None.
+Armor Proficiencies: None.
+Skill Points: 4 + Int modifier.
+Class Skills: Craft Weapon, Craft Armor, Concentration, Diplomacy, Listen, Lore, Perform, Spellcraft, Spot, Survival.
+
+**Class Abilities:**
+
+Level 1: Stormsong (gust of wind), Spellcasting Progression
+Level 2: Stormpower
+Level 3: Stormsong (thunderstrike)
+Level 4: Resistance to electricity 5
+Level 5: Stormsong (call lightning)
+Level 6: Resistance to electricity 10
+Level 7: Stormsong (winter's ballad)
+Level 8: Resistance to electricity 15
+Level 9: Stormsong (great thunderstrike)
+Level 10: Stormsong (storm of vengeance)
+
+Spellcasting Progression: At each stormsinger level, the character gains new spells per day (and spells known, if applicable) as if she had also gained a level in an arcane or divine spellcasting class she belonged to before adding the prestige class.  If a character had more than one spellcasting class before becoming a stormsinger, she must decide which class she increases when she gains a level.
+
+Bardic Music: A stormsinger's class level stacks with any levels of bard she has for purposes of determining the number of times per day she may use bardic music and the effects of all bardic music.  Many of the stormsinger's high-level abilities require her bardic music as well.  When a stormsinger uses her bardic music ability to create a stormsong effect (see below), it counts as one (or more) uses of her bardic music for the day. Stormsinger levels do not stack with bard levels for determining which songs a bard has access to.
+
+Stormsong: The stormsinger can use her bardic music ability to create various storm-related effects in addition to the normal uses of bardic music.
+
+Gust of Wind: A stormsinger of 1st level or higher with 9 or more ranks in Perform can use bardic music to generate a gust of wind, as the spell of the same name.  Her caster level is equal to her ranks in Perform, with a maximum caster level of 30th.
+
+Thunderstrike: At 3rd level, a stormsinger with 11 or more ranks in Perform can use bardic music to unleash a deadly thunderbolt.  The bolt can be targeted at any one creature within 60 feet, and the stormsinger must make a successful ranged touch attack to hit the target.  If she hits, the stormsinger then makes a Perform check; the result indicates how much electricity damage the thunderbolt deals (double on a critical hit).  A Reflex save (DC10 + stormsinger's class level + Cha modifier) halves the damage.  If the creature fails its Reflex save, it must make a Fortitude save (same DC) or be deafened for a number of rounds equal to the damage dealt.
+
+Call Lightning: A stormsinger of 5th level or higher with 13 or more ranks in Perform can use bardic music to generate a Call Lightning effect, as the spell of the same name.  Her caster level is equal to her ranks in Perform, with a maximum caster level of 30th.
+
+Winter's Ballad: A stormsinger of 7th level or higher with 15 or more ranks in Perform can use bardic music to generate a Greater Call Lightning effect, as the spell of the same name.  Her caster level is equal to her ranks in Perform, with a maximum caster level of 30th.
+
+Great Thunderstrike: At 9th level, a stormsinger with 17 or more ranks in Perform can use bardic music to unleash a terrible stroke of lightning, bollowed by a deafening clap of thunder.  The great thunderstrike affects a line 60 feet long from the stormsinger.  The stormsinger makes a Perform check; the results indicate how much electricity damage the great thunderstrike deals (double on a critical).  A Reflex save (DC10 + stormsinger's class level + Cha modifier) halves the damage.  If the creature fails its Reflex save, it must make a Fortitude save (same DC) or take an additional 2d6 points of sonic damage and be permanently deafened.  
+
+The great thunderstrike is very strenuous, and uses up two of the stormsinger's bardic music uses for the day.
+
+Storm of Vengeance: At 10th level, a stormsinger with 18 or more ranks in Perform can use bardic music to cause a storm of vengeance, as the spell of the same name (DC 10 + stormsinger's class level + Cha modifier).  Her caster level is equal to her ranks in Perform, with a maximum caster level of 35th.  This potent ability is quite exhausting to use;, each time it is activated, the stormsinger uses four of her bardic music uses for the day.
+
+Stormpower: At 2nd level, a stormsinger gains a +2 bonus on Perform checks to use her stormsong powers and adds a +2 bonus to her caster level with stormsong powers.
+
+Resistance to Electricity: At 4th level, a stormsinger gains resistance to electricity 5.  This increases to resistance to electricity 10 at 6th, and resistance to electricity 15 at 8th.
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

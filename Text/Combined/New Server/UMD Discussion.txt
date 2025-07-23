@@ -1,0 +1,11 @@
+Idea:
+
+Initially, UMD will be disabled.
+
+Please keep in mind that wand abuse is going to be much less of an issue because spells do not provide 99% of the stacking abuse they do on most servers.
+
+Option A) When crafting there will be three class options. Arcane, Divine, and Rogue. This will allow Rogues to use any kind of scrolls/device but they will still need to meet some very specific requirements (such as scrolls correctly requiring needed the casting stat such as a 19 Int for a level 9 scroll). All arcanes can use scrolls created by an arcane and all divines can use a divine scroll. Scrolls are supposed to take 1 day per 1000gp to craft so blank scrolls will be limited in quantity to enforce this.
+
+Option B) UMD stays disabled. Scrolls will only be usable by the class that crafts them.
+
+Additional options to be discussed in the future.

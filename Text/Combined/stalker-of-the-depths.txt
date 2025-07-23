@@ -1,0 +1,18 @@
+The Underdark's most dangerous predators are not its horrific monstrosities, crawling and festering in the darkest of grottoes. Rather, they are the deadly stalkers of the depths, moving effortlessly through a jungle of living rock. 
+
+Just as a surface ranger feels at peace in the heart of a virgin forest, so too is the stalker of the depths at home in the wilds of the Underdark. Yet even in his most familiar environment, he is aware of the ever-present danger that surrounds him. It is in the task of surviving this endless peril that he finds peace away from so-called "civilized folk."
+
+A character can achieve a maximum of 5 levels in the Stalker of the Depths prestige class.
+
+Requirements: Tracking, May not have DreadCom, NWN9, or Underdark Marauder levels, Survival 8
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d8
+Levels: 5
+
+L1: Skill Focus (Set Trap), Low-Light Vision
+L2: Sneak 1d6, Skill Focus (Craft Trap), Darkvision
+L3: Skirmish AC +1 AC, Skill Focus (Hide)
+L4: Swift Tracker, Skill Focus (Move Silently)
+L5: Sneak 2d6, Scent

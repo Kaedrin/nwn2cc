@@ -1,0 +1,24 @@
+2DA V2.0
+
+   FeatLabel                           FeatIndex List GrantedOnLevel OnMenu 
+0  FEAT_KOT_SPELLCASTING_BARD          3332      2    1              0      
+1  FEAT_KOT_SPELLCASTING_CLERIC        3333      2    1              0      
+2  FEAT_KOT_SPELLCASTING_DRUID         3334      2    1              0      
+3  FEAT_KOT_SPELLCASTING_FAVORED_SOUL  3335      2    1              0      
+4  FEAT_KOT_SPELLCASTING_PALADIN       3336      2    1              0      
+5  FEAT_KOT_SPELLCASTING_RANGER        3337      2    1              0      
+6  FEAT_KOT_SPELLCASTING_SORCERER      3338      2    1              0      
+7  FEAT_KOT_SPELLCASTING_SPIRIT_SHAMAN 3339      2    1              0      
+8  FEAT_KOT_SPELLCASTING_WIZARD        3340      2    1              0      
+9  FEAT_KOT_SPELLCASTING_WARLOCK       3341      2    1              0      
+10 FEAT_KOT_SPELLCASTING_ASSASSIN      3342      2    1              0      
+11 FEAT_KOT_SPELLCASTING_AVENGER       3343      2    1              0      
+12 FEAT_KOT_SPELLCASTING_BLACKGUARD    3344      2    1              0      
+13 FEAT_EPIC_SPELL_EPIC_GATE           3224      0    21             2      
+14 FEAT_EPIC_SPELL_MASS_FOWL           3225      0    21             2      
+15 FEAT_EPIC_SPELL_ENTROPIC_HUSK       1992      0    21             2      
+16 FEAT_EPIC_SPELL_VAMPIRIC_FEAST      1995      0    21             2      
+17 FEAT_EPIC_SPELL_HELLBALL            876       0    21             2      
+18 FEAT_EPIC_SPELL_DAMNATION           1991      0    21             2      
+19 SkillFocusLore                      180       3    1              0      
+20 LuckOfHeroes                        382       3    -1             0      

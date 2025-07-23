@@ -1,0 +1,10 @@
+2DA V2.0
+
+  LABEL                    ReqType ReqParam1 ReqParam2 
+0 BAB                      BAB     5         ****      
+1 Concentration            SKILL   1         4         
+2 Hide                     SKILL   5         6         
+3 Intimidate               SKILL   24        8         
+4 MoveSilently             SKILL   8         6         
+5 FEAT_IMPROVED_INITIATIVE FEAT    377       ****      
+6 PowerAtk                 FEAT    28        ****      

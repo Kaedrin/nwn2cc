@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<EventList>
+  <Name>
+  </Name>
+  <MaxDuration>0</MaxDuration>
+  <SpecialTargetPosition>0</SpecialTargetPosition>
+  <FogMultiplier>1</FogMultiplier>
+  <Event0>
+    <Type>9</Type>
+    <Name>Trail Hand L</Name>
+    <DefinitionFile>fx_oomany_dematerialize_fx01.tfx</DefinitionFile>
+    <DelayTime>0.2</DelayTime>
+    <MaxDuration>0</MaxDuration>
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <UseOrientedPosition>0</UseOrientedPosition>
+    <SourceAttachment>2</SourceAttachment>
+    <TargetAttachment>0</TargetAttachment>
+    <SourceAttachmentObject>0</SourceAttachmentObject>
+    <TargetAttachmentObject>1</TargetAttachmentObject>
+    <TrailWidth>0.5</TrailWidth>
+  </Event0>
+  <Event1>
+    <Type>9</Type>
+    <Name>Trail Hand R</Name>
+    <DefinitionFile>fx_oomany_dematerialize_fx01.tfx</DefinitionFile>
+    <DelayTime>0.2</DelayTime>
+    <MaxDuration>0</MaxDuration>
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <UseOrientedPosition>0</UseOrientedPosition>
+    <SourceAttachment>1</SourceAttachment>
+    <TargetAttachment>0</TargetAttachment>
+    <SourceAttachmentObject>0</SourceAttachmentObject>
+    <TargetAttachmentObject>1</TargetAttachmentObject>
+    <TrailWidth>0.5</TrailWidth>
+  </Event1>
+  <Event2>
+    <Type>9</Type>
+    <Name>Trail Foot L</Name>
+    <DefinitionFile>fx_oomany_dematerialize_fx01.tfx</DefinitionFile>
+    <DelayTime>0.2</DelayTime>
+    <MaxDuration>0</MaxDuration>
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <UseOrientedPosition>0</UseOrientedPosition>
+    <SourceAttachment>13</SourceAttachment>
+    <TargetAttachment>0</TargetAttachment>
+    <SourceAttachmentObject>0</SourceAttachmentObject>
+    <TargetAttachmentObject>1</TargetAttachmentObject>
+    <TrailWidth>0.5</TrailWidth>
+  </Event2>
+</EventList>

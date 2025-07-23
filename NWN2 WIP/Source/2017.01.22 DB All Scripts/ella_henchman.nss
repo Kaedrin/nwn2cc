@@ -1,0 +1,1 @@
+void AddHenchman(object oMaster, object oHenchman=OBJECT_SELF);

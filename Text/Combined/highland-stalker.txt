@@ -1,0 +1,46 @@
+The mountains are unforgiving, and the ability to find food at high altitude often means the difference between survival and starvation.  For those who live in such climes, hunters provide not only food but also clothing, shelter, and tools when they bring back animal skins and bones.
+
+The best high-altitude hunters - highland stalkers - are consummate trackers with an instinctive knowledge of their mountainous territories.  The prestige class attracts a fair number of rogues as well as multiclass barbarians and rangers who qualify.
+
+**Requirements**
+
+BAB: +5
+Skills: Listen 8, Spot 8, Survival 8 
+Feats: Track
+
+**Class Features**
+
+HD: d8
+BAB: High
+High Saves: Fort
+Weapon and Armor proficiency: Light Armor
+
+Class Skills: Craft Weapon, Craft Armor, Craft Trap, Hide, Listen, Lore, Move Silently, Search, Spot, Survival
+Skill points: 4 + Int modifier
+
+**Class Abilities**
+
+Level 1: Mountain Stride as bonus feat Skill Focus (Tumble)
+Level 2: Skirmish (+1d6) 
+Level 3: Swift Tracker
+Level 4: Skirmish (+1d6, +1 AC)
+Level 5: Surefooted as bonus feat Skill Focus (Move Silently)
+Level 6: Skirmish (+2d6, +1 AC)
+Level 7: Camouflage
+Level 8: Skirmish (+2d6, +2 AC)
+Level 10: Skirmish (+3d6, +2 AC) 
+
+Skirmish: A highland stalker relies on mobility to deal extra damage and improve her defense.  Starting at 2nd level, she deals an extra 1d6 points of damage on all attacks during any round in which she moves at least 10 feet.  This extra damage only applies against living creatures that have a discernible anatomy.  Undead, constructs, oozes, plants, incorporeal creatures, and creatures immune to extra damage from critical hits are not vulnerable to this extra damage.  Highland stalkers can apply this extra damage to ranged attacks made while skirmishing, but only if the target is within 30 feet.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

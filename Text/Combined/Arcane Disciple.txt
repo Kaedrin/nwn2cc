@@ -1,0 +1,76 @@
+Arcane Disciple
+
+x
+
+[color=red]You may not take any other classes.[/color]
+
+Class Features
+
+HD: d8
+BAB: High (1-10) / Medium (11-30)
+High Saves: Fort, Ref
+Weapon proficiency: Simple.
+Armor proficiency: None.
+
+Class Skills: Appraise, Diplomacy, Heal, Intimidate, Listen, Lore, Parry, Survival, Spellcraft, Spot, Taunt, Tumble, and Use Magic Device
+Skill Points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Purity of Focus, Arcane Defense
+Level 2: Deflect Arrows
+Level 3: Evasion
+Level 4: Arcane Source, Arcane Pool 3/day, Dispelling Strike
+Level 5: Arcane Combat
+Level 6: Arcane Ward
+Level 7:
+Level 8: Arcane Blow, Arcane Pool 4/day
+Level 9:
+Level 10: Swift Strikes (Haste)
+Level 11:
+Level 12: Arcane Blast, Arcane Pool 5/day
+Level 13: Improved Evasion
+Level 14:
+Level 15:
+Level 16: Arcane Shot, Arcane Pool 6/day
+Level 17:
+Level 18:
+Level 19:
+Level 20: Swift Strikes (+2 Attacks), Arcane Pool 7/day
+Level 21:
+Level 22: Epic Deflection
+Level 23: Bonus Epic Feat
+Level 24: Arcane Pool 8/day
+Level 25:
+Level 26: Bonus Epic Feat
+Level 27:
+Level 28: Arcane Pool 9/day
+Level 29: Bonus Epic Feat
+Level 30: Swift Strikes (+3 Attacks)
+
+Purity of Focus: The arcane disciple focuses on the bond between magical energies and her application of those energies nearly to the exclusion of all other studies. Any arcane disciple who takes levels in another class suffers a penalty (-4 to effective class level) when using her arcane disciple abilities. The arcane disciple must use a quarterstaff (with both hands) as a weapon and may not use any armor for her class abilities to function.
+
+Arcane Defense: The arcane disciple channels magical energy into a defensive shell that acts as a second skin. This provides a deflection AC bonus equal to half her class level and an armor enhance bonus equal to her Constitution bonus (which stacks with any armor enhancement bonus on your chest or bracers). The armor enhance bonus is capped by the number of levels in the class. The Constitution modifer only uses your natural score and any items you have that boost Con (no spells). Arcane Defense is affected by the Purity of Focus restriction.
+
+Arcane Source: At 4th level, the arcane disciple must choose to focus on either weave magic or shadow magic as the source of her developing powers. This choice affects many of her class abilities.
+
+Arcane Pool: The arcane disciple has a reserve of magical energy which can be expended through her quarterstaff to deliver special blows to her enemies. Initially she can channel this ability three times per day and this amount increases for every 4 levels she gains.
+
+Dispelling Strike: The arcane disciple channels her arcane pool to deliver a blow that unbinds the very essence of magic from the enemy she strikes. If she succeeds on a melee touch attack, the enemy is subjected to a dispel attempt. Undead and Outsiders struck by this blow must succeed on a fortitude save (DC 10 + Class Level + Con modifier, beings with more hit dice than class levels are not affected) or be destroyed (outsiders are sent back to the plane of their origin). Arcane disciples with Weave Magic inflict a penalty to concentration checks equal to class level but are capped at level - 5 on their dispel attempt. Arcane disciples with Shadow Magic are uncapped on their dispel attempt. Dispelling Strike is affected by the Purity of Focus restriction.
+
+Arcane Combat: The arcane disciple gains a magic damage bonus on her melee attacks equal to her Constitution modifier (base modifier and items are accounted for, not spells). She gains an attack bonus equal to her Dexterity modifier when using a quarterstaff. Arcane Disciples with Weave Magic inflict an additional +2 damage while those with Shadow Magic gain a +1 Dodge AC bonus.
+
+Arcane Ward: The arcane disciple gains spell resistance equal to 10 plus her class level as well as 15% concealment. Arcane Disciples with Weave Magic gain an additional 4 points of spell resistance while those with Shadow Magic gain an additional 5% concealment. Arcane Ward is affected by the Purity of Focus restriction.
+
+Arcane Blow: The arcane disciple channels her arcane pool to deliver a blow that unleashes the very essence of magic against the enemy she strikes. If she succeeds on a melee touch attack she attempts to knock down her opponent (with a +4 bonus) and the enemy takes 1d10 magic damage for every point of Constitution modifier (base modifier plus items, no spells). Arcane Disciples with Weave Magic gain a further +2 on the knockdown attempt while those with Shadow Magic gain an additional 2d10 damage.
+
+Swift Strikes: At 10th level the arcane disciple becomes imbued with haste while using the quarterstaff. At 20th level the arcane disciple gains a second bonus attack with a quarterstaff. At 30th level the arcane disciple gains a third bonus attack with a quarterstaff. Swift Strikes is affected by the Purity of Focus restriction.
+
+Arcane Blast: The arcane disciple channels her arcane pool to strike the ground with such force that a wave of magic energy pulses outwards. Any enemies within a 40' radius takes 1d10 magic damage for every point of Strength modifier (base modifier plus items, no spells) and must make a Fortitude save (DC 10 + Class Level + Con modifier) or be slowed for 1 minute. Arcane Disciples with Weave Magic gain a further +4 DC for the slow effect while those with Shadow Magic gain an additional 2d10 damage. Arcane Blast is affected by the Purity of Focus restriction.
+
+Arcane Shot: The arcane disciple channels her arcane pool to strike an enemy at range with a blazing bolt of magic energy. If she succeeds on a ranged touch attack, the target takes 1d10 magic damage for every point of Dexterity modifier (base modifier plus items, no spells) and must make a Reflex save (DC 10 + Class Level + Con modifier) or be blinded for 1 minute. Arcane Disciples with Weave Magic gain a further +4 DC for the blind effect while those with Shadow Magic gain an additional 2d10 damage. Arcane Shot is affected by the Purity of Focus restriction.
+
+New Feats:
+Extra Arcane Pool (+3 Uses)
+
+Notes: The DCs may need to be 1/2 class level. The damage may need to be increased for the strikes. New feats could be used to increase DC or increase damage. Needs a capstone (level 20) ability? 18th seems to be a dead spot, maybe added an ability that burns an arcane pool use for a moderate self-heal? AC may be a touch too high.

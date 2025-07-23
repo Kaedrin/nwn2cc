@@ -1,0 +1,140 @@
+Pathfinder Fighter Update:
+
+Fighter adds Survival as a class skill
+Fighter 20 gains the Weapon of Choice and Increased Multiplier of the Weaponmaster. It does NOT gain the Ki Critical ability (making Fighter/Weaponmaster still viable). 
+
+***
+
+Pathfinder Ranger Update:
+
+Hit Dice upgraded to d10
+Ranger gains Spellcraft as a class skill
+Ranger gains Intimidate as a class skill
+Ranger gains medium armor proficiency
+Ranger caster level is level - 3, not half level
+Bonus Feat gained at level 14
+Improved Evasion gained at level 16
+Bonus Feat gained at level 18
+Bonus Feat gained at level 22
+Bonus Feat gained at level 26
+Bonus Feat gained at level 30
+
+Pathfinder Sorcerer Update
+Hit Dice upgraded to d6
+Sorcerer gains Intimidate as a class skill
+Sorcerer gains Use Magic Device as a class skill
+Bonus Feat gained at level 7
+Bonus Feat gained at level 13
+Bonus Feat gained at level 19
+Bonus Feat gained at level 25
+
+Pathfinder Bard Update
+Hit Dice upgraded to d8
+Bard gains Intimidate as a class skill
+Bard gains Spot as a class skill
+
+Pathfinder Barbarian Update
+Barbarian gains Spot as a class skill
+
+Pathfinder Rogue Update
+Hit Dice upgraded to d8
+Rogue gains Bleeding Wound 2 at level 4
+Rogue gains Bleeding Wound 4 at level 8
+Rogue gains Bleeding Wound 6 at level 12
+Bonus Feat gained at level 15
+Bonus Feat gained at level 18
+Bonus Feat gained at level 20
+Bonus Feat at 22, 25, 28
+
+Turn Undead updated to Channel Energy for Cleric, Paladin, and other classes with Turn Undead.
+
+Pathfinder Druid Update
+Level 20 druids can wildshape at will (uses per day only decremented by special abilities)
+
+Pathfinder Wizard Update
+Hit Dice upgraded to d6
+
+**
+
+[spoiler="Pathfinder Paladin"] Pathfinder Paladin
+
+Class Features:
+
+HD: d10
+BAB: High
+High Saves: Fort, Will
+Weapon proficiency: All simple and martial weapons.
+Armor proficiency: All armor and shields (except tower shields).
+Skill points: 2 + Int modifier
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Diplomacy, Heal, Lore, and Spellcraft.
+
+Class Abilities:
+
+Level 1: Smite Evil 1/day
+Level 2: Divine Grace, Lay on Hands
+Level 3: Aura of Courage, Divine Health, Mercy
+Level 4: Channel Positive Energy, Smite Evil 2/day, Spellcasting
+Level 5: Divine Bond
+Level 6: Mercy
+Level 7: Smite Evil 3/day
+Level 8: Aura of Resolve
+Level 9: Mercy
+Level 10: Smite Evil 4/day
+Level 11: Aura of Justice
+Level 12: Mercy
+Level 13: Smite Evil 5/day
+Level 14:
+Level 15: Mercy
+Level 16: Smite Evil 6/day
+Level 17: Aura of Righteousness
+Level 18: Mercy
+Level 19: Smite Evil 7/day
+Level 20: Holy Champion
+
+Smite Evil: Once per day, a paladin can call out to the powers of good to aid her in her struggle against evil. As an instant action, the paladin adds her Charisma bonus (if any) to her attack rolls and adds her paladin level to all damage rolls for 5 rounds.
+
+At 4th level, and at every three levels thereafter, the paladin may smite evil one additional time per day, to a maximum of seven times per day at 19th level.
+
+Divine Grace: At 2nd level, a paladin gains a bonus equal to her Charisma bonus (if any) on all saving throws.
+
+Lay On Hands: Beginning at 2nd level, a paladin can heal wounds (her own or those of others) by touch. Each day she can use this ability a number of times equal to her paladin level. With one use of this ability, a paladin can heal 1d6 hit points of damage for every two paladin levels she possesses. Using this ability is a standard action, unless the paladin targets herself, in which case it is a instant action (with a six second cooldown).
+
+Alternatively, a paladin can use this healing power to deal damage to undead creatures, dealing 1d6 points of damage for every two levels the paladin possesses. Using lay on hands in this way requires a successful melee touch attack. Undead do not receive a saving throw against this damage.
+
+Aura of Courage: At 3rd level, a paladin is immune to fear (magical or otherwise). Each ally within 10 feet of her gains a +4 morale bonus on saving throws against fear effects.
+
+Divine Health: At 3rd level, a paladin is immune to all diseases, including supernatural and magical diseases.
+
+Mercy: At 3rd level, and every three levels thereafter, a paladin can gains a mercy. Each mercy adds an effect to the paladin's lay on hands ability. Whenever the paladin uses lay on hands to heal damage to one target, the target also receives the additional effects from all of the mercies possessed by the paladin.
+
+At 3rd level, the paladin gains Shaken (the target is no longer shaken).
+At 6th level, the paladin gains Diseased (the target is no longer diseased).
+At 9th level, the paladin gains Poisoned (the target is no longer poisoned).
+At 12th level, the paladin gains Cursed (the target is no longer cursed).
+At 15th level, the paladin gains Fatigued (the target is no longer fatigued).
+At 18th level, the paladin gains Sickened (the target is no longer sickened).
+
+These abilities are cumulative. For example, a 12th-level paladin's lay on hands ability heals 6d6 points of damage and also removes diseases, curses, the shaken effect and neutralizes poisons.
+
+Channel Positive Energy: When a paladin reaches 4th level, she gains the supernatural ability to channel positive energy like a cleric. Using this ability consumes two uses of her lay on hands ability. A paladin uses her level as her effective cleric level when channeling positive energy. This is a Charisma-based ability.
+
+Spells: Beginning at 4th level, a paladin gains the ability to cast a small number of divine spells which are drawn from the paladin spell list. A paladin must choose and prepare her spells in advance. At 4th level and higher, her caster level is equal to her paladin level – 3.
+
+To prepare or cast a spell, a paladin must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a paladin's spell is 10 + the spell level + the paladin's Charisma modifier.
+
+Divine Bond: Upon reaching 5th level, a paladin forms a divine bond with her god.
+
+The bond allows the paladin to enhance her weapon as a standard action by calling upon the aid of a celestial spirit for 1 minute per paladin level. When called, the spirit causes the weapon to shed light as a torch. At 5th level, this spirit grants the weapon a +1 enhancement bonus. For every three levels beyond 5th, the weapon gains another +1 enhancement bonus, to a maximum of +6 at 20th level. These bonuses can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or they can be used to add any of the following weapon properties: defending, disruption, flaming, flaming burst, holy, keen, and speed. Adding these properties consumes an amount of bonus equal to the property's cost. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. A paladin can use this ability once per day at 5th level, and one additional time per day for every four levels beyond 5th, to a total of four times per day at 17th level.
+
+The bonuses are given in the following order: +1 if the weapon is nonmagical, speed (if the paladin has at least a +3 bonus left), holy (if the paladin has at least a +2 bonus left), flaming burst (if the paladin has at least a +2 bonus left), flaming (if the paladin has a least a +1 bonus left and flaming burst was not chosen), keen,
+disruption (if the paladin has at least a +2 bonus left), or defense.
+If the weapon already has one of the properties, it will move to the next to determine what to add. Any remaining bonus will be added as an enhance bonus (if the weapon is less than a +5) up to +5 and then finally as a dodge AC bonus.
+
+Aura of Resolve: At 8th level, a paladin is immune to charm spells and spell-like abilities. Each ally within 10 feet of her gains a +4 morale bonus on saving throws against charm effects.
+
+Aura of Justice: At 11th level, a paladin can expend two uses of her smite evil ability to grant the smite evil bonuses to all allies within 10 feet, using her bonuses. The bonuses last for 5 rounds. Using this ability is a free action.
+
+Aura of Righteousness: At 17th level, a paladin gains DR 5/- and immunity to compulsion spells and spell-like abilities. Each ally within 10 feet of her gains a +4 morale bonus on saving throws against compulsion effects.
+
+Holy Champion: At 20th level, a paladin becomes a conduit for the power of her god. Her DR increases to 10/-. In addition, whenever she channels positive energy or uses lay on hands to heal a creature, she heals the maximum possible amount.
+[/spoiler]

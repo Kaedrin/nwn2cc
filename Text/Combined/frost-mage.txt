@@ -1,0 +1,54 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+Frost mages usually hail from lands of cold, snow and ice: tundra, glaciers, even outer planes perpetually shrouded in winter. Others become obsessed with the power of glacial cold and focus all their energy into discovering the mysteries of the frostfell and its magic. All frost mages, however, eventually become adapted to cold environments as their skin slowly turns to frost. They learn to take advantage of the natural or magically enhanced frostfell environment, harnessing the existing cold to further empower their own spells.
+
+**Requirements:**
+
+Feats: Spell Penetration
+Skills: Lore 8
+Spellcasting: 1st level Arcane magic.
+
+**Class Features:**
+
+HD: d4
+BAB: Low
+High Saves: Will
+Weapon and Armor proficiency: None
+Skill points: 2 + Int modifier
+Class Skills: Concentration, Craft Alchemy, Craft Weapon, Craft Armor, Intimidate, Lore, Search, Spellcraft, Survival
+
+**Class Abilities:**
+
+Level 1: Armor of Frost (Natural Armor +1), Spellcasting Progression
+Level 2: Resistance to Cold 10
+Level 3: 
+Level 4: Armor of Frost (Natural Armor +2)
+Level 5: 
+Level 6: Piercing Cold
+Level 7: Armor of Frost (Natural Armor +3)
+Level 8: 
+Level 9:
+Level 10: Armor of Frost (Natural Armor +4), One with the Cold
+
+Spellcasting: At every level you gain new spells per day and an increase in caster level (and spells known) as if you had also gained a level in an arcane or divine spellcasting class to which you belonged before adding the prestige class level. If you had more than one spellcasting class before becoming a frost mage, you must decide which class gains the increased casting ability.
+
+Armor of Frost: At 1st, 4th, 7th, and 10th level, a frost mage's body becomes more like the ice he venerates. His skin turns whiter and colder to the touch as the permanent layer of frost grows deeper. This provides an increase to the character's existing natural armor starting at +1 and increasing by +1 each time to +4 at 10th. This is an enhance bonus and does not stack with other Natural AC bonuses.
+
+Cold Resistance 10: Starting at 2nd level, the frost mage's icy skin grants him resistance to cold 10.
+
+Piercing Cold: At 6th level, the frost mage gains the Piercing Cold ability.  This allows a frost mage to ignore any cold resistance or immunity with his cold spells.  Affected Spells: Burst of Glacial Wrath, Cone of Cold, Creeping Cold, Greater Creeping Cold, Hypothermia, Ice Storm, Lesser Orb of Cold, Orb of Cold, Polar Ray, Ray of Frost, Lesser Aura of Cold, Aura of Cold, and Frost Breath.
+
+One with the Cold: At 10th level, the frost mage's body has become perfectly adapted to cold energy. He gains the cold subtype, granting him immunity to cold. His oneness with cold, however, makes him more susceptible to flame. He gains vulnerability to fire, which means he takes half again as much (+50%) damage as normal from fire.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

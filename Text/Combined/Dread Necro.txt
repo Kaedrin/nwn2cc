@@ -1,0 +1,125 @@
+Title formerly DN ready for 1.45 as an April Fools joke.
+
+Dread Necromancer
+
+A specialist wizard who calls himself a necromancer or a cleric with the Death domain has significant power over undead and the forces of negative energy, but a dread necromancer is their true master. A practicioner of vile and forbidden arts, she calls upon restless, tormented spirits of the dead, seeking their arcane secrets. She might be a consummate villain, or perhaps a tortured hero whose obsession with death leads her along questionable moral paths.
+
+Alignment must be non-good.
+
+Class Features
+
+HD: d6
+BAB: Low
+High Saves: Will
+Weapon proficiency: Simple, Martial
+Armor proficiency: Light
+
+Class Skills: Bluff, Concentration, Craft Armor, Craft Weapon, Hide, Intimidate, Lore, and Spellcraft.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Charnel Touch, Turn Undead
+Level 2: Lich Body (DR 2)
+Level 3: Negative Energy Burst 1/day
+Level 4: Mental Bastion +2, Advanced Learning
+Level 5: Fear Aura
+Level 6: Scabrous Touch 1/day
+Level 7: Lich Body (DR 4), Summon Familiar
+Level 8: Negative Energy Burst 2/day, Undead Mastery, Advanced Learning
+Level 9: Negative Energy Resistance
+Level 10:
+Level 11: Lich Body (DR 6), Scabrous Touch 2/day
+Level 12: Enervating Touch 3/day, Advanced Learning
+Level 13: Negative Energy Burst 3/day
+Level 14: Mental Bastion +4
+Level 15: Lich Body (DR 8 )
+Level 16: Scabrous Touch 3/day, Enervating Touch 4/day, Advanced Learning
+Level 17: Enervating Touch 8/day
+Level 18: Negative Energy Burst 4/day, Enervating Touch 9/day
+Level 19: Craft Wondrous Item
+Level 20: Enervating Touch 10/day, Lich Transformation, Advanced Learning
+Level 21: Scabrous Touch 4/day
+Level 22: Enervating Touch 11/day
+Level 23: Negative Energy Burst 5/day
+Level 24: Mental Bastion +6, Enervating Touch 12/day, Advanced Learning, Bonus Feat
+Level 25:
+Level 26: Scabrous Touch 5/day, Enervating Touch 13/day
+Level 27:
+Level 28: Negative Energy Burst 6/day, Enervating Touch 14/day, Advanced Learning, Bonus Feat
+Level 29:
+Level 30: Enervating Touch 15/day
+
+Spells per Day (Charisma based)
+When a dread necromancer first obtains a spell level she can cast 3 per day. At each level after gaining a given spell level the count increases by one until she reaches 6 per day.
+
+Level 1 spells are granted at level 1. Level 2 through 9 spells are gained at every even level starting at 4th level (level 2 spells at 4th, level 6 spells at 12th).
+
+Possible Dread Necromancer Spell List
+1st Level: Bane, Bestow Wound, Cause Fear, Chill Touch, Doom, Inflict Light Wounds, Ray of Enfeeblement, Summon Undead I
+2nd Level: Blindness/Deafness, Darkness, Death Knell, False Life, Ghoul Touch, Inflict Moderate Wounds, Summon Undead II
+3rd Level: Crushing Despair, Death Ward, Inflict Serious Wounds, Ray of Exhaustion, Summon Undead III, Vampiric Touch
+4th Level: Animate Dead, Bestow Curse, Dispel Magic, Enervation, Evard's Black Tentacles, Inflict Critical Wounds, Phantasmal Killer, Summon Undead IV
+5th Level: Blight, Cloudkill, Fire in the Blood, Greater Dispel Magic, Slay Living, Summon Undead V, Undead to Death, Waves of Fatigue
+6th Level: Acid Fog, Circle of Death, Create Undead, Eyebite, Harm, Mass Inflict Moderate Wounds, Waves of Exhaustion
+7th Level: Control Undead, Destruction, Finger of Death, Greater Harm, Mass Inflict Serious Wounds, Song of Discord, Vile Death
+8th Level: Create Greater Undead, Horrid Wilting, Mass Inflict Critical Wounds, Symbol of Death
+9th Level: Energy Drain, Imprison Soul, Mass Harm, Plague of Undead, Wail of the Banshee
+
+Charnel Touch (Su): Negative energy flows through a dread necromancer’s body, concentrating in her
+hands. At will, but no more than once per round, she can make a melee touch attack
+against a living foe that deals 1d8 points of damage, +1 per four class levels. This
+touch heals undead creatures, restoring 1 hit point per touch, +1 per four class levels.
+
+Mental Bastion:
+Starting at 4th level, a dread necromancer gains a +2 bonus on saving throws. This bonus increases to +4 at 14th level and +6 at 24th level.
+
+Charnal Touch: Deal 4 points of negative energy damage for every 2 class levels. Heal 1 point of damage for every 2 class levels.
+
+Scabrous Touch: Extremely High DC disease touch that also deals the effect of Charnal Touch.
+
+Enervating Touch: Deal 2 negative levels as well as the effects of Charnal Touch.
+
+Advanced Learning
+Level 4: Lvl 2 Divine/Arcane spell added to spellbook, community choice
+Level 8: Lvl 4 Divine/Arcane spell added to spellbook, community choice
+Level 12: Lvl 6 Divine/Arcane spell added to spellbook, community choice
+Level 16: Lvl 8 Divine/Arcane spell added to spellbook, community choice
+Level 20: Lvl 9 Divine/Arcane spell added to spellbook, community choice
+Level 24: Lvl 9 Divine/Arcane spell added to spellbook, community choice
+Level 28: Lvl 9 Divine/Arcane spell added to spellbook, community choice
+
+New Feats: Corpsecrafter, Deadly Chill, Destructive Retribution, Necromantic Might, Necromantic Presence, Profane Vigor, Ignore Turn Resistance, Undead Leadership, Sacred Vitality, Profane Lifeleech, Profane Aura, Tomb Tainted Soul, Undead Leadership, Practiced Caster (Dread Necromancer), Hardened Flesh, Various Ability Focus feats for the class abilities that need a DC check.
+
+Familiar is an undead minion drawn from different undead types (flesh, bone, spirit).
+
+[hr]
+[b][color=#ff0000]April Fools![/color][/b]
+
+Corpsecrafter
+Type: General
+Undead you raise or create are tougher than normal.
+Benefit: Each undead you raise or create with any necromancy spell gains a +4 enhancement bonus to Strength and +2 hit points per Hit Die.
+
+Deadly Chill
+Type: General
+Undead you raise or create deal more damage than normal.
+Prerequisite: Corpsecrafter.
+Benefit: Each corporeal undead you raise or create with any necromancy spell deals an extra 1d6 points of cold damage with its natural weapons.
+
+Destruction Retribution
+Type: General
+Undead you raise or create harbor a retributive curse that is unleashed if they are destroyed.
+Prerequisite: Corpsecrafter
+Benefit: Each undead you raise or create with any necromancy spell releases a burst of negative energy upon its destruction, dealing 1d6 points of damage plus an additional 1d6 points per 2 Hit Dice to every creature within a 10-foot spread (Reflex DC x half). This damage comes from negative energy, and it therefore heals undead creatures.
+
+Necromantic Might
+Type: General
+Undead you control gain benefits when they are near you.
+Prerequisite: Necromantic Presence.
+Benefit: Whenever undead you control are within 60 feet of you, they are physically inspired by your necromantic aura, and gain a +2 enhancement bonus on their attack rolls and saving throws.
+
+Necromantic Presence
+Type: General
+Undead you control are harder to turn when they are near you.
+Benefit: Whenever undead you control are within 60 feet of you, they gain a +4 bonus to their turn resistance.

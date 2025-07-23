@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="NWN2UI">
+
+<UIScene name="hvdeitychooser" x=ALIGN_CENTER y=ALIGN_CENTER width=590 height=370 scriptloadable=true fadeout="0.3" fadein="0.3" draggable=true backoutkey=true priority="SCENE_INGAME" />
+
+
+<!-- Close Button -->
+	<UIButton name="CloseButton" x=555 y=6 style="STYLE_CLOSE_BUTTON" 
+		OnLeftClick=UIButton_Input_ScreenClose()>
+	</UIButton>
+
+
+
+<!-- Title -->	
+	<UIText name="title" text="Deity Chooser" x=20 y=4 width=200 height=31 align=left valign=middle fontfamily="Title_Font" style="1" />
+	<UIIcon name="DETAIL_TOP" img="title_medium03.tga" x=10 y=8 width=570 height=31 ignoreevents="true" />
+
+<!-- Listbox -->
+	<UIListbox name="deitylist" x=20 y=40 width=550 height=280 yPadding=0 xPadding=0
+		showpartialchild=false scrollbaronright=true unequalcontrols=false scrollsegmentsize=1 >
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Abbathor - God of greed" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Abbathor","") >
+			</UIButton>
+			<UIButton text="Aerdrie Faenya - Goddess of Air" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Aerdrie","Faenya") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Akadi - Goddess of wind" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Akadi","") >
+			</UIButton>
+			<UIButton text="Angharradh - Goddess of fertility" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Angharradh","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Ao - The overgod" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Ao","") >
+			</UIButton>
+			<UIButton text="Arvoreen - God of defense" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Arvoreen","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Auril - Goddess of winter" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Auril","") >
+			</UIButton>
+			<UIButton text="Azuth - God of wizards" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Azuth","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Baervan Wildwanderer - God of forests" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Baervan","Wildwanderer") >
+			</UIButton>
+			<UIButton text="Bane - God of strife, tyranny, fear" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Bane","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Baravar Cloakshadow - God of illusions" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Baravar","Cloakshadow") >
+			</UIButton>
+			<UIButton text="Berronar Truesilver - Goddess of tradition" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Berronar","Truesilver") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Beshaba - Goddess of misfortune" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Beshaba","") >
+			</UIButton>
+			<UIButton text="Brandobaris - God of stealth" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Brandobaris","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Callarduran Smoothhands - God of stone, mining, the Underdark,svirfneblin" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Callarduran","Smoothhands") >
+			</UIButton>
+			<UIButton text="Chauntea - Goddess of agriculture" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Chauntea","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Clangeddin Silverbeard - God of war" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Clangeddin","Silverbeard") >
+			</UIButton>
+			<UIButton text="Corellon Larethian - God of arts, magic, sun elves" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Corellon","Larethian") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Cyric - God of murder, deception, intrigue" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Cyric","") >
+			</UIButton>
+			<UIButton text="Cyrrollalee - Goddess of trust" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Cyrrollalee","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Deep Duerra - Goddess of duergar, psionics" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Deep","Duerra") >
+			</UIButton>
+			<UIButton text="Deneir - God of literature, cartography, glyphs" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Deneir","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Dugmaren Brightmantle - God of invention" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Dugmaren","Brightmantle") >
+			</UIButton>
+			<UIButton text="Dumathoin - God of wealth, mining, shield dwarves" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Dumathoin","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Eilistraee - Goddess of song/dance" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Eilistraee","") >
+			</UIButton>
+			<UIButton text="Eldath - Goddess of peace" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Eldath","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Erevan Ilesere - God of mischief" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Erevan","Ilesere") >
+			</UIButton>
+			<UIButton text="Fenmarel Mestarine - God of outcasts" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Fenmarel","Mestarine") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Finder Wyvernspur - God of cycles" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Finder","Wyvernspur") >
+			</UIButton>
+			<UIButton text="Flandal Steelskin - God of metallurgy" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Flandal","Steelskin") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Gaerdal Ironhand - God of combat" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Gaerdal","Ironhand") >
+			</UIButton>
+			<UIButton text="Garagos - God of plunder" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Garagos","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Gargauth - God of betrayal, political corruption" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Gargauth","") >
+			</UIButton>
+			<UIButton text="Garl Glittergold - God of gnomes" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Garl","Glittergold") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Ghaunadaur - God of ooze" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Ghaunadaur","") >
+			</UIButton>
+			<UIButton text="Gond - God of crafts" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Gond","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Gorm Gulthyn - God of defense" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Gorm","Gulthyn") >
+			</UIButton>
+			<UIButton text="Grumbar - God of earth" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Grumbar","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Gwaeron Windstrom - God of rangers" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Gwaeron","Windstrom") >
+			</UIButton>
+			<UIButton text="Haela Brightaxe - Goddess of joy & luck in battle" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Haela","Brightaxe") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Hanali Celanil - Goddess of love, beauty, romance" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Hanali","Celanil") >
+			</UIButton>
+			<UIButton text="Helm - God of guardians" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Helm","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Hoar - God of retribution" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Hoar","") >
+			</UIButton>
+			<UIButton text="Ilmater - God of suffering" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Ilmater","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Istishia - God of water" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Istishia","") >
+			</UIButton>
+			<UIButton text="Jergal - God of funerals" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Jergal","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Kelemvor - God of the dead" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Kelemvor","") >
+			</UIButton>
+			<UIButton text="Kiransalee - Goddess of undead" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Kiransalee","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Kossuth - God of fire" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Kossuth","") >
+			</UIButton>
+			<UIButton text="Labelas Enoreth - God of time" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Labelas","Enoreth") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Laduguer - God of duergar, artisans" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Laduguer","") >
+			</UIButton>
+			<UIButton text="Lathander - God of dawn" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Lathander","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Leira - Goddess of deception" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Leira","") >
+			</UIButton>
+			<UIButton text="Lliira - Goddess of festivals" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Lliira","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Lolth - The Goddess formerly known as Araushnee, spiders, drow, chaos" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Lolth","") >
+			</UIButton>
+			<UIButton text="Loviatar - Goddess of pain" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Loviatar","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Lurue - Goddess of intelligent non-humans" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Lurue","") >
+			</UIButton>
+			<UIButton text="Malar - God of hunters, lycanthropy, stalking" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Malar","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Marthammor Duin - God of explorers" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Marthammor","Duin") >
+			</UIButton>
+			<UIButton text="Mask - God of thieves" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Mask","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Mielikki - Goddess of forests" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Mielikki","") >
+			</UIButton>
+			<UIButton text="Milil - God of poetry" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Milil","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Moradin - God of smiths" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Moradin","") >
+			</UIButton>
+			<UIButton text="Mystra - Goddess of magic/mystery" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Mystra","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Oghma - God of knowledge" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Oghma","") >
+			</UIButton>
+			<UIButton text="Red Knight - Goddess of strategy/tactics" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Red","Knight") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Rillfane Rallathil - God of nature/druids" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Rillfane","Rallathil") >
+			</UIButton>
+			<UIButton text="Savras - God of divination" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Savras","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Segojan Earthcaller - God of earth" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Segojan","Earthcaller") >
+			</UIButton>
+			<UIButton text="Sehanine Moonbow - Goddess of dreams, mysticism,moon elves" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Sehanine","Moonbow") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Selune - Goddess of the moon" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Selune","") >
+			</UIButton>
+			<UIButton text="Seveltarm - God of drow warriors" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Seveltarm","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Shar - Goddess of darkness" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Shar","") >
+			</UIButton>
+			<UIButton text="Sharess - Goddess of hedonism" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Sharess","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Sharindlar - Goddess of courtship" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Sharindlar","") >
+			</UIButton>
+			<UIButton text="Shaundakul - God of travel" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Shaundakul","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Sheela Peryroyl - Goddess of nature" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Sheela","Peryroyl") >
+			</UIButton>
+			<UIButton text="Shevarash - God of vengeance" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Shevarash","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Shiallia - Goddess of woodland glades" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Shiallia","") >
+			</UIButton>
+			<UIButton text="Siamorphe - Goddess of nobility" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Siamorphe","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Silvanus - God of nature/druids" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Silvanus","") >
+			</UIButton>
+			<UIButton text="Solonor Thelandira - God of archery/hunting" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Solonor","Thelandira") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Sune - Goddess of love" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Sune","") >
+			</UIButton>
+			<UIButton text="Talona - Goddess of disease/poison" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Talona","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Talos - God of storms" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Talos","") >
+			</UIButton>
+			<UIButton text="Tempus - God of war" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Tempus","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Thard Harr - God of hunting" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Thard","Harr") >
+			</UIButton>
+			<UIButton text="Torm - God of duty" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Torm","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Tymora - Goddess of luck" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Tymora","") >
+			</UIButton>
+			<UIButton text="Tyr - God of justice" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Tyr","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Umberlee - Goddess of oceans" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Umberlee","") >
+			</UIButton>
+			<UIButton text="Urdlen - God of impulse, bloodlust" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Urdlen","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Urogalan - God of the earth and the dead" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Urogalan","") >
+			</UIButton>
+			<UIButton text="Valkur - God of sailing" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Valkur","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Vergadain - God of trickery" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Vergadain","") >
+			</UIButton>
+			<UIButton text="Vhaeraun - God of theft" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Vhaeraun","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Waukeen - Goddess of trade" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Waukeen","") >
+			</UIButton>
+			<UIButton text="Yondalla - Goddess of creation, tradition, wisdom" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Yondalla","") >
+			</UIButton>
+		</UIPane>
+
+
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Velsharoon - God of necromancy" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Velsharoon","") >
+			</UIButton>
+			<UIButton text="No deity" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","No","Deity") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Nobanion - King of Beasts" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Nobanion","") >
+			</UIButton>
+			<UIButton text="Deep Sashelas - Lord of the Undersea" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Deep","Sashelas") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Uthgar - Battle Father" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Uthgar","") >
+			</UIButton>
+			<UIButton text="Tiamat - The Dragon Queen" x=280 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Tiamat","") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=500 height=40 draggable=false>
+			<UIButton text="Ulutiu - The Eternal Sleeper" x=10 y=ALIGN_CENTER width=250 style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_set_deity","Ulutiu","") >
+			</UIButton>
+		</UIPane>
+
+
+
+		<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>	
+	</UIListbox>
+
+<UIPane name="button_pane" x=ALIGN_CENTER y="322" width="194" height="28" >
+	<UIButton name="okbutton" text="Close" x=0 y=ALIGN_CENTER 
+		OnLeftClick=UIButton_Input_ScreenClose()
+		style="STYLE_LARGE_BUTTON">
+	</UIButton>
+</UIPane>
+
+<!-- BACKGROUND -->
+	<UIFrame width=PARENT_WIDTH height=PARENT_HEIGHT topleft="frame1_tl.tga" topright="frame1_tr.tga" bottomleft="frame1_bl.tga"
+		bottomright="frame1_BR.tga" top="frame1_t.tga" bottom="frame1_b.tga"
+		left="frame1_l.tga" right="frame1_r.tga" border=32 />	
+	<UIFrame x=7 y=8 width=575 height=356 fillstyle="stretch" fill="frame_main_bg.tga"/>
+
+

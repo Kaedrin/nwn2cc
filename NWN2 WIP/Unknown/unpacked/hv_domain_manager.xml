@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="NWN2UI">
+
+<UIScene name="hv_domain_manager" x=ALIGN_CENTER y=ALIGN_CENTER width=350 height=370 idleexpiretime="1.0f" 
+	OnCreate=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","1")
+	draggable="true" backoutkey="true" scriptloadable="true" priority="SCENE_SCRIPT" />
+
+
+<!-- Close Button -->
+	<UIButton name="CloseButton" x=315 y=6 style="STYLE_CLOSE_BUTTON" 
+		OnLeftClick=UIButton_Input_ScreenClose()>
+	</UIButton>
+
+
+
+<!-- Title -->	
+	<UIText name="title" text="Domain Manager" x=20 y=4 width=180 height=31 align=left valign=middle fontfamily="Title_Font" style="1" />
+	<UIIcon name="DETAIL_TOP" img="title_medium03.tga" x=10 y=8 width=331 height=31 ignoreevents="true" />
+
+<!-- Listbox -->
+	<UIListbox name="domains" x=15 y=40 width=330 height=350 yPadding=0 xPadding=0
+		showpartialchild=false scrollbaronright=true unequalcontrols=false scrollsegmentsize=1 >
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="air" text="Air" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1834") >
+			</UIButton>
+			<UIButton name="animal" text="Animal" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1835") >
+			</UIButton>
+			<UIButton name="celerity" text="Web" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3058") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="chaos" text="Doom" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","2094") >
+			</UIButton>
+			<UIButton name="cold" text="Polymorph" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","2093") >
+			</UIButton>
+			<UIButton name="darkness" text="Storm" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","2092") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="death" text="Gate" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","310") >
+			</UIButton>
+			<UIButton name="destruction" text="Powder" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1837") >
+			</UIButton>
+			<UIButton name="dream" text="Air E" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","2095") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="dwarf" text="Shadow" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3059") >
+			</UIButton>
+			<UIButton name="earth" text="Aurora" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1838") >
+			</UIButton>
+			<UIButton name="elf" text="Shiny S" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3060") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="evil" text="Fire" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","315") >
+			</UIButton>
+			<UIButton name="fate" text="fate" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3061") >
+			</UIButton>
+			<UIButton name="fire" text="fire" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1840") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="fury" text="Impolsion" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","306") >
+			</UIButton>
+			<UIButton name="good" text="Fireball" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1841") >
+			</UIButton>
+			<UIButton name="hatred" text="Holy" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3062") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="healing" text="B Cold" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","318") >
+			</UIButton>
+			<UIButton name="illusion" text="B Elect." fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3190") >
+			</UIButton>
+			<UIButton name="knowledge" text="B Holy" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1843") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="law" text="B Rescue" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","2096") >
+			</UIButton>
+			<UIButton name="luck" text="Candle" fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","2097") >
+			</UIButton>
+			<UIButton name="magic" text="Shadow" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1844") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="mysticism" text="Nova" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3063") >
+			</UIButton>
+			<UIButton name="pestilence" text="C. Elect." fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3064") >
+			</UIButton>
+			<UIButton name="plant" text="Shades" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1845") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="pride" text="Nova" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3191") >
+			</UIButton>
+			<UIButton name="protection" text="C. Elect." fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","308") >
+			</UIButton>
+			<UIButton name="repose" text="Shades" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3068") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="storm" text="Nova" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3065") >
+			</UIButton>
+			<UIButton name="strength" text="C. Elect." fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","307") >
+			</UIButton>
+			<UIButton name="suffering" text="Shades" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3066") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="sun" text="Nova" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","322") >
+			</UIButton>
+			<UIButton name="time" text="C. Elect." fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","2098") >
+			</UIButton>
+			<UIButton name="travel" text="Shades" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1849") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="trickery" text="Nova" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1850") >
+			</UIButton>
+			<UIButton name="tyranny" text="C. Elect." fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","3067") >
+			</UIButton>
+			<UIButton name="undeath" text="Shades" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","2099") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="war" text="Nova" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","2100") >
+			</UIButton>
+			<UIButton name="water" text="C. Elect." fontfamily="Body_Font" x=110 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","2","1852") >
+			</UIButton>
+			<UIButton name="addremovefeat" text="<C=lightgreen>Feat" fontfamily="Body_Font" x=215 y=ALIGN_CENTER height=15 width=100 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_domain_manager","3") >
+			</UIButton>
+		</UIPane>
+
+		<UIPane width=310 height=20 draggable=false>
+			<UIButton name="check_clerics" text="<C=cyan>Check Clerics" fontfamily="Body_Font" x=5 y=ALIGN_CENTER height=15 width=310 style="STYLE_LIST_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_hv_check_clerics") >
+			</UIButton>
+		</UIPane>
+			
+	</UIListbox>
+
+<!-- BACKGROUND -->
+	<UIFrame width=PARENT_WIDTH height=PARENT_HEIGHT topleft="frame1_tl.tga" topright="frame1_tr.tga" bottomleft="frame1_bl.tga"
+		bottomright="frame1_BR.tga" top="frame1_t.tga" bottom="frame1_b.tga"
+		left="frame1_l.tga" right="frame1_r.tga" border=32 />	
+	<UIFrame x=7 y=8 width=335 height=355 fillstyle="stretch" fill="frame_main_bg.tga"/>
+
+

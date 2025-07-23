@@ -1,0 +1,55 @@
+Starting point for discussion on what to start with (more can always be done later but the hardest decisions are at the start because of limited number of spellbooks, etc).
+
+Most classes will need to be adjusted for save/skill/effect stacking from spells.
+
+I need to look into replacing the Spirit Shaman with the Ranger (if the combat styles can be moved to a new class ID). If we can do that then we can open up an entirely new base class caster spot. Hell, we might want to think about doing that with Paladin too since without all the stacking PRC spells there aren't that many different ones between cleric and paladin. That could open up a second base class caster. There are far more unique spells to Paladin compared to Cleric than there are Ranger compared to Druid. Almost all of them are stacking damage/AB/AC/skill spells though (and that's true for the handful of unique ranger spells).
+
+[color=#0099ff]New Base Classes[/color]
+[list]
+[*]Alchemist
+[*]Beastmaster (Two companion focus)
+[*]Knight (Shield Focus)
+[*]Armiger (Heavy Armor Focus)
+[*]Feral Shifter (or just Shifter) - item-based melee shapeshifter without spells
+[*]Summoner - open up flavors for Necromancer, Artificer, and Elementalist with pet-focused abilities
+[*]New Base Class Caster (possibly replacing Ranger spot) - suggestion being an arcane melee
+[*]New Base Class Caster (possibly replacing Paladin spot) - suggestion being an inquisitor or witch
+[*]Weave Walker
+[*]Crafter
+[*]Witch
+[*]Witch Hunter
+[/list]
+
+[color=#0000ff]Allowed Base Classes[/color]
+[list]
+[*]Barbarian
+[*]Bard
+[*]Cleric - Strongly suggest removal of Domains to get rid of the RP problems and the fact that RP doesn't need to be focused on those domains to worship a deity. They inform the RP. The domains have a lot of bugs and abuses (and the changes in the current domain set provide too much power and capabilities from other classes). If domains have to stay, would recommend moving back to stock NWN2 domains. Clerics already get the free +1 spell that domains grant AND it works for any spell slot not just the domain spell so I'd leave them with the bonus they already get from that.
+[*]Druid - Return wildshape to stock NWN2 status with just the bug fixes from the PRC pack. Design a new base class without spells that focuses on fighting as a shape to split the abuse of power between shapes, animal companion, and spells that druid overloads on.
+[*]Fighter - Adjust the pathfinder fighter bonuses once the server's power level has been decided.
+[*]Monk - Adjust the Monk to use the lower end values from the PRC pack upgrade. Existing levels were a bit too strong on DB.
+[*]Paladin
+[*]Ranger
+[*]Rogue
+[*]Sorcerer
+[*]Swashbuckler
+[*]Wizard
+[*]Hexblade - Suggest moving the AoE capability from Epic levels to lower levels
+[*]Scout - Remove access to sneak attack and improve the class focus on stealth, detection, and possibly archery or traps
+[*]Factotum
+[*]Skald
+[/list]
+[color=#ff0000]Removed Base Classes[/color]
+[list]
+[*]Ninja
+[*]Thug
+[*]Favored Soul (replaced with a new class. Possibly Healer or even better the Paladin)
+[*]Spirit Shaman (replaced with Ranger) - This is so that the druid and the ranger share the same spellbook (which is pretty damn close in pnp and those ranger only spells won't tip the balance for Druids after the wildshape nerf). Doing so will open up a full spellbook for a new class.
+[*]Warlock (replaced with Alchemist). This will open up the RP for everyone and remove the abuses that were constant with warlocks. 
+[/list]
+
+I'd recommend turning off all PRCs to start with until we get the base systems in place and figure out the power level for the server (including crafting, loot drops, etc).
+
+[color=#0000ff]Allowed Prestige Classes[/color]
+
+[color=#ff0000]Removed Prestige Classes[/color]

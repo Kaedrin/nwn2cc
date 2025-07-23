@@ -1,0 +1,14 @@
+2DA V2.0
+
+     FeatLabel                             FeatIndex List GrantedOnLevel OnMenu 
+0    FEAT_COTSF_SPELLCASTING_PALADIN       3546      3    1              0      
+1    FEAT_TOWER_SHIELD_PROFICIENCY         1115      3    1              0      
+2    ExtTurn                               13        3    1              0      
+3    TurnUndead                            294       3    1              1      
+4    FEAT_COTSF_BLESSING_CHAMPION          3547      3    1              0      
+5    darkvision                            228       3    3              0      
+6    FEAT_EXTRA_SMITING                    910       3    3              0      
+7    FEAT_COTSF_RESIST_COMPULSION          3548      3    3              0      
+8    FEAT_COTSF_WEAPON_FLAME               3549      3    6              0      
+9    FEAT_COTSF_WEAPON_SACREDFLAME         3550      3    9              0      
+10   FEAT_COTSF_WARDING_FLAME              3551      3    10             0      

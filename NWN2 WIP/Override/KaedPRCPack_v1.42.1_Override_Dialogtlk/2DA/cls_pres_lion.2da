@@ -1,0 +1,10 @@
+2DA V2.0
+
+                       LABEL                                      ReqType  ReqParam1 ReqParam2 
+0                      Lore                                       SKILL    7         9         
+1                      Survival                                   SKILL    29        9         
+2                      Divine                                     DIVSPELL 2         ****      
+3                      BAB                                        BAB      4         ****      
+4                      FEAT_SACRED_VOW                            FEAT     3130      ****      
+5                      AnimalCompanion                            FEATOR   199       ****      
+6                      FEAT_TELTHOR_COMPANION                     FEATOR   3704      ****      

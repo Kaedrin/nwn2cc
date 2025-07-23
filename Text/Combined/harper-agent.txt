@@ -1,0 +1,47 @@
+Harper Agent
+
+(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)
+
+The semi-secret organization known as the Harpers has members scattered all across the region. These individuals are dedicated to battling evil, discovering and preserving forgotten lore, and maintaining the balance between nature and civilization. Harper agents are the "field agents" of the Harper organization, acting directly to gather intelligence and eliminate threats to the greater good. Bards are the most common candidates fo the Harper agent prestige class, but they are by no means the only qualified characters. Rangers, rogues, sorcerers, and wizards all possess the diversity of skill and ability necessary to become Harper agents. Barbarians, fighters, and paladins rarely become Harper agents because they lack the subtlety for the work. 
+
+A character can achieve a maximum of 5 levels in the Harper agent prestige class.
+
+Requirements:
+
+Alignment: Any nonevil.
+
+Skills: Diplomacy 8 ranks, Lore 4 ranks, Survival 2 ranks.
+
+Feats: Negotiator
+
+Spellcasting: You must have at least one level of a spellcasting class to become a Harper agent.
+
+Class Features:
+
+- Hit Die: d6
+
+- Base Attack Bonus: Medium.
+
+- High Saves: Will.
+
+- Weapon Proficiencies: Simple weapons.
+
+- Armor Proficiencies: Light armor.
+
+- Skill Points: 6 + Int modifier.
+
+- Class Skills: Appraise, Bluff, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Diplomacy, Hide, Listen, Lore, Move Silently, Perform, Sleight of Hand, Survival, Taunt and Tumble.
+
+- Spells per Day / Spells Known: At each level, the Harper agent progresses in a selected spellcasting class. When the player first chooses this prestige class if they have multiple spellcasting classes they choose which one they advance in.
+
+- Harper Knowledge: Like a bard, a Harper agent has a knack for picking up odds and ends of knowledge. This ability works exactly like the bardic knowledge ability of the bard class. If a Harper agent has bard levels, the character's Harper agent levels and bard levels stack for bardic knowledge.
+
+- Deneir's Eye: At 2nd level, the Harper agent gains a +3 sacred bonus to saving throws against traps. This is a supernatural ability.
+
+- Lliira's Heart: At 2nd level, the Harper agent gains a +2 sacred bonus to saving throws against mind-affecting spells. This is a supernatural ability.
+
+- Tymora's Smile: At 3rd level, once per day, the Harper agent or a target receives a +2 sacred bonus on all saving throws for 5 turns. This is a supernatural ability.
+
+- Lurue's Voice: At 4th level, the Harper agent may use this ability to cast <i>dominate animal</i> as per the spell, three times a day.
+
+- Mystra's Boon: At 5th level, the Harper agent gains a +2 sacred bonus on all saves against spells.

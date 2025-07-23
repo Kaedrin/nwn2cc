@@ -1,0 +1,61 @@
+Dread Fang
+
+Dread Fang
+
+The dread fangs of Lolth are elite soldiers who fight for the drow matriarchs. They are a visible manifestation of the theocraftic power that governs the dark elves, and their appearance elicits fear in almost all who behold them.
+
+Requirements
+
+Alignment: Any evil.
+Race: Drow, Half-Drow.
+BAB: +5
+Skills: Hide 4, Listen 2, Move Silently 4, Spot 2
+Special: Evasion
+Sneak Attack: +2d6
+
+Class Features
+
+HD: d8
+BAB: High
+High Saves: Fort
+Armor and Weapon proficiency: None
+
+Class Skills: Craft Armor, Craft Weapon, Hide, Intimidate, Listen, Lore, Move Silently, Spot, Tumble.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Lolth's Will, Lolth's Whispers, +1d6 Sneak Attack
+Level 2: Use Poison, Team Maneuverability
+Level 3: +2d6 Sneak Attack, Uncanny Dodge
+Level 4: Improved Evasion, Lolth's Defense +1
+Level 5: +3d6 Sneak Attack
+Level 6: Spider Bite
+Level 7: Opportunist, +4d6 Sneak Attack
+Level 8: Lolth's Defense +2
+Level 9: Improved Uncanny Dodge, +5d6 Sneak Attack
+Level 10: Hide in Plain Sight
+
+Lolth's Will: Your racial bonus on Will saves against spells and spell-like abilities increases to +4.
+
+Lolth's Whispers: The dread voice of the Spider Queen fills your thoughts. You gain a +2 insight on damage rolls.
+
+Sneak Attack: At 1st level and again at each odd-numbered level beyond 1st you gain an additional die of sneak attack damage.
+
+Poison Use: Starting at 2nd level, you never risk accidentally poisoning yourself when applying poison to a weapon.
+
+Team Maneuverability: At 2nd level, you add one-half your class level as an insight bonus for the Tumble skill. All allies within 30 feet gain a +2 competence bonus for their Tumble skill.
+
+Uncanny Dodge: At 3rd level, you gain the Uncanny Dodge feat.
+
+Improved Evasion: At 4th level, you gain the Improved Evasion feat.
+
+Lolth's Defense: At 4th level, you gain a +1 dodge bonus to Armor Class. The dodge bonus increases to +2 at 8th level.
+
+Spider Bite: You have learned to apply a special poison to your weapons. xxx effect of the poison. (+2 DC to existing poisons if doable, this new poison if not)
+
+Opportunist: At 7th level, you gain the Opportunist ability as though you were a rogue.
+
+Improved Uncanny Dodge: At 9th level, you gain the Improved Uncanny Dodge feat.
+
+At 10th level you gain the Hide in Plain Sight ability.

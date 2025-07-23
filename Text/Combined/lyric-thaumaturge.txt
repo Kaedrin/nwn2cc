@@ -1,0 +1,55 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+The lyric thaumaturge understands better than most how the natural harmonics of the universe pervade all things. Music might be its most pleasing form, but magical energy has harmonics of its own. The lyric thaumaturge has learned to make her magic and her music resonate into harmonic chords that enhance the effects of both.
+
+**Requirements:**
+
+Arcane Spell Level 2
+Bardic Music 5/day
+Feat: Melodic Casting
+Skills: Lore 6, Perform 9, Spellcraft 6
+
+**Class Features:**
+
+Hit Die: d6
+Base Attack Bonus: Medium.
+High Saves: Reflex, Will.
+Weapon Proficiencies: None.
+Armor Proficiencies: None.
+Skill Points: 4 + Int modifier.
+Class Skills: Bluff, Concentration, Craft Alchemy, Craft Armor, Craft Weapon, Diplomacy, Lore, Perform, Spellcraft, and Use Magic Device.
+
+**Class Abilities**
+
+Spellcasting: At each lyric thaumaturge level, the character gains new spells per day (and spells known, if applicable) as if she had also gained a level in her bard class.
+
+Bardic Music: A lyric thaumaturge adds her lyrist level to her bard level to determine the number of times per day she can use her bardic music and the power of those abilities. She does not gain new songs for gaining lyric thaumaturge levels.
+
+Bonus Spells: Your knowledge of magic grants you the ability to cast more spells than the average bard. At 1st level, you gain one additional 1st-level and 2nd-level bard spell slot. At 4th level, you gain one additional 3rd-level and 4th-level bard spell slot. At 7th level, you gain one additional 5th-level spell slot.
+
+Clap of Thunder: At 2nd level, you gain Clap of Thunder as a bonus feat.
+
+Sonic Might: Beginning at 5th level, you can expend a use of bardic music to add 1d6 points of sonic damage per spell level to any spell with the sonic descriptor for a number of rounds equal to your lyric thaumaturge level.
+
+Practiced Spellcaster: At 10th level, you gain Practiced Spellcaster (Bard) as a bonus feat.
+
+New Feat (required to take the class)
+
+Melodic Casting
+Type: General
+Prerequisite: Perform 4, Spellcraft 4, bardic music 1/day
+Benefit: You gain a bonus to Concentration checks (equal to the difference) if your Perform is greater than your Concentration skill.
+<i>You can weave your music and magic together into a single perfect voice.</i>
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

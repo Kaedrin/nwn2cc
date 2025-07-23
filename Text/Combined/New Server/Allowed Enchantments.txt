@@ -1,0 +1,64 @@
+I'll cover the actual crafting mechanisms in another post. This will focus just on what you can put on items.
+
+My suggestion would be to use the Pathfinder (which is nearly identical to standard 3.5) rules for handling magic items which I have cleaned up and detailed below. Specifics can always be found here: paizo.com/pathfinderRPG/prd/magicItems.html The body slots have been laid out to prevent the stacking of skills and saves. The attribute enhance bonus is set to +4 like 3.5 and not the +6 like pathfinder for the time being (needs extensive review).
+
+Magic Item Types
+The following types of magic items exist and will eventually include the specific lists.
+
+   Misc (belts, cloaks, rings, etc)
+   Potions (capped at level 3 spells)
+   Scrolls
+   Staves (specific sets of spells per pnp)
+   Wands (capped at level 4 spells)
+
+
+Enchantments
+Up to three enchantments can be placed on any given body location. The cost of the first enchantment is normal, the cost of the second and third enchantment are 50% more expensive than normal. For example, a +2 Dex enchantment on a belt would cost 4000 gold. Adding +2 Strength to the belt would cost 6000 gold. Adding +2 Con to the belt (for a maximum of 3 enchantments) would cost another 6000 gold. Costs are currently found: paizo.com/pathfinderRPG/prd/magicItems/magicItemCreation.html
+
+Enchantment Slots
+[list]
+[*]Helmet - Deflection AC, Appraise, Bluff, Craft, Diplomacy, Heal, Intimidate, Spot, Listen, Lore, Perform, Spellcraft, Survival, UMD, Attributes
+[*]Chest - Armor AC, Resistance, Attributes, Spell Slots, Spell Resistance, Bonus Hit Points
+[*]Gloves - Deflection AC, Disable Device, Sleight of Hand, Attributes
+[*]Gauntlets - Deflection AC, Disable Device, Sleight of Hand, Attributes
+[*]Bracers - Armor AC, Resistance, Attributes, Bonus Damage, Attack Bonus, Enhance
+[*]Boots - Dodge AC, Hide, Move Silently, Tumble, Attributes
+[*]Cloak - Deflection AC, Resistance, Attributes, Saving Throws, Bonus Hit Points, Regeneration
+[*]Ring (x2) - Deflection AC, Resistance, Attributes, Spell Slots, Regeneration, Spell Storing, Evasion, Light
+[*]Amulet - Natural AC, Resistance, Attributes
+[*]Belt - Deflection AC, Resistance, Attributes
+[*]Left Hand - Enhance, Attack Bonus, Keen, Attributes, Bonus Damage, Deflection AC, Vampiric
+[*]Right Hand - Enhance, Attack Bonus, Keen, Attributes, Bonus Damage, Deflection AC, Vampiric
+[*]Shield - Shield AC, Resistance, Attributes, Spell Resistance
+[*]Ammo - Enhance, Attack Bonus, Bonus Damage
+[/list]
+
+Enchantment Maximums
+[list]
+[*]Attribute Enhance bonuses have a maximum of +4
+[*]Saving Throw bonuses (Universal) have a maximum of +5
+[*]Skill bonuses have a maximum of +5 (Hide/Move Silently [color=#ff0000]MAY [/color]have a maximum of +15)
+[*]Energy Resistances have a maximum of 30
+[*]Enhance bonuses for Deflection AC, Natural AC, Armor AC, and Shield AC have a maximum of +5
+[*]Dodge AC bonus on boots is between +1 and +5 (needs to be assessed as part of the +5 bit)
+[*]Spell Resistance has a maximum value of 19
+[*]Damage Bonus has a maximum of 1d6 and only one element can be added to a specific weapon.
+[*]Regeneration has a maximum value of 1 (allowing for 3 regen with 2 rings and a cloak, 3 slots)
+[*]Spell Storing has a maximum spell level of 9 (one spell per ring)
+[*]Vampiric has a maximum value of 1-2 (see notes)
+[*]Bonus Hit Points has a maximum value of 10-20 (see notes)
+[/list]
+
+Notes
+[list]
+[*]Evasion on items should probably be turned off to prevent feature creep (and keep evasion on the stealthy types)
+[*]Spell Storing would be a long term goal
+[*]Speed (aka Haste) should be listed on the Right Hand and Left Hand slot for weapons but I strongly suggest not including that enchantment. In PnP it takes up a +2 part of a +5 enchant (ie, +5 weapon OR +3 Haste weapon)
+[*]Vampiric does not exist in Pathfinder or 3.5 but is a nice way to provide melees with a little endurance in combat. Suggest capping it at +1 or +2 if it is allowed to stay.
+[*]Bonus Hit Points does not exist in Pathfinder or 3.5 but is a nice way to provide low level characters added life when it's most critical. Suggest capping it at +20 if it is allowed to stay.
+[*]Suggest removing UMD as a possible skill option. Needs to be discussed in the upcoming skill thread.
+[/list]
+
+
+Weapon Enchantments: possibly expand the list to a small pool of bonus feats (such as cleave, massive criticals, etc for flavor but nothing they can't get on their own leveling up).
+

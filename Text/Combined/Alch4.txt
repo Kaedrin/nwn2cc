@@ -1,0 +1,14 @@
+[quote="Kaedrin"]Spell Review: Assuming the possibility of new spellbooks pans out, the spellbook set for the Alchemist is completely open to being revised (since I'm not limited to 5 per spell level).
+
+Likely candidates: 
+
+Level 1: Identify
+Level 2: Fox's Cunning, Bear's Endurance, Cat's Grace, Cure Moderate Wounds, Owl's Wisdom, Lesser Restoration, See Invisibility, Nightshield, Alchemical Allocation, Bull's Strength
+Level 3: Displacement, Remove Curse, Remove Disease, Remove Blindness/Deafness
+Level 4: Cure Critical Wounds, Restoration, Night Armor, Persistent Vigor
+Level 5: 
+Level 6: Transformation
+
+Each level past 2nd can combine two spells from previous levels to make a new combo spell (so Shield + Barkskin as a level 3 spell, etc). These may be added to make a few combos. Metamagics would be accessible too allowing the usual extend/empower feats to be used.
+
+As an Arcane class that can do research, I'm open to adding spells not listed on this list or the original list as long as it comes from an Arcane source (ie, they could learn Fireball from a wizard). I'd rather keep that part focused on buffs/abjurations and avoid combat spells/conjurations as they don't really fit the class.[/quote]

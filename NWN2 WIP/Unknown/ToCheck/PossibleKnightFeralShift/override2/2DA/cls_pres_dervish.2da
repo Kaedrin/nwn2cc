@@ -1,0 +1,25 @@
+2DA V2.0
+
+     LABEL                       ReqType ReqParam1 ReqParam2 
+0    BAB                         BAB     5         ****      
+1    Perform                     SKILL   11        3         
+2    TumbleSkill                 SKILL   21        3         
+3    Dodge                       FEAT    10        ****      
+4    Mobility                    FEAT    26        ****      
+5    CombatExpertise             FEAT    389       ****      
+6    WeapFocSickle               FEATOR  98        ****      
+7    WeapFocScim                 FEATOR  105       ****      
+8    WeapFocLSw                  FEATOR  106       ****      
+9    WeapFocGSw                  FEATOR  107       ****      
+10   WeapFocHAxe                 FEATOR  108       ****      
+11   WeapFocBAxe                 FEATOR  110       ****      
+12   WeapFocGAxe                 FEATOR  111       ****      
+13   WeapFocHalb                 FEATOR  112       ****      
+14   WeapFocKama                 FEATOR  117       ****      
+15   WeapFocKukri                FEATOR  118       ****      
+16   WeapFocScy                  FEATOR  121       ****      
+17   WeapFocKatana               FEATOR  122       ****      
+18   WeapFocBSw                  FEATOR  123       ****      
+19   WeapFocDWAxe                FEATOR  952       ****      
+20   FEAT_WEAPON_FOCUS_FALCHION  FEATOR  1590      ****      
+21   WeapFocTAxe                 FEATOR  109       ****      

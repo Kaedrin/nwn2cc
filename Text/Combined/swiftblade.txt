@@ -1,0 +1,75 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+While sorcerers and wizards consider haste one of many spells in their repertoire, swiftblades covet haste above all others. As a swiftblade, your arcane-assisted speed combined with melee skill can turn your first strike into a deadly assault. Swiftblades discover unconventional ways to utilize the haste spell, permanently augmenting their speed and fusing complimentary spell effects into each casting. In a very real sense, swiftblades bond to their chosen spell until the two become immutable.
+
+The swiftblade is an excellent choice for martially-orientated arcane spellcasters. Although the swiftblade requires spellcasting compromises, it does empower the character with the ability to switch between melee and spell combat. When compared to more studious arcane practitioners, swiftblades are better able to survive encounters after all their spells have been used for the day. This allows the members of this prestige class to fill multiple rolls within an adventuring party.
+
+While most swiftblades are resolved to lives of danger and excitement, some darker members of this prestige class resort to working as assassins. It's also not uncommon to find swiftblades among rangers and scouts, as they are well suited to skirmish warfare. 
+
+**Requirements:**
+
+Feats: Dodge, Mobility.
+Weapon Proficiency: Bard, Elf, Grey Orc, or Martial.
+Base Attack Bonus: +3
+Skills: Concentration 6, Spellcraft 6.
+Spellcasting: Able to cast 3rd level arcane spells.
+Spell Known: Haste
+
+**Class Features:**
+
+HD: d6
+BAB: High
+High Saves: Reflex, Will
+Weapon and Armor proficiency: None.
+Skill points: 4 + Int modifier
+Class Skills: Bluff, Craft Weapon, Craft Armor, Craft Alchemy, Concentration, Diplomacy, Listen, Lore, Parry, Spellcraft, Spot, Tumble.
+
+**Class Abilities:**
+
+Level 1: Bonus Feat: Spring Attack, Swift Surge (+1 AB, +1 Dodge AC, +1 Reflex Save), Arcane Spellcasting Progression
+Level 2: Blurred Alacrity
+Level 3: Residual Celerity
+Level 4: Arcane Reflexes
+Level 5: Evasive Celerity
+Level 6: Fortified Hustle
+Level 7: Bonus Feat: Uncanny Dodge, Swift Surge (+2 AB, +2 Dodge AC, +2 Reflex Save, +d6 damage)
+Level 8: Diligent Rapidity
+Level 9: Perpetual Celerity
+Level 10: Innervated Speed, Swift Surge (+2 AB, +2 Dodge AC, +2 Reflex Save, +2d6 damage)
+
+Arcane Spellcasting Progression: At levels 2,3,5,6,8, and 9 you gain new spells per day and an increase in caster level (and spells known) as if you had also gained a level in an arcane spellcasting class to which you belonged before adding the prestige class level. If you had more than one arcane spellcasting class before becoming a swiftblade, you must decide which class gains the increased casting ability.
+
+Spring Attack: At 1st level you gain the bonus feat Spring Attack.
+
+Swift Surge: Your body is augmented with the residual energy of previous haste castings. You gain a +1 bonus on attack rolls, a +1 dodge bonus to AC, and a +1 bonus to Reflex saves. At 7th level, these bonuses increase to +2 and you deal an extra 1d6 points of damage.  At 10th level you gain 2d6 points of bonus damage. These bonuses stack with the bonuses gained from the haste spell.
+
+Blurred Alacrity: At 2nd level, your understanding of the haste spell makes you difficult to target with melee and ranged attacks. While under the effect of a haste spell that you cast yourself, you gain concealment (20% miss chance). This miss chance increases by 10% at 3rd, 4th, and 5th level. The effect of this ability does not stack with blur, displacement, or similar spell effects.
+
+Residual Celerity: At 3rd level, your body retains more of the energy imbued by the haste spell allowing it to last longer. When casting the haste spell on yourself the duration is increased by 3 rounds.
+
+Arcane Reflexes: At 4th level, you infuse the energy of previous haste castings into your natural reaction time. This grants the bonus feat Improved Initiative.
+
+Evasive Celerity: At 5th level, your knowledge of the haste spell makes you difficult to target with spells.  While under the effect of a haste spell that you cast yourself, you gain a Spell Resistance equal to 10 + character level. The effect of this ability does not stack with other effects that grant spell resistance.
+
+Fortified Hustle: At 6th level, you learn how to intuitively absorb the haste spell into your body. While under the effect of a haste spell that you cast yourself, the effect becomes extraordinary rather than a normal spell effect, and therefore cannot be dispelled by any means. 
+
+Uncanny Dodge: At 7th level you gain the bonus feat Uncanny Dodge.
+
+Diligent Rapidity: At 8th level, you automatically overcome magic and mundane obstacles with the haste spell. While under the effect of a haste spell that you cast yourself, you can move and attack normally, even under the influence of magic that usually impedes movement, as the freedom of movement spell. 
+
+Perpetual Celerity: At 9th level, the haste spell lingers even longer in your body before it dissipates. When casting the haste spell on yourself the duration is increased by 6 rounds.
+
+Innervated Speed: At 10th level, your mastery of the haste spell seems to bring the world around you to a standstill. This effect is comparable to the slow spell with a 100' radius effect and lasting 10 rounds. This burst of speed is available for use once every five minutes. The DC of the ability is 19 + the higher of your Int or Cha modifier.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

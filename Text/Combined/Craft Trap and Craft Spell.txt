@@ -1,0 +1,127 @@
+These are the notes I had for Craft Trap and Craft Spell.
+
+[spoiler="Craft Trap"]
+Craft Trap is going to be:
+
+
+Contact Poison 1
+Tier 1: DC 4 to make, Poison (DC 18, d2 Con)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Con)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Con)
+
+Contact Poison 2
+Tier 1: DC 4 to make, Poison (DC 18, d2 Str)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Str)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Str)
+
+Contact Poison 3
+Tier 1: DC 4 to make, Poison (DC 18, d2 Dex)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Dex)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Dex)
+
+Contact Poison 4
+Tier 1: DC 4 to make, Poison (DC 18, d2 Cha)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Cha)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Cha)
+
+Contact Poison 5
+Tier 1: DC 4 to make, Poison (DC 18, d2 Wis)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Wis)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Wis)
+
+Contact Poison 6
+Tier 1: DC 4 to make, Poison (DC 18, d2 Int)
+Tier 2: DC 14 to make, Poison (DC 22, d4 Int)
+Tier 3: DC 24 to make, Poison (DC 26, d6 Int)
+
+Traps will be 5/10/15/20/25 skill to craft these:
+Acid Trap
+Electrical Trap
+Fire Trap
+Frost Trap
+Gas Trap (3 traps for each of the six poison types above)
+Holy Trap
+Negative Energy Trap
+Sonic Trap
+Spike Trap (Piercing)
+Slicing Trap (Slashing)
+Crushing Trap (Crushing)
+
+15/20/25/30/35 DC on the trap
+5d6/10d6/15d6/20d6/25d6 damage (d4 damage for Negative/Holy). One trap per person can be active at a time.
+
+Craft Trap skill gives a +1 damage per 5 ranks bonus.
+
+I was toying with the idea that the skill would let you craft anything above but that you need a feat (Combat Trapsmith) in order to place the traps made by this which allows you to limit it to one active trap at a time AND put in bonuses for DC/Damage based on the Craft Trap skill ranks.
+[/spoiler]
+
+and
+
+[spoiler="Craft Spell"]
+
+
+6 scrolls - 6 spells - 1 script
+Touch - Hostile
+Touch - Ally
+Range S
+Range M
+Range L
+Self (all shapes become burst)
+
+5 gems for shape:
+Blast (single target)
+Burst (AE)
+Chain
+Bolt
+Cone
+
+6 gems for element
+Fire
+Acid
+Elec
+Cold
+Sonic
+Positive (Heal if Touched Ally or Self scroll) -> will be a random element if no bard or divine levels are found. Will
+
+9 gems for save
+Fort
+Ref
+Will
+Fort or Ref (highest)
+Fort or Will (highest)
+Ref or Will (highest)
+Fort or Ref (lowest)
+Fort or Will (lowest)
+Ref or Will (lowest)
+
+Possible Future Gem - This will not be in the initial cut.
+4 gems for status
+None
+Daze (if Self or Touched Ally - +1 save throw per 3 levels of the spell, +3 max as a level 9 spell, 1 rd per spell level)
+Debuff - AC (-1 per 3 levels of the spell, -3 max as a level 9 spell) (Buff if Self or Touched Ally, 1 rd per spell level)
+Debuff - AB (-1 per 3 levels of the spell, -3 max as a level 9 spell) (Buff if Self or Touched Ally, 1 rd per spell level)
+DoT (or damage shield if ally)
+End Possible Future Gem
+
+9 gems for spellpower
+L1
+L2
+L3
+L4
+L5
+L6
+L7
+L8
+L9
+
+1 Craft Bag that checks for one of each of the above listed gem sets and creates 1 of 6 scrolls.
+
+Each scroll has all the localvars set for which gem was used. When the scroll is used, it reads those localvars to determine the spells properties. Thus a player will have to experiment to unlock what everything is. The only thing they will know for sure is the spell power gems. The rest will come from research. Scrolls will not have a name other than 'Researched spell' and it can't be learned by a wizard. It will always pass a UMD check. The highest level of a base class with casting is what is used for the scroll. A bard 9/wiz 1/EK 10 (wiz)/ASoC 10(wiz) is going to be treated as a bard for the feat (no realistic way around that problem). Might put in a 5% chance for any gem to actually provide a different effect (chaos crafting ftw).
+
+The feat will have a number of uses per day to limit how often these can be created (to avoid abuse).
+
+Damage spells deal d6 per caster level up to a cap of (3 + (3 * spell level)). So a level 9 spell will scale to 30d6 while a level 3 spell will scale to 12d6.
+
+It's essentially 24 spells (6 target types X 4 shapes) that use the item activator to read all of their effects (element, effect, etc).
+
+[/spoiler]

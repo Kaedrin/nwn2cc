@@ -1,0 +1,13 @@
+[list=1]
+[*]Companions and Familiars do not cause an experience deficit.
+[*]Summons cause a minor experience deficit.
+[*]Temporary item properties are removed when an item is unequipped.
+[*]Very few spells/items/feats stack (following pnp stacking rules).
+[*]+ Skill enchants can only be placed on item locations with an affinity for a specific skill.
+[*]Death Attack replaced with a pnp ability (no archer exploits).
+[*]No XP penalty for multiclassing base classes.
+[*]No non-magical drops from creatures that are not cash, crafting materials, or quest objects.
+[*]Damage bonuses will be on items, not characters (no ignoring resists, multiplied on a crit).
+[*]Very few immunities (including sneak/criticals). Energy Immunity is to one element at a time.
+[*]Clerics do not get domains and instead get +1 spells/level max and a bonus feat at level 1. This will remove a ton of the exploits and bugs related to domain spells and prevent having to rebalance the domains.
+[/list]

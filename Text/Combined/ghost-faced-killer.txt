@@ -1,0 +1,51 @@
+From out of nothing the specter of death appears, an armored shadow with a brilliant blade held high. In a flash the blade falls, severing life from limb in a bloody arc. All around, screams of terror and shouts of fear erupt, as quaking hands draw blades to fight the masked murderer. His target dead, the ghost-faced killer walks calmly away as swords and fists pass harmlessly through his nearly transparent body.
+
+Requirements:
+
+Base Attack Bonus: +5.
+Feats: Improved Initiative, Power Attack.
+Skills: Hide 6, Concentration 4, Intimidate 8, Move Silently 6.
+
+Class Features:
+
+Hit Die: d8
+Base Attack Bonus: High.
+High Saves: Fort.
+Weapon Proficiencies: All simple and martial.
+Armor Proficiencies: Light armor.
+Skill Points: 4 + Int modifier.
+Class Skills: Bluff, Craft Armor, Craft Weapon, Concentration, Hide, Intimidate, Listen, Lore, Move Silently, Open Lock, Search, Spot, and Tumble.
+
+Class Abilities:
+
+Level 1: Ghost Step 1/day
+Level 2: Sneak Attack +1d6
+Level 3: Frightful Attack 1/day
+Level 4: Ghost Step 2/day
+Level 5: Sneak Attack +2d6
+Level 6: Frightful Attack 2/day
+Level 7: Ghost Step 3/day
+Level 8: Sneak Attack +3d6
+Level 9: Frightful Attack 3/day
+Level 10: Ghost Step 4/day, Bonus Feat: Cleave
+
+Ghost Step: A ghost-faced killer can become invisible for 3 rounds. At 6th level, a ghost-faced killer can become ethereal when using ghost step instead of becoming invisible. This is an instantly activated ability. The ghost-faced killer can use this ability once per day at 1st level, 2/day at 4th level, 3/day at 7th level, and 4/day at 10th level.
+
+Frightful Attack: Beginning at 3rd level, a ghost-faced killer can panic onlookers and even frighten his victim to death by making a sudden strike attack. The ghost-faced killer makes a single melee attack and the victim must make a Will save (DC 10 + ghost-faced killer's class level + Cha modifier). 
+
+If the victim succeeds, she is shaken for 1 round per class level; if she fails, she dies instantly of fear. Creatures immune to mind-affecting effects, immune to fear, or with hit dice that exceed the ghost-faced killer's character level are immune to this frightful attack.
+
+In additional, all creatures within 30 feet who see the frightful attack become shaken for 1 round per class level. A successful Will save (DC 16 + ghost-faced killer's class level + Cha modifier) negates this effect.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

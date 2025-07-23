@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<EventList>
+  <Name>fx_w_dag_fire</Name>
+  <MaxDuration>0</MaxDuration>
+  <SpecialTargetPosition>0</SpecialTargetPosition>
+  <Event0>
+    <Type>1</Type>
+    <Name>fx_firemesh_test</Name>
+    <DefinitionFile>fx_firemesh_test.pfx</DefinitionFile>
+    <DelayTime>0</DelayTime>
+    <MaxDuration>0</MaxDuration>
+    <Position>
+      <x>0</x>
+      <y>0</y>
+      <z>0</z>
+    </Position>
+    <SourceAttachment>1</SourceAttachment>
+    <TargetAttachment>0</TargetAttachment>
+    <SourceAttachmentObject>0</SourceAttachmentObject>
+    <TargetAttachmentObject>1</TargetAttachmentObject>
+  </Event0>
+</EventList>

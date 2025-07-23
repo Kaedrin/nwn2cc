@@ -1,0 +1,15 @@
+Subradials are a little tricky.
+
+I'll walk you guys through an example that assumes you have 5 subradial options. For the example your feat ID is going to be 3000 and your spells start at 2000.
+
+You need the "master" spell at line 2000. It's going to be the same as your first subradial option. Set the SubRadSpell1 - 5 columns with the other 5 spell options (2001, 2002, 2003, 2004, 2005). For the FeatId column, use 3000.
+
+For the first subradial option, you need to set the "Master" column to 2000. This tells it which spell drives all the subradials. Now for the tricky part: the FeatId column needs to be (65536 * Subradial_Number + FeatId). The Subradial_Number needs to be greater than 5000 and successive (so 5000 for the first option, 5001 for the second, 5002 for the third, 5003 for the fourth, and 5004 for the fifth).
+
+65536 * 5000 (Subradial Option #1) + 3000 (FeatId) = 327683000
+
+You should keep track of the Subradial_Number you use for your next subradial spell (so that you start at 5005 for it's first option).
+
+This will get your subradial showing all choices.
+
+As long as you change the FeatId part of the number you may be able to use the same subradial option (5000-5004) but I haven't really tested that since my subradials tend to be rare.

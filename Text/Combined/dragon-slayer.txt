@@ -1,0 +1,65 @@
+They come from all walks of life, from all cultures and societies. They may be poor or wealthy, strong or wise, good or evil, skilled with blade or spell. But all dragonslayers share a singular courage and strength of heart, a necessary commodity in their line of work.
+
+This class provides spellcasting progression in either Arcane, Divine, or Invocation based casters.
+
+Requirements
+
+Base Attack Bonus: +5.
+Feats: Dodge, Iron Will.
+Skills: Tumble 2.
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort, Will
+Weapon proficiency: Simple and Martial
+Armor proficiency: All armor and shields (including Tower Shields)
+
+Class Skills: Craft Armor, Craft Weapon, Intimidate, Lore, Parry, Search, and Tumble.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Aura of Courage, Damage Bonus (vs Dragons), Spellcasting Progression
+Level 2: True Strike 1/day, Spell Penetration
+Level 3: DR 1/-
+Level 4:
+Level 5: Energy Resistance 5
+Level 6: DR 2/-, Lightning Reflexes
+Level 7: Greater Spell Penetration
+Level 8:
+Level 9: DR 3/-
+Level 10: Energy Resistance 10, True Strike 2/day
+
+Spellcasting: At each odd level (1, 3, 5, 7, 9), you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in an arcane, divine, or invocation based spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one spellcasting class before becoming a dragonslayer, you must decide which class to progress in. This includes Assassin, Avenger, and Blackguard.
+
+Aura of Courage: At 1st level, a dragonslayer gains immunity to fear. Allies within 10 feet of the dragonslayer gain a +4 bonus on saving throws against fear effects.
+
+Damage Bonus: A dragonslayer gains a bonus on weapon damage rolls against dragons equal to his class level.
+
+True Strike: At 2nd level, a dragonslayer may use true strike once per day. At 10th level, a dragonslayer may use true strike twice per day.
+
+Spell Penetration: A dragonslayer gains Spell Penetration as a bonus feat at 2nd level.
+
+Damage Reduction: At 3rd level, a dragonslayer gains damage reduction 1/-. This improves to damage reduction 2/- at 6th level, and to damage reduction 3/- at 9th level. This damage reduction only stacks with the DR granted by Greater Resiliency and the epic damage reduction feats.
+
+Energy Resistance: At 5th level, a dragonslayer gains resistance to acid 5, cold 5, electricity 5, fire 5, and sonic 5. These resistances improve to 10 at 10th level.
+
+Lightning Reflexes: A dragonslayer gains Lightning Reflexes as a bonus feat at 6th level.
+
+Greater Spell Penetration: A dragonslayer gains Greater Spell Penetration as a bonus feat at 7th level.
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

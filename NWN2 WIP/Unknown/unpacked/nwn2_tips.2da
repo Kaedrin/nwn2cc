@@ -1,0 +1,366 @@
+2DA	V2.0						
+							
+	Area	GameStateMin	GameStateMax	Weighting	String	DebugString	Comment
+1	****	****	****	1	****	"Rule: 1. Ignorance of the rules is not a valid excuse.						 
+											   Please visit our forums @ www.dalelandsbeyond.com"	****
+2	****	****	****	1	****	"Rule: 2. Bullying - Poor behavior won't be tolerated. This applies to forum posts, and in-game chat (i.e. forum bullying, OOC insulting in-game). In other words, don't be a jerk.
+						                       Please visit our forums @ www.dalelandsbeyond.com"	****
+3	****	****	****	1	****	"Rule: 3. Complaints to Staff - Similarly do not speak poorly to our hardworking staff. Complaints, questions, and suggestions are welcome but remember these people work for free. Treat them with respect. Please also check out the Event Etiquette thread in this section.
+						                        Please visit our forums @ www.dalelandsbeyond.com"	****
+4	****	****	****	1	****	"Rule: 4. Role-Play - Dalelands is an RP server. You are expected to not only speak IC but in a way that befits a medieval setting. OOC needs to be kept to tells as much as possible.
+												Please, no silly OOC teaming up. In general humans would not run about with ogres for example. If you and your pal wish to play together make a comparable pair!
+						                        Please visit our forums @ www.dalelandsbeyond.com"	****
+5	****	****	****	1	****	"Rule: 5. Metagaming & Godmodding - Metagaming is strictly forbidden and is a punishable offense. Metagaming can include using information gained through OOC means such as a person's character description, or a person's biography posted on the forum, or acting differently due to being set to Hostile.
+												Godmodding is also forbidden (deciding consequences without appropriate rp). Further information on both is available under RP Guidelines and Rules.
+												There are some special guidelines in place at the moment for the Drow and Underdark since the area is being heavily worked on. Please read them.
+                                                Please visit our forums @ www.dalelandsbeyond.com"	****
+6	****	****	****	1	****	"Rule: 6. Judging Role-Play - Role-Playing is subjective. Do not judge another players RP with OOC comments. All you will do is insult people. If you have a problem with any player's RP it is required you speak to staff and only staff about it!
+                                               Please visit our forums @ www.dalelandsbeyond.com"	****
+7	****	****	****	1	****	"Rule: 7. Muling - No muling/twinking to other characters. See Equipping your New Character under the Character Creation thread. If you have further questions about what these means ask a DM.
+                                                Please visit our forums @ www.dalelandsbeyond.com"	****
+8	****	****	****	1	****	"Rule: 8. PvP (Player vs Player) Rules - PvP is a whole subject in itself. Please check the rules.
+												Due to a bug, please do not use Disarm or Improved Disarm in PvP.
+						                        Please visit our forums @ www.dalelandsbeyond.com"	****
+9	****	****	****	1	****	"Rule: 9. Contacting Staff - If you have a problem with a player take it up privately with a DM. If you have a problem with a DM then take it up with me (DM Bucephalus), DM MustangSVT or DM Greenboy3 privately. If it is with either of them then take it up with me privately.
+                                                Please visit our forums @ www.dalelandsbeyond.com"	****
+10	****	****	****	1	****	"Rule: 10. Explicit RP - Dalelands is an 18+ server, which means that tough and/or adult themes sometimes emerge. However, it is not a social server. Any explicit RP must be done IC and in private between consenting adults.
+												 Please visit our forums @ www.dalelandsbeyond.com"	****
+11	****	****	****	1	****	"Rule: 11. Under 18 Characters - Child (under adult-age) characters are not allowed.
+												 Please visit our forums @ www.dalelandsbeyond.com"	****
+12	****	****	****	1	****	"Rule: 12.  Swearing - Although we are an Age 18+ server, please censor all swearing if asked to do so by another player. Not everyone likes seeing curse words flying around in text during RP. This refers directly back to not ruining another persons good time......also a reminder that in many perhaps even all common place swearwords were unknown in the middle ages and therefore have no place in a RP based on a much older realm then our own. If you do swear, please avoid the F-word or worse.  
+												 Please visit our forums @ www.dalelandsbeyond.com"	****
+13	****	****	****	1	****	"Rule: 13. Torture - Torture and slavery is allowed if it's IC for good reason 	but, you must have OOC consent to do so, OOC consent for any permanent scars or body part removal (like a finger) and the tortured/slave has the right to bow out if they become uncomfortable at any time. As a reminder, this is not a social server.  	
+												 Please visit our forums @ www.dalelandsbeyond.com"	****
+14	****	****	****	1	****	"Rule: 14. Overrides - External overrides on the player side are not allowed to be used. This includes the use of an override to use custom colours on a character since it is considered making it a custom race. 
+						                         Please visit our forums @ www.dalelandsbeyond.com" 	****
+15	****	****	****	1	****	"PVP Rule: 1. Griefing - Absolutely No Griefing
+												Griefing is the act of chronically causing grief to other members of an online community, or more specifically, intentionally disrupting the immersion of another player in their gameplay.
+												Basically, do not be a jerk to other players. However this rule DOES NOT apply directly to IC “Versus” interactions. If you keep insulting another player ICly or provoking them, this constitutes as a hostile action, and therefore can be considered as consenting to PvP, so expect IC results regardless.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+16	****	****	****	1	****	"PVP Rule: 2. Setting to Hostile / Knock Out mode - Setting to Hostile is considered an Out-Of-Character action and does not consist as a role-played reason for PvP. Setting to hostile is considered as giving approval/consent to PvP situations, but it by no means bypasses any of the rules. Knock Out Mode reduces the defeated character to 1 hp without killing and Fugueing them with the associated XP loss. At 1 HP\health you are considered incapacitated and either dead or knocked out at the victor's decision.
+  						                        Please visit our forums @ www.dalelandsbeyond.com"	****
+17	****	****	****	1	****	"PVP RUle: 3. RP Reason - There must always be an in-character role-play reason for the conflict to take place, and the both parties involved must adhere to ALL rules.
+												Absolutely NO Out-Of-Character motives since this constitutes as griefing (see Griefing Rule).
+												Before engaging in PvP, set the other opposing party to Hostile via the player list.
+						                        Please visit our forums @ www.dalelandsbeyond.com"	****
+18	****	****	****	1	****	"PVP Rule: 4. RP Out - You must allow the counter-party to role-play out of a PvP situation.
+												This can be done by role-playing a sign of pending attack or hostility, such as *load arrow in bow* or *prepare spell to cast*.
+												An action such as this allows the counter-party to role-play out of the attack either by running, or apologizing, or surrendering, or whatever else suitable action you can think of.
+		                                        Please visit our forums @ www.dalelandsbeyond.com"	****
+19	****	****	****	1	****	"PVP RULE: 5. One Day Avoidance - After losing a PvP situation, both players must avoid each other directly for a whole day (24 hours). The only exception to this rule is if the other player (or other party involved) grants you permission to be present around the person that killed you.  
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+20	****	****	****	1	****	"TIP: Try using the toolset to create adventures of your own to share with your friends!  
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+21	****	****	****	1	****	"TIP: Completing side quests may allow your companions to level up in different ways.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+22	****	****	****	1	****	"TIP: Be mindful of the choices you make when interacting with other characters; straying too far from certain alignments may prevent you from gaining levels in certain classes.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+23	****	****	****	1	****	"TIP: Some subraces level more slowly, but have powerful special abilities, such as spell resistance, that make up for it.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+24	****	****	****	1	****	"TIP: It's usually a good idea to purchase some ranks of the  ""conversation"" skills (Bluff, Diplomacy, Intimidate). Certain situations can be made easier or avoided entirely by talking your way through or out of them.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+25	****	****	****	1	****	"TIP: Some character classes are better than others for multi-classing. Many of the abilities that monks receive, for instance, are only fully realized if the player concentrates on being a monk exclusively.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+26	****	****	****	1	****	"TIP: Companions have opinions and feelings, too. Their loyalty and your influence with them depend on how you treat them, how you solve quests, and even how you treat other people you meet in the game.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+27	****	****	****	1	****	"TIP: Check out the requirements for prestige classes when creating your character to get a feel for your character's overall class direction. We do not rebuild here! VERY IMPORTANT.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+28	****	****	****	1	****	"LORE: Maerimydra - 
+												The largest drow city of the Deep Wastes, Maerimydra lies below the Dalelands. In times gone by, its soldiers conquered Shadowdale and established surface outposts in places such as Haptooth Hill. But Maerimydra poses a threat to the surface world no longer (or at least, the character of the threat it poses has changed dramatically). 
+												The city was recently destroyed infighting brought on by Lolth’s silence. A powerful priestess of Kiaransalee named Irae T’sarran seized control of the city’s central citadel, while a horde of fire giants and goblinoids under the rule of the half-fiend Kurgoth Hellspawn sacked the rest of the city. Most of Maerimydra’s Lolth-worshipers are now either dead or in chains, although a few managed to flee the city and find shelter in various hidden places throughout the Deep Wastes. 
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+29	****	****	****	1	****	"LORE:  Elves are as varied in personality as any race from moderates to extremists"
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+30	****	****	****	1	****	"LORE:  Corellon, or more fully Corellon Larethian, whose titles include The Creator of the Elves and The Protector, is the patron god of all fey. 
+												He is the creator and preserver of the Tel'Quessir, governing those things held in the highest esteem among eladrin and elves, such as magic, music, arts, crafts, poetry, and warfare. Corellon lives in the realm of Arvandor. He approves of those who kill orcs and followers of Lolth, blesses those who aid others and becomes angered at those who defile the dead, or flee from their foes.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+31	****	****	****	1	****	"TIP: Metamagic feats can make lower level spells even more powerful than higher level spells.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+32	****	****	****	1	****	"TIP: You can alter the camera mode by hitting the asterisk (*) key on the number pad.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+33	****	****	****	1	****	"TIP: When in doubt, check your journal.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+34	****	****	****	1	****	"TIP: Save your game frequently, and in different slots.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+35	****	****	****	1	****	"TIP: Never underestimate the power of a well placed low level spell.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+36	****	****	****	1	****	"TIP: In conjunction with Defensive Casting mode, the Concentration skill helps a magic user avoid Attacks of Opportunity when casting in combat.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+37	****	****	****	1	****	"TIP: You can loot anything that is right next to your currently controlled character while the game is paused. 
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+38	****	****	****	1	****	"TIP: Hitting the ""F12"" key on your keyboard will create a ""Quicksave"". If you hit ""F12"" again, it will overwrite any Quicksave you already had."							
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+39	****	****	****	1	****	"TIP: Left on their own, companions will do their best to meet the needs of any situation. To fine tune a companion's behavior, bring up his or her character sheet and access the behavior tab.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+40	****	****	****	1	****	"TIP: When a barbarian's rage ends, he or she will be temporarily fatigued. During this time, the barbarian will suffer penalties to his or her physical abilities and movement.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+41	****	****	****	1	****	"TIP: Though any character can use Tracking mode to locate hostile humans, animals, and vermin on the area's mini-map, characters with the Track feat can detect all sorts of hostile creatures.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+42	****	****	****	1	****	"TIP: Ranger and druid animal companions cannot be directly controlled, but can be commanded. Wizard and sorcerer familiars can be directly controlled, but are very vulnerable in combat.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+43	****	15		30		1	****	"LORE: Neverwinter is a prominent Sword Coast city, but it is dwarfed by the City of Splendors, Waterdeep. The great metropolis links the cultures of the Inner Sea, the Spine of the World, the Trackless Sea, and the Empires of the Sand in an unparalleled trade network. Outside forces continually attempt to 							gain a portion of Waterdeep's power, but the Masked Lords of the city rebuke all such conspirators.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+44	****	15		30		1	****	"LORE: Neverwinter occupies a prominent position on the northwestern Sword Coast of FaerÃ»n. To the north lie Luskan, the Silver Marches, the Spine of the World, and Icewind Dale. To the south are Waterdeep and Baldur's Gate. Much farther south are the nations of Calimshan and Amn.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+45	****	****	****	0	****	"LORE: The githyanki and githzerai races have been opposed for centuries. The conflict was originally sparked over an argument between Gith and Zerthimon about how to deal with their common enemies, the illithid. The races' endless planar battles often carry over into unsuspecting worlds like Abeir-Toril.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+46	****	****	****	1	****	"LORE: Though FaerÃ»nian elves and dwarves had been in a slow decline for decades, recent events have reversed this trend. The elven Retreat has ended, resulting in the return of many to the FaerÃ»nian continent and the cessation of migration to Evermeet. The Year of Thunder produced an astounding number of 						dwarf children and a subsequent invigoration of dwarven society.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+47	****	15		30		1	****	"LORE: The city of Luskan was formerly ruled by five High Captains, all former pirates. A recent civil war killed or displaced all five. However, the Arcane Brotherhood still effectively rules the city.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+48	****	****	****	1	****	"LORE: The moon of Abeir-Toril is named after the goddess SelÃ»ne. The glittering asteroids that trail behind the moon are known as the Tears of SelÃ»ne. SelÃ»ne is one of the most ancient goddesses of Abeir-Toril and is continually at war with her dark sister, Shar.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+49	****	****	****	1	****	"LORE: Despite the great wealth of their home nation in the southwest corner of FaerÃ»n, the Shadow Thieves of Amn have an enormous network of operatives all along the Sword Coast. They meddle in politics everywhere and are a constant thorn in the side of almost every large city.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+50	****	****	****	1	****	"LORE: The most fearful power of the legendary silver swords of the githyanki is their ability to sever the silver cords of astral travelers, killing them instantly.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+51	****	****	****	1	****	"LORE: Though the Illefarn Empire fell long ago, remnants of their ruins can be seen in many places along the northern Sword Coast. Many people have built upon Illefarn sites without realizing it. Adventurers occasionally find and activate ancient song portals of the empire, opening gateways to forgotten places.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+52	****	****	****	1	****	"LORE: Lizardfolk are an ancient race in FaerÃ»n, though their primitive nature has forced their race to continually retreat and lose territory from more powerful humanoids. Most lizardfolk tribes are content to thrive in the dank swamps where other races refuse to settle.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+53	****	****	****	1	****	"LORE: On Dalelands the Neverwinter Nine Class is/will be changed to Knight Protector
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+54	****	****	****	1	****	"LORE: The dark elves of Abeir-Toril were originally the dark-skinned Ilythiir tribe. Their savage, brutal tactics during the three millenia-long Crown Wars caused the other elven kingdoms to expel them from the light of day, driving them underground.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+55	****	****	****	1	****	"LORE: In Forgotten Realms Rangers and druid follow a patron diety to receive spells."	****
+56	****	****	****	1	****	"LORE: Wendonai is a balor lord who, in 11500 was tasked by Lolth to seduce the Sethomiir clan, rulers of the Ilythiiri into her worship and grant them evil magics. He succeeded and was probably the greatest (but by no means the only) influence on the fall of the Dark elf.
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+57	****	****	****	1	****	"LORE: Free mercantile city-states are the norm in the upper reaches of the Sword Coast. In the Old Empires at the eastern edge of FaerÃ»n, things work much differently. Some of the oldest and largest nations, like Thay and Mulhorand, rely heavily on slave labor, though others strongly oppose it.							
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+58	****	****	****	1	****	"LORE: Hundreds of miles to the east of Neverwinter, the great desert of Anauroch sits as an eternal reminder of the fall of the ancient Netherese Empire. Netheril fell as a result of a magical experiment gone terribly wrong, but the desert itself was created through the lifedrain dweomers of the phaerimm.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+59	****	****	****	1	****	"LORE: To the south of Neverwinter, in the Trackless Sea, sits the archipelago known as the Moonshae Isles. Previously divided by petty wars and squabbles, the Northlander settlers and Ffolk natives were united under the High King Tristan Kendrick. His daughter, the High Queen Alicia, now rules the kingdom.
+	
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+60	****	****	****	1	****	"LORE: In the eldest, untouched places of the world, the land itself is alive with spirits, who are sometimes revered as minor gods. One such place is distant Rashemen, where spirits take the form of long-dead beasts and guardians, such as the fearsome bear king, Okku, and the legendary Wood Man.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+61	****	15		30		1	****	"LORE: Though rarely seen along the Sword Coast, hags are quite common in the distant wilds of Rashemen, where they frequently seduce (and later devour) unlucky men. Male children of these unions are the twisted hagspawn, renowned for their physical strength and their uncanny resistance to magic.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+62	****	****	****	1	****	"LORE: When a god dies, its corpse drifts eternally in the empty void of the Astral Plane. Often, these corpses become the home of living creatures, such as the githyanki. Some dead gods are truly ancient, born in the primal beginnings of the universe and long forgotten by mortals and deities, alike.
+						
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+63	****	****	****	1	****	"LORE: In the days when Netheril and Illefarn dominated northwestern FaerÃ»n, the ancient empire of Imaskar flourished in the east. Its people were renowned as builders and artificers, constructing portal networks to other planes and alien worlds. Some of these portals are still thought to exist, kept secret by a reclusive fellowship of Red Wizards.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+64	****	****	****	1	****	"LORE: Mortals who refuse to worship any god, or who only give lip service to the gods, are known as the Faithless. When Faithless die, their souls are imprisoned in the living wall that surrounds the City of Judgment, on the Fugue Plane. These souls are doomed - in time, they will dissolve into the very substance of the Wall.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+65	****	****	****	1	****	"LORE: Two children were once buried under the city watch in the Merchant Quarter of Neverwinter, their invisible ghosts eternally locked in an endless game of tag. Superstitious folk said that those who encountered the ghosts were quickly paralyzed by fright. In 1362, an adventuring company led by Francis the All-Seeing banished the ghosts and exhumed the bodies for sanctified burial. To this day, no one knows from where the children came nor how they came to rest under the city watch.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+66	****	****	****	1	****	"LORE: Please note that there are an unusually high number of Drow in the Dales.  There are followers of Lolth, Vhaerun and of Eilistraee and conflict is common.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+67	****	****	****	1	****	"RULE:  Please pick appropriate domains for your Cleric, your god/goddess's domains are listed on our forum.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+68	****	****	****	1	****	"TIP: RP tokens can be handed in for gold, XP, recipes and other things
+						
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+69	****	****	****	1	****	"RULE:  Please pick up your loot bags that drop, they being left on the server will cause lag.  Also avoid using the button 'Loot All' due to it breaking the bags and making them effectively unremovable.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+70	****	****	****	1	****	"RULE:  Avoid using party chat as it floods the DM's screen and interrupts 	their ability to help other players and run events for you.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+71	****	****	****	1	****	"Lore:  Shevarash is the elven deity of revenge, loss and hatred of the Drow. He never displays any emotion aside from anger and the occasional exulation after the death of an enemy. The Black Archer is disdainful of moderation in the pursuit of revenge, and will often strike preemptively against his foes.
+						
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+72	****	****	****	1	****	"Lore:  Eilistraee (pronounced eel-iss-TRAY-yee), also referred to as "The Dark Maiden", was the chaotic good drow goddess of song, swordwork, hunting, the moon and beauty. She was greatly angered by the evil of most drow but glad that some worked their way free of the Spider Queen's web. Eilistraee appeared as an unclad, glossy-skinned drow woman of great height with ankle-length, sweeping hair of glowing silver.
+												She was worshiped by song and dance, if at all possible, in the surface world under the moonlit night among the woods. She took great pleasure in bards learning new songs, craftsmen at work, and the doing of kindhearted deeds. 
+			
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+73	****	****	****	1	****	"LORE:  Bane (pronounced bain) is the evil and malicious greater deity of fear, hatred and tyranny and ruler of Banehold. Preferring to plot and scheme, Bane rarely appears to act in a direct manner, instead acting through his worshipers and other various agents. His ultimate goal is to eventually control all of Faerûn. When summoned though, he has a dark, rather shadowy appearance with a resemblance of dark armor and his tell-tale jeweled dark gauntlet. He emanates an aura of vast power and cruel intelligence.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+74	****	****	****	1	****    "LORE:  Vhaeraun (Vay-rawn), also known as the Masked Lord and the Masked God of Night, is the drow god of thievery, drow males, and evil activity on the surface world. His worshipers include assassins, male drow and half-drow, poisoners, shadowdancers, rogues, and thieves. Vhaeraun resides in the Demonweb Pits, where he has a territory permitted to him by Lolth although the two entities, mother and son, are opposed to each other.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+75	****	****	****	1	****	"LORE:  Kiaransalee (kee-uh-ran-sa-lee) was a drow lesser deity, also known as the Lady of the Dead, The Revenancer or The Vengeful Banshee. Her portfolio included vengeance and the undead. Kiaransalee was a cruel, twisted and vengeful deity. The Lady of the Dead became insane ages ago; however, she managed to keep her cunning and she could still clearly remember every slight or insult towards her, whether it was real or imagined. Kiaransalee was swift to anger, powerful, and against all who have wronged her she plotted a dark revenge. The Lady of the Dead preferred company from the mindless undead she could manipulate at will, over sentient beings that are possessed of independent thought. She rarely trusted anyone else to do justice to her vision and thus preferred to settle her problems herself.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+76	****	****	****	1	****	"LORE:  The Cult of the Dragon, also known as Keepers of the Secret Hoard or, more recently, Wearers of Purple, is a semi-religious evil organization venerating undead dragons, or dracoliches, founded by Sammaster, a powerful wizard. Sammaster possessed great power, in a manner similar to Elminster and Khelben "Blackstaff" Arunsun. In Sammaster's case however, the additional power brought delusions of godhood and madness, and he came to believe in time that "dead dragons shall rule the world entirely" and began to work toward that goal, fighting the several Chosen of Mystra and even the god Lathander along the way. While Sammaster has died, risen as a lich, and fallen again, his cult lives on, and continues to threaten the Western Heartlands.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+77	****	****	****	1	****	"LORE:  Cyric (pronounced SEER-ick), whose titles include The Lord of Three Crowns, The Mad God, and The Prince of Lies and is called N'esr by the Bedine, is monomaniacal deity of strife and lies with an immense following. He is petty and self-centered, and enjoys misleading individuals of all inclinations so that they perform acts that ruin their lives or so that they make fatal mistakes. Cyric is closely associated with the essence of murder, conflict, lies, intrigue, and illusions. Cyric is recognized in Faerûn by his symbol, a white jawless skull on black or purple sunburst, and his alignment is chaotic evil. He is a greater power, who rules supreme in his divine realm, the Supreme Throne.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+78	****	****	****	1	****	"LORE:  The Old Skull Inn has stood for centuries.  Previously a by-word for good food and safe lodgings, it is quickly going downhill under Zhent occupation and with Zhent soldiers frequenting it.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+79	****	****	****	1	****	"LORE:  Scyllua Darkhope was the Castellan of Zhentil Keep and High Captain of its armies. A fallen paladin of Tyr, she became a champion and blackguard of Bane. Under her leadership the Zhents were able to recover after the near complete destruction of their city by the humanoid army sent by Cyric in 1368 DR. Scyllua was killed in 1375 DR by the leaders of the Shadowdale rebellion.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+80	****	****	****	1	****	"LORE:  Shadowdale was a farming community in the Dalelands, in North Faerûn, and is the home of the archmage Elminster Aumar and was the home of two of the Seven, Storm Silverhand and Syluné. Through its history, Shadowdale has battled both Zhentarim and drow invasions. Due to the number of ruins in Shadowdale, it was a popular place for adventuring companies to settle.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+81	****	****	****	1	****	"LORE:  The Dalelands is a region neighbored by the kingdom of Cormyr to the southwest, the nation of Sembia to the south, the forest of Cormanthor to the northeast and the Anauroch desert (over the Desertsmouth Mountains) to the northwest.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+82	****	****	****	1	****	"LORE:  Lolth (pronounced LOALTH), sometimes Lloth in the Drow dialect, the Queen of Spiders or Queen of the Demonweb Pits, is the goddess of the drow, a chaotic evil deity who revels in chaos. She patterns her life and the lives of her worshipers on a regimen of chaotic acts and the veneration of spiders. The way that new-born spider broods tear each other apart to survive especially appeals to her. She promotes this by encouraging her worshipers to 							kill their rivals, thus ensuring that they are the strongest of the 'brood'. 
+												Her love of chaos often makes her appear mad but the wise see her as a 	calculating individual who is always several steps ahead of those who believe that they can anticipate her. She is cruel and domineering, forcing her will upon her followers and her enemies, a will which instructs the strong to crush the weak in the most torturous way imaginable.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+83	****	****	****	1	****	"LORE:  Faerzress is a magical radiation only found in the Underdark. It is said to be a remnant of the forces that shaped the Underdark terrain and it interferes with the casting of some spells. 							
+												Although the knowledge of faerzress among surface-dwellers is sparse, it is known to mainly affect divination and conjuration spells, making teleporting by magic in the Underdark a risky effort.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+84	****	****	****	1	****	"LORE:  The Underdark is extremely dangerous, especially to those not native to it. There are the usual dangers associated with caverns: claustrophobia, occasional poor air circulation, and getting lost. There is no light except for occasional patches of fluorescent fungus; most Underdark inhabitants either have highly developed senses other than sight or have developed darkvision. Food can be extremely difficult to find, and much of the natural 							vegetation is poisonous. 
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+85	****	****	****	1	****	"LORE:  The building of the Twisted Tower by the drow began in -2600 DR, and was completed in -2549 DR. It was retained by the drow, and expanded twice in the decades following -750 DR.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+86	****	****	****	1	****	"LORE:  The Flour Pot is a bakery in Shadowdale. After Elminster's nephew found a lichling in the bakery and was injured in an attempt to capture it, Elmister himself captured it and kept it for study. 
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+87	****	****	****	1	****	"LORE:  The second battle of Shadowdale (often referred to as simply the battle of Shadowdale) was a battle fought in Shadowdale, in the Dalelands, in 1358 DR, between the defending forces of the Dalelands, and troops from Zhentil Keep,led by Bane.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+88	****	****	****	1	****	TIP: Some magical weapons can allow the wielder to sneak attack and critical hit specific types of enemies that are normally immune to such attacks
+
+												Please visit our forums @ www.dalelandsbeyond.com.	****
+89	****	****	****	1	****	"TIP: When you try to rest, you will be told how dangerous the area is. Be careful of wandering monsters!
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+90	****	****	****	1	****	"TIP: If you're ever unsure how to proceed, check your Journal for reminders about the various quests you are pursuing.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+91	****	****	****	1	****	"LORE:  House Dlardrageth was originally a sun elf house of Cormanthor and a proud and powerful family in ancient Arcorar until they chose to give themselves to demons, courting incubi and succubi, in an attempt to strengthen their line to gain the power necessary to seize the throne and rebuild the ruin of Aryvandaar. They were discovered by the Coronal and their house was destroyed, most of the members being imprisoned magically inside Arcorar's keep, but some escaped to ancient Siluvanede, where they turned some other houses to evil. 						
+						
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+92	****	****	****	1	****	"TIP: Checking the box for Spontaneous Conversion in the Quick Cast menu will allow good and neutral clerics to convert their spells to cure wounds, evil clerics to convert their spells to inflict wounds, and druids to convert their spells to summon creatures.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+93	****	****	****	1	****	"TIP: Press ""F"" to display the Quickcast Panel.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+94	****	1		10		1	****	"TIP: Disarming traps and picking locks yields a small amount of experience points.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+95	****	****	****	1	****	"TIP: Press ""V"" to use the Voice Menu to quickly give commands to your companions. These commands can be dragged to the hotbar.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+96	****	****	****	1	****	"TIP: Press ""*"" to switch between the different Play Modes.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+97	****	1		****	1	****	"TIP: If the action is going too fast, press <SPACE> to pause the game between rounds.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+98	****	****	****	1	****	"LORE:  Jezz is one of the leaders of the Vhaeraun worshipping House Jaelre, commanding the drow of his house who are currently warring with the elves of Myth Drannor. 
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+99	****	1		****	1	****	"TIP: Spellcasters - remember to memorize new spells when gaining a level!	
+
+												Please visit our forums @ www.dalelandsbeyond.com"  ****
+100	****	****	****	1	****	"LORE:  House Jaelre is a Vhaeraun worshiping house formerly of Menzoberranzan. They were driven out of the city for being a house of heretics and are currently based in Minauthkeep, an abandoned elven fort in the forest of Cormanthor on the surface world.
+						
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+101	****	1		10		1	****	"TIP: The world of Toril is a dangerous place - be sure to save your gold to stock up on any healing potions or antidotes you're able to find.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+102	****	1		10		1	****	"TIP: spell resistance on an item is bugged and can only be used once before needing to be re-equipped. Don't pay out huge sums for SR items.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+103	****	1		10		3	****	"TIP:Corellon and Sune can have Paladins, even though they are Chaotic Good gods.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+104	****	****	****	1	****	"TIP: RP Tokens are in lesser, medium and greater forms for RP and for forum biographies. See forums for information.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+105	****	1		10		3	****	"TIP: Throughout your travels, you may acquire valuable parts from creatures you've slain. You can use some of these to enchant powerful magical items, or sell them to various bounty collectors."	****
+106	****	1		10		5	****	"TIP: Cohorts are located throughout Samarach and the Sword Coast, and can be recruited into your party either by payment or favors."	****
+107	****	1		10		2	****	"TIP: Usually, respectable merchants will not carry items like traps or poisons - if on the hunt for such items, it's best to search in the less reputable areas."	****
+108	****	****	****	1	****	"TIP: Recipes for any armor, weapons, wondrous items, or enchantments will be kept in the corresponding recipe tome. "	****
+109	****	****	****	1	****	"TIP: You can customize your party’s AI options under the Behavior tab of the Character Screen.
+
+												Please visit our forums @ www.dalelandsbeyond.com"  ****
+110	****	****	****	1	****	"LORE: Geirildin Sethomiir was the coronal of the Illythiiri house Sethomiir. He was a dark elf and powerful mage during the time of the Crown Wars. He summoned the balor Wendonai in 11500 DR to help him against the Aryvandaari and to help him achieving a leading position among the other dark elven clans. Ultimatly this drove the dark elves into the arms of Lolth and was one of the causes for their socalled Descent.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+111	****	1		14		3	****	"LORE: There are three major castes within yuan-ti society: the purebloods, halfbloods, and abominations. The more snakelike the individual, the higher their status."	****
+112	****	****	****	3	****	"LORE: In the last few years, the massive trading power of Zhentil Keep has been threatened by the massive City of Shade, which appeared over the desert of Anauroch and has been cutting off their trade routes."	****
+113	****	15		30		3	****	"LORE: After the fall of the King of Shadows, Khelgar Ironfist demanded that Nasher give him help to look for the missing Knight-Captain. However, the war had so depleted Neverwinter's forces that no one could be spared for the search."	****
+114	****	****	****	3	****	"LORE: Some deities seem to be unusually active recently - the clerics of Chauntea seem to be gathering, the moon elves whisper the name of Angharradh,  and cults of the dark god Cyric seem restless."	****
+115	****	1		14		3	****	"LORE: Known as ""the Hidden Kingdom,"" Samarach is a vassal state of the nation of Nimbral, and is governed by an Nimbran archmage known as the High Phantasmage. "	****
+116	****	1		14		3	****	"LORE: In addition to the High Phantasmage, the few merchants given permission to trade with outsiders must also answer to the Trading Council - a group of appointed nobles."	****
+117	****	****	****	1	****	"LORE: Duneth Wharreil was a Drow and the former Archmage of Maerimydra until his coup during Lolth's Silence and his subsequent death at the hands of Irae T'sarran. He now (1372 DR) persists as a Silverwraith under Irae T'sarran.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+118	****	****	****	1	****	"LORE: Pelendralaar - 
+												A Dracolich in league with the Cult of the Dragon sought to gain control of all of Faerun by corrupting the Mythal of Myth Drannor in 1369 DR and spread the corruption to other Mythals, and thus gain control of the cities of Faerun. His partner is Mordrayn, a powerful sorceress who operates a cell of the Cult of the Dragon. In life he was a Red Dragon.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+119	****	****	****	1	****	"LORE: Kurgoth Hellspawn -a Half-fiend Fire giant who led the assault upon the Drow city of Maerimydra and with the aid of Duneth Wharreil managed to sack the entire city. Although the drow of Maerimydra suffered from Lolth's Silence, leading his army of Ogres, fire giants and Demons is an impressive feat nonetheless.
+                                                Please visit our forums @ www.dalelandsbeyond.com"	****
+120	****	****	****	3	****	"LORE: Mythal is a powerful epic level magical effect, created by a circle of elven[citation needed] High Mages to protect and ward a large area with numerous powerful enchantments. They work by permanently altering The Weave to create an area wherein the normal rules of magic no longer apply. A typical mythal prevents certain schools of magic from being employed while empowering others.
+                                        "	****
+121	****	15		30		3	****	"LORE: Khelgar's position as the steward of Crossroad Keep is only temporary - one he grudgingly accepted until the Knight-Captain returned.	****
+122	****	1		14		3	****	"LORE: Separated from civilization by the vast swath of jungle known as the Samarlogh, the Narubel Pass once served as a connection between the Samarachan city of Taurin and the now forbidden city-state of Narubel."	****
+123	****	****	****	1	****	"LORE:  According to legend, this gorge that defines Scardale originated as an errant blow from the sword of Corellon Larethian as he battled the orc god Gruumsh. The wound in the land is still deep but has healed well over time, and the Ashaba river runs swiftly through the Scar on its final leg to the sea with the Feather Falls marking the gorge's west end. Scardale Town lies at the east end, where the Ashaba empties into the Sea of Fallen Stars.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+124	****	****	****	3	****	"LORE: Eladrin, also known as high elves, are graceful warriors and wizards that originated from the realm of Faerie, also known as the Feywild. In addition to living in the Feywild, they are at home in Arvandor and Gates of the Moon as well as the forests of the world. They are magical in nature and share an interest in the arcane arts. From an early age they also learn to defend themselves, particularly with swords. 
+                                               Please visit our forums @ www.dalelandsbeyond.com"	****
+125	****	****	****	3	****	"LORE: The largest and most powerful of the yuan-ti clans, House Se'Sehen is currently ruled by the powerful Hierophant N'Safa. Their strength and cunning makes them feared enemies and deadly spies."	****
+126	****	****	****	3	****	"LORE: Situated between Chondath and the Pirate Isles, Turmish is known for its peaceful farms and ornate, beautiful armor. The careful fashion of the men of the trading class led to the phrase ""square as a Turmian beard,"" which means anything well or carefully done."	****
+127	****	****	****	1	****	"LORE: Divided between the rulership of the Mulhorandi and those fighting for freedom, Unther is a land of opportunity. Three powerful figures - the right hand of the dead god Gilgeam, a slave-turned-bandit leader, and a mysterious and beautiful air genasi - fight for the nation's future."	****
+128	****	****	****	1	****	"LORE: Within the wilderness of the High Forest stands a massive oak called Grandfather Tree - held in reverence by nearly all nonevil beings. Though defended by the Tree Ghost Uthgardt tribe, the Grandfather is also protected by its own powerful magic."	****
+129	****	****	****	1	****	"LORE: Between two great forests - the Chondalwood and the Winterwood - and two great rivers - the Arran and the Nagaflow - lies Sespech. Aldorn ""Foesmasher"" Thuragar, a former adventurer, rules the barony with a firm but sage hand."	****
+130	****	****	****	1	****	"LORE: The vast grassland known as the Shaar - located in the far South - is a wild place where civilization has hardly gained a foothold. Nomadic humans, centaurs, gnolls, and the leonid creatures known as wemics populate its rolling, grassy reaches."	****
+131	****	1		****	1	****	"LORE: Ruled by descendents of the ancient kingdom of Netheril, Halruaa is a nation of magic and wizardry, insular and content to keep their research and arcane secrets safe from the rest of the world."	****
+132	****	1		****	1	****	"LORE: Chaotic, rowdy, and only loosely considered a country, the nation of Chessenta is home to a people known for being passionate and riotious, dedicated to living life to its fullest and never doing anything halfway. "	****
+133	****	1		****	1	****	"LORE: A land of merchants and traders, Sembia sneers at foreigners and welcomes corruption. If an outsider can become successful in Sembia it might be assumed that no challenge is too great for them to conquer."	****
+134	****	1		****	3	****	"LORE: Batiri differ from their northern cousins in a number of ways. Organized into a matriarchal society, these jungle goblins typically hunt and travel at night, eschewing armor - except in the cases of high-ranking members of a tribe. Batiri are also more feral than normal goblins, often eating those they capture."	****
+135	****	1		****	3	****	"LORE: On 15 Nightal 1374 DR, Sharran agents attempted to steal the Ebon Diadem from Elminster's tower. Due to the essence of the artifact and the sheer power of Elminster's wards, on whose power the artifact fed, the Sharrans defeated Elminster (though not without losing most of their number).
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+136	****	1		****	3	****	"LORE: Known also as the Lady of Deception and the Mist Maiden, Leira was the goddess of illusions, and the patron of liars. Slain in 1360 by the god Cyric - wielding the sword Godsbane - it is still doubted by some of her followers that the Lady is actually dead..."	****
+137	****	****	****	3	****	"LORE: Resembling abominations, yuan-ti holy guardians are rare beings bred specifically to be temple guards. Their temperaments are naturally servile - and fiercely territorial. However, when temples are abandoned, solitary holy guardians may pick up some <i>peculiar</i> tendencies."	****
+138	****	****	****	1	****	"LORE: The Bae'qeshel, also known as the Dark Minstrels, are worshippers of Lolth who have been specially trained in the magic of song. Unlike divine magic, bae'qeshel tap into the Weave, and do not require a connection with a deity to wield it.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+139	****	****	****	1	****	"LORE: Elminster remains in Cormanthor for over two decades, and is present when the mythal is raised and the city is renamed Myth Drannor. 
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+140	****	****	****	1	****	"LORE: Selûne (pronounced seh-LOON-ay), also known as Our Lady of Silver and the Moonmaiden, is the goddess of the moon. She is also venerated in Faerûn as a goddess of light, stars, navigation, navigators, wanderers, questers, and goodly lycanthropes. 
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+141	****	****	****	1	****	"LORE:  Shevarash is the elven deity of revenge, loss and hatred of the Drow. He never displays any emotion aside from anger and the occasional exulation after the death of an enemy. The Black Archer is disdainful of moderation in the pursuit of revenge, and will often strike preemptively against his foes. 
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****	
+142	****	****	****	1	****	"LORE: Selvetarm, known also as The Spider that Waits or Lolth's Champion, was a chaotic evil demigod worshiped by few drow in the Underdark; the place where his worshipers were most common was in the city of Eryndlyn. He was the patron of unequaled battle prowess and bloodlust. Selvetarm cared only for battle and destruction everywhere, and he had great hatred for all things living, although that was nothing compared to the hate he had stored for his mistress Lolth. 
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+143	****	****	****	1	****	"LORE: Elminster Aumar (born in 212 DR), also known as the "Sage of Shadowdale" and the "Old Mage", is one of the most famous and powerful wizards in all of Faerûn, as well as a fair fighter and thief.
+
+												Please visit our forums @ www.dalelandsbeyond.com"  ****
+144	****	****	****	1	****	"LORE: The mind flayer, also called the illithid, is an evil and sadistic being, humanoid in appearance, but with a four-tentacled octopus-like head. These beings are feared throughout the Underdark for their telepathic abilities and usually are not without two or more slaves, mentally bound, to each individual mind flayer.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+145	****	****	****	1	****	"LORE:  The concealed entrance yields to a large, rough stone stairway, lit by torches with eerie purple flames - your shadow looms large on the walls around you as you descend deeper into the Underdark."	****
+146	****	****	****	1	****	"LORE:  Dalereckoning (DR) - 
+												Dalereckoning is taken from the Year of Sunrise, when the Standing Stone was raised by the elves of Cormanthyr and the human Dalesfolk. Since this time, humans were permitted by the Elven Court to settle in the more open regions of the forests. In some texts, primarily those which do not have direct ties to Dales history, Dalereckoning is called Freeman's Reckoning (FR). The calendar is widely used in Faerûn but has not spread beyond its shores.
+	
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+147	****	****	****	1	****	"LORE:  The Crown Wars were a series of elven wars spanning a period of 3,000 years. The great elven civilizations participated in five primary conflicts, leading to the decline of elven power in Faerûn.
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+148	****	****	****	1	****	"Lore:  Priestess of Eilistraee are called YATHARIL, Priestess of Kiaransalee are called YATHRINSHEE, Priestess of Lolth are called Yathrin
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+149	****	****	****	1	****	"As you enter the mines, the salt-laden dust on the floor makes you cough slighly and stifle a sneeze... but beyond the dry smell of salt, you catch a hint of brimstone and sulfur - two smells that rarely bode well."	first visit
+150	****	****	****	1	****	"The swamp of eastern Samarach is a recent feature, most likely the result of a magical experiment gone awry."	****
+151	****	****	****	1	****	"It is apparent from this cave's exterior that the creatures therein aren't thriving - it looks hurriedly excavated, and remnants of broken weapons and tools lie outside the entrance... as if thrown down at the end of a journey."	****
+152	****	****	****	1	****	"The haunting song echoes from somewhere within the depths of this damp, lush cavern."	****
+153	****	****	****	1	****	"LORE:  Cormanthyr is one of many Tel'Quessir (elven and eladrin) empires that have graced Faerûn. For much of recent history it has been in ruin, though recently it has risen again under a new Coronal. Its capital, Cormanthor, was the first of any city to have a mythal created by wizardry, whereas previously, all mythals were created by Elven High Magic. After the mythal was raised the capital was referred to as Myth Drannor. 
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+154	****	****	****	1	****	"LORE:  Deep Duerra (dwair-uh), also known as Queen of the Invisible Art or the Axe Princess of Conquest, is the duergar demigod of psionics, conquest and expansion. 
+
+												Please visit our forums @ www.dalelandsbeyond.com"	****
+1

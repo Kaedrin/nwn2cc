@@ -1,0 +1,268 @@
++++ Animal Companions
+* Fix included to allow you to properly see their feats and abilities (xml file update)
+* Dragon Companion now correctly has immunity to sneak attacks
+
++++ Arcane Trickster
+* All forms of sneak dice now qualify for requirements (namely Invisible Blade and NWN9)
+
++++ Assassin
+* Spellbooks [http://nwn2customcontent.wikidot.com/assassin Link to full details]  (needs updated/details)
+* Correctly qualifies for the RDD
+* New Poison spell script added for Assassins that is Int (not Wis) based and uses their caster level.
+* Assassin and Warlock invisibility now correctly provides a +2 AB bonus, +20 Hide, and sneak attack immunity.
+* Blackguard/Assassin/Avenger CL tweaked to allow it to scale above 10 (capped by HD). For Practiced Caster (Assassin).
+* New Feat: Practiced Caster (Assassin)
+
++++ Barbarian
+* Whirlwind Frenzy alternate class feature added - [http://nwn2customcontent.wikidot.com/whirlwind-frenzy Link to full details]
+* Rage is now instant
+
++++ Bard
+* Epic spells added for Bards (Epic Gate and Mass Fowl)
+* Inspire Courage bonus damage changed to Magic from Blunt as it should be untyped damage.
+* Song of Requiem no longer stops other inspirations while active.
+* Inspire (Bard) description updated to indicate the values it scales to at levels 21-30
+* Inspire Regeneration feat description now correctly indicates the values it heals for.
+* Fascinate will now only break if combat within 90' happens, not 270'
+* Cloud Mind and Fascinate now have a DC of d20 + a perform check.
+* Bard class description now correctly indicates the scaling of epic levels for inspirations.
+* Bards may now use countersong on themselves.
+* New Feats: Snowflake Wardance, Ability Focus (Bard Songs), Dragonsong, Epic of the Lost King, Battle Dancer, Song of the Heart, Epic Inspiration
+* New Epic Spells: Epic Gate, Mass Fowl
+* New Spells (10) : Baleful Blink (B4), Heartfire (B2, D2), Insignia of Healing (B3, C3, P3, R3), Inspirational Boost (B1), Nixies's Grace (B6), Resonating Bolt (B4), Sirine's Grace (B4, D5), Sonic Shield (B3), Sonic Weapon (B2), Sound Blast (B5, SW5)
+
++++ Blackguard
+* Aura of Despair will not affect allies in hardcore mode
+* Pet upgrade - [http://nwn2customcontent.wikidot.com/blackguard Link to full details] (needs updated/details)
+* Extra smiting feat granted to replace the missing smite uses
+* New Poison spell script added for Blackguards that uses their caster level.
+* Blackguard/Assassin/Avenger CL tweaked to allow it to scale above 10 (capped by HD). For Practiced Caster (Blackguard).
+* New Feats: Practiced Caster (Blackguard), Widen Aura of Despair, Improved Aura of Despair
+
++++ Cleric
+* Protection domain power duration now accounts for the cleric's charisma.
+* New Spells (24) : Awaken Sin (C3, P2), Benediction (C2, P2), Blessed Aim (C1, P1), Blessing of the Righteous (C4, P4), Blood of the Martyr (C4, P4), Castigate (C4, P4), Chasing Perfection (C6, SW6), Cloak of Bravery (C3, P2), Divine Protection (C2, P2), Energized Shield (C3, P2), Flame of Faith (C3, P2), Flaywind Burst (C5, D5, SW5), Frost Breath (C2, D2, SW2), Hand of Divinity (C2, P2), Insignia of Healing (B3, C3, P3, R3), Lesser Energized Shield (C2, P1), Lion's Roar (C8), Living Undeath (C2), Mark of Justice (Domain spell), Seed of Life (C4, D5, P4), Shield of Warding (C3, P2), Undead Bane Weapon (C4, P3), Weapon of Energy (C3, SW3), Weapon of the Deity (C3, P3)
+* 13 New Domains, 16 Revised Domains, 29 Upcoming Domains - [http://nwn2customcontent.wikidot.com/domains Link to full descriptions]
+
++++ Deities
+* The Dwarven deities Clangeddin Silverbeard and Deep Duerra now correctly grant Weapon Specialization (Battle Axe) instead of a non-existent feat.
+
++++ Divine Champion
+* Divine Champion now recognizes Weapon Focus (Melee Touch Attack) and Weapon Focus (Ranged Touch Attack) for the prc's requirements.
+* Divine Champion gains the following bonus feat choices: Indomitable Soul, Steadfast Determination, Greater Resiliency, Weapon Focus Falchion, Weapon Focus Warmace, Improved Critical Warmace, Auto-Quicken 5 (they could take 1-4 but not 5)
+
++++ Drow
+* Racial Light spell replaced with Faerie Fire
+
++++ Druid
+* Magic Fang, Greater Magic Fang, and Jagged Tooth effects will now re-apply when you return to a wildshape without having to recast it.
+* Magic Fang, Greater Magic Fang, and Jagged Tooth now work on all forms and companions
+* Panther shape added to Wildshape
+* Sacred Fist feat tweak to allow wildshaped fighting. This is an optional entry in the cmi_options.2da that allows Druids to fight in creature form without penalty.
+* Shapechange when cast by a Druid will now allow spellcasting if they have the Natural Spell feat.
+* New Companion choice: Fire Elemental
+* New Feats: Improved Natural Bond, Silver Fang, Silver Fang (Companion), Exalted Companion, Elemental Shape (Ember Guard), Shared Fury, Exalted Wild Shape, Exalted Natural Attack, Toxic Gift, Elemental Essence
+* New Spells (34) : Animal Growth (D5, R4), Briar Web (D2, R2), Deadly Lahar (D8, SW8), Embrace the Wild (D2, R1), Enrage Animal (D1, R1), Faerie Fire (D1), Flaywind Burst (C5, D5, SW5), Frost Breath (C2, D2, SW2), Halo of Sand (D2, R2), Hawkeye (D2, R2), Heartfire (B2, D2), Leonal's Roar (D8), Lesser Aura of Cold (D3, P4, R4), Linked Perception (D2, R1), Nature's Favor (D2, R2), Phantom Bear (D9), Phantom Wolf (D8), Plant Body (D5), Primal Hunter (D2, R1), Primal Instinct (D3, R2), Primal Senses (D4, R3), Primal Speed (D6, R4), Seed of Life (C4, D5, P4), Sirine's Grace (B4, D5), Skin of the Cactus (D4, R3), Spirit of the Bear (D6), Spirit of the Boar (D4), Spirit of the Rat (D2), Spirit of the Tiger (D5), Spirit of the Wolf (D3), Splinterbolt (D2), Thorn Skin (D3), Trip Vine (D2, R2), Wild Instincts (D2, R3)
+
++++ Duelist
+* Elaborate Parry now works like PnP when using Combat Expertise/Improved Combat Expertise/Parry (details needed)
+
++++ Favored Soul
+* Favored Soul gains the two missing bonus epic feats (at 25 and 30)
+* Favored Souls now gain more bonus epic feats at 22, 26, and 30 as replacements for their missing epic resistances (since they could have taken an epic feat instead of a resist anyway like with earlier resists).
+* Warpriest/Favored Soul haste now has a duration based on caster level, not class level.
+
++++ Feat Fixes
+* Feat Selection Fixes - [http://nwvault.ign.com/View.php?view=NWN2Other.Detail&id=37799&id=105 Link to full description]
+* Devastating Critical (Warmace) turned off as it is nonfunctional
+* Divine Might, Divine Shield, and Sacred Vengeance can now be recast while it is active. This will strip the previous effect and apply the new one as usual.
+* Blinding Speed is now an instantly activated ability.
+* Epic Skill Focus Perform, Tumble, and Bluff now available
+
++++ Fighter
+* New Feats: Ranged Weapon Mastery, Unarmed Combat Mastery, Melee Weapon Mastery (Blunt), Melee Weapon Mastery (Piercing), Melee Weapon Mastery (Slashing), Weapon Supremacy
+* Fighter bonus feat list updated with access to: Improved Rapid Shot, Greater Resiliency, Indomitable Soul, Steadfast Determination, Ranged Weapon Mastery, Unarmed Combat Mastery, Melee Weapon Mastery (Blunt), Melee Weapon Mastery (Piercing), Melee Weapon Mastery (Slashing), Weapon Supremacy
+
++++ Harper Agent
+* Harper Agent now requires the feat Negotiator instead of Alertness and Iron Will.
+
++++ Hellfire Warlock
+* Correctly gains blast progression
+
++++ Item Fixes
+* Created new prefab for Zalantar heavy shield and updated crafting to create this one. Now correctly has -10% ASF and +2 AC
+* Spell Resist on equipped items will be added as a spell effect to players (fixes the item breaking after 1 spell resist)
+* Damage Resist (Physical) on equipped belts will be added as a spell effect to players. Partial Success: Damage Reduction is half the resistance value and works against all damage types. We lack the proper effect hooks to set up a OR relationship to duplicate the old damage resistance intent. Damage Resistance (Slash 5/-) becomes DR 2/-.
+
++++ Monk
+* New Feats: Fiery Fist, Fiery Ki Defense
+
++++ New Classes - [http://nwn2customcontent.wikidot.com/prc Link to full descriptions]
+* Anointed Knight, Avenger, Black Flame Zealot, Bladesinger, Canaith Lyrist, Champion of the Wild, Dark Lantern, Divine Seeker, Dragonslayer, Dread Commando, Elemental Archer, Elemental Warrior, Fist of the Forest, Forest Master, Frost Mage, Heartwarder, Hospitaler, Knight of Tierdrial, Lion of Talisid, Lyric Thaumaturge, Master of Radiance, Nature's Warrior, Nightsong Enforcer, Nightsong Infiltrator, Shadowbane Stalker, Shining Blade, Skullclan Hunter, Stormsinger, Swiftblade, Tempest, Thug, Warrior of Darkness, Whirling Dervish, Ninja, Scout, Child of Night, Daggerspell Mage, Daggerspell Shaper, Dervish, Dissonant Chord, Dragon Warrior, Dread Pirate, Eldritch Disciple, Ghost-Faced Killer, Wilderness Stalker 
+
++++ New Feats - [http://nwn2customcontent.wikidot.com/feats Link to full descriptions]
+* Widen Aura of Despair, Improved Aura of Despair, Ranged Spell Specialization, Touch Spell Specialization, Acidic Splatter, Clap of Thunder, Fiery Burst, Hurricane Breath, Invisible Needle, Storm Bolt, Sickening Grasp, Winter's Blast, Holy Warrior, Touch of Healing, Umbral Shroud, Epic Skill Focus (Bluff), Epic Skill Focus (Perform), Ranged Weapon Mastery, Crossbow Sniper, Sacred Vow, Exalted Natural Attack, Exalted Wild Shape, Exalted Companion, Toxic Gift, Medium Armor Specialization, Heavy Armor Specialization, Epic Inspiration, Elemental Essence, Fast Healing I, Fast Healing II, Greater Two-Weapon Defense, Song of the Heart, Daylight Adaption, Battle Dancer, Fiery Fist, Fiery Ki Defense, Oversized Two-Weapon Fighting, Unarmed Combat Mastery, Divine Armor, Divine Vigor, Divine Cleansing, Divine Fortune, Deadly Defense, Intuitive Attack, Practiced Spellcaster (Assassin), Practiced Spellcaster (Avenger), Practiced Spellcaster (Blackguard), Ability Focus (Bard Songs), Ability Focus (Eldritch Blast), Ability Focus (Invocations), Ashbound, Augment Elemental, Dragonsong, Elemental Shape (Ember Guard), Epic of the Lost King, Greater Heavy Armor Optimization, Heavy Armor Optimization, Melee Weapon Mastery (Blunt), Melee Weapon Mastery (Piercing), Melee Weapon Mastery (Slashing), Practical Metamagic (Empower), Practical Metamagic (Extend), Practical Metamagic (Maximize), Practical Metamagic (Quicken), Practical Metamagic (Silent), Practical Metamagic (Still), Sanctify Strikes, Shared Fury, Silver Fang (Companion), Silver Fang, Weapon Supremacy. Ascetic Stalker, Devoted Tracker, Expanded Ki Pool, Extra Spirit Form, Extra Spirit Journey, Improved Natural Bond, Martial Stalker, Swift Ambusher, Swift Hunter, Telthor Companion, Dark Transient, Empower Eldritch Blast, Epic Fiendish Resilience II, Epic Fiendish Resilience III, Epic Fiendish Resilience IV, Guttural Invocations, Maximize Eldritch Blast, Paragon Visionary, Practiced Invoker 
+
++++ New Game Systems
+* Sneak Attack for touch spells (including lay on hands, eldritch blasts)
+* Reserve feats (details needed)
+* Wildshape fixes (details needed)
+* Ammo crafting - [http://nwn2customcontent.wikidot.com/crafting Link to full description]
+* Ranged weapon enchanting - [http://nwn2customcontent.wikidot.com/crafting Link to full description]
+* Arcane Trickster, Eldritch Knight, Red Wizard, Arcane Scholar, Harper, Warpriest, Stormlord spellcasting progression feats updated to allow the feat to be chosen with 1 level in the base class for dealing with other PrCs that increase spellcasting progression. A Cleric 5/ Stormlord 2 will properly qualify for the cleric spellcasting progression feat in Warpriest instead of requiring Cleric 7.
+* Serious problem with creature hides and weapons not being refreshed for players and companions when loading a game fixed. Thanks to Brian Meyer for identifying the problem.
+* Turn Undead variant [http://nwn2forums.bioware.com/forums/viewtopic.html?topic=614716&forum=109&sp=0 Link to full description] (Needs the info on this site)
+* The perform skill is now available to all classes. The Bard, Monk, Duelist, Shadow Dancer, Invisible Blade, Harper Agent, and Rogue gain it as a class skill while all others gain it as a cross-class skill (among the core classes). (needs updating with my prcs that have perform as a class skill)
+* Classes that require a weapon focus will now recognize Melee and Ranged Touch Attack.
+* Resting with low health and an enhance bonus to your Constitution will no longer kill you!
+* Enchanting non-Iron items will now correctly allow 3 or 4 enchants instead of only 1 to 2. (ie, item properties for a material such as ASF reduction on Mithril will no longer count against the enchantment cap). This fix has limitations to be noted soon.
+* Weapon buff spells now affect gauntlets if no weapons are equipped (Bless Weapon, Blade Thirst, Holy Sword, Lawful Sword, Flame Weapon, Deafening Clang, Magic Weapon, Flame of Faith, Weapon of Energy, Weapon of the Deity, Greater Magic Weapon, Undead Bane Weapon, Forest Hammer, Holy Blade, Shock Blade, Sacred Flame, Wrath of the Wild, Storm Avatar)
+* Tumble is gained as a class skill as a replacement for Ride for the following classes: Paladin, Ranger, Anointed Knight, Warrior of Darkness, Arcane Archer, Barbarian, Blackguard, Divine Champion, and Fighter 
+* Point Blank Shot feat adds +1 AB for ranged touch attacks
+
++++ New Items - [http://nwn2customcontent.wikidot.com/races Link to full descriptions]
+* Sharkskin
+* Bondleaf Ivy
+* Battle Plate
+* Mountain Plate
+* Living Coral
+* Spidersilk
+* Mithral Battle Plate
+* Mithral Mountain Plate
+* Nightscale
+* Chasuble of Fel Power added (Lesser for +1d6 eldritch blast, 8k cost) (Greater for +2d6 eldritch blast, 18k cost)(Necklace item).
+* Warlock's Scepter (+2 Light Mace which provides a +2 AB bonus with Eldritch Blasts and the bonus feat Practiced Invoker) 
+* Greater Chasubles with Natural AC (+1 to +5) added.
+* Lesser Chasubles with Natural AC (+1 to +5) added.
+
++++ New Races - [http://nwn2customcontent.wikidot.com/races Link to full descriptions]
+* Star Elf
+* Painted Elf 
+
++++ New Spells - [http://nwn2customcontent.wikidot.com/spells Link to full descriptions]
+* Angel Skin (P2), Awaken Sin (C3, P2), Blessed Aim (C1, P1), Blessing of Bahumut (P3), Blessing of the Righteous (C4, P4), Blood of the Martyr (C4, P4), Castigate (C4, P4), Chasing Perfection (C6, SW6), Cloak of Bravery (C3, P2), Deadly Lahar (D8, SW8), Deafening Clang (P1), Draconic Might (P4), Energized Shield (C3, P2), Eldritch Glaive (Wlck 1), Faerie Fire (D1), Flame of Faith (C3, P2), Flaywind Burst (C5, D5, SW5), Frost Breath (C2, D2, SW2), Hand of Divinity (C2, P2), Heartfire (B2, D2), Inspirational Boost (B1), Lawful Sword (P4), Leonal's Roar (D8), Lesser Energized Shield (C2, P1), Lesser Orb of Fire(SW1), Lesser Orb of Electricity (SW1), Lesser Orb of Cold (SW1), Lesser Orb of Acid (SW1), Lesser Orb of Sound (SW1), Lion's Roar (C8), Living Undeath (C2), Mark of Justice (Domain spell), Nature's Favor (D2, R2), Nixies's Grace (B6), Orb of Fire (SW4), Orb of Electricity (SW4), Orb of Cold (SW4), Orb of Force (SW4), Orb of Acid (SW4), Orb of Sound (SW4), Phantom Bear (D9), Phantom Wolf (D8), Plant Body (D5), Resonating Bolt (B4), Righteous Fury (P3), Righteous Glory (P4), Second Wind (P1), Shield of Warding (C3, P2), Silverbeard (P1), Sirine's Grace (B4, D5), Sonic Shield (B3), Sonic Weapon (B2), Sound Blast (B5, SW5), Strategic Charge (P1), Strength of Stone (P2), Thorn Skin (D3), Undead Bane Weapon (C4, P3), Weapon of Energy (C3, SW3), Weapon of the Deity (C3, P3), Wild Instincts (D2, R3), Zeal (P2), Caster's Lament, Caustic Web, Dark Foresight, Frightful Presence, Hellspawned Grace, Ignore the Pyre, Instill Vulnerability, Repelling Blast, Tempest Blast, Undead Baneful Blast, Splinterbolt, , Animal Growth (D5, R4), Baleful Blink (B4), Benediction (C2, P2), Briar Web (D2, R2), Divine Protection (C2, P2), Embrace the Wild (D2, R1), Enrage Animal (D1, R1), Favor of the Martyr (P4), Flamebound Weapon (P1), Glory of the Martyr (P4), Halo of Sand (D2, R2), Hawkeye (D2, R2), Insignia of Blessing (P3, R3), Insignia of Healing (B3, C3, P3, R3), Insignia of Warding (P3, R3), Lesser Aura of Cold (D3, P4, R4), Linked Perception (D2, R1), Manifest Death (BG4), Manifest Life (P4), Mantle of Faith (P3), Mark of Doom (P2), Primal Hunter (D2, R1), Primal Instinct (D3, R2), Primal Senses (D4, R3), Primal Speed (D6, R4), Sacred Haven (P4), Seed of Life (C4, D5, P4), Skin of the Cactus (D4, R3), Spirit of the Bear (D6), Spirit of the Boar (D4), Spirit of the Rat (D2), Spirit of the Tiger (D5), Spirit of the Wolf (D3), Swift Haste (R2), Towering Oak (R1), Trip Vine (D2, R2) 
+
++++ NWN9
+* Guarding the Lord now uses class level since caster level causes it to immediately expire.
+* NWN9 gains Craft Alchemy, Craft Trap as class skills as indicated by the class description
+
++++ Paladin
+* Lay on Hands feat added that allows undead targeting
+* New Feat: Sanctify Strikes
+* Divine Spirit alternate class feature added [http://nwn2customcontent.wikidot.com/divine-spirit Link to full description]
+* New Spells (39): Angel Skin (P2), Awaken Sin (C3, P2), Benediction (C2, P2), Blessed Aim (C1, P1), Blessing of Bahumut (P3), Blessing of the Righteous (C4, P4), Blood of the Martyr (C4, P4), Castigate (C4, P4), Cloak of Bravery (C3, P2), Deafening Clang (P1), Divine Protection (C2, P2), Draconic Might (P4), Energized Shield (C3, P2), Favor of the Martyr (P4), Flame of Faith (C3, P2), Flamebound Weapon (P1), Glory of the Martyr (P4), Hand of Divinity (C2, P2), Insignia of Blessing (P3, R3), Insignia of Healing (B3, C3, P3, R3), Insignia of Warding (P3, R3), Lawful Sword (P4), Lesser Aura of Cold (D3, P4, R4), Lesser Energized Shield (C2, P1), Manifest Life (P4), Mantle of Faith (P3), Mark of Doom (P2), Righteous Fury (P3), Righteous Glory (P4), Sacred Haven (P4), Second Wind (P1), Seed of Life (C4, D5, P4), Shield of Warding (C3, P2), Silverbeard (P1), Strategic Charge (P1), Strength of Stone (P2), Undead Bane Weapon (C4, P3), Weapon of the Deity (C3, P3), Zeal (P2)
+
++++ Palemaster
+* Now has the correct spell progression (9/10)
+
++++ Ranger
+* Blades of Fire now lasts 1 round per caster level for Rangers.
+* New Feats: Improved Natural Bond, Silver Fang, Exalted Companion, Protective Ward, Shared Fury
+* New Companion choice: Fire Elemental
+* Magic Fang, Greater Magic Fang, and Jagged Tooth now work on all forms and companions
+* New Spells (21) : Animal Growth (D5, R4), Embrace the Wild (D2, R1), Enrage Animal (D1, R1), Halo of Sand (D2, R2), Hawkeye (D2, R2), Insignia of Blessing (P3, R3), Insignia of Healing (B3, C3, P3, R3), Insignia of Warding (P3, R3), Lesser Aura of Cold (D3, P4, R4), Linked Perception (D2, R1), Nature's Favor (D2, R2), Primal Hunter (D2, R1), Primal Instinct (D3, R2), Primal Senses (D4, R3), Primal Speed (D6, R4), Seed of Life (C4, D5, P4), Skin of the Cactus (D4, R3), Swift Haste (R2), Towering Oak (R1), Trip Vine (D2, R2) , Wild Instincts (D2, R3)
+
++++ Red Dragon Disciple
+* Breath Weapon no longer does a spell resistance check
+* RDD becomes DD and gains the ability to choose dragon color at level 1 (breath weapon damage type and elemental immunity is based off this choice)
+* Dragon Disciple description updated to include the +2 Cha bonus at 10th
+
++++ Red Wizard
+* Now correctly gain access to Persistent Spell as a bonus feat
+
++++ Shadow Dancer
+* Shadow Dancer's Shadow Evade duration changed to class level.
+* Shadow Daze DC is now 10 + Class Level + Dex Mod
+
++++ Shadow Thief of Amn
+* Hide is now a class skill for Shadow Thief of Amn
+
++++ Silver Sword
+* Silver Sword now accounts for the Favored Soul (OC), Spirit Shaman (OC), Thug (OC, MotB), Swashbuckler (OC, MotB), Ninja (OC, MotB), and Scout (OC, MotB).
+
++++ Sorcerer
+* New Spells (17) : Chasing Perfection (C6, SW6), Deadly Lahar (D8, SW8), Flaywind Burst (C5, D5, SW5), Frost Breath (C2, D2, SW2), Lesser Orb of Acid (SW1), Lesser Orb of Cold (SW1), Lesser Orb of Electricity (SW1), Lesser Orb of Fire(SW1), Lesser Orb of Sound (SW1), Orb of Acid (SW4), Orb of Cold (SW4), Orb of Electricity (SW4), Orb of Fire (SW4), Orb of Force (SW4), Orb of Sound (SW4), Sound Blast (B5, SW5), Weapon of Energy (C3, SW3)
+
++++ Spell Fixes
+* All of Player1's spell fixes - [http://nwvault.ign.com/View.php?view=NWN2Scripts.Detail&id=85 Link to full description]
+* Poison spell updated to deal 1d10 con damage instead of 1d2 and to have a DC ranging from 15-40 instead of a locked 14. DC will be the closest to 10 + Wis + 1/2 CL.
+* Entangle spell no longer has a spell resist check, duration increased to 3 + caster level, now has the correct size (30' to 40'), and now correctly slows speed by 50% on successful saves for 1 round as per pnp.
+* Bug in Epic Spell DC fixed for the Doomguide
+* Inflict Minor Wounds, Inflict Light Wounds, Inflict Serious Wounds, Inflict Moderate Wounds, and Inflict Critical Wounds are now capable of critical hits.
+* Greater Dispel Magic, Devour Magic, and Wall of Greater Dispel Magic now correctly has a caster level cap of +20 (up from +15)
+* Shield now correctly mentions it grants a shield enhancement bonus, not armor bonus.
+* Mass Heal now properly caps at 250 HP as it does in pnp
+* Mass Heal's description has been updated to indicate it does have a saving throw for half when used against undead.
+* Epic spells Hellball, Damnation, and Mass Fowl are now correctly flagged as hostile and will break invisibility and etherealness.
+* Disjunction now indicates it scales to 30th (text change only)
+* Battletide AoE and self-buff effects split up. This will reduce the impact of the aura "disappearing" in high-lag situations. (Warpriest and spell versions)
+* All spells that use EffectDamageImmunityIncrease with an immunity amount of 100% will be changed to use a damage resistance of 9999.
+* Ghostly Visage description updated to indicate the concealment it grants is 10%
+* Dispels now have subradials allowing them to target hostiles, allies, or an area
+
++++ Spirit Shaman
+* Spirit Form (Spirit Shaman ability) now correctly lasts for 10 rounds as in PnP. It now grants a deflection AC bonus equal to the caster's Cha modifier. It also grants SR 11 + Character Level (to simulate the 50% ability to block both melee and magic from corporeal sources).
+* Chastise Spirits no longer affects allied spirits
+* Chastise Spirits now correctly does 1d6 per SS level.
+* New Feats: Extra Spirit Form (+2 uses/day), Extra Spirit Journey (+2 uses/day), Telthor Companion
+
++++ Stormlord
+* Stormlord weapon buffs now last 24 hours (instead of having to redo it every 2 minutes)
+* Stormlord gains Bluff, Craft Alchemy, and Spellcraft as class skills as indicated by the class description, description updated.
+
++++ Warlock
+* Imbue Item now correctly allows crafting past a certain range
+* Eldritch Doom only affects hostiles
+* All Warlock abilities have the V removed from them. SLAs are not subject to silence.
+* Chilling Tentacles and Wall of Flame now have their correct DC (TonyK fix of OEI issue)
+* Word of Changing shape now gains the missing DR 10/Alchemical Silver
+* Wall of Perilous Flame changed to 1 round per caster level, as per pnp.
+* Retributive Invisibility duration changed to 1 round per caster level, as per pnp.
+* Flee the Scene changed to 1 round per caster level as it emulates haste
+* Dark Foresight changed to 10 minutes per caster level, as per pnp (the damage absorbed cap is still in place).
+* Existing Dark Foresight renamed Dark Premonition
+* Epic Fiendish Resilience now correctly lasts 5 minutes (up from 2 minutes)
+* Eldritch Chain now scales to 30 (6 targets)
+* Wall of Perilous Flame now correctly does 2d6 + Caster Level (max +20) damage. Description updated to indicate it does double damage to undead.
+* Hellrime Blast duration changed to 10 rounds (up from 3), less than the 10 minutes in PnP
+* Fey Power and Fiendish Power now correctly increase blast DC and blast dice
+* Devil's Sight invocation renamed to All-Seeing Eyes and changed to grant +6 Search and Spot (it was previously nonfunctional)
+* Assassin and Warlock invisibility now correctly provides a +2 AB bonus, +20 Hide, and sneak attack immunity.
+* New Blueprint: Greater Chasubles with Natural AC (+1 to +5) added.
+* New Blueprint: Lesser Chasubles with Natural AC (+1 to +5) added.
+* New Blueprint: Warlock's Scepter (+2 Light Mace which provides a +2 AB bonus with Eldritch Blasts and the bonus feat Empower Eldritch Blast) added (including the Jeannie coin).
+* New Feats: Paragon Visionary, Practiced Invoker, Ability Focus (Eldritch Blast), Ability Focus (Invocations), Maximize Eldritch Blast (3/day), Guttural Invocations (allows spellcasting in Hellspawned Grace and Word of Changing shapes like Natural Spell for Druids), Empower Eldritch Blast (3/day), Dark Transient (Flee the Scene duration doubled, grants Warlock +1 AB), Epic Fiendish Resilience II (heals for 30, 2 uses/day), Epic Fiendish Resilience III (heals for 35, 3 uses/day), Epic Fiendish Resilience IV (heals for 40, 4 uses/day)
+* New Spells (11) : Caster's Lament (Wlk 4), Caustic Web (Wlk 3), Dark Foresight (Wlk 4), Eldritch Glaive (Wlk 2), Frightful Presence (Wlk 2), Hellspawned Grace (Wlk 3), Ignore the Pyre (Wlk 2), Instill Vulnerability (Wlk 4), Repelling Blast (Wlk 3), Tempest Blast (Wlk 2), Undead Baneful Blast (Wlk 3)
+
++++ Warpriest
+* Warpriest gains spot as a class skill
+* Warpriest/Favored Soul haste now has a duration based on caster level, not class level.
+* Levels now correctly count for Turn Undead
+
++++ Wildshape
+* Wildshape adds the Creature feats corresponding to Unarmed feats (weapon focus, etc)
+* Arcane shapeshifting spells will have support built in to allow spellcasting (defaults to off)
+* Wildshape now fully heals wounds when shifting to a creature form.
+* Equipment properly transfers over
+* Storm Avatar (and Stormlord's Storm Avatar) now affects creature weapons.
+* Wildshape fixes and improvements: Jewelery and bracer (not gauntlet) enchantments affecting wildshaped form per pnp Source: http://www.wizards.com/default.asp?x=dnd/4ask/20080307a
+* Wildshape fixes and improvements: Reduced spell loss
+* Wildshape/Polymorph fixes and improvements: No experience loss for the following types: Animal, Dragon, Elemental, Magical Beast, Vermin, Outsider, Undead, Construct, Plant, Giant, Aberration
+* Polymorph.2da updated to the correct types when shifting forms for Elementals and Plants. No more experience loss while shifted
+
++++ Wizard
+* May now select Persistent spell as a bonus feat
+* New Spells (17) : Chasing Perfection (C6, SW6), Deadly Lahar (D8, SW8), Flaywind Burst (C5, D5, SW5), Frost Breath (C2, D2, SW2), Lesser Orb of Acid (SW1), Lesser Orb of Cold (SW1), Lesser Orb of Electricity (SW1), Lesser Orb of Fire(SW1), Lesser Orb of Sound (SW1), Orb of Acid (SW4), Orb of Cold (SW4), Orb of Electricity (SW4), Orb of Fire (SW4), Orb of Force (SW4), Orb of Sound (SW4), Sound Blast (B5, SW5), Weapon of Energy (C3, SW3)
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

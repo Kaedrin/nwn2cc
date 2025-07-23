@@ -1,0 +1,7 @@
+2DA V2.0
+
+   LABEL                      ReqType  ReqParam1 ReqParam2 
+0  FEAT_CURSE_SONG            FEAT     871       ****      
+1  LingeringSong              FEAT     424       ****      
+2  SpellcraftSkill            SKILL    16        5         
+3  PerformSkill               SKILL    11        8         

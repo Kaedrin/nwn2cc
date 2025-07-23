@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8">
+
+<UIScene name="hv_reward_player_xp" width=388 height=160 x=ALIGN_CENTER y=ALIGN_CENTER draggable="true" fadeout="0.3" fadein="0.3" backoutkey=true
+         scriptloadable=true OnCreate="UIScene_OnCreate_SetupMessageBox(320,195,10,10,10,10)" priority="SCENE_SCRIPT" modal="true"
+         OnAdd=UIScene_OnAdd_SetFocus("inputbox") />
+
+	<!-- Message Listbox -->
+	<UIListBox name="messageboxlb" x=ALIGN_CENTER y=8 width=300 height=40 showpartialchild="true" xPadding=10 yPadding=0
+	hidescrollbarwhennotneeded="true" scrollsegmentsize=17 unequalcontrols="true">
+		<UIText name="messagetext" fontfamily="Title_Font" style=1 width=PARENT_WIDTH height=DYNAMIC sizetofit="true" align="center" />
+		<UIScrollBar name="SB" style="STYLE_SB_THIN"/>
+	</UIListBox>
+
+	<UIText name="inputbox" x=ALIGN_CENTER y=44 align=right valign="middle" width=80 height=28 
+		editable="true" selectable="true" filter="signed_numeric" maxlength=6 multiline=false fontfamily="Body_Font" style=1
+	    update="true" OnUpdate=UIObject_Misc_SetLocalVarString(local:0) />
+
+	<UIFrame x=ALIGN_CENTER y=42 width=86 height=32 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+		bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga"
+		left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="tp_frame_bg.tga"
+		border=5 />
+
+	<!-- BUTTON CONTAINER -->
+	<UIPane name="BUTTON_CONTAINER" x=ALIGN_CENTER y=104 width=254 height=32 >
+		<!-- OK button -->
+		<UIButton name="okbutton" strref="66" x=0 y=0 style="STYLE_SMALL_BUTTON" OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_hv_dm_interaction","10",local:0) OnLeftClick1=UIButton_Input_ScreenClose() />
+		<!-- Cancel Button -->
+		<UIButton name="cancelbutton" strref="67" x=130 y=0 style="STYLE_SMALL_BUTTON" OnLeftClick=UIButton_Input_ScreenClose() />
+	</UIPane>
+
+	<!-- Main Window -->
+	<UIFrame width=PARENT_WIDTH height=PARENT_HEIGHT topleft="frame1_tl.tga" topright="frame1_tr.tga" bottomleft="frame1_bl.tga"
+	bottomright="frame1_BR.tga" top="frame1_t.tga" bottom="frame1_b.tga"
+	left="frame1_l.tga" right="frame1_r.tga" border=32 />	
+	
+	<UIFrame x=7 y=8 width=374 height=144 fillstyle="tile" fill="cloth_bg.tga"/>		

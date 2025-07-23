@@ -1,0 +1,7 @@
+2DA V2.0
+
+  LABEL     ReqType  ReqParam1           ReqParam2 
+0 BAB       BAB      5                   ****      
+1 Divine    DIVSPELL 1                   ****      
+2 Diplomacy SKILL    12                  5         
+3 ScriptVar VAR      cmi_AllowHospitaler 0         

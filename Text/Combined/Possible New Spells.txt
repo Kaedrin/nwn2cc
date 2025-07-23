@@ -1,0 +1,1100 @@
+This topic leads to the question: what other spells do you want to see a higher level version of? Higher levels means better damage caps and DCs (see http://paizo.com/pathfinderRPG/prd/ultimateMagic/magic/designingSpells.html for a general rule of thumb for how strong a spell is meant to be).
+
+The first spell is custom. The rest are either Pathfinder or regular 3.5 edition spells (except for Greater Vampiric Touch, Greater Elemental Orb, Greater Firebrand, Bright and Brilliant Color Spray which are all just higher level versions of an existing spell).
+
+***
+
+Elemental Frailty
+Caster Level(s): Sorc/Wiz 5, Druid 6
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: One creature
+Duration: 1 round / 2 levels
+Save: Fortitude half
+Spell Resistance: Yes
+
+When casting the spell, the caster chooses an element (fire, electricity, acid, cold) which the target will become weak to. If the target is not immune to the element, they will begin to suffer a vulnerability percentage equal to your caster level (half on a Fortitude save). When cast by druidic magic, the DC is based on Charisma.
+
+***
+
+Blur Sight
+Caster Level(s): Bard 2, Sorc/Wiz 2
+School: Illusion
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: One creature
+Duration: 1 round / level
+Save: Will negates
+Spell Resistance: Yes
+
+The target's vision is impaired by a hazy, shifting orb centered about their head. This distortion causes all attacks to suffer a 20% miss chance.
+
+***
+
+Bright Color Spray
+Caster Level(s): Sorc/Wiz 5
+School: Illusion
+Component(s): Verbal, Somatic
+Area of Effect / Target: 30' Cone
+Duration: varies
+Save: Will negates
+Spell Resistance: Yes
+
+As color spray, but as a level 5 spell (+4 DC).
+
+***
+
+Brilliant Color Spray
+Caster Level(s): Sorc/Wiz 9
+School: Illusion
+Component(s): Verbal, Somatic
+Area of Effect / Target: 30' Cone
+Duration: varies
+Save: Will negates
+Spell Resistance: Yes
+
+As color spray, but as a level 9 spell (+8 DC).
+
+***
+
+Scintillating Pattern
+Caster Level(s): Sorc/Wiz 8
+School: Illusion
+Component(s): Verbal, Somatic
+Range: Long
+Area of Effect / Target: 20' radius burst
+Duration: varies
+Save: None
+Spell Resistance: Yes
+
+A twisting pattern of discordant, coruscating colors weaves through the air, affecting creatures within it.
+The spell affects each subject according to its Hit Dice:
+6 or less: Stunned for 2d4 rounds
+7 to 12: Stunned for 1d4 rounds, then confused for 1d4 rounds.
+13 or more: Confused for 1d4 rounds.
+
+***
+
+Greater Elemental Orb
+Caster Level(s): Sorc/Wiz 8
+School: Conjuration
+Component(s): Verbal, Somatic
+Range: Long
+Area of Effect / Target: Target creature
+Duration: Instantaneous
+Save: Fortitude partial
+Spell Resistance: No
+
+The caster chooses from one of the 5 elements and flings a ball of that element at their target (as the Orb of X spells). The damage dealt is 1d6 per caster level (maximum 25d6).
+
+***
+
+Greater Firebrand
+Caster Level(s): Sorc/Wiz 7
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: Colossal
+Duration: Instantaneous
+Save: Reflex half
+Spell Resistance: Yes
+
+Masses of flame (one per caster level) appear and randomly target and hit any creature in the area of effect. If there are more creatures than balls of flame, only the closest targets will be damaged. If there are more balls of flame than creatures, the excess balls of flame disappear. Each ball of flame explodes for 1d6 points of fire damage per caster level (max 20d6).
+
+***
+
+True Form
+Caster Level(s): Druid 4, Sorc/Wiz 4
+School: Abjuration
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: 30' Burst
+Duration: 1 round/level
+Save: Will negates
+Spell Resistance: Yes
+
+True form removes any polymorph effect from a target creature, returning it to its true form, even against its will. Against creatures affected by polymorph spell effects, you must make a caster level check (1d20 + caster level, maximum +15) against a DC of 11 + caster level (maximum +20) of the effect. Success means that the polymorph effect immediately ends.
+
+A creature with the supernatural ability to change shape (such as a lycanthrope or druid) must make a Will saving throw or immediately revert to its true form. If it fails this first saving throw, the creature can attempt another Will saving throw to overcome the spell as a full-round action that does not provoke attacks of opportunity (dazed for one round). If this save succeeds, the spell ends and the creature is capable of changing shape once again. If the second save fails, the creature is locked in its true form for the duration of the spell, preventing any further polymorph effects from changing its shape.
+
+***
+
+Sirocco
+Caster Level(s): Druid 6, Sorc/Wiz 6
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: 20' Burst
+Duration: 1 round / level
+Save: Fortitude partial
+Spell Resistance: Yes
+
+A blast of furnace-hot wind blasts downward, inflicting 4d6 fire damage +1 point per caster level to all creatures in the area and knocking them prone. A successful Fortitude save halves the fire damage and negates being knocked prone. Any creature that takes damage from a sirocco becomes fatigued (or exhausted, if already fatigued, such as from a previous round of exposure to a sirocco spell).
+
+***
+
+Contagious Flame
+
+Caster Level(s): Sorc/Wiz 6
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: Target Creature
+Duration: 3 rounds
+Save: None
+Spell Resistance: Yes
+
+You blast your enemy with beams of fire. You may fire three rays, plus one additional ray for every four levels beyond 11th (to a maximum of five rays at 19th level). Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage each round for 3 rounds (each round requires another touch attack).
+
+***
+
+Unwilling Shield
+
+Caster Level(s): Bard 5, Sorc/Wiz 6
+School: Necromancy
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: Target Creature
+Duration: 1 round/level
+Save: Will negates
+Spell Resistance: Yes
+
+Like shield other, unwilling shield creates a mystic connection between you and the target, but unlike shield other, the target shares the wounds that you receive. In addition, the link draws upon the target's life force to supplement your own defenses. You gain a +1 luck bonus to AC and on saving throws. You take only half damage from all wounds and attacks (including those dealt by special abilities) that deal hit point damage. The amount of damage not taken by you is taken by the target.
+
+***
+
+Phantasmal Revenge
+
+Caster Level(s): Sorc/Wiz 7
+School: Illusion
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Will negates, Fortitude partial.
+Spell Resistance: Yes
+
+When you cast this eerie spell upon a recently slain creature, you cause a ghastly, spectral image of it to rise up from its corpse, shrieking for vengeance before it vanishes in a burst of unnatural light. This phantom then unerringly seeks out the creature that killed it, as long as that creature is on the same plane, and tries to slay its killer in turn.
+
+Only the corpse's killer can see the phantasmal image created by this spell. You and any others who witness the spell's casting or its ultimate effects see only a vague shape. The target first gets a Will save to disbelieve the illusion. If that save fails, the target must succeed on Fortitude saving throw or take 10 points of damage per caster level from the phantasmal image. Even if the Fortitude save is successful, the target takes 5d6 points of damage + 1 point of damage per caster level.
+
+***
+
+Ki Shout
+
+Caster Level(s): Bard 5, Sorc/Wiz 7
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial.
+Spell Resistance: Yes
+
+With a guttural bark, you unleash a sudden blast of sonic energy that strikes your opponent. The target takes 1d6 points of sonic damage per level (maximum 20d6) and is stunned for 1 round; a successful Fortitude save reduces the damage by half and negates the stun.
+
+***
+
+Resonating Word
+
+Caster Level(s): Bard 5, Sorc/Wiz 7
+School: Transmutation
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: Target Creature
+Duration: 3 rounds
+Save: Fortitude partial.
+Spell Resistance: Yes
+
+You speak a terrible word of power, setting up potentially lethal vibrations in the chosen target. The target must save once each round on your turn, and the effects grow stronger for each saving throw the creature fails.
+
+On the first round, the target takes 5d6 points of sonic damage and is staggered for 1 round. A successful save halves the damage and negates the staggered effect.
+
+On the second round, the target takes 5d6 points of damage and is stunned for 1 round. A successful save halves the damage and negates the stunning effect.
+
+On the third round, the target takes 10d6 points of damage and is stunned for 1d4+1 rounds. A successful save halves the damage and negates the stunning effect.
+
+***
+
+Greater Vampiric Touch
+Caster Level(s): Sorc/Wiz 5
+School: Necromancy
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Target Creature
+Duration: Instantaneous/1 hour
+Save: None.
+Spell Resistance: Yes
+
+The target creature takes 1d6 points of negative energy damage for every 2 caster levels, to a maximum of 15d6. This damage is then applied to your Hit Points as a temporary bonus.
+
+***
+
+Greater Missile Blast
+Caster Level(s): Sorc/Wiz 6
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Long
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: None.
+Spell Resistance: Yes
+
+A single missile forms and slams into the target, dealing 2d6 magic damage per caster level (20d6 maximum).
+
+***
+
+Dimensional Anchor
+Caster Level(s): Cleric 4, Sorc/Wiz 4
+School: Abjuration
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: Target Creature
+Duration: 2 rounds per level
+Save: None.
+Spell Resistance: Yes
+
+A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel (such as all ethereal spells).
+
+***
+
+Mnemonic Enhancer
+Caster Level(s): Sorc/Wiz 9
+School: Transmutation
+Component(s): Verbal, Somatic
+Area of Effect / Target: Self
+Duration: 1 round per level
+
+Casting this spell allows you to qualify for any reserve feat as though you had a level 8 spell memorized.
+
+***
+
+Mislead
+Caster Level(s): Bard 5, Sorc/Wiz 6
+School: Illusion
+Component(s): Verbal, Somatic
+Area of Effect / Target: Self
+Duration: 3 rounds
+
+You become invisible (as greater invisibility, a glamer), and at the same time, an illusory double of you (as major image, a figment) appears. You are then free to go elsewhere while your double remains, distracting the enemy (though unable to fight).
+
+***
+
+Cry of the Banshee
+Caster Level(s): Sorc/Wiz 9
+School: Necromancy
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: Colossal
+Duration: Instantaneous
+Save: Fortitude Negates.
+Spell Resistance: Yes
+
+When you cast this spell, you emit a terrible, soul-chilling scream that possibly kills creatures that hear it (except for yourself). The spell affects up to one creature per caster level, inflicting 10 points of damage per caster level.
+
+***
+
+Deafening Song Bolt
+Caster Level(s): Bard 5
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: Target Creature
+Duration: Instantaneous/3d6 rounds
+Save: None
+Spell Resistance: No
+
+Three notes you sing or perform become tangible bolts of arcane energy that shriek across the battlefield. Each bolt requires a ranged touch attack to hit and deals 3d10 points of sonic damage, deafening the target for 1d6 rounds. The deafness duration stacks between the bolts (maximum 18 rounds).
+
+***
+
+Bestow Wound
+Transmutation
+Level: Sorcerer/Wizard 1
+Components: V,S
+Range: Touch
+Target: Living creature touched
+Saving Throw: Fortitude negates
+Spell Resistance: Yes
+
+If the caster is wounded, she can cast this spell and touch a living creature. The creature takes the caster's wounds as damage, either 1 point of damage per caster level or the amount needed to bring the caster up to her maximum hit points, whichever is less. The caster heals that much damage, as if a cure spell had been cast on her.
+
+***
+
+Crushing Fist of Spite
+Evocation (Evil, Force)
+Level: Sorcerer/Wizard 9
+Components: V,S
+Range: Long
+Area: 5-ft.-radius burst
+Duration: 1 round/level
+Saving Throw: Reflex half or Reflex negates
+Spell Resistance: Yes
+
+A fist of darkness appears 30 feet above the ground and begins smashing down with incredible power. All creatures within the area take 1d6 points of damage per caster level (maximum 20d6). A successful Reflex save reduces damage by half. Each round it continues to attack the same area.
+
+***
+
+Dance of Ruin
+Necromancy (Evil)
+Level: Bard 2, Cleric 2, Sorcerer/Wizard 2
+Components: V,S
+Range: Medium
+Area: 50 ft burst centered on the caster
+Saving Throw: Reflex half
+Spell Resistance: Yes
+
+To cast this spell, the caster dances wildly and chants. After she finishes her dance, a wave of crackling energy flashes outward in a 50 ft burst centered on the caster. All non-demon creatures within the area take 2d20 points of magic damage.
+
+***
+
+Gutwrench
+Necromancy (Evil, Death)
+Level: Sorcerer/Wizard 8
+Components: V,S
+Range: Medium
+Target: One living creature
+Duration: Instant
+Saving Throw: Fortitude partial
+Spell Resistance: Yes
+
+The innards of the target creature roil. If the target fails its saving throw, its intestines burst forth, killing it. The intestines fly toward the caster and are absorbed into her form, granting her 4d6 temporary hit points and a +4 enhancement bonus to Strength for 1 minute per caster level. If the target's save is successful, it takes 10d6 points of magic damage instead.
+
+***
+
+Blinding Spittle
+Transmutation
+Level: Druid 2
+Components: V,S
+Range: Medium
+Target: One living creature
+Duration: Instant
+Saving Throw: None
+Spell Resistance: Yes
+
+You spit caustic saliva into your target's eyes with a successful ranged touch attack. A -4 penalty applies to the attack roll.
+
+Whipping your head forward with the last word of the spell, you spit a globule of dark liquid at your foe.
+
+***
+
+Deadfall
+Conjuration
+Level: Druid 8
+Components: V,S
+Range: Long
+Area: 20-ft. radius burst
+Duration: Instant
+Saving Throw: Reflex partial
+Spell Resistance: No
+
+Deadfall creates a tangled mass of huge branches, logs, and fallen trees on the ground. The deadfall immediately collapses in on itself with terrific force and noise. Creatures in the area take 1d6 points of magic damage per caster level (maximum 20d6). In addition, creatures in the area must succeed on a Reflex save or be knocked prone.
+
+With the final word of the spell you call into being a huge tower of logs and branches. It collapses to the ground with a roar, crushing creatures beneath its weight.
+
+***
+
+Delusions of Grandeur
+Illusion (Mind-Affecting)
+Level: Bard 2, Sorcerer/Wizard 2
+Components: V
+Range: Long
+Target: One creature
+Duration: 10 minutes/level
+Saving Throw: Will negates
+Spell Resistance: Yes
+
+This powerful phantasm fools the subject into believing itself more competent and safe than it really is. The spell makes any action the subject considers attempting seem easily accomplished, requiring only a token effort. Deadly wounds seem like mere scratches, stalwart foes appear weak and intimidated, and the subject's own attacks seem stronger and more effective.
+
+As a result of its skewed perspective, the subject takes a -2 penalty on attack rolls, saves, skill checks, as well as Wisdom.
+
+By shouting flattering comments at your intended subject, you release the energy of the spell. The target of your spell glows momentarily with a white nimbus of crackling energy that fades to a sickly gray before disappearing completely.
+
+***
+
+Wrathful Castigation
+Enchantment (Mind-Affecting)
+Level: Sorcerer/Wizard 8
+Components: V,S
+Range: Medium
+Target: One living creature
+Duration: 1 round/level
+Saving Throw: See text
+Spell Resistance: Yes
+
+This spell causes wracking pain and violent convulsions, ending in death. The target creature must make a Will save or writhe in pain, helpless, before it dies 1 round later. A creature that makes the Will save must also succeed on a second Will save or be dazed and take a -4 penalty on saving throws for the duration of the spell.
+
+You brandish the whip, and your target begins to shake uncontrollably, then collapses on the ground, its spasms eventually fading as it dies.
+
+***
+
+Bestow Greater Curse
+Transmutation
+Level: Bard 6, Cleric 7, Sorcerer/Wizard 8
+Components: V,S
+Range: Touch
+Target: Creature touched
+Duration: Permanent
+Saving Throw: Will negates
+Spell Resistance: Yes
+
+The caster places a curse on the creature touched with the following effect: -8 penalty on attack rolls, saving throws, and skill checks.
+
+Channeling your hatred into binding words of power, you thrust your hand at your foe and proclaim a terrible curse.
+
+***
+
+Glorious Master of the Elements
+Evocation (Acid, Cold, Electricity, Fire)
+Level: Sorcerer/Wizard 7
+Components: None
+Range: Close
+Target: One creature
+Duration: 5 rounds
+Saving Throw: None
+Spell Resistance: Yes
+
+This spell allows you to channel the awesome energy of the primal elements. For the duration of the spell, you can make a ranged touch attack each round. If successful, you deal 1d6 points of energy damage per two caster levels (maximum 10d6). Before making the attack, select the energy type from among acid, cold, electricity, and fire. You are dazed for the extra 4 rounds of the duration.
+
+Additionally, each time you successfully make an attack on a target using this spell, you gain a cumulative +2 bonus on the damage roll for each subsequent attack on the same target.
+
+Special: If you have the Dragonblood feat, your ranged touch attacks from this spell instead deal 1d8 points of damage per two caster levels (maximum 10d8).
+
+Sneak Attack
+
+A surge of arcane energy explodes from your fingertips, sending white, red, and yellow jolts lancing outward.
+
+***
+
+Shadow Spray
+Caster Level(s): Sorcerer/Wizard 2
+Innate Level: 2
+School: Illusion
+Descriptor(s): Shadow
+Component(s): Verbal, Somatic, Material
+Range: Long
+Area of Effect / Target: 5-ft.-radius burst
+Duration: 1 round/level
+Save: Fortitude negates
+Spell Resistance: Yes
+
+You cause a multitude of ribbonlike shadows to instantaneously explode outward from the point of origin. Creatures in the area take 4 points of Strength damage and are dazed for 1 round.
+
+As you finish casting this spell, ribbonlike shadows burst outward from the midst of your foes.
+
+***
+
+Cometfall
+Caster Level(s): Cleric 6, Druid 6
+Innate Level: 6
+School: Conjuration
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: 5-ft.-radius burst centered on the target
+Duration: Instantaneous
+Save: Reflex half
+Spell Resistance: No
+
+You conjure a comet that immediately falls to the ground, dealing 1d6 points of damage per caster level (maximum 15d6) to everything in the area. The force of the comet can also knock creatures down. Creatures who fail their Reflex save are knocked down. A creature that succeeds on its saving throw takes half damage from the comet and is not knocked down.
+
+You conjure a bright, glowing comet, which appears in midair above your enemies, then strikes the ground with tremendous force and a thunderous boom.
+
+***
+
+Fire and Brimstone
+Conjuration (Fire)
+Level: Sorcerer/Wizard 5
+Components: V,S
+Range: Medium
+Target: One creature
+Duration: Instant
+Saving Throw: Fortitude partial
+Spell Resistance: No
+
+The subject ignites into a burst of sulfuric fire that deals 1d6 points of damage per caster level (maximum 15d6) and causes the subject to be sickened for 5 rounds. A successful Fortitude save halves the damage and negates the sickening.
+
+With a shout, you cause your foe to erupt in a foul, acrid-smelling burst of yellow fire.
+
+***
+
+Lash of Force
+Evocation (Force)
+Level: Sorcerer/Wizard 9
+Components: V,S
+Range: Close
+Area: 30 ft line
+Duration: Instant
+Saving Throw: Reflex partial
+Spell Resistance: Yes
+
+This spell brings into being an invisible, whiplike tendril of force that lashes out in a 30-foot line of force that deal 15d6 points of magic damage and knocks prone any creatures in its area. A successful Reflex save halves the damage and prevents the creature from being knocked down.
+
+The air around you begins to thrash and churn with invisible forces.
+
+***
+
+Luminous Swarm
+Evocation (Force)
+Level: Bard 2, Sorcerer/Wizard 2
+Components: V,S
+Range: Medium
+Target: One creature
+Duration: 5 rounds
+Saving Throw: Reflex partial
+Spell Resistance: Yes
+
+You create a swarm of fairly luminous motes of pure force that engulf one creature, obscuring its vision. All of it's attacks have a 20% miss chance while the motes last.
+
+The motes also deal 1d6 points of magic damage each round. The target can attempt a Reflex save each round to avoid the damage.
+
+A swarm of shimmering motes streams from your fingers and engulfs your target.
+
+***
+
+Parboil
+Evocation (Fire)
+Level: Cleric 5, Sorcerer/Wizard 4
+Components: V,S
+Range: Medium
+Area: 20-ft.-radius spread
+Duration: Instant
+Saving Throw: Fortitude partial
+Spell Resistance: Yes
+
+You flash-heat the air in an area, boiling the blood and baking the brains of creatures caught inside. The hot air deals 6d6 points of fire damage and 2d4 points of Intelligence damage. Creatures that make successful Fortitude saves take half damage and no Intelligence damage.
+
+***
+
+Prismatic Deluge
+Evocation
+Level: Sorcerer/Wizard 9
+Components: V,S
+Range: Long
+Area: 40-ft. radius
+Duration: Instant
+Saving Throw: See text
+Spell Resistance: Yes
+
+This spell produces a column of colors resembling the end of a rainbow. Every creature in the area of effect is affected as though by the prismatic spray spell; blinded for 2d4 rounds if 8 HD or fewer, and you roll d8 on the prismatic spray table to see what color affects each target.
+
+In a blinding shower of light, you call an enormous, painfully bright rainbow from the heavens.
+
+***
+
+Touch of the Graveborn
+Necromancy
+Level: Sorcerer/Wizard 8
+Components: V,S
+Range: Touch
+Target: One living creature
+Duration: Instant
+Saving Throw: Fortitude partial
+Spell Resistance: Yes
+
+Your melee touch attacks channel negative energy that disrupts the life force of living creatures, dealing 10d6 points of negative damage.
+
+If the target has one or more negative levels also takes 1d6 points of Strength drain; a successful Fortitude save negates this secondary effect.
+
+Your hand grows numb and pulses with a deep and sickly radiance, the chill of the grave emanating from it.
+
+***
+
+Unyielding Roots
+
+Caster Level(s): Druid 8
+Innate Level: 8
+School: Transmutation
+Components: V,S
+Casting Time: 1 standard action
+Range: Touch
+Area: Target creature
+Duration: 1 round/level
+Saving Throw: None
+Spell Resistance: No
+
+For the duration of the spell, the touched creature can't move from its current space nor is it affected by Knockdown or any of the Bigby's spells.
+
+The roots draw life energy from the ground that feed the touched creature, healing up to 30 points of damage per round, neutralizing poisons automatically, and wiping away negative levels (as the restoration spell). The touched creature gets a +4 bonus on Fortitude and Will saves, but a -4 pentalty on Reflex saves. The caster may not use this spell on their self.
+
+The creature you touch grows thick tree roots that anchor it to the ground and provide it with life-sustaining healing.
+
+***
+
+Foebane
+Evocation
+Levels: Ranger 4
+Components: V, S
+Range: Personal
+Target: You
+Duration: 1 round/level
+
+When you cast this spell, you gain the Bane of Enemies feat for the spells duration.
+
+***
+
+Creaking Cacophony
+Illusion (Sonic)
+Level: Bard 3, Druid 3
+Components: V, S
+Range: Medium
+Area: 40-ft.-radius spread
+Duration: 1 round/level
+Saving Throw: None
+Spell Resistance: Yes
+
+Inside the spell's area, the sound is overwhelming. All creatures within the spell's area take a -4 penalty on Listen. Spellcasters are distracted and suffer a Concentration penalty equal to this spell's DC). Creatures in the area that do not have immunity to sonic damage gain vulnerability to sonic damage.
+
+***
+
+Grace
+Transmutation
+Levels: Bard 2
+Components: V
+Range: Personal
+Target: Self.
+Duration: 1 round/level
+
+You create a silvery glow around your body. For the duration of the spell, you gain a +1 Dodge AC bonus, a 33% speed increase, and suffer a -20 Hide skill penalty.
+
+***
+
+Languor
+Transmutation
+Levels: Druid 4
+Components: V, S
+Range: Close
+Target: One creature.
+Duration: 1 round/level
+Saving Throw: Will partial
+Spell Resistance: Yes
+
+You must succeed on a ranged touch attack with the ray to strike a target. This ray causes the creature it hits to become weak and slow for the spell's duration. A struck creature takes a penalty to Strength equal to 1d6 +1 per two caster levels (maximum 1d6 + 10). In addition, a subject that fails a Will save is slowed.
+
+***
+
+Pyrotechnic Burst
+Caster Level(s): Bard 6, Sorc/Wiz 6
+School: Illusion
+Component(s): Verbal, Somatic
+Range: Long
+Area of Effect / Target: 120' Burst
+Duration: 1d4 +1 rounds
+Save: Will negates
+Spell Resistance: Yes
+
+The fireworks are a flashing, fiery, momentary burst of glowing, colored
+aerial lights. This effect causes creatures within 120 feet of the fire
+source to become blinded for 1d4+1 rounds (Will negates).
+
+***
+
+Feeblemind applies a +4 DC if the target has any arcane caster levels.
+
+***
+
+Sequester
+Caster Level(s): Sorc/Wiz 7
+School: Abjuration
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Target creature
+Duration: 1 round / level
+Save: Will negates
+Spell Resistance: Yes
+
+When cast, this spell renders the affected creature invisible to any
+form of sight or seeing (as the invisibility spell). Creatures affected
+by sequester become comatose and are effectively in a state of suspended
+animation until the spell wears off or is dispelled.
+
+***
+
+Prying Eyes
+Caster Level(s): Sorc/Wiz 5
+School: Divination
+Component(s): Verbal, Somatic
+Range: Long
+Area of Effect / Target: 120' Burst
+Duration: 1 round / level
+Save: None
+Spell Resistance: No
+
+You create a number of semitangible, visible magical orbs.These eyes
+move out, scout around, and return as you direct them when casting the
+spell. Each eye can see 120 feet (normal vision only) in all directions.
+Creatures in the area suffer a penalty to the Hide skill equal to your
+caster level (maximum +15).
+
+***
+
+Greater Prying Eyes
+Caster Level(s): Sorc/Wiz 8
+School: Divination
+Component(s): Verbal, Somatic
+Range: Long
+Area of Effect / Target: 120' Burst
+Duration: 1 round / level
+Save: None
+Spell Resistance: No
+
+You create a number of semitangible, visible magical orbs.These eyes
+move out, scout around, and return as you direct them when casting the
+spell. Each eye can see 120 feet (normal vision only) in all directions.
+Creatures in the area suffer a penalty to the Hide skill equal to your
+caster level (maximum +25).
+
+***
+
+Irresistable Dance
+Caster Level(s): Sorc/Wiz 8
+School: Enchantment (Compulsion, Mind-Affecting)
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: One creature
+Duration: 1d4+1 rounds
+Save: None
+Spell Resistance: Yes
+
+The subject feels an undeniable urge to dance and begins doing so,
+complete with foot shuffling and tapping. The spell effect makes it
+impossible for the subject to do anything other than caper and prance in
+place (dazed). The effect imposes a -4 penalty to Armor Class and a -10
+penalty on Reflex saves, and it negates any AC bonus granted by a shield
+the target holds.
+
+***
+
+Power Word spells HP values doubled due to max HP vs avg HP
+
+***
+
+Eyebite
+Caster Level(s): Bard 6, Sorc/Wiz 6
+School: Necromancy
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: One creature
+Duration: 1 minute / caster level.
+Save: Fortitude negates.
+Spell Resistance: Yes
+
+Sudden pain and fever sweeps over the subject's body. A creature
+affected by this spell remains sickened (-2 penalty on all attack rolls,
+weapon damage rolls, saving throws, and skill checks) for 1 minute per
+caster level. The effects cannot be negated by a remove disease or heal
+spell, but a remove curse is effective.
+
+***
+
+Cowardice
+Caster Level(s): Bard 2, Sorc/Wiz 3
+School: Enchantment
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: One creature
+Duration: 1 minute / caster level.
+Save: Will negates.
+Spell Resistance: Yes
+
+This spell imbues a single creature with great cowardice and fear in
+battle. The target gains a -2 morale penalty on attack rolls, saves, and
+skill checks.
+
+This spell counters (dispels) Heroism and will fail if the target has
+Greater Heroism. Heroism or Greater Heroism will remove this spell.
+
+***
+
+Greater Cowardice
+Caster Level(s): Bard 5, Sorc/Wiz 6
+School: Enchantment
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: One creature
+Duration: 1 minute / caster level.
+Save: Will negates.
+Spell Resistance: Yes
+
+This spell imbues a single creature with great cowardice and fear in
+battle. The target gains a -4 morale penalty on attack rolls, saves, and
+skill checks.
+
+This spell counters (dispels) Heroism and Greater Heroism. Greater
+Heroism will remove this spell.
+
+***
+
+Distressing Tone
+Caster Level(s): Bard 2
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: 1d4 living creatures in a 30' burst
+Duration: 1 round/ level.
+Save: Fortitude negates.
+Spell Resistance: Yes
+
+You create a powerful tone that vibrates living flesh. Targets must save
+or gain the sickened condition. Creatures that are immune to critical
+hits are immune to this spell.
+
+***
+
+Mad Hallucination
+Caster Level(s): Bard 2
+School: Illusion
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: Target creature
+Duration: 2 minutes
+Save: Will negates.
+Spell Resistance: Yes
+
+This spell induces a hallucinogenic reality in the mind of your target.
+Surfaces seem to swim, and movement constantly distracts the eye. The
+target takes a -2 penalty on Will saving throws and skill checks.
+
+***
+
+Steal Voice
+Caster Level(s): Bard 2
+School: Necromancy
+Component(s): Verbal
+Range: Medium
+Area of Effect / Target: Target creature
+Duration: 24 hours
+Save: Fortitude negates.
+Spell Resistance: Yes
+
+The afflicted spellcaster's throat or mouth is magically constricted.
+The spellcaster can barely make her words heard, and then only with
+great effort. Casting spells with a verbal component has a 20% chance of
+spell failure. A heal spell cures this affliction.
+
+***
+
+Raise Animal Companion
+Caster Level(s): Druid 5, Paladin 4, Ranger 4
+School: Conjuration (Healing)
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Target creature
+Duration: Instant
+
+This spell functions as raise dead, but it only affects an animal
+companion or familiar (restores a use of animal companion or summon
+familiar).
+
+***
+
+Ear-Piercing Scream
+Caster Level(s): Bard 1, Sorc/Wiz 1
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: Target creature
+Duration: Special
+Save: Fortitude partial.
+Spell Resistance: Yes
+
+You unleash a powerful scream, inaudible to all but a single target. The
+target is dazed for 1 round and takes 1d6 points of sonic damage per two
+caster levels (maximum 5d6). A successful save negates the daze effect
+and halves the damage.
+
+***
+
+Greater Ear-Piercing Scream
+Caster Level(s): Bard 5, Sorc/Wiz 5
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Short
+Area of Effect / Target: Target creature
+Duration: Special
+Save: Fortitude partial.
+Spell Resistance: Yes
+
+You unleash a powerful scream, inaudible to all but a single target. The
+target is dazed for 1 round and takes 1d6 points of sonic damage per two
+caster levels (maximum 15d6). A successful save negates the daze effect
+and halves the damage.
+
+***
+
+Frigid Touch
+Caster Level(s): Druid 2, Sorc/Wiz 2
+School: Evocation
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Target creature
+Duration: Instant
+Save: None.
+Spell Resistance: Yes
+
+This spell causes your hand to glow with a pale blue radiance. Your
+melee touch attack deals 4d6 points of cold damage and causes the target
+to be slowed for 1 round. If the attack is a critical hit, the target is
+slowed for 1 minute instead.
+
+These are all from Pathfinder:
+
+Longstrider
+Caster Level(s): Ranger 1
+School: Transmutation
+Component(s): Verbal, Somatic
+Area of Effect / Target: Personal
+Duration: 1 hour / level
+
+This spell gives you a 33% enhancement bonus to your speed.
+
+***
+
+Gravity Bow
+Caster Level(s): Ranger 1
+School: Transmutation
+Component(s): Verbal, Somatic
+Area of Effect / Target: Personal
+Duration: 1 hour / level
+
+Gravity bow significantly increases the weight and density of arrows or bolts fired from your bow or crossbow the instant before they strike their target and then return them to normal a few moments later. Any arrow fired from a bow or crossbow deals +1d6 blunt damage.
+
+***
+
+Lead Blades
+Caster Level(s): Ranger 1
+School: Transmutation
+Component(s): Verbal, Somatic
+Area of Effect / Target: Personal
+Duration: 1 hour / level
+
+Lead blades increases the momentum and density of your melee weapons just as they strike a foe. Your melee weapons deal +1d6 blunt damage.
+
+***
+
+Bloodhound
+Caster Level(s): Ranger 2
+School: Transmutation
+Component(s): Verbal, Somatic
+Area of Effect / Target: Personal
+Duration: 1 hour / level
+
+You gain the scent special quality, including the ability to track by scent. You receive a +4 competence bonus on Survival checks.
+
+***
+
+Chameleon Stride
+Caster Level(s): Ranger 2
+School: Illusion
+Component(s): Verbal, Somatic
+Area of Effect / Target: Personal
+Duration: 1 minute / level
+
+You fade into the background, and while you are not truly invisible, you are hard to pinpoint due to your translucent state. While under the effects of this spell, you gain a +4 bonus on Hide and Move Silently checks and have 20% concealment.
+
+***
+
+Golden Barding
+Conjuration
+Levels: Paladin 1
+Components: V
+Range: Personal
+Target: You
+Duration: 1 hour/level
+
+You create a suit of barding for your companion to wear. The armor appears on your companion, fitting perfectly. The golden barding you create has no armor check penalty. Your companion gains an armor enhance bonus equal to 3 + half your caster level (maximum +8 at 10th level).
+
+Paladins must have an animal companion for this spell to work.
+
+<i>With a flash, a glowing, golden suit of barding for your companion appears.</i>
+
+***
+
+Soul of Light
+Transmutation (Good)
+Level: Paladin 2
+Components: V,S
+Range: Personal
+Target: Self
+Duration: 1 hour
+
+This spell infuses your body with energy drawn from the Positive Energy Plane, making it easer to repair injuries. Whenever you cast or are the target of a healing spell, you are healed a number of extra points equal to twice the spell's level. If such a spell heals at least 10 points of damage, it also removes the fatigued condition (or reduces exhaustion to fatigue).
+
+<i>Bright, clear light sprouts from your body, quicking flaring before fading to a faint white pulse.</i>
+
+***
+
+Arrow Storm
+Caster Level(s): Ranger 3
+School: Transmutation
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: Caster
+Duration: 3 rounds.
+
+You gain one additional attack per round for three rounds. (This spell is known as Blade Storm when using melee weapons)
+
+***
+
+Exacting Shot
+Enchantment
+Level: Ranger 2
+Components: V,S
+Area: Self
+Duration: 1 minute/level
+
+The ranged weapon you are holding while casting the spell gains the Keen property.
+
+***
+
+Fleshshiver
+Caster Level(s): Wizard / Sorcerer 6
+School: Necromancy
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect/Target: Ray
+Duration: Instantaneous
+Save: Fortitude partial
+Spell Resistance: Yes
+
+A creature with Hit Dice less than or equal to your caster level is automatically stunned for 1 round (no saving throw). A creature with more Hit Dice than your caster level is allowed a Fortitude saving throw to negate the stunning effect.
+
+In the following round, the target must make a Fortitude save or take 1d6 points of magic damage per caster level (maximum 15d6) and be dazed by the pain for 1d4 + 2 rounds.
+
+***
+
+Hailstones
+Caster Level(s): Sorcerer/Wizard 3
+School: Conjuration
+Descriptor(s): Cold
+Component(s): Verbal, Somatic
+Range: Long
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: None
+Spell Resistance: Yes
+
+You create frigid hailstones that strike your enemies. You must succeed on a ranged touch attack to hit with a globe. Each hailstone deals 5d6 points of cold damage. For every five caster levels, you gain an additional hailstone (maximum of four stones at 20th level).
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+***
+
+Improved Elemental Orb
+Caster Level(s): Sorc/Wiz 6
+School: Conjuration
+Component(s): Verbal, Somatic
+Range: Long
+Area of Effect / Target: Target creature
+Duration: Instantaneous
+Save: Fortitude partial
+Spell Resistance: No
+
+The caster chooses from one of the 5 elements and flings a ball of that element at their target (as the Orb of X spells). The damage dealt is 1d6 per caster level (maximum 20d6).
+
+***
+
+All orb spells are granted to druids at +1 level (level 5 spell for orb of fire, etc)
+
+***
+

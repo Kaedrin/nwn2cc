@@ -1,0 +1,9 @@
+Type of Feat: Epic
+Prerequisites: 20/day Bard Songs, Perform 24.
+Specifics: This song damages all enemies within 20 feet for 5 rounds. The total sonic damage caused is equal to 2*Perform skill; the minimum damage caused per target is Perform/3. For example, with Perform 30, a total of 60 points of damage is inflicted each round. If six (or more) enemies are affected, they would each take 10 sonic damage per round. This ability has a cooldown of 20 rounds.
+Use: Selected.
+
+Type of Feat: Epic
+Prerequisites: 20 Bard Songs/day, Perform 24.
+Specifics: This song damages enemies within 20 feet for 5 rounds. The damage caused to the first enemy is equal to the Perform skill; the second enemy receives Perform skill * (2/3) damage; three or more enemies receive damage equal to Perform skill/2. The total damage is capped at 6 enemies. This ability has a cooldown of 20 rounds.
+Use: Selected.

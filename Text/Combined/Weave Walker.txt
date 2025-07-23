@@ -1,0 +1,68 @@
+Shaco: This is the class I was thinking of (not Nightblade). It's essentially an arcane Nightcrawler with no sneak attack. *cough* Posted it in the wrong forum. Looked like player blah blah blah something something. :P
+
+Weave Walker
+
+x
+
+This is a 30 level base class. You may not take any other classes.
+
+Class Features
+
+HD: d8 
+BAB: Medium
+High Saves: Fort, Ref
+Weapon proficiency: Simple and Bard.
+Armor proficiency: Light armor.
+
+Class Skills: Appraise, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Disable Device, Diplomacy, Heal, Intimidate, Listen, Lore, Open Locks, Search, Sleight of Hand, Spellcraft, Spot, Survival, Tumble, and Use Magic Device
+Skill Points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Poison Use, Light or Dark, Evasion, Hide in Plain Sight
+Level 2: Lesser Breach
+Level 3: Least Spell Mantle
+Level 4: Mark, Recall, Armor of the Weave
+Level 5: Teleport Bomb (Entangle)
+Level 6: Protection of the Weave, Insightful Strike
+Level 7: Teleport Jump
+Level 8: Accelerated Movement
+Level 9: Lesser Spell Mantle
+Level 10: Poison Immunity, Teleport Bomb (Explosive)
+Level 11: Improved Evasion
+Level 12: Greater Breach
+Level 13: Defensive Roll
+Level 14: Teleport Gate
+Level 15: Spell Mantle, Teleport Bomb (Weakening)
+Level 16: Improved Uncanny Dodge
+Level 17: 
+Level 18: 
+Level 19: 
+Level 20: Teleport Bomb (Disruptive)
+Level 21: Greater Spell Mantle
+Level 22: Disjunct
+Level 23: Bonus Epic Feat
+Level 24: Combat Insight
+Level 25: Teleport Bomb (Weakening Explosive)
+Level 26: Bonus Epic Feat
+Level 27: 
+Level 28: 
+Level 29: Bonus Epic Feat
+Level 30: Teleport Bomb (Entangling, Weakening, Explosive)
+
+Light or Dark - You choose the Weave or the Shadow Weave as your source of power. You gain a bonus to Dodge AC equal to your Int modifier.
+Lesser Breach - 30s cooldown.
+Greater Breach - 30s cooldown (replaces Lesser Breach).
+Disjunct - 30s cooldown.
+Least Spell Mantle - 60s cooldown.
+Lesser Spell Mantle - 60s cooldown (replaces Least Spell Mantle).
+Spell Mantle - 60s cooldown (replaces Lesser Spell Mantle).
+Greater Spell Mantle - 60s cooldown (replaces Spell Mantle).
+Mark - 60s cooldown. Allows you to set a safe location for teleporting.
+Recall - 60s cooldown. Allows you to safely escape to a set location, as long as it is in the same area.
+Protection of the Weave - Grants 14 + CL spell resistance, bonus to saves equal to your Con modifier.
+Armor of the Weave - Grants +1 Armor Enhance, Deflection, and Shield Enhance for every 6 additional levels (+2 at 10th, +3 at 16th, +4 at 22nd, and +5 at 28th).
+Teleport Bomb (Entangle) - As Entangle, use Int for DC
+Accelerated Movement - 33% move speed buff
+Teleport Jump - Instantly move to any spot, L range (~35-40m) (30s cooldown)
+Teleport Gate - You and all allies within 30' move to any spot, L range (~35-40m)  (5 minute cooldown)

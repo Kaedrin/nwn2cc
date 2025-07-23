@@ -1,0 +1,6 @@
+2DA V2.0
+
+  LABEL                             ReqType ReqParam1 ReqParam2 
+0 LoreSkill                         SKILL   7         12        
+1 Spellcasting                      SPELL   2         ****      
+2 FEAT_CHILD_OF_NIGHT_QUALIFICATION FEAT    2272      ****      

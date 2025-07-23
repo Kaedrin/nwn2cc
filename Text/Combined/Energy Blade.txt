@@ -1,0 +1,33 @@
+[spoiler="Energy Blade"]
+
+Class Features
+
+This base class has 30 levels.
+
+HD: d10
+BAB: Medium
+High Saves: Ref, Will
+Weapon proficiency: Simple, Rogue.
+Armor proficiency: Light Armor and shields (except tower shields).
+
+Class Skills: Concentration, Craft (All), Hide, Listen, Lore, Move Silently, Parry, Spot, and Tumble.
+
+Skill Points: 4 + Int modifier
+
+Class Abilities
+
+Blade Mastery: An energy blade masters the use of a single rapier or a pair of short swords. This mastery improves as the character gains higher levels. At 1st level the energy blade gains Weapon Focus (Rapier) and Weapon Focus (Short Sword) as bonus feats. At 9th level the energy blade gains Greater Weapon Focus (Rapier) and Greater Weapon Focus (Short Sword).
+
+In addition, at 4th level and every four levels thereafter, the energy blade gains a cumulative +1 enhancement bonus on attack rolls and damage rolls (+2 at 8th level, +3 at 12th level, +4 at 16th level, and +5 at 20th level). At 25th level it improves to +6 and at 30th level it improves to +7. When dual wielding this bonus is reduced by 1 (minimum +1 enhance bonus). 
+
+Energy Strike: At 3rd level, an energy blade empowers her weapon with pure energy which causes it to deal an additional 4 points of positive energy damage (2 points for each weapon if dual wielding). At 11th level this damage bonus increases to 5 points of positive energy damage (3 points main hand, 2 points off hand if dual wielding). At 19th level this damage bonus increases to 6 points of positive energy damage (3 points for each weapon if dual wielding). At 27th level this damage bonus increases to 7 points of positive energy damage (4 points main hand, 3 points off hand if dual wielding).
+
+Energy Vigor: An energy blade gains a 33% move speed bonus at 6th level.
+
+Energy Blade Enhancement (Su): At 6th level, an energy blade gains the ability to enhance her weapon. Any rapier or short sword she wields gains the Keen property. At 10th level she can choose from the four elements and infuse the weapon with +1d6 elemental damage (fire, cold, electrical, or acid). At 14th level she gains +1 Vampiric (main hand only). At 18th level she gains +2 Vampiric (main hand only). At 22nd level she gains massive criticals. At 30th level she gains Wounding Critical as a bonus feat.
+
+Whirlwind Attack: At 9th level, an energy blade gains Whirlwind Attack as a bonus feat.
+
+Bonus Epic Feats: The beguiler gains a bonus epic feat at levels 23, 26, and 29.
+
+[/spoiler]

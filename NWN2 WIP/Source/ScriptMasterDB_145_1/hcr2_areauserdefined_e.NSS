@@ -1,0 +1,25 @@
+/*
+Filename:           hcr2_areauserdef_e
+System:             core (Area OnUserDefined event script)
+Author:             Edward Beck (0100010)
+Date Created:       Oct 7th, 2006.
+Summary:
+HCR2 Area OnUserDefined Event.
+This script should be attachted to an Area's OnUserDefined event under
+the scripts section of Area properties.
+
+Variables available to all area event scripts:
+GetLocalInt(OBJECT_SELF, H2_PLAYERS_IN_AREA) returns the number of players in the area.
+
+-----------------
+Revision: v1.05
+Adjusted event call function
+
+*/
+
+#include "hcr2_core_i"
+
+void main()
+{
+    h2_RunObjectEventScripts(H2_AREAEVENT_ON_USER_DEFINED, OBJECT_SELF);
+}

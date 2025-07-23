@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8">
+
+<UIScene name="hv_p_h_mirror_puzzle2" width=488 height=226 x=ALIGN_CENTER y=ALIGN_CENTER draggable="true" fadeout="0.3" fadein="0.3" backoutkey=true
+         scriptloadable=true priority="SCENE_SCRIPT" modal="true" />
+
+<!-- Local vars:
+	local:0 - angle
+	local:1 - steps
+	local:2 - selected mirror
+	local:3 - selected direction
+-->
+
+	<!-- Mirror selection -->	
+	<UIPane name="mirror_selection_pane" x=10 y=10 width=100 height=187 >
+		<UIText name="mirror_selection_text2" text="Target:" x=0 y=0 width=PARENT_WIDTH height=40 align=center valign=middle fontfamily="Default" style="2" 
+				mutliline=2 maxlines=2/>
+		<UIButton name="mirror1" x=8 y=40 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=1 groupmemberid=1
+				OnSelected0=UIObject_Misc_SetLocalVarString(local:2,"Mirror1")
+				OnSelected1=UIObject_Misc_ExecuteServerScript("gui_hv_p_h","UpdateMirrorAngle",local:2) />
+		<UIText name="mirror1_t" text="Mirror 1" x=35 y=40 width=PARENT_WIDTH height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+		<UIButton name="mirror2" x=8 y=65 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=1 groupmemberid=2
+				OnSelected0=UIObject_Misc_SetLocalVarString(local:2,"Mirror2")
+				OnSelected1=UIObject_Misc_ExecuteServerScript("gui_hv_p_h","UpdateMirrorAngle",local:2) />
+		<UIText name="mirror2_t" text="Mirror 2" x=35 y=65 width=PARENT_WIDTH height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />		
+		<UIButton name="mirror3" x=8 y=90 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=1 groupmemberid=3
+				OnSelected0=UIObject_Misc_SetLocalVarString(local:2,"Mirror3")
+				OnSelected1=UIObject_Misc_ExecuteServerScript("gui_hv_p_h","UpdateMirrorAngle",local:2) />
+		<UIText name="mirror3_t" text="Mirror 3" x=35 y=90 width=PARENT_WIDTH height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+		<UIButton name="mirror4" x=8 y=115 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=1 groupmemberid=4
+				OnSelected0=UIObject_Misc_SetLocalVarString(local:2,"Mirror4")
+				OnSelected1=UIObject_Misc_ExecuteServerScript("gui_hv_p_h","UpdateMirrorAngle",local:2) />
+		<UIText name="mirror4_t" text="Mirror 4" x=35 y=115 width=PARENT_WIDTH height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+		<UIButton name="machine" x=8 y=140 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=1 groupmemberid=5
+				OnSelected0=UIObject_Misc_SetLocalVarString(local:2,"Machine")
+				OnSelected1=UIObject_Misc_ExecuteServerScript("gui_hv_p_h","UpdateMachineAngle",local:2) />
+		<UIText name="machine_t" text="Machine" x=35 y=140 width=PARENT_WIDTH height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+		<UIFrame x=0 y=0 width=PARENT_WIDTH height=PARENT_HEIGHT topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+				bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="cloth_bg.tga" border=5 />
+	</UIPane>
+
+	<!-- Angle scrollbar -->
+	<UIPane name="GE_CONTAINER" x=120 y=10 width=248 height=70 >
+		<UIText name="TEXT_ANGLE" text="Angle:" x=ALIGN_LEFT y=20 align=left valign="middle" width=80 height=24
+			editable="false" selectable="false" multiline=false fontfamily="Body_Font" style=1/>
+		<UIText name="TEXT_ANGLE_VALUE" x=ALIGN_CENTER y=20 align=center valign="middle" width=80 height=24 
+			editable="false" selectable="false" multiline=false fontfamily="Body_Font" style=1
+			update=true OnUpdate0=UIText_OnUpdate_DisplayScrollbarValue("scrollbar_angle_mirror")
+			OnUpdate1=UIObject_Misc_SetLocalVarString(local:0) />
+
+		<UIScrollBar name="scrollbar_angle_mirror" style="STYLE_OPTION_SLIDER" x=0 y=44 width=PARENT_WIDTH height=24 minvalue=0 maxvalue=360 minsize=0 maxsize=360 >
+		</UIScrollBar>
+	</UIPane>
+
+	<!-- Steps scrollbar -->
+	<UIPane name="GE_CONTAINER2" x=120 y=90 width=248 height=70 >
+		<UIText name="TEXT_STEPS" text="Steps:" x=ALIGN_LEFT y=20 align=left valign="middle" width=80 height=24
+			editable="false" selectable="false" multiline=false fontfamily="Body_Font" style=1/>
+		<UIText name="TEXT_STEPS_VALUE" x=ALIGN_CENTER y=20 align=center valign="middle" width=80 height=24 
+			editable="false" selectable="false" multiline=false fontfamily="Body_Font" style=1
+			update=true OnUpdate0=UIText_OnUpdate_DisplayScrollbarValue("scrollbar_steps")
+			OnUpdate1=UIObject_Misc_SetLocalVarString(local:1) />
+
+		<UIScrollBar name="scrollbar_steps" style="STYLE_OPTION_SLIDER" x=0 y=44 width=PARENT_WIDTH height=24 minvalue=1 maxvalue=20 minsize=1 maxsize=20 >
+		</UIScrollBar>
+	</UIPane>
+
+	<!-- Direction selection -->	
+	<UIPane name="direction_selection_pane" x=378 y=10 width=100 height=150 >
+		<UIText name="direction_selection_text2" text="Direction:" x=0 y=0 width=PARENT_WIDTH height=40 align=center valign=middle fontfamily="Default" style="2" 
+				mutliline=2 maxlines=2/>
+		<UIButton name="north" x=8 y=40 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=1
+				OnSelected=UIObject_Misc_SetLocalVarString(local:3,"north") />
+		<UIText name="north_t" text="North" x=35 y=40 width=PARENT_WIDTH height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+		<UIButton name="south" x=8 y=65 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=2
+				OnSelected=UIObject_Misc_SetLocalVarString(local:3,"south") />
+		<UIText name="south_t" text="South" x=35 y=65 width=PARENT_WIDTH height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />		
+		<UIButton name="east" x=8 y=90 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=3
+				OnSelected=UIObject_Misc_SetLocalVarString(local:3,"east") />
+		<UIText name="east_t" text="East" x=35 y=90 width=PARENT_WIDTH height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+		<UIButton name="west" x=8 y=115 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=4
+				OnSelected=UIObject_Misc_SetLocalVarString(local:3,"west") />
+		<UIText name="west_t" text="West" x=35 y=115 width=PARENT_WIDTH height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+		<UIFrame x=0 y=0 width=PARENT_WIDTH height=PARENT_HEIGHT topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+				bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="cloth_bg.tga" border=5 />
+	</UIPane>
+
+
+
+	<!-- BUTTON CONTAINER -->
+	<UIPane name="BUTTON_CONTAINER" x=120 y=180 width=PARENT_WIDTH height=32 >
+		<!-- Angle button -->
+		<UIButton name="okbutton" text="Set Angle" width="90" x=0 y=0 style="STYLE_SMALL_BUTTON" OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_hv_p_h","SetMirrorAngle",local:0,local:2) />
+		<!-- Fire button -->
+		<UIButton name="firebutton" text="Activate" width="90" x=190 y=0 style="STYLE_SMALL_BUTTON" OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_hv_p_h","ActivateMachine") />
+		<!-- Move Button -->
+		<UIButton name="cancelbutton" text="Move" width="90" x=95 y=0 style="STYLE_SMALL_BUTTON" OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_hv_p_h","MoveMirror",local:1,local:2,local:3) />
+		<!-- Close Button -->
+		<UIButton  text="Close" width="70" x=285 y=0 style="STYLE_SMALL_BUTTON" OnLeftClick0=UIButton_Input_ScreenClose() />
+	</UIPane>
+
+	<!-- Main Window OnLeftClick1=UIButton_Input_ScreenClose() -->
+	<UIFrame width=PARENT_WIDTH height=PARENT_HEIGHT topleft="frame1_tl.tga" topright="frame1_tr.tga" bottomleft="frame1_bl.tga"
+		bottomright="frame1_BR.tga" top="frame1_t.tga" bottom="frame1_b.tga"
+		left="frame1_l.tga" right="frame1_r.tga" border=32 />		
+	<UIFrame x=7 y=8 width=474 height=210 fillstyle="tile" fill="cloth_bg.tga"/>		

@@ -1,0 +1,17 @@
+2DA V2.0
+
+   LABEL                              ReqType  ReqParam1    ReqParam2 
+0  MoveSilently                       SKILL    8            8         
+1  Hide                               SKILL    5            8         
+2  ScriptVar                          VAR      cmi_AllowBFZ 0         
+3  Lore                               SKILL    7            8         
+4  Divine                             DIVSPELL 2            ****      
+5  IronWil                            FEAT     22           ****      
+6  SneakAttack                        FEATOR   221          ****      
+7  FEAT_PRESTIGE_DEATH_ATTACK_1       FEATOR   455          ****      
+8  FEAT_BLACKGUARD_SNEAK_ATTACK_1D6   FEATOR   460          ****      
+9  FEAT_NW9_SNEAK_ATTACK_1            FEATOR   1497         ****      
+10 FEAT_ARCTRICKSTER_SNEAK_ATTACK_1   FEATOR   1502         ****      
+11 FEAT_SHADOWTHIEFAMN_SNEAK_ATTACK_1 FEATOR   1562         ****      
+12 FEAT_BLEEDING_WOUND_I              FEATOR   2052         ****      
+13 FEAT_NW9_FRANTIC_REACTIONS         FEATOR   1806         ****      

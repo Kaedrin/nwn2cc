@@ -1,0 +1,292 @@
+The Beastmaster is not listed because it is already in the list of 1.46 approved items. The following are the items that I'd like to work on for 1.46 (preferably in small pieces as previously discussed with Sapphire and Archimedes).
+
+[color=#339933][size=14][b]General items under review:[/b][/size][/color]
+[list]
+[*]Fighters granted "Prereq feats" that enable them to qualify for "Fighter only" feats. Fighter only feats changed to use these prereq feats. This opens the possibility of future classes being able to take Fighter only feats.
+[*]Epic Curse changed to require 22 Hexblade levels when approved multiclassing/pure
+[*]Arcane Servant of Darkness updated with additional synergy
+[*]http://dalelandsbeyond.forumotion.com/t30671-epic-traps
+[*]AK/WoD oil stacking examined 
+[*]Non-evil PrC for Paladins/Knights (possibly based on Soldier of Light)
+[*]Breach changes - http://dalelandsbeyond.forumotion.com/t27483-breach-spell-list
+[*]FoM changes - http://dalelandsbeyond.forumotion.com/t27698-bigby-s-grasping
+[*]Evaluate Skill Mastery for level 9 NIs
+[*]Death attack exploit fix: http://dalelandsbeyond.forumotion.com/t30488-replace-death-attack-with-sneak-attack
+[*]Verify classes with SR can take epic feats.
+[*]New PrC: Arcane Fist (add Arcane progression to existing SF)
+[*]New Ranger Combat Style: Crossbow (Crossbow Sniper -> Rapid Reload -> Precision Shots (+2 AB) -> Epic Reload (+1 Attack at full BAB))
+[*]New PrC: Arbalest (Marksman with Heavy Crossbow)
+[*]New Ranger Combat Style: Combat Insight
+[*]New PrC: Hulking Hurler (throwing weapon master)
+[*]New PrC: Paragon Summoner
+[*]Ninja replaced with Shadowblade (http://kaedrin-nwn2.blogspot.com/2014/08/Shadowblade.html)
+[/list]
+
+[color=#339933][size=14][b]Preliminary Cure spell update[/b][/size][/color]
+[spoiler]
+Example (using a cleric), * means a new spell.
+Cure Light Wounds - level 1, touch range, heals d8 +5 max.
+* Heal Light Wounds - level 2, medium range, heals d8 +10 max.
+Cure Moderate Wounds - level 2, touch range, heals 2d8 +10 max.
+* Heal Moderate Wounds - level 3, medium range, heals 2d8 +15 max.
+Cure Serious Wounds - level 3, touch range, heals 3d8 +15 max.
+* Heal Serious Wounds - level 4, medium range, heals 3d8 + 20 max.
+Cure Critical Wounds - level 4, touch range, heals 4d8 +20 max.
+* Heal Critical Wounds - level 5, touch range, heals 4d8 +25 max.
+Heal - level 6, touch range, heals 150 max.
+* Heal Wounds - level 7, medium range, heals 200 max (10 * CL).
+* Greater Heal, level 9, touch range, heals 300 max (15 * CL).
+Mass Heal - level 9, short range, heals 250 max (10 * CL).
+[/spoiler]
+[list]
+[*]New ranged cure spells (+1 spell level of the touch version)
+[*]Cure spells correctly account for all feats that modify them (such as mass cure spells not benefiting from Augment)
+[*]Potential New Feat: Empower Healing (expend a turn use, next cure spell is empowered)
+[*]New Feat: Magic of the Land (RotW) - Add spell's level x2 to the amount of damage healed
+[*]New Feat: Augment Healing (CD) - Add spell's level x2 to the amount of damage healed
+[*]New Feat: http://www.realmshelps.net/cgi-bin/featbox.pl?feat=Initiate_of_Ilmater
+[*]Mass Cure spells changed to only be +2 spell level, ie, mass cure light wounds is level 3.
+[/list]
+
+
+[color=#339933][size=14][b]Ranger changes:[/b][/size][/color]
+[list]
+[*]Hit Dice upgraded to d10
+[*]Bonus Feat gained at level 14
+[*]Improved Evasion gained at level 16
+[*]Bonus Feat gained at level 18
+[*]New Spell: Gravity Bow (Pathfinder)
+[*]New Spell: Abundant Ammunition (Pathfinder)
+[*]New Spell: Longstrider (Pathfinder's Linebreaker)
+[*]New Spell: (Greater) Animal Aspect (Pathfinder)
+[*]New Spell: Bloodhound (3.5's Scent)
+[*]New Spell: Chameleon Stride (Pathfinder)
+[*]New Spell: Strong Jaw (Pathfinder)
+[*]New Spell: Aspect of the Wolf (Pathfinder)
+[/list]
+
+Ranger spell descriptions can be found here: http://www.d20pfsrd.com/magic/spell-lists-and-domains/spell-lists---ranger
+
+[color=#339933][size=14][b]Potential 1.46 Feats[/b][/size][/color]
+New Feat: Improved Chastise Spirits
+You have become skilled enough with Chastise Spirits to harm non-spirits with your energy burst.
+Prerequisites: Ghost Warrior
+Benefit: Your Chastise Spirits ability will deal damage to enemies that are not spirits (excluding constructs).
+
+New Feat: Improved Weaken Spirits
+You have become skilled enough with Weaken Spirits to harm non-spirits with your ability.
+Prerequisites: Improved Chastise Spirits
+Benefit: Your Weaken Spirits will affect affect enemies that are not spirits (excluding constructs).
+
+Spirit Champion
+Type of Feat: Spellcasting
+Prerequisites: Spirit Shaman level 9, 18 Wisdom
+Benefit: When you take levels in Divine Champion, you gain spirit shaman spellcasting progression at each odd level. This feat should be taken before your first level in divine champion. Using Divine Wrath will restore a use of your Spirit Form ability.
+
+New Feat: Shadowcaster
+Type of Feat: Spellcasting
+Prerequisite: Shadowdancer 9
+Benefit: You gain access to a small pool of shadow magic (six uses per day). You may cast Shield, Mage Armor, or Expeditious Retreat. Your caster level is twice your Shadowdancer level.
+
+New Feat: Epic Supremacy
+Type of Feat: Epic
+Prerequisite: Fighter 26, Weapon Supremacy, any Melee Weapon Mastery feat
+Benefit: You gain an additional attack while wielding a melee weapon. This bonus does not stack with the added attack from any Haste effect.
+Special: A fighter can select Epic Supremacy as one of his fighter bonus feats.
+Use: Automatic.
+
+* New Reserve Feat: Wind-Guided Arrows (requires Haze of Swirling Dust be memorized, grants +2 AB to ranged attacks).
+* New Spell: Haze of Swirling Dust (Ranger 3 only, 8rd duration, anyone in 20' burst area has 50% concealment, anyone in area takes 1d4 per 2 CL (max 5d4), Reflex save for half).
+
+New Feat: Blinding Distraction
+You use a handful of fine sand to throw in the face of your opponent, reducing their visibility.
+Prerequisites: Feint
+Benefit: Your opponent must make a Reflex save (DC equal to your total Bluff skill) or suffer a Spot penalty equal to half their total Spot skill for two rounds. They also suffer a -2 AB penalty regardless of their saving throw. This ability has a 30s cooldown.
+
+New Feat: Dazzling Combatant
+Your panache in battle coupled with your skill allows your improved reaction ability to last longer.
+Prerequisites: Improved Reaction, Swashbuckler Dodge
+Benefit: Your Improved Reaction ability now lasts 2 rounds for every level of Duelist as well as one additional round for each Dervish and Swashbuckler level you have.
+Note: This feat has no effect if you have levels in any class other than Swashbuckler, Dervish, and Duelist.
+
+New Feat: Arcane Bloodline
+Your bloodline has a history of strong arcane magic.
+Prerequisites: Summon Familiar
+Benefit: You activate Reserve feats as though the highest spell level available was 2 higher than normal (maximum spell level of 10).
+
+New Feat: Called Shot
+Type of Feat: General
+Your skill with ranged weapons lets you score hits others would miss due to an opponent's cover.
+Prerequisite: BAB +3, Point Blank Shot
+Benefit: Your target no longer benefits from concealment for two rounds. This ability is instant and has a five-round cooldown.
+Special: A fighter can select Called Shot as one of his fighter bonus feats.
+Use: Automatic.
+
+New Feat: Dirgesinger
+Your weave the oral history and traditions of your tribe into your bardic performances.
+Prerequisites: Rage 2/day, Bardsong 4/day
+Benefit: You add half your Barbarian levels (capped by your Bard level) to your Bard level to determine the effects of songs and inspirations you already know. This does not grant additional uses of bardsong or new songs.
+
+New Feat: Epic Rapid Reload
+Prerequisites: Rapid Reload, Ranger 20
+You gain an additional attack when using a crossbow. This extra attack does not stack with a Barbarian's Whirlwind Frenzy, Haste, or a Bladesinger's Song of Fury.
+
+New Ranger Combat Style: Combat Insight
+Combat Insight at 2nd, new feat adding spell caster and companion synergy with duelist at 6th, monk's wis to AC at 12th, and Int to Dmg at 21st (caps at +2 if non-Ranger levels are taken). An intelligent melee subversion of the Ranger trope. Wisdom still needed for spells, etc.
+
+
+Hulking Hurler
+[spoiler]Throw
+
+x 
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort, Ref
+Weapon proficiency: Martial.
+Armor proficiency: None.
+
+Class Skills: Craft Weapon, Heal, Intimidate, Listen, Lore, Parry, Survival, Spot, Taunt, and Tumble
+
+Skill Points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Replenish Ammo
+Level 2: Improved Crit
+Level 3: Bonus Feat
+Level 4: Deadly Aim
+Level 5: Power Crit
+Level 6: Bonus Feat
+Level 7: Brutal Throw
+Level 8: Good Aim
+Level 9: Bonus Feat
+Level 10: Rapid Throw
+
+Imp Crit
+Deadly Aim (Power Attack for Thrown)
+Rapid Throw (+1 Attack)
+Brutal Throw (Str to AB)
+[/spoiler]
+
+
+Paragon Summoner
+[spoiler]Paragon Summoner
+Requirements: 10 Spellcraft, Augment Summoning
+BAB: Medium
+Saves: Will
+Skill Pts: 2
+HD: d6
+Levels: 5/5 Spellcasting progression
+L1: Your summons gain bonus hit points equal to twice their hit dice.
+L2: Your summons gain an enhance bonus on their weapons equal to your class level and an attack bonus [color=green](+1 at 1st, +2 at 3rd, and +3 at 5th).
+[/color]L3: Your summons gain a deflection and armor enhance bonus equal to your class level. [color=green](This does not stack with Warden abilities)
+[/color]L4: Your summons gain 2 points of regen (3 at level 5)
+L5: Your summons gain spell resistance equal to [color=green]12[/color] + your hit dice and 5 points of DR/- [/spoiler]
+
+
+[color=#00acc0][b][size=14]Changes for Rogues:[/size][/b][/color]
+
+HD from d6 to d8
+
+New Rogue Talents available:
+
+    Bleeding Wound I
+    Bleeding Wound II
+    Bleeding Wound III
+    Choking Bomb (Requires Poison Bomb)
+    Smoke Bomb
+    Poison Bomb (Requires Smoke Bomb)
+    Blinding Bomb (10+) (Requires Choking Bomb)
+    Minor Magic (Darkness) (3/day Darkness spell)
+    Major Magic (Expeditious Retreat) (2/day Expeditious Retreat spell, requires Minor Magic)
+
+Bonus Feats
+Level 2 Use Poison
+Level 4 Stealthy
+Level 8 Skill Affinity (Move Silently)
+Level 12 Skill Affinity (Hide)
+Level 16 Greater Skill Affinity (Move Silently)
+Level 20 Swift and Silent
+
+Bomb descriptions can be found here: http://www.d20pfsrd.com/classes/alternate-classes/ninja
+
+[color=#399933][size=14][b]Possible Barbarian Changes[/b][/size][/color]
+2: Extend Rage I
+4: Extra Rage I
+6: Renewed Vigor (Heal at the beginning at rage)
+8: Regenerative Vigor (1 pt fast healing per 6 barbarian levels)
+10: Extend Rage II
+12 Fearless Rage
+14: Elemental Rage (choose element) +1d6 dmg
+16: Scent
+18: Primal Scent (+ 1/2 Barb level to Spot, Listen, and Survival)
+20: Crippling Blow
+22: Superstition (+2 Saves vs Spells, +1 for every 4 barbarian levels)
+24: Renewed Vitality (ignore negative levels and ability damage)
+26: Increased DR (+1 DR)
+28: Increased DR (+1 DR)
+30: Increased DR (+1 DR)
+http://dalelandsbeyond.forumotion.com/t30772p15-barbarian-suggestions
+
+[color=#399933][size=14][b]Possible new feats from Pathfinder[/b][/size][/color]
+
+[spoiler]
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/necromancers-of-the-northwest/general-feats---3rd-party---necromancers-of-the-northwest/master-conjurer
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/arcane-insight
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/dance-of-the-dead
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/dark-fog-shot
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/dead-shot
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/dance-of-death-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/dance-of-ruin-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/immobilizing-shot-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/surprise-shot-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/master-poisoner
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/sean-k-reynolds-games/combat-feats---3rd-party---sean-k-reynolds-games/monster-hunter-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rogue-genius-games/combat-feats/arcane-shield-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/power-shot
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/shadowdancer-s-companion
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/shadowdancer-s-familiar
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/silencing-shot
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/kobold-press/general-feats---3rd-party---kobold-press/dispel-mastery
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/kobold-press/general-feats---3rd-party---kobold-press/elemental-boost
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/kobold-press/general-feats---3rd-party---kobold-press/improved-caster-level
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/kobold-press/general-feats---3rd-party---kobold-press/touch-mastery
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/adamant-entertainment/general-feats/additional-combat-style
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/adamant-entertainment/epic-feats---3rd-party---adamant-entertainment/epic-combat-style-epic
+
+[/spoiler]
+
+**
+
+Based on a back and forth discussion with cdnspr a small suggested change to the Arcane Servant of Darkness feat would be:
+
+Give Blackguard a free Siphon the Weave at 8 Blackguard to accentuate their Turn Undead capability (coupled with their Manifest Death spell). Add a +1 DC/2 BG levels for the Curse of Silence (as knockdown fits a BG). Siphon will give the BG another free DC on curses that a pure Hex won't have and that a VT is unlikely to have. Helps solidify a higher DC path for a Blackguard build compared to the variety the VT has and the pure flexibility the pure Hexblade has.
+
+**
+
+Channel Energy - should it only be maximized with 20 levels of Paladin or should it be 20 levels of Turn Undead classes (like Pathfinder). Further, should the rest of the classes that get Turn Undead get Channel Energy? At 30 it's a 15d6 roll so a max of 90 isn't exactly a huge deal for two turn undead uses. It does add a nice boost of party healing when needed.

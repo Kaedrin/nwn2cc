@@ -1,0 +1,93 @@
+It seems I had a base class designed that I forgot about. When I was trying to create a page for the elementalist prc from the prc polls, the page already existed with this class. :P
+
+Elementalist
+
+Restrictions
+Class: May not be any other base or prestige class.
+
+Class Skills: ?
+Skill points: 2 + Int modifier
+
+Class Features
+
+HD: d6
+BAB: Low
+High Saves: Fort, Will
+Weapon proficiency: Simple, Wizards
+Armor proficiency: Light, Shields, Tower Shields
+
+Class Abilities
+
+Level 1: Elemental Blast, Blast Shape, Elemental Choice
+Level 2: Elemental Shroud
+Level 3:
+Level 4: Elemental Focus (Precision), Blast Shape
+Level 5:
+Level 6: Elemental Servant
+Level 7:
+Level 8: Elemental Resistance (10), Blast Shape
+Level 9:
+Level 10: Imbued Essence
+Level 11:
+Level 12: Blast Shape
+Level 13:
+Level 14: Elemental Focus (Healing)
+Level 15:
+Level 16: Blast Shape
+Level 17:
+Level 18: Elemental Resistance (20)
+Level 19:
+Level 20: Greater Imbued Essence, Blast Shape
+Level 21:
+Level 22: Improved Elemental Shroud
+Level 23: Bonus Epic Feat
+Level 24: Elemental Focus (Power), Blast Shape
+Level 25:
+Level 26: Bonus Epic Feat
+Level 27:
+Level 28: Elemental Resistance (30), Blast Shape
+Level 29: Bonus Epic Feat
+Level 30: Wildshape (Elemental)
+
+Starting Equipment: Imbued Sceptre (+1d6 blast dice damage) and Tower Shield.
+
+Elemental Choice: You choose from one of the four elements.
+
+Elemental Blast: 1d6 at 1st and +1d6 at each odd level (15d6 at 29th).
+
+Shapes: Orb, Cone, Burst, Bolt, Chain, Blast, Touch
+
+Focus: Precision (No allies injured), Power (+50% damage), Healing (1 pt per blast die)
+
+Elemental Shroud: Self damage shield = 1 for every 2 points of Con modifier (6 pts max).
+
+Imbued Essence: Gain minor elemental immunities.
+Greater Imbued Essence: Gain remaining elemental immunities.
+Wildshape (Elemental): At will, can continue to use blast in elemental form.
+
+New Feats:
+
+Improved Orb (2x orbs)
+Improved Cone (knockdown)
+Improved Burst (stun)
+Improved Bolt (clinging)
+Improved Chain (continues if misses)
+Improved Blast (2x area)
+Improved Touch (no resists)
+Elemental Mastery - Binding (slows)
+Elemental Mastery - Force (the blast dice improve to d8s)
+Elemental Mastery - Weakening (-4 Con)
+Epic Elemental Shoud (+50% bonus)
+Energy Substitution - You turn your normal energy type into one of the other three
+
+**
+
+Is this essentially an elemental warlock? Or is it weaker than a warlock?
+
+It's pretty different. The only thing it has in common with a warlock is unlimited casting and the ability to vary shapes with their blasts.
+
+It has the ability to vary up their damage shapes as they desire. Think of it more like a war mage who wears armor and shields and channels the elements into the battlefield. Cones, bursts, ranged AE, bolts, chains, touchs.
+
+It has no defensive spells or abilities of any kind, no buffs, invisibility, or anything to keep it out of harms way. Even at 14th when they can turn on the mode that will heal them slightly it's not going to be much (max 16 pts at 30th, 7 pts when they get it) and they lose the damage bonus or the ability to avoid harming allies to keep that mode active. Low hit points too.
+
+It's a classic glass cannon style.

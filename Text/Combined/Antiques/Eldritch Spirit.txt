@@ -1,0 +1,107 @@
+This is just a rough cut at a possible warlock prc that blends the theme of the class with a variety of options. If I decide to do it, it will replace the Enlightened Spirit.
+
+Eldritch Spirit
+
+Although the fiendish origins of the warlock's power can't be denied, he need not fully embrace the darkness. Some warlocks start down the fiendish path, then seek another source to grant them power. Such rare individuals are called eldritch spirits.
+
+Requirements
+
+Skills: Lore 8
+Special: Eldritch blast 3d6
+
+Class Features
+
+HD: d6
+BAB: Medium
+High Saves: Will
+Weapon and Armor proficiency: None
+
+Class Skills: Bluff, Concentration, Craft Armor, Craft Weapon, Diplomacy, Intimidate, Lore, Spellcraft, Use Magic Device.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Source of Power, Spirit Aura
+Level 2: Eldritch Blast +1d6, Spirit Armor (+1 AC)
+Level 3: Spirit Blast
+Level 4: Eldritch Blast +2d6
+Level 5: Energy Resistance 10
+Level 6: Eldritch Blast +3d6, Spirit Armor (+2 AC)
+Level 7: Spirit Gift
+Level 8: Eldritch Blast +4d6
+Level 9: Improved Spirit Blast
+Level 10: Eldritch Blast +5d6, Spirit Shield, Spirit Armor (+3 AC)
+
+Invocation Progression: At each eldritch spirit level, the character gains new invocations per day as if she had also gained a warlock level. Eldritch Spirit levels stack with Warlock levels for the purpose of determine the invocations effects.
+
+Source of Power: At 1st level, an eldritch spirit must choose the source of their new power from the following: Celestial, Fey, Undeath, Shadow, Nature, Elemental Fire, Elemental Air, Elemental Water, Elemental Earth, Dragon
+
+Spirit Aura: At 1st level, an eldritch spirit is surrounded by the essence of their new power source. This aura provides them a constant benefit while reminding them of the ties to their benefactor.
+
+    Celestial: Aura of Inspiration (+1 AB to allies)
+    Fey: Aura of Whimsy (+2 Saves to allies)
+    Undeath: Aura of Decay (-2 Saves to enemies)
+    Shadow: Aura of Darkness (+4 Hide, Move Silently to allies)
+    Nature: Aura of Life (Regen 1 to allies)
+    Elemental Fire: Aura of Flames (1 pt Fire Damage Shield to allies)
+    Elemental Earth: Aura of Protection (DR 2/- to allies)
+    Elemental Air: Aura of Grace (allies gain 20% miss chance against ranged)
+    Elemental Water: Aura of Tides (20% slow to enemies)
+    Dragon: Aura of Fear (-2 AB to enemies)
+
+Spirit Armor: Beginning at 2nd level, you gain a +1 bonus to Armor Class (Dodge) due to being wreathed in the essence of your chosen power source. The bonus improves to +2 at 6th level and +3 at 10th level.
+
+Spirit Blast: At 3rd level, the eldritch spirit begins to channel the source of their power into their eldritch blasts. The bonus depends on the source of their power.
+
+    Celestial: +1 Divine damage per die of Eldritch Blast
+    Fey: +1 Magic damage per die of Eldritch Blast
+    Undeath: +1 Divine damage per die of Eldritch Blast
+    Shadow: +1 Divine damage per die of Eldritch Blast
+    Nature: +1 Positive damage per die of Eldritch Blast
+    Elemental Fire: +1 Fire damage per die of Eldritch Blast
+    Elemental Earth: +1 Acid damage per die of Eldritch Blast
+    Elemental Air: +1 Electrical damage per die of Eldritch Blast
+    Elemental Water: +1 Cold damage per die of Eldritch Blast
+    Dragon: +1 Magic damage per die of Eldritch Blast
+
+Energy Resistance 10: At 5th level, the eldritch spirit is granted a new resistance of their choice.
+
+Spirit Gift: At 7th level, the eldritch spirit is given a gift for their devotion to the new power. The gift depends on the source of their power.
+
+    Celestial: Bonus Feat (Touch of Healing), Touch of Healing always triggers as though a level 4 spell were memorized
+    Fey: Faerie's Fire (30 second cooldown)
+    Undeath: Imbue Vampiricy (equipped weapons gain 3pt Vampiric property)
+    Shadow: +2d6 dice of Sneak Attack
+    Nature: Aura of Life improves to regen 2
+    Elemental Fire: Aura of Flames improves to 2 pts
+    Elemental Earth: Bonus Feat (Toughness)
+    Elemental Air: Bonus Feat (Dash)
+    Elemental Water: Aura of Tides improves to 30%
+    Dragon: Dragon Breath (HD/3 d6 cone of random element each time, 30 second cooldown)
+
+Improved Spirit Blast: At 7th level, spirit blast improves to grant 2 points per die instead of 1.
+
+Spirit Shield: At 10th level, the eldritch spirit is further wrapped in the essence of their power source. This provides them with a spell resistance of 20.
+
+
+*****
+
+
+It was a matter of tradeoffs
+
+Enlightened Spirit gets +1 Invocation (shape invocation), Transform Magic (not easily done due to hard coding of dispels), Death Magic Immunity, +1 damage per die vs Undead, +1 damage per die vs Outsiders, no progression for their invocations, and Resistance 5.
+
+Eldritch Spirit gets +2 damage per die against all targets, an aura that affects the party or their enemies, Resistance 10, SR 20, a bonus feat (or improvement to their aura), and full progression of their invocations.
+
+***
+
+The Eldritch Spirit version is better IMO without being overpoweredly so while offering a nice variety of choices. It also doesn't compromise the core of the Warlock like the Enlightened Spirit does.
+
+A 20 Warlock has a 9d6 blast and full invocations vs a 10 Warlock/10 Enlightened Spirit who has a 10d6 blast and 10 levels of invocations + 1 bonus shape. A level 10 Warlock/10 Eldritch Spirit has a 10d6 blast and the full 20 levels of invocations. That alone is worth the price of admission. At 30 it is a wash between the two (other than being more party friendly).
+
+Power wise the PrC is between the Anointed Knight/Warrior of Darkness and the Duelist. :P
+
+Edit: A 30 Warlock also gets the 3 bonus epic feats for staying pure as well as continuing to progress their resilience and resistance abilities vs the ES's new abilities.
+
+
+

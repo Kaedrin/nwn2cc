@@ -1,0 +1,6 @@
+2DA V2.0
+
+  LABEL             ReqType  ReqParam1 ReqParam2 
+0 RemoveDisease     FEAT     302       ****      
+1 Paladin           CLASSOR  6         ****      
+2 LoreSkill         SKILL    7         4         

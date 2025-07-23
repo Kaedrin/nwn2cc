@@ -1,0 +1,19 @@
+2DA V2.0
+
+   FeatLabel                        FeatIndex List GrantedOnLevel OnMenu 
+0  FEAT_DMAGE_SPELLCASTING_BARD     3716      2    1              0      
+1  FEAT_DMAGE_SPELLCASTING_SORCERER 3717      2    1              0      
+2  FEAT_DMAGE_SPELLCASTING_WARLOCK  3718      2    1              0      
+3  FEAT_DMAGE_SPELLCASTING_WIZARD   3719      2    1              0      
+4  FEAT_EPIC_SPELL_EPIC_GATE        3224      0    21             2      
+5  FEAT_EPIC_SPELL_MASS_FOWL        3225      0    21             2      
+6  FEAT_EPIC_SPELL_ENTROPIC_HUSK    1992      0    21             2      
+7  FEAT_EPIC_SPELL_HELLBALL         876       0    21             2      
+8  SneakAttack                      221       3    3              0      
+9  SneakAttack2                     345       3    6              0      
+10 SneakAttack3                     346       3    9              0      
+11 ImpTwo                           20        3    10             0      
+12 FEAT_DMAGE_DAGGERCAST            3712      3    1              0      
+13 FEAT_DMAGE_DBLDAGGERCAST         3713      3    5              0      
+14 FEAT_DMAGE_ARCANEINFUSION        3714      3    7              1      
+15 FEAT_DMAGE_ARCANETHROW           3715      3    8              0      

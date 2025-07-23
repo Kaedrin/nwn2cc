@@ -1,0 +1,7 @@
+2DA V2.0
+
+  LABEL                                     ReqType ReqParam1 ReqParam2 
+0 WeapFocLongBow                            FEAT    101       ****      
+1 FEAT_COMBATSTYLE_RANGER_ARCHERY_MANY_SHOT FEAT    1732      ****      
+2 Ranger                                    CLASSOR 7         ****      
+3 LoreSkill                                 SKILL   7         4         

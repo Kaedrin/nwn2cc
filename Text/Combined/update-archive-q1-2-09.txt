@@ -1,0 +1,390 @@
+[[tabview]]
+[[tab August 10th, 2009]]
+##green|Last updated 9:30 EST##
+
+It's been a very, very, very wild and crazy year so far. Since moving into the house I'm renting in March I've had the worst streak of luck in years. The hot water went out for a week, the AC has gone out three times for nearly two weeks total, I've had money (lots of loose change in the dash) stolen from my unlocked car because I thought it was a nice neighborhood (nothing in the car worth stealing except the change), I've had mail stolen from the mailbox, my dryer died, I nearly broke two toes and had fun walking for a few weeks, I've been on business trips for a month total, and that's not even counting all of the drama going on at work or with an ex-gf.  
+
+There was also the copious and painful amounts of packing, cleaning, moving, unpacking, etc that went on for WAAAAY longer than it should.  I believe I'm up for the procrastinator of the year award but the jury is still out on that one. Oh yeah... my two planned business trips to Vegas were canceled (one sending me to the LOVELY Aberdeen, Maryland level of hell). I think I deeply suffer from the curse about living in interesting times. ;)  
+
+Needless to say, my free time for NWN2 has been extremely, extremely limited for the past few months (ok, six). A thin layer of silver lining remains though: ##red|I'm back!##  Ok, ok, hold the golf claps...  As far as I can tell my free time and personal life are finally cleared up to where I'll have time to actually enjoy my Xbox360 and Wii as well as get back to knocking out some overly delayed content for NWN2.
+
+In my spare time I've been slowly refining and consolidating a spell "todo" list that should cover a lot of different needed areas and will especially provide a lot of extra mileage for the Energy Substitution feats.
+
+My first order of business is to knock out the four Purgatorio PrCs I need to do and then deliver the Energy Substitution feats as well as the ability to use a (custom) list of feats while polymorphed/wildshaped.  While I'm on my trip this week I plan to put the finishing touches on a "where do I go from here" session that will either be done via IRC or on my forums. Given how far behind where I wanted to be with everything by now I think it's fair to hit up the PW operators and SP users and try to get a consensus on which pieces to do first. It's all good to me. ;)
+
+So, in a nutshell, I'm back (well, the 17th of this month :P) and itching to get back to 'work' doing NWN2 CC. I'll make sure I keep the posts here updated far more often as it (along with my email) have suffered a bit the last few months with everything going on.  If you there there is something I haven't addressed or an email I haven't answered yet then please hit me with it again so I can take care of it before I slowly sift through the inbox. ;)
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab June 27th, 2009]]
+##green|Last updated 6:56pm CST##
+
+The word from OEI is that the translations are not yet finished and thus the patch may be next week. It's a small window to get it done that week as Monday they will find out the issues with the French version, turn around some fixes, localization test them, and deliver the finals. That has to happen by Tuesday for a Wednesday release as Thursday is a "Friday" next week due to the 4th of July (could I fit more days into a single sentence?). Bottom line is that patch is a maybe for next week.
+
+In other news, my iPhone 3GS and Xbox 360 Rock. ;)
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab June 23rd, 2009]]
+##green|Last updated 5:50pm CST##
+
+There are days when it's good to be me and there are days when it really sucks to be me. Aside from kicking concrete while sprinting across the yard (and thus busting up my little toe, nail and all into a bloody pulp) there's always the current AC issue where the house ranges from 77 to 81.  Then of course there are the moments of sublime stupidity where I have an epiphany I should have had a LOOOOONG time ago.
+
+Monk PrCs are possible. *pause for dramatic effect* Once you stop blinking you can reread that. Yes, monk prcs are possible.  Monk damage is hard coded in the engine as are all of their bonuses. I've refused to make creature weapons and hack it that way. Occam would be proud of the solution I thought of on the way home. If gauntlets can have elemental damage buffs added to them why not just add the "missing" fist damage as blunt to the gauntlets.  I can always evaluate what the AC should be and add the rest as a dodge bonus (since really, how close does anyone EVER get to the +20 dodge AC cap).  So that essentially opens up all monk prcs as possible. It's a 90% solution and for Stunning Fist I'd just give those prcs the "Kaedrin's Stunning Fist" that is tied to the uses of the original. Then I write my own DC for the stun effect. Next...
+
+Meh. So damn simple. Oh yeah, no patch today either. Overlord II it is!  Oh yeah, and someone tell AT&T to hold me a iPhone 3GS :P
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
+[[tabview]]
+[[tab June 22nd, 2009]]
+##green|Last updated 8:25pm CST##
+
+Patch-watch continues...
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab June 21st, 2009]]
+##green|Last updated 2:20pm CST##
+
+Patch 1.23 wasn't available Wednesday of this past week as I'm sure everyone is aware so once it is released I'll try and turn it around quickly. They are waiting on the localization of the patch so it shouldn't be too much longer.
+
+While waiting for the patch I did a little... experimenting with R&D! Unfortunately my day job bled over a little but the benefits should hopefully be noticeable.
+
+In the not too distant future I'll have a tool available that will alter a module to be compatible with my content. If it has an existing module event I will use theirs, though edited to include the call to my content. If they don't have the needed event, I'll add it to the module.
+
+All done via one button click and file browse (choose the module to "update"). Easy button! I will be specifically adding in safeguards to prevent you from opening the OEI modules or the MoW module to prevent errors and screwing up your game (no more patches if you alter the OEI modules).
+
+This means that ANY module on the vault can be made to work seemless with my content (using the override version) with almost no effort on the user's part.
+
+If enough folks use it and are interested I'll be able to add a button to inject my hak files/tlk into the module as well BUT it won't be able to handle any conflicts (but will warn you up front and exit) such as two tlk files.
+
+***
+
+I've also nearly finished my work on a tool to parse the spells.2da and iprp_spells.2da and generate a new, cleaned up iprp_spells. The cleanup involves adjusting all the innate levels to their correct values (when appropriate) and fleshing out the missing caster level options for item properties.
+
+You will now have the caster levels: 3, 6, 9, 12, 15, 18, 21, 24, 27, and 30 for all spells that didn't have them, IF they are valid. For instance, a level 9 spell requires at least a 17 caster level so it will only have 18, 21, 24, 27, and 30. This applies for *all* valid spells that a base class can cast and that is not removed by the spells.2da. This includes all of my spells.
+
+I plan to adjust this further to generate spell scrolls for each spell (also done on the fly) which will cover my spells as well as those that currently are not available on a scroll. If there isn't an existing scroll icon, the scrolls will default to the actual spell icon.
+
+These two tools will go hand in hand with the existing tool I wrote to auto-generate the MP versions from my SP versions. It's why I no longer require a week a MP version.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab June 15th, 2009]]
+##green|Last updated 11:35am CST##
+
+The Good, The Bad, and the Ugly
+
+The Good: Patch 1.23 should be out this week which is a HUGE boon to persistent worlds and has some nice additions for both single player users and PW users.  Examples include the ability to correctly grant Animal Companion advancement for Druid PrCs, the ability to tell what the type of armor worn is (exactly) allowing armor check and ASF scripts to be done right, and the ability to Get/Set the material type of an object (Mithril, Cold Iron, etc).  According to Rob the patch will hopefully be available Wednesday. 
+
+The Bad: I'm not even close to being ready with my 1.37 update unfortunately. So what I'm going to do is make the 1.37 release a bugfix/patch 1.23 update. I'll turn it around as soon as possible aiming for the same day but probably the next day (due to the number of 2da/script changes for spell fixes).  What I intend to do next is wrap up the 1.37 content (new prcs, MoW content added to my work) as 1.37.1 and then move on to 1.37.2 which will include the adjustments based on the new 1.23 content. The 1.37.2 update will have the Animal Companion
+changes, the armor check and ASF changes, a big spell fix pass to include the rest of Player1's fixes, and the inclusion of support for K2's VFX improvements.
+
+The Ugly: Very, VERY few of the expected Warlock fixes made it into the 1.23 patch. They fixed the concentration bug and the invocations not being marked as somatic. That's it.  The critical spell resist bugs, hellfire warlock stacking EB dice, warlock crafting, etc all remain broken. I'm disappointed that OEI contributed so few fixes to 1.23 as it truly is the GrinningFool show (95% of the fixes seem to be his and/or his new additions). The whole thing is not helping that growing pit in my stomach regarding NWN2 support.  Of course, the very strong rumors of a NWN MMO aren't helping either.
+
+I'll be updating the WIP/Current pages today to reflect the recent planning I've been doing and the adjustments for 1.23 hitting.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
+[[tabview]]
+[[tab June 8th, 2009]]
+##green|Last updated 10:05pm CST##
+
+I got a little done today on the 1.37 update though my time was mostly spent researching the bugs and setting up test cases.
+
+Top 5 games I'm most looking foward to this year:
+# Dragon Age
+# Mass Effect II
+# Starcraft II
+# Marvel: Ultimate Alliance II
+# Jumpgate Evolution
+
+If Jumpgate wasn't on the list it would be Overlord II.  Alpha Protocol is another runner up.  Jumpgate is there because I so desperately want a space epic that doesn't suck (Eve is a grind fest) that brings back the glory days of Wing Commander, X-Wing, Freelancer, etc.  It has potential but could be just another MMO grindfest.  The new Star Wars: TOR is another MMO I'm actually looking forward to (along with Star Trek Online) as I'm interested in trying all three.  My attention span being what it is, I don't know how long I'd play any of them but they still look good. ;)
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 31st, 2009]]
+##green|Last updated 9:55pm CST##
+
+I'm finally over the cold and the travel! This weekend was a wash due to playing fire fighter with some issues but it's all sorted out so hopefully it's clear sailing for a while. Well.. after this week, where I don't see myself having much time to do anything fun.
+
+You know what I hate... the new car itch.  You really want to run out and get a new car "just because!"  LOL.  What's even funnier is I'm torn between what I would get if I was to buy a car (I won't be anytime soon). Bumblebee or a slicker incarnation of my current car.
+
+
+[[image http://nwn2customcontent.wikidot.com/local--files/index/Camaro.jpg]] vs [[image http://nwn2customcontent.wikidot.com/local--files/index/Eclipse.jpg]] 
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 15th, 2009]]
+##green|Last updated 8:00pm CST##
+
+I'm back home finally!  I'm headed to bed to crash for a while though since it's been a very long, tedious, and sleepless day.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 11th, 2009]]
+##green|Last updated 9:34pm PST##
+
+I've got some internet access this week (borrowed a laptop though it's not really up to doing heavy toolset work) so when I have free time I'll be working on the [http://tierdrial.blogspot.com/ Tierdrial] blog, my  OP/ED on community content and it's impact on me, as well as trying to draw up the final lists of things for 1.38+
+
+[[image http://nwn2customcontent.wikidot.com/local--files/index/Chuck.PNG]]
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab May 10th, 2009]]
+##green|Last updated 9:42pm CST##
+
+Week 1 in Reno is finished!  Week 2 is next and then I'll be back to kick out 1.37. 
+
+##green|Last updated 10:24pm CST## 
+
+The [[[wip | Work in Progress]]] page has been updated with some of the new 1.23 goodies.
+
+[[image http://nwn2customcontent.wikidot.com/local--files/index/Chuck.PNG]]
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 30th, 2009]]
+##green|Last updated 11:48am CST##
+
+Just a heads up for folks: I'm going to be gone from May 4th to May 17th. I may or may not have internet access during this timeframe (only if I break down and go pick up a personal laptop this weekend).  When I get back I'll work on the 1.38 update.  This weekend I'm going to be trying like hell to finish 1.37. :(
+
+[[image http://nwn2customcontent.wikidot.com/local--files/index/Chuck.PNG]]
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 28th, 2009]]
+##green|Last updated 11:58pm CST##
+
+News from out of the blue.... the season finale of Chuck absolutely rocked the damn house.  It is by far my favorite show on television and NBC be damned to all the hells if they cancel it.  GRRRRRRRR.
+
+It's been a crazy month, what with moving and all.  1.36 and 1.36.1 were uploaded and I'm fairly close to wrapping up the 1.37 update with another batch of Purgatorio PrCs.  After that it's going to be quiet for a while unfortunately.  I'm going on two full-week business trips (TDY's for those in the know on the jargon) back to back starting the first week in May. So when I get back on the weekend of the 15th I'll be back to rocking content with a vengeance. I've been going stir crazy lately not getting to spend much time in the toolset and the stuff I want to do is getting FAR too out of hand.  Too... many... cool... things...
+
+Oh yeah...
+
+"Guys... I know Kung-Fu?!"
+
+[[image http://nwn2customcontent.wikidot.com/local--files/index/Chuck.PNG]]
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab April 1st, 2009]]
+##green|Last updated 7:27pm CST##
+
+A few weeks ago I applied for a job at OEI and I'm happy to announce I've been hired on for the live team.  This means I'll be working on the patches and new content.
+
+As for 1.36.1, I'm putting the files together now so I'll have them uploaded in about an hour or so.
+
+Oh yeah, and april fools. :P
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab March 15th, 2009]]
+##green|Last updated 12:05am CST##
+
+Beware the Ides of March!
+
+For the Ides of March I'm going to be moving in to a new house (rental) so things are going to be a bit crazy for me around here. 1.22 was released, I updated for it. A hotfix was released (my stuff didn't need to be rebuilt since I don't use the function) as well.  Mysteries of Westgate and the 1.23 Beta should be available anytime now.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+
+[[tabview]]
+[[tab February 9th, 2009]]
+##green|Last updated 6:10pm CST##
+
+A bit about the status of 1.36:
+
+I had some family and personal stuff come up this weekend so I didn't get to touch the toolset or read this site. I'm also going to be out of town at my folks this coming weekend and on travel to Albuquerque at the end of the month for the weekend (so no content work those weekends). When it rains, it pours.
+
+I'm going to spend tonight finishing my scan through of what is and isn't finished (and do the work to finish EG) so that I can hopefully release it tomorrow night. Anything not done (3 of the prcs, some feats) will get pushed to the "new" 1.36 which will be Patch 1.22 support and whatever I can get done from 1.36 by then. The current 1.36 will become 1.37.
+
+I am going to be rolling back the Energy Substitution stuff until I can take another stab at the GUI stuff. I've got it working great *except* for when you switch between characters. The GUI still stays up. Now I can make sure player has the appropriate feat to make using the GUI fail/give you an error message but that will cause every use of the gui to have to check through your feat list. Not bad, but hellishly inefficient. I can't seem to find a way to trap the event that "hey, you just switched characters." I may put in a simple check for having a master (or whatever I can do to not scan the feat list constantly) to improve efficiency.
+
+I haven't had a chance to go over peoples help requests or inclusion requests either and won't until I get 1.35 done.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab January 19th, 2009]]
+##green|Last updated 1:30pm CST##
+
+Welcome to the new year!
+
+It's been a while since I've raised my head out of the toolset so I thought I'd post a progress update on where things stand.
+
+Patch 1.22 is expected to hit on January 22nd (//subtle// irony there) but I'm going to be out of town this coming weekend which means my 1.35 update won't be until the end of the month. So **DO NOT** patch up to 1.22 if you want to keep using my stuff before I release the 1.35 update.  The WIP page will be updated later today with the final set of planned changes for the update. I also expect to integrate most of Player1's fixes into the 1.35 update.  According to Rob, Atari may delay the patch 2 weeks which will put it perfectly in line with my planned release so hopefully everything will work out fine.
+
+The 1.36 update is going to be my last "new content" update for a while. It will have about 10 new prcs, the new spells from Talernon, Reeron, some from Joshua's work, and some from DEX2. All of my spells will be available on scrolls, and a handful of new spells/feats will be added.  A new, massive, and completely up to date PDF manual will be available for my content after the 1.36 update is released.
+
+I'll be shifting gears to work on area design for a while (trying to build a large atmospheric dungeon) after which I'll probably just take a break since the interest in my module stuff has been pretty low.  No sense wasting time. 
+
+I plan to slowly work on the Hexblade, Duskblade, Dragon Shaman, and Dragon Lord as time allows as "bonus" items for the community.  
+
+**Above all else, I will continue to do bugfix updates constantly to make sure my content is as good as it can be.** I am not leaving the community or abandoning this project.
+
+[[/tab]]
+[[/tabview]]
+
+[[table]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+[[/table]]
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

@@ -1,0 +1,39 @@
+Warden
+
+Warden
+
+This description is a work in progress and is not yet complete.
+
+x
+
+Requirements
+
+Feats: Toughness, Rage 3/day
+Skills: Heal 5, Lore 5, Survival 5.
+
+Class Features
+
+HD: d12
+BAB: High
+High Saves: Fort, Will
+Weapon and Armor proficiency: None
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Heal, Hide, Listen, Lore, Move Silently, Search, Spot, and Survival.
+Skill points: 6 + Int modifier
+
+Class Abilities
+
+Level 1: Track, Trap Sense +1, Primal Rage
+Level 2: Primal Living
+Level 3:
+Level 4: Trap Sense +2, Uncanny Dodge
+Level 5: Steadfast Determination
+Level 6:
+Level 7: Swift Tracker, Trap Sense +3
+Level 8: Improved Uncanny Dodge
+Level 9:
+Level 10: Trap Sense +4
+
+Primal Rage: Warden levels stack with Barbarian levels for the purpose of determining how many uses of rage per day are available and which rage is available.
+
+Primal Living: Beginning at 2nd level, a warden knows how to use his strengths to compensate for his weaknesses. He adds his Constitution bonus to AC instead of his Dexterity, if the character's Constitution bonus is higher. The warden loses this bonus to his Armor Class whenever he would normally be denied his Dexterity bonus to AC. This bonus is limited to the number of levels the character has in the warden class until 10th level when it becomes uncapped.

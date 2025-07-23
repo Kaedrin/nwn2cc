@@ -1,0 +1,16 @@
+2DA V2.0
+
+   FeatLabel               FeatIndex 
+0  immunitysleep           235       
+1  hardinessenchantment    236       
+2  WeapProfElf             256       
+3  skillaffinitylisten     237       
+4  skillaffinitysearch     238       
+5  skillaffinityspot       239       
+6  keensense               240       
+7  darkvision              228       
+8  FEAT_DROW_RESISTANCE    1075      
+9  FEAT_DROW_DARKNESS      1076      
+10 FEAT_RACIAL_SEE_INVIS   1749      
+11 FEAT_RACIAL_FAERIE_FIRE 3202      
+12 FEAT_LIGHT_BLINDNESS    1767      

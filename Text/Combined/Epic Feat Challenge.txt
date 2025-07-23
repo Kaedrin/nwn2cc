@@ -1,0 +1,63 @@
+I'd like to see what you guys come up with for epic spells.
+
+Here are the rules:
+
+Use the rules here: http://www.d20srd.org/srd/epic/developingEpicSpells.htm
+Use the seeds here: http://www.d20srd.org/indexes/epicSpells.htm
+
+You get 52 free points plus one more for every Spellcraft rank required to take the spell. Example: Hellball requires 30 Spellcraft to take and cost 82 points to create (76 for 10d6 x 4 elemental, +6 for x2 Area Size)
+   
+All epic spells keep the OEI standard of +5 DC (for a DC of 25 + Caster Ability Modifier). If you want more DC, you spend some of those points (2 points per +1 DC, as per the rules listed above)
+
+An Epic Spell cannot have less than 21 ranks of spellcrafting required. You MUST spend 73 points or more (or any excess is simply lost). You can chain multiple seeds together if you have DC to burn (such as a summons that also heals you).
+
+Ignore all aspects of casting time/speed except for contingent.
+Ignore spell resistance (all epics will continue to punch through SR)
+You gain yourself 10 points if you decrease the DC by 5 (2 points to spend per point of DC reduced).
+You can not exceed 85 points unless you decreased the DC (and the spell has a DC to reduce)
+
+Here is example one:
+Epic Call Lighting
+Seed: Energy (19 DC) provides 10d6 electrical. Add +25 dice of damage = +50 DC. Double the base area adds +6 DC. Final DC = 85. That would require 23 ranks of spellcraft to take (something any 21st level epic level druid should have). I now have a spell that has a 40' radius and deals 35d6 electrical damage to all enemies.
+
+Here is example two:
+Epic Lightning Strike
+Seed: Energy (19 DC) provides 10d6 electrical. Add +30 dice of damage = +60 DC. Reduce the epic spell's DC by 5 (+10). Change Area to Ray (+4 DC). Range increase by 100% (+2 DC) so the range is Medium, not Close. Final DC = 85. That would require 23 ranks of spellcraft to take. I now have a spell that deals 40d6 electrical damage to a single target, requires a ranged touch attack to hit (and thus can critical), and no longer has a saving throw as a ranged touch attack. It's essentially an epic polar ray.
+
+Hopefully you get the gist. Feel free to ask questions, but please keep this on topic. I will delete any posts that deviate from this topic.
+
+Above all, have fun!
+
+Here is one additional seed that is not on the SRD page.
+
+Shadow
+Base DC: 23
+Duration: 1 hour
+Effect: You can duplicate any level 1 spell. Each additional spell level past 1st increases the DC by 5 (so +40 for a 9th level spell).
+Note: You can combine this with another seed to bolster the spell. So polar ray (+35 for 8th level, +23 base cost, +19 Energy seed would create a polar ray spell that deals +10d6 cold that costs 77 points, or 25 spellcraft ranks to take).
+
+This link has a number of other examples though you will need to redo their 'math' for NWN2: http://community.wizards.com/go/thread/view/75882/18832902/?pg=last
+
+Fortify
+To update the rule for Fortify, Damage Reduction costs +15 to go to DR/Adamantine (not epic). It costs another +15 to go to DR/- (ie, DR that has no way to be breached). You must spend 15 points to get DR/Adamantine as DR/Magic is largely broken. You have been warned.
+
+Conceal
+To update the rule for Conceal - You may NOT choose to make it greater invisibility as that will not break in combat. Since the AI is broken/cannot handle that kind of invisibility I will not promote the use of the effect.
+
+***
+
+Font of Life  (Life and Heal seed)
+
+I'm not certain or even hopeful this could be done with NWN coding, but this is what I thought of first. If I think of anything else I'll post it.
+
+Life(Base 27; Change from target to area +10, Area 20 ft. radius +2, Radius x3 + 8 )+ Heal (Base 25; Change from target to area +10, Area 20 ft. radius +2, Radius x 3 + 8 )= 92
+92-10 (no DC modifier) =82
+
+82-52= 30 spellcraft required
+
+The caster channels positive energy in a 60 foot radius around themselves to wipe away disease and injury. Such a spell completely cures all diseases, blindness, deafness, hit point damage, and temporary ability damage. The heal seed neutralizes poisons in the subject’s system so that no additional damage or effects are suffered. It offsets feeblemindedness and cures mental disorders caused by spells or injury to the brain. It dispels all magical effects penalizing the character’s abilities, including effects caused by spells, even epic spells developed with the afflict seed. Only a single application of the spell is needed to simultaneously achieve all these effects. This seed does not restore levels or Constitution points lost due to death.
+
+In addition this spell restores life and complete vigor to any deceased creature in the radius. The condition of the remains is not a factor. So long as some small portion of the creature’s body still exists, it can be returned to life, but the portion receiving the spell must have been part of the creature’s body at the time of death. (The remains of a creature hit by a disintegrate spell count as a small portion of its body.) The creature can have been dead for no longer than two hundred years.
+
+***
+

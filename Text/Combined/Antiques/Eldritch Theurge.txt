@@ -1,0 +1,42 @@
+Eldritch Theurge
+
+…
+
+This class provides spellcasting progression in either Arcane or Invocation based casters for Bards and both for Duskblades and Hexblades.
+
+Requirements:
+
+Arcane Spellcasting: Level 2
+Feat: Eldritch Blast 2d6
+Skills: Lore 8
+
+Class Features:
+
+HD: d8
+BAB: Medium
+High Saves: Will
+Weapon proficiency: None
+Armor proficiency: None
+Skill points: 2 + Int modifier
+Class Skills: Bluff, Concentration, Craft Armor, Craft Weapon, Intimidate, Lore, Spellcraft, Spot, and Use Magic Device.
+
+Class Abilities:
+
+Level 1: Spellcasting Progression, DR 1/Cold Iron
+Level 2: Fiendish Resilience 1
+Level 3: Spellblast
+Level 4: DR 2/Cold Iron
+Level 5: Eldritch Spellweave
+Level 6:
+Level 7: DR 3/Cold Iron
+Level 8:
+Level 9: Fiendish Resilience 2
+Level 10: DR 4/Cold Iron
+
+Spellcasting: At each level, you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in a arcane or invocation based spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one spellcasting class before becoming a eldritch theurge, you must decide which class to progress in. Eldritch blast dice are advanced as though taking warlock levels regardless of which spellcasting progression is chosen. Choosing to advance in Hexblade or Duskblade advances both that class and Warlock at each level (unlike Bard who has to choose between Warlock and Bard spell progression).
+
+Spellblast: Beginning at 3rd level, any area spell you cast as an arcane caster will also deal your eldritch blast damage to the target (or the nearest enemy of the spells' target location if an area spell).
+
+Eldritch Spellweave: Beginning at 5th level, any spell you cast that affects a target or that requires a ranged or melee touch attack gains the benefit of the last eldritch essence you used. Essences which change the damage (hellrime, brimstone) will only work on spells that deal damage. Example: Using Hellrime blast with an eldritch blast will cause all future damage spells (such as casting polar ray) to also inflict the hellrime blast's dex debuff.
+
+StatCounter - Free Web Tracker and Counter

@@ -1,0 +1,61 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+In order to become a champion of the wild, an initiate must excel in swordplay and exhibit patience, grace, and compassion. To take joy only in feat of arms is to live a crude and diminished life. There is more to life than fighting well, and the true champion knows this.  Champions of the wild embody discipline and skill and relies on quickness, agility, and an almost scholarly study of the most difficult and advanced techniques of swordplay instead of brute power.
+
+**Requirements:**
+
+Alignment: Any non-evil.
+BAB: +7
+Skills: Diplomacy 4, Lore 2
+Feats: Martial Weapons, Heavy Armor, Combat Expertise, Dodge, Weapon Focus (Longsword, Rapier, or Scimitar)
+
+**Class Features:**
+
+HD: d10
+BAB: High
+High Saves: Fort, Will
+Weapon and Armor proficiency: None
+Skill points: 2 + Int modifier
+Class Skills: Concentration, Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Lore, Parry, Spellcraft, and Tumble.
+
+**Class Abilities:**
+
+Level 1: Touch of the Wild, Bonus Feat
+Level 2: Elegant Strike
+Level 3: Superior Defense +1
+Level 4: Bonus Feat
+Level 5: Dash
+Level 6: Superior Defense +2
+Level 7: Bonus Feat
+Level 8: Wrath of the Wild 1/day
+Level 9: Superior Defense +3
+Level 10: Bonus Feat
+
+Touch of the Wild: Upon entering this class, you gain the ability to heal wounds by touch, much like a paladin's lay on hands ability. Paladin levels stack with class levels as long as you have a Charisma score higher than 11.
+
+Bonus Feat: At 1st level and every three levels thereafter, you gain a bonus feat from the following list: Armor Specialization (any), Battle Dancer, Blind Fight, Champion of the Wild's Extra Wrath feats, Cleave, Combat Mastery (any), Deadly Defense, Deflect Arrow, Disarm, Dodge, Elemental Archer's Improved Elemental Shield, Elemental Archer's Improved Elemental Storm, Epic Toughness, Epic Weapon Focus (any), Exotic Weapon Proficiency, Expertise, Fiery Fist, Fiery Ki Defense, Great Attribute increase line, Great Cleave, Greater Weapon Focus (any), Improved Critical (any), Improved Disarm, Improved Expertise, Improved Initiative, Improved Knockdown, Improved Parry, Improved Power Attack, Improved Unarmed Strike, Improved Whirlwind Attack, Knockdown, Manyshot, Mobility, Oversized Two-Weapon Fighting, Penetrating Shot, Point Blank Shot, Power Attack, Rapid Reload, Rapid Shot, Spring Attack, Stunning Fist, Toughness, Two-Weapon Defense line, Weapon Focus (any), Weapon Finesse, and Whirlwind Attack.
+
+Elegant Strike: Upon reaching 2nd level, you become able to place your attacks where they deal greater damage. You apply your Dexterity bonus as a bonus on damage rolls (in addition to any Strength bonus you may have) with any of the following weapons: longsword, rapier, scimitar, or universal sword.
+
+Superior Defense: At 3rd level, you learn special techniques for making the best use of your natural agility even while wearing restrictive armor. You gain a +1 Dodge AC bonus at 3rd level. At 6th level the bonus improves to +2 and at 9th level it increases by +3.
+
+Wrath of the Wild: At 8th level, you gain the ability to briefly channel the divine power of a wild deity, enveloping one melee weapon you wield in a veil of incandescent light. You gain a +2 sacred bonus on attack rolls and deal an extra 2d6 points of damage with each melee attack you make for a number of rounds equal to 4 + your Cha modifier.
+
+New Feats are available to gain additional uses per day of Wrath of the Wild:
+Extra Wrath of the Wild I (improves to 3 uses/day).
+Extra Wrath of the Wild II (improves to 5 uses/day).
+
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

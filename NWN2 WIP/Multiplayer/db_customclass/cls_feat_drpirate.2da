@@ -1,0 +1,15 @@
+2DA V2.0
+
+   FeatLabel                         FeatIndex List GrantedOnLevel OnMenu 
+0  WeapProfSim                       46        3    1              0      
+1  ArmProfLgt                        3         3    1              0      
+2  WeapProfMar                       45        3    1              0      
+3  FEAT_DRPIRATE_FEARSOME_REPUTATION 3685      3    2              0      
+4  FEAT_DRPIRATE_RALLY_THE_CREW_1    3686      3    3              1      
+5  FEAT_DRPIRATE_RALLY_THE_CREW_2    3687      3    7              1      
+6  FEAT_DRPIRATE_FIGHT_TO_THE_DEATH  3688      3    9              0      
+7  TwoWeap                           41        3    1              0      
+8  SpringAttack                      392       3    4              0      
+9  LuckOfHeroes                      382       3    5              0      
+10 FEAT_SKILL_FOCUS_TUMBLE           406       3    8              0      
+11 FEAT_LEADERSHIP                   2203      3    10             0      

@@ -1,0 +1,25 @@
+[color=#ff0000]This is a draft spot for now, I'll post a reply when the thread is actually ready. :)[/color]
+
+Crafting System Pieces:
+1) Craft Trap
+2) Craft Poison
+3) Craft Ammo/Thrown Weapons
+4) Craft Alchemy
+5) Craft Alcohol
+6) Craft Weapon
+7) Craft Potion
+8) Craft Wand
+9) Craft Rod
+10) Craft Staff
+11) Craft Scroll
+12) Enchant Item
+13) Craft Spell
+14) Craft Wondrous Item
+15) Craft Artifact
+16) Craft Golem (Artificer base class?)
+17) Craft Armor
+18) Craft Jewelery
+19) Craft Clothing
+20) Craft Kits (healing, survival, etc)
+
+Jewellery Crafting, Metallurgy, Mining, Alchemy, Tailoring, and Woodcrafting systems to in order to support the crafting listed above.

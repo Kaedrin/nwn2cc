@@ -1,0 +1,70 @@
+This spellbook upgrade has been integrated into my PRC pack found here: http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=209
+[[span style="color: green;"]]Last updated: Feb 16 [[/span]]
+
+The pet ugprade can be found here: http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=194
+
++++ Spellbook
+
+This upgrade is for increasing the number of spells per day that the Blackguard gets to match their spellbook in 3.5 (including spellcasting ability bonus!) and to award the spells at the correct level.  Blackguard's now get up to 5 spells per level to choose from when casting their spells of a given level.  At this time you only gain bonus spells for a natural (no enhancement bonuses) spellcasting ability score.
+
+Bull's Strength now grants access to the following spells (cast from a subradial): Bull's Strength, Magic Weapon, Doom, and Cure Light Wounds. 
+
+Inflict Serious Wounds is now granted at level 4 (instead of 6th) and grants access to the following spells (cast from a subradial): Inflict Serious Wounds, Cure Moderate Wounds, Darkness, Eagle's Splendor, and Death Knell. 
+
+Contagion is now granted at level 6 (instead of 7th) and grants access to the following spells (cast from a subradial): Contagion, Cure Serious Wounds, Protection from Energy, and Summon Creature III. 
+
+Inflict Critical Wounds change: The feat now grants access to the following spells (cast from a subradial): Manifest Death, Cure Critical Wounds, Poison, and Freedom of Movement. 
+
+Blackguards are now granted the Extra Smite feat at 10th level to compensate for the missing 2/day and 3/day uses of Smite Good (the only other way to fix this issue was to give the Blackguard 3/day uses at level 2). 
+
+
++++ Pet Upgrade
+
+The Blackguard now gains the ability at 8th level to summon an immensely powerful Hell Hound from the lower planes. This beast is nearly the size of a Nessian Warhound and has the fiendish benefits of being a Blackguard's servant. It is a 12 HD creature with an 18 Spell Resistance and Damage Reduction 10/Magic. By virtue of it's increased size and strength it also wears a chain shirt as barding like the Nessian Warhound increasing it's survivability greatly. It's bite deals 2d6 damage plus d8 in fire damage along with the usual strength bonus. The servant is immune to fire. While a hell hound has a natural 50% vulnerability to cold, being a fiendish servant of the Blackguard has granted the hound a 10/- resistance to cold to minimize their vulnerability.
+
+
++++ Upcoming Additions
+
+As part of the upcoming Assassin and Blackguard update (details available [[[current| here]]]) the Blackguard spellbook will be updated with these new spells:
+* Abyssal Might (L3)
+* Curse of Ill Fortune (L2)
+* Deific Bastion (L3)
+* Demonflesh (L1)
+* Demonhide (L2)
+* Divine Sacrifice (L1)
+* Golden Barding (L1)
+* Hell's Power (L3)
+* Mantle of Evil (L3)
+* Soul of Shadow (L2)
+* Summon Undead I	(L1)
+* Summon Undead II (L2)
+* Summon Undead III (L3)
+* Summon Undead IV (L4)
+* Unholy Storm (L4)
+* Veil of Shadow (L2)
+* Wave of Grief (L2)
+
+Blackguard spells from those I've already done: 
+* Blessed Aim (L1)
+* Hand of Divinity (L2)
+* Strategic Charge (L1)
+* Visage of the Deity, Lesser (L4)
+* Weapon of the Deity (L4)
+* Zeal (L2)
+
+Blackguard feat: Epic Fiendish Servant which summons an Erinyes wielding an enchanted rapier and shield. This should allow the pet to hit enemies more reliably and have better defenses.
+
+New Poison system focusing on damage over time poisons (possibly)
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

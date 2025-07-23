@@ -1,0 +1,69 @@
+Silverstar
+
+Silverstar
+
+Silverstars are dedicated advocates of freedom and tolerance, wanderers on the path of truth, and absolute foes of Shar. They seek to build harmony among lycanthropes and nonshapechangers, and they protect the weak and oppressed everywhere. They cannot abide slavery and they hate most undead. They rarely settle in one place for long, instead moving along when seized by wanderlust or enticed by a new cause or mission. They deal with lunar energies and phenomena and are, to a limited degree, able to wield the power of the moon, bringing its fierce, pure white light to Toril.
+
+Requirements
+
+Alignment: Any good.
+Base attack bonus: +4.
+Skills: Diplomacy 4
+Feats: Blind-Fight, Dodge, Mobility, Spring Attack
+Spellcasting: Ability to cast 2nd-level divine spells.
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Fort, Will
+Weapon and Armor proficiency: None
+
+Class Skills: Craft Armor, Craft Weapon, Concentration, Diplomacy, Heal, Lore, Survival, Spellcraft.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Moon Bolt 3/day, Spellcasting Progression
+Level 2: Lunar Sight
+Level 3: Moon's Hand
+Level 4: Tears of Selune
+Level 5: Prophet's Sight 1/day
+Level 6: Selunite Lycanthrope
+Level 7: Moonsield
+Level 8: Prophet's Sight 2/day
+Level 9: Greater Moon's Hand
+Level 10: Moonfire 1/day
+
+Spellcasting: At each silverstar level, the character gains new spells per day (and spells known, if applicable) as if she had also gained a level in a divine spellcasting class she belonged to before adding the prestige class. If a character had more than one spellcasting class before becoming a silverstar, she must decide which class she increases when she gains a level.
+
+Moon Bolt: A silverstar can cast Moon Bolt with a caster level equal to her class level 3 times/day.
+
+Lunar Sight: Silverstars of 2nd level and above have low-light vision.
+
+Moon's Hand: Any heavy mace wielded by a 3rd-level silverstar is treated as though it were +1 with 1d6 bonus electrical damage. At 6th level, the weapon is treated as a +2 weapon.
+
+Tears of Selune: A 4th-level silverstar can project luminescent lunar energy as faerie fire at will, as if cast by a sorcerer of her caster level.
+
+Prophet's Sight: Starting at 5th level, once per day a silverstar is able to see as if under the effect of a true seeing spell cast by a cleric of her level. At 8th level, this ability can be used 2/day.
+
+Selunite Lycanthrope: Upon reaching 6th level, silverstars who contract lycanthropy are treated as natural lycanthropes. Silverstars do not change alignment due to contracting lycanthropy and are aware of their actions while in animal or hybrid form.
+
+Moonshield: At 7th level, a silverstar learns how to better resist the magic of the Shadow Weave. She gains a +2 bonus on saves against enchantment, illusion, and necromancy spells.
+
+Greater Moon's Hand: Upon reaching 9th level, a silverstar using her moon's hand ability treats her weapon as if it were a +2 weapon with +1d6 electrical damage bonus and massive criticals.
+
+Moonfire: Upon reaching 10th level, a silverstar can cast moonfire 1/day as a spell like ability.
+
+Moonfire Details:
+Components: V,S
+Area: 60' Cone
+Duration: Instantaneous (see text)
+Saving Throw: Reflex half (see text)
+Spell Resistance: Yes
+
+A cone of fiery, white moonlight springs from your hand. Living creatures in the area feel an unnatural chill and take 1d8 points of divine damage per two caster levels, to a maximum of 10d8. Undead and shapechangers take double damage. This application of the spell allows a Reflex save for half damage.
+
+Shapechanged or polymorphed creatures and objects in the spell's area at the time the spell is cast must make Will saves or immediately return to their normal forms.
+
+(The electricity immunity part of the spell for the area the cone hit is not really possible to do in NWN2 so I'll either cut it or add electrical immunity to all subjects)

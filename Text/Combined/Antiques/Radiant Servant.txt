@@ -1,0 +1,58 @@
+Radiant Servant
+
+Combating evil, particularly undead, is an important part of the radiant servant's service to their deity, it is by no means the only part. Radiant servants are healers, counselors, sources of spiritual and (at times) financial support, and protectors. Almost all radiant servants spend their prior careers as clerics.
+
+Requirements
+
+Alignment: Any Good
+Base Saving Throw: Will +5
+Feats: Turn Undead, Extra Turning
+Prohibited Class: Silverstar
+Skills: Lore 5, Heal 9
+Spellcasting: Able to cast 1st-level divine spells.
+
+Class Features
+
+HD: d6
+BAB: Medium
+High Saves: Fort, Will
+Weapon proficiency: Simple and Martial
+Armor proficiency: All armor, Shields (not Tower)
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Concentration, Diplomacy, Heal, Lore, and Spellcraft
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Spellcasting Progression, Turn Undead
+Level 2: Divine Health, Empower Healing
+Level 3: Aura of Warding
+Level 4:
+Level 5: Glory Domain
+Level 6: Maximize Healing
+Level 7:
+Level 8: Positive Energy Burst
+Level 9:
+Level 10: Supreme Healing
+
+Spellcasting Progression: At each radiant servant level, the character gains new divine spells per day as if she had also gained a level in a divine spellcasting class to which she belonged before adding the prestige class level.
+
+Turn Undead: A radiant servant adds his class levels to his cleric levels for all purposes related to turning undead.
+
+Divine Health: A radiant servant becomes immune to all diseases.
+
+Empower Healing: When a radiant servant casts a conjuration (healing) spell, that spell is affected as though by the Empower Spell feat. This spell does not use up a higher-level slot.
+
+Aura of Warding: Starting at 3rd level, a radiant servant and all allies within 10 feet of him gain a +2 bonus on all Will saving throws.
+
+Glory Domain: A radiant servant who reaches 5th level is granted a handful of new spells from the Glory domain (each 1/day feats) and the Exceptional turning feat.
+Level 5: Bless Weapon 1/day
+Level 6: Searing Light 1/day
+Level 8: Hammer of the Gods 1/day
+Level 10: Holy Sword 1/day
+
+Maximize Healing: When a radiant servant casts a conjuration (healing) spell, that spell is affected as though by the Maximize Spell feat. The spell does not use up a higher-level slot. This power replaces the empower healing ability until 10th level.
+
+Positive Energy Burst: A radiant servant who is at least 8th level can create a positive energy burst that deals 1d6 points of damage per class level to all undead creatures within 100 feet of the character. Undead are allowed a Reflex Save (DC 10 + class level) to avoid the half the damage. This uses up a turning attempt.
+
+Supreme Healing: When a radiant servant casts a conjuration (healing) spell, that spell is affected as though by both the Empower and the Maximize Spell feats. The spell does not use up a higher-level slot.

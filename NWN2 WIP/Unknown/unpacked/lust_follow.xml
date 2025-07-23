@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8">
+
+<!--Main Scene-->
+<UIScene name="lustabel_follow" x=ALIGN_CENTER y=ALIGN_CENTER width=150 height=98 priority="SCENE_INGAME" scriptloadable=true draggable=true />
+
+	<!--Texto de criatura en uso-->
+	<UIText name="FollowerName" text="DB Following GUI" x=ALIGN_CENTER y=70 width=330 height=20 prototype=true align="center" valign="middle" fontfamily="Body_Font" style="1" scriptloadable="true" /> 
+
+	<!--Small Buttons-->
+	<UIButton name="Follow_1" x=11 y=9 width=20 height=20 text="1" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","1") />
+	<UIButton name="Follow_2" x=33 y=9 width=20 height=20 text="2" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","2") />
+	<UIButton name="Follow_3" x=55 y=9 width=20 height=20 text="3" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","3") />
+	<UIButton name="Follow_4" x=11 y=31 width=20 height=20 text="4" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","4") />
+	<UIButton name="Follow_0" x=33 y=31 width=20 height=20 text="<C=red>S</C>" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","0") />
+	<UIButton name="Follow_5" x=55 y=31 width=20 height=20 text="5" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","5") />
+	<UIButton name="Follow_6" x=11 y=53 width=20 height=20 text="6" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","6") />
+	<UIButton name="Follow_7" x=33 y=53 width=20 height=20 text="7" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","7") />
+	<UIButton name="Follow_8" x=55 y=53 width=20 height=20 text="8" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","8") />
+
+	<!--Long buttons-->
+	<UIButton name="Follow_11" x=80 y=9 width=60 height=20 text="<C=red>Close</C>" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","11")/>
+	<UIButton name="Follow_9"  x=80 y=53 width=60 height=20 text="Stand" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","9") />
+	<UIButton name="Follow_10" x=80 y=31 width=60 height=20 text="Select" style="STYLE_SMALL_BUTTON" OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_lust_follow","10")/>	
+
+	<!--Background-->
+	<UIFrame name="Background" topleft="frame1_tl.tga" topright="frame1_tr.tga" bottomleft="frame1_bl.tga" bottomright="frame1_BR.tga" top="frame1_t.tga" bottom="frame1_b.tga" 
+	left="frame1_l.tga" right="frame1_r.tga" fillstyle="stretch" fill="b_empty.tga" border=32/>

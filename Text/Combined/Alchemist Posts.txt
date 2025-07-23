@@ -1,0 +1,49 @@
+Purified Essence: The alchemist improves and purifies the mixtures he uses for bombs. Your bombs will not deal less than 2 damage per die.
+
+Improved Purify Essence: The alchemist further improves and purifies the mixtures he uses for bombs. Your bombs will not deal less than 3 damage per die. An alchemist must be at least 5th level before selecting this discovery.
+
+Epic Purify Essence: The alchemist greatly improves and purifies the mixtures he uses for bombs. Your bombs will not deal less than 4 damage per die. An alchemist must be at least 21st level before selecting this discovery.
+
+Note: Epic Purify Essence with 16d6 bomb dice will essentially become 16d3 + 48.
+
+Epic Elixir of Life: Twice per day, an alchemist can brew a greater elixir of life. A greater elixir of life, when administered by the alchemist who brewed it, restores life to any allied dead creatures within 50' as per the spell true resurrection. Alternatively, the alchemist himself may drink the greater elixir of life, after which point he is immediately targeted with a resurrection spell the next time he is killed. An alchemist must be at least 21st level before selecting this discovery.
+
+Epic Transmutation Bomb: Once per day, an alchemist can throw a bomb designed to transmute all creatures within 20' of the impact area into chickens. Targets are allowed a Fortitude save (DC +5) to negate the effects of the spell.
+
+Epic Hellball Bomb: Twice per day, an alchemist can throw a bomb that unleashes a massive blast of energy which detonates upon all in the AoE, dealing 6d6 fire, 6d6 acid, 6d6 electrical and 6d6 sonic damage. The Hellball bomb ignores Evasion and Improved Evasion.
+
+***
+
+As for armor: I'm probably going to limit bombs to light or less, and no shield. You are using your hands to mix vials on the fly and toss them. You need to be flexible and agile for that. Probably no dual wield either.
+
+***
+
+I'd say they should be allowed to use shields, OR a weapon, but not both. It makes sense to have at least one hand free, but with a 20ft range or so, you're tossing them over the shield in what is very near to melee range (and very easy for them to close the distance). With a weapon, it'd be like an Eldritch Knight flings a fireball before s/he stabs the survivors.
+
+***
+
+New feat: Buckler Defense - allows a light shield to be used with bombs.
+New feat: Craft Rod of Focus - allows you to gain the enhance bonus of a light mace as a +AB bonus on bomb attacks.
+New feat: Crossbow Bomber - you can use bombs while wielding a light crossbow without penalty. Your Xbow shots deal +1 acid and fire damage.
+
+***
+
+Bombs will probably have a rather hefty penalty (on the order of the -8 Sacred Fist penalty) when using medium/heavy armor or a shield. Fast bombs won't work at all in medium/heavy armor or when using a shield.
+
+***
+
+
+Purify essense changes the damage dice so yes, it affects the splash damage. That might need to get adjusted to where only half the improvement applies to splash.
+
+Mutagens are optional and are not required. Barskins will easily scale past the basic mutagen if they don't take the improved mutagen discoveries.
+
+Force Bomb is a knock down and immunity blocks it. It (and most special bombs) will only be one per round and the other bomb being normal (for fast bombs). The description hasn't been updated for that yet.
+
+Accurate Finesse is like Intuitive Strikes. If your Int is higher than your Dex, you get the extra bonus (up to +4). So Dex mod +4.
+
+Reflex saves are pretty easy to beat usually and knockdown has a lot of immunities for casters. It's possible that bomb needs a cooldown to prevent spam.
+
+Alchemists have level 6 spells. Arcanes have level 9 spells. The Hellball is 2/3 the normal value due to that. I'm not sure I'm comfortable giving them the full 40.
+
+***
+

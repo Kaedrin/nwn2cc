@@ -1,0 +1,80 @@
+Requirements:
+
+Alignment: Any.
+
+Class Features
+
+HD: d8
+BAB: Medium (1-20), High (21-30)
+High Saves: Ref
+Weapon proficiency: All simple and rogue weapons.
+Armor proficiency: Light.
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Diplomacy, Disable Device, Heal, Hide, Intimidate, Listen, Lore, Move Silently, Search, Spot, Survival, Taunt, and Tumble.
+Skill Points: 8 + Int modifier
+
+Class Abilities
+
+Level 1: Trapfinding, Battlefield Perception, Scout Talent
+Level 2: Scout Talent
+Level 3: Trap Sense, Fleet, Trackless Step
+Level 4: Scout Talent, Evasion
+Level 5: Weapon Specialization (Longbow)
+Level 6: Scout Talent
+Level 7: Camouflage
+Level 8: Scout Talent
+Level 9: Swift Tracker, Greater Weapon Focus (Longbow)
+Level 10: Advanced Scout Talent
+Level 11: Keen Senses
+Level 12: Advanced Scout Talent
+Level 13: Greater Weapon Specialization (Longbow)
+Level 14: Advanced Scout Talent
+Level 15: Scent
+Level 16: Advanced Scout Talent
+Level 17: Ranged Weapon Mastery
+Level 18: Advanced Scout Talent
+Level 19: Skill Affinity (Spot), Skill Affinity (Listen)
+Level 20: Advanced Scout Talent, Freedom of Movement
+Level 21: Epic Weapon Focus (Longbow)
+Level 22: Advanced Scout Talent
+Level 23: Bonus Epic Feat
+Level 24: Advanced Scout Talent
+Level 25: Epic Weapon Specialization (Longbow)
+Level 26: Bonus Epic Feat, Advanced Scout Talent
+Level 27: Ranger One Shot
+Level 28: Advanced Scout Talent
+Level 29: Bonus Epic Feat
+Level 30: Advanced Scout Talent
+
+Wilderness Perception
+(+1 Spot/Listen per scout level)
+
+Fleet
+At 3rd level and every five levels thereafter, the scout receives a bonus to movement speed equal to 16% (to a maximum of +100% at level 28).
+
+Scout Talents
++1 Dodge AC (limited by level, +1 at 3rd, 2 at 7th, and +1 for each additional 4 levels)
+Precise Shot (+AB, -AC stance)
+Any Feat
+Choking Bomb (Requires Poison Bomb)
+Smoke Bomb
+Poison Bomb (Requires Smoke Bomb)
+Blinding Bomb (10+) (Requires Choking Bomb)
+Ensnaring Shot (single shot with +1d6 bonus damage per 3 scout levels, snares the target for 3 rounds, 5 round cooldown)
+Bleeding Shot (unmitigated damage every round, equal to Expose Weakness but full round action)(5 round cooldown)
+Wilderness Stealth (+1 Move Silent/Hide per 2 scout levels)
+
+
+Advanced Scout Talents (require level 10+)
+Defensive Roll
+Hide in Plain Sight
+Improved Evasion
+Sneak Attack Immunity (requires Improved Evasion and Defensive Roll, does not provide immunity to critical hits)
+Missile Volley : http://nwn2.wikia.com/wiki/Missile_Volley
+Team Rush: http://nwn2.wikia.com/wiki/Team_Rush
+Circle of Blades: http://nwn2.wikia.com/wiki/Circle_of_Blades
+Awareness: http://nwn2.wikia.com/wiki/Awareness
+Self-Concealment I-V (10% per feat)
+Any Scout Talent
+
+Free Movement: At 20th level and higher, a scout can slip out of bonds, grapples, and even the effects of confining spells easily. This ability duplicates the effect of a freedom of movement spell, except that it is always active.

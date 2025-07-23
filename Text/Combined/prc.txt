@@ -1,0 +1,146 @@
+This is a list of PRCs I have implemented for NWN2.
+[[span style="color: green;"]]Last updated: February 22nd, 2012[[/span]]
+
+[!--
+[[span style="color: red;"]] The release plan for these PrCs can be found on the [[[current| Current Release Plans]]] page along with the new spells, feats, and game systems I plan to add.[[/span]]
+--]
+
++++ Implemented Base Classes
+# [[[Hexblade]]] - Combining the dynamic powers of martial prowess and arcane might, the hexblade presents a deadly challenge to opponents unused to such a foe.
+# [[[Ninja]]] - Highly skilled spies and assassins, ninjas can master a broad range of skills and combat techniques.
+# [[[Scout]]] - Any force on the move, whether it's an army or an adventuring group, needs information about what's ahead and what's behind and, more important, time to prepare for battle.
+# [[[Thug]]] - Fighters that forsake heavy armor and shields for agile, devastating attacks.
+
++++ Implemented PrCs
+# [[[Anointed Knight]]] - The anointed knight is a holy soldier who has taken great pains to learn the intricacies of alchemy in order to become a more capable combatant.
+# [[[Avenger]]] - The Avenger is a variant of the Assassin that is identical in all respects except that instead of requiring the character to be evil, any non-chaotic can choose this PRC.
+# [[[Black Flame Zealot]]] - Black Flame zealots use stealth, divine magic, and the zeal of fanaticism to destroy their enemies.
+# [[[Bladesinger]]] - Bladesingers are elves who have blended art, swordplay, and arcane magic into a harmonious whole.
+# [[[Fochlucan Lyrist | Canaith Lyrist]]] - Warrior, thief, spy, poet, woodland champion: the Canaith lyrist is a legendary figure who serves as the herald and teacher to great kings, the champion of the common folk, and the keeper of lore long forgotten elsewhere.
+# [[[Champion of the Silver Flame]]] - Champions of the Silver Flame are dedicated to fighting supernatural forces of evil and extraplanar threats.
+# [[[Champion of Corellon Larethian| Champion of the Wild]]] - In order to become a champion of the wild, an initiate must excel in swordplay and exhibit patience, grace, and compassion.
+# [[[Charnag Maelthra]]] - The Charnag Maelthra are the Conclave's feared political police. It's main role is to enforce the will of the Conclave through administering the day-to-day implementation of Sshamath's "laws" and the Conclave's "edicts". Upon admission initiates swear an oath to follow the directives of the Conclave whatever their personal beliefs.
+# [[[Child of Night]]] - Children of night are more than spellcasters, more than scholars, and they claim to be more than mortal.
+# [[[Daggerspell Mage]]] - Daggerspell mages work to perfect a unique fighting and spellcasting (arcane) style that relies on wielding a pair of daggers at all times.
+# [[[Daggerspell Shaper]]] - Daggerspell shapers work to perfect a unique fighting and spellcasting (druid) style that relies on wielding a pair of daggers at all times.
+# [[[Dark Lantern]]] - The Dark Lanterns serve as spies and assassins.
+# [[[Dervish]]] - The dervish epitomizes speeds, quickness, and abandon.
+# [[[Dissonant Chord]]] - The typical Bleaknik is a poet, but they also engage in painting (largely in dark shades), dirges, or even near-suicidal stunts. 
+# [[[Divine Seeker]]] - The divine seeker infiltrates dangerous places to rescue prisoners, reclaim stolen relics, or eliminate enemy leaders.
+# [[[Dragon Warrior]]] - Dragon warriors are dedicated warriors, members of a special, self-selected class who revered dragonkind and emulate dragons' ferocious martial abilities to the point of taking on some draconic traits.
+# [[[Dragon-Slayer | Dragonslayer]]] - Dragonslayers combat dragons.
+# [[[Dread Commando]]] - Dread commandos are the elite scouts and strike force of a well-trained mercenary band. Source: Heroes of Battle.
+# [[[Dread Pirate]]] - A dread pirate has mastered every aspect of larceny on the high seas.
+# [[[Eldritch Disciple]]] - A multiclass warlock and divine spellcaster.
+# [[[Elemental Archer]]] (custom PrC)  - Elemental archers wield raw elemental power to supplement their combat prowess with ranged weapons.
+# [[[Elemental Warrior]]] - The elemental warrior sees that great strength comes from focusing on the most basic aspects of reality.
+# [[[Fist of the Forest]]] - "To be one with the wild, you must become wild yourself. It's only natural." A wicked fusion of monk and barbarian. 
+# [[[Forest Master]]] - Guardians of the pristine wilderness and defenders of the ancient trees, forest masters are the living embodiments of sentient nature.
+# [[[Frost Mage]]] - Frost mages usually hail from lands of cold, snow, and ice: tundra, glaciers even outer planes perpetually shrouded in winter.
+# [[[Ghost-Faced Killer]]] - Ghost-faced killers act as assassins and spies for hire, mercenaries that hides behind a guise of open and honorable conduct.
+# [[[Heartwarder]]] - Heartwarders are aesthetes and hedonists who actively seek out pleasure and beauty in all things and who nurture the creation of beautiful objects.
+# [[[Hospitaler]]] - Hospitalers are a fighting force of necessity, sworn to poverty, obedience, and the defense of those in their care.
+# [[[Lion of Talisid]]] - The lions of Talisid protect nature and emulate their patron in more concrete ways.
+# [[[Lyric Thaumaturge]]] - The lyric thaumaturge understands better than most how the natural harmonics of the universe pervade all things.
+# [[[Marksman]]] - Masters of the longbow, the marksman is a champion of nature blessed by her deity with combat prowess and great endurance.
+# [[[Master of Radiance]]] - Masters of Radiance channel the pure, undiluted power of the sun.
+# [[[Knight of Tierdrial | Mystic Knight]]] (custom) - Mystic Knights study the martial and mystical arts with equal fervor, seeking to find a graceful balance between blade and spell.
+# [[[Nature's Warrior]]] - Nature's warriors are defenders of the wild, protectors of the natural world, and often druids who have spent "too much time" in wild shape form.
+# [[[Nightsong Enforcer]]] - The enforcers of the Nightsong Guild focus on the stealth-centered combat training that rogues usually learn.
+# [[[Nightsong Infiltrator]]] - The nightsong infiltrator is the perfect thief and the perfect spy.
+# [[[Shadowbane Stalker]]] - Shadowbane stalkers find evil hidden in civilized areas so that it can be destroyed.
+# [[[Shining Blade]]] - The Shining Blade is a Full BAB PRC that gains increased divine spell ability for 5 of the 10 levels, and the ability to infuse their weapons with divine energy.
+# [[[Skullclan Hunter]]] - The skullclan hunter is the acclaimed foe of unlife.
+# [[[Stormsinger]]] - The stormsingers have learned the secret methods of harnessing the magic powers of music to influence and control the weather.
+# [[[Swiftblade]]] - Swiftblades gain increased spellcasting abilities, heightened speed, and unparalleled understanding of the haste spell.
+# [[[Tempest]]] - The Tempest is a Full BAB PRC that gains increased skill with two-weapon fighting and has a High Reflex save.
+# [[[Warrior of Darkness]]] - The warrior of darkness, sometimes called the dark knight, is a practitioner of black magic.
+# [[[Whirling Dervish]]] - Some rogues and monks, especially those that belong to the Ciphers, choose to concentrate on their movement and speed rather than on raw damage. 
+# [[[Wilderness Stalker]]] - The wilderness is unforgiving, and the ability to find food often means the difference between survival and starvation.
+
++++ Altered Classes
+* Assassin
+* [[[Barbarian]]] - Now provides a choice between standard Rage and Whirlwind Frenzy, a more defensive form of rage.
+* Bard
+* Blackguard
+* Divine Champion
+* Druid
+* Fighter
+* [[[Harper Agent]]]
+* Paladin
+* Palemaster - Now gain 9/10 spellcasting progression.
+* [[[Dragon Disciple | Red Dragon Disciple]]] - Changed to allow players to choose which of the 10 dragons they wish to follow. Their breath weapon now reflects their dragon choice.  Assassins and Avengers now qualify for the class.
+* Warpriest - Warpriest levels now count for Turning Undead.
+* Wizard - Wizards have access to the Reserve feats for their bonus feats.
+* Shadowdancer - Shadow Evade now lasts 1 round per class level.
+
+[!--
++++ Purgatorio Classes
+# [[[Elemental Warrior]]] - The elemental warrior sees that great strength comes from focusing on the most basic aspects of reality.
+# [[[Whirling Dervish]]] - Some rogues and monks, especially those that belong to the Ciphers, choose to concentrate on their movement and speed rather than on raw damage. 
+# [[[Bleaknik]]] (The Bleak Cabal) - The typical Bleaknik is a poet, but they also engage in painting (largely in dark shades), dirges, or even near-suicidal stunts. 
+# [[[Death Blade]]] (Dustmen)
+# [[[Optimist]]] (Godsmen)
+# [[[Doomlord]]] (Doomguard)
+# [[[Knight of the Cage]]] (Mercykillers)
+# [[[Ardent Dilettante]]] (Sensate)
+# [[[Enforcer of Law]]] (Harmonium)
+--]
+
+The [[[current| Current Release Plans]]] page has details on upcoming updates while the [[[wip| Work in Progress]]] page has details on the current update.
+
+[!--
+
++++ Upcoming Classes
+
+[[tabview]]
+
+[[tab Currently In Progress]]
+[[[Verdant Lord | Verdant Guardian]]] - 	The verdant guardian is the final defender of the forest.
+[[[momf | Master of Many Forms]]] - A master of many forms has no shape that she calls her own.
+[[[Warshaper]]] - The warshaper grows and evolves her own weapons and armor to suit the threat at hand.
+[[[Death Blade]]] (Dustmen)
+[[[Primal Fury]]] (custom) Masters of the Axe.
+[[[Blightlord]]] - Corrupt priests who revel in decay, the blightlords are feared and reviled.
+[[[Bone Knight]]] - Bone knights are patriots, living protectors who fight alongside the undead legions of their land.
+[[[Feywild Warden]]] - 
+[[[Radiant Servant]]] - Radiant servants put the dogma of demonstrating strength through charity and modesty into living practice.
+[[[Sword Dancer]]] - Sword dancers are expected to lead the drow migration and work to promote harmony between drow and surface-dwelling races.
+[[[Wildbow]]] (custom)
+[[[Doomlord]]] (Doomguard)
+[[[Optimist]]] (Godsmen)
+[[/tab]]
+
+[[tab Possible List]]
+[[[Silverstar]]] - Silverstars are dedicated advocates of freedom and tolerance, wanderers on the path of truth, and absolute foes of Shar.
+[[[Arcane Duelist]]] - The arcane duelist is a tricky, evasive opponent who relies on her foe's perceptions of her abilities as much as her actual abilities.
+[[[Dark Soul2 | Dark Soul]]]  (custom) - Dark Souls are masters of negative energy and undeath.
+[[[Dragonfire Adept]]] - Whether they are bold champions defending the weak and downtrodden, or merciless raiders seeking might and riches, dragonfire adepts are imposing figures who command the magic of dragonkind.
+[[[Hexblade]]] - Combining the dynamic powers of martial prowess and arcane might, the hexblade presents a deadly challenge to opponents unused to such a foe.
+[[[Dragon Lord]]] - A dragon lord is the general at the head of an army, the emperor at the helm of an empire, or the warleader who dominates a battlefield.
+[[[Dragon Shaman]]] - If you gaze at dragons with awe and aspire to share their power and majesty, then the dragon shaman is the class for you.
+[[[Artificer]]] - Artificers are perhaps the ultimate magical dabblers.
+[[[Dread Necromancer]]] - A practitioner of vile and forbidden arts, the dread necromancer roots about in graveyards, searching out moldering components for her obscene spells.
+[[[Duskblade]]] - The duskblade blurs the line between spellcaster and warrior, marrying the power of magic with hand-to-hand combat prowess.
+Silver Shadow (custom) - See [[[Lythari]]]
+[[/tab]]
+
+[[/tabview]]
+
+At this time, the Avenger and Black Flame Zealot death attack ability is capped at 10 + Int bonus until I come up with a work around for only the Assassin class getting their class level added to the DC.
+
+--]
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

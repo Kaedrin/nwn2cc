@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Trail>
+  <EffectType>5</EffectType>
+  <Color>
+    <r>43</r>
+    <g>1</g>
+    <b>11</b>
+    <a>255</a>
+  </Color>
+  <UpdateFrequency>30</UpdateFrequency>
+  <FadeOutTime>0.3</FadeOutTime>
+  <Texture>fx_curse.dds</Texture>
+  <SourceBlend>5</SourceBlend>
+  <DestBlend>6</DestBlend>
+  <TextureType>0</TextureType>
+  <AnimatedTextureSpeed>1</AnimatedTextureSpeed>
+  <RequiresFrameBuffer>0</RequiresFrameBuffer>
+  <FrameBufferPixelDisplacement>0.1</FrameBufferPixelDisplacement>
+</Trail>

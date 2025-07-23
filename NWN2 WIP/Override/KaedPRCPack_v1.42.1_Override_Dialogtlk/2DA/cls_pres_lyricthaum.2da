@@ -1,0 +1,10 @@
+2DA V2.0
+
+  LABEL                ReqType  ReqParam1 ReqParam2 
+0 Arcane_Casting       ARCSPELL 2         ****      
+1 BardOr               CLASSOR  1         ****      
+2 LoreSkill            SKILL    7         6         
+3 Perform              SKILL    11        9         
+4 Spellcraft           SKILL    16        6         
+5 Bard_Song_05         FEAT     358       ****      
+6 FEAT_MELODIC_CASTING FEAT     3330      ****      

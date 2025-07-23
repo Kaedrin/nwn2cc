@@ -1,0 +1,48 @@
+On Module Start Script - 
+
+ExecuteScript("cmi_pw_mod_start", GetModule());
+
+***
+
+On Player Equip Item Script - 
+
+object oPC = GetPCItemLastEquippedBy();
+ExecuteScript("cmi_player_equip", oPC);
+
+***
+
+On Player Level Up Script - 
+
+object oPC = GetPCLevellingUp();
+ExecuteScript("cmi_player_levelup", oPC );
+
+***
+
+On Player Unequip Item Script - 
+
+object oPC = GetPCItemLastUnequippedBy();		
+ExecuteScript("cmi_player_unequip", oPC);
+
+***
+
+On PC Loaded Script - 
+
+object oPC = GetEnteringObject();
+ExecuteScript("ccs_pc_loaded",oPC);
+***
+
+On PC Rest Script - 
+
+object oPC = GetLastPCRested();
+ExecuteScript("ccs_player_rest",oPC);
+
+***
+
+On Heartbeat Script - 
+
+ExecuteScript("cmi_mod_hb", OBJECT_SELF); //This is the module
+
+***
+
+Special Note:
+PW's can comment out the IsModuleSupported line of the cmi_pc_loaded script because the Module Start already takes care of this.  This is more for SP users.

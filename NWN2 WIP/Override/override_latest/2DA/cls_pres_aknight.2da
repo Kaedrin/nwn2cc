@@ -1,0 +1,8 @@
+2DA V2.0
+
+  LABEL        ReqType ReqParam1 ReqParam2 
+0 BAB          BAB     5         ****      
+1 CraftAlchemy SKILL   27        3         
+2 Lore         SKILL   7         3         
+3 Spellcraft   SKILL   16        1         
+4 IronWill     FEAT    22        ****      

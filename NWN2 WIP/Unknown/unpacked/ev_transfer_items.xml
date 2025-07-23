@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Neverwinter Nights 2 -->
+<!-- Copyright 2013 Vainberg Entertainment, Inc. -->
+
+<UIScene name="ev_transfer_items" x=ALIGN_CENTER y=ALIGN_CENTER width=430 height=600 fadeout="0.3" fadein="0.3" idleexpiretime="1.0" backoutkey=true priority="SCENE_SCRIPT" modal=false
+	 scriptloadable=true draggable="true" OnAdd=UIObject_Misc_ExecuteServerScript("gui_ev_transfer_char","items_init") />
+
+	<!-- Categories pane container -->
+	<UIPane name="CategoriesPane" x=10 y=90 width="404" height="564" >
+	
+        <!-- Categories list-->
+        <UIPane name="PANE_CATEGORIES" x="23" y="11" width="354" height="500" hidden=false >
+            <UIListBox name="ITEMS_LISTBOX" x="5" y="37" width="344" height="430" xPadding="0" yPadding="5" showpartialchild="true"
+                unequalcontrols="true" scrollsegmentsize="30" hidescrollbarwhennotneeded="false" selectonleftclick="true" >
+
+                <UIButton name="RECIPE" style="STYLE_CHARGEN_LIST_BUTTON" prototype="true" >
+                    <UIText name="ITEM_NAME" fontfamily="Title_Font" style=1 align="center" valign="middle" />
+                </UIButton>
+
+                <UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>
+            </UIListBox>
+
+        </UIPane>
+
+        <UIFrame x="0" y="0" width="400" height="517" topleft="frame_main_t_TL.tga" topright="frame_main_t_TR.tga" 
+			bottomleft="frame_main_BL.tga" bottomright="frame_main_d_BR.tga" top="frame_main_T.tga" bottom="frame_main_b.tga"
+			left="frame_main_l.tga" right="frame_main_r.tga" fillstyle="stretch" fill="frame_main_bg.tga"  border="64" />
+    </UIPane>
+	
+	<!-- Clear button -->
+	<UIButton text="Clear all" fontfamily="Special_Font" x=80 y=60 height=25 width=110 style="STYLE_SMALL_BUTTON" 
+		OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_ev_transfer_char","clear_all") >
+	</UIButton>
+	
+	<!-- Store button -->
+	<UIButton text="Store item" fontfamily="Special_Font" x=230 y=60 height=25 width=110 style="STYLE_SMALL_BUTTON" 
+		OnLeftClick=UIObject_Input_ActionTargetScript("item",17,19,-1,"true","gui_ev_transfer_char","store_item","target:object") >
+	</UIButton>
+
+	<!-- Close Button -->
+	<UIButton name="CloseButton" x=400 y=1 style="STYLE_CLOSE_BUTTON" 
+		OnLeftClick=UIButton_Input_ScreenClose()>
+	</UIButton>
+	
+	<!-- Background Image -->
+	<UIText name="dmnotes_title" text="Store items" x="10" y="6" width="200" height="33" fontfamily="Title_Font" style="2" />
+	<UIIcon name="OPTIONS_SCREEN_TITLE" img="title_large01.tga" x=1 y=1 width=428 height=34 />
+	<UIFrame x=0 y=0 width=PARENT_WIDTH height=PARENT_HEIGHT topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+		bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" alpha="0.85"
+		left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="solid_black_fill.tga" border=5 />

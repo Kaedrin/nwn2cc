@@ -1,0 +1,38 @@
+ //:://////////////////////////////////////////////////////////////////////
+//  C Daniel Vale 2005
+//  djvale@gmail.com
+//
+//  C Charlie Vale 2005
+//  charlievale@gmail.com
+//
+//  This program is free software; you can redistribute it and/or modify
+//  it under the terms of the GNU General Public License as published by
+//  the Free Software Foundation; either version 2 of the License, or
+//  (at your option) any later version.
+//
+//  This program is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//  GNU General Public License for more details.
+//
+//  You should have received a copy of the GNU General Public License
+//  along with this program; if not, write to the Free Software
+//  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+//::////////////////////////////////////////////////////////////////////////////
+// Script Name:mdp_mdp_conv_check_id
+// Description:  This is to stop a person modifying an unidentified item
+//////////////////////////////////////////////////////////////////////////
+
+int StartingConditional()
+{
+    object oPC = GetPCSpeaker();
+    object oItem = GetPlayerCurrentTarget(oPC);
+	
+	int bNotIDd = FALSE;
+	
+	if (GetIsObjectValid(oItem)
+		&& !GetIdentified(oItem))
+		bNotIDd=TRUE;
+    
+    return bNotIDd ;
+}

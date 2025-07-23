@@ -1,0 +1,53 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+Some rogues and monks, especially those that belong to the Ciphers, choose to concentrate on their movement and speed rather than on raw damage. For those interested in following this school of thought, the Whirling Dervishes are an excellent choice.
+
+**Requirements:**
+
+Faction: Any
+BAB: +5
+Skills: Hide 8, Move Silently 8, Tumble 8
+Feats: Dodge, Mobility
+
+**Class Features:**
+
+HD: d6
+BAB: Medium
+High Saves: Ref
+Weapon and Armor proficiency: None
+Skill points: 6 + Int modifier
+Class Skills: Appraise, Bluff, Concentration, Craft Armor, Craft Trap, Craft Weapon, Disable Device, Hide, Lore, Move Silently, Open Locks, Perform, Search, Spot, Tumble, and Use Magical Device.
+
+**Class Abilities:**
+
+Level 1: Dash
+Level 2: Evasion, Improved Evasion, Bonus Feat x3
+Level 3: Spring Attack, Sneak Attack +1d6
+Level 4: Critical Sense (+1 attack bonus)
+Level 5: Expert Tumbling
+Level 6: Whirlwind Attack, Sneak Attack +2d6
+Level 7: Bonus Feat x3
+Level 8: Defensive Roll
+Level 9: Sneak Attack +3d6
+Level 10: Minor Teleportation, Critical Sense (+2 attack bonus)
+
+Bonus Feat: The Whirling Dervish may choose any Skill Focus feat as a bonus feat.
+
+Critical Sense: At 4th level the Whirling Dervish improves her understanding of how best to attack to her foe. She gains a +1 bonus to attack rolls which improves to +2 at 10th.
+
+Expert Tumbling: At 5th level the Whirling Dervish gains the ability to use her tumbling skills to better avoid being hit in combat.  She gains a +1 Dodge AC bonus.
+
+Minor Teleportation: At tenth level, the Whirling Dervish gains the supernatural ability to disappear from sight and travel a short distance without the enemy finding her (equal to the ethereal jaunt spell and lasts for 10 rounds). The Whirling Dervish may do this three times per day. [!-- do this a number of times per day equal to one plus half her Charisma bonus. --]
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

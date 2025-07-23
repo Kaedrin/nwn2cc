@@ -1,0 +1,18 @@
+All characters start with:
+
+Backpack of Exploration (cloak, +20 Bonus HP)
+Stack of 10 Heal Kits +1
+Stack of 5 Potions of Cure Light Wounds
+Widget that allows you to destroy items for their gold piece value (as well as items with no gold value).
+
+Alchemist, Rangers, Paladins, Monk, and Clerics start with
+Wand of Cure Light Wounds (50 charges)
+
+Wizards and Sorcerers start with
+Staff of Magic Missile (50 charges) - Bonus Feat (random reserve feat)
+
+Bards and Rogues start with
+Stack of 5 Shield scrolls
+
+Fighters, Barbarians, Swashbucklers, Skalds, and Scouts start with
+Double the number of potions. 

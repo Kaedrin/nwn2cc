@@ -1,0 +1,40 @@
+Non-static damage shields are too CPU intense for multiplayer.
+
+Ranged heals will be the standard. The healer will be locked in to light armor (fails in anything heavier).
+
+I'll be taking a nod from the Pathfinder Paladin as it is actually one of the best healers.
+
+It will be feat/ability based as we can't add new add divine casters. Because of this I'm thinking of abolishing the traditional casting feats idea and trying something a little different if the engine will support it (essentially spell points but cleverly hidden).
+
+Current sources:
+http://brilliantgameologists.com/boards/index.php?topic=6849.0
+http://www.wizards.com/default.asp?x=dnd/ei/20031206a
+http://dndtools.eu/classes/healer/
+http://www.dandwiki.com/wiki/The_Healer_(3.5e_Class)
+http://brilliantgameologists.com/boards/index.php?PHPSESSID=6acf1aukj1o3ib209d3amuc8q6&topic=4079.0
+http://paizo.com/pathfinderRPG/prd/classes/paladin.html#_paladin
+http://dndtools.eu/spells/sub-schools/healing/
+
+Miniatures Handbook, Complete Champion, Complete Divine, Pathfinder PRD, Book of Exalted Deeds, Races of the Wild, Dragon Magic
+
+Magic of the Land (RotW) - Add spell's level x2 to the amount of damage healed
+Augment Healing (CD) - Add spell's level x2 to the amount of damage healed
+http://www.realmshelps.net/cgi-bin/featbox.pl?feat=Initiate_of_Ilmater
+
+***
+
+What do you folks think of a new series of Cure spells that are ranged? These spells would not be usable against undead. Druids would be a level behind just like the cure series.
+
+Example (using a cleric), * means a new spell.
+Cure Light Wounds - level 1, touch range, heals d8 +5 max.
+* Heal Light Wounds - level 2, medium range, heals d8 +10 max.
+Cure Moderate Wounds - level 2, touch range, heals 2d8 +10 max.
+* Heal Moderate Wounds - level 3, medium range, heals 2d8 +15 max.
+Cure Serious Wounds - level 3, touch range, heals 3d8 +15 max.
+* Heal Serious Wounds - level 4, medium range, heals 3d8 + 20 max.
+Cure Critical Wounds - level 4, touch range, heals 4d8 +20 max.
+* Heal Critical Wounds - level 5, touch range, heals 4d8 +25 max.
+Heal - level 6, touch range, heals 150 max.
+* Heal Wounds - level 7, medium range, heals 200 max (10 * CL).
+* Greater Heal, level 9, touch range, heals 300 max (15 * CL).
+Mass Heal - level 9, short range, heals 250 max (10 * CL).

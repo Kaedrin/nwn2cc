@@ -1,0 +1,110 @@
+Seeker Of The Song
+
+Seeker Of The Song
+
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.
+
+Beyond magic, beyond sound, beyond good or evil, lies music so profound and powerful that even deities quake at its sound. This primal music - of unknown origin and with no limit to its power - is incomprehensible to the mortal ear. To some who hear a fragment of this music, it becomes beauty incarnate, and they devote their lives to its discovery. These seekers wield the power of music in ways that amaze even the most skilled bards.
+
+United only by their quest, seekers of the song have incredibly diverse goals and motivations. Some black-hearted seekers know that this primal music is power, and they lust after it in hopes of turning it against their many enemies. Others search for the music to bring joy and peace. Most have more moderate aspirations and seek the music because it moves them. Regardless of their goals, seekers of the song rarely work against one another - each hoping that another seeker will uncover another piece of the primal music and share it with the rest.
+
+Every seeker of the song must have at least one bard level, but beyond that, their stories and careers differ wildly. Many begin their adventuring careers as bards, drawn to music from their earliest days. Others come to the class after adventuring as fighters, rogues, clerics, or members of other classes for most of their careers, with little idea that the primal music will become their chosen path. Although at least a few seekers emerge from every class, few wizards or sorcerers take up the pursuit; members of these classes are more likely to devote themselves to traditional spellcasting rather than the strange pull of the primal music.
+
+Requirements
+
+Skills: Lore 13, Perform 13
+Feat: Skill Focus (Perform)
+Special: Bardic Music ability
+
+Class Features
+
+Class Skills: Craft Alchemy, Craft Weapon, Craft Armor, Concentration, Diplomacy, Listen, Lore, Parry, Perform, Spot.
+Skill points: 4 + Int modifier
+
+HD: d6
+BAB: Medium
+High Saves: Will
+Weapon proficiency: None
+Armor proficiency: None
+
+Class Abilities
+
+Level 1: Rapture of the Song (+2 AC), Burning Melody
+Level 2: Combine Songs, Song of Unmaking
+Level 3: Dirge of Frozen Loss
+Level 4: Rapture of the Song (+2 saves), Song of Life
+Level 5: Subvocalize (Quicken Spell), Anthem of Thunder and Pain
+Level 6: Hymn of Spelldeath
+Level 7: Rapture of the Song (DR 2/-), Ballad of Agony Reborn
+Level 8: Aria of Everywhere
+Level 9: Dirge of Songdeath
+Level 10: Rapture of the Song (Freedom of Movement), Note of Solitude
+
+Seeker Music
+A seeker of the song can use music or poetics to produce magical effects. Seeker music follows the same rules as bardic music. Seeker of the song levels stack with bard levels for purposes of determining how many daily uses of bardic music and seeker music the character has and the effects of all bardic music. Seeker of the song levels do not stack with bard levels for determining which songs a bard has access to. Seeker songs are treated as Inspirations. Some seeker songs have a refrain which expends a use of bardic music to activate.
+
+Rapture of the Song
+A seeker of the song is so in tune with the power of primal music that she gains special insight, physical fortitude, and resistance to magic while in the throes of her music. A seeker gains a +2 insight bonus to Armor Class whenever she uses her bard music ability, inspirations, seeker music, or similar ability.
+
+At 4th level and higher, a seeker also gains a +2 insight bonus on saving throws. At 7th level and higher, a seeker also gains damage reduction 2/-. At 10th level, a seeker gains these abilities and also acts as though affected by a freedom of movement spell.
+
+Burning Melody, Inspiration
+A seeker of the song with 14 or more ranks in the Perform skill can gather a glimmer of the power of the primal music and gain some control over fire through this music. While a seeker sings this song, she and all of her allies within 30 feet who can hear her gain resistance to fire 15.
+
+Burning Melody, Refrain
+When she uses the refrain with her burning melody, a seeker shoots a 30-foot cone of fire from her fingertips. The cone deals 6d6 points of fire damage to creatures in its area. A successful Reflex save (DC 10 + the seeker's ranks in the Perform skill) halves the damage.
+
+Song of Unmaking
+At 2nd level and higher, a seeker with 15 or more ranks in the Perform skill can turn a fragment of the primal music's power against constructs. She can expend a use of bardic music to deal 1d8 points of damage per seeker level to all constructs within a 30-foot burst of the seeker (no save).
+
+Dirge of Frozen Loss, Inspiration
+A seeker of the song of 3rd level or higher with 16 or more ranks in the Perform skill can gather the power of the primal music to gain control over cold energy through this music. While a seeker sings this song, she and all of her allies within 30 feet who can hear her gain resistance to cold 15.
+
+Dirge of Frozen Loss, Refrain
+When she uses the refrain with her dirge of frozen loss, a seeker shoots a 60-foot line of cold energy from her fingertips. The line deals 10d6 points of cold damage to any creature it hits and causes any creature damaged by it to become fatigued. A successful Fortitude save (DC 10 + the seeker's ranks in the Perform skill) halves the damage and negates the fatigue.
+
+XTC fatigued description
+
+Song of Life, Inspiration
+A seeker of the song of 4th level or higher with 17 or more ranks in the Perform skill can use fragments of the primal music to protect and heal her allies. While a seeker singes this song, she and all her allies within 30 feet who can hear her gain immunity to poison and disease.
+
+Song of Life, Refrain
+When she uses the refrain with her song of life, a seeker can make a Perform check to heal a living creature of an amount of hit point damage equal to the check result. She must touch the affected ally to use this ability and the refrain has no effect on undead or non-living creatures.
+
+Anthem of Thunder and Pain, Inspiration
+A seeker of the song of 5th level or higher with 18 or more ranks in the Perform skill can gather the power of the primal music and gain some control over electrictal energy through this music. While a seeker sings this song, she and all of her allies within 30 feet who can hear her gain resistance to electricity 15.
+
+Anthem of Thunder and Pain, Refrain
+When she uses the refrain with her anthem of thunder and pain, a seeker shoots a ray of electricity from her fingertips. The ray has a range of 20 feet and requires a ranged touch attack to hit. The ray deals 10d6 points of electricity damage to a creature it hits (plus sneak attack damage if appropriate).
+
+The seeker can then cause the electricity to arc to additional foes, all of whom must be within 20 feet of the first creature struck. Each secondary ray requires another ranged touch attack to hit and deals half as much damage as the initial ray. A seeker can create one secondary ray for every three seeker class levels (one when the song becomes available at 5th, two at 6th level, and three at 9th level). No creature can be affected by more than one arc in a single round.
+
+Hymn of Spelldeath, Inspiration
+A seeker of the song of 6th level or higher with 19 or more ranks in the Perform skill can turn the power of the primal music against magic effects. Any creature that can hear the seeker perform makes Concentration checks opposed by the seeker's Perform skill + 10. A hymn of spelldeath is a mind-affecting ability.
+
+Hymn of Spelldeath, Refrain
+When she uses the refrain with her hymn of spelldeath, a seeker can attempt to dispel magic. This ability works just like the area version of dispel magic, except the effect is centered on the seeker. At her option, a seeker can exclude herself and her allies from this effect, but the effect must still be centered on her. The seeker makes a level check just as if she were a spellcaster using the dispel magic spell, using the total of her bard levels and seeker of the song levels as her modifier for the check.
+
+Ballad of Agony Reborn, Inspiration
+A seeker of the song of 7th level or higher with 20 or more ranks in the Perform skill can gather the power of the primal music to gain control over acid energy through this music. While a seeker sings this song, she and all her allies within 30 feet who can hear her gain resistance to acid 15.
+
+Ballad of Agony Reborn, Refrain
+When she uses the refrain wtih her ballad of agony reborn, a seeker shoots a ray of acid from her fingertips. The ray has a range of 60 feet and requires a ranged touch attack to hit. The ray deals 10d6 points of acid damage to a creature it hits, and another 10d6 points of acid damage 1 round later.
+
+Aria of Everywhere
+A seeker of the song of 8th level or higher with 21 or more ranks in the Perform skill can pull the power of the primal music into herself and move short distances instantaneously. She can expend a use of bardic music or seeker music to gain the benefits of the haste spell for a number of rounds equal to half of a perform check.
+
+Dirge of Songdeath, Inspiration
+A seeker of the song of 9th level or higher with 22 or more ranks in the Perform skill can gather the power of the primal music to gain control over sonic energy through this music. While a seeker sings this song, she and all of her allies within 30 feet who can hear her gain resistance to sonic 15.
+
+Dirge of Songdeath, Refrain
+When she uses the refrain with her dirge of songdeath, a seeker shoots a ray of sonic energy from her fingertips. The ray has a range of 60 feet and requires a ranged touch attack to hit. The ray deals 15d6 points of sonic damage (plus sneak attack damage if appropriate) to a creature it hits.
+
+Note of Solitude
+Upon reaching 10th level, a seeker of the song with 23 or more ranks in the Perform skill can use the power of the primal music to temporarily sever some creature's tie with other planes. Extraplanar creatures within 60 feet of a seeker who activates this ability must make a Will saving throw (DC 10 + the seeker's ranks in the Perform skill). Creatures affected by this ability get a bonus on this saving throw equal to their Hit Dice. Any creature that fails this saving throw is instantly sent to its home plane. This song expends a use of bardic music.
+
+Combine Songs
+A seeker of the song can combine both bardic inspirations and seeker of the song inspirations to provide the benefits of both. The normal stacking rules for bonus types apply to music abilities combined with this ability.
+
+Subvocalize
+At 5th level, a seeker of the song gains the Quicken Spell metamagic feat.

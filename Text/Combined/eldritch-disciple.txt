@@ -1,0 +1,61 @@
+All warlocks harbor at least a grudging respect for the entities responsible for their powers. They are clearly beings of great mystical might, and thus worthy of regard. A rare few warlocks go beyond this attitude to actual reverence or worship of the fiendish, fey, or extraplanar powers that have made them far more than mortal. Such is the life of an eldritch disciple devoted to a deity who granted her the arcane talents of the warlock. Though her powers might take different forms, she knows that the source is the same.
+
+This class provides spellcasting progression in either Divine, or Invocation based casters.
+
+**Requirements:**
+
+Class: Warlock
+Divine Spellcasting: Level 2
+Feat: Turn Undead
+Skills: Lore 8
+
+**Class Features:**
+
+HD: d8
+BAB: Medium
+High Saves: Fort, Will
+Weapon proficiency: None
+Armor proficiency: None
+Skill points: 2 + Int modifier
+Class Skills: Bluff, Concentration, Craft Armor, Craft Weapon, Diplomacy, Heal, Intimidate, Lore, and Spellcraft.
+
+**Class Abilities:**
+
+Level 1: Turn Undead, Spellcasting Progression, Gift of the Divine Patron
+Level 2: 
+Level 3: 
+Level 4: Gift of the Divine Patron
+Level 5: Bonus Feat: Touch of Healing
+Level 6: 
+Level 7: Gift of the Divine Patron
+Level 8:
+Level 9: 
+Level 10: Gift of the Divine Patron
+
+Spellcasting: At each level, you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in a divine or invocation based spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one spellcasting class before becoming a eldritch disciple, you must decide which class to progress in. Eldritch blast dice are advanced as though taking warlock levels regardless of which spellcasting progression is chosen.
+
+Turn Undead: Eldritch disciple levels stack with all other classes for the purpose of turning undead.
+
+Gift of the Divine Patron: At 1st level, you gain a sacred gift of power from your divine patron (who is also the source of your divine spells and, directly or indirectly, your warlock invocations). You can spend one of your turn undead attempts to active these powers. You gain another gift at 4th, 7th, and 10th level.
+
+Gift (Damage Reduction): This ability is granted at level 1. You gain temporary damage reduction (overcome by cold iron) equal to 1/2 your class level (minimum 1). This damage reduction stacks with the damage reduction granted by the warlock class. This effect lasts for a number of rounds equal to 3 + your Cha modifier (minimum 1 round).
+
+Gift (Healing Blast): This ability is granted at level 4. You gain the ability to change your eldritch blast in a wave of healing energy (20' radius, centered on you). The blast heals living creatures instead of dealing damage to them (the damage healed is equal to the damage normally dealt).
+
+Gift (Fiendish Resistance): This ability is granted at level 7. You gain resistance to acid and fire equal to 10 + your class level. This resistance stacks with the energy resistance granted by the warlock class. This effect lasts for a number of rounds equal to 3 + your Cha modifier (minimum 1 round).
+
+Gift (Wild Frenzy): At 10th level you gain the ability to enter a wild frenzy. You gain a +2 bonus on attack rolls with weapons and eldritch blasts and a +2 bonus on damage rolls for weapons, along with temporary hit points equal to twice your class level. This effect lasts for a number of rounds equal to 3 + your Cha modifier (minimum 1 round).
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

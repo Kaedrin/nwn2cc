@@ -1,0 +1,10 @@
+2DA V2.0
+
+  LABEL      ReqType ReqParam1     ReqParam2 
+0 Lore       SKILL   7             8         
+1 BardOr     CLASSOR 1             ****      
+2 SorcOr     CLASSOR 9             ****      
+3 ScriptVar  VAR     X1_AllowDrDis 0         
+4 AssassinOr CLASSOR 30            ****      
+5 AvengerOr  CLASSOR 142           ****      
+6 HexbladeOr CLASSOR 185           ****      

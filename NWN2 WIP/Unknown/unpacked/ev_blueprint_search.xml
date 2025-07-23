@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="NWN2UI">
+	
+<!-- local vars
+
+local:0 - search string creatures
+local:4 - search string placeables
+local:5 - search string items
+local:6 - search string placed effects
+
+local:1 - search type (resref/name/etc.) :: creatures
+local:17 - search type :: items
+local:18 - search type :: placeables
+local:19 - search type :: placed effects
+local:2 - selected blueprint resref
+local:3 - object type (creature = 1, item = 2, placeable = 64, placed effect = 1024)
+
+local:9 - quantity
+local:10 - level
+local:11 - name
+
+local:7 - autoset level
+local:8 - random names
+
+local:12 - formation
+local:13 - faction
+local:14 - auto-spawn
+local:15 - auto-spawn id
+
+local:16 - radius/spacing
+-->
+	
+<UIScene name="EV_BLUEPRINT_SEACH" x=ALIGN_RIGHT y=ALIGN_CENTER width=400 height=500 fadeout="0.3" fadein="0.3" draggable=true
+	priority="SCENE_INGAME" scriptloadable=true backoutkey=true modal=false capturemouseclicks=false
+	idleexpiretime="0.1f" dragregion_x=5 dragregion_y=5 dragregion_width=400 dragregion_height=100	/>
+	
+	<!-- Close Button -->
+	<UIButton name="CloseButton" x=370 y=2 width=27 height=27 OnLeftClick=UIButton_Input_CancelPartySelect() style="STYLE_CLOSE_BUTTON" >
+	</UIButton>
+	
+<!-- Tabs pane -->
+<UIPane name="Tabs_Pane" x=5 y=5 width="350" height="50" >
+	
+	<UIButton name="CREATURES" x="0" y="0" text="Creatures" width=80 style="STYLE_CHARGEN_TAB" groupid="1" groupmemberid="1"
+		OnSelected0=UIButton_Input_ShowObject("Creatures_Pane") OnSelected1=UIObject_Misc_SetLocalVarString(local:3,"1") OnUnselected0=UIButton_Input_HideObject("Creatures_Pane") >			
+		<UIText align=center valign=middle fontfamily="Default" style="2" multiline=false />
+	</UIButton>
+
+	<UIButton name="PLACEABLES" x="90" y="0" text="Placeables" width=80 style="STYLE_CHARGEN_TAB" groupid="1" groupmemberid="2"			
+		OnSelected0=UIButton_Input_ShowObject("Placeables_Pane") OnSelected1=UIObject_Misc_SetLocalVarString(local:3,"64") OnUnselected0=UIButton_Input_HideObject("Placeables_Pane") >
+		<UIText align=center valign=middle fontfamily="Default" style="2" multiline=false />
+	</UIButton>
+	
+	<UIButton name="ITEMS" x="180" y="0" text="Items" width=80 style="STYLE_CHARGEN_TAB" groupid="1" groupmemberid="3"			
+		OnSelected0=UIButton_Input_ShowObject("Items_Pane") OnSelected1=UIObject_Misc_SetLocalVarString(local:3,"2") OnUnselected0=UIButton_Input_HideObject("Items_Pane") >
+		<UIText align=center valign=middle fontfamily="Default" style="2" multiline=false />
+	</UIButton>
+	
+	<UIButton name="PLACEDEFFECTS" x="270" y="0" text="Effects" width=80 style="STYLE_CHARGEN_TAB" groupid="1" groupmemberid="4"			
+		OnSelected0=UIButton_Input_ShowObject("Placed_Effects_Pane") OnSelected1=UIObject_Misc_SetLocalVarString(local:3,"1024") OnUnselected0=UIButton_Input_HideObject("Placed_Effects_Pane") >
+		<UIText align=center valign=middle fontfamily="Default" style="2" multiline=false />
+	</UIButton>
+</UIPane>
+
+<!-- Creatures pane -->
+<UIPane name="Creatures_Pane" x=10 y=50 width="400" height="345" >
+
+	<!-- Search by -->
+	<UIButton name="name_b" x=0 y=0 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=1 OnSelected=UIObject_Misc_SetLocalVarString(local:1,"name") />
+	<UIText name="name_t" text="name" x=27 y=0 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+
+	<UIButton name="resref_b" x=0 y=25 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=2 OnSelected=UIObject_Misc_SetLocalVarString(local:1,"resref") />
+	<UIText name="resref_t" text="resref" x=27 y=25 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />	
+	
+	<UIButton name="cr_b" x=0 y=50 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=3 OnSelected=UIObject_Misc_SetLocalVarString(local:1,"CR") />
+	<UIText name="cr_t" text="CR" x=27 y=50 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />	
+
+	<UIButton name="faction_b" x=0 y=75 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=2 groupmemberid=4 OnSelected=UIObject_Misc_SetLocalVarString(local:1,"faction") />
+	<UIText name="faction_t" text="faction" x=27 y=75 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />	
+
+	<!-- Search box -->
+	<UIText text="" fontfamily="International" x=75 y=3 width=200 height=18 valign="middle" align="left" highlightcolor=FFFFFF allowspace=true allowpunc=true selectable=true editable=true maxlength=255 multiline=false update=true OnUpdate=UIObject_Misc_SetLocalVarString(local:0) OnReturn=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","search",local:1,local:0,local:3) />
+	<UIFrame x=72 y=0 width=204 height=22 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga" border=5 />
+	
+	<!-- Search Button -->
+	<UIButton text="Search" x=280 y=0 style="STYLE_SMALL_BUTTON" width=80 height=20
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","search",local:1,local:0,local:3) >
+		<UIText  align=center valign=middle fontfamily="Body_Font"  />
+	</UIButton>	
+	
+	<!-- Results list -->
+	<UIListbox name="RESULTS_LIST_CREATURES" x=77 y=30 height=300 width=300 yPadding=5  hidescrollbarwhennotneeded=true
+			showpartialchild=false scrollbaronright=true draggable=false selectonleftclick=true update=true >
+			<UIPane name="Creature" x=0 y=0 width=250 height=14 prototype=true tupple=true update=false >
+			
+				<UIButton name="NAME_B" x=0 y=0 style="STYLE_LOOT_TEXT" width=150 height=14 prototype=true OnLeftClick0=UIObject_Misc_ExtractData(selected:RESULTS_LIST_CREATURES,"string",0,local:2) OnLeftClick1=UIObject_Input_ActionTargetScript("ground",3,5,-1,"true","gui_ev_blueprints","create","local:3","local:2","","target:x","target:y","target:z","local:9","local:10","local:11","local:7","local:8","local:12","local:13","local:14","local:16") >
+					<UIText align=left valign=middle fontfamily="Default" style="2"/>
+				</UIButton>
+				
+				<UIButton name="FACTION_B" x=152 y=0 style="STYLE_LOOT_TEXT" width=70 height=14 prototype=true OnLeftClick0=UIObject_Misc_ExtractData(selected:RESULTS_LIST_CREATURES,"string",0,local:2) OnLeftClick1=UIObject_Input_ActionTargetScript("ground",3,5,-1,"true","gui_ev_blueprints","create","local:3","local:2","","target:x","target:y","target:z","local:9","local:10","local:11","local:7","local:8","local:12","local:13","local:14","local:16") >
+					<UIText align=left valign=middle fontfamily="Default" style="2"/>
+				</UIButton>
+				
+				<UIButton name="CR_B" x=224 y=0 style="STYLE_LOOT_TEXT" width=50 height=14 prototype=true OnLeftClick0=UIObject_Misc_ExtractData(selected:RESULTS_LIST_CREATURES,"string",0,local:2) OnLeftClick1=UIObject_Input_ActionTargetScript("ground",3,5,-1,"true","gui_ev_blueprints","create","local:3","local:2","","target:x","target:y","target:z","local:9","local:10","local:11","local:7","local:8","local:12","local:13","local:14","local:16") >
+					<UIText align=left valign=middle fontfamily="Default" style="2"/>
+				</UIButton> 
+				
+			</UIPane>
+			<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>	
+		</UIListbox>
+		
+	<UIFrame x=72 y=25 width=310 height=308 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga" border=5 />
+	
+	
+	<UIButton text="Undo" x=0 y=313 style="STYLE_SMALL_BUTTON" width=60 height=20
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","undo") >
+		<UIText  align=center valign=middle fontfamily="Body_Font"  />
+	</UIButton>	
+</UIPane>
+
+<!-- Placeables pane -->
+<UIPane name="Placeables_Pane" x=10 y=50 width="400" height="345" hidden=true>
+
+	<!-- Search by -->
+	<UIButton name="name_b" x=0 y=0 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=3 groupmemberid=1 OnSelected=UIObject_Misc_SetLocalVarString(local:18,"name") />
+	<UIText name="name_t" text="name" x=27 y=0 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+
+	<UIButton name="resref_b" x=0 y=25 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=3 groupmemberid=2 OnSelected=UIObject_Misc_SetLocalVarString(local:18,"resref") />
+	<UIText name="resref_t" text="resref" x=27 y=25 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />	
+
+	<!-- Search box -->
+	<UIText text="" fontfamily="International" x=75 y=3 width=200 height=18 valign="middle" align="left" highlightcolor=FFFFFF allowspace=true allowpunc=true selectable=true editable=true maxlength=255 multiline=false update=true OnUpdate=UIObject_Misc_SetLocalVarString(local:4) OnReturn=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","search",local:18,local:4,local:3) />
+	<UIFrame x=72 y=0 width=204 height=22 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga" border=5 />
+	
+	<!-- Search Button -->
+	<UIButton text="Search" x=280 y=0 style="STYLE_SMALL_BUTTON" width=80 height=20
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","search",local:18,local:4,local:3) >
+		<UIText  align=center valign=middle fontfamily="Body_Font"  />
+	</UIButton>	
+	
+	<!-- Results list -->
+	<UIListbox name="RESULTS_LIST_PLACEABLES" x=77 y=30 height=300 width=300 yPadding=5  hidescrollbarwhennotneeded=true
+			showpartialchild=false scrollbaronright=true draggable=false selectonleftclick=true update=true >
+			<UIPane name="Creature" x=0 y=0 width=250 height=14 prototype=true tupple=true update=false >
+				
+				<UIButton name="NAME_B" x=0 y=0 style="STYLE_LOOT_TEXT" width=150 height=14 prototype=true OnLeftClick0=UIObject_Misc_ExtractData(selected:RESULTS_LIST_PLACEABLES,"string",0,local:2) OnLeftClick1=UIObject_Input_ActionTargetScript("ground",3,5,-1,"true","gui_ev_blueprints","create","local:3","local:2","","target:x","target:y","target:z","local:9","local:10","local:11","local:7","local:8","local:12","local:13","local:14","local:16") >
+					<UIText align=left valign=middle fontfamily="Default" style="2"/>
+				</UIButton>
+				
+			</UIPane>
+			<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>	
+		</UIListbox>
+		
+	<UIFrame x=72 y=25 width=310 height=308 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga" border=5 />
+
+	<UIButton text="Undo" x=0 y=313 style="STYLE_SMALL_BUTTON" width=60 height=20
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","undo") >
+		<UIText  align=center valign=middle fontfamily="Body_Font"  />
+	</UIButton>	
+</UIPane>
+
+<!-- Items pane -->
+<UIPane name="Items_Pane" x=10 y=50 width="400" height="345" hidden=true>
+
+	<!-- Search by -->
+	<UIButton name="name_b" x=0 y=0 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=4 groupmemberid=1 OnSelected=UIObject_Misc_SetLocalVarString(local:17,"name") />
+	<UIText name="name_t" text="name" x=27 y=0 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+
+	<UIButton name="resref_b" x=0 y=25 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=4 groupmemberid=2 OnSelected=UIObject_Misc_SetLocalVarString(local:17,"resref") />
+	<UIText name="resref_t" text="resref" x=27 y=25 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />	
+	
+	<UIButton name="base_b" x=0 y=50 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=4 groupmemberid=3 OnSelected=UIObject_Misc_SetLocalVarString(local:17,"baseitem") />
+	<UIText name="base_t" text="baseitem" x=27 y=50 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+
+	<!-- Search box -->
+	<UIText text="" fontfamily="International" x=75 y=3 width=200 height=18 valign="middle" align="left" highlightcolor=FFFFFF allowspace=true allowpunc=true selectable=true editable=true maxlength=255 multiline=false update=true OnUpdate=UIObject_Misc_SetLocalVarString(local:5) OnReturn=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","search",local:17,local:5,local:3) />
+	<UIFrame x=72 y=0 width=204 height=22 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga" border=5 />
+	
+	<!-- Search Button -->
+	<UIButton text="Search" x=280 y=0 style="STYLE_SMALL_BUTTON" width=80 height=20
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","search",local:17,local:5,local:3) >
+		<UIText  align=center valign=middle fontfamily="Body_Font"  />
+	</UIButton>	
+	
+	<!-- Results list -->
+	<UIListbox name="RESULTS_LIST_ITEMS" x=77 y=30 height=300 width=300 yPadding=5  hidescrollbarwhennotneeded=true
+			showpartialchild=false scrollbaronright=true draggable=false selectonleftclick=true update=true >
+			<UIPane name="Creature" x=0 y=0 width=250 height=14 prototype=true tupple=true update=false >			
+				
+				<UIButton name="NAME_B" x=0 y=0 style="STYLE_LOOT_TEXT" width=150 height=14 prototype=true OnLeftClick0=UIObject_Misc_ExtractData(selected:RESULTS_LIST_ITEMS,"string",0,local:2) OnLeftClick1=UIObject_Input_ActionTargetScript("ground",3,5,-1,"true","gui_ev_blueprints","create","local:3","local:2","","target:x","target:y","target:z","local:9","local:10","local:11","local:7","local:8","local:12","local:13","local:14","local:16") >
+					<UIText align=left valign=middle fontfamily="Default" style="2"/>
+				</UIButton>
+				
+				<UIButton name="BASEITEM_B" x=165 y=0 style="STYLE_LOOT_TEXT" width=90 height=14 prototype=true OnLeftClick1=UIObject_Misc_ExtractData(selected:RESULTS_LIST_ITEMS,"string",0,local:2) OnLeftClick0=UIObject_Input_ActionTargetScript("ground",3,5,-1,"true","gui_ev_blueprints","create","local:3","local:2","","target:x","target:y","target:z","local:9","local:10","local:11","local:7","local:8","local:12","local:13","local:14","local:16") >
+					<UIText align=left valign=middle fontfamily="Default" style="2"/>
+				</UIButton>
+				
+			</UIPane>
+			<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>	
+		</UIListbox>
+		
+	<UIFrame x=72 y=25 width=310 height=308 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga" border=5 />
+	
+	<UIButton text="Undo" x=0 y=313 style="STYLE_SMALL_BUTTON" width=60 height=20
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","undo") >
+		<UIText  align=center valign=middle fontfamily="Body_Font"  />
+	</UIButton>	
+</UIPane>
+
+<!-- Placed effects pane -->
+<UIPane name="Placed_Effects_Pane" x=10 y=50 width="400" height="345" hidden=true>
+
+	<!-- Search by -->
+	<UIButton name="name_b" x=0 y=0 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=5 groupmemberid=1 OnSelected=UIObject_Misc_SetLocalVarString(local:19,"name") />
+	<UIText name="name_t" text="name" x=27 y=0 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />
+
+	<UIButton name="resref_b" x=0 y=25 width=20 height=20 style="ROUND_RADIO_BUTTON" groupid=5 groupmemberid=2 OnSelected=UIObject_Misc_SetLocalVarString(local:19,"resref") />
+	<UIText name="resref_t" text="resref" x=27 y=25 width=40 height=20 align=left valign=middle fontfamily="Default" style="2" multiline=false />	
+
+	<!-- Search box -->
+	<UIText text="" fontfamily="International" x=75 y=3 width=200 height=18 valign="middle" align="left" highlightcolor=FFFFFF allowspace=true allowpunc=true selectable=true editable=true maxlength=255 multiline=false update=true OnUpdate=UIObject_Misc_SetLocalVarString(local:6) OnReturn=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","search",local:19,local:6,local:3) />
+	<UIFrame x=72 y=0 width=204 height=22 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga" border=5 />
+	
+	<!-- Search Button -->
+	<UIButton text="Search" x=280 y=0 style="STYLE_SMALL_BUTTON" width=80 height=20
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","search",local:19,local:6,local:3) >
+		<UIText  align=center valign=middle fontfamily="Body_Font"  />
+	</UIButton>	
+	
+	<!-- Results list -->
+	<UIListbox name="RESULTS_LIST_P_EFFECTS" x=77 y=30 height=300 width=300 yPadding=5  hidescrollbarwhennotneeded=true
+			showpartialchild=false scrollbaronright=true draggable=false selectonleftclick=true update=true >
+			<UIPane name="Creature" x=0 y=0 width=250 height=14 prototype=true tupple=true update=false >
+				
+				<UIButton name="NAME_B" x=0 y=0 style="STYLE_LOOT_TEXT" width=150 height=14 prototype=true OnLeftClick0=UIObject_Misc_ExtractData(selected:RESULTS_LIST_P_EFFECTS,"string",0,local:2) OnLeftClick1=UIObject_Input_ActionTargetScript("ground",3,5,-1,"true","gui_ev_blueprints","create","local:3","local:2","","target:x","target:y","target:z","local:9","local:10","local:11","local:7","local:8","local:12","local:13","local:14","local:16") >
+					<UIText align=left valign=middle fontfamily="Default" style="2"/>
+				</UIButton>	
+				
+			</UIPane>
+			<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>	
+		</UIListbox>
+		
+	<UIFrame x=72 y=25 width=310 height=308 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga" border=5 />
+	
+	<UIButton text="Undo" x=0 y=313 style="STYLE_SMALL_BUTTON" width=60 height=20
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","undo") >
+		<UIText  align=center valign=middle fontfamily="Body_Font"  />
+	</UIButton>	
+</UIPane>
+
+	
+<!-- Advanced Dropdown pane -->	
+<UIPane x=0 y=387 width=PARENT_WIDTH height=PARENT_HEIGHT capturemouseclicks=true >
+
+	<!-- Quantity -->
+	<UIPane x=0 y=10 width=120 height=30 >
+		<UIText text="Quantity:" x=24 y=2 width=60 height=20 fontfamily="Default" align=left style="2" />				
+		<UIText name="QUANTITY" x="86" y="2" width=24 height=28 
+				editable="true" selectable="true" filter="signed_numeric" maxlength=2 multiline=false fontfamily="Body_Font" style=1
+				update="true" OnUpdate=UIObject_Misc_SetLocalVarString(local:9)	/>
+
+		<UIFrame x="80" y="0" width=31 height=22 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+			bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga"
+			left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga"
+			border=3 />
+	</UIPane>	
+	
+	<!-- Level -->
+	<UIPane x=100 y=10 width="100" height=30 >
+		<UIText text="Level:" x=24 y=2 width=50 height=20 fontfamily="Default" style="2" />				
+		<UIText name="LEVEL" x="70" y="2" width=24 height=28 
+				editable="true" selectable="true" filter="signed_numeric" maxlength=2 multiline=false fontfamily="Body_Font" style=1
+				update="true" OnUpdate=UIObject_Misc_SetLocalVarString(local:10) />
+
+		<UIFrame x="64" y="0" width=31 height=22 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+			bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga"
+			left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga"
+			border=3 />
+	</UIPane>
+	
+	<!-- Name -->
+	<UIPane x=185 y=10 width="250" height=30 >
+		<UIText text="Name:" x=24 y=2 width=50 height=20 fontfamily="Default" style="2" />				
+		<UIText name="NAME" x="75" y="2" width=128 height=28 
+				editable="true" selectable="true" maxlength=50 multiline=false allowspace=true fontfamily="Body_Font" style=1
+				update="true" OnUpdate=UIObject_Misc_SetLocalVarString(local:11)	/>
+
+		<UIFrame x="69" y="0" width=135 height=22 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+			bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga"
+			left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga"
+			border=3 />
+	</UIPane>
+	
+	<!-- Formation -->
+	<UIPane x=0 y=50 width="200" height=30 >
+		<UIText text="Formation:" x=24 y=2 width=70 height=20 fontfamily="Default" style="2" />
+		<UIButton name="SELECTED_FORMATION" text="None" x=90 y=-1 style="STYLE_SMALL_BUTTON" width=100 height=24
+				OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","formation") >
+			<UIText align=center valign=middle fontfamily="Default" style="2" />
+		</UIButton>						
+	</UIPane>
+	
+	<!-- Faction -->
+	<UIPane x=175 y=50 width="250" height=30 >
+		<UIText text="Faction:" x=24 y=2 width=60 height=20 fontfamily="Default" style="2" />
+		<UIButton name="SELECTED_FACTION" text="Default" x=80 y=-1 style="STYLE_SMALL_BUTTON" width=130 height=24
+				OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","faction") >
+			<UIText align=center valign=middle fontfamily="Default" style="2" />
+		</UIButton>						
+	</UIPane>	
+
+	<UIButton text="Clear fields" x=16 y=80 style="STYLE_SMALL_BUTTON" width=90 height=25
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ev_blueprints","clearfields") >
+		<UIText  align=center valign=middle fontfamily="Body_Font"  />
+	</UIButton>		
+	
+	<!-- Random names -->
+	<UIPane x=100 y=83 width="200" height=30 >
+		<UIText text="Generate random names" x=48 y=2 width=PARENT_WIDTH height=20 fontfamily="Default" style="2" />
+		<UIButton x=24 y=0 style="SQUARE_CHECKBOX_BUTTON" OnSelected=UIObject_Misc_SetLocalVarString(local:8,"1") OnUnselected=UIObject_Misc_SetLocalVarString(local:8,"0") 
+				OnToolTip='UIObject_Tooltip_DisplayTooltipString("Each object will be set with a randomly generated name.","OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2","ALIGN_NONE","ALIGN_NONE","0","0","ALIGN_LEFT","ALIGN_CENTER")'/>	
+	</UIPane>
+	
+	<!-- Radius/Spacing -->
+	<UIPane x=300 y=83 width="200" height=30 >
+		<UIText text="r/s:" x=24 y=2 width=40 height=20 fontfamily="Default" style="2"
+			OnToolTip='UIObject_Tooltip_DisplayTooltipString("Radius for circle formation/Spacing for line formation.","OBJECT_X","OBJECT_Y","SCREEN_TOOLTIP_2","ALIGN_NONE","ALIGN_NONE","0","0","ALIGN_LEFT","ALIGN_CENTER")'/>			
+		<UIText name="RS" x="60" y="2" width=24 height=28 
+				editable="true" selectable="true" filter="signed_numeric" maxlength=2 multiline=false fontfamily="Body_Font" style=1
+				update="true" OnUpdate=UIObject_Misc_SetLocalVarString(local:16) />
+
+		<UIFrame x="54" y="0" width=31 height=22 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga"
+			bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga"
+			left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="frame_main_bg.tga"
+			border=3 />
+	</UIPane>	
+	
+</UIPane>
+	
+
+
+<!-- Background Image -->
+<UIFrame name="frmBackground" x=0 y=0 width=PARENT_WIDTH height=500 topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga" top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga" fillstyle="stretch" fill="ev_background.tga" border=5 />

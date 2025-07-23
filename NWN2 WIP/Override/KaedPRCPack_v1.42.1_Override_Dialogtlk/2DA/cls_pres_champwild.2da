@@ -1,0 +1,13 @@
+2DA V2.0
+
+   LABEL           ReqType ReqParam1 ReqParam2 
+0  BAB             BAB     7         ****      
+1  Diplomacy       SKILL   12        4         
+2  Lore            SKILL   7         2         
+3  WeapFocRapier   FEATOR  104       ****      
+4  WeapFocScim     FEATOR  105       ****      
+5  WeapFocLSw      FEATOR  106       ****      
+6  WeapProfMar     FEAT    45        ****      
+7  ArmProfHvy      FEAT    2         ****      
+8  Dodge           FEAT    10        ****      
+9  CombatExpertise FEAT    389       ****      

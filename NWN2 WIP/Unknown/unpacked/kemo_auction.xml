@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="NWN2UI">
+
+<UIScene name="KEMO_AUCTION" x=ALIGN_CENTER y=ALIGN_CENTER width=746 height=450 fadeout="0.3" fadein="0.3" draggable=true
+	priority="SCENE_INGAME" scriptloadable=true backoutkey=true update=true
+	idleexpiretime="1.0f" />
+
+	<UIText name="AuctionTitle" text="KEMO Auction" x=50 y=12 width=260 height=28
+		uppercase=true fontfamily="Body_Font" style="2" />
+
+	<UIText name="AuctionCount" x=450 y=12 fontfamily="Body_Font" style="2" />
+
+	<!-- General Buttons -->
+	<UIButton name="CloseButton" x=10 y=6 style="STYLE_CLOSE_BUTTON" 
+		OnLeftClick=UIButton_Input_ScreenClose()>
+	</UIButton>
+
+	<UIButton name="ArmsButton" text="Arms" x=15 y=395 width=100 style="STYLE_SMALL_BUTTON"
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_select","Arms") >
+	</UIButton>
+	<UIButton name="ArmorButton" text="Armor" x=120 y=395 width=100 style="STYLE_SMALL_BUTTON"
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_select","Armor") >
+	</UIButton>
+	<UIButton name="CraftButton" text="Craft" x=225 y=395 width=100 style="STYLE_SMALL_BUTTON"
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_select","Craft") >
+	</UIButton>
+	<UIButton name="MiscButton" text="Misc" x=330 y=395 width=100 style="STYLE_SMALL_BUTTON"
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_select","Misc") >
+	</UIButton>
+	<UIButton name="SellButtonA" text="Sell" x=445 y=395 width=60 style="STYLE_SMALL_BUTTON"
+		OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_sell") >
+		<UIText align=center valign=middle uppercase=true style="2" color=CBA123 />
+	</UIButton>
+	<UIButton name="RetrieveButton" text="Retrieve" x=510 y=395 width=80 style="STYLE_SMALL_BUTTON"
+		OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_retrieve") >
+		<UIText align=center valign=middle uppercase=true style="2" color=CBA123 />
+	</UIButton>
+	<UIButton name="ViewButton" text="View" x=620 y=360 style="STYLE_SKILL_ICON" update=true
+		OnUpdate=UIButton_OnUpdate_ControlSelected("KEMO_AUCTION_BUY")
+ 		OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_view",local:6) >
+		<UIText align=center valign=middle fontfamily="Body_Font" style="3" />
+		<UIFrame state=base fill="ia_examine.tga" />
+	</UIButton>
+	<UIButton name="BuyButton" text="Buy" x=670 y=360 style="STYLE_SKILL_ICON" update=true
+		OnUpdate=UIButton_OnUpdate_ControlSelected("KEMO_AUCTION_BUY")
+ 		OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_buy",local:6) >
+		<UIText align=center valign=middle fontfamily="Body_Font" style="3" />
+		<UIFrame state=base fill="it_gold.tga" />
+	</UIButton>
+	<UIButton name="SellButtonB" text="Sell" x=670 y=360 style="STYLE_SKILL_ICON" update=true hidden=true
+		OnUpdate=UIButton_OnUpdate_ControlSelected("KEMO_AUCTION_SELL")
+		OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_sellselect",local:8,local:9) >
+ 		<UIText align=center valign=middle fontfamily="Body_Font" style="3" />
+		<UIFrame state=base fill="it_gold.tga" />
+	</UIButton>
+
+	<UIPane name="PagePane" x=15 y=360 width=400 height=50 hidden=true>
+		<UIText name="ItemsOfTotal" fontfamily="Body_Font" style="2" />
+	
+		<UIButton name="PageIncreaseButton" x=280 style="STYLE_PLUS_BUTTON" width=15 height=15
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_page",1)>
+		</UIButton>
+	
+		<UIButton name="PageDecreaseButton" x=300 style="STYLE_MINUS_BUTTON" width=15 height=15 
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_page",-1)>
+		</UIButton>
+	</UIPane>
+
+	<UIPane name="FilterPane" x=440 y=360 width=175 height=50 >
+		<UIListbox name="FilterListBox" x=0 y=0 width=100 height=16 >
+			<UIText name="FilterText" allowspace=false width=PARENT_WIDTH height=PARENT_HEIGHT align=center valign=middle
+				fontfamily="International" multiline=false returnrestricted=true editable=true update=true selectable=true
+				updaterate="1.0f" 
+				OnUpdate0=UIObject_Misc_SetLocalVarString(local:33)
+				OnUpdate1=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_filter",local:33)/>
+			<UIFrame x=0 y=0 width=PARENT_WIDTH height=PARENT_HEIGHT topleft="tp_frame_tl.tga"
+				topright="tp_frame_tr.tga" bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga"
+				top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga" right="tp_frame_r.tga"
+				fillstyle="stretch" fill="tp_frame_bg.tga" border=2 />
+		</UIListbox>
+		<UIButton name="FilterButton" text="Search" x=105 y=0 style="STYLE_SMALL_BUTTON" width=60 height=15
+			OnLeftClick=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_list") >
+			<UIText align=center valign=middle uppercase=false style="2" color=RED />
+		</UIButton>
+	</UIPane>
+
+ 
+	<UIIcon name="DETAIL_TOP" img="title_large03.tga" x=9 y=8 width=728 height=32 ignoreevents="true" />
+
+	<UIPane name="BuyLabelPane" x=0 y=45 height=32 >
+		<UIText text="Item Name and Quantity" x=75 fontfamily="Default" style="4" />
+		<UIText text="Price" x=330 fontfamily="Default" style="4" />
+		<UIText text="Seller" x=400 fontfamily="Default" style="4" />
+		<UIText text="Posted" x=600 fontfamily="Default" style="4" />
+	</UIPane>
+
+
+	<UIPane name="SellLabelPane" x=0 y=45 width=PARENT_WIDTH height=32 hidden=true >
+		<UIText text="Item Name and Quantity" x=75 fontfamily="Default" style="4" />
+	</UIPane>
+
+	<UIPane name="SellPriceWarning" x=590 y=340 width=150 height=32 hidden=true>
+		<UIText text="You must enter a price" fontfamily="Default" style="2"/>
+	</UIPane>
+	<UIPane name="SellPricePane" x=590 y=338 width=75 height=52 hidden=true update=true >
+		<UIText x=0 y=18 align=center text="Enter a price:" />
+		<UIListBox name="SellPriceBox" x=0 y=32 width=PARENT_WIDTH height=20
+			showpartialchild=false unequalcontrols=false>
+			<UIText name="SellPriceInput" allowspace=false width=PARENT_WIDTH height=PARENT_HEIGHT align=center
+				valign=middle fontfamily="International" multiline=false returnrestricted=true editable=true
+				update=true selectable=true
+				OnUpdate=UIObject_Misc_SetLocalVarString(local:9) />
+		</UIListBox>
+		<UIFrame x=0 y=32 width=PARENT_WIDTH height=20
+			topleft="tp_frame_tl.tga" topright="tp_frame_tr.tga"
+			bottomleft="tp_frame_bl.tga" bottomright="tp_frame_BR.tga"
+			top="tp_frame_t.tga" bottom="tp_frame_b.tga" left="tp_frame_l.tga"
+			right="tp_frame_r.tga" fillstyle="stretch" fill="tp_frame_bg.tga" border=5 />
+	</UIPane>
+
+	<!-- Item List Listbox -->
+	<UIListbox name="KEMO_AUCTION_BUY" x=ALIGN_CENTER y=65 height=300 width=718 yPadding=5  
+		showpartialchild=false scrollbaronright=true draggable=false selectonleftclick=true update=true >
+
+		<UIPane name="BuyPane" x=0 y=0 width=703 height=40 prototype=true draggable=false tupple=true
+			 >
+            		<UIButton name="BuyPaneIcon" x=0 y=0 style="STYLE_LOOT_ICON" prototype=true draggable=false
+            			OnLeftClick0=UIObject_Misc_ExtractData(selected:KEMO_AUCTION_BUY,"string",5,local:6) >
+                		<UIText align=right valign=bottom fontfamily="Default" style="2"/>
+            		</UIButton>
+            		<UIButton name="BuyPaneName" x=40 y=0 width=250 style="STYLE_LOOT_TEXT" prototype=true draggable=false
+            			OnLeftClick0=UIObject_Misc_ExtractData(selected:KEMO_AUCTION_BUY,"string",5,local:6) >
+               			<UIText align=left valign=middle fontfamily="Default" style="2"/>
+            		</UIButton>
+			<UIButton name="BuyPanePrice" x=300 y=0 width=60 style="STYLE_LOOT_TEXT" prototype=true draggable=false
+           			OnLeftClick0=UIObject_Misc_ExtractData(selected:KEMO_AUCTION_BUY,"string",5,local:6) >
+ 				<UIText align=center valign=middle fontfamily="Default" style="2" />
+			</UIButton>
+			<UIButton name="BuyPaneSeller" x=370 y=0 width=150 style="STYLE_LOOT_TEXT" prototype=true draggable=false
+           			OnLeftClick0=UIObject_Misc_ExtractData(selected:KEMO_AUCTION_BUY,"string",5,local:6) >
+ 				<UIText align=left valign=middle fontfamily="Default" style="1" />
+			</UIButton>
+			<UIButton name="BuyPaneTime" x=530 y=0 width=160 style="STYLE_LOOT_TEXT" prototype=true draggable=false
+           			OnLeftClick0=UIObject_Misc_ExtractData(selected:KEMO_AUCTION_BUY,"string",5,local:6) >
+ 				<UIText align=center valign=middle fontfamily="Default" style="1" />
+			</UIButton>
+		</UIPane>
+		<UIScrollBar name="SB" style="STYLE_SB_THIN" hidescrollbarwhennotneeded=true></UIScrollBar>	
+	</UIListbox>
+
+	<UIListbox name="KEMO_AUCTION_SELL" x=15 y=70 height=325 width=310 yPadding=5  
+		showpartialchild=false scrollbaronright=true draggable=false selectonleftclick=true update=true hidden=true >
+
+		<UIPane name="SellPane" x=0 y=0 width=703 height=40 prototype=true tupple=true
+			update=false >
+            		<UIButton name="SellPaneIcon" x=0 y=0 style="STYLE_LOOT_ICON" prototype=true draggable=false
+            			OnLeftClick0=UIObject_Misc_ExtractData(selected:KEMO_AUCTION_SELL,"string",7,local:8)
+				OnLeftClick1=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_value",local:8)>
+                		<UIText align=right valign=bottom fontfamily="Default" style="2"/>
+            		</UIButton>
+            		<UIButton name="SellPaneName" x=40 y=0 width=250 style="STYLE_LOOT_TEXT" prototype=true draggable=false
+            			OnLeftClick0=UIObject_Misc_ExtractData(selected:KEMO_AUCTION_SELL,"string",7,local:8)
+				OnLeftClick1=UIObject_Misc_ExecuteServerScript("gui_kemo_auction_value",local:8)>
+               			<UIText align=left valign=middle fontfamily="Default" style="2"/>
+            		</UIButton>
+		</UIPane>
+		<UIScrollBar name="SB" style="STYLE_SB_THIN" hidescrollbarwhennotneeded=true></UIScrollBar>	
+	</UIListbox>
+
+	<!-- Background pieces -->
+	<UIFrame name="FRAME_BG1" x=ALIGN_CENTER y=38 height=32 width=724 
+	top="frame1_B.tga" topright=frame1_B.tga topleft=frame1_B.tga
+	border=32 />
+	
+	<!-- Background Image -->
+	<UIFrame name="FRAME_BG" x=0 y=0 height=420 width=PARENT_WIDTH 
+		topleft="frame1_TL.tga" topright="frame1_TR.tga" bottomleft="frame1_BL.tga"
+		bottomright="frame1_BR.tga" top="frame1_T.tga" bottom="frame1_B.tga"
+		left="frame1_L.tga" right="frame1_R.tga" 
+		border=32 />
+	
+	<UIFrame name="FILL_BG" x=6 y=6 height=407 width=732
+		fill="bg_60_alpha.tga" fillstyle=tile />

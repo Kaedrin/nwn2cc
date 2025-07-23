@@ -1,0 +1,12 @@
+Follower of Shevarash, Hoar, or Gwynharwyf
+Fury
+Requirements: Barbarian, Rage 2/day, Ranger, Animal Companion
+BAB: High
+Saves: Fort
+Skill Pts: 4
+HD: d12
+Levels: 10/10 Ranger Spellcasting progression
+L1: Focused Fury: A Fury adds her class levels to her barbarian levels to determine how often she can rage and when she gains the greater rage, tireless rage, mighty rage, and epic rage barbarian class abilities. She does not gain or improve any other barbarian class abilities. Her Fury levels + 4 are added to her animal companion level for determining the effectiveness of the companion.
+L3: Damage Reduction: Starting at 3rd level, a Fury gains the ability to shrug off some amount of injury from each blow or attack. Subtract 2 from the damage the fury takes each time she is dealt damage from a weapon or natural attack. At 6th level, and every 2 levels thereafter, this damage reduction rises by 1 point. This damage reduction stacks with Barbarian and other sources of DR that stack (needs more detail).
+L5: Divine Grace: A 5th-level Fury gains a bonus equal to her Charisma bonus on all saving throws.
+L10: Any barbarian or Fury levels count as ranger for determining the effectiveness of the Protective Ward feat.

@@ -1,0 +1,81 @@
+Songblade
+
+[spoiler]
+A Songblade channels arcane magic through her voice and her blade, flitting about the battlefield and wreaking havoc upon her enemies.
+
+Required Alignment: Neutral Good
+
+Class Features:
+HD: d8
+BAB: High
+High Saves: Fort, Ref
+Weapon proficiency: Exotic.
+Armor proficiency: None.
+Skill points: 4 + Int modifier
+Class Skills: Appraise, Bluff, Diplomacy, Heal, Intimidate, Listen, Lore, Parry, Perform, Search, Spellcraft, Spot, Survival, Taunt, and Tumble.
+
+May not multiclass at all (you will lose a level and the experience you had if you take another class) and may not use UMD or stealth skills.
+
+Class Abilities
+
+Level 1: Song of Alacrity (Stance), Harmonic Blade, Weapon of Choice
+Level 2: Perceptive Defense
+Level 3: Ki Critical, Demoralize Opponent
+Level 4: Weapon Focus (Bastard Sword), Evasion
+Level 5: Dulcet Echo +1, Song of Defense (Stance)
+Level 6: Adamantine Shield, Uncanny Dodge
+Level 7: Increased Multiplier
+Level 8: Weapon Specialization (Bastard Sword)
+Level 9: Song of Dissonance (Stance), Dissonant Strike
+Level 10: Dulcet Echo +2
+Level 11: Improved Perceptive Defense
+Level 12: Greater Weapon Focus (Bastard Sword)
+Level 13: Song of Rest (Stance)
+Level 14: Dash
+Level 15: Dulcet Echo +3
+Level 16: Greater Weapon Specialization (Bastard Sword)
+Level 17: Improved Uncanny Dodge
+Level 18: Improved Evasion
+Level 19: Dulcet Echo +4
+Level 20: Superior Weapon Focus (Bastard Sword)
+Level 21: Frantic Reactions
+Level 22:
+Level 23: Epic Bonus Feat
+Level 24: Epic Weapon Focus (Bastard Sword)
+Level 25: Dulcet Echo +5
+Level 26: Epic Bonus Feat
+Level 27:
+Level 28: Epic Weapon Specialization (Bastard Sword)
+Level 29: Epic Bonus Feat
+Level 30: Dulcet Echo +6
+
+Harmonic Blade: All Songblades start with a harmonic blade which is a finely crafted adamantine bastard sword (without the magic damage bonus). It is the only weapon they are skilled with and they suffer a -8 attack penalty if they try to use a different weapon. They may not be disarmed while using this blade. Her order dictates that she may never wear armor or use a shield at all (all class abilities will be disabled).
+
+Song of Alacrity (Stance): While wielding her harmony blade, the Songblade is free to move about the battlefield singing and slashing her enemies with great speed. This combat stance is equivalent to the haste and freedom of movement spells. Only one stance may be active at a time.
+
+Weapon of Choice: The Songblade has chosen the bastard sword as her weapon of choice.
+
+Perceptive Defense: At 2nd level, the Songblade learns to predict the movements and physical nuances of her enemies and adapt her defenses to handle the anticipated attack. She adds her Intelligence modifier as a Dodge AC bonus.
+
+Song of Defense (Stance): At 5th level, the Songblade learns to focus her efforts and her songs on defense instead of moving about the field of battle with abandon. She gains a +1 shield enhance AC bonus which improves by +1 for every 6 levels she has (+2 at 6th to +6 at 30th). She also gains a bonus to her saving throws equal to her Intelligence bonus. She may not be knocked down, paralyzed, dazed, stunned, or subject to sneak attacks and critical hits while in this stance. Only one stance may be active at a time.
+
+Dulcet Echo: At 5th level, the Songblade begins to channel arcane magic into her blade provide it with the equivalent of a +1 enhancement bonus. This bonus improves by +1 for each additional 5 levels the songblade attains.
+
+Adamantine Shield: At 6th level, the Songblade's defensive skill with her harmonic blade is such she gains a +3deflection bonus. This bonus increases to +4 at 10th level, +5 at 15th, +6 at 20th, +7 at 25th, and +8 at 30th.
+
+Improved Perceptive Defense: At 11th level, the Songblade's defenses improve even further granting her spell resistance equal to 14 plus her class level.
+
+Dissonant Strike: At 9th level, the Songblade may make a single attack in a round against a class that uses magic (any base class that has access to spells including Hexblade) which will disrupt the magic surrounding them. This is treated as a disjunction with a caster level equal to the Songblade's class level. This attack automatically hits but only does damage equal to twice her Intelligence modifier. The subject suffers a concentration penalty equal to the songblade's Intelligence modifier. This strike may only be used while the Song of Dissonance is active.
+
+Song of Dissonance (Stance): At 9th level, the Songblade's learns a song of disharmony which allows her to use her Dissonant Strike ability. Only one stance may be active at a time. She also gains elemental and sonic damage resistance equal to twice her class level as well as immunity to death magic, curses, and the bigby spells.
+
+Song of Rest (Stance): At 13th level, the Songblade learns a song of fortitude and respite, allowing her to recuperate from battle quicker. She gains regeneration equal to her class level / 6 (maximum 5 at 30th) and damage reduction equal to her class level / 2 (maximum DR 15/- at 30th).
+
+New Feat: Improved Spell Resistance (+3 SR)
+New Feat: Improved Echo (Dulcet Echo gains a +1)
+
+**
+
+The class is on the very low end for AC (much less than a rogue and no UMD either) but on the high end for AB. They have four primary combat styles (hasted+fom, defensive, rest, anti-magic) they can switch between as needed. They have NO access to stealth or UMD and may not take ANY other classes. I will probably replaced Exotic with Songblade and have the Bastard usable by both Exotic and Songblade which means they can *only* use that weapon.
+
+[/spoiler]

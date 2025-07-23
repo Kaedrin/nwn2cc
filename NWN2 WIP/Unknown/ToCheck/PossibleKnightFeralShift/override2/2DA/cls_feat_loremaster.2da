@@ -1,0 +1,20 @@
+2DA V2.0
+
+    FeatLabel                             FeatIndex List GrantedOnLevel OnMenu 
+0   FEAT_LOREMASTER_SPELLCASTING_BARD     3958      2    1              0      
+1   FEAT_LOREMASTER_SPELLCASTING_SORCERER 3959      2    1              0      
+2   FEAT_LOREMASTER_SPELLCASTING_WIZARD   3960      2    1              0      
+3   FEAT_EPIC_SPELL_ENTROPIC_HUSK         1992      0    21             2      
+4   FEAT_EPIC_SPELL_EPIC_GATE             1993      0    21             2      
+5   FEAT_EPIC_SPELL_MASS_FOWL             1994      0    21             2      
+6   FEAT_EPIC_SPELL_VAMPIRIC_FEAST        1995      0    21             2      
+7   FEAT_EPIC_SPELL_HELLBALL              876       0    21             2      
+8   SpellFocusCon                         166       0    -1             0      
+9   SpellFocusDiv                         167       0    -1             0      
+10  SpellFocusEnc                         168       0    -1             0      
+11  SpellFocusEvo                         169       0    -1             0      
+12  SpellFocusIll                         170       0    -1             0      
+13  SpellFocusNec                         171       0    -1             0      
+14  SpellFocusTra                         172       0    -1             0      
+15  SpellFocusAbj                         35        0    -1             0      
+16  Toughness                             40        3    10             0      

@@ -1,0 +1,9 @@
+Channel Positive Energy now correctly uses the right spell entry
+Unstoppable Ferocity now has a description
+Reserve feats no longer have additional effects unless you have the Reserve Feat Enhancement ability
+Monks now grant missing feats on Rest. Will be moved to the portal entry NPC when I can find the script it uses.
+Add EffectHeal to AnimalCompanion after it has been summoned to account for Toughness
+Steal Shadow now works like other clone spells (who it can target, etc)
+Steal Shadow now has a caster level equal to 2/3 your Hit Dice plus your Shadowdancer level
+All clone spells now only work on hostile targets
+All clone spells have a HD cap equal to half their caster level similar to pen and paper.

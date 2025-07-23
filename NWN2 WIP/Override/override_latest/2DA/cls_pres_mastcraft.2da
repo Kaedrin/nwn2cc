@@ -1,0 +1,6 @@
+2DA V2.0
+
+  LABEL              ReqType ReqParam1        ReqParam2 
+0 CraftAlchemy       SKILL   27               5         
+1 CraftArmor         SKILL   25               5         
+2 CraftWeapon        SKILL   26               5         

@@ -1,0 +1,43 @@
+[spoiler="Spellthief"]
+Class Requirements:
+Level 2 Sorcerer or Wizard.
+
+Class Features
+
+This base class has 28 levels.
+
+HD: d6
+BAB: Medium
+High Saves: Ref, Will
+Weapon proficiency: Simple.
+Armor proficiency: Light Armor.
+
+Class Skills: Appraise, Bluff, Concentration, Craft (All), Disable Device, Hide, Listen, Lore, Move Silently, Open Lock, Parry, Search, Spellcraft, Spot, Tumble, and UMD.
+
+Skill Points: 6 + Int modifier
+
+Class Abilities
+
+Sneak Attack: If a spellthief can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage. This extra damage is 1d6 at 1st level, and it increases by 1d6 every 4 spellthief levels thereafter (2d6 at 5th, 3d6 at 9th, etc).
+
+Armored Mage: Normally, armor of any type interferes with an arcane spellcaster's gestures, which can cause your spells to fail if those spells have a somatic component. A spellthief's limited focus and specialized training, however, allow you to avoid any chance of arcane spell failure as long as you restrict yourself to light armor.
+
+Trapfinding: A spellthief can use the Search skill to locate traps with a DC higher than 20, and he can use Disable Device to bypass a trap or disarm magic traps. See the rogue class feature.
+
+Steal Spell: A spellthief can siphon spell energy away from his target and use it to benefit himself. A spellthief gains a concealment equal to his spellthief class level. This bonus lasts for three minutes and has a one minute cooldown.
+
+Spellgrace: A spellthief of 2nd level or higher gains a +1 competence bonus on his saves against spells. This bonus improves to +2 at 11th level, to +3 at 20th level, and to +4 at 28th level.
+
+Steal Energy Resistance: Beginning at 3rd level, a spellthief can siphon off some or all of a target's resistance to an energy type (acid, cold, electricity, fire, or sonic). A spellthief gains resistance 10 to the chosen energy type while the target suffers a 5% vulnerability to the element. The resistance a spellthief gains from using this ability lasts for 1 minute.
+
+At 11th level, a spellthief can steal resistance 20 to an energy type by using this ability, at 19th level he can steal resistance 30 to an energy type, and at 27th level he can steal resistance 40 to an energy type.
+
+Spellcasting: At each odd level, a spellthief gains new spells per day, plus another effective casting level, as if they progressed in an arcane spellcasting class that they had prior to becoming a spellthief (sorcerer or wizard). 
+
+Absorb Spell: When using the "Spell Mantle" spell, a spellthief adds half his level to the number of spell levels turned.
+
+Steal Spell Resistance: Beginning at 15th level, a spellthief can steal some or all of a creature's spell resistance. A spellthief reduces the target's spell resistance by 5. The spellthief also gains spell resistance equal to 5 + his class level (up to a maximum value equal to the original spell resistance of the target). The stolen spell resistance benefits the spellthief for a number of rounds equal to the spellthief's level.
+
+Bonus Epic Feats: The spellthief gains a bonus epic feat at levels 22, 25, and 28.
+
+[/spoiler]

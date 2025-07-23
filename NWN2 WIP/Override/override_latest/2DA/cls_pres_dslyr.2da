@@ -1,0 +1,7 @@
+2DA V2.0
+
+  LABEL                     ReqType ReqParam1 ReqParam2 
+0 Dodge                     FEAT    10        ****      
+1 IronWill                  FEAT    22        ****      
+2 Tumble                    SKILL   21        2         
+3 Base_Attack               BAB     5         ****      

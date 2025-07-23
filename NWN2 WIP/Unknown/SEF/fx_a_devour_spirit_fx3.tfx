@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Trail>
+  <EffectType>5</EffectType>
+  <Color>
+    <r>167</r>
+    <g>79</g>
+    <b>255</b>
+    <a>100</a>
+  </Color>
+  <UpdateFrequency>30</UpdateFrequency>
+  <FadeOutTime>0.1</FadeOutTime>
+  <Texture>fx_spirit_trail.tga</Texture>
+  <SourceBlend>5</SourceBlend>
+  <DestBlend>6</DestBlend>
+  <TextureType>0</TextureType>
+  <AnimatedTextureSpeed>1</AnimatedTextureSpeed>
+  <RequiresFrameBuffer>0</RequiresFrameBuffer>
+  <FrameBufferPixelDisplacement>0.1</FrameBufferPixelDisplacement>
+</Trail>

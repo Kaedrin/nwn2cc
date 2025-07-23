@@ -1,0 +1,8 @@
+2DA V2.0
+
+  LABEL           ReqType  ReqParam1 ReqParam2 
+0 SorcOr          CLASSOR  9         ****      
+1 WizOr           CLASSOR  10        ****      
+2 Eldritch_Knight CLASSNOT 52        ****      
+3 Spellcraft      SKILL    16        5         
+4 Spellcasting    SPELL    3         ****      

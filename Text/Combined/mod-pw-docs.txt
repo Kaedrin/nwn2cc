@@ -1,0 +1,22 @@
+[[span style="color: green;"]]Last Updated: Feb 24, 2008[[/span]]
+
++++ Documentation for a module or PW
+
+I'd appreciate feedback so I can get it as useful as possible to developers.
+
+[[[cmi_options-documentation| Cmi_options documentation]]]
+[[[content-removal|How to remove content sections]]]
+[[[module-events| Setting up the module events]]]
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

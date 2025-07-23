@@ -1,0 +1,10 @@
+2DA V2.0
+
+   FeatLabel                 FeatIndex List GrantedOnLevel OnMenu 
+0  ArmProfLgt                3         3    1              0      
+1  SneakAttack               221       3    2              0      
+2  SneakAttack2              345       3    6              0      
+3  SneakAttack3              346       3    10             0      
+4  FEAT_SWIFT_TRACKER        1393      3    3              0      
+5  FEAT_CAMOUFLAGE           1772      3    7              0      
+6  FEAT_SCOUT_SKIRMISHAC     3709      3    4              0      

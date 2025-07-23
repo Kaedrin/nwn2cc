@@ -1,0 +1,72 @@
+War Chanter
+
+War Chanter
+
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.
+
+The roar of battle, the screams of the dying, the howl of the warrior's cry … these are all notes in the music composed by the war chanter. His music flows across the battlefield like a raging torrent, catching friends and foes alike in its wake.
+
+Bards of particularly militant mindsets become war chanters (giving up their spellcasting ability in the process), and among barbarians, war chanters are often the leaders or elite warriors of a tribe. The music of a war chanter inspires those around him and pushes them to greater heights of strength and deeds of valor.
+
+Requirements:
+
+Alignment: Any nonlawful.
+Skills: Perform 6
+Feats: Combat Expertise, Weapon Focus
+Class: Bard Level 1
+
+Class Features:
+
+Hit Die: d8
+
+Base Attack Bonus: High.
+
+High Saves: Fort.
+
+Weapon Proficiencies: None.
+
+Armor Proficiencies: None.
+
+Skill Points: 4 + Int modifier.
+
+Class Skills: Craft Weapon, Craft Armor, Concentration, Diplomacy, Intimidate, Lore, Perform, Tumble.
+
+Class Abilities
+
+Level 1: Inspire Toughness, War Chanter Music
+Level 3: Inspire Recklessness
+Level 5: Combine Songs
+Level 7: Inspire Awe
+Level 8: Singing Shout
+Level 10: Inspire Legion
+
+Inspire Toughness
+
+A war chanter with 9 or more ranks in Perform can use her song or poetics to impart a kind of berserk resiliency on her allies (and herself). The effect lasts for as long as the ally hears the war chanter sing and for 5 rounds thereafter. An affected ally receives +2 temporary hit points for every class level of the war chanter. At 6th level and higher, a war chanter also grants affected allies the benefit of the Toughness feat when using this ability.
+
+War Chanter Music
+War chanter levels stack with bard levels for the purpose of determining how often a character can use war chanter music or bardic music and the effects of all bardic music. War chanter levels do not stack with bard levels for determining which songs a bard has access to.
+
+Inspire Recklessness
+
+A War chanter of 3rd level or higher with 12 or more ranks in the Perform skill can use her song or poetics to inspire an often dangerous, but very effective ferocity in one of her allies within 60 feet (or herself). The effect lasts for as long as the ally hears the war chanter sing and for 5 rounds thereafter. An affected ally (or the war chanter herself) is inspired to recklessness, gaining a +3 to her Attack Bonus and a -3 decrease to her AC. For every 6 ranks of Perform over 12 this increase another +1/-1.
+
+Combine Songs
+
+A war chanter of 5th level or higher with 12 or more ranks in the Perform skill can use two inspirations at the same time.
+
+Inspire Awe: A war chanter of 7th level or higher with 15 or more ranks of Perform can inspire uneasiness, fear, or even terror in his foes. To be affected, a foe must be within 60 feet of the war chanter and must be able to hear the war chanter. Foes get a Will save (DC 10 + war chanter's class level + war chanter's Cha modifier) to resist the effect. The severity of the effect depends on the difference between the foe's Hit Dice and the war chanter's Hid Dice.
+
+HD Difference Effect
++10 or more Foe is paralyzed for 1 round, panicked while in the area of effect
++1 to +9 Foe is panicked (xxx) while in the area of effect
+0 to -5 Foe is frightened (xxx) while in the area of effect
+-6 or less Foe is shaken (xxx) while in the area of effect
+
+Singing Shout
+
+When a war chanter of 8th level or higher engages in battle, she often lets out a singing shout as a standard action. All allies (including herself) within a 60-foot radius who can hear the war chanter gain a +4 enhancement bonus to Strength for a number of rounds equal to the class level of the war chanter.
+
+Inspire Legion
+
+NOTE: This is identical to Legionaires March

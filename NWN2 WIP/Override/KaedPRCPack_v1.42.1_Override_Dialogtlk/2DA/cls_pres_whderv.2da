@@ -1,0 +1,9 @@
+2DA V2.0
+
+  LABEL             ReqType ReqParam1 ReqParam2 
+0 BAB               BAB     5         ****      
+1 HideSkill         SKILL   5         8         
+2 MoveSilentlySkill SKILL   8         8         
+3 TumbleSkill       SKILL   21        8         
+4 Dodge             FEAT    10        ****      
+5 Mobility          FEAT    26        ****      

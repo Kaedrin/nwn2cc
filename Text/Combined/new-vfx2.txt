@@ -1,0 +1,20 @@
+If the skins are in your override or a hak you have attached to the module then you can automatically see them the next time you start up the toolset.
+
+They are in the VFX list on the creature's properties.  It's just like picking a normal spell vfx, ghost vfx, stoneskin vfx, etc.
+
+I'll upload some image examples.
+
+The first shows where you pick the VFX. VFX2 is the original mindflayer. VFX3-5 are just 3 of the skins/vfx applied to the same mindflayer to give it a different look/purpose.
+
+Using these you can make plantlike creatures that are using a different model, partially shadow or elemental creatures, various types of stone creatures, etc etc.  All of the skins I did start with sp_skin_ so you can just paste that into the VFX_ line and you jump straight to my skins. I think the sheer variety and amazing look these can add would really punch up the game for a lot of players without even getting new models (just by re-using the models we do have).
+
+I can also generate new skins in about a minute a piece once I get the tool set back up again.  I just need a high resolution image (the sky, metal textures, web textures, leaves, ANYTHING) and I can turn it into a skin.  The original format (jpeg, TGA, BMP, etc) doesn't matter as I convert them to TGA and then into DDS files. A small correction to my original post: it's 3 files per skin (1 tga, 1 dds, and 1 sef).
+
+The bigger the model, though, generally the worse the skins look *unless* the models were neatly broken into subpieces.  It's hard to explain but as you experiment you will see.
+
+
+[[image http://nwn2customcontent.wikidot.com/local--files/wip/VFX1.jpg]]
+[[image http://nwn2customcontent.wikidot.com/local--files/wip/VFX2.jpg]]
+[[image http://nwn2customcontent.wikidot.com/local--files/wip/VFX3.jpg]]
+[[image http://nwn2customcontent.wikidot.com/local--files/wip/VFX4.jpg]]
+[[image http://nwn2customcontent.wikidot.com/local--files/wip/VFX5.jpg]]

@@ -1,0 +1,67 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+Avengers are the mysterious sentinels of a nation-state, sworn to protect it no matter the cost. While chivalrous knights and doughty fighters take to the field of battle in defense of their homeland, avengers fight from the shadows striking down their targets swiftly and precisely.  Avengers typically tend to have levels of ranger, rogue, or monk. Avengers use guile and stealth to reach their targets, so while a bard can qualify for this class, their flamboyance and the verbal components of many of their abilities can make the successful completion of a mission difficult. Because of the reliance on physical attacks to achieve their goals, wizards and sorcerers likewise rarely become avengers. Some avengers take levels of fighter to boost their combat skills, while a few, and very rare, paladins also follow this path.
+
+**Requirements:**
+
+Alignment: Any non-chaotic.
+Skills: Hide 8 ranks, Move Silently 8 ranks.
+
+**Class Features:**
+
+Hit Die: d6
+Base Attack Bonus: Medium.
+High Saves: Reflex.
+Weapon Proficiencies: Simple Weapons.
+Armor Proficiencies: Light Armor.
+Skill Points: 4 + Int modifier.
+Class Skills: Bluff, Craft Alchemy, Craft Trap, Craft Weapon, Diplomacy, Disable Device, Hide, Intimidate, Listen, Move Silently, Open Lock, Parry, Search, Set Trap, Sleight of Hand, Spot, Tumble, Use Magic.
+
+**Class Abilities:**
+
+Death Attack: At 1st level, the avenger can make a special sneak attack called a death attack. This ability adds to the rogue's sneak attack ability, adding an extra 1d6 points of damage. This bonus rises to +2d6 at 3rd level, +3d6 at 5th level, +4d6 at 7th level, and +5d6 at 9th level. If used against an opponent not already in combat, a successful Death Attack forces the victim to make a Fortitude save or become paralyzed.
+
+Poison Resistance: The avenger's expertise with deadly toxins gives him an unnatural resistance to poisons of all types. The avenger gains a +1 bonus on Fortitude saves against poison at 2nd level. This bonus increases to +2 at 4th level, +3 at 6th level, +4 at 8th level, and +5 at 10th level.
+
+Uncanny Dodge: At 2nd level, the avenger retains his Dexterity bonus to AC even when caught flat-footed.
+
+Improved Uncanny Dodge: At 5th level, the avenger can no longer be sneak attacked except by a rogue 4 or more levels higher than him.
+
+Hide in Plain Sight: At 8th level, the avenger may enter stealth mode even while being observed.
+
+Death Touch: Avengers and Black Flame Zealots gain a death touch ability (1 minute cooldown). This ability takes 2 rounds to cast and rolls 1d6 for each level of Avenger, BFZ, and Assassin and compares that to the target's health. If the roll is higher, the creature dies (if not immune to death magic and crits). This is a replacement ability to make up for the loss of DC on Death Attack (it doesn't account for class levels).
+
+Spells: Assassins now get a number of spellbook feats that cast spells from a subradial set of choices. You gain bonus spells based on your natural Intelligence score.
+
+Ghost Visage now grants access to the following spells (cast from a subradial): Ghost Visage, Sleep, True Strike.
+
+Darkness is now granted at level 4 (instead of 5th) and grants access to the following spells (cast from a subradial): Cat's Grace, Darkness, Fox's Cunning.
+
+Invisibility is now granted at level 6 (instead of 7th) and grants access to the following spells (cast from a subradial): Invisibility, Deep Slumber, False Life, Magic Circle vs Good.
+
+Improved Invisibility is now granted at level 8 (instead of 9th) and grants access to the following spells (cast from a subradial): Improved Invisibility, Freedom of Movement, Poison, and Clairaudience/Clairvoyance.
+
+Level   L1      L2      L3      L4
+1st 	0	— 	— 	—
+2nd 	1	— 	— 	—
+3rd 	2	0	— 	—
+4th 	3	1	— 	—
+5th 	3	2	0	—
+6th 	3	3	1	—
+7th 	3	3	2	0
+8th 	3	3	3	1
+9th 	3	3	3	2
+10th 	3	3	3	3
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

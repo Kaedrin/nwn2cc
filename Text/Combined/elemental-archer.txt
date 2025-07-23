@@ -1,0 +1,61 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 5 levels.
+
+Elemental archers focus on channeling the elemental planes to supplement their combat prowess with ranged or thrown weapons.  Through exhaustive training, elemental archers are capable of opening small rifts in one of the planes, infusing their attacks with elemental energy or shielding themselves from harm.  These fearsome displays of raw elemental fury are rarely tolerated in most civilized lands which makes the class a perfect fit for the solitary Genasi though any race may become an elemental archer.
+
+Druids and Rangers are the most likely characters to become elemental archers due to their ties to nature and the elements.  It is not uncommon for Clerics and Favored Souls of a deity whose portfolio includes the elemental planes to follow the path as well.  Those with a taste for the arcane and focus on elemental spells are also good candidates.
+
+**Requirements:**
+
+Base Attack Bonus: +8
+Required Feats: Point Blank Shot, Manyshot, Weapon Focus in a ranged or thrown weapon.
+
+**Class Features:**
+
+Hit Die: d8
+Base Attack Bonus: High.
+High Saves: Reflex.
+Weapon Proficiencies: None.
+Armor Proficiencies: None.
+Skill Points: 4 + Int modifier.
+Class Skills: Concentration, Craft Armor, Craft Weapon, Intimidate, Listen, Lore, Spot, Survival, Tumble
+
+**Class Abilities:**
+
+Level 1: Path of Elements, Elemental Shot
+Level 2: Accurate Shot (+1)
+Level 3: Elemental Shield (5 minute cooldown)
+Level 4: Accurate Shot (+2)
+Level 5: Elemental Shield (2m:30s cooldown) , Elemental Storm (5 minute cooldown)
+
+All class abilities require that a ranged or thrown weapon be equipped for the ability to work.
+
+Path of Elements: At first level, the elemental archer must choose one of the four elements they wish to channel. All following abilities will use this element for their energy type. Genasi gain a +2 elemental damage bonus with Elemental Shot if they choose the same element as their heritage (stacking with the bonus from elemental shot).
+
+Elemental Shot: At first level, the elemental archer channels their chosen plane through their hands, causing their shots to strike with elemental damage. For each level of Elemental Archer, the player gains 1 point of elemental damage on each shot made. Genasi gain a +2 elemental damage bonus if they choose the same element as their heritage (stacking with the bonus from elemental shot).
+
+Accurate Shot - At level 2 their accuracy at channeling the elements improves, granting them a +1 attack bonus.  This bonus improves to +2 at level 4.
+
+Elemental Shield - At 3rd level, the elemental archer is capable of directing their chosen elemental energy into a protective shield about them once every 5 minutes.  They gain a damage shield of their element that also adds a shield AC bonus. The shield AC bonus is equal to half their class level (+3 at level 5) and the damage shield's damage is d4 + half their class level (d4 + 3 at 5th).  It lasts for a number of rounds equal to their con bonus plus their class level. The elemental archer is able to use this shield more often once they achieve 5th level (every 2 minutes, 30 seconds).
+
+Elemental Storm - Beginning at 5th level, an elemental archer can tap the raw fury of their native plane and direct it against a group of foes.  You unleash a hail of attacks imbued with elemental damage in a 40' circle, dealing your weapon damage + 2d6 of your chosen element if you succeed with a ranged touch attack. You can affect up to 5 targets.
+
+***
+
+New Feats will be added for the Elemental Archer:
+
+Improved Elemental Shield: The elemental shield adds an AC bonus equal to class level instead of half of their class level.  The damage dealt improves to d4 + class level. Duration is doubled.
+
+Improved Elemental Storm: The elemental storm becomes a raging conflagration of energy. The damage bonus increases to 4d6 and the number of targets increases to 10.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

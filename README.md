@@ -1,2 +1,2 @@
 # nwn2cc
-Custom Content for NWN2
+Neverwinter Nights 2 Custom Content

@@ -1,0 +1,44 @@
++++ Crafted Ammo and Enchanted Bows
+
+This is available as both a Hak and Override version available here: http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=214
+This upgrade has also been integrated into my PRC pack found here: http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=209
+
+
+This upgrade allows for Arrows, Bolts, Bullets, Darts, Throwing Axes, and Shurikens to be crafted out of various metal materials and for ranged weapons to be enchanted with Enhance, Damage Bonuses, and other enchants. 
+
+Ammo and thrown weapons can now be crafted from these materials: Adamantine, Cold Iron, Darksteel, Iron (normal ammo), Mithral, and Alchemical Silver. This allows ranged weapons to bypass the Damage Reduction that many creatures have. It takes 1 ingot, 1 wooden plank, and 1 ammo mold to create a stack of ammo. 
+
+Bows, Crossbows, Darts, Shurikens, and Throwing Axes can now be enchanted with the following properties (their recipes are the same as for melee weapons): Damage Bonus (all flavors), Enhance Bonus (all flavors), Keen, Holy Avenger, and Visual Effect. 
+
+Module developers and PW's can add these to their world by adding the molds and ammo to a merchant. Those playing single player can get the download that re-uses existing components to create these new items.
+
+Crafting ammo takes the following Craft Weapon skill values: 
+
+Normal Arrows: 2 
+Cold Iron, Alchemical Silver: 7 
+Darksteel, Mithral: 12 
+Adamantine: 17 
+
+Darksteel ammo adds 1 electrical damage. Adamantine ammo adds 2 magical damage.
+
+++ Future update
+* Bonecraft Armor
+* Glove Enchantments
+* Unlimited Ammo enchant
+* New Enchant: Wild Armor (Armor or Shield AC affects wildshape form)
+* New Enchant: Wilding Clasp (item works in Wildshape)
+* New Enchant: Twilight Armor (-10 ASF)
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

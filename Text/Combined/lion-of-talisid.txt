@@ -1,0 +1,91 @@
+PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below. This class has 10 levels.
+
+The undisputed ruler of the guardinals, Talisid the Celestial Lion is an enormously powerful force for good - and good alone, undiluted by concerns of law or chaos.  He is also a mighty druid and his mortal and guardinal champions are druids and rangers who share both his fierce hatred of evil and his passionate love of the natural world and its creatures.  Called the lions of Talisid, these protectors of nature and champions of good emulate their celestial patron in more concrete ways: adopting feline animal companions, assuming great cat forms with their wild shape ability, and eventually roaring like a leonal.
+
+Druids and rangers most commonly become lions of Talisid, and only a character with an animal companion can enter the class.  Multiclass druid/rangers also commonly adopt the class, and less commonly, fighter/druids or cleric/rangers.
+
+**Requirements:**
+
+Alignment: Any good.
+BAB: +4
+Skills: Lore 9, Survival 9
+Feats: Sacred Vow
+Minimum spell level in divine spells: 2
+Animal Companion or Telthor Companion
+
+**Class Features:**
+
+HD: d8
+BAB: High
+High Saves: Fortitude, Will
+Weapon and Armor proficiency: None
+Skill points: 4 + Int modifier
+Class Skills: Concentration, Craft Weapon, Craft Armor, Diplomacy, Heal, Listen, Lore, Spellcraft, Spot, Survival
+
+**Class Abilities:**
+
+Level 1: Lion's Companion, Lion's Courage, Divine Spellcasting progression
+Level 2: Scent
+Level 3: Wild Shape (1/day)
+Level 4: Exalted Companion, Wild Shape (2/day)
+Level 5: Lion's Pounce (Spring Attack bonus feat), Wild Shape (3/day)
+Level 6: 
+Level 7: Lion's Swiftness
+Level 8: Wild Shape (4/day)
+Level 9: 
+Level 10: Leonal's Roar
+
+Lion's Companion: A Lion of Talisid can add his class levels to his effective druid level (his actual druid level or adjusted ranger level) to determine the capabilities of his animal companion.
+
+Lion's Courage: A Lion of Talisid is immune to fear and gains a +4 sacred bonus on Will saves against other mind-affecting spells and effects.
+
+Divine Spellcasting: At each level, a Lion of Talisid gains new spells per day as if he had also gained a level in a divine spell-casting class (except cleric or favored soul) to which he belonged before adding the prestige class level.
+
+Scent: The Lion of Talisid gains the tracking feat if they do not already have it.
+
+Wild Shape: At 3rd level, a Lion of Talisid gains the ability to turn himself into any animal and back again once per day.  This works exactly as the druid's wild shape ability.  Lions of Talisid prefer the shape of great cats (cheetahs or leopards at lower levels), but are not limited to such forms.  
+
+The Lion of Talisid can use this ability more times per day at 4th, 5th, and 8th level.
+
+A Lion of Talisid who is also a druid can add his class level - 2 to his druid levels to determine his wild shape ability.  For example, an 8th-level druid/6th-level lion of Talisid can wild shape as a 12th-level druid, and can thus assume plant forms while changing forms 4 times/day.
+
+Exalted Companion: At 4th level, a Lion of Talisid gains the Exalted Companion feat as a bonus feat.
+
+Lion's Pounce: At 5th level, a Lion of Talisid gains the Spring Attack feat.
+
+Lion's Swiftness: When he reaches 7th level, a Lion of Talisid can act as if under the effects of a haste spell for a total of 1 round per class level. At 7th level he has 7 uses/day and gains another use for each additional Lion of Talisid level (10 uses/day at 10th level). This is an instantly activated ability.
+
+Leonal's Roar: Three times a day, a 10th-level Lion of Talisid can issue a roar that duplicates the effects of the leonal's roar spell (new spell).  The saving throw DC is 20 + the lion of Talisid's Charisma modifier.
+
+**New Spell: Leonal's Roar**
+Evocation
+Level: Druid 8
+Components: V
+Range: 40'
+Targets: Nongood creatures in a 40-ft.-radius spread centered on you
+Saving Throw: Fortitude partial
+Spell Resistance: Yes
+This spell has the effect of a holy word, and its additionally deals 2d6 points of sonic damage to nongood creatures in the area.  A successful Fortitude saving throw negates the sonic damage, but not the other effects of the spell.  
+
+The effect of the holy word is:
+
+Any nongood creature within the area suffers the following effects (no save):
+HD equals caster level: Deafened for 1d4 rounds
+HD up to caster level -1: Blinded for 2d4 rounds, Deafened for 1d4 rounds
+HD up to caster level -5: Paralyzed (helpless) for 1d10 minutes, Blinded for 2d4 rounds, deafened for 1d4 rounds
+HD up to caster level -10: Living Creatures die.  Undead creatures are destroyed.  Paralyzed (helpless) for 1d10 minutes, Blinded for 2d4 rounds, deafened for 1d4 rounds
+
+Nongood outsiders are banished (Will save -4 to negate).
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

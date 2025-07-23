@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Trail>
+  <EffectType>5</EffectType>
+  <Color>
+    <r>255</r>
+    <g>255</g>
+    <b>255</b>
+    <a>255</a>
+  </Color>
+  <UpdateFrequency>75</UpdateFrequency>
+  <FadeOutTime>1.2</FadeOutTime>
+  <Texture>fx_firetrail.dds</Texture>
+  <SourceBlend>2</SourceBlend>
+  <DestBlend>2</DestBlend>
+  <TextureType>1</TextureType>
+  <AnimatedTextureSpeed>1</AnimatedTextureSpeed>
+</Trail>

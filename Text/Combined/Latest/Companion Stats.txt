@@ -1,0 +1,123 @@
+This is an assessment of the current companions and their end game statistics. This is needed before we can evaluate the two pets that a beastmaster gets.
+
+[spoiler="Current Ranger/Druid companions without buffs"]Dragon Companion at level 30 with Epic Animal Companion has the following stats (unbuffed):
+Dragon level 26
+STR 24 
+DEX 17 
+CON 15 
+364 HPs 
+36 AC
+26 BAB 
+AB 33
+Spell Resistance 22 
+d6 + 7, d6 + 7, d8 + 7 damage
+
+Druid/Ranger Brown Bear at level 30 with Epic Animal Companion has the following stats (unbuffed): 
+Beast level 23
+STR 28 
+DEX 24 
+CON 17 
+299 HPs
+42 AC
+BAB 17
+AB 26
+1d8 + 9 damage[/spoiler]
+
+[spoiler="Ranger/Druid/BHA Buff details and companion feats"]Druid Buffs entail
+Nature's Avatar (+10 AB, +30-240 temporary hit points, Haste) (Limited use due to duration) 
+Awaken (+2 AB)
+Tortoise Shell (+9 NatAC)
+Jagged Tooth (keen attacks)
+Greater Magic Fang (+5 Enhance)
+Freedom of Movement
+Spell Resistance (12 + CL)
+Superior Resistance (+6 Saves)
++4 enhance to Dex, Con (cats, bears)
+Animal Growth (+8 enhance Str, -1 AB)
+Nature's Favor (+5 AB/Dmg)
+
+Ranger buffs entail
+Jagged Tooth (keen attacks)
+Greater Magic Fang (+5 Enhance)
+Freedom of Movement
++4 enhance to Dex, Con (cats, bears)
+Animal Growth (+8 enhance Str, -1 AB)
+Nature's Favor (+5 AB/Dmg)
+Barkskin (+5 NatAC)
+
+Beast Heart Adept
+Spell Resistance equal to 12 + companion HD
+3 points regen
+
+Unstoppable Fury feat (1.45 update)
++5 regen
+
+Exalted Companion
+Damage Reduction 10/Adamantine if level 12 or higher, 5/Adamantine otherwise.
+Attack Bonus of +4
+Darkvision
+Fiendish creatures gain Damage Resistance (Cold and Fire) 10 if level 8 or higher, 5 otherwise.
+Celestial creatures gain Damage Resistance (Cold, Electricity, and Acid) 10 if level 8 or higher, 5 otherwise.
+[/spoiler]
+
+[spoiler="Ranger buffed final stats"]
+Beast level 23
+STR 36
+DEX 28
+CON 17+4
+345 HPs
+49 AC
+BAB 17
+AB 43
+1d8+23 damage (keen)
+Freedom of Movement
+SR 35
+8 points regen
+Damage Reduction 10/Adamantine
+Darkvision
+Fiendish creatures gain Damage Resistance (Cold and Fire) 10
+Celestial creatures gain Damage Resistance (Cold, Electricity, and Acid) 10
+[/spoiler]
+
+[spoiler="Druid buffed final stats"]
+Dragon level 26
+STR 32
+DEX 21
+CON 19
+416 HPs 
+47 AC
+26 BAB 
+AB 52
+Spell Resistance 22 
+d6 + 21, d6 + 21, d8 + 21 damage (keen)
+Freedom of Movement
+Spell Resistance 42
++6 Saves
+8 Regen
+Damage Reduction 10/Adamantine
+Darkvision
+Fiendish creatures gain Damage Resistance (Cold and Fire) 10 
+Celestial creatures gain Damage Resistance (Cold, Electricity, and Acid) 10
+
+
+Brown Bear
+Beast level 23
+STR 36
+DEX 28
+CON 21
+345 HPs
+53 AC
+BAB 17
+AB 45
+1d8 + 23 damage (keen)
+Freedom of Movement
+Spell Resistance 42
++6 Saves
+8 Regen
+Damage Reduction 10/Adamantine
+Darkvision
+Fiendish creatures gain Damage Resistance (Cold and Fire) 10 
+Celestial creatures gain Damage Resistance (Cold, Electricity, and Acid) 10
+
+Nature's Avatar (+10 AB, +30-240 temporary hit points, Haste) (Limited use due to duration, not included in stats) 
+[/spoiler]

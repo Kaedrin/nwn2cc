@@ -1,0 +1,81 @@
+Ninjas move through the shadows, striking down the unwary and vanishing again with ease. Ninjas walk where others cannot. They blend their training in stealth and assassination with a focused mind. Their rigorous preparation sharpens their minds and bodies, giving them supernatural abilities of stealth and making them phantoms in the eyes of many. Although ninjas in battle lack the staying power of martial characters such as fighters or barbarians, they excel at making combat occur on their terms: appearing and disappearing seemingly at a whim.
+This is a base class.
+
+Class Features
+
+HD: d6
+BAB: Medium
+High Saves: Ref
+Weapon proficiency: Simple, Monk, and Rogue Weapons.
+Armor proficiency: None.
+
+Class Skills: Bluff, Concentration, Craft Alchemy, Craft Traps, Craft Weapon, Craft Armor, Disable Device, Diplomacy, Hide, Listen, Lore, Move Silently, Open Lock, Search, Sleight of Hand, Spot, and Tumble.
+Skill points: 6 + Int modifier
+
+Class Abilities
+
+Level 1: Ki Power, Trapfinding, Sneak Attack +1d6, AC Bonus
+Level 2: Ghost Step (Invisible)
+Level 3: Sneak Attack +2d6, Poison Use
+Level 4: 
+Level 5: Sneak Attack +3d6, AC Bonus +1
+Level 6: Acrobatics +2, Ki Dodge
+Level 7: Sneak Attack +4d6
+Level 8: Ghost Strike
+Level 9: Sneak Attack +5d6
+Level 10: Ghost Step (Ethereal), AC Bonus +2
+Level 11: Sneak Attack +6d6
+Level 12: Acrobatics +4, Evasion
+Level 13: Sneak Attack +7d6
+Level 14:
+Level 15: Sneak Attack +8d6, AC Bonus +3
+Level 16: Ghost Sight
+Level 17: Sneak Attack +9d6
+Level 18: Acrobatics +6, Greater Ki Dodge
+Level 19: Sneak Attack +10d6
+Level 20: Ghost Walk, AC Bonus +4
+Level 21: Sneak Attack +11d6
+Level 22:
+Level 23: Bonus Epic Feat, Sneak Attack +12d6
+Level 24: Acrobatics +8, Improved Evasion
+Level 25: Sneak Attack +13d6, AC Bonus +5
+Level 26: Bonus Epic Feat
+Level 27: Sneak Attack +14d6
+Level 28: 
+Level 29: Bonus Epic Feat, Sneak Attack +15d6
+Level 30: AC Bonus +6, Acrobatics +10
+
+Ninjas gain bonus epic feats at 23rd, 26th, and 29th level.
+
+AC Bonus: A ninja is highly trained at dodging blows, and she has a sixth sense that lets her avoid even unanticipated attacks. When unarmored and unencumbered, a ninja adds her Wisdom bonus (if any) to her Armor Class. This ability does not stack with the monk's AC bonus ability and the bonus can not exceed the number of levels you have in the Ninja class. In addition, a ninja gains a +1 bonus (Dodge) to AC at 5th level. This bonus increases by 1 for every five ninja levels thereafter (+2 at 10th, +3 at 15th, +4 at 20th, +5 at 25th, and +6 at 30th).
+
+Ki Power: A ninja can channel her <i>ki</i> to manifest special powers of stealth and mobility. She can use her <i>ki</i> powers a number of times per day equal to her class level (up to 30 uses/day). <i>Ki</i> powers can be used only if a ninja is wearing no armor and is unencumbered.
+
+As long as a ninja's <i>ki</i> pool isn't empty (this is, as long as she has at least one daily use remaining), she gains a +2 bonus on her Will saves.
+
+Ghost Step: Starting at 2nd level, a ninja can spend one daily use of her ki power to become invisible for 3 rounds. At 10th level, a ninja can become ethereal when using ghost step instead of becoming invisible.
+
+Acrobatics: Starting at 6th level, a ninja gains a +2 bonus to Tumble checks. This bonus increases to +4 at 12th level, +6 at 18th level, +8 at 24th level, and +10 at 30th level.
+
+Ki Dodge: At 6th level and higher, a ninja can spend one daily use of her <i>ki</i> power to cause an attack against her to miss when it might otherwise hit. When a ninja activates this ability, her outline shifts and wavers, granting her concealment (20% miss chance) against all attacks for 3 rounds.
+
+Ghost Strike: At 8th level and higher, a ninja can spend one daily use of her <i>ki</i> power to strike spirits as if they were corporeal (this ignores their concealment bonus like the Spirit Shaman's Ghost Warrior ability) for three rounds.
+
+Ghost Sight: At 16th level and higher, a ninja can see invisible and ethereal creatures as easily as she sees material creatures and objects.
+
+Greater Ki Dodge: Starting at 18th level, a ninja's <i>ki</i> dodge ability grants total concealment (50% miss chance).
+
+Ghost Walk: A 20th-level ninja can spend two daily uses of her <i>ki</i> power to enter the Ethereal Plane for an extended period of time. This ability functions as the ethereal jaunt spell with a caster level equal to the ninja's class level.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

@@ -1,0 +1,30 @@
+...
+
+This class has 22 levels.
+
+Requirements:
+Feats: Devoted Tracker.
+Skills: Lore 6, Survival 9.
+Required Classes: Ranger 4, Paladin 4
+
+Class Features:
+
+- Hit Die: d10
+- Base Attack Bonus: High.
+- High Saves: Fort, Ref.
+- Weapon Proficiencies: None.
+- Armor Proficiencies: None.
+- Skill Points: 4 + Int modifier.
+- Class Skills: Concentration, Craft Armor, Craft Weapon, Diplomacy, Heal, Listen, Lore, Parry, Search, Set Trap, Spellcraft, Spot, Survival, Taunt, and Tumble.
+
+Class Abilities:
+
+- Spellcasting Progression: At each level, a Knight of the Wild gains new spells per day as if he had gained a level in both Paladin and Ranger.
+
+- Favored Companion: A Knight of the Wild adds his class level +1 to his effective druid level to determine the capabilities of his animal companion. A Knight of the Wild who only has Ranger and Paladin levels will have a companion equal to that a druid.
+
+- Wilderness Fervor: If you have the Protective Ward feat, it treats Paladin and Knight of the Wild levels as Ranger levels.
+
+- Exalted Companion: At 4th level, a Knight of the Wild gains the Exalted Companion feat as a bonus feat.
+
+- Bonus Feats: At levels 13, 16, 19, and 22 the Knight of the Wild gains a bonus feat.
