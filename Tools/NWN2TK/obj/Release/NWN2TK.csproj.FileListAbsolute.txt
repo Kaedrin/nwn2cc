@@ -1,0 +1,16 @@
+C:\Matt\NWN2TK\bin\Release\NWN2TK.exe
+C:\Matt\NWN2TK\bin\Release\NWN2TK.pdb
+C:\Matt\NWN2TK\bin\Release\managednwscript.dll
+C:\Matt\NWN2TK\bin\Release\ManagedResourceInterface.dll
+C:\Matt\NWN2TK\bin\Release\NWN2Toolset.dll
+C:\Matt\NWN2TK\bin\Release\OEIShared.dll
+C:\Matt\NWN2TK\bin\Release\SandBar.dll
+C:\Matt\NWN2TK\bin\Release\SharpZipLib.dll
+C:\Matt\NWN2TK\bin\Release\OEILocalization.dll
+C:\Matt\NWN2TK\obj\Release\ResolveAssemblyReference.cache
+C:\Matt\NWN2TK\obj\Release\NWN2ToolKit.NWN2TK.resources
+C:\Matt\NWN2TK\obj\Release\NWN2TK.Properties.Resources.resources
+C:\Matt\NWN2TK\obj\Release\NWN2ToolKit.SortableGrid.resources
+C:\Matt\NWN2TK\obj\Release\NWN2TK.csproj.GenerateResource.Cache
+C:\Matt\NWN2TK\obj\Release\NWN2TK.exe
+C:\Matt\NWN2TK\obj\Release\NWN2TK.pdb
