@@ -1390,7 +1390,14 @@ namespace NWN2ToolKit
                 }
             }
 
-
+            string sScrollPath = sDataPath + @"\nw_it_sparscr212.UTI";
+            OEIShared.IO.GFF.GFFFile _UTIFile = new OEIShared.IO.GFF.GFFFile(sScrollPath);
+            string sScrollPath2 = sDataPath + @"\nx2_scroll_reducepersonmass.UTI";
+            string sScrollPath3 = sDataPath + @"\nx2_scroll_kaedrin.UTI";
+            OEIShared.IO.GFF.GFFFile _UTIFile2 = new OEIShared.IO.GFF.GFFFile(sScrollPath2);
+            OEIShared.Utils.OEIExoString _exoString = _UTIFile2.TopLevelStruct.GetExoStringSafe("Tag");
+            _exoString.Value = "nx2_scroll_kaedrin";
+            _UTIFile2.Save(sScrollPath3);
 
             ParseFile(sIPRP);
 
@@ -1410,7 +1417,7 @@ namespace NWN2ToolKit
             {
                 foreach (ArrayList row in (ArrayList)ParsedFile)
                 {
-                    if ((string)row[6] == ix.ToString() || (string)row[6] == "****" || (string)row[6] == "" || (string)row[6] == "-1")
+                    if ((string)row[6] == ix.ToString() || (string)row[6] == " * ***" || (string)row[6] == "" || (string)row[6] == "-1")
                     {
                         if ((string)row[1] != "****")
                             ParsedFile2.Add(row);
