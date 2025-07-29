@@ -1,0 +1,10 @@
+2DA V2.0
+
+  LABEL              ReqType ReqParam1        ReqParam2 
+0 BAB                BAB     6                ****      
+1 ScriptVar          VAR     cmi_AllowTempest 0         
+2 Dodge              FEAT    10               ****      
+3 ImpTwo             FEATOR  20               ****      
+4 Mobility           FEAT    26               ****      
+5 SpringAttack       FEAT    392              ****      
+6 RangerImpTwoWeapon FEATOR  1735             ****      

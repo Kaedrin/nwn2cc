@@ -1,0 +1,17 @@
+2DA V2.0
+
+   FeatLabel                FeatIndex List GrantedOnLevel OnMenu 
+0  WeapProfSim              46        3    1              0      
+1  ArmProfLgt               3         3    1              0      
+2  WeapProfMar              45        3    1              0      
+3  SneakAttack              221       3    2              0      
+4  SneakAttack2             345       3    5              0      
+5  SneakAttack3             346       3    8              0      
+6  Cleave                   6         3    10             0      
+7  FEAT_GFK_GHOST_STEP_1    3653      3    1              1      
+8  FEAT_GFK_GHOST_STEP_2    3654      3    4              1      
+9  FEAT_GFK_GHOST_STEP_3    3655      3    7              1      
+10 FEAT_GFK_GHOST_STEP_4    3656      3    10             1      
+11 FEAT_GFK_FRIGHTFUL_ATK_1 3657      3    3              1      
+12 FEAT_GFK_FRIGHTFUL_ATK_2 3658      3    6              1      
+13 FEAT_GFK_FRIGHTFUL_ATK_3 3659      3    9              1      

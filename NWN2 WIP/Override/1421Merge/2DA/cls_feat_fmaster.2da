@@ -1,0 +1,29 @@
+2DA V2.0
+
+   FeatLabel                                     FeatIndex List GrantedOnLevel OnMenu 
+0  FEAT_FOREST_MASTER_SPELLCASTING_CLERIC        3210      2    1              0      
+1  FEAT_FOREST_MASTER_SPELLCASTING_DRUID         3211      2    1              0      
+2  FEAT_FOREST_MASTER_SPELLCASTING_FAVORED_SOUL  3212      2    1              0      
+3  FEAT_FOREST_MASTER_SPELLCASTING_PALADIN       3213      2    1              0      
+4  FEAT_FOREST_MASTER_SPELLCASTING_RANGER        3214      2    1              0      
+5  FEAT_FOREST_MASTER_SPELLCASTING_SPIRIT_SHAMAN 3215      2    1              0      
+6  FEAT_FOREST_MASTER_TREE_BROTHER               3216      3    1              1      
+7  FEAT_FOREST_MASTER_FOREST_DOMINION            3217      3    2              1      
+8  FEAT_FOREST_MASTER_FOREST_HAMMER              3218      3    2              1      
+9  FEAT_FOREST_MASTER_OAKEN_SKIN                 3219      3    3              1      
+10 FEAT_FOREST_MASTER_SPRUCE_GROWTH              3220      3    5              1      
+11 FEAT_FOREST_MASTER_OAKHEART                   3221      3    7              1      
+12 FEAT_FOREST_MASTER_DEEP_ROOTS                 3222      3    8              1      
+13 FEAT_FOREST_MASTER_FOREST_MIGHT               3223      3    10             1      
+14 FEAT_EPIC_SPELL_ENTROPIC_HUSK                 1992      0    21             2      
+15 FEAT_EPIC_SPELL_EPIC_GATE                     1993      0    21             2      
+16 FEAT_EPIC_SPELL_MASS_FOWL                     1994      0    21             2      
+17 FEAT_EPIC_SPELL_VAMPIRIC_FEAST                1995      0    21             2      
+18 WeapProfMar                                   45        3    1              0      
+19 KnockDown                                     23        3    4              0      
+20 FEAT_EPIC_GREAT_STRENGTH_1                    814       3    4              0      
+21 FEAT_EPIC_GREAT_STRENGTH_2                    815       3    4              0      
+22 FEAT_EPIC_GREAT_STRENGTH_3                    816       3    10             0      
+23 FEAT_EPIC_GREAT_STRENGTH_4                    817       3    10             0      
+24 FEAT_EPIC_GREAT_CONSTITUTION_1                774       3    10             0      
+25 FEAT_EPIC_GREAT_CONSTITUTION_2                775       3    10             0      

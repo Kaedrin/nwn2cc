@@ -1,0 +1,26 @@
+2DA V2.0
+
+   FeatLabel                           FeatIndex List GrantedOnLevel OnMenu 
+0  FEAT_PRESTIGE_DEATH_ATTACK_1        455       3    3              0      
+1  FEAT_PRESTIGE_DEATH_ATTACK_2        456       3    6              0      
+2  FEAT_PRESTIGE_DEATH_ATTACK_3        457       3    9              0      
+3  PoisonUse                           960       3    2              0      
+4  FEAT_PRESTIGE_DEATH_ATTACK_6        1004      3    18             0      
+5  FEAT_PRESTIGE_DEATH_ATTACK_7        1005      3    21             0      
+6  FEAT_PRESTIGE_DEATH_ATTACK_8        1006      3    24             0      
+7  FEAT_PRESTIGE_DEATH_ATTACK_9        1019      3    27             0      
+8  FEAT_PRESTIGE_DEATH_ATTACK_10       1020      3    30             0      
+9  FEAT_PRESTIGE_DEATH_ATTACK_4        458       3    12             0      
+10 FEAT_PRESTIGE_DEATH_ATTACK_5        459       3    15             0      
+11 FEAT_BFZ_SACRED_FLAME               3056      3    7              1      
+12 FEAT_BFZ_ZEALOUS_HEART              3057      3    1              1      
+13 FEAT_BFZ_SPELLCASTING_SPIRIT_SHAMAN 3005      2    1              0      
+14 FEAT_BFZ_SPELLCASTING_CLERIC        3006      2    1              0      
+15 FEAT_BFZ_SPELLCASTING_DRUID         3007      2    1              0      
+16 FEAT_BFZ_SPELLCASTING_PALADIN       3008      2    1              0      
+17 FEAT_BFZ_SPELLCASTING_RANGER        3009      2    1              0      
+18 FEAT_BFZ_SPELLCASTING_FAVORED_SOUL  3010      2    1              0      
+19 FEAT_EPIC_SPELL_DAMNATION           1991      0    21             2      
+20 FEAT_EPIC_SPELL_EPIC_GATE           1993      0    21             2      
+21 FEAT_EPIC_SPELL_VAMPIRIC_FEAST      1995      0    21             2      
+22 FEAT_DEATH_TOUCH                    3317      3    1              1      

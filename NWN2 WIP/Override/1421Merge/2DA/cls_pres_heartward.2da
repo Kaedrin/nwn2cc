@@ -1,0 +1,9 @@
+2DA V2.0
+
+  LABEL          ReqType    ReqParam1 ReqParam2 
+0 BluffSkill     SKILL      23        3         
+1 DiplomacySkill SKILL      12        6         
+2 Dodge          FEAT       10        ****      
+3 Mobility       FEAT       26        ****      
+4 SpellFocusEnc  FEAT       168       ****      
+5 Spellcasting   SPELL      3         ****      

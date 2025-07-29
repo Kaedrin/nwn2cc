@@ -1,0 +1,17 @@
+2DA V2.0
+
+     FeatLabel                       FeatIndex List GrantedOnLevel OnMenu 
+0    SkillFocTumble                  406       3    1              0      
+1    FEAT_DASH                       1337      3    2              0      
+2    SpringAttack                    392       3    3              0      
+3    ImpInit                         377       3    6              0      
+4    FEAT_DERVISH_AC_BONUS           3606      3    1              0      
+5    FEAT_DERVISH_DERVISH_DANCE_1    3607      3    1              1      
+6    FEAT_DERVISH_DERVISH_DANCE_2    3608      3    3              1      
+7    FEAT_DERVISH_DERVISH_DANCE_3    3609      3    5              1      
+8    FEAT_DERVISH_DERVISH_DANCE_4    3610      3    7              1      
+9    FEAT_DERVISH_DERVISH_DANCE_5    3611      3    9              1      
+10   FEAT_DERVISH_DANCE_DEATH        3612      3    4              0      
+11   FEAT_DERVISH_DEFENSIVE_PARRY    3613      3    7              0      
+12   FEAT_DERVISH_TIRELESS_DANCE     3614      3    9              0      
+13   FEAT_DERVISH_THOUSAND_CUTS      3615      3    10             1      

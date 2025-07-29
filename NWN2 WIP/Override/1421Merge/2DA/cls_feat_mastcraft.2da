@@ -1,0 +1,24 @@
+2DA V2.0
+
+   FeatLabel                          FeatIndex List GrantedOnLevel OnMenu 
+0  FEAT_BREW_POTION                   944       2    -1             0      
+1  FEAT_SCRIBE_SCROLL                 945       2    -1             0      
+2  FEAT_CRAFT_WAND                    946       2    -1             0      
+3  FEAT_CRAFT_MAGIC_ARMS_AND_ARMOR    1092      2    -1             0      
+4  FEAT_CRAFT_WONDROUS_ITEMS          1093      2    -1             0      
+5  SkillFocCrftTrap                   407       2    -1             0      
+6  FEAT_EPIC_SKILL_FOCUS_CRAFT_TRAP   590       2    -1             0      
+7  FEAT_SKILL_FOCUS_CRAFT_ARMOR       911       2    -1             0      
+8  FEAT_SKILL_FOCUS_CRAFT_WEAPON      912       2    -1             0      
+9  FEAT_EPIC_SKILL_FOCUS_CRAFT_ARMOR  913       2    -1             0      
+10 FEAT_EPIC_SKILL_FOCUS_CRAFT_WEAPON 914       2    -1             0      
+11 FEAT_CRAFT_ROD                     3843      2    -1             0      
+12 FEAT_CRAFT_STAFF                   3844      2    -1             0      
+13 FEAT_FORGE_RING                    3845      2    -1             0      
+14 FEAT_EPIC_SKILL_FOCUS_DISABLETRAP  591       2    -1             0      
+15 FEAT_EPIC_SKILL_FOCUS_SETTRAP      604       2    -1             0      
+16 FEAT_SKILL_FOCUS_SET_TRAP          188       2    -1             0      
+17 FEAT_SKILL_FOCUS_DISABLE_TRAP      174       2    -1             0      
+18 FEAT_TRAP_SENSE_1                  1387      3    1              0      
+19 FEAT_TRAP_SENSE_2                  1388      3    3              0      
+20 FEAT_TRAPFINDING                   1857      3    5              0      

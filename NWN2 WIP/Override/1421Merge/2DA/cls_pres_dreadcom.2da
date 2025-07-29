@@ -1,0 +1,9 @@
+2DA V2.0
+
+  LABEL        ReqType ReqParam1        ReqParam2 
+0 ScriptVar    VAR     cmi_AllowDivSeek 0         
+1 Hide         SKILL   5                6         
+2 MoveSilently SKILL   8                6         
+3 BAB          BAB     5                ****      
+4 Dodge        FEAT    10               ****      
+5 Mobility     FEAT    26               ****      

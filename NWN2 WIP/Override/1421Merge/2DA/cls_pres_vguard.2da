@@ -1,0 +1,7 @@
+2DA V2.0
+
+  LABEL                                                          ReqType ReqParam1 ReqParam2 
+0 Heal                                                           SKILL   4         8         
+1 Survival                                                       SKILL   29        8         
+2 FEAT_COMBATSTYLE_RANGER_ARCHERY_IMPROVED_RAPID_SHOT            FEATOR  1733      ****      
+3 FEAT_COMBATSTYLE_RANGER_DUAL_WIELD_GREATER_TWO_WEAPON_FIGHTING FEATOR  1736      ****      

@@ -1,0 +1,8 @@
+2DA V2.0
+
+  LABEL              ReqType ReqParam1 ReqParam2 
+0 BardSongs          FEAT    257       ****      
+1 ConcentrationSkill SKILL   1         8         
+2 LoreSkill          SKILL   7         8         
+3 PerformSkill       SKILL   11        8         
+4 SpellcraftSkill    SKILL   16        4         

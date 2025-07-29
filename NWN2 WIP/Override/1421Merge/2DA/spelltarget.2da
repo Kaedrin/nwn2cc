@@ -1,0 +1,29 @@
+2DA V2.0
+
+   Label               Shape     Width  Length Image                   ImageHostile                 
+0  point               point     2      ****   spelltgt_circle.tga     spelltgt_circle_hostile.tga  
+1  rectangle_2m_width  rectangle 10     2      spelltgt_square10_2.tga spelltgt_square10_2.tga      
+2  circle_huge         circle    12.138 ****   spelltgt_circle.tga     spelltgt_circle_hostile.tga  
+3  cone_colossal       cone      9.144  ****   spelltgt_triangle.tga   spelltgt_triangle.tga        
+4  cone_8m             cone      8      ****   spelltgt_triangle.tga   spelltgt_triangle.tga        
+5  cone_11m            cone      11     ****   spelltgt_triangle.tga   spelltgt_triangle.tga        
+6  circle_small        circle    3.048  ****   spelltgt_circle.tga     spelltgt_circle_hostile.tga  
+7  circle_medium       circle    6.096  ****   spelltgt_circle.tga     spelltgt_circle_hostile.tga  
+8  circle_large        circle    9.144  ****   spelltgt_circle.tga     spelltgt_circle_hostile.tga  
+9  circle_gargantuan   circle    15.24  ****   spelltgt_circle.tga     spelltgt_circle_hostile.tga  
+10 circle_colossal     circle    18.288 ****   spelltgt_circle.tga     spelltgt_circle_hostile.tga  
+11 rectangle_1m_width  rectangle 10     1      spelltgt_square10_1.tga spelltgt_square10_1.tga      
+12 bolt                bolt      3      30     spelltgt_square3_30.tga spelltgt_square3_30.tga      
+13 circle_huge_mundane circle    12.138 ****   spelltgt_mundane.tga    spelltgt_mundane_hostile.tga 
+14 point_mundane       point     2      ****   spelltgt_mundane.tga    spelltgt_mundane_hostile.tga 
+15 circle_med_mundane  circle    6.096  ****   spelltgt_mundane.tga    spelltgt_mundane_hostile.tga 
+16 cone_large          cone      4.572  ****   spelltgt_triangle.tga   spelltgt_triangle.tga        
+17 circle_ginormous    circle    30.5   ****   spelltgt_circle.tga     spelltgt_circle_hostile.tga  
+18 circle_tremendous   circle    24.4   ****   spelltgt_circle.tga     spelltgt_circle_hostile.tga  
+19 circle_vast         circle    36.5   ****   spelltgt_circle.tga     spelltgt_circle_hostile.tga  
+20 square              rectangle 3.048  3.048  spelltgt_square10_2.tga spelltgt_square10_2.tga      
+21 cone_60f            cone      18.29  ****   spelltgt_triangle.tga   spelltgt_triangle.tga        
+22 cone_10f            cone      3.048  ****   spelltgt_triangle.tga   spelltgt_triangle.tga        
+23 rectangle_1m_width  rectangle 2      18.288 spelltgt_square10_1.tga spelltgt_square10_1.tga      
+24 bolt_60ft           bolt      3      18.29  spelltgt_square3_30.tga spelltgt_square3_30.tga      
+25 cone_20ft           cone      6.096  ****   spelltgt_triangle.tga   spelltgt_triangle.tga        
