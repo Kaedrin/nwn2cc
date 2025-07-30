@@ -1,0 +1,10 @@
+2DA V2.0
+
+  LABEL                ReqType  ReqParam1 ReqParam2 
+0 TurnUndead           FEAT     294       ****      
+1 AnimalCompanion      FEAT     199       ****      
+2 Paladin              CLASSOR  6         ****      
+3 Ranger               CLASSOR  7         ****      
+4 LoreSkill            SKILL    7         6         
+5 Survival             SKILL    29        9         
+6 FEAT_DEVOTED_TRACKER FEAT     3697      ****      

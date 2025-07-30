@@ -1,0 +1,7 @@
+2DA V2.0
+
+  LABEL                  ReqType ReqParam1 ReqParam2 
+0 BAB                    BAB     4         ****      
+1 FEAT_TELTHOR_COMPANION FEATOR  3704      ****      
+2 AnimalCompanion        FEATOR  199       ****      
+3 FEAT_EXALTED_COMPANION FEAT    3133      ****      

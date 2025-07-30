@@ -1,0 +1,18 @@
+2DA V2.0
+
+   FeatLabel                   FeatIndex List GrantedOnLevel OnMenu 
+0  ArmProfLgt                  3         3    1              0      
+1  Shield                      32        3    1              0      
+2  WeapProfSim                 46        3    1              0      
+3  WeapProfMar                 45        3    1              0      
+4  FEAT_TRAPFINDING            1857      3    1              0      
+5  FEAT_FACTOTUM_ARCDILETTANTE 3976      3    2              0      
+6  FEAT_FACTOTUM_BRAINS_BRAWN  3977      3    3              0      
+7  TurnUndead                  294       3    5              1      
+8  FEAT_FACTOTUM_OPP_PIETY     3978      3    3              1      
+9  FEAT_FACTOTUM_OPP_HOST      3979      3    3              1      
+10 ExtTurn                     13        3    15             0      
+11 FEAT_FACTOTUM_CUN_DEF       3980      3    16             0      
+12 FEAT_WEAKENING_CRITICAL     2150      3    19             0      
+13 FEAT_EPIC_COMBAT_INSIGHT    1957      3    4              0      
+14 ExtTurnII                   2161      3    25             0      
