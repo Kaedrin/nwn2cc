@@ -1,7 +1,7 @@
 2DA V2.0
 
    Option                             Value 
-0  PaladinFullCaster                  0     
+0  PaladinFullCaster                  1     
 1  SneakAttackSpells                  1     
 2  TouchofHealingUse50PercentCap      1     
 3  TouchofHealingUseAugmentHealing    1     
@@ -41,7 +41,7 @@
 37 FrostMageArmorStacks               0     
 38 EnableReserveMeta                  0     
 39 GrantSerenasCoin                   1     
-40 RangerFullCaster                   0     
+40 RangerFullCaster                   1     
 41 AllowWildshapeHeal                 1     
 42 TreatHellfireBlastSeparate         0     
 43 AllowEldBlastToStackMaxEmpower     1     

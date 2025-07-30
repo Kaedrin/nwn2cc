@@ -1,7 +1,7 @@
 2DA V2.0
 
    Label                  ACBONUS MAXDEXBONUS ACCHECK ARCANEFAILURE% WEIGHT COST  DESCRIPTIONS Name   BASEITEMSTATREF RANK   
-0  Cloth                  0       100         0       0              100    1     1727         111245 5411            None   
+0  Cloth                  0       100         0       0              20     1     1727         111245 5411            None   
 1  ClothPadded            1       8           0       5              100    5     1728         111246 5432            Light  
 2  Leather                2       6           0       10             150    10    1729         111247 5435            Light  
 3  LeatherStudded         3       5           -1      15             200    25    1730         111248 5436            Light  
@@ -60,3 +60,4 @@
 56 Mithral_Battle_Plate   9       3           -4      40             625    11500 240614       240613 240615          Heavy  
 57 Mithral_Mountain_Plate 10      2           -6      50             1125   12250 240617       240616 240618          Heavy  
 58 Bondleaf_Ivy           1       100         0       0              20     1000  241470       241469 241471          Light  
+59 Masterwork_WallShield  6       100         -1      15             100    170   186060       186062 186065          None   

@@ -19,3 +19,5 @@
 15   Elemental_Earth cmi_ancom_elee      241372 241374      4      10     16     22     28     35     ****   ****   ****   ****    ****    ****    1                 -1     
 16   Elemental_Water cmi_ancom_elew      241373 241374      4      10     16     22     28     35     ****   ****   ****   ****    ****    ****    1                 -1     
 17   Hound_Doom      cmi_ancom_dhound    242555 242556      11     13     15     17     19     21     23     25     27     29      ****    ****    0                 -1     
+18   White_Wolf      c_ancom_winter_wolf 242501 5929        2      5      8      11     14     17     20     23     26     29      32      35      1                 -1     
+19   White_Leopard   c_ancom_white_leop 242502 242503      2      5      8      11     14     17     20     23     26     29      32      35      1                 -1     
