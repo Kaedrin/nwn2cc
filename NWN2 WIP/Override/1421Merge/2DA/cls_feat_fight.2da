@@ -647,3 +647,5 @@
 643 FEAT_GREATER_RESILIENCY                           1253      1    -1             0      
 644 FEAT_EPIC_ONE_SHOT                                1974      1    -1             0      
 645 FEAT_EPIC_HEAVY_ARMOR_OPTIMIZATION                3886      1    -1             0      
+646  FEAT_FIGHTER_PASSIVE                              4007      3    5              0      
+647  FEAT_FIGHTER_ARMOR_TRAIN                          4008      3    3              0      

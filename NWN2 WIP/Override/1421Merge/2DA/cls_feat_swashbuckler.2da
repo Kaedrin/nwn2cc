@@ -442,3 +442,8 @@
 438 padding                                        ****      0    ****           0      
 439 padding                                        ****      0    ****           0      
 440 FEAT_DEMORALIZE_OPPONENT                       3870      3    1              1      
+441 FEAT_BLEEDING_WOUND_I                          2052      3    6              0      
+442 FEAT_BLEEDING_WOUND_II                         2053      3    12             0      
+443 FEAT_BLEEDING_WOUND_III                        2054      3    18             0      
+444 Evasion                                        206       3    9              0      
+445 ImprovedEvasion                                212       3    16             0      

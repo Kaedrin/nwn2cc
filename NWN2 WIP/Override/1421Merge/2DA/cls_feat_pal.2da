@@ -298,3 +298,4 @@
 294  FEAT_PALADIN_SPIRIT_FALLEN                     3605      3    20             1      
 295  FEAT_PALADIN_SPIRIT_HEROISM_2                  3693      3    25             1      
 296  FEAT_PALADIN_SPIRIT_FALLEN_2                   3694      3    30             1      
+297                          FEAT_CHANNEL_POSITIVE_ENERGY                   4026      3    4              1      
