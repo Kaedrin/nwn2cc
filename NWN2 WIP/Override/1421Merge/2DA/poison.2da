@@ -100,8 +100,8 @@
 96  Poison_Int                  4657   35      35        10     1     INT       ****            10     1     INT       ****            2.33 0            VFX_HIT_SPELL_POISON 
 97  Poison_Int                  4657   40      40        10     1     INT       ****            10     1     INT       ****            2.33 0            VFX_HIT_SPELL_POISON 
 98  Poison_Wis                  4657   15      15        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 
-99  Poison_Cha                  4657   20      20        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 
-100 Poison_Cha                  4657   25      25        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 
-101 Poison_Cha                  4657   30      30        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 
-102 Poison_Cha                  4657   35      35        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 
-103 Poison_Cha                  4657   40      40        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 
+99  Poison_Wis                  4657   20      20        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 
+100 Poison_Wis                  4657   25      25        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 
+101 Poison_Wis                  4657   30      30        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 
+102 Poison_Wis                  4657   35      35        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 
+103 Poison_Wis                  4657   40      40        10     1     WIS       ****            10     1     WIS       ****            2.33 0            VFX_HIT_SPELL_POISON 

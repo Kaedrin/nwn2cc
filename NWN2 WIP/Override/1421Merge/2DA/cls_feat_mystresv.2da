@@ -1,0 +1,24 @@
+2DA V2.0
+
+     FeatLabel                                 FeatIndex List GrantedOnLevel OnMenu 
+0    FEAT_EPIC_SPELL_DAMNATION                 1991      0    21             2      
+1    FEAT_EPIC_SPELL_ENTROPIC_HUSK             1992      0    21             2      
+2    FEAT_EPIC_SPELL_EPIC_GATE                 1993      0    21             2      
+3    FEAT_EPIC_SPELL_MASS_FOWL                 1994      0    21             2      
+4    FEAT_EPIC_SPELL_VAMPIRIC_FEAST            1995      0    21             2      
+5    FEAT_EPIC_SPELL_HELLBALL                  876       0    21             2      
+6    FEAT_MYSTRESV_SPELLCASTING_BARD           3981      2    1              0      
+7    FEAT_MYSTRESV_SPELLCASTING_CLERIC         3982      2    1              0      
+8    FEAT_MYSTRESV_SPELLCASTING_DRUID          3983      2    1              0      
+9    FEAT_MYSTRESV_SPELLCASTING_FAVORED_SOUL   3984      2    1              0      
+10   FEAT_MYSTRESV_SPELLCASTING_PALADIN        3985      2    1              0      
+11   FEAT_MYSTRESV_SPELLCASTING_RANGER         3986      2    1              0      
+12   FEAT_MYSTRESV_SPELLCASTING_SORCERER       3987      2    1              0      
+13   FEAT_MYSTRESV_SPELLCASTING_SPIRIT_SHAMAN  3988      2    1              0      
+14   FEAT_MYSTRESV_SPELLCASTING_WIZARD         3989      2    1              0      
+15   FEAT_RESERVE_ACIDIC_SPLATTER              3092      3    1              1      
+16   FEAT_RESERVE_FIERY_BURST                  3094      3    2              1      
+17   FEAT_RESERVE_CLAP_OF_THUNDER              3093      3    3              1      
+18   FEAT_RESERVE_WINTERS_BLAST                3101      3    4              1      
+19   FEAT_RESERVE_INVISIBLE_NEEDLE             3096      3    5              1      
+20   FEAT_RESERVE_STORM_BOLT                   3098      3    5              1      

@@ -1,0 +1,8 @@
+2DA V2.0
+
+  LABEL                     ReqType  ReqParam1 ReqParam2 
+0 Arcane_Casting            ARCSPELL 3         ****      
+1 FEAT_SPELLCASTING_PRODIGY FEAT     1114      ****      
+2 LoreSkill                 SKILL    7         8         
+3 Spellcraft                SKILL    16        8         
+4 Sorc                      CLASSOR  9         ****      
