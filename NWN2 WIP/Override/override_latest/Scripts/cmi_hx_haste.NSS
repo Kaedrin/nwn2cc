@@ -22,13 +22,11 @@ void main()
 		
     //Declare major variables
     int nCasterLvl = GetHexbladeCasterLevel();
-	SendMessageToPC(OBJECT_SELF, "nCasterLvl: " + IntToString(nCasterLvl));
 	float fDuration = RoundsToSeconds(nCasterLvl);	
     if(GetHasFeat(FEAT_HEXBLADE_ARCANE_MASTERY)) // arcane mastery
     {
         fDuration = fDuration * 2;
     }	
-	SendMessageToPC(OBJECT_SELF, "fDuration: " + FloatToString(fDuration));
 			
     //Declare major variables
     object oTarget = GetSpellTargetObject();
@@ -59,19 +57,15 @@ void main()
 	object oTarget2 = GetFirstObjectInShape( SHAPE_SPHERE, RADIUS_SIZE_LARGE, lTarget, TRUE, OBJECT_TYPE_CREATURE);
 	while (GetIsObjectValid(oTarget2) && (nNumTargets > 0))
 	{
-		SendMessageToPC(OBJECT_SELF, "While");	
     	if (spellsIsTarget( oTarget2, SPELL_TARGET_ALLALLIES, OBJECT_SELF ))
     		{
-					SendMessageToPC(OBJECT_SELF, "Ally");
         		SignalEvent( oTarget2, EventSpellCastAt( OBJECT_SELF, SPELL_HASTE, FALSE ));
 				//ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLink, oTarget2, RoundsToSeconds(nDuration));			
 		
 					if (!GetHasFeatEffect(FEAT_FRENZY_1))
 					{
-							SendMessageToPC(OBJECT_SELF, "No Frenzy");
 						if(!GetHasFeatEffect(FEAT_BARBARIAN_RAGE))
 						{				
-								SendMessageToPC(OBJECT_SELF, "No Rage, Apply");
 							ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLink, oTarget2, fDuration);
 						}
 						else

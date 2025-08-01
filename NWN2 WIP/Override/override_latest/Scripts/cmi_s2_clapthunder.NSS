@@ -81,18 +81,17 @@ void main()
 				SignalEvent(oTarget, EventSpellCastAt(OBJECT_SELF, GetSpellId()));				
 
 				//Apply the effects
-				ApplyEffectToObject(DURATION_TYPE_INSTANT, eVis, oTarget);
-				ApplyEffectToObject(DURATION_TYPE_INSTANT, eDamage, oTarget);
+				DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_INSTANT, eVis, oTarget));
+				DelayCommand(0.2f, ApplyEffectToObject(DURATION_TYPE_INSTANT, eDamage, oTarget));
 				
 				int nDC = GetReserveSpellSaveDC(nDamageDice,OBJECT_SELF);
 				effect eStatusEffect = EffectDeaf();	
                 if  (!MySavingThrow(SAVING_THROW_FORT, oTarget, nDC, nSaveThrow))
-					DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eStatusEffect, oTarget, 6.0f));				
+					DelayCommand(0.3f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eStatusEffect, oTarget, 6.0f));				
 			
 			}
 		}	
 	}			
-
 
 
 }

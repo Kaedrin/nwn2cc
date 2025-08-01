@@ -22,12 +22,12 @@ void main()
     effect eVis = EffectVisualEffect(VFX_IMP_HEALING_M);
     SignalEvent(OBJECT_SELF, EventSpellCastAt(OBJECT_SELF, SPELLABILITY_WHOLENESS_OF_BODY, FALSE));
     //Apply the VFX impact and effects
-    DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_INSTANT, eVis, OBJECT_SELF));
-    DelayCommand(0.2f, ApplyEffectToObject(DURATION_TYPE_INSTANT, eHeal, OBJECT_SELF));
+    ApplyEffectToObject(DURATION_TYPE_INSTANT, eVis, OBJECT_SELF);
+    ApplyEffectToObject(DURATION_TYPE_INSTANT, eHeal, OBJECT_SELF);
 	
 	if (nLevel == nHD)
 	{
 		effect eRegen = EffectRegenerate(1, 6.0f);
-		DelayCommand(0.3f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eRegen, OBJECT_SELF, TurnsToSeconds(3)));
+		ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eRegen, OBJECT_SELF, TurnsToSeconds(3));
 	}	
 }
