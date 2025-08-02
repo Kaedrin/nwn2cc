@@ -1,0 +1,42 @@
+Warshaper
+
+…
+
+Requirements:
+
+Base Attack Bonus: +4.
+Feats: Wildshape 1/day
+
+Class Features:
+
+Hit Die: d8
+Base Attack Bonus: Medium.
+High Saves: Fort.
+Weapon Proficiencies: None.
+Armor Proficiencies: None.
+Skill Points: 2 + Int modifier.
+Class Skills: Concentration, Craft Armor, Craft Weapon, Intimidate, Lore, Spellcraft, and Tumble.
+
+Class Abilities:
+
+Level 1: Morphic Immunities, Morphic Weapons
+Level 2: Morphic Body
+Level 3: Morphic Agility
+Level 4: Morphic Healing
+Level 5: Morphic Precision, Bonus Feat: Extra Wild Shape
+
+Divine Spellcasting: At each odd level, a Warshaper gains new spells per day as if she had also gained a level in the Druid class.
+
+Warshaper class abilities only work while using the wildshape, dragon shape, aberration shape, beast shape, elemental shape, fey shape, giant shape, monstrous humanoid shape, plant shape, or vermin shape abilities.
+
+Morphic Immunities: A warshaper is adept at distributing her form's vital organs around her body to keep them save from harm. Warshapers are immune to stunning and critical hits.
+
+Morphic Weapons: A warshaper's natural weapons improve, increasing damage by 1d6 slashing.
+
+Morphic Body: At 2nd level and higher, a warshaper can use its precise control over its form to make itself stronger and heartier. It gains a constant +4 enhance bonus to Strength and Constitution.
+
+Morphic Agility: At 3rd level and higher, a warshaper benefits from increased agiliy in her form, gaining a constant +4 enhance Dexterity bonus.
+
+Morphic Healing: At 4th level, a warshaper becomes able to changes it form where wounds appear, creating smooth skin where once were wounds. The warshaper gains fast healing 2.
+
+Morphic Precision: At 5th level, a warshaper benefits from increased precision in her form, gaining a +2 attack bonus.

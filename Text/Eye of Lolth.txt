@@ -1,0 +1,54 @@
+Eye Of Lolth
+
+Eye of Lolth
+
+The eyes of Lolth are stealth servants and watchers faithful to the Church of Lolth. They observe activity in the lands controlled by the matriarchs and report their findings back to the houses. If falls to the eyes of Lolth to lead forces of dread fangs of Lolth and other drow to capture enemies and bring them back to the temple for interrogation. They are the secret police - and they are everywhere.
+
+Requirements
+
+Race: Drow, Half-Drow
+Skills: Hide 8, Lore 4, Listen 8, Spot 8
+Feats: Unspeakable Vow
+Sneak Attack: +2d6
+Special: Evasion
+
+Class Features
+
+HD: d6
+BAB: Medium
+High Saves: Ref, Will
+Weapon and Armor proficiency: None
+
+Class Skills: Bluff, Concentration, Craft Armor, Craft Weapon, Hide, Listen, Lore, Move Silently, Search, Spellcraft, Spot.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Blind-Fight, Lolth's Vision, Spellcasting Progression
+Level 2: Sneak Attack +1d6
+Level 3: Teamwork Observation +2
+Level 4:
+Level 5: Sneak Attack +2d6
+Level 6: Hide in Plain Sight, Team Sense
+Level 7: Teamwork Observation +4
+Level 8: Sneak Attack +3d6
+Level 9: Team Stealth
+Level 10: Vanish
+
+Spellcasting: At each even-number level, you gain new spells per day (and spells known, if applicable) as if you had also gained a level in a divine spellcasting class you belonged to before adding the prestige class. If you had more than one divine spellcasting class before becoming a eye of Lolth, you must decide which class increases when you gain a level.
+
+Blind-Fight: At 1st level you gain the Blind-Fight feat.
+
+Lolth's Vision: You add your class level to Spot checks.
+
+Sneak Attack: Beginning at 2nd level, you gain an additional die of sneak attack damage. This damage increases by another 1d6 at 5th and again at 8th level.
+
+Teamwork Observation: From 3rd level onward, if you spend 2 rounds observing a target or group of enemies, you and your allies within 30 feet gain a +2 bonus on attack rolls and weapon damage for 1 round per class level. At 7th level, this bonus increases to +4.
+
+Hide in Plain Sight: At 6th level you gain the Hide in Plain Sight feat.
+
+Team Sense: At 6th level, you gain Improved Initiative and a +2 insight bonus on Listen, Search, and Spot checks. All allies within 30 feet of you also gain Improved Initiative and the insight bonus.
+
+Team Stealth: Beginning at 9th level, you and all allies within 30 feet of you gain a +4 insight bonus to the Hide and Move Silently skills.
+
+Vanish: At 10th level, you can become invisible for 6 rounds. You can use this ability once a minute (60 second cooldown).
