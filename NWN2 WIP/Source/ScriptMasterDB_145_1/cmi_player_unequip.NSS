@@ -305,29 +305,6 @@ void main()
 	if (GetHasFeat(FEAT_FOREST_MASTER_FOREST_HAMMER, oPC, TRUE))
 		DelayCommand(0.1f, RemoveEffectsFromSpell(OBJECT_SELF, FOREST_MASTER_FOREST_HAMMER));	
 	
-	if (GetHasFeat(FEAT_COMBATSTYLE_RANGER_TWO_HANDED, oPC))
-	{
-		object oArmor = GetItemInSlot(INVENTORY_SLOT_CHEST, oPC);
-		if ((oArmor != OBJECT_INVALID) && (GetArmorRank(oArmor) > ARMOR_RANK_LIGHT) )
-		{
-			//Penalty Valid
-			if (!GetHasSpellEffect(SPELLABILITY_COMBATSTYLE_RANGER_TWO_HANDED, oPC))
-			{			
-				effect eLink = EffectAttackDecrease(4);		
-				eLink = SetEffectSpellId(eLink,SPELLABILITY_COMBATSTYLE_RANGER_TWO_HANDED);
-				eLink = SupernaturalEffect(eLink);			
-				DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLink, oPC, HoursToSeconds(48)));		
-			}	
-		}
-		else 
-		{
-			//Penalty Invalid
-			if (GetHasSpellEffect(SPELLABILITY_COMBATSTYLE_RANGER_TWO_HANDED, oPC))
-			{
-				RemoveEffectsFromSpell(oPC, SPELLABILITY_COMBATSTYLE_RANGER_TWO_HANDED);					
-			}
-		}
-	}
 	
 	if (GetHasFeat(FEAT_FACTOTUM_CUN_DEF, oPC))
 		DelayCommand(0.1f, EvaluateCunningDefense(oPC));

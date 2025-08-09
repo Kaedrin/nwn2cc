@@ -50,34 +50,29 @@ void main()
     {
 	   nDuration *= 2;	//Duration is +100%
     }
-	
-	int nDRMax = nDuration * 10;
-	if (nDRMax > 250)
-		nDRMax = 250;
-		
-    effect eStone = EffectDamageReduction( 10, GMATERIAL_METAL_ADAMANTINE, nDRMax, DR_TYPE_GMATERIAL );	// 3.5 DR approximation
-    
-	if (nDRMax > 150)
-		nDRMax = 150;
-		
+    //effect eStone = EffectDamageReduction(10, DAMAGE_POWER_PLUS_THREE);	// 3.0 DR rules
+    effect eStone = EffectDamageReduction( 10, GMATERIAL_METAL_ADAMANTINE, 0, DR_TYPE_GMATERIAL );	// 3.5 DR approximation
 	effect eAC = EffectACIncrease(5, AC_NATURAL_BONUS);
     effect eShadow = EffectVisualEffect(VFX_DUR_PROT_SHADOW_ARMOR);
+    effect eSpell = EffectSpellLevelAbsorption(9, 0, SPELL_SCHOOL_NECROMANCY);
     effect eImmDeath = EffectImmunity(IMMUNITY_TYPE_DEATH);
-	effect eImmNeg = EffectDamageResistance(DAMAGE_TYPE_NEGATIVE, 9999,  nDRMax);	
+	effect eImmNeg = EffectDamageResistance(DAMAGE_TYPE_NEGATIVE, 9999, 0);	
+    //effect eDur = EffectVisualEffect(VFX_DUR_CESSATE_POSITIVE);
 
     //Link major effects
-    effect eLink = EffectLinkEffects(eAC,eImmDeath);
+    effect eLink = EffectLinkEffects(eStone, eAC);
 	if (USE_VISUAL_EFFECT == TRUE)    
 		eLink = EffectLinkEffects(eLink, eShadow);
-    //eLink = EffectLinkEffects(eLink, eImmNeg);
+    eLink = EffectLinkEffects(eLink, eImmDeath);
+    eLink = EffectLinkEffects(eLink, eImmNeg);
+    eLink = EffectLinkEffects(eLink, eSpell);
+    //eLink = EffectLinkEffects(eLink, eDur);
 
 	effect eHit = EffectVisualEffect(VFX_HIT_SPELL_EVIL);
 
     //Fire cast spell at event for the specified target
     SignalEvent(oTarget, EventSpellCastAt(OBJECT_SELF, SPELL_SHADOW_SHIELD, FALSE));
     //Apply linked effect
-	DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_INSTANT, eHit, oTarget));
-    DelayCommand(0.2f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLink, oTarget, TurnsToSeconds(nDuration)));
-    DelayCommand(0.3f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eStone, oTarget, TurnsToSeconds(nDuration)));	
-    DelayCommand(0.4f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eImmNeg, oTarget, TurnsToSeconds(nDuration)));		
+	ApplyEffectToObject(DURATION_TYPE_INSTANT, eHit, oTarget);
+    ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLink, oTarget, TurnsToSeconds(nDuration));
 }

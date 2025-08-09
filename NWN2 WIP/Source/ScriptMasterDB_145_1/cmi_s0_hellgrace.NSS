@@ -9,7 +9,6 @@
 #include "x2_inc_spellhook"
 #include "nwn2_inc_metmag"
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 void BuffHellhound(float fDuration, int nHasGutturalInvoc)
 {	
@@ -42,8 +41,6 @@ void main()
         return;
     }
 
-	AddCorruption(OBJECT_SELF, 6);
-	
 	int nArcaneShapesCanCast = GetLocalInt(GetModule(), "ArcaneShapesCanCast");
 	int nHasGutturalInvoc = FALSE;
 	

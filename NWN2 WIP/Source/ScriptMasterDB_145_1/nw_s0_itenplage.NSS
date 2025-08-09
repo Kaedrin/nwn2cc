@@ -25,7 +25,6 @@
 #include "x2_inc_spellhook"
 #include "x0_i0_spells"
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 int RunRollToHit( object oTarget );
 void RunSwarmAttack( object oTarget, float fDuration, object oCaster );
@@ -47,19 +46,25 @@ void main()
         return;
     }
 	
-	AddCorruption(OBJECT_SELF, 6);
 	//Declare major variables
 	location lTarget = GetSpellTargetLocation();
 	object oCaster = OBJECT_SELF; 
 	int nCasterLvl = GetWarlockCasterLevel( oCaster );
 	int nSwarms = ( nCasterLvl / 3 );
 	
-	if (nSwarms > 6)
-		nSwarms = 6;
-	
 	int nDuration = 3;
 	float fDuration = RoundsToSeconds(nDuration);
 	effect ePedes = EffectVisualEffect( VFX_DUR_INVOCATION_TENACIOUS_PLAGUE );
+
+    RemoveEffectsFromSpell(OBJECT_SELF, SPELL_I_WALK_UNSEEN);
+    RemoveEffectsFromSpell(OBJECT_SELF, SPELL_I_RETRIBUTIVE_INVISIBILITY);	
+	
+	//Meta-magic fun
+	int nMetaMagic = GetMetaMagicFeat();
+	if (nMetaMagic == METAMAGIC_EXTEND)
+    {
+		nDuration = nDuration * 2;	//Duration is +100%
+    }
 	
 	int nMaxSwarms = nSwarms;
 	

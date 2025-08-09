@@ -1449,8 +1449,6 @@ int GetPrestigeCasterLevelByClassLevel(int nClass, int nClassLevel, object oTarg
 	
 	if (nClass == CLASS_SWIFTBLADE)
 	{
-		return nClassLevel / 2;
-/*
 		//2, 3, 5, 6, 8, and 9
 		if (nClassLevel < 4)
 			return nClassLevel - 1;
@@ -1462,7 +1460,6 @@ int GetPrestigeCasterLevelByClassLevel(int nClass, int nClassLevel, object oTarg
 			return nClassLevel - 3;
 		else 
 			return nClassLevel - 4;	
-*/
 	}
 	
 	if (nClass == CLASS_HOSPITALER)

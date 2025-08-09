@@ -30,7 +30,6 @@
 
 
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 
 
@@ -51,7 +50,6 @@ void main()
     }
     // End of Spell Cast Hook
 
-	AddCorruption(OBJECT_SELF, 4);
     RemoveEffectsFromSpell(OBJECT_SELF, SPELL_I_WALK_UNSEEN);
     RemoveEffectsFromSpell(OBJECT_SELF, SPELL_I_RETRIBUTIVE_INVISIBILITY);	
 	

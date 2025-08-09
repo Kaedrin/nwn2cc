@@ -58,16 +58,11 @@ void main()
     //Determine Polymorph subradial type
     if(nSpell == 392)
     {
-        //nPoly = POLYMORPH_TYPE_FROST_GIANT_MALE;
-		nPoly = 155; // Phantom wolf
+        nPoly = POLYMORPH_TYPE_FROST_GIANT_MALE;
     }
     else if (nSpell == 393)
     {
-        //nPoly = POLYMORPH_TYPE_FIRE_GIANT;
-		nPoly = 157; // Celestial, female
-		if (GetGender(oTarget) == GENDER_MALE)
-			nPoly = 156;
-		
+        nPoly = POLYMORPH_TYPE_FIRE_GIANT;
     }
     else if (nSpell == 394)
     {

@@ -36,7 +36,7 @@
 #include "nwn2_inc_spells"
 
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
+
 
 void DispelAoECallback(object oTarget, object oCaster);
 
@@ -57,7 +57,6 @@ void main()
     }
     // End of Spell Cast Hook
 
-	AddCorruption(OBJECT_SELF, 6);
     RemoveEffectsFromSpell(OBJECT_SELF, SPELL_I_WALK_UNSEEN);
     RemoveEffectsFromSpell(OBJECT_SELF, SPELL_I_RETRIBUTIVE_INVISIBILITY);	
 
@@ -78,7 +77,6 @@ void main()
         nCasterLevel = 20;
     }
 	
-
     if ( GetIsObjectValid(oTarget) )
     {
         //----------------------------------------------------------------------

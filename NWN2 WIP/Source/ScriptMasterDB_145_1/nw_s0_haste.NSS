@@ -77,17 +77,17 @@ void main()
 				//ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLink, oTarget2, RoundsToSeconds(nDuration));
 				
 				
-				//if ( (oTarget2 == OBJECT_SELF) && (nSwiftblade > 0) )
-				//{
-				//	float fSwiftbladeDuration = fDuration;
-				//	fSwiftbladeDuration = GetSwiftbladeHasteDuration(nSwiftblade, fSwiftbladeDuration);
-				//	effect eSwiftbladeLink = eLink;
-				//	eSwiftbladeLink = GetSwiftbladeHasteEffect(nSwiftblade, eSwiftbladeLink);
-				//	ApplyEffectToObject(nDurType, eSwiftbladeLink, oTarget2, fSwiftbladeDuration);
-				//
-				//}
-				//else
-				//{
+				if ( (oTarget2 == OBJECT_SELF) && (nSwiftblade > 0) )
+				{
+					float fSwiftbladeDuration = fDuration;
+					fSwiftbladeDuration = GetSwiftbladeHasteDuration(nSwiftblade, fSwiftbladeDuration);
+					effect eSwiftbladeLink = eLink;
+					eSwiftbladeLink = GetSwiftbladeHasteEffect(nSwiftblade, eSwiftbladeLink);
+					ApplyEffectToObject(nDurType, eSwiftbladeLink, oTarget2, fSwiftbladeDuration);
+				
+				}
+				else
+				{				
 					if (!GetHasFeatEffect(FEAT_FRENZY_1))
 				{
 						if(!GetHasFeatEffect(FEAT_BARBARIAN_RAGE))
@@ -97,7 +97,7 @@ void main()
 						else
 							nNumTargets++; //Didn't count, move on
 				}
-				//}
+				}
 				
 				nNumTargets--;
 					

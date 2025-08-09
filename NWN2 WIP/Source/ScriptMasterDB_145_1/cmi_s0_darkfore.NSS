@@ -9,7 +9,6 @@
 #include "nw_i0_spells"
 #include "x2_inc_spellhook" 
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 void main()
 {
@@ -20,7 +19,6 @@ void main()
         return;
     }
 
-	AddCorruption(OBJECT_SELF, 9);
 	
     object oTarget = GetSpellTargetObject();
 	object oLastTarget = GetLocalObject(OBJECT_SELF, "LastDarkForeTgt");

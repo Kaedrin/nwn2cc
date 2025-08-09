@@ -83,8 +83,7 @@ void main()
         else
         {
 			//nPoly = POLYMORPH_TYPE_HUGE_FIRE_ELEMENTAL;
-			//Ember Guard
-            nPoly = POLYMORPH_TYPE_HUGE_EARTH_ELEMENTAL;
+            nPoly = POLYMORPH_TYPE_EMBER_GUARD;
 			nElement = ELEMENTAL_TYPE_FIRE;
 			DecrementRemainingFeatUses(OBJECT_SELF, 304);
         }
@@ -114,8 +113,7 @@ void main()
         else
         {
             //nPoly = POLYMORPH_TYPE_ELDER_FIRE_ELEMENTAL;
-			//Ember Guard
-			nPoly = POLYMORPH_TYPE_ELDER_EARTH_ELEMENTAL;
+			nPoly = POLYMORPH_TYPE_EMBER_GUARD;
 			nElement = ELEMENTAL_TYPE_FIRE;
 			DecrementRemainingFeatUses(OBJECT_SELF, 304);			
         }
@@ -229,13 +227,12 @@ void main()
 		effect eSurvival = EffectSkillIncrease(SKILL_SURVIVAL, 4);
 		ePoly = EffectLinkEffects(ePoly, eSurvival);	
 	}
-	if (GetLevelByClass(CLASS_TYPE_MONK, OBJECT_SELF) > 0)
-	{
-		effect eMonk = GetMonkSynergyPenalty(OBJECT_SELF);
-		ePoly = EffectLinkEffects(ePoly, eMonk);
-	}	
-	
-	
+	//if (iShieldAC > 0)
+	//{
+	//	effect eShiAC = EffectACIncrease(iShieldAC, AC_SHIELD_ENCHANTMENT_BONUS);
+	//	ePoly = EffectLinkEffects(ePoly, eShiAC);
+	//}	
+		
 	int nHeal = GetMaxHitPoints() - GetCurrentHitPoints();
 	if (nHeal > 0 && (GetLocalInt(GetModule(), "AllowWildshapeHeal")))
 	{
@@ -509,27 +506,31 @@ void main()
 				
 	}
 	
-	int nEmber = GetHasFeat(FEAT_ELEMSHAPE_EMBERGUARD, OBJECT_SELF, TRUE);
-	if ((nElement == ELEMENTAL_TYPE_FIRE) && nEmber)
-	{
-		effect eShield = EffectDamageShield(0, DAMAGE_BONUS_1d6, DAMAGE_TYPE_FIRE);
-		effect eAB = EffectAttackIncrease(2);
-		effect eDmgBonus = EffectDamageIncrease(DAMAGE_BONUS_1d6, DAMAGE_TYPE_FIRE);
-
-		effect eLink = EffectLinkEffects(eShield, eAB);
-		eLink = EffectLinkEffects(eLink, eDmgBonus);
-		eLink = ExtraordinaryEffect(eLink);	
-		eLink = SetEffectSpellId(eLink,-FEAT_NATWARR_NATARM_BLAZE);		
-		DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLink, OBJECT_SELF, fDuration));		
-		
-	}	
-	else
 	if (nElement == ELEMENTAL_TYPE_FIRE && GetHasFeat(FEAT_NATWARR_NATARM_BLAZE))
 	{
 		effect eShield = EffectDamageShield(0, DAMAGE_BONUS_1d6, DAMAGE_TYPE_FIRE);
 		eShield = SetEffectSpellId(eShield,-FEAT_NATWARR_NATARM_BLAZE);
 		eShield = ExtraordinaryEffect(eShield);	
 		DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eShield, OBJECT_SELF, fDuration));		
+
+	}	
+	else
+	if (nElement == ELEMENTAL_TYPE_FIRE && nPoly == POLYMORPH_TYPE_EMBER_GUARD)
+	{
+		effect eShield = EffectDamageShield(0, DAMAGE_BONUS_1d6, DAMAGE_TYPE_FIRE);
+		effect eSR = EffectSpellResistanceIncrease(24);
+		effect eDR = EffectDamageReduction(15, DR_TYPE_NONE, 0, DR_TYPE_NONE);
+		effect eLink = EffectLinkEffects(eShield, eSR);
+		eLink = EffectLinkEffects(eLink, eDR);
+		eLink = ExtraordinaryEffect(eLink);	
+		eLink = SetEffectSpellId(eLink,-FEAT_NATWARR_NATARM_BLAZE);		
+		DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLink, OBJECT_SELF, fDuration));		
+		
+	}	
+
+	if (GetHasFeat(FEAT_SILVER_FANG))
+	{
+		ApplySilverFangEffect(OBJECT_SELF);	
 	}		
 	
 	if (GetHasSpellEffect(SPELLABILITY_FOTF_AC_BONUS,OBJECT_SELF))

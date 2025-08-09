@@ -24,7 +24,6 @@
 
 #include "x2_inc_spellhook" 
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 void main()
 {
@@ -35,7 +34,6 @@ void main()
         return;
     }
 
-	AddCorruption(OBJECT_SELF, 4);
     RemoveEffectsFromSpell(OBJECT_SELF, SPELL_I_WALK_UNSEEN);
     RemoveEffectsFromSpell(OBJECT_SELF, SPELL_I_RETRIBUTIVE_INVISIBILITY);	
 
@@ -53,7 +51,6 @@ void main()
         nDuration = nDuration * 2;	//Duration is +100%
     }
 	
-	/*
     switch (nRoll)
 	{
 		case 1:
@@ -66,42 +63,6 @@ void main()
 			eSummon = EffectSummonCreature("c_s_skeleton", VFX_HIT_SPELL_SUMMON_CREATURE);
 			break;
 	}
-	*/
-	
-	eSummon = EffectSummonCreature("c_s_zombie", VFX_HIT_SPELL_SUMMON_CREATURE);
-	if (nCasterLevel >= 10) {
-		eSummon = EffectSummonCreature("c_s_skeleton", VFX_HIT_SPELL_SUMMON_CREATURE);
-	}
-
-	// Hyper-V's addition to summon Fey
-	if (GetHasFeat(FEAT_FEY_HERITAGE, OBJECT_SELF, TRUE)) {
-		int nRoll2 = Random(5) + 1;
-		switch (nRoll2)
-		{
-			case 1:
-				eSummon = EffectSummonCreature("hv_fey1", VFX_HIT_SPELL_SUMMON_CREATURE);
-				break;
-			case 2:
-				eSummon = EffectSummonCreature("hv_fey2", VFX_HIT_SPELL_SUMMON_CREATURE);
-				break;
-			case 3:
-				eSummon = EffectSummonCreature("hv_fey3", VFX_HIT_SPELL_SUMMON_CREATURE);
-				break;
-			case 4:
-				eSummon = EffectSummonCreature("hv_fey4", VFX_HIT_SPELL_SUMMON_CREATURE);
-				break;
-			case 5:
-				eSummon = EffectSummonCreature("hv_fey5", VFX_HIT_SPELL_SUMMON_CREATURE);
-				break;
-        	default: 
-				eSummon = EffectSummonCreature("hv_fey1", VFX_HIT_SPELL_SUMMON_CREATURE);
-				break;
-		}
-	}
-	
-	// If has fiendish heritage summon an ugly dog-like thingie.
-	if (GetHasFeat(FEAT_FIENDISH_HERITAGE, OBJECT_SELF, TRUE))
-		eSummon = EffectSummonCreature("dexc_barghest", VFX_HIT_SPELL_SUMMON_CREATURE);
 	
     //Apply the summon visual and summon the two undead.
     //ApplyEffectAtLocation(DURATION_TYPE_INSTANT, eVis, GetSpellTargetLocation());

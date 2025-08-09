@@ -39,5 +39,5 @@ void main()
 
 	ApplyEffectAtLocation(DURATION_TYPE_INSTANT, eImpact, GetSpellTargetLocation());    
 
-	cmi_HealHarmNearby(eVis, eVis2, nCasterLvl, 114 );
+	cmi_HealHarmNearby(eVis, eVis2, nCasterLvl, GetSpellId() );
 }

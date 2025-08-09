@@ -58,12 +58,14 @@ void main()
 	int nTargetHD = GetHitDice(oTarget);
 	int nCasterLevel = GetCasterLevel(OBJECT_SELF);
 	
-	if (nTargetHD > (nCasterLevel/2))
+	if (nTargetHD > (2 * nCasterLevel))
 	{	// It the target has more than double the caster's level, the target is immune.
 		SendMessageToPC(OBJECT_SELF, "This target is too strong to clone. Spell Failed.");	
 		return;
 	}
 	
+	sSelf = IntToString(ObjectToInt(OBJECT_SELF));
+
 	if (GetLocalInt(oTarget, "isBoss"))
 	{	// It the target has more than double the caster's level, the target is immune.
 		SendMessageToPC(OBJECT_SELF, "This spell may not affect boss creatures. Spell Failed.");	

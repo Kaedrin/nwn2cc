@@ -17,7 +17,6 @@
 #include "x2_inc_spellhook" 
 
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 void main()
 {
@@ -38,7 +37,7 @@ void main()
 
 // End of Spell Cast Hook
 
-	AddCorruption(OBJECT_SELF, 1);
+
     //Declare major variables including Area of Effect Object
     effect eAOE = EffectAreaOfEffect(AOE_PER_DARKNESS);
     location lTarget = GetSpellTargetLocation();

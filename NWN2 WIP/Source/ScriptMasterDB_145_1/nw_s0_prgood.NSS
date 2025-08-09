@@ -19,7 +19,6 @@
 
 #include "cmi_ginc_spells"
 #include "x2_inc_spellhook"
-#include "noc_evil_spell_corruption"
 
 const int USE_VISUAL_EFFECT = FALSE;
 void main()
@@ -41,7 +40,6 @@ void main()
 
 // End of Spell Cast Hook
 
-	AddEvilCorruption(OBJECT_SELF, GetSpellLevel(GetSpellId()));
 
     //Declare major variables
     int nAlign = ALIGNMENT_GOOD;

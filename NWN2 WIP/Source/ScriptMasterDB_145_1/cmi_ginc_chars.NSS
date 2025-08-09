@@ -108,7 +108,7 @@ void StackHexbladeSpells(int nHexblade, object oPC=OBJECT_SELF)
 	if (nBonus2 > 0 && nHexblade > 7)
 	{
 		if (nHexblade > 19)
-			nCount = 4 + nBonus1;
+			nCount = 4 + nBonus2;
 		else	
 		if (nHexblade > 15)
 			nCount = 3 + nBonus2;
@@ -2787,9 +2787,9 @@ effect GetSwiftbladeSurgeEffect(object oPC)
 
 float GetSwiftbladeHasteDuration(int nSwiftblade, float fDuration)
 {
-	//int nMeta = GetMetaMagicFeat();
-	//if (nMeta == METAMAGIC_PERSISTENT)
-	//	return fDuration;
+	int nMeta = GetMetaMagicFeat();
+	if (nMeta == METAMAGIC_PERSISTENT)
+		return fDuration;
 		
 	if (nSwiftblade > 8)
 		fDuration += RoundsToSeconds(6);

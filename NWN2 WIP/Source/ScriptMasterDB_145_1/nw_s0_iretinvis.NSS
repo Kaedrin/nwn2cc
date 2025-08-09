@@ -29,7 +29,6 @@
 #include "X0_I0_SPELLS"
 #include "x2_inc_spellhook"
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 void OnDispellCallback( object oCaster, int nSaveDC, float fDuration )
 {
@@ -111,7 +110,6 @@ void main()
         return;
     }
 
-	AddCorruption(OBJECT_SELF, 6);
 	//Clear previous casting
     RemoveEffectsFromSpell(OBJECT_SELF, GetSpellId());
 

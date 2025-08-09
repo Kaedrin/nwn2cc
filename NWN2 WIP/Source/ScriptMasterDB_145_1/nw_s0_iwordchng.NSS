@@ -24,7 +24,6 @@
 #include "x2_inc_spellhook"
 #include "nwn2_inc_metmag"
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 void main()
 {
@@ -36,8 +35,6 @@ void main()
         return;
     }
 
-	AddCorruption(OBJECT_SELF, 5);
-	
 	int nArcaneShapesCanCast = GetLocalInt(GetModule(), "ArcaneShapesCanCast");
 	int nHasGutturalInvoc = FALSE;
 	
@@ -59,48 +56,19 @@ void main()
 
     effect eVis = EffectVisualEffect(VFX_INVOCATION_WORD_OF_CHANGING);
 	
-	// Avarson's addition of pact recognization and form selection.
-	int nPoly;
-	nPoly = 179; //fault correction, if missing all feats for some reason (NPC, DM etc.) defaults to pit fiend.
+    effect ePoly;
 	
-	
-	if (GetHasFeat(2300, OBJECT_SELF, TRUE)) { //ABYSSAL
-		if (GetGender(OBJECT_SELF) == GENDER_MALE)
-			nPoly = 152;	//Balor
+	if (GetAlignmentGoodEvil(OBJECT_SELF) == ALIGNMENT_EVIL)
+		ePoly = EffectPolymorph(WORD_OF_CHANGING_PIT_FIEND, FALSE, nArcaneShapesCanCast);	
 		else
-			nPoly = 153;	//Succubus
-    }
-	if (GetHasFeat(2301, OBJECT_SELF, TRUE)) { //SEELIE
-		if (GetGender(OBJECT_SELF) == GENDER_MALE)
-			nPoly = 158; // Pixie male polymorph
-		else
-			nPoly = 159; // Pixie female polymorph
-	}
-	if (GetHasFeat(2302, OBJECT_SELF, TRUE)) { //UNSEELIE
-		if (GetGender(OBJECT_SELF) == GENDER_MALE)
-			nPoly = 177;	//unseelie troll
-		else
-			nPoly = 176;	//unseelie werefwolf
-    }
-	if (GetHasFeat(2303, OBJECT_SELF, TRUE)) { //INFERNAL
-		if (GetGender(OBJECT_SELF) == GENDER_MALE)
-			nPoly = 179;	//Pit Fiend
-		else
-			nPoly = 180;	//Hezebel
-	}
-	if (GetHasFeat(2304, OBJECT_SELF, TRUE)) { //STAR
-			nPoly = 178; //Umber Hulk
+		ePoly = EffectPolymorph(POLYMORPH_TYPE_HORNED_DEVIL, FALSE, nArcaneShapesCanCast);	
+	if (GetGender(OBJECT_SELF) == GENDER_FEMALE)
+		ePoly = EffectPolymorph(WORD_OF_CHANGING_HEZEBEL, FALSE, nArcaneShapesCanCast);	
 
-    }
-	
-	
-	// END of Avarson's changes.
-		
-    effect ePoly = EffectPolymorph(nPoly, FALSE, nArcaneShapesCanCast);
 	effect eDR = EffectDamageReduction(10, GMATERIAL_METAL_ALCHEMICAL_SILVER, 0, DR_TYPE_GMATERIAL);
     effect eLink = EffectLinkEffects(eDR, eVis);
-	//effect eSR = EffectSpellResistanceIncrease(28);
-	//eLink  = EffectLinkEffects(eLink, eSR);
+	effect eSR = EffectSpellResistanceIncrease(28);
+	eLink  = EffectLinkEffects(eLink, eSR);
 	eLink = EffectLinkEffects(eLink, ePoly);
 	
 	if (!GetHasFeat(FEAT_GUTTURAL_INVOCATIONS))

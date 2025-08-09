@@ -62,9 +62,6 @@ void main()
         }
     }
 
-		
-
-
     //--------------------------------------------------------------------------
     // Here the actual polymorphing is done
     //--------------------------------------------------------------------------
@@ -78,12 +75,7 @@ void main()
 		effect eSurvival = EffectSkillIncrease(SKILL_SURVIVAL, 4);
 		ePoly = EffectLinkEffects(ePoly, eSurvival);	
 	}
-	if (GetLevelByClass(CLASS_TYPE_MONK, OBJECT_SELF) > 0)
-	{
-		effect eMonk = GetMonkSynergyPenalty(OBJECT_SELF);
-		ePoly = EffectLinkEffects(ePoly, eMonk);
-	}	
-	
+		
     ApplyEffectToObject(DURATION_TYPE_INSTANT, eVis, OBJECT_SELF);
     ApplyEffectToObject(DURATION_TYPE_PERMANENT, ePoly, OBJECT_SELF);
     SignalEvent(oTarget, EventSpellCastAt(OBJECT_SELF, GetSpellId(), FALSE));
@@ -367,6 +359,11 @@ void main()
 		DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eDR, OBJECT_SELF, fDuration));		
 		
 	}   
+	
+	if (GetHasFeat(FEAT_SILVER_FANG))
+	{
+		ApplySilverFangEffect(OBJECT_SELF);	
+	}	
 	
 	if (GetHasSpellEffect(SPELLABILITY_FOTF_AC_BONUS,OBJECT_SELF))
 	{

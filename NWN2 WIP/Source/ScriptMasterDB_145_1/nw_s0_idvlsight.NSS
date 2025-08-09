@@ -18,7 +18,6 @@
 #include "nw_i0_spells"
 
 #include "x2_inc_spellhook" 
-#include "noc_warlock_corruption"
 
 void main()
 {
@@ -39,7 +38,6 @@ void main()
 
 // End of Spell Cast Hook
 
-	AddCorruption(OBJECT_SELF, 2);	
 
     //Declare major variables
     object oTarget = GetSpellTargetObject();

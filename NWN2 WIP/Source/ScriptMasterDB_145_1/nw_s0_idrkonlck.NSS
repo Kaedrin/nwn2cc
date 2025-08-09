@@ -21,8 +21,6 @@
 
 #include "cmi_ginc_spells"
 
-#include "noc_warlock_corruption"
-
 void main()
 {
 
@@ -41,8 +39,6 @@ void main()
     }
 
 // End of Spell Cast Hook
-	
-	AddCorruption(OBJECT_SELF, 2);
 	
 	if (GetHasSpellEffect(SPELLABILITY_HEX_ARCRES,OBJECT_SELF) || GetHasFeat(FEAT_PRESTIGE_DARK_BLESSING))
 	{	

@@ -37,19 +37,8 @@ void main()
 		
         if (!(nRacialType == RACIAL_TYPE_ANIMAL || nRacialType == RACIAL_TYPE_BEAST ))
 		{
-				if (spellsIsTarget(oTarget, SPELL_TARGET_ALLALLIES, OBJECT_SELF)) 
-				{
-					if (!(nRacialType == RACIAL_TYPE_MAGICAL_BEAST && oTarget != OBJECT_SELF))
-					{
 						FloatingTextStrRefOnCreature( STR_REF_FEEDBACK_SPELL_INVALID_TARGET, oTarget );  //"*Failure-Invalid Target*"
 						return;
-					}
-				}
-				else
-				{
-					FloatingTextStrRefOnCreature( STR_REF_FEEDBACK_SPELL_INVALID_TARGET, oTarget );  //"*Failure-Invalid Target*"
-					return;
-				}
 		}
 		
 	// Metamagic?

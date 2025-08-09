@@ -69,7 +69,7 @@ void main()
 						ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eConcealVision, oTarget, RoundsToSeconds(nDuration));
 						ApplyEffectToObject(DURATION_TYPE_INSTANT, eVis, oTarget);				
 					}
-					else //failed save
+					else //successful save
 					{
 						if (GetHasSpellEffect(nSpellId,oTarget))
 							RemoveEffectsFromSpell(oTarget,nSpellId);

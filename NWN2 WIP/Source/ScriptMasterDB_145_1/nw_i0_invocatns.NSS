@@ -34,8 +34,6 @@
 //:: AFW-OEI 05/08/2007: Added Hindering and Binding Blast Eldritch Essences.
 //::PKM-OEI: 05.30.07: Touch attacks now do critical hit damage
 
-//Modified by DM_Nocturne for Dalelands Beyond, to include 'noc_warlock_corruption'
-//and shift Warlock alignments as they use their power. Last Modified: 17 October 2013
 #include "nw_i0_spells"
 #include "x0_i0_spells"
 #include "x2_inc_spellhook"
@@ -43,7 +41,6 @@
 #include "nwn2_inc_spells"
 #include "ginc_debug"
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 const int STRREF_HELLFIRE_BONUS    		= 220796;  // Bonus Damage (Hellfire): ( in use )
 const int STRREF_HELLFIRE_SHIELD_NAME   = 220779;  // Hellfire Shield ( in use )
@@ -331,6 +328,17 @@ int MyResistInvocation(object oCaster, object oTarget, float fDelay=0.0f)
         }
         DelayCommand(fDelay, ApplyEffectToObject(DURATION_TYPE_INSTANT, eMantle, oTarget));
     }
+
+	/*
+	SendMessageToPC(oCaster, "nCasterLvl: " + IntToString(nCasterLvl) );
+	SendMessageToPC(oCaster, "nTargetSR: " + IntToString(nTargetSR) );
+	SendMessageToPC(oCaster, "nResist: " + IntToString(nResist) );
+	SendMessageToPC(oCaster, "nIgnoreAbsorb: " + IntToString(nIgnoreAbsorb) );
+	SendMessageToPC(oCaster, "nMySRCheck: " + IntToString(nMySRCheck) );		
+	SendMessageToPC(oCaster, "nRoll: " + IntToString(nRoll) );		
+	SendMessageToPC(oCaster, "nSRMods: " + IntToString(nSRMods) );				
+	*/
+	
 	return nResist;
 }    
 
@@ -363,25 +371,15 @@ int GetEldritchBlastDmg(object oCaster, object oTarget, int nAllowReflexSave, in
 		//SpeakString("Checking to add Hellfire Damage:");
 		if (IsHellfireBlastActive(oCaster))
 		{ 
-			int nHellfireDice = GetHellfireBlastDiceBonus();
-		     if (WARLOCK_HELLBLAST_PART_OF_BASE_DAMAGE) {
-		        // just add the extra damage to base since the RULES said not to track them seperately
-		        nDmgDice += nHellfireDice;
-		     } else
-		     {
-			    nBonusDice = nHellfireDice;
-			    // gotcha... any call to d6(0) results in d6(1)
-			    // this die roll MUST be here or you end up with +1d6 damage
-		            nDmg += d6(nBonusDice);  
-		     }
-		     PrintHellfireBonusMsg(nHellfireDice);
+			nBonusDice = GetHellfireBlastDiceBonus();
+			PrintHellfireBonusMsg(nBonusDice);			
+			nDmg=d6(nDmgDice+nBonusDice);
 		}	
 		
 		//Maximize Eldritch Blast
 		if (GetLocalInt(oCaster, "MaxEldBlast"))
 		{
-			// add the max for the nDmgDice
-			nDmg += 6 * nDmgDice;
+			nDmg = 6 * (nDmgDice+nBonusDice);
 		}
 		
 		int nCrit = (nTouch == 2 && !GetIsImmune(oTarget, IMMUNITY_TYPE_CRITICAL_HIT));
@@ -394,36 +392,20 @@ int GetEldritchBlastDmg(object oCaster, object oTarget, int nAllowReflexSave, in
 		//Critical hit
 		if (nCrit)
 		{
-			if (WARLOCK_CRITS_ONLY_BASE_NEVER_MAXED)
-				nDmg = nDmg + d6(nDmgDice);
-			else
 				nDmg = nDmg * 2;
-
 		}
         
         // AFW-OEI 02/20/2007: Eldritch Master increases damage by 50%
         if (GetHasFeat(FEAT_EPIC_ELDRITCH_MASTER, oCaster))
         {
-        	if (WARLOCK_EPICELDMASTER_ONLY_BASE_NEVER_MAXED)
-		    {
-		        // I dont actually know if PnP seperates this but for consistance we can...
-		        // it makes more sense 
-		        nDmg = nDmg + d6(nDmgDice)/2;
-		    } else {
 		        nDmg = nDmg + nDmg/2;
 		    }
-        }
 		
 		//Empower Eldritch Blast		
 		if (GetLocalInt(oCaster, "EmpEldBlast"))
 		{
-			if (WARLOCK_EMPBLAST_ONLY_BASE_NEVER_MAXED)
-		    {
-		        nDmg = nDmg + d6(nDmgDice)/2;
-		    } else {
 			    nDmg = nDmg + nDmg/2;
 		    }
-		}
 		
         
         if ( nHalfDmg == 1 )
@@ -434,6 +416,11 @@ int GetEldritchBlastDmg(object oCaster, object oTarget, int nAllowReflexSave, in
                 nDmg = 1;
             }
         }
+		else
+        if ( nHalfDmg == 2 ) //Allow Eld Glaive to Crit since the touch attack was done outside this function
+        {
+            nDmg = nDmg * 2;
+        }		
 
         // Some Invocations allow chance to halve the damage
         if ( nAllowReflexSave )
@@ -453,8 +440,6 @@ int GetEldritchBlastDmg(object oCaster, object oTarget, int nAllowReflexSave, in
 	
 	if (nSpellId == SPELL_Eldritch_Glaive)
 	{
-		//NOCTURNE - Can add Eldritch Glaive corruption call here.
-		AddCorruption (OBJECT_SELF, 2);
 		if (GetHasFeat(FEAT_HIDE_IN_PLAIN_SIGHT, OBJECT_SELF))
 			nDmg = nDmg/2;
 	}
@@ -667,6 +652,7 @@ int DoEldritchBlast(object oCaster, object oTarget, int bCalledFromShape, int bD
 
 
 // -------------------------------------------------------------------
+//
 int DoEldritchCombinedEffects(object oTarget, int bDoTouchTest, int nAllowReflexSave, int nHalfDmg, int iMetaMagic = -1)
 {
 
@@ -674,31 +660,25 @@ int DoEldritchCombinedEffects(object oTarget, int bDoTouchTest, int nAllowReflex
 	if (iMetaMagic != -1)
 		nMetaMagic = iMetaMagic;
 		
-	//NOCTURNE - If statements modified to call corruption script before the ability executes.
-    if ( nMetaMagic == METAMAGIC_INVOC_UNDBANE_BLAST )    	   {AddCorruption(OBJECT_SELF, 3); return DoEssenceUndBaneBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg, nMetaMagic); }
-	else if ( nMetaMagic == METAMAGIC_INVOC_REPELL_BLAST )     {AddCorruption(OBJECT_SELF, 6); return DoEssenceRepellBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg, nMetaMagic); }
-	else if ( nMetaMagic == METAMAGIC_INVOC_TEMPEST_BLAST )    {AddCorruption(OBJECT_SELF, 4); return DoEssenceTempestBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg, nMetaMagic); }		
+    if ( nMetaMagic == METAMAGIC_INVOC_UNDBANE_BLAST )    { return DoEssenceUndBaneBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg, nMetaMagic); }
+	else if ( nMetaMagic == METAMAGIC_INVOC_REPELL_BLAST )    { return DoEssenceRepellBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg, nMetaMagic); }
+	else if ( nMetaMagic == METAMAGIC_INVOC_TEMPEST_BLAST )    { return DoEssenceTempestBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg, nMetaMagic); }		
  						
-    else if ( nMetaMagic & METAMAGIC_INVOC_DRAINING_BLAST )    {AddCorruption(OBJECT_SELF, 2); return DoEssenceDrainingBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
-    else if ( nMetaMagic & METAMAGIC_INVOC_FRIGHTFUL_BLAST )   {AddCorruption(OBJECT_SELF, 2); return DoEssenceFrightfulBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
-    else if ( nMetaMagic & METAMAGIC_INVOC_BESHADOWED_BLAST )  {AddCorruption(OBJECT_SELF, 4); return DoEssenceBeshadowedBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
-    else if ( nMetaMagic & METAMAGIC_INVOC_BRIMSTONE_BLAST )   {AddCorruption(OBJECT_SELF, 3); return DoEssenceBrimstoneBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
-    else if ( nMetaMagic & METAMAGIC_INVOC_HELLRIME_BLAST )    {AddCorruption(OBJECT_SELF, 4); return DoEssenceHellrimeBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
-    else if ( nMetaMagic & METAMAGIC_INVOC_BEWITCHING_BLAST )  {AddCorruption(OBJECT_SELF, 4); return DoEssenceBewitchingBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
-    else if ( nMetaMagic & METAMAGIC_INVOC_NOXIOUS_BLAST )     {AddCorruption(OBJECT_SELF, 6); return DoEssenceNoxiousBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
-    else if ( nMetaMagic & METAMAGIC_INVOC_VITRIOLIC_BLAST )   {AddCorruption(OBJECT_SELF, 6); return DoEssenceVitriolicBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
-    else if ( nMetaMagic & METAMAGIC_INVOC_UTTERDARK_BLAST )   {AddCorruption(OBJECT_SELF, 8); return DoEssenceUtterdarkBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
-    else if ( nMetaMagic & METAMAGIC_INVOC_HINDERING_BLAST )   {AddCorruption(OBJECT_SELF, 4); return DoEssenceHinderingBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
-    else if ( nMetaMagic & METAMAGIC_INVOC_BINDING_BLAST )     {AddCorruption(OBJECT_SELF, 7); return DoEssenceBindingBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_DRAINING_BLAST )         { return DoEssenceDrainingBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_FRIGHTFUL_BLAST )   { return DoEssenceFrightfulBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_BESHADOWED_BLAST )  { return DoEssenceBeshadowedBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_BRIMSTONE_BLAST )   { return DoEssenceBrimstoneBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_HELLRIME_BLAST )    { return DoEssenceHellrimeBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_BEWITCHING_BLAST )  { return DoEssenceBewitchingBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_NOXIOUS_BLAST )     { return DoEssenceNoxiousBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_VITRIOLIC_BLAST )   { return DoEssenceVitriolicBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_UTTERDARK_BLAST )   { return DoEssenceUtterdarkBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_HINDERING_BLAST )   { return DoEssenceHinderingBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
+    else if ( nMetaMagic & METAMAGIC_INVOC_BINDING_BLAST )     { return DoEssenceBindingBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, nAllowReflexSave, nHalfDmg); }
     else
     {
         // No extra effects
 		//SpeakString("DoEldritchCombinedEffects(...): No blast invocation.");	// DEBUG!
-		//NOCTURNE - Here is where the call for the base blast (ESL 1, should go)
-        if(GetIsPC(OBJECT_SELF))
-		{
-			AddCorruption(OBJECT_SELF, 1); //Basic Blast Corruption
-		}
 		return DoEldritchBlast(OBJECT_SELF, oTarget, TRUE, bDoTouchTest, DAMAGE_TYPE_MAGICAL, nAllowReflexSave, FALSE, nHalfDmg, nMetaMagic);
     }
 }
@@ -1164,10 +1144,9 @@ int DoEssenceBindingBlast(object oCaster, object oTarget, int bCalledFromShape, 
 
 // -------------------------------------------------------------------
 // Blast Shape Effects:
-//NOCTURNE - Edited all Blast Shapes to add corruption.
 int DoShapeEldritchSpear()
 {
-	AddCorruption(OBJECT_SELF,  2);	
+				
     //Declare major variables
     object oTarget = GetSpellTargetObject();
 
@@ -1198,8 +1177,6 @@ int DoShapeEldritchSpear()
 
 int DoShapeHideousBlow()
 {
-	AddCorruption(OBJECT_SELF,  1);
-	
     //Declare major variables
     object oTarget = GetSpellTargetObject();
 
@@ -1211,7 +1188,6 @@ int DoShapeHideousBlow()
 
 int DoShapeEldritchChain()
 {
-	AddCorruption(OBJECT_SELF,  4);
 	//SpeakString("DoShapeEldritchChain(): Entering function.");	// DEBUG!
 
     //Declare major variables
@@ -1328,10 +1304,9 @@ int DoShapeEldritchChain()
     int nCnt = 0;
     // Warlock Counts
     int nMaxCnt;
-    //if ( nCasterLvl >= 30 )      { nMaxCnt = 6; }
-    //else if ( nCasterLvl >= 25 ) { nMaxCnt = 5; }
-    //else 
-	if ( nCasterLvl >= 20 ) { nMaxCnt = 4; }
+    if ( nCasterLvl >= 30 )      { nMaxCnt = 6; }
+    else if ( nCasterLvl >= 25 ) { nMaxCnt = 5; }
+    else if ( nCasterLvl >= 20 ) { nMaxCnt = 4; }
     else if ( nCasterLvl >= 15 ) { nMaxCnt = 3; }		
     else if ( nCasterLvl >= 10 ) { nMaxCnt = 2; }
     else                         { nMaxCnt = 1; }
@@ -1348,7 +1323,7 @@ int DoShapeEldritchChain()
     if (GetHasFeat(FEAT_EPIC_ELDRITCH_MASTER, OBJECT_SELF))
     {
         nBonus = 2;
-		//fArc = fArc * 2;
+		fArc = fArc * 2;
 		
     }   
 	
@@ -1473,7 +1448,6 @@ int DoShapeEldritchChain()
 
 int DoShapeEldritchCone()
 {
-	AddCorruption(OBJECT_SELF,  5);
 	//SpawnScriptDebugger();
     //Declare major variables
     location lTargetLocation = GetSpellTargetLocation();
@@ -1499,8 +1473,8 @@ int DoShapeEldritchCone()
 	ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eCone, OBJECT_SELF, fMaxDelay);
 	
 	float fCone = RADIUS_SIZE_VAST;
-    //if (GetHasFeat(FEAT_EPIC_ELDRITCH_MASTER, OBJECT_SELF))	
-	//	fCone = fCone * 2;
+    if (GetHasFeat(FEAT_EPIC_ELDRITCH_MASTER, OBJECT_SELF))	
+		fCone = fCone * 2;
 	
     //Declare the spell shape, size and the location.  Capture the first target object in the shape.
     oTarget = GetFirstObjectInShape(SHAPE_SPELLCONE, fCone, lTargetLocation, TRUE, OBJECT_TYPE_CREATURE | OBJECT_TYPE_DOOR | OBJECT_TYPE_PLACEABLE);
@@ -1563,8 +1537,8 @@ int DoShapeMetaDoom(int nMetaMagic = -1)
     ApplyEffectAtLocation(DURATION_TYPE_INSTANT, eExplode, lTarget);
 
 	float fRadius = RADIUS_SIZE_HUGE;
-    //if (GetHasFeat(FEAT_EPIC_ELDRITCH_MASTER, OBJECT_SELF))	
-	//	fRadius = fRadius * 2;
+    if (GetHasFeat(FEAT_EPIC_ELDRITCH_MASTER, OBJECT_SELF))	
+		fRadius = fRadius * 2;
 	
     //Declare the spell shape, size and the location.  Capture the first target object in the shape.
     object oTarget = GetFirstObjectInShape(SHAPE_SPHERE, fRadius, lTarget, TRUE, OBJECT_TYPE_CREATURE | OBJECT_TYPE_DOOR | OBJECT_TYPE_PLACEABLE);
@@ -1600,8 +1574,6 @@ int DoShapeMetaDoom(int nMetaMagic = -1)
 
 int DoShapeEldritchDoom()
 {
-	AddCorruption(OBJECT_SELF,  8);
-	
     int nMetaMagic = GetMetaMagicFeat();		
 	int nDoomVFX = VFX_INVOCATION_ELDRITCH_AOE;	// default Doom is Eldritch
 

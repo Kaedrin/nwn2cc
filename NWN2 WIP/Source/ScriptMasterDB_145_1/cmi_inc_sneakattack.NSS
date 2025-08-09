@@ -479,14 +479,6 @@ int EvaluateSneakAttack(object oTarget, object oSneakAttacker)
 	if (!nSneakAttackSpells)
 		return 0;
 		
-	int iInvalidFeats = 0;
-	iInvalidFeats += GetHasFeat(FEAT_DARING_OUTLAW, oSneakAttacker);
-	iInvalidFeats += GetHasFeat(FEAT_SWIFT_AMBUSHER, oSneakAttacker);
-	iInvalidFeats += GetHasFeat(FEAT_SWIFT_HUNTER, oSneakAttacker);
-	
-	if (iInvalidFeats)
-		return 0;
-		
 	int nIsTargetValidForSneakAttack = IsTargetValidForSneakAttack(oTarget, oSneakAttacker);
 	if (nIsTargetValidForSneakAttack)
 	{

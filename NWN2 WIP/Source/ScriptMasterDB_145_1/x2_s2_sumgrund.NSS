@@ -108,7 +108,7 @@ void main()
 	if (nCasterLevel >= 10)
     {
 		// Vampire elite
-      	eSummon = EffectSummonCreature("c_s_vampire_warrior",VFX_FNF_SUMMON_UNDEAD, 0.0f,1);
+      	eSummon = EffectSummonCreature("c_vampireelite",VFX_FNF_SUMMON_UNDEAD, 0.0f,1);
     }
     else
     {

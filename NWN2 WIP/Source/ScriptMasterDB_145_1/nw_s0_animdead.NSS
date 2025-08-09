@@ -17,7 +17,6 @@
 #include "x2_inc_spellhook" 
 
 #include "cmi_ginc_spells"
-#include "noc_evil_spell_corruption"
 
 void main()
 {
@@ -38,8 +37,6 @@ void main()
 
 // End of Spell Cast Hook
 
-
-	AddEvilCorruption(OBJECT_SELF, GetSpellLevel(GetSpellId()));
 
     //Declare major variables
     int nMetaMagic = GetMetaMagicFeat();

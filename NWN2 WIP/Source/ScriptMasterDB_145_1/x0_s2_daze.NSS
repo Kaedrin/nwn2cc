@@ -29,9 +29,6 @@ void main()
     //Fire cast spell at event for the specified target
     SignalEvent(oTarget, EventSpellCastAt(OBJECT_SELF, 475));
 	
-	if (GetHasFeat(FEAT_BLADE_OF_SHADOW))
-		IncrementRemainingFeatUses(OBJECT_SELF, FEAT_SHADOW_EVADE);
-
     if(spellsIsTarget(oTarget, SPELL_TARGET_STANDARDHOSTILE, OBJECT_SELF))
 	{
        //Make SR check

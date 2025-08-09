@@ -137,7 +137,6 @@ void main()
 		}	
 	}
 	
-	/*
 	if (GetLocalInt(GetModule(), "FreeEmberGuard") == 1)	
 	{
 		if (GetHasFeat(FEAT_ELEMENTAL_SHAPE, oPC) && !GetHasFeat(FEAT_ELEMSHAPE_EMBERGUARD))
@@ -146,7 +145,6 @@ void main()
 				FeatAdd(oPC, FEAT_ELEMSHAPE_EMBERGUARD, FALSE, TRUE, TRUE);
 		}
 	}
-	*/
 
 	//SetLocalString(oPC, "cmi_animcomp", "");
 	DeleteLocalString(oPC, "cmi_animcomp");

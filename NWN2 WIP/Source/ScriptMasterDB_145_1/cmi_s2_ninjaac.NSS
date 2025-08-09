@@ -69,6 +69,11 @@ void main()
 			}
 			else
 				eLink = EffectSkillIncrease(SKILL_TUMBLE, (nNinja / 6 * 2));	
+				
+			if (nNinja > 15)
+			{
+				eLink = EffectLinkEffects(eLink, EffectTrueSeeing());
+			}	
 							
 			eLink = SetEffectSpellId(eLink,nSpellId);
 			eLink = SupernaturalEffect(eLink);

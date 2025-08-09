@@ -12,8 +12,6 @@
 #include "x2_inc_spellhook" 
 #include "cmi_ginc_spells"
 
-#include "noc_warlock_corruption"
-
 void main()
 {
 
@@ -33,8 +31,6 @@ void main()
     }
 
 // End of Spell Cast Hook
-
-	AddCorruption(OBJECT_SELF, 3);
 
     int nCasterLevel = GetWarlockCasterLevel(OBJECT_SELF);
 	int nSpellId = SPELL_I_FRIGHTFUL_PRESENCE;

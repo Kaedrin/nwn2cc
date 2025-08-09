@@ -60,7 +60,7 @@ void main()
 		return;	
 	}	
 	
-	if ( (nTargetHD > (nCasterLevel/2)) || (nTargetHD > 15))
+	if ( (nTargetHD > nCasterLevel) || (nTargetHD > 15))
 	{	// Targets with greater HD than the caster, or with more than 15 HD are immune.
 		SendMessageToPC(OBJECT_SELF, "This spell will not affect those with more than 15 HD or more HD than your caster level. Spell Failed.");
 		return;

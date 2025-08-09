@@ -16,55 +16,6 @@
 #include "cmi_includes"
 #include "cmi_ginc_spells"
 
-
-effect GetMonkSynergyPenalty(object oPC)
-{
-	int nAB = 0;
-	int nDmg = 0;
-	int nMonk = GetLevelByClass(CLASS_TYPE_MONK, oPC);
-	if (nMonk > 0)
-		nAB += 3;
-	if (nMonk > 3)
-	{
-		nAB += 2;
-		nDmg += 2;
-	}
-	if (nMonk > 9)
-		nDmg += 2;
-	if (nMonk > 13)
-		nAB++;
-	if (nMonk > 17)
-		nDmg += 2;
-	if (nMonk > 21)
-		nAB += 2;
-	if (nMonk > 25)
-		nDmg += 4;
-	
-	effect eLink;
-		
-	if (nAB > 0)
-	{
-		effect eAB = EffectAttackDecrease(nAB);		
-		if (nDmg > 0)
-		{
-			effect eSlash = EffectDamageDecrease(nDmg, DAMAGE_TYPE_SLASHING);
-			effect ePierce = EffectDamageDecrease(nDmg, DAMAGE_TYPE_PIERCING);
-			effect eCrush = EffectDamageDecrease(nDmg, DAMAGE_TYPE_BLUDGEONING);	
-			eLink = EffectLinkEffects(eAB, eSlash);			
-			eLink = EffectLinkEffects(eLink, ePierce);	
-			eLink = EffectLinkEffects(eLink, eCrush);
-			return eLink;
-		}
-		else
-			return eAB;
-	} 
-	
-	//This shouldn't happen. Don't call the feat unless you know Monk > 0
-	return eLink;
-	
-
-}
-
 void WildshapeAbilityBuffs(object oPC, float fDuration, object oRightHand = OBJECT_INVALID, object oLeftHand = OBJECT_INVALID)
 {
 

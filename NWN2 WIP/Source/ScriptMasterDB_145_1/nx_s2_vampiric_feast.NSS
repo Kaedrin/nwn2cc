@@ -42,7 +42,6 @@
 #include "x2_i0_spells"
 #include "x2_inc_spellhook"
 #include "nx1_inc_epicsave"
-#include "noc_evil_spell_corruption"
 
 void main()
 {
@@ -50,8 +49,6 @@ void main()
 	{	// If code within the PreSpellCastHook (i.e. UMD) reports FALSE, do not run this spell
 	    return;
 	}
-	
-	AddEvilCorruption(OBJECT_SELF, 10);
 	
 	int nSaveDC = GetEpicSpellSaveDC2(SPELL_SCHOOL_NECROMANCY) + 5;
 	int nTotalDamage = 0;
@@ -107,11 +104,9 @@ void main()
 		DelayCommand(1.0f, ApplyEffectToObject(DURATION_TYPE_INSTANT, eHeal, OBJECT_SELF));
 	}
 	
-	/*
 	if (bSummonShadow)	// Somone got killed, so summon a Greater Shadow.
 	{
 		float fDuration = RoundsToSeconds(GetTotalLevels(OBJECT_SELF, TRUE));
 		DelayCommand(1.0f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eShadow, OBJECT_SELF, fDuration));
 	}
-	*/
 }

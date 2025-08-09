@@ -31,8 +31,6 @@ void main()
 		
 	if (nLevel > 3) //Mettle, temporary +4 to all
 	{
-		int nHD = GetHitDice(OBJECT_SELF);
-		if (nLevel >= (nHD/2))
 			nCha += 4;		
 	}
 

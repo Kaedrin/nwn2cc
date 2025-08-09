@@ -4,14 +4,24 @@ int UsePaladinFullCaster()
 {
 
 	int nPaladinFullCaster = GetLocalInt(GetModule(), "PaladinFullCaster");
-	return nPaladinFullCaster;
+
+	if	( nPaladinFullCaster )
+		return TRUE;
+	else
+		return FALSE;
+
 }
 
 int UseRangerFullCaster()
 {
 
 	int nRangerFullCaster = GetLocalInt(GetModule(), "RangerFullCaster");
-	return nRangerFullCaster;
+
+	if	( nRangerFullCaster )
+		return TRUE;
+	else
+		return FALSE;
+
 }
 
 int GetCasterLevelForRangers(object oCaster = OBJECT_SELF)

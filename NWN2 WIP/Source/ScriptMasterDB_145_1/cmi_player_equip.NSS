@@ -341,31 +341,6 @@ void main()
 		fDelay = 0.2f + (Random(20) * 0.1f);	
 		DelayCommand(fDelay,ExecuteScript("cmi_s2_forsthammr",oPC));
 	}
-	
-	if (GetHasFeat(FEAT_COMBATSTYLE_RANGER_TWO_HANDED, oPC))
-	{
-		object oArmor = GetItemInSlot(INVENTORY_SLOT_CHEST, oPC);
-		if ((oArmor != OBJECT_INVALID) && (GetArmorRank(oArmor) > ARMOR_RANK_LIGHT) )
-		{
-			//Penalty Valid
-			fDelay = 0.2f + (Random(20) * 0.1f);	
-			if (!GetHasSpellEffect(SPELLABILITY_COMBATSTYLE_RANGER_TWO_HANDED, oPC))
-			{			
-				effect eLink = EffectAttackDecrease(4);		
-				eLink = SetEffectSpellId(eLink,SPELLABILITY_COMBATSTYLE_RANGER_TWO_HANDED);
-				eLink = SupernaturalEffect(eLink);			
-				DelayCommand(fDelay, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLink, oPC, HoursToSeconds(48)));		
-			}	
-		}
-		else 
-		{
-			//Penalty Invalid
-			if (GetHasSpellEffect(SPELLABILITY_COMBATSTYLE_RANGER_TWO_HANDED, oPC))
-			{
-				RemoveEffectsFromSpell(oPC, SPELLABILITY_COMBATSTYLE_RANGER_TWO_HANDED);					
-			}
-		}
-	}
 
 	if (GetHasFeat(FEAT_FACTOTUM_CUN_DEF, oPC))
 	{
@@ -378,20 +353,6 @@ void main()
 		DelayCommand(fDelay, EvaluateFighterArmorTrain(oPC));
 	}
 
-	//Alex class level restriction system begin
-	int reqClass = GetClassRow((GetLocalString(oItem, "Class")));
-	int reqLevel = GetLocalInt(oItem, "Level");
-	
-	if(reqClass > 0 && reqLevel > 0)
-	{
-		if(!(GetLevelByClass(reqClass, oPC) >= reqLevel))
-		{
-			SendMessageToPC(oPC, "You do not meet the restrictions to wear this item.");
-			DelayCommand(1.0f, ActionUnequipItem(oItem));
-			return;
-		} 
-	}
-	//Alex class level restriction system end
 	
 	 if (GetModuleSwitchValue(MODULE_SWITCH_ENABLE_TAGBASED_SCRIPTS) == TRUE)
      {

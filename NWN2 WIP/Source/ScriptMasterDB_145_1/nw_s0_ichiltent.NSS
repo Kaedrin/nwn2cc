@@ -27,7 +27,6 @@
 
 #include "x2_inc_spellhook" 
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 void main()
 {
@@ -38,8 +37,6 @@ void main()
 	    // If code within the PreSpellCastHook (i.e. UMD) reports FALSE, do not run this spell
         return;
     }
-	
-	AddCorruption(OBJECT_SELF, 5);
 
 	//We need to make sure that this AOE isn't stackable, because it is super powerful
 	//First we need to generate the string that serves as the object ID for this AOE object

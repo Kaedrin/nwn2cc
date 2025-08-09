@@ -11,7 +11,6 @@
 
 #include "x2_inc_spellhook" 
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 void main()
 {
@@ -32,7 +31,6 @@ void main()
 
 // End of Spell Cast Hook
 
-	AddCorruption(OBJECT_SELF, 4);
 
     //Declare major variables
     float fDuration = HoursToSeconds(24);
@@ -66,5 +64,6 @@ void main()
     //Fire cast spell at event for the specified target
     SignalEvent(OBJECT_SELF, EventSpellCastAt(OBJECT_SELF, SPELL_I_IGNOREPYRE, FALSE));
 
+    //Apply the VFX impact and effects
     ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLink, OBJECT_SELF, fDuration);
 }

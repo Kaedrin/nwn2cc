@@ -23,7 +23,6 @@
 #include "x2_inc_spellhook" 
 #include "cmi_ginc_spells"
 #include "nw_i0_invocatns"
-#include "noc_warlock_corruption"
 
 void main()
 {
@@ -35,7 +34,6 @@ void main()
         return;
     }
 
-	AddCorruption(OBJECT_SELF, 4);
 	
     RemoveEffectsFromSpell(OBJECT_SELF, SPELL_I_WALK_UNSEEN);
     RemoveEffectsFromSpell(OBJECT_SELF, SPELL_I_RETRIBUTIVE_INVISIBILITY);	

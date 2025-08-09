@@ -10,8 +10,6 @@
 
 #include "cmi_ginc_spells"
 
-#include "noc_warlock_corruption"
-
 void main()
 {
 
@@ -31,7 +29,6 @@ void main()
 
 // End of Spell Cast Hook
 
-	AddCorruption(OBJECT_SELF, 4);
 	//We need to make sure that this AOE isn't stackable, because it is super powerful
 	//First we need to generate the string that serves as the object ID for this AOE object
 	object oCaster = OBJECT_SELF;

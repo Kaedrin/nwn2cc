@@ -37,16 +37,6 @@ const int ELEMENTAL_TYPE_EARTH = 1;
 const int ELEMENTAL_TYPE_FIRE = 2;
 const int ELEMENTAL_TYPE_WATER = 3;
 
-// the following switches control how Eldrich blast damage is calculated
-// prior implementations included hellfire as base damage and therefore affected empower maximize and criticals.
-const int WARLOCK_HELLBLAST_PART_OF_BASE_DAMAGE = FALSE;  // if TRUE hellblast will be included as base damage else its bonus
-// prior implementations simply multipled all damage by 1.5, compounding with criticals AND getting maximized
-const int WARLOCK_EMPBLAST_ONLY_BASE_NEVER_MAXED = TRUE;  // if TRUE empower will give only 50% of base damage, none of bonus damage and will not be maxed
-// prior implementations simply multipled all damage by 2, compounding with empower AND getting maximized
-const int WARLOCK_CRITS_ONLY_BASE_NEVER_MAXED = TRUE; // if TRUE crits will give only 100% of base damage, none of bonus damage and will not be maxed
-// prior implementations simply multipled all damage by 1.5, compounding with everything else AND getting maximized
-const int WARLOCK_EPICELDMASTER_ONLY_BASE_NEVER_MAXED = TRUE; // if TRUE Epic Eldrich Master will give only 50% of base damage, none of bonus damage and will not be maxed
-
 effect CreateProtectionFromAlignmentLink2(int nAlignment, int nPower = 1)
 {
     int nFinal = nPower * 2;

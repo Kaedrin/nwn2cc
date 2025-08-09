@@ -34,6 +34,7 @@ void main()
 
 // End of Spell Cast Hook
 
+
     //Declare major variables
     object oTarget = GetSpellTargetObject();
 

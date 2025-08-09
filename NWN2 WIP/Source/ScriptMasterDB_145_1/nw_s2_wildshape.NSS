@@ -195,12 +195,7 @@ void main()
 		effect eSurvival = EffectSkillIncrease(SKILL_SURVIVAL, 4);
 		ePoly = EffectLinkEffects(ePoly, eSurvival);	
 	}	
-	if (GetLevelByClass(CLASS_TYPE_MONK, OBJECT_SELF) > 0)
-	{
-		effect eMonk = GetMonkSynergyPenalty(OBJECT_SELF);
-		ePoly = EffectLinkEffects(ePoly, eMonk);
-	}
-		
+			
 	//if (iShieldAC > 0)
 	//{
 	//	effect eShiAC = EffectACIncrease(iShieldAC, AC_SHIELD_ENCHANTMENT_BONUS);
@@ -478,6 +473,11 @@ void main()
 		DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eDR, OBJECT_SELF, fDuration));		
 		
 	}    	
+	
+	if (GetHasFeat(FEAT_SILVER_FANG))
+	{
+		ApplySilverFangEffect(OBJECT_SELF);	
+	}	
 	
 	if (GetHasSpellEffect(SPELLABILITY_FOTF_AC_BONUS,OBJECT_SELF))
 	{

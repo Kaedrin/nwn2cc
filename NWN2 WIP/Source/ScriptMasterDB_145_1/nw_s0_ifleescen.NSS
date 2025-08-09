@@ -35,7 +35,6 @@
 #include "x2_inc_spellhook" 
 
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 /*
 void DoExpeditiousRetreatEffects( object oCaster, object oTarget, int nMetaMagic )
@@ -98,7 +97,6 @@ void main()
         return;
     }
 
-	AddCorruption(OBJECT_SELF, 4);
     // Remove any spells that share effects with this spell
     if (GetHasSpellEffect(SPELL_HASTE, OBJECT_SELF) == TRUE)
     {

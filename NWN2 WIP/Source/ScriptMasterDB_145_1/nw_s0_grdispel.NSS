@@ -72,11 +72,11 @@ void main()
 	}
 	
     //--------------------------------------------------------------------------
-    // Dispel Magic is capped at caster level 25
+    // Dispel Magic is capped at caster level 10
     //--------------------------------------------------------------------------
-    if(nCasterLevel > 25 )
+    if(nCasterLevel >20 )
     {
-        nCasterLevel = 25;
+        nCasterLevel = 20;
     }
 	int nHD = GetHitDice(OBJECT_SELF);
 	if (nCasterLevel > nHD)

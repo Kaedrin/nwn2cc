@@ -11,7 +11,6 @@
 #include "NW_I0_SPELLS"    
 #include "x2_inc_spellhook" 
 #include "cmi_ginc_spells"
-#include "noc_warlock_corruption"
 
 void main()
 {
@@ -22,8 +21,6 @@ void main()
 	    // If code within the PreSpellCastHook (i.e. UMD) reports FALSE, do not run this spell
         return;
     }
-	
-	AddCorruption(OBJECT_SELF, 7);
 	
 	float fDuration = HoursToSeconds(24);
 	int nDmgResType = DAMAGE_TYPE_ACID;
