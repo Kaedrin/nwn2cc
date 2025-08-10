@@ -62,32 +62,9 @@ void main()
     effect eVis = EffectVisualEffect(VFX_INVOCATION_WORD_OF_CHANGING);
     effect ePoly;
     int nPoly;
-	//float fDuration = TurnsToSeconds(GetCasterLevel(OBJECT_SELF));
-	float fDuration = HoursToSeconds(24);
+	float fDuration = RoundsToSeconds(GetCasterLevel(OBJECT_SELF));
 
-		nPoly = 166; //No feat: Hellcat.
-	
-	if (GetHasFeat(2301, OBJECT_SELF, TRUE)) { //SEELIE
-			nPoly = 138; // Telthor Wolf
-
-	}
-	if (GetHasFeat(2303, OBJECT_SELF, TRUE)) { //INFERNAL
-			nPoly = 166;	//Hellcat
-
-	}
-	if (GetHasFeat(2300, OBJECT_SELF, TRUE)) { //ABYSSAL
-			nPoly = 166;	//Shadowspider is 137. bugged. Switched to Hellcat
-	}
-	if (GetHasFeat(2302, OBJECT_SELF, TRUE)) { //UNSEELIE
-			nPoly = 139;	//Displacer Beast
-
-	}
-	if (GetHasFeat(2304, OBJECT_SELF, TRUE)) { //STAR
-		nPoly = 136; //Carrior Crawler
-	
-	}
-
-
+    nPoly = POLYMORPH_TYPE_HELLCAT;
 
     ePoly = EffectPolymorph(nPoly, FALSE, nArcaneShapesCanCast);
     //ePoly = EffectLinkEffects(ePoly, eVis);

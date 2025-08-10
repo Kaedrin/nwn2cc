@@ -86,8 +86,9 @@ void main()
 				
                     //Roll damage for each target
                     //nDamage = d6(nDamageDice);
-					nDamage = HandleReserveMeta(nDamageDice, 6);
-
+					nDamage = HandleReserveMeta(nDamageDice, 3);
+					nDamage = nDamage + (nDamageDice * 3); //d3+3 damage now
+					
 					int nDC = GetReserveSpellSaveDC(nDamageDice,OBJECT_SELF);
 					
 					if (GetLevelByClass(CLASS_MYSTIC_RESV) == 0)

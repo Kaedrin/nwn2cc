@@ -56,7 +56,8 @@ void main()
 		ExecuteScript("cmi_pw_mod_start",GetModule());		
 	}
 	
-	//IsModuleSupported(FALSE);
+	//PWs should disable
+	IsModuleSupported(FALSE);
 	
 	if ( GetLevelByClass(CLASS_SCOUT) > 2 || GetLevelByClass(CLASS_WILD_STALKER) > 3)
 	{
@@ -163,12 +164,8 @@ void main()
 	{
 		if (GetRacialType(OBJECT_SELF) == 21)
 		{
-			int nSubRace = GetSubRace(OBJECT_SELF);
-			if (nSubRace == 13 || nSubRace == 14) //Aasimar and Tieflings only
-			{
-				if(!GetHasFeat(FEAT_WEAPON_PROFICIENCY_MARTIAL ,OBJECT_SELF))
-					FeatAdd(OBJECT_SELF, FEAT_WEAPON_PROFICIENCY_MARTIAL, TRUE);
-			}
+			if(!GetHasFeat(FEAT_WEAPON_PROFICIENCY_MARTIAL ,OBJECT_SELF))
+				FeatAdd(OBJECT_SELF, FEAT_WEAPON_PROFICIENCY_MARTIAL, TRUE);
 		}
 	}
 		
@@ -185,6 +182,10 @@ void main()
 		SetActionMode(OBJECT_SELF, 24, TRUE);		
 	}
 	
+	int nUseConFix = GetLocalInt(GetModule(), "UseConFix");
+	if (nUseConFix)
+	{	
+		
 		//This will update the count of Con items on the player since localints are lost on logout
 		object oItem = GetItemInSlot(INVENTORY_SLOT_ARMS,OBJECT_SELF);
 		CheckItemForConBonus(oItem);	
@@ -284,6 +285,7 @@ void main()
 		
 		DelayCommand(2.5f, SetLocalInt(OBJECT_SELF, "DisableConFix", FALSE));		
 		
+	}
 	}
 	//DelayCommand(3.0f, SendMessageToPC(OBJECT_SELF, "Test3"));		
 															

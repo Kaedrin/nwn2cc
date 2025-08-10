@@ -192,6 +192,12 @@ void main()
 		RemoveEffectsFromSpell(oPC, FOREST_MASTER_FOREST_HAMMER);	
 	}
 	
+	//Frost Mage	
+	if (GetLevelByClass(CLASS_FROST_MAGE,oPC) > 0)
+	{
+		RemoveSpellEffects(SPELLABILITY_ARMOR_FROST, oPC, oPC);		
+	}
+	
 	//Barbarian
 	if (GetLevelByClass(CLASS_TYPE_BARBARIAN,oPC) > 13)
 	{	

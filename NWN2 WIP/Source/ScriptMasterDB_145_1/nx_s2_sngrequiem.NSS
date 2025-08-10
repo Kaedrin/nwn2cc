@@ -38,33 +38,30 @@ void DoDamage(object oCaster, int nSpellId)
     int nNumEnemies   = 0;
    
     // Count up enemy targets so we can divide up damage evenly.  Stop if there's more than 6, since min damage is floored at Total/6.
-    object oTarget; //= GetFirstObjectInShape(SHAPE_SPHERE, RADIUS_SIZE_HUGE, locCaster );
-    //while(GetIsObjectValid(oTarget))
-    //{
-    //    if ( GetIsObjectValidSongTarget( oTarget ) &&  GetIsEnemy( oTarget ) )
-    //    {
-    //        nNumEnemies = nNumEnemies + 1;
-    //    }
-       
-    //    if (nNumEnemies >= 6)
-    //    {   // Don't need to go higher than 6 enemies.
-    //        break;
-    //  }
-    //
-    //   oTarget = GetNextObjectInShape( SHAPE_SPHERE, RADIUS_SIZE_HUGE, locCaster );
-    //}
+    object oTarget = GetFirstObjectInShape(SHAPE_SPHERE, RADIUS_SIZE_HUGE, locCaster );
+    while(GetIsObjectValid(oTarget))
+    {
+        if ( GetIsObjectValidSongTarget( oTarget ) &&  GetIsEnemy( oTarget ) )
+        {
+            nNumEnemies = nNumEnemies + 1;
+        }
+        
+        if (nNumEnemies >= 6)
+        {   // Don't need to go higher than 6 enemies.
+            break;
+        }
+
+    	oTarget = GetNextObjectInShape( SHAPE_SPHERE, RADIUS_SIZE_HUGE, locCaster );
+    }
     //SpeakString("nx_s2_SngRequiem: DoDamage: nNumEnemies = " + IntToString(nNumEnemies));
    
-    //if (nNumEnemies <= 0)
-    //{
-    //    return;
-    //}
+    if (nNumEnemies <= 0)
+    {
+        return;
+    }
    
     int nPerformSkill = GetSkillRank(SKILL_PERFORM, oCaster);
-    //int nDamage = (2 * nPerformSkill) / nNumEnemies;    // Damage per target is (2*Perform)/Number of Enemies, capped at most 6 enemies.
-    int nDamage=0;
-    //int nLevel = GetBardicClassLevelForUses(OBJECT_SELF);
-
+    int nDamage = (2 * nPerformSkill) / nNumEnemies;    // Damage per target is (2*Perform)/Number of Enemies, capped at most 6 enemies.
 
     // Inflict Sonic damage.  No save.
     oTarget = GetFirstObjectInShape(SHAPE_SPHERE, RADIUS_SIZE_HUGE, locCaster );
@@ -75,21 +72,6 @@ void DoDamage(object oCaster, int nSpellId)
         {
             SignalEvent(oTarget, EventSpellCastAt(oCaster, nSpellId, TRUE));
            
-            if(nNumEnemies==0) //First attack,..  Bard Level + Perform
-            {
-                nDamage = nPerformSkill;
-            }
-            else if(nNumEnemies==1 || nNumEnemies==2) //Second attack,..  (Bard Level + Perform Skill) / 2
-            {
-                nDamage = nPerformSkill * 2;
-				nDamage = nDamage / 3;
-            }
-            else //Third, 4th,5th Attack.  (Bard Level + Perform Skill) /3
-            {
-                nDamage = nPerformSkill / 2;
-            }
-
-
             effect eDam = EffectDamage(nDamage, DAMAGE_TYPE_SONIC);
             effect eVis = EffectVisualEffect(VFX_HIT_SPELL_SONIC);
             float fDelay = 0.15 * GetDistanceToObject( oTarget );
@@ -119,35 +101,33 @@ void DoPartyHealing(object oCaster, int nSpellId)
     object oLeader = oCaster; //FIX: NPC bards don't have faction leader
 
 	location locCaster   = GetLocation(oCaster);
-    object oTarget; // = GetFirstFactionMember( oLeader, bPCOnly );
-    //while ( GetIsObjectValid( oTarget ) )
-    //{
-    //      //if ( GetIsObjectValidSongTarget(oTarget) )
-    //      if ( GetIsObjectValidSongTarget(oTarget) && GetArea(oTarget) == GetArea(oLeader) )
-    //      {
-    //        nNumPartyMembers = nNumPartyMembers + 1;
-    //    }
-    //   
-    //    if ( nNumPartyMembers >= 6 )
-    //    {
-    //        break;
-    //    }
-    //   
-    //    oTarget = GetNextFactionMember( oLeader, bPCOnly );
-	//    oTarget = GetNextObjectInShape( SHAPE_SPHERE, RADIUS_SIZE_COLOSSAL, locCaster );
-    //}
-   
-    //if (nNumPartyMembers <= 0)
-    //{
-    //    return;
-    //}
+	object oTarget = GetFirstObjectInShape(SHAPE_SPHERE, RADIUS_SIZE_COLOSSAL, locCaster );
+    //object oTarget = GetFirstFactionMember( oLeader, bPCOnly );
+    while ( GetIsObjectValid( oTarget ) )
+    {
+		//if ( GetIsObjectValidSongTarget(oTarget) )
+		if ( GetIsObjectValidSongTarget(oTarget) && spellsIsTarget( oTarget, SPELL_TARGET_ALLALLIES, oCaster ))
+		{
+			if (GetCurrentHitPoints(oTarget) < GetMaxHitPoints(oTarget))
+            	nNumPartyMembers = nNumPartyMembers + 1;
+        }
+        
+        if ( nNumPartyMembers >= 6 )
+        {
+            break;
+        }
+        
+        //oTarget = GetNextFactionMember( oLeader, bPCOnly );
+		oTarget = GetNextObjectInShape( SHAPE_SPHERE, RADIUS_SIZE_COLOSSAL, locCaster );
+    }
+    
+    if (nNumPartyMembers <= 0)
+    {
+        return;
+    }
    
     int nPerformSkill = GetSkillRank(SKILL_PERFORM, oCaster);
-    //int nHeal = (2 * nPerformSkill) / nNumPartyMembers;
-    //int nLevel = GetBardicClassLevelForUses(OBJECT_SELF);
-    //Healing
-    //All Party Members: (Bard Level + Perform Skill) / 2   
-    int nHeal = nPerformSkill /2 ;
+    int nHeal = (2 * nPerformSkill) / nNumPartyMembers;
 
     // Apply healing to party members
     //oTarget = GetFirstFactionMember( oLeader, bPCOnly );

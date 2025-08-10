@@ -192,7 +192,10 @@ void main()
 	}
 	if (GetHasFeat(FEAT_GRIM_SURVIVAL))
 	{
-		effect eSurvival = EffectSkillIncrease(SKILL_SURVIVAL, 4);
+		int nSurvival = nDuration / 2;
+		if (nSurvival > 10)
+			nSurvival = 10;
+		effect eSurvival = EffectSkillIncrease(SKILL_SURVIVAL, nSurvival);
 		ePoly = EffectLinkEffects(ePoly, eSurvival);	
 	}	
 			
@@ -472,12 +475,7 @@ void main()
 		eDR = ExtraordinaryEffect(eDR);		
 		DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eDR, OBJECT_SELF, fDuration));		
 		
-	}    	
-	
-	if (GetHasFeat(FEAT_SILVER_FANG))
-	{
-		ApplySilverFangEffect(OBJECT_SELF);	
-	}	
+	}    		
 	
 	if (GetHasSpellEffect(SPELLABILITY_FOTF_AC_BONUS,OBJECT_SELF))
 	{

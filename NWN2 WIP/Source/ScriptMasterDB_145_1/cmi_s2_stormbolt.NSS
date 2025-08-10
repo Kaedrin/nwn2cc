@@ -89,9 +89,8 @@ void main()
                     //Fire cast spell at event for the specified target
                 	SignalEvent(oTarget, EventSpellCastAt(OBJECT_SELF, GetSpellId()));
 
-					int nDamage;    
-					//nDamage = d6(nDamageDice);  
-					nDamage = HandleReserveMeta(nDamageDice, 6);
+					int nDamage = HandleReserveMeta(nDamageDice, 3);
+					nDamage = nDamage + (nDamageDice * 3); //d3+3 damage now					
 					
 					if (GetLevelByClass(CLASS_MYSTIC_RESV) == 0)
 					{

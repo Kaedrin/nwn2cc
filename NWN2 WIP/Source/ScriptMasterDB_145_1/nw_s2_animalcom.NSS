@@ -24,7 +24,7 @@ void main()
 	
 	if (GetHasFeat(FEAT_UNSTOPPABLE_FEROCITY))
 	{
-		ApplySilverFangEffect(oMyPet);	
+		ApplyUnstoppableFerocityEffect(oMyPet);	
 	}
 	
 	string sTag = GetTag(oMyPet);

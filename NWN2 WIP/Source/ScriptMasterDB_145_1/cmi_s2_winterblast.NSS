@@ -58,7 +58,7 @@ void main()
 	
 	int nSaveThrow = SAVING_THROW_TYPE_COLD;
 	effect eOrbEffect = EffectSavingThrowDecrease(SAVING_THROW_ALL, 2, nSaveThrow);		
-    eOrbEffect = SetEffectSpellId(eOrbEffect, SPELL_SPELLABILITY_Fiery_Burst);
+    eOrbEffect = SetEffectSpellId(eOrbEffect, SPELL_SPELLABILITY_Winters_Blast);
 	eOrbEffect = SupernaturalEffect(eOrbEffect);
 					 
 	if (nReserveLevel == 0)
@@ -83,8 +83,9 @@ void main()
 					}
 
 	                    //Detemine damage
-	                    nDamage = d6(nReserveLevel);
-						nDamage = HandleReserveMeta(nReserveLevel, 6);
+	                    nDamage = d3(nReserveLevel);
+						nDamage = HandleReserveMeta(nReserveLevel, 3);
+						nDamage = nDamage + (nReserveLevel * 3); //d3+3 damage now
 
 						if (GetLevelByClass(CLASS_MYSTIC_RESV) == 0)
 						{

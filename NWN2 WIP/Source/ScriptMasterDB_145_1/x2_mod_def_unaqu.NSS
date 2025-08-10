@@ -19,7 +19,10 @@ int GetIsWeapon(int nType);
 void main()
 {
      object oItem = GetModuleItemLost();
-	 //SpawnScriptDebugger();
+
+	 //Removed for the time being due to possible issue with TonyK AI
+	 
+	 /*
 	 // Kaedrin - Begin
 	 // if the creature is a player and they are in combat, they probably were disarmed. 
 	 // Lets give the weapon back to them by having them pick it up (loss of combat time)
@@ -73,7 +76,9 @@ void main()
 		//SendMessageToAllDMs(GetName(oLostBy) + " was disarmed of weapon: " + GetName(oItem));
 	
 	 }
+	 
 	 // Kaedrin - End
+	 */
 	 
      // * Generic Item Script Execution Code
      // * If MODULE_SWITCH_EXECUTE_TAGBASED_SCRIPTS is set to TRUE on the module,

@@ -15,12 +15,13 @@ void main()
 	object oPartyMember = GetFirstFactionMember(OBJECT_SELF, FALSE);
 	while(GetIsObjectValid(oPartyMember) == TRUE)
 	{
-		ExecuteScript("hcr2_playerest_c", OBJECT_SELF);
+		//ExecuteScript("hcr2_playerest_c", OBJECT_SELF);
+		//ExecuteScript("community_user_script_here", OBJECT_SELF);
 		ExecuteScript("cmi_player_rest", oPartyMember);
 		oPartyMember = GetNextFactionMember(OBJECT_SELF, FALSE);
 	}
 	*/	
-	ExecuteScript("hcr2_playerest_c", OBJECT_SELF);
+	//ExecuteScript("hcr2_playerest_c", OBJECT_SELF);
 	ExecuteScript("cmi_player_rest", OBJECT_SELF);
 	
 }

@@ -59,6 +59,8 @@ void main()
 			effect eVis = EffectVisualEffect(VFX_HIT_SPELL_SONIC);
 			//int nDamage = d6(nDamageDice);
 			int nDamage = HandleReserveMeta(nDamageDice, 3);
+			nDamage = nDamage + (nDamageDice * 3); //d3+3 damage now
+			
 			int nMeleeTouch = TouchAttackMelee(oTarget);
 			if (nMeleeTouch != TOUCH_ATTACK_RESULT_MISS)
 			{

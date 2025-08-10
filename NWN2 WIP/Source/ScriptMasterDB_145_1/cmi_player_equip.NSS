@@ -7,7 +7,7 @@
 
 #include "cmi_tempest"
 #include "cmi_ginc_chars"
-#include "alex_common_functions"
+
 
 void main()	
 {

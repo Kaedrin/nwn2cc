@@ -13,9 +13,6 @@
 void main()
 {
 
-    // iterate over all the PCs in the module.
-    // cwhit note: I am intentionally exluding non PC player faction members since the original implementation of this also did so
-    // what is different here from the orginal is that it used to iterate over only the PC's in the FirstPC's faction.
 	object oPC = GetFirstPC();
     //object oPC = GetFirstFactionMember(oPC, FALSE);
 	int nElaborateParry = GetLocalInt(OBJECT_SELF, "ElaborateParry");
@@ -24,8 +21,6 @@ void main()
     {
 		//SendMessageToPC(oPC, "You are a PC you know...");
 		//SendMessageToPC(oPC, IntToString(GetActionMode(oPC, ACTION_MODE_COMBAT_EXPERTISE)));				
-		
-		object oArea = GetArea(oPC);
 		
 		if ((GetLocalInt(OBJECT_SELF, "UseTwoWpnDefense")) && (GetHasFeat(FEAT_TWO_WEAPON_DEFENSE, oPC)))
 		{
@@ -183,45 +178,7 @@ void main()
 			}					
 		}
 	
-		// subject to Light Sensitivity?
-		if (GetRacialType(oPC) == RACIAL_TYPE_GRAYORC || 
-		    GetSubRace(oPC) == RACIAL_SUBTYPE_DROW    ||
-		    GetSubRace(oPC) == RACIAL_SUBTYPE_GRAY_DWARF)
-		{	
-			if (!GetHasFeat(FEAT_DAYLIGHT_ADAPATION, oPC) && 
-		    	     GetIsDay() == TRUE && 
-		    	    !GetIsAreaInterior(oArea)) 
-			{
-			    // FEAT_LIGHT_BLINDNESS is 1767
-				if (GetHasSpellEffect(-1767,oPC) == FALSE)
-				{ 
-					int nPenalty = 1;
-					if (GetSubRace(oPC) == RACIAL_SUBTYPE_GRAY_DWARF) nPenalty = 2;
-					effect eLowerAttack = EffectAttackDecrease(nPenalty);
-					eLowerAttack = SetEffectSpellId(eLowerAttack, -1767);
-					eLowerAttack = SupernaturalEffect(eLowerAttack);
-					DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLowerAttack, oPC, HoursToSeconds(24)));
-					effect eLowerSaves = EffectSavingThrowDecrease(SAVING_THROW_ALL, nPenalty);
-					eLowerSaves = SetEffectSpellId(eLowerSaves, -1767);
-					eLowerSaves = SupernaturalEffect(eLowerSaves);
-					DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLowerSaves, oPC, HoursToSeconds(24)));	
-					effect eLowerSkills = EffectSkillDecrease(SKILL_ALL_SKILLS, nPenalty);
-					eLowerSkills = SetEffectSpellId(eLowerSkills, -1767);
-					eLowerSkills = SupernaturalEffect(eLowerSkills);
-					DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eLowerSkills, oPC, HoursToSeconds(24)));			
-					SendMessageToPC(oPC, "You are suffering from the daylight.");						
-				}
-			}
-			else
-			{
-				if (GetHasSpellEffect(-1767,oPC))
-				{
-					RemoveSpellEffects(-1767, OBJECT_SELF, oPC);
-					SendMessageToPC(oPC, "You are no longer suffering from the daylight");						
-				}
-			}	
-    }	
-	
         oPC = GetNextPC(TRUE);
     }	
+	
 }

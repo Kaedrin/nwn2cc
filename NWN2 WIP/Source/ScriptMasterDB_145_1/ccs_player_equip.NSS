@@ -13,8 +13,5 @@ void main()
 	//object oItem = GetPCItemLastEquipped();
 
 	//ExecuteScript("community_user_script_here", OBJECT_SELF);
-	//ExecuteScript("cmi_player_equip", OBJECT_SELF);
-	object oPC = GetPCItemLastEquippedBy();
-	ExecuteScript("cmi_player_equip", oPC);
-	//ExecuteScript("alex_rws_horse_equip", oPC);
+	ExecuteScript("cmi_player_equip", OBJECT_SELF);
 }

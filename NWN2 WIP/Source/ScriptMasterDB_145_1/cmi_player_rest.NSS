@@ -6,11 +6,9 @@
 //:://////////////////////////////////////////////
 
 #include "cmi_ginc_chars"
-#include "hcr2_core_i"
 
 void main()	
 {
-	if(!GetLocalInt(OBJECT_SELF, H2_SKIP_CANCEL_REST)) {
 
 	object oItem = GetItemInSlot(INVENTORY_SLOT_RIGHTHAND,OBJECT_SELF);
 	ClearTempItemProps(oItem);
@@ -19,14 +17,13 @@ void main()
     oItem    = GetItemInSlot(INVENTORY_SLOT_LEFTHAND,OBJECT_SELF);	
 	ClearTempItemProps(oItem);	
 	
-	   oItem = GetFirstItemInInventory(OBJECT_SELF);
-	   while (GetIsObjectValid(oItem) == TRUE)
-	   {
-	      ClearTempItemProps(oItem);	
-	      oItem = GetNextItemInInventory(OBJECT_SELF);
-	   }
+	oItem = GetFirstItemInInventory(OBJECT_SELF);
+	while (GetIsObjectValid(oItem) == TRUE)
+	{
+	    ClearTempItemProps(oItem);	
+	    oItem = GetNextItemInInventory(OBJECT_SELF);
 	}
-	
+
 	if (GetLocalInt(GetModule(), "UseSacredFistFix") == 1)
 	{
 		//This fixes characters who were incorrectly given the feat.

@@ -62,6 +62,7 @@ void main()
 			effect eVis = EffectVisualEffect(VFX_HIT_SPELL_CONJURATION);
 			//int nDamage = d4(nDamageDice);
 			int nDamage = HandleReserveMeta(nDamageDice, 3);
+			nDamage = nDamage + (nDamageDice * 3); //d3+3 damage now
 						
 			int nRangedTouch = TouchAttackRanged(oTarget);
 			if (nRangedTouch != TOUCH_ATTACK_RESULT_MISS)
