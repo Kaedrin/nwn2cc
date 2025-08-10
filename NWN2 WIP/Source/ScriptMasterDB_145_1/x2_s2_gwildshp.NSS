@@ -371,7 +371,7 @@ void main()
 	}
 	if (GetHasFeat(FEAT_GRIM_SURVIVAL))
 	{
-		int nSurvival = nDuration / 2;
+		int nSurvival = GetWildShapeLevel(OBJECT_SELF) / 2;
 		if (nSurvival > 10)
 			nSurvival = 10;
 		effect eSurvival = EffectSkillIncrease(SKILL_SURVIVAL, nSurvival);
