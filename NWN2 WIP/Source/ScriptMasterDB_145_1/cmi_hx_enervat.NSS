@@ -7,8 +7,9 @@
 //:://////////////////////////////////////////////
 
 
-#include "cmi_ginc_spells"
+//#include "cmi_ginc_spells"
 #include "x2_inc_spellhook" 
+#include "cmi_ginc_chars"
 
 void main()
 {

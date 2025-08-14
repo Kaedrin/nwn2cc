@@ -28,6 +28,7 @@
 #include "x0_i0_spells"
 #include "cmi_ginc_palrng"
 
+
 const int INT_CASTER = 1;
 const int CHA_CASTER = 2;
 const int WIS_CASTER = 3;

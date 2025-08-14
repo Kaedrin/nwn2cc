@@ -292,7 +292,7 @@ int GetHexbladeCasterLevel(int nSummon = FALSE, object oPC = OBJECT_SELF)
 	if (GetHasFeat(FEAT_BG_ARCANE_SERVANT_DARKNESS,oPC))
 		nCasterLevel += GetLevelByClass(CLASS_TYPE_BLACKGUARD, oPC);
 	
-	//nCasterLevel = nCasterLevel - 3;
+	//nCasterLevel = nCasterLevel - 3; //Now full caster level, 1.45
 	if (GetHasFeat(FEAT_HEXBLADE_PRACTICED_CASTER, oPC))
 	{
 		int nHD = GetHitDice(oPC);

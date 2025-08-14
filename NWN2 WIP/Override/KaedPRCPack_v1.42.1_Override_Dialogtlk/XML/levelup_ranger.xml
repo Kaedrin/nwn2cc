@@ -55,7 +55,7 @@
 					update=true OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","SUBRACE") />
 					<UIIcon name="SUBRACE_TEXT_BG" x=40 y=0 width=190 height=40 img="b_g_lg01_normal.tga" />
 				</UIPane>
-				<UICollapsable name="CLASS_COL" x=0 y=0 height=182 width=PARENT_WIDTH yPadding=5 xPadding=0 indent=20 isexpanded=true collapselock=true 
+				<UICollapsable name="CLASS_COL" x=0 y=0 height='DYNAMIC' width=PARENT_WIDTH yPadding=5 xPadding=0 indent=20 isexpanded=true collapselock=true 
 					update=true OnUpdate=UICollapsable_OnUpdate_UpdateClassList("LEVELUP") >
 					<UIButton name="HEADER_BUTTON" strref="144" x=0 y=0 width=230 height=40  header=true >
 						<UIText x=30 y=0 align=left valign=middle fontfamily="Title_Font" style="1" indent=20 multiline=false />

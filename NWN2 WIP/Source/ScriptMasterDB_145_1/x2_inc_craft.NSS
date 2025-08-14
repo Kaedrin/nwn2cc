@@ -211,9 +211,6 @@ struct craft_struct CIGetCraftItemStructFrom2DA(string s2DA, int nRow, int nItem
 // Appends the spell name to the object's name
 void AppendSpellToName(object oObject, int nSpellID);
 
-// Hyper-V's function - return selected spell row
-int GetSpellRowFromBenchVars(object oCaster, int nSpellID);
-
 
 //--------------------------------------------------------------------
 // functrions
@@ -400,19 +397,7 @@ void AppendSpellToName(object oObject, int nSpellID)
 // -----------------------------------------------------------------------------
 int CIGetCraftGPCost(int nLevel, int nMod)
 {
-	// Hyper-V's addition
-	// check that the item is a bone wand
-	int nLvlRow = 0;
-	object oItem = GetSpellTargetObject();
-	int nBt = GetBaseItemType(oItem);
-	if (nBt == 103) {
-		nLvlRow = GetSpellRowFromBenchVars(OBJECT_SELF,GetSpellId());
-	}
-	
-	if (nLvlRow == 0) {
-	    nLvlRow = IPGetIPConstCastSpellFromSpellID(GetSpellId());
-	}
-	
+    int nLvlRow =   IPGetIPConstCastSpellFromSpellID(GetSpellId());
     int nCLevel = StringToInt(Get2DAString("iprp_spells","CasterLvl",nLvlRow));
 
 	int bZeroLevel = (nLevel == 0);
@@ -477,13 +462,7 @@ object CICraftBrewPotion(object oCreator, int nSpellID )
 // -----------------------------------------------------------------------------
 object CICraftCraftWand(object oCreator, int nSpellID )
 {
-	// Hyper-V's addition - get nLvlRow from hv_wand_book
-	int nPropID = GetSpellRowFromBenchVars(oCreator,nSpellID);
-
-	if (nPropID == 0) {
-		 nPropID = IPGetIPConstCastSpellFromSpellID(nSpellID);		
-	}
-
+    int nPropID = IPGetIPConstCastSpellFromSpellID(nSpellID);
 	
     object oTarget;
     // * GZ 2003-09-11: If the current spell cast is not acid fog, and
@@ -1703,29 +1682,4 @@ int CIGetWeaponModificationCost(object oOldItem, object oNewItem)
         nTotal = GetGoldPieceValue(oOldItem)+1;
    }
    return nTotal;
-}
-
-// Hyper-V's function
-int GetSpellRowFromBenchVars(object oCaster, int nSpellID)
-{
-	// get bench object
-	object oBench = GetNearestObjectByTag("hv_wandbench", oCaster);
-	if(GetIsObjectValid(oBench))
-	{
-		if(LineOfSightObject(oCaster, oBench))
-		{
-			if(GetDistanceBetween(oCaster, oBench) <= 5.0f)
-			{
-				string sVarName = Get2DAString("spells","IconResRef",nSpellID);
-				int nRow = GetLocalInt(oBench, sVarName);
-				
-				// Shield spell fix - replace greater magic fang...
-				if (nRow == 384) nRow = 348;
-				
-				return nRow;
-			}
-		}
-	}
-	
-	return 0;
 }

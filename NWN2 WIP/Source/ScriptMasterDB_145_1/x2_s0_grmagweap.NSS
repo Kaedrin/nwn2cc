@@ -84,6 +84,12 @@ void main()
             ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eDur, GetItemPossessor(oMyWeapon), HoursToSeconds(nDuration));
             AddGreaterEnhancementEffectToWeapon(oMyWeapon, (HoursToSeconds(nDuration)), nCasterLvl);
 
+			//object oMyWeapon2 = GetItemInSlot(INVENTORY_SLOT_LEFTHAND, OBJECT_SELF);
+			//if (GetIsObjectValid(oMyWeapon2) && IPGetIsMeleeWeapon(oMyWeapon2))
+			//{
+			//	AddGreaterEnhancementEffectToWeapon(oMyWeapon2,HoursToSeconds(nDuration), nCasterLvl);	
+			//}
+			
         }
         return;
     }

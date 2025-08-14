@@ -17,24 +17,25 @@ int GetHealingReserveLevel()
 	if ( GetHasSpell(897) || GetHasSpell(114) )
 		return 8;	
 					
-	if ( GetHasSpell(894) || GetHasSpell(374) || GetHasSpell(70) || GetHasSpell(153) )
+	if ( GetHasSpell(894) || GetHasSpell(374) || GetHasSpell(70) || GetHasSpell(153) || GetHasSpell(2235))
 		return 7;						
 			
 	if ( GetHasSpell(891) || GetHasSpell(79) || GetHasSpell(1023) )
 		return 6;					
 		
-	if ( GetHasSpell(80) || GetHasSpell(1030) || GetHasSpell(142) || GetHasSpell(1004) )
+	if ( GetHasSpell(80) || GetHasSpell(1030) || GetHasSpell(142) || GetHasSpell(1004) || GetHasSpell(2231))
 		return 5;						
 
-	if ( GetHasSpell(31) || GetHasSpell(152) )
+	if ( GetHasSpell(31) || GetHasSpell(152) || GetHasSpell(2234))
 		return 4;																
 		
 	if ( GetHasSpell(35) || GetHasSpell(126) || GetHasSpell(145) || GetHasSpell(147) || 
-		GetHasSpell(1020) || GetHasSpell(1022) || GetHasSpell(2114) || GetHasSpell(2231) ||
-		GetHasSpell(2232) || GetHasSpell(2233) || GetHasSpell(2234) || GetHasSpell(2235) )
+		GetHasSpell(1020) || GetHasSpell(1022) || GetHasSpell(2114) || GetHasSpell(2237) ||
+		GetHasSpell(2233) )
 		return 3;																		
 		
-	if ( GetHasSpell(34) || GetHasSpell(149) || GetHasSpell(97) || GetHasSpell(1169) )
+	if ( GetHasSpell(34) || GetHasSpell(149) || GetHasSpell(97) || GetHasSpell(1169) || GetHasSpell(2232) || 
+		GetHasSpell(2236) )
 		return 2;																	
 									
 	return 0;
