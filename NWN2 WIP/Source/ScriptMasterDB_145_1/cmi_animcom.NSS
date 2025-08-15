@@ -27,10 +27,15 @@ int GetAnimalCompanionLevel(object oPC)
 	if ( GetHasFeat(1835 , oPC) && (!nTelthor) )
 		nCompLevel += GetLevelByClass(CLASS_TYPE_CLERIC , oPC); //Animal Domain Cleric
 		
+	
 	int nMarksman = GetLevelByClass(CLASS_MARKSMAN , oPC) ;
-	if (GetHasFeat(FEAT_WILD_MARKSMAN, oPC) && (nMarksman > 3) )		
+	int nArbalest = GetLevelByClass(CLASS_ARBALEST , oPC) ;	
+	if (GetHasFeat(FEAT_WILD_HUNTER, oPC) )		
 	{
+	  if (nMarksman > 3) 
 		nCompLevel += (nMarksman - 3);
+	  if (nArbalest > 3) 
+		nCompLevel += (nArbalest - 3);		
 	}
 	
 	int nRanger = GetLevelByClass(CLASS_TYPE_RANGER , oPC); //Ranger

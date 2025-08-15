@@ -27,9 +27,19 @@ void DoFrenzy( object oTarget, int nIncrease, float fDuration )
 	// This is an immense hack to make the effect be created by the person going into the Frenzy;
 	// the DoT effect causes you to become hostile to the effect creator, so to keep you from going
 	// hostile to your own party, you must be the creator of the effect that damages you.
+	int nDamage = 6;
+	if (GetLevelByClass(CLASS_TYPE_BARBARIAN, oTarget) > 0)
+		nDamage=2;
+		
+		int isPC = GetIsPC(oTarget);
+		if (!isPC)
+		{
+        	fDuration = fDuration*10;
+		}		
+					
     effect eStr = EffectAbilityIncrease(ABILITY_STRENGTH, nIncrease);
     effect eAC = EffectACDecrease(4, AC_DODGE_BONUS);
-    effect eDot = EffectDamageOverTime(6, RoundsToSeconds(1) - 0.5f, DAMAGE_TYPE_ALL);	// 6 points every round
+    effect eDot = EffectDamageOverTime(nDamage, RoundsToSeconds(1) - 0.5f, DAMAGE_TYPE_ALL);	// 6 points every round
     effect eDur = EffectVisualEffect( VFX_DUR_SPELL_RAGE );
     effect eAttackMod = EffectModifyAttacks(1);
 
@@ -58,15 +68,34 @@ void main()
 	object oCaster = OBJECT_SELF;
 	int nLevel = GetLevelByClass(CLASS_TYPE_FRENZIEDBERSERKER, oCaster);
 	
-//	if (!GetHasFeat(FEAT_GREATER_FRENZY, oCaster))
-//	{
-//	    nIncrease = 10;
-//	}
-//	else
+	if (!GetHasFeat(FEAT_GREATER_FRENZY, oCaster))
+	{
+	    nIncrease = 10;
+	}
+	else
 	{
 	    nIncrease = 6;
 	}
-	float fDuration = RoundsToSeconds(2);	// Fatigue duration fixed to 2 rounds
+	
+	int nCon = 3 + GetAbilityModifier(ABILITY_CONSTITUTION);
+        if (GetHasFeat(FEAT_EXTEND_RAGE))
+        {
+            nCon += 5;
+			if (GetHasFeat(FEAT_EXTEND_RAGE_II))
+			{
+				nCon += 5;
+				if (GetHasFeat(FEAT_EXTEND_RAGE_III))
+				{
+					nCon += 5;
+					if (GetHasFeat(FEAT_EXTEND_RAGE_IV))
+					{
+						nCon += 5;
+					}						
+				}				
+			}
+        }
+			
+	float fDuration = RoundsToSeconds(nCon);
 	
 	object oFactionMember = GetFirstFactionMember( oCaster, FALSE );
 	while ( GetIsObjectValid(oFactionMember) )

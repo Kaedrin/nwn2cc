@@ -59,7 +59,7 @@ void main()
 			ApplyCMIFatigue(OBJECT_SELF, TurnsToSeconds(10), ( RoundsToSeconds(nDuration + 1) ), SONG_SNOWFLAKE_WARDANCE );
 		}	
 									
-		ApplyCMIFatigue(OBJECT_SELF, TurnsToSeconds(10), ( RoundsToSeconds(nDuration + 1) ), SONG_SNOWFLAKE_WARDANCE );
+		//ApplyCMIFatigue(OBJECT_SELF, TurnsToSeconds(10), ( RoundsToSeconds(nDuration + 1) ), SONG_SNOWFLAKE_WARDANCE );
 		DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eAB, OBJECT_SELF, RoundsToSeconds(nDuration)));		
 		DecrementRemainingFeatUses(OBJECT_SELF, FEAT_BARD_SONGS);
 	}
