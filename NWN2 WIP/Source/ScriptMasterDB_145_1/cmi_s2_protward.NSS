@@ -82,7 +82,15 @@ void main()
 	effect eACBuff;
 	if (nRangerLevel == GetHitDice(OBJECT_SELF))
 	{
-		eACBuff = EffectACIncrease(nRanger * 2);
+		int nAC = 1;
+		if (nRanger > 13)
+			nAC = 4;
+		if (nRanger > 10)
+			nAC = 3;
+		if (nRanger > 7)
+			nAC = 2;
+			
+		eACBuff = EffectACIncrease(nAC);
 		effect eABBuff = EffectAttackIncrease(nRanger);
 		eACBuff = EffectLinkEffects(eABBuff, eACBuff);
 	}

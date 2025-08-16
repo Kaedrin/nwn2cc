@@ -32,7 +32,7 @@
 28 UseWildshapeTiers 3
 29 LoadCMIOptions 1
 30 FreeEmberGuard 1
-31 PlanetouchedGetMartialWeaponProf 1
+31 PlanetouchedGetMartialWeaponProf 0
 32 FangLineExceeds20 0
 33 SpellSpecAdds1PerDie 0
 34 SonicMightAffectsClapofThunder 1

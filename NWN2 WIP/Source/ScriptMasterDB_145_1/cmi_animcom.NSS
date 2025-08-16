@@ -230,9 +230,9 @@ void SummonCMIAnimComp(object oPC)
 			sBlueprint = "c_ancom_wolf" + sRange;	
 		}
 		else
-		if (FindSubString(sTag, "white_tiger") > -1)
+		if (FindSubString(sTag, "white_leop") > -1) //white_tiger
 		{
-			sBlueprint = "c_ancom_white_tiger" + sRange;	
+			sBlueprint = "c_ancom_white_leop" + sRange;	//c_ancom_white_tiger
 		}	
 		//SendMessageToPC(oPC, "sBlueprint2: " + sBlueprint);
 	}

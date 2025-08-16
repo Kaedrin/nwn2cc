@@ -97,6 +97,11 @@ void StackHexbladeSpells(int nHexblade, object oPC=OBJECT_SELF)
 		else
 			nCount = 0 + nBonus1;		
 			
+		if (nCount > 8)
+			nCount = 8;	
+		if (nCount < 0)
+			nCount = 0;					
+			
 		for (nCounter = 3792; nCounter < (3792+nCount); nCounter++)
 		{
 				if (!GetHasFeat(nCounter, oPC, TRUE))
@@ -121,6 +126,11 @@ void StackHexbladeSpells(int nHexblade, object oPC=OBJECT_SELF)
 		else
 			nCount = 0 + nBonus2;		
 			
+		if (nCount > 8)
+			nCount = 8;		
+		if (nCount < 0)
+			nCount = 0;							
+			
 		for (nCounter = 3800; nCounter < (3800+nCount); nCounter++)
 		{
 				if (!GetHasFeat(nCounter, oPC, TRUE))
@@ -142,6 +152,11 @@ void StackHexbladeSpells(int nHexblade, object oPC=OBJECT_SELF)
 		else
 			nCount = 0 + nBonus3;		
 			
+		if (nCount > 8)
+			nCount = 8;	
+		if (nCount < 0)
+			nCount = 0;								
+			
 		for (nCounter = 3808; nCounter < (3808+nCount); nCounter++)
 		{
 				if (!GetHasFeat(nCounter, oPC, TRUE))
@@ -162,6 +177,11 @@ void StackHexbladeSpells(int nHexblade, object oPC=OBJECT_SELF)
 			nCount = 1 + nBonus4;
 		else
 			nCount = 0 + nBonus4;		
+			
+		if (nCount > 8)
+			nCount = 8;	
+		if (nCount < 0)
+			nCount = 0;						
 			
 		for (nCounter = 3816; nCounter < (3816+nCount); nCounter++)
 		{

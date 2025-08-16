@@ -20,7 +20,7 @@ void main()
 	eSpellFailure = SupernaturalEffect(eSpellFailure);
 	DelayCommand(0.1f,ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eSpellFailure, oPC, 6.0f));
 	*/
-	ClearAllActions(FALSE); //Replacement for spell failure.
+	
 	
 	int nDisableConFix = GetLocalInt(oPC, "DisableConFix");
 	
@@ -30,6 +30,7 @@ void main()
 
 	if (!nDisableConFix)
 	{
+		ClearAllActions(FALSE); //Replacement for spell failure.  //Moved to the Con fix loop, since usually only PWs care about exploit fixes
 		//SendMessageToPC(OBJECT_SELF, "Equip");
 		int nCurrentHitPoints;
 		int nMaxHitPoints;	
