@@ -1,0 +1,47 @@
+
+				BLUEPRINT LIST
+
+E = enchanted version (no extension)
+M = metal armor; _0 for iron, _1 for Mithral, _2 for Adamantine
+N = nonmetal; _0 for applicable basic version
+
+filename		class			versions
+kprc_an_knight		Anointed Knight		E M
+kprc_avenger		Avenger			E N
+kprc_bf_zealot		Black Flame Zealot	E M
+kprc_bladesinger	Bladesinger		E M
+kprc_boneknight		Bone Knight		E M
+kprc_cutthroat		Thug			N
+kprc_darklantern	Dark Lantern		E N
+kprc_dervish		Dervish			E N
+kprc_divseeker		Divine Seeker		E M
+kprc_dk_knight		Warrior or Darkness	E M
+kprc_dragonlord		Dragon Lord		E M
+kprc_dragonshaman	Dragon Shaman		M
+kprc_dreadcommando	Dread Commando 		E M
+kprc_earcher		Elemental Archer	E M
+kprc_eldspirit		Eldritch Spirit		N
+kprc_ewarrior		Elemental Warrior	E M
+kprc_eyelolth		Eye of Lolth		E N
+kprc_forestmaster	Forest Master		E N
+kprc_frostmage		Frost Mage		E N
+kprc_heartwarder	Heartwarder		E N
+kprc_hexblade		Hexblade		N
+kprc_hospitaler		Hospitaler		E M
+kprc_mastrdnc		Master of Radiance	E M
+kprc_ns_enforcer	Nightsong Enforcer	E N
+kprc_ns_infiltrator	Nightsong Infiltrator	E N
+kprc_nwarrior		Nature's Warrior	E N
+kprc_raziel		Fist of Raziel		E M
+kprc_shiningblade	Shining Blade		E M
+kprc_skullclan		Skull Clan Hunter	E M
+kprc_songblade		Songblade		M
+kprc_sotsong		Seeker of the Song	E N
+kprc_stormsinger	Stormsinger		E N
+kprc_swiftblade		Swiftblade		E M
+kprc_talisid		Lion of Talisid		E M
+kprc_tempest		Tempest			E N
+kprc_warchanter		War Chanter		E M
+kprc_wildchampion	Champion of the Wild	E M
+kprc_wildrunner		Wildrunner		E N
+

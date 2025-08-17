@@ -1,0 +1,11 @@
+2DA V2.0
+
+  LABEL                     ReqType  ReqParam1 ReqParam2 
+0 Lore                      SKILL    7         13        
+1 Survival                  SKILL    29        8         
+2 Divine                    DIVSPELL 3         ****      
+3 BAB                       BAB      5         ****      
+4 PowerAtk                  FEAT     28        ****      
+5 Toughness                 FEAT     40        ****      
+6 Alertness                 FEAT     0         ****      
+7 FEAT_WEAPON_FOCUS_WARMACE FEAT     1826      ****      
