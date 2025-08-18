@@ -577,6 +577,7 @@ void main()
 	} // End Hospitaler	
 	*/
 	
+	/*
 	// Hospitaler
 	//SendMessageToPC(oPC, "Test");
 	if (GetLevelByClass(CLASS_HOSPITALER,oPC) > 0)
@@ -677,5 +678,6 @@ void main()
 			}		
 		}
 	} // End Hospitaler		
+	*/	
 
 }

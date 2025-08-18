@@ -1,0 +1,2331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Neverwinter Nights 2 -->
+<!-- Copyright (c) 2006 Obsidian Entertainment, Inc. -->
+
+<UIScene name="EE_SCREEN_CHARACTER_CREATION" priority="SCENE_FE_FULLSCREEN" fullscreen=true enhanced='true' cullrenderables='true' idleexpiretime="1.0"/>
+
+<UIPane x='ALIGN_CENTER' y='38' width='446' height='70'>
+	<UIText name='TITLE' align='center' valign='middle' fontfamily='EE_Window_Header' color='E6E4D0'/>
+	<UIIcon img='window_name_back_orna_x2.tga'/>
+</UIPane>
+
+<UIPane width='PARENT_WIDTH' height='DYNAMIC'>
+	<UIPane name='ENTITY_PROTO' width='PARENT_WIDTH' height='DYNAMIC' hidden='true'>
+		<UIIcon name='ENTITY_ICON' width='60' height='60' img='fx_white.tga' color='FFFFFF' />
+		<UIText name="ENTITY_TEXT" x='60' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='10' color='E6E4D0'/>
+	</UIPane>
+</UIPane>
+
+<UIPane name='FLOW_PANE' x='ALIGN_CENTER' y='ALIGN_CENTER' width='1920' height='1080' pass_input_to_children='true'>
+
+	<UIPane name='TABS' x='ALIGN_CENTER' y='12' width='1920' height='150' focusable='false' ignoreevents='true'>
+		
+		<UIGrid name='MAIN_TABS' x='ALIGN_CENTER' width='DYNAMIC' y='110' height='DYNAMIC' rows='1' columns='15'>
+		
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_CLASS' width='112'
+					buttontype='radio' groupid='15' groupmemberid='1' transitiontype='2' transitionduration='0.2'
+					OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+					OnSelected1='UIButton_Input_CollapseObject("INFO_CONTAINER")'
+					OnSelected2='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
+					OnSelected3='UIButton_Input_SetText("LIST_TITLE","113693")'
+					OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","183339")'
+					OnSelected5='UIButton_Input_ShowObject("CLASS_LIST")'
+					OnSelected6='UIButton_Input_ShowObject("CLASS_BUTTONS")'
+					OnSelected7='UIButton_Input_SetCallUpdate("CLASS_LIST","true")'
+					OnSelected8='UIButton_Input_SetText("TITLE","113693")'
+					OnSelected9='UIButton_Input_ShowObject("CLASS_STEPPER")'
+					OnSelected10='UIButton_Input_HideObject("ALIGNMENT_STEPPER")'
+					OnSelected11='UIButton_Input_HideObject("ABILITIES_STEPPER")'
+					OnSelected12='UIButton_Input_HideObject("SKILLS_STEPPER")'
+					OnSelected13='UIButton_Input_HideObject("DEITY_STEPPER")'
+					OnUnselected0='UIButton_Input_HideObject("CLASS_LIST")'
+					OnUnselected1='UIButton_Input_HideObject("CLASS_BUTTONS")'
+					OnUnselected2='UIButton_Input_SetCallUpdate("CLASS_LIST","false")'>
+				</UIButton>
+				<UIIcon name='CLASS_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_ALIGNMENT' width='112' hidden='true'
+						buttontype='radio' groupid='15' groupmemberid='5' transitiontype='2' transitionduration='0.2'
+						OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+						OnSelected1='UIButton_Input_CollapseObject("INFO_CONTAINER")'
+						OnSelected2='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
+						OnSelected3='UIButton_Input_SetText("LIST_TITLE","113673")'
+						OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","183340")'
+						OnSelected5='UIButton_Input_ShowObject("ALIGNMENT_LIST")'
+						OnSelected6='UIButton_Input_ShowObject("ALIGNMENT_BUTTONS")'
+						OnSelected7='UIButton_Input_SetCallUpdate("ALIGNMENT_LIST","true")'
+						OnSelected8='UIButton_Input_SetText("TITLE","113673")'
+						OnSelected9='UIButton_Input_ShowObject("ALIGNMENT_STEPPER")'
+						OnSelected10='UIButton_Input_HideObject("DEITY_STEPPER")'
+						OnUnselected0='UIButton_Input_HideObject("ALIGNMENT_LIST")'
+						OnUnselected1='UIButton_Input_HideObject("ALIGNMENT_BUTTONS")'
+						OnUnselected2='UIButton_Input_SetCallUpdate("ALIGNMENT_LIST","false")'>
+				</UIButton>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_DEITY' width='112' hidden='true'
+						buttontype='radio' groupid='15' groupmemberid='6' transitiontype='2' transitionduration='0.2'
+						OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+						OnSelected1='UIButton_Input_ExpandObject("INFO_CONTAINER")'
+						OnSelected2='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
+						OnSelected3='UIButton_Input_SetText("LIST_TITLE","152")'
+						OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","183341")'
+						OnSelected5='UIButton_Input_ShowObject("DEITY_LIST")'
+						OnSelected6='UIButton_Input_ShowObject("DEITY_BUTTONS")'
+						OnSelected7='UIButton_Input_SetCallUpdate("DEITY_LIST","true")'
+						OnSelected8='UIButton_Input_ShowObject("DEITY_1_ICON")'
+						OnSelected9='UIButton_Input_ShowObject("DEITY_1_TEXT")'
+						OnSelected10='UIButton_Input_SetText("TITLE","152")'
+						OnSelected11='UIButton_Input_ShowObject("DEITY_STEPPER")'
+						OnSelected12='UIButton_Input_HideObject("ABILITIES_STEPPER")'
+						OnSelected13='UIButton_Input_HideObject("SKILLS_STEPPER")'
+						OnUnselected0='UIButton_Input_HideObject("DEITY_LIST")'
+						OnUnselected1='UIButton_Input_HideObject("DEITY_BUTTONS")'
+						OnUnselected2='UIButton_Input_SetCallUpdate("DEITY_LIST","false")'
+						OnUnselected3='UIButton_Input_HideObject("DEITY_1_ICON")'
+						OnUnselected4='UIButton_Input_HideObject("DEITY_1_TEXT")'>
+				</UIButton>
+				<UIIcon name='DEITY_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_ABILITIES' width='112' hidden='true'
+						buttontype='radio' groupid='15' groupmemberid='7' transitiontype='2' transitionduration='0.2'
+						OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+						OnSelected1='UIButton_Input_CollapseObject("INFO_CONTAINER")'
+						OnSelected2='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
+						OnSelected3='UIButton_Input_SetText("LIST_TITLE","113689")'
+						OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","183342")'
+						OnSelected5='UIButton_Input_ShowObject("ABILITIES_LIST")'
+						OnSelected6='UIButton_Input_ShowObject("ABILITIES_BUTTONS")'
+						OnSelected7='UIButton_Input_SetCallUpdate("ABILITIES_LIST","true")'
+						OnSelected8='UIButton_Input_ShowObject("POINT_POOL_TEXT")'
+						OnSelected9='UIButton_Input_SetText("TITLE","113689")'
+						OnSelected10='UIButton_Input_ShowObject("ABILITIES_STEPPER")'
+						OnSelected11='UIButton_Input_HideObject("BACKGROUND_STEPPER")'
+						OnSelected12='UIButton_Input_HideObject("BACKGROUND_SKILLS")'
+						OnUnselected0='UIButton_Input_HideObject("ABILITIES_LIST")'
+						OnUnselected1='UIButton_Input_HideObject("ABILITIES_BUTTONS")'
+						OnUnselected2='UIButton_Input_SetCallUpdate("ABILITIES_LIST","false")'
+						OnUnselected3='UIButton_Input_HideObject("POINT_POOL_TEXT")'>
+				</UIButton>
+				<UIIcon name='ABILITIES_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_PACKAGES' width='112' hidden='true'
+						buttontype='radio' groupid='15' groupmemberid='9' transitiontype='2' transitionduration='0.2'
+						OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+						OnSelected1='UIButton_Input_CollapseObject("INFO_CONTAINER")'
+						OnSelected2='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
+						OnSelected3='UIButton_Input_SetText("LIST_TITLE","113756")'
+						OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","183344")'
+						OnSelected5='UIButton_Input_ShowObject("PACKAGES_PANE")'
+						OnSelected6='UIButton_Input_ShowObject("PACKAGES_BUTTONS")'
+						OnSelected7='UIButton_Input_SetCallUpdate("PACKAGES_LIST","true")'     
+						OnSelected8='UIButton_Input_ShowObject("DOLL_PANE")'
+						OnSelected9='UIButton_Input_SetText("TITLE","113756")'
+						OnSelected10='UIButton_Input_ShowObject("PACKAGES_STEPPER")'
+						OnSelected11='UIButton_Input_HideObject("FINISH_STEPPER")'
+						OnUnselected0='UIButton_Input_HideObject("PACKAGES_PANE")'
+						OnUnselected1='UIButton_Input_HideObject("PACKAGES_BUTTONS")'
+						OnUnselected2='UIButton_Input_SetCallUpdate("PACKAGES_LIST","false")'>
+				</UIButton>
+				<UIIcon name='PACKAGES_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_SKILLS' width='112'
+					buttontype='radio' groupid='15' groupmemberid='10' transitiontype='2' transitionduration='0.2'
+					OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+					OnSelected1='UIButton_Input_ShowObject("SKILL_PANE")'
+					OnSelected2='UIButton_Input_ShowObject("SKILL_BUTTONS")'
+					OnSelected3='UIButton_Input_SetCallUpdate("SKILL_LIST","true")'
+					OnSelected4='UIButton_Input_SetText("LIST_TITLE","327")'
+					OnSelected5='UIButton_Input_SetText("INFOPANE_HELPTEXT","183345")'				
+					OnSelected6='UIButton_Input_ExpandObject("INFO_CONTAINER")'
+					OnSelected7='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
+					OnSelected8='UIButton_Input_ShowObject("DOLL_PANE")'
+					OnSelected9='UIButton_Input_SetText("TITLE","327")'
+					OnSelected10='UIButton_Input_ShowObject("SKILLS_STEPPER")'
+					OnSelected11='UIButton_Input_HideObject("BONUS_FEATS_STEPPER")'
+					OnSelected12='UIButton_Input_HideObject("NORMAL_FEATS_STEPPER")'
+					OnSelected13='UIButton_Input_HideObject("RANGER_STEPPER")'
+					OnSelected14='UIButton_Input_HideObject("SCHOOL_STEPPER")'
+					OnSelected15='UIButton_Input_HideObject("SPELLS_STEPPER")'
+					OnSelected16='UIButton_Input_HideObject("DOMAIN_STEPPER")'
+					OnSelected17='UIButton_Input_HideObject("ANIMAL_STEPPER")'
+					OnSelected18='UIButton_Input_HideObject("FINISH_STEPPER")'
+					OnUnselected0='UIButton_Input_HideObject("SKILL_PANE")'
+					OnUnselected1='UIButton_Input_HideObject("SKILL_BUTTONS")'
+					OnUnselected2='UIButton_Input_SetCallUpdate("SKILL_LIST","false")'
+					OnUnselected3='UIButton_Input_HideObject("DOLL_PANE")'
+					OnUnselected4='UIButton_Input_HideObject("DOLL_POS_PANE")'>
+				</UIButton>
+				<UIIcon name='SKILLS_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+	
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_RANGER' width='112'
+					buttontype='radio' groupid='15' groupmemberid='11' transitiontype='2' transitionduration='0.2'
+					OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+					OnSelected1='UIButton_Input_ShowObject("RANGER_LIST")'
+					OnSelected2='UIButton_Input_ShowObject("RANGER_BUTTONS")'
+					OnSelected3='UIButton_Input_SetText("LIST_TITLE","181396")'
+					OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","181396")'				
+					OnSelected5='UIButton_Input_ExpandObject("INFO_CONTAINER")'
+					OnSelected6='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
+					OnSelected7='UIButton_Input_ShowObject("DOLL_PANE")'
+					OnSelected8='UIButton_Input_ShowObject("DOLL_POS_PANE")'
+					OnSelected9='UIButton_Input_ShowObject("RANGER_STEPPER")'
+					OnSelected10='UIButton_Input_HideObject("BONUS_FEATS_STEPPER")'
+					OnSelected11='UIButton_Input_HideObject("NORMAL_FEATS_STEPPER")'
+					OnSelected12='UIButton_Input_HideObject("SCHOOL_STEPPER")'
+					OnSelected13='UIButton_Input_HideObject("SPELLS_STEPPER")'
+					OnSelected14='UIButton_Input_HideObject("DOMAIN_STEPPER")'
+					OnSelected15='UIButton_Input_HideObject("ANIMAL_STEPPER")'
+					OnSelected16='UIButton_Input_HideObject("FINISH_STEPPER")'
+					OnSelected17=UIPane_Input_Click("STYLE_RANGED_BUTTON")
+					OnUnselected0='UIButton_Input_HideObject("RANGER_LIST")'
+					OnUnselected1='UIButton_Input_HideObject("RANGER_BUTTONS")'
+					OnUnselected2='UIButton_Input_HideObject("DOLL_POS_PANE")'>
+				</UIButton>
+				<UIIcon name='RANGER_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_BONUS_FEATS' width='112' hidden='true'
+						buttontype='radio' groupid='15' groupmemberid='13' transitiontype='2' transitionduration='0.2'
+						OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+						OnSelected1='UIButton_Input_ShowObject("AVAILABLE_BONUS_FEAT_LIST")'
+						OnSelected2='UIButton_Input_ShowObject("BONUS_FEATS_BUTTONS")'
+						OnSelected3='UIButton_Input_SetCallUpdate("AVAILABLE_BONUS_FEAT_LIST","true")'
+						OnSelected4='UIButton_Input_SetText("LIST_TITLE","5930")'
+						OnSelected5='UIButton_Input_SetText("INFOPANE_HELPTEXT","183346")'
+						OnSelected6='UIButton_Input_ExpandObject("INFO_CONTAINER")'
+						OnSelected7='UIButton_Input_HideObject("LIST_WIDTH_LARGE")'	
+						OnSelected8='UIButton_Input_HideObject("DESC_DOLL_OFFSET")'
+						OnSelected9='UIButton_Input_ShowObject("SELECTED_BONUS_FEATS_PANE")'
+						OnSelected10='UIButton_Input_SetCallUpdate("SELECTED_BONUS_FEATS_LIST","true")'
+						OnSelected11='UIButton_Input_HideObject("DOLL_PANE")'
+						OnSelected12='UIButton_Input_SetText("TITLE","181297")'
+						OnSelected13='UIButton_Input_ShowObject("BONUS_FEATS_STEPPER")'
+						OnSelected14='UIButton_Input_HideObject("NORMAL_FEATS_STEPPER")'
+						OnSelected15='UIButton_Input_HideObject("SCHOOL_STEPPER")'
+						OnSelected16='UIButton_Input_HideObject("SPELLS_STEPPER")'
+						OnSelected17='UIButton_Input_HideObject("DOMAIN_STEPPER")'
+						OnSelected18='UIButton_Input_HideObject("ANIMAL_STEPPER")'
+						OnSelected19='UIButton_Input_HideObject("FINISH_STEPPER")'
+						OnSelected20='UIButton_Input_HideObject("DOLL_POS_PANE")'
+						OnSelected21='UIButton_Input_SetCallUpdate("BONUS_FEATS_POINT_POOL_TEXT","true")'
+						OnUnselected0='UIButton_Input_HideObject("AVAILABLE_BONUS_FEAT_LIST")'
+						OnUnselected1='UIButton_Input_HideObject("BONUS_FEATS_BUTTONS")'
+						OnUnselected2='UIButton_Input_SetCallUpdate("AVAILABLE_BONUS_FEAT_LIST","false")'
+						OnUnselected3='UIButton_Input_ShowObject("DESC_DOLL_OFFSET")'
+						OnUnselected4='UIButton_Input_HideObject("SELECTED_BONUS_FEATS_PANE")'
+						OnUnselected5='UIButton_Input_SetCallUpdate("SELECTED_BONUS_FEATS_LIST","false")'
+						OnUnselected6='UIButton_Input_ShowObject("DOLL_POS_PANE")'
+						OnUnselected7='UIButton_Input_SetCallUpdate("BONUS_FEATS_POINT_POOL_TEXT","false")'
+						>
+				</UIButton>
+				<UIIcon name='BONUS_FEATS_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_NORMAL_FEATS' width='112' hidden='true'
+						buttontype='radio' groupid='15' groupmemberid='14' transitiontype='2' transitionduration='0.2'
+						OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+						OnSelected1='UIButton_Input_ShowObject("AVAILABLE_FEAT_LIST")'
+						OnSelected2='UIButton_Input_ShowObject("FEATS_BUTTONS")'
+						OnSelected3='UIButton_Input_SetCallUpdate("AVAILABLE_FEAT_LIST","true")'
+						OnSelected4='UIButton_Input_SetText("LIST_TITLE","5930")'
+						OnSelected5='UIButton_Input_SetText("INFOPANE_HELPTEXT","183346")'				
+						OnSelected6='UIButton_Input_ExpandObject("INFO_CONTAINER")'
+						OnSelected7='UIButton_Input_HideObject("LIST_WIDTH_LARGE")'	
+						OnSelected8='UIButton_Input_HideObject("DESC_DOLL_OFFSET")'			
+						OnSelected9='UIButton_Input_ShowObject("SELECTED_FEATS_PANE")'
+						OnSelected10='UIButton_Input_SetCallUpdate("SELECTED_FEATS_LIST","true")'
+						OnSelected11='UIButton_Input_HideObject("DOLL_PANE")'
+						OnSelected12='UIButton_Input_SetText("TITLE","181303")'
+						OnSelected13='UIButton_Input_ShowObject("NORMAL_FEATS_STEPPER")'
+						OnSelected14='UIButton_Input_HideObject("SCHOOL_STEPPER")'
+						OnSelected15='UIButton_Input_HideObject("SPELLS_STEPPER")'
+						OnSelected16='UIButton_Input_HideObject("DOMAIN_STEPPER")'
+						OnSelected17='UIButton_Input_HideObject("ANIMAL_STEPPER")'
+						OnSelected18='UIButton_Input_HideObject("FINISH_STEPPER")'
+						OnSelected19='UIButton_Input_HideObject("DOLL_POS_PANE")'
+						OnSelected20='UIButton_Input_SetCallUpdate("NORMAL_FEATS_POINT_POOL_TEXT","true")'
+						OnUnselected0='UIButton_Input_HideObject("AVAILABLE_FEAT_LIST")'
+						OnUnselected1='UIButton_Input_HideObject("FEATS_BUTTONS")'
+						OnUnselected2='UIButton_Input_SetCallUpdate("AVAILABLE_FEAT_LIST","false")'
+						OnUnselected3='UIButton_Input_ShowObject("DESC_DOLL_OFFSET")'
+						OnUnselected4='UIButton_Input_HideObject("SELECTED_FEATS_PANE")'
+						OnUnselected5='UIButton_Input_SetCallUpdate("SELECTED_FEATS_LIST","false")'
+						OnUnselected6='UIButton_Input_ShowObject("DOLL_POS_PANE")'
+						OnUnselected7='UIButton_Input_SetCallUpdate("NORMAL_FEATS_POINT_POOL_TEXT","false")'
+						>
+				</UIButton>
+				<UIIcon name='NORMAL_FEATS_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_SCHOOL' width='112'
+					buttontype='radio' groupid='15' groupmemberid='12' transitiontype='2' transitionduration='0.2'
+					OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+					OnSelected1='UIButton_Input_ExpandObject("INFO_CONTAINER")'
+					OnSelected2='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
+					OnSelected3='UIButton_Input_SetText("LIST_TITLE","181304")'
+					OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","183348")'
+					OnSelected5='UIButton_Input_ShowObject("SCHOOL_LIST")'
+					OnSelected6='UIButton_Input_ShowObject("SCHOOL_BUTTONS")'
+					OnSelected7='UIButton_Input_ShowObject("DOLL_PANE")'
+					OnSelected8='UIButton_Input_SetCallUpdate("SCHOOL_LIST","true")'
+					OnSelected9='UIButton_Input_SetText("TITLE","181304")'
+					OnSelected10='UIButton_Input_ShowObject("SCHOOL_STEPPER")'
+					OnSelected11='UIButton_Input_HideObject("SPELLS_STEPPER")'
+					OnSelected12='UIButton_Input_HideObject("FINISH_STEPPER")'
+					OnUnselected0='UIButton_Input_HideObject("SCHOOL_LIST")'
+					OnUnselected1='UIButton_Input_HideObject("SCHOOL_BUTTONS")'
+					OnUnselected2='UIButton_Input_SetCallUpdate("SCHOOL_LIST","false")'>
+				</UIButton>
+				<UIIcon name='SCHOOL_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_DOMAIN' width='112' hidden='true'
+					buttontype='radio' groupid='15' groupmemberid='15' transitiontype='2' transitionduration='0.2'
+					OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+					OnSelected1='UIButton_Input_ShowObject("AVAILABLE_DOMAIN_LIST")'
+					OnSelected2='UIButton_Input_ShowObject("DOMAIN_BUTTONS")'
+					OnSelected3='UIButton_Input_SetCallUpdate("AVAILABLE_DOMAIN_LIST","true")'
+					OnSelected4='UIButton_Input_SetText("LIST_TITLE","182813")'
+					OnSelected5='UIButton_Input_SetText("INFOPANE_HELPTEXT","183347")'				
+					OnSelected6='UIButton_Input_ExpandObject("INFO_CONTAINER")'
+					OnSelected7='UIButton_Input_HideObject("LIST_WIDTH_LARGE")'	
+					OnSelected8='UIButton_Input_HideObject("DESC_DOLL_OFFSET")'			
+					OnSelected9='UIButton_Input_ShowObject("ADDED_DOMAIN_PANE")'
+					OnSelected10='UIButton_Input_SetCallUpdate("ADDED_DOMAIN_LIST","true")'
+					OnSelected11='UIButton_Input_HideObject("DOLL_PANE")'
+					OnSelected12='UIButton_Input_SetText("TITLE","181298")'
+					OnSelected13='UIButton_Input_ShowObject("DOMAIN_STEPPER")'
+					OnSelected14='UIButton_Input_HideObject("FINISH_STEPPER")'
+					OnSelected15='UIButton_Input_HideObject("DOLL_POS_PANE")'
+					OnUnselected0='UIButton_Input_HideObject("AVAILABLE_DOMAIN_LIST")'
+					OnUnselected1='UIButton_Input_HideObject("DOMAIN_BUTTONS")'
+					OnUnselected2='UIButton_Input_SetCallUpdate("AVAILABLE_DOMAIN_LIST","false")'
+					OnUnselected3='UIButton_Input_ShowObject("DESC_DOLL_OFFSET")'
+					OnUnselected4='UIButton_Input_HideObject("ADDED_DOMAIN_PANE")'
+					OnUnselected5='UIButton_Input_SetCallUpdate("ADDED_DOMAIN_LIST","false")'
+					OnUnselected6='UIButton_Input_ShowObject("DOLL_POS_PANE")'
+					>
+				</UIButton>
+				<UIIcon name='DOMAIN_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_SPELLS' width='112' hidden='true'
+					buttontype='radio' groupid='15' groupmemberid='16' transitiontype='2' transitionduration='0.2'
+					OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+					OnSelected1='UIButton_Input_HideObject("LIST_WIDTH_LARGE")'	
+					OnSelected2='UIButton_Input_SetText("LIST_TITLE","182812")'
+					OnSelected3='UIButton_Input_SetText("INFOPANE_HELPTEXT","183350")'
+					OnSelected4='UIButton_Input_ShowObject("AVAILABLE_SPELL_LIST")'
+					OnSelected5='UIButton_Input_ShowObject("SPELL_BUTTONS")'
+					OnSelected6='UIButton_Input_SetCallUpdate("AVAILABLE_SPELL_LIST","true")'
+					OnSelected7='UIButton_Input_ExpandObject("INFO_CONTAINER")'
+					OnSelected8='UIButton_Input_HideObject("DESC_DOLL_OFFSET")'
+					OnSelected9='UIButton_Input_ShowObject("ADDED_SPELL_PANE")'
+					OnSelected10='UIButton_Input_SetCallUpdate("ADDED_SPELL_LIST","true")'
+					OnSelected11='UIButton_Input_ShowObject("SPELL_LEVEL_TABS")'
+					OnSelected12='UIButton_Input_HideObject("DOLL_PANE")'
+					OnSelected13='UIButton_Input_SetText("TITLE","181307")'
+					OnSelected14='UIButton_Input_ShowObject("SPELLS_STEPPER")'
+					OnSelected15='UIButton_Input_HideObject("FAMILIAR_STEPPER")'
+					OnSelected16='UIButton_Input_HideObject("FINISH_STEPPER")'
+					OnSelected17='UIButton_Input_HideObject("DOLL_POS_PANE")'
+					OnSelected18='UIButton_Input_HideObject("CONTENT_HEIGHT_LARGE")'
+					OnSelected19='UIButton_Input_GenerateRandomName("FAMILIAR_COMPANION_NAME","FAM_NAME_FIELD")'
+					OnUnselected0='UIButton_Input_HideObject("AVAILABLE_SPELL_LIST")'
+					OnUnselected1='UIButton_Input_HideObject("SPELL_BUTTONS")'
+					OnUnselected2='UIButton_Input_SetCallUpdate("AVAILABLE_SPELL_LIST","false")'
+					OnUnselected3='UIButton_Input_ShowObject("DESC_DOLL_OFFSET")'
+					OnUnselected4='UIButton_Input_HideObject("ADDED_SPELL_PANE")'
+					OnUnselected5='UIButton_Input_SetCallUpdate("ADDED_SPELL_LIST","false")'
+					OnUnselected6='UIButton_Input_HideObject("SPELL_LEVEL_TABS")'
+					OnUnselected7='UIButton_Input_ShowObject("DOLL_POS_PANE")'
+					OnUnselected8='UIButton_Input_ShowObject("CONTENT_HEIGHT_LARGE")'
+					>
+				</UIButton>
+				<UIIcon name='SPELLS_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_ANIMAL' width='112'
+					buttontype='radio' groupid='15' groupmemberid='17' transitiontype='2' transitionduration='0.2'
+					OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+					OnSelected1='UIButton_Input_CollapseObject("INFO_CONTAINER")'
+					OnSelected2='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'	
+					OnSelected3='UIButton_Input_SetText("LIST_TITLE","181282")'
+					OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","183351")'
+					OnSelected5='UIButton_Input_ShowObject("ANIMAL_PANE")'
+					OnSelected6='UIButton_Input_ShowObject("ANIMAL_BUTTONS")'
+					OnSelected7='UIButton_Input_SetCallUpdate("ANIMAL_LIST","true")'
+					OnSelected8='UIButton_Input_ShowObject("DOLL_POS_PANE")'
+					OnSelected9='UIButton_Input_ShowObject("ANIMAL_DOLL_PANE")'
+					OnSelected10='UIButton_Input_HideObject("DOLL_PANE")'
+					OnSelected11='UIButton_Input_SetText("TITLE","181282")'
+					OnSelected12='UIButton_Input_ShowObject("ANIMAL_STEPPER")'
+					OnSelected13='UIButton_Input_HideObject("FINISH_STEPPER")'
+					OnSelected14='UIButton_Input_GenerateRandomName("ANIMAL_COMPANION_NAME","ANIMAL_NAME_FIELD")'
+					OnUnselected0='UIButton_Input_HideObject("ANIMAL_PANE")'
+					OnUnselected1='UIButton_Input_HideObject("ANIMAL_BUTTONS")'
+					OnUnselected2='UIButton_Input_SetCallUpdate("ANIMAL_LIST","false")'
+					OnUnselected3='UIButton_Input_HideObject("ANIMAL_DOLL_PANE")'>
+				</UIButton>
+				<UIIcon name='ANIMAL_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_FAMILIAR' width='112' hidden='true'
+					buttontype='radio' groupid='15' groupmemberid='18' transitiontype='2' transitionduration='0.2'
+					OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+					OnSelected1='UIButton_Input_CollapseObject("INFO_CONTAINER")'
+					OnSelected2='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
+					OnSelected3='UIButton_Input_SetText("LIST_TITLE","181299")'
+					OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","183354")'
+					OnSelected5='UIButton_Input_ShowObject("FAMILIAR_PANE")'
+					OnSelected6='UIButton_Input_ShowObject("FAMILIAR_BUTTONS")'
+					OnSelected7='UIButton_Input_SetCallUpdate("FAMILIAR_LIST","true")'
+					OnSelected8='UIButton_Input_ShowObject("DOLL_POS_PANE")'
+					OnSelected9='UIButton_Input_ShowObject("FAMDOLL_PANE")'
+					OnSelected10='UIButton_Input_HideObject("DOLL_PANE")'
+					OnSelected11='UIButton_Input_SetText("TITLE","181299")'
+					OnSelected12='UIButton_Input_ShowObject("FAMILIAR_STEPPER")'
+					OnSelected13='UIButton_Input_HideObject("FINISH_STEPPER")'
+					OnSelected14='UIButton_Input_HideObject("ANIMAL_DOLL_PANE")'
+					OnUnselected0='UIButton_Input_HideObject("FAMILIAR_PANE")'
+					OnUnselected1='UIButton_Input_HideObject("FAMILIAR_BUTTONS")'
+					OnUnselected2='UIButton_Input_SetCallUpdate("FAMILIAR_LIST","false")'
+					OnUnselected3='UIButton_Input_HideObject("FAMDOLL_PANE")'>
+				</UIButton>
+				<UIIcon name='FAMILIAR_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+			<UIPane width='DYNAMIC' height='DYNAMIC'>
+				<UIButton name='SCREEN_LEVELUP_FINISH' width='112'
+					buttontype='radio' groupid='15' groupmemberid='19' transitiontype='2' transitionduration='0.2'
+					OnSelected0='UIButton_Input_ShowObject("CONTENT_AND_DESC")'
+					OnSelected1='UIButton_Input_CollapseObject("INFO_CONTAINER")'
+					OnSelected2='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
+					OnSelected3='UIButton_Input_SetText("LIST_TITLE","113711")'
+					OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","EMPTY")'
+					OnSelected5='UIButton_Input_ShowObject("FINISH_BUTTONS")'
+					OnSelected6='UIButton_Input_HideObject("LIST_PANE")'
+					OnSelected7='UIButton_Input_ShowObject("DOLL_POS_PANE")'
+					OnSelected8='UIButton_Input_ShowObject("DESC_FINISH_OFFSET")'
+					OnSelected9='UIButton_Input_ShowObject("DOLL_FINISH_OFFSET")'
+					OnSelected10='UIObject_Misc_DisplayLevelUpSummary("INFOPANE_TEXT")'
+					OnSelected11='UIButton_Input_SetText("TITLE","113711")'
+					OnSelected12='UIButton_Input_ShowObject("FINISH_STEPPER")'
+					OnSelected13='UIButton_Input_ShowObject("DUMMY_FOCUS")'
+					OnSelected14='UIButton_Input_ShowObject("CLASS_CONTAINER")'
+					OnSelected15='UIButton_Input_ShowObject("DOLL_PANE")'
+					OnUnselected0='UIButton_Input_HideObject("FINISH_BUTTONS")'
+					OnUnselected1='UIButton_Input_HideObject("DESC_FINISH_OFFSET")'
+					OnUnselected2='UIButton_Input_HideObject("DOLL_FINISH_OFFSET")'
+					OnUnselected3='UIButton_Input_ShowObject("LIST_PANE")'
+					OnUnselected4='UIButton_Input_HideObject("DUMMY_FOCUS")'
+					OnUnselected5='UIButton_Input_HideObject("CLASS_CONTAINER")'
+					>
+				</UIButton>
+				<UIIcon name='FINISH_STEPPER' x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_active.tga' hidden='true'/>
+				<UIIcon x='4' width='PARENT_WIDTH' margin_r='4' height='8' img='stepper_unactive.tga'/>
+			</UIPane>
+			
+		</UIGrid>
+		
+	</UIPane>
+	
+    <UIButton name="SCROLL_PROMT_INFO" width='DYNAMIC' height='44' ClickHotkey='UI_SCROLL_VERTICAL' inputmodebehaviour='3' color='bac6e0' hidden='true'/>
+    <UIButton name="SCROLL_PROMT_STAT" width='DYNAMIC' height='44' ClickHotkey='UI_SCROLL_VERTICAL' inputmodebehaviour='3' color='bac6e0' hidden='true'/>
+
+	<UIPane width='DYNAMIC' x='ALIGN_RIGHT' height='DYNAMIC' focusable='false' capturemouseclicks='false'>
+		<UIPane name='DOLL_POS_PANE' x='ALIGN_RIGHT' width='DYNAMIC' height='DYNAMIC'>
+			<UIPane name='DOLL_FINISH_OFFSET' width='1040' hidden='true'/>
+			<UIPane name='DOLLS_CONTAINER' width='630' height='DYNAMIC' pass_input_to_children='true' bound_navigation='true'>
+
+				<UIFrame name='selection' style='EE_FOCUS_FRAME' x='ALIGN_CENTER' width='464' y='146' height='792' focus_indicator='true'/>
+				<UIGrid width='DYNAMIC' height='DYNAMIC' y='ALIGN_BOTTOM' x='ALIGN_CENTER' name_prefix='false' columns='4' rows='1' pass_input_to_children='true' xPadding='2' margin_b='12'>
+					<UIButton name="DOLL_ROTATE_LEFT" width='48' height='48' inputmodebehaviour='5'>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='up' fill='default_doll_rotate_left.tga'/>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='hilited' fill='hovered_doll_rotate_left.tga'/>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='down' fill='clicked_doll_rotate_left.tga'/>
+					</UIButton>
+
+					<UIButton name="DOLL_ROTATE_RIGHT" width='48' height='48' inputmodebehaviour='5'>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='up' fill='default_doll_rotate_right.tga'/>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='hilited' fill='hovered_doll_rotate_right.tga'/>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='down' fill='clicked_doll_rotate_right.tga'/>
+					</UIButton>
+
+					<UIButton name="DOLL_ZOOM_IN" width='48' height='48' inputmodebehaviour='5'>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='up' fill='default_doll_zoom_in.tga'/>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='hilited' fill='hovered_doll_zoom_in.tga'/>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='down' fill='clicked_doll_zoom_in.tga'/>
+					</UIButton>
+
+					<UIButton name="DOLL_ZOOM_OUT" width='48' height='48' inputmodebehaviour='5'>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='up' fill='default_doll_zoom_out.tga'/>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='hilited' fill='hovered_doll_zoom_out.tga'/>
+						<UIFrame x='ALIGN_CENTER' y='ALIGN_CENTER' state='down' fill='clicked_doll_zoom_out.tga'/>
+					</UIButton>
+				</UIGrid>
+				<UIPane name='DOLL_PANE' x='ALIGN_CENTER' width='452' y='152' height='780' pass_input_to_children='true' focusable='true'>
+
+					<UIFrame  style="EE_GREY_FRAME"/>
+					<!-- Character Model 3D Scene-->
+					<UI3DScene name="TEMP_CHARACTER_SCENE" width='PARENT_WIDTH' height='PARENT_HEIGHT' texture="b_empty.tga" scalewithscene=true
+						cameralook_x="0" cameralook_y="0.0" cameralook_z="0.9" focusable='true' is_zoom_allowed='true'
+						camerapos_x="0" camerapos_y="3.25" camerapos_z="1.25"
+						ambground_intens=".4" ambgroundcolor_r=".7" ambgroundcolor_g=".55" ambgroundcolor_b=".4"           
+						ambsky_intens=".8" ambskycolor_r=".3" ambskycolor_g=".4" ambskycolor_b=".78"         
+						light_intens="0" lightdir_x="1.0" lightdir_y="1.0" lightdir_z="2.15" diffusecolor_r="1.10" diffusecolor_g="1.0" diffusecolor_b="1.0"	
+						update="true" OnUpdate0=UI3DScene_OnUpdate_UpdateCamera()
+						OnUpdate1='UI3DScene_OnUpdate_UpdateDollPosition("DOLL_ZOOM_IN","DOLL_ZOOM_OUT","DOLL_ROTATE_LEFT","DOLL_ROTATE_RIGHT")'
+						OnRender=UI3DScene_OnRender_DisplayTempCreature("PLAYER_CREATURE","true") >                     
+				
+						<!-- FILL LIGHT -->
+						<UIPointLight active="true" pos_x="-0.65" pos_y="1.9" pos_z="1.5" radius="4" intensity=".8" 
+						color_r=".83" color_g="0.71" color_b="0.53" 
+						speccolor_r=".5" speccolor_g=".2" speccolor_b="0" />
+				
+						<!-- LEFT SIDE -->
+						<UIPointLight active="true" pos_x="1" pos_y="1" pos_z="1.86" radius="3" intensity="2.0" 
+						color_r=".21" color_g=".3" color_b=".4" 
+						speccolor_r=".52" speccolor_g=".77" speccolor_b=".91" />
+				
+						<!-- RIGHT SIDE -->
+						<UIPointLight active="true" pos_x="-.66" pos_y="-.65" pos_z="1.75" radius="3" intensity="2.5" 
+						color_r=".6" color_g=".55" color_b=".5" 
+						speccolor_r=".83" speccolor_g=".64" speccolor_b=".45" />
+					</UI3DScene>
+
+					<UIIcon width='PARENT_WIDTH' y='150' height='350' img='inventory_doll_bg_logo.tga'/>
+
+				</UIPane>
+
+				<UIPane name='ANIMAL_DOLL_PANE' x='ALIGN_CENTER' width='452' y='152' height='780' pass_input_to_children='true' focusable='true'>
+					<UIFrame  style="EE_GREY_FRAME"/>
+					<!-- Character Model 3D Scene-->
+					<UI3DScene name="TEMP_FAM_SCENE" width='PARENT_WIDTH' height='PARENT_HEIGHT' texture="b_empty.tga" scalewithscene=true
+						cameralook_x="0" cameralook_y="0.0" cameralook_z="0.9" focusable='true' is_zoom_allowed='true'
+						camerapos_x="0" camerapos_y="3.0" camerapos_z="1.1" 	
+						ambground_intens=".4" ambgroundcolor_r=".7" ambgroundcolor_g=".55" ambgroundcolor_b=".4"
+						ambsky_intens=".8" ambskycolor_r=".3" ambskycolor_g=".4" ambskycolor_b=".78"
+						light_intens="0" lightdir_x="1.0" lightdir_y="1.0" lightdir_z="2.15" diffusecolor_r="1.10" diffusecolor_g="1.0" diffusecolor_b="1.0"
+						update="true" OnUpdate0=UI3DScene_OnUpdate_UpdateCamera()
+						OnUpdate1='UI3DScene_OnUpdate_UpdateDollPosition("DOLL_ZOOM_IN","DOLL_ZOOM_OUT","DOLL_ROTATE_LEFT","DOLL_ROTATE_RIGHT")'
+						OnRender=UI3DScene_OnRender_DisplayTempCreature("ANIMAL_COMPANION_CREATURE","true","true") >
+				
+						<!-- FILL LIGHT -->
+						<UIPointLight active="true" pos_x="-0.65" pos_y="1.9" pos_z="1.5" radius="4" intensity=".8" 
+						color_r=".83" color_g="0.71" color_b="0.53" 
+						speccolor_r=".5" speccolor_g=".2" speccolor_b="0" />
+				
+						<!-- LEFT SIDE -->
+						<UIPointLight active="true" pos_x="1" pos_y="1" pos_z="1.86" radius="3" intensity="2.0" 
+						color_r=".21" color_g=".3" color_b=".4" 
+						speccolor_r=".52" speccolor_g=".77" speccolor_b=".91" />
+				
+						<!-- RIGHT SIDE -->
+						<UIPointLight active="true" pos_x="-.66" pos_y="-.65" pos_z="1.75" radius="3" intensity="2.5" 
+						color_r=".6" color_g=".55" color_b=".5" 
+						speccolor_r=".83" speccolor_g=".64" speccolor_b=".45" />
+					</UI3DScene>
+					
+					<UIIcon width='PARENT_WIDTH' y='150' height='350' img='inventory_doll_bg_logo.tga' />
+					
+				</UIPane>
+
+				<UIPane name='FAMDOLL_PANE' x='ALIGN_CENTER' width='452' y='152' height='780' pass_input_to_children='true' focusable='true'>
+					<UIFrame  style="EE_GREY_FRAME"/>
+					<!-- Character Model 3D Scene-->
+					<UI3DScene name="TEMP_FAM_SCENE" width='PARENT_WIDTH' height='PARENT_HEIGHT' texture="b_empty.tga" scalewithscene=true
+						cameralook_x="0" cameralook_y="0.0" cameralook_z="0.9" focusable='true' is_zoom_allowed='true'
+						camerapos_x="0" camerapos_y="3.0" camerapos_z="1.1" 	
+						ambground_intens=".4" ambgroundcolor_r=".7" ambgroundcolor_g=".55" ambgroundcolor_b=".4"
+						ambsky_intens=".8" ambskycolor_r=".3" ambskycolor_g=".4" ambskycolor_b=".78"
+						light_intens="0" lightdir_x="1.0" lightdir_y="1.0" lightdir_z="2.15" diffusecolor_r="1.10" diffusecolor_g="1.0" diffusecolor_b="1.0"	
+						update="true" OnUpdate0=UI3DScene_OnUpdate_UpdateCamera()
+						OnUpdate1='UI3DScene_OnUpdate_UpdateDollPosition("DOLL_ZOOM_IN","DOLL_ZOOM_OUT","DOLL_ROTATE_LEFT","DOLL_ROTATE_RIGHT")'
+						OnRender=UI3DScene_OnRender_DisplayTempCreature("FAMILIAR_CREATURE","true","true") >
+				
+						<!-- FILL LIGHT -->
+						<UIPointLight active="true" pos_x="-0.65" pos_y="1.9" pos_z="1.5" radius="4" intensity=".8" 
+						color_r=".83" color_g="0.71" color_b="0.53" 
+						speccolor_r=".5" speccolor_g=".2" speccolor_b="0" />
+				
+						<!-- LEFT SIDE -->
+						<UIPointLight active="true" pos_x="1" pos_y="1" pos_z="1.86" radius="3" intensity="2.0" 
+						color_r=".21" color_g=".3" color_b=".4" 
+						speccolor_r=".52" speccolor_g=".77" speccolor_b=".91" />
+				
+						<!-- RIGHT SIDE -->
+						<UIPointLight active="true" pos_x="-.66" pos_y="-.65" pos_z="1.75" radius="3" intensity="2.5" 
+						color_r=".6" color_g=".55" color_b=".5" 
+						speccolor_r=".83" speccolor_g=".64" speccolor_b=".45" />
+					</UI3DScene>
+					
+					<UIIcon width='PARENT_WIDTH' y='150' height='350' img='inventory_doll_bg_logo.tga'/>
+					
+				</UIPane>
+
+				<UIGrid name='DOLL_BUTTONS' x="ALIGN_CENTER" y="990" margin_b='32' height='60' rows='1' columns='3' hidden='true'>
+					<UIButton name="ROTATE_BUTTONPROMT" strref="235019" style='EE_MENU_PROMPT_BUTTON' 
+						ClickHotkey='UI_SCROLL_HORIZONTAL' inputmodebehaviour='3'/>
+					<UIButton name="ZOOM_BUTTONPROMT" text="+/-" style='EE_MENU_PROMPT_BUTTON' 
+						ClickHotkey='UI_SCROLL_VERTICAL' inputmodebehaviour='3'/>
+					<UIButton name="BACK_BUTTONPROMT" strref="235475" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_BACK' inputmodebehaviour='3'
+						OnLeftClick0=UIButton_Input_ShowObject(local:50)
+						OnLeftClick1=UIObject_Input_SetFocus("DYNAMIC_HEIGHT_PANE")
+						OnLeftClick2=UIButton_Input_HideObject("DOLL_BUTTONS")/>
+				</UIGrid>
+			</UIPane>
+		</UIPane>
+	</UIPane>
+
+	<UIPane name='CONTENT_AND_DESC' x='89' y='152' width='1734' height='900' hidden='true' pass_input_to_children='true' cycled_navigation='true' capturemouseclicks='false'>
+		
+        <UIPane name='SPELL_LEVEL_TABS' x='ALIGN_CENTER' width='DYNAMIC' height='100' focusable='false' capturemouseclicks='false' hidden='true'>
+            
+            <UIButton name='PREV_TAB_BTN_PROMPT' x='ALIGN_LEFT' y='10' width='60' height='60' ClickHotkey='UI_PREVIOUS_TAB'
+                    inputmodebehaviour='3' focusable='false' OnLeftClick='UIButton_Input_SelectAdjacentInGroup("3","prev","true")'>
+                <UIText align='left' valign='middle' fontfamily='EE_Regular'  multiline='false'/>
+                <UIFrame state='base' fill='b_empty.tga'/>
+            </UIButton>
+            <UIButton name='NEXT_TAB_BTN_PROMPT' x='ALIGN_RIGHT' y='10' width='60' height='60' ClickHotkey='UI_NEXT_TAB'
+                    inputmodebehaviour='3' focusable='false' OnLeftClick='UIButton_Input_SelectAdjacentInGroup("3","next","true")'>
+                <UIText align='left' valign='middle' fontfamily='EE_Regular'  multiline='false'/>
+                <UIFrame state='base' fill='b_empty.tga'/>
+            </UIButton>
+            
+            <UIGrid name="SPELL_LEVEL_GRID" rows=1 columns=10 x='70' width='DYNAMIC' margin_r='80' xPadding=10 yPadding=10 update=true OnUpdate=UIGrid_OnUpdate_GetSpellLevels("LEVELUP") >
+                <UIButton name='TAB_LEVEL_0' width='110' height='85' buttontype='radio' groupid='3' groupmemberid='1' animationtype='3'
+                    OnSelected0='UIButton_Input_ShowObject("SPELL_LEVEL_0")' OnSelected1=UIButton_Input_SetGlobalSpellLevel("LEVELUP","Global:3","SPELL_LEVEL_0")
+                    OnUnselected='UIButton_Input_HideObject("SPELL_LEVEL_0")'>
+                    <UIFrame name='NUMBER_0' x='ALIGN_CENTER' fill='n_0.tga' y='20' width='24' height='30'/>
+                    <UIFrame state='down' fill='number_highlighter.tga' y='-10' height='75'/>
+                    <UIFrame state='base' fill='spell_tier_tab_x2.tga' height='65'/>
+                </UIButton>
+                <UIButton name='TAB_LEVEL_1' width='110' height='85' buttontype='radio' groupid='3' groupmemberid='2' animationtype='3'
+                    OnSelected0='UIButton_Input_ShowObject("SPELL_LEVEL_1")' OnSelected1=UIButton_Input_SetGlobalSpellLevel("LEVELUP","Global:3","SPELL_LEVEL_1")
+                    OnUnselected='UIButton_Input_HideObject("SPELL_LEVEL_1")'>
+                    <UIFrame name='NUMBER_1' x='ALIGN_CENTER' fill='n_1.tga' y='20' width='24' height='30'/>
+                    <UIFrame state='down' fill='number_highlighter.tga' y='-10' height='75'/>
+                    <UIFrame state='base' fill='spell_tier_tab_x2.tga' height='65' />
+                </UIButton>
+                <UIButton name='TAB_LEVEL_2' width='110' height='85' buttontype='radio' groupid='3' groupmemberid='3' animationtype='3'
+                    OnSelected0='UIButton_Input_ShowObject("SPELL_LEVEL_2")' OnSelected1=UIButton_Input_SetGlobalSpellLevel("LEVELUP","Global:3","SPELL_LEVEL_2")
+                    OnUnselected='UIButton_Input_HideObject("SPELL_LEVEL_2")'>
+                    <UIFrame name='NUMBER_2' x='ALIGN_CENTER' fill='n_2.tga' y='20' width='24' height='30'/>
+                    <UIFrame state='down' fill='number_highlighter.tga' y='-10' height='75'/>
+                    <UIFrame state='base' fill='spell_tier_tab_x2.tga' height='65' />
+                </UIButton>
+                <UIButton name='TAB_LEVEL_3' width='110' height='85' buttontype='radio' groupid='3' groupmemberid='4' animationtype='3'
+                    OnSelected0='UIButton_Input_ShowObject("SPELL_LEVEL_3")' OnSelected1=UIButton_Input_SetGlobalSpellLevel("LEVELUP","Global:3","SPELL_LEVEL_3")
+                    OnUnselected='UIButton_Input_HideObject("SPELL_LEVEL_3")'>
+                    <UIFrame name='NUMBER_3' x='ALIGN_CENTER' fill='n_3.tga' y='20' width='24' height='30'/>
+                    <UIFrame state='down' fill='number_highlighter.tga' y='-10' height='75'/>
+                    <UIFrame state='base' fill='spell_tier_tab_x2.tga' height='65' />
+                </UIButton>
+                <UIButton name='TAB_LEVEL_4' width='110' height='85' buttontype='radio' groupid='3' groupmemberid='5' animationtype='3'
+                    OnSelected0='UIButton_Input_ShowObject("SPELL_LEVEL_4")' OnSelected1=UIButton_Input_SetGlobalSpellLevel("LEVELUP","Global:3","SPELL_LEVEL_4")
+                    OnUnselected='UIButton_Input_HideObject("SPELL_LEVEL_4")'>
+                    <UIFrame name='NUMBER_4' x='ALIGN_CENTER' fill='n_4.tga' y='20' width='24' height='30'/>
+                    <UIFrame state='down' fill='number_highlighter.tga' y='-10' height='75'/>
+                    <UIFrame state='base' fill='spell_tier_tab_x2.tga' height='65' />
+                </UIButton>
+                <UIButton name='TAB_LEVEL_5' width='110' height='85' buttontype='radio' groupid='3' groupmemberid='6' animationtype='3'
+                    OnSelected0='UIButton_Input_ShowObject("SPELL_LEVEL_5")' OnSelected1=UIButton_Input_SetGlobalSpellLevel("LEVELUP","Global:3","SPELL_LEVEL_5")
+                    OnUnselected='UIButton_Input_HideObject("SPELL_LEVEL_5")'>
+                    <UIFrame name='NUMBER_5' x='ALIGN_CENTER' fill='n_5.tga' y='20' width='24' height='30'/>
+                    <UIFrame state='down' fill='number_highlighter.tga' y='-10' height='75'/>
+                    <UIFrame state='base' fill='spell_tier_tab_x2.tga' height='65' />
+                </UIButton>
+                <UIButton name='TAB_LEVEL_6' width='110' height='85' buttontype='radio' groupid='3' groupmemberid='7' animationtype='3'
+                    OnSelected0='UIButton_Input_ShowObject("SPELL_LEVEL_6")' OnSelected1=UIButton_Input_SetGlobalSpellLevel("LEVELUP","Global:3","SPELL_LEVEL_6")
+                    OnUnselected='UIButton_Input_HideObject("SPELL_LEVEL_6")'>
+                    <UIFrame name='NUMBER_6' x='ALIGN_CENTER' fill='n_6.tga' y='20' width='24' height='30'/>
+                    <UIFrame state='down' fill='number_highlighter.tga' y='-10' height='75'/>
+                    <UIFrame state='base' fill='spell_tier_tab_x2.tga' height='65' />
+                </UIButton>
+                <UIButton name='TAB_LEVEL_7' width='110' height='85' buttontype='radio' groupid='3' groupmemberid='8' animationtype='3'
+                    OnSelected0='UIButton_Input_ShowObject("SPELL_LEVEL_7")' OnSelected1=UIButton_Input_SetGlobalSpellLevel("LEVELUP","Global:3","SPELL_LEVEL_7")
+                    OnUnselected='UIButton_Input_HideObject("SPELL_LEVEL_7")'>
+                    <UIFrame name='NUMBER_7' x='ALIGN_CENTER' fill='n_7.tga' y='20' width='24' height='30'/>
+                    <UIFrame state='down' fill='number_highlighter.tga' y='-10' height='75'/>
+                    <UIFrame state='base' fill='spell_tier_tab_x2.tga' height='65' />
+                </UIButton>
+                <UIButton name='TAB_LEVEL_8' width='110' height='85' buttontype='radio' groupid='3' groupmemberid='9' animationtype='3'
+                    OnSelected0='UIButton_Input_ShowObject("SPELL_LEVEL_8")' OnSelected1=UIButton_Input_SetGlobalSpellLevel("LEVELUP","Global:3","SPELL_LEVEL_8")
+                    OnUnselected='UIButton_Input_HideObject("SPELL_LEVEL_8")'>
+                    <UIFrame name='NUMBER_8' x='ALIGN_CENTER' fill='n_8.tga' y='20' width='24' height='30'/>
+                    <UIFrame state='down' fill='number_highlighter.tga' y='-10' height='75'/>
+                    <UIFrame state='base' fill='spell_tier_tab_x2.tga' height='65' />
+                </UIButton>
+                <UIButton name='TAB_LEVEL_9' width='110' height='85' buttontype='radio' groupid='3' groupmemberid='10' animationtype='3'
+                    OnSelected0='UIButton_Input_ShowObject("SPELL_LEVEL_9")' OnSelected1=UIButton_Input_SetGlobalSpellLevel("LEVELUP","Global:3","SPELL_LEVEL_9")
+                    OnUnselected='UIButton_Input_HideObject("SPELL_LEVEL_9")'>
+                    <UIFrame name='NUMBER_9' x='ALIGN_CENTER' fill='n_9.tga' y='20' width='24' height='30'/>
+                    <UIFrame state='down' fill='number_highlighter.tga' y='-10' height='75'/>
+                    <UIFrame state='base' fill='spell_tier_tab_x2.tga' height='65' />
+                </UIButton>
+            </UIGrid>
+        </UIPane>
+                   
+        <UIPane name='DYNAMIC_HEIGHT_PANE' width='PARENT_WIDTH' height='DYNAMIC' y='ALIGN_BOTTOM' margin_b='120' pass_input_to_children='true' capturemouseclicks='false'>
+			<UIPane name='CONTENT_HEIGHT_LARGE' height='780' />
+			<UIPane name='CONTENT_HEIGHT_SMALL' height='700' />
+
+			<UIPane name='LIST_PANE' width='DYNAMIC' height='PARENT_HEIGHT' pass_input_to_children='true'>
+				
+				<UIPane name='LIST_WIDTH_LARGE' width='800'/>
+				<UIPane name='LIST_WISTH_SMALL' width='620'/>
+	
+				<UIListBox name="CLASS_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false"
+					hidden='true' OnUpdate=UIListBox_OnUpdate_CreateClassList("LEVELUP","CLASS_IMAGE","CLASS_TEXT","INFOPANE_TEXT","TEMP_CHARACTER_SCENE")>
+	
+					<UIPane name="CLASS_PROTO" width='PARENT_WIDTH' height='60' tupple='true' updaterate="0.5" prototype='true' pass_input_to_children='true' 
+							OnGainedFocus='UIPane_Input_Click()'>
+	
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='focused' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						
+						<UIButton name="CLASS_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="skill_points_container.tga" />
+						</UIButton>
+	
+						<UIButton name="CLASS_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="CLASS_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+	
+				<UIListBox name="ALIGNMENT_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12"  
+					update="false" OnUpdate=UIPane_OnUpdate_UpdateAlignmentSelection() hidden='true' >
+	
+					<!-- Lawful Good -->
+					<UIPane name="ALIGN_LG" width="PARENT_WIDTH" height="60" tupple="true" pass_input_to_children='true'
+						OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","ALIGNMENT_INFO","ALIGN_LG","INFOPANE_TEXT")
+						OnGainedFocus='UIPane_Input_Click()'
+						>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="ALIGN_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base"		fill="align_lg.tga" />
+						</UIButton>
+						<UIButton name="ALIGN_TEXT" strref="112" width="PARENT_WIDTH" height="PARENT_HEIGHT">
+							<UIText name="ALIGN_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+	
+					<!-- Neutral Good -->
+					<UIPane name="ALIGN_NG" width="PARENT_WIDTH" height="60" tupple="true" pass_input_to_children='true' manualscrolling='false'
+						OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","ALIGNMENT_INFO","ALIGN_NG","INFOPANE_TEXT")
+						OnGainedFocus='UIPane_Input_Click()'
+						>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="ALIGN_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="align_ng.tga" />
+						</UIButton>
+						<UIButton name="ALIGN_TEXT" strref="115" width="PARENT_WIDTH" height="PARENT_HEIGHT">
+							<UIText name="ALIGN_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+	
+					<!-- Chaotic Good -->
+					<UIPane name="ALIGN_CG" width="PARENT_WIDTH" height="60" tupple="true" pass_input_to_children='true' manualscrolling='false'
+						OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","ALIGNMENT_INFO","ALIGN_CG","INFOPANE_TEXT")
+						OnGainedFocus='UIPane_Input_Click()'
+						>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="ALIGN_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="align_cg.tga" />
+						</UIButton>
+						<UIButton name="ALIGN_TEXT" strref="118" width="PARENT_WIDTH" height="PARENT_HEIGHT">
+							<UIText name="ALIGN_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+	
+					<!-- Lawful Neutral -->
+					<UIPane name="ALIGN_LN" width="PARENT_WIDTH" height="60" tupple="true" pass_input_to_children='true' manualscrolling='false'
+						OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","ALIGNMENT_INFO","ALIGN_LN","INFOPANE_TEXT")
+						OnGainedFocus='UIPane_Input_Click()'
+						>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="ALIGN_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="align_ln.tga" />
+						</UIButton>
+						<UIButton name="ALIGN_TEXT" strref="113" width="PARENT_WIDTH" height="PARENT_HEIGHT">
+							<UIText name="ALIGN_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+	
+					<!-- True Neutral -->
+					<UIPane name="ALIGN_TN" width="PARENT_WIDTH" height="60" tupple="true" pass_input_to_children='true' manualscrolling='false'
+						OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","ALIGNMENT_INFO","ALIGN_TN","INFOPANE_TEXT")
+						OnGainedFocus='UIPane_Input_Click()'
+						>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="ALIGN_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="align_nn.tga" />
+						</UIButton>
+						<UIButton name="ALIGN_TEXT" strref="116" width="PARENT_WIDTH" height="PARENT_HEIGHT">
+							<UIText name="ALIGN_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+	
+					<!-- Chaotic Neutral -->
+					<UIPane name="ALIGN_CN" width="PARENT_WIDTH" height="60" tupple="true" pass_input_to_children='true'
+						OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","ALIGNMENT_INFO","ALIGN_CN","INFOPANE_TEXT")
+						OnGainedFocus='UIPane_Input_Click()'
+						>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="ALIGN_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="align_cn.tga" />
+						</UIButton>
+						<UIButton name="ALIGN_TEXT" strref="119" width="PARENT_WIDTH" height="PARENT_HEIGHT">
+							<UIText name="ALIGN_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+	
+					<!-- Lawful Evil -->
+					<UIPane name="ALIGN_LE" width="PARENT_WIDTH" height="60" tupple="true" pass_input_to_children='true'
+						OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","ALIGNMENT_INFO","ALIGN_LE","INFOPANE_TEXT")
+						OnGainedFocus='UIPane_Input_Click()'
+						>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="ALIGN_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="align_le.tga" />
+						</UIButton>
+						<UIButton name="ALIGN_TEXT" strref="114" width="PARENT_WIDTH" height="PARENT_HEIGHT">
+							<UIText name="ALIGN_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+	
+					<!-- Neutral Evil -->
+					<UIPane name="ALIGN_NE" width="PARENT_WIDTH" height="60" tupple="true" pass_input_to_children='true'
+						OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","ALIGNMENT_INFO","ALIGN_NE","INFOPANE_TEXT")
+						OnGainedFocus='UIPane_Input_Click()'
+						>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="ALIGN_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="align_ne.tga" />
+						</UIButton>
+						<UIButton name="ALIGN_TEXT" strref="117" width="PARENT_WIDTH" height="PARENT_HEIGHT">
+							<UIText name="ALIGN_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					
+					<!-- Chaotic Evil -->
+					<UIPane name="ALIGN_CE" width="PARENT_WIDTH" height="60" tupple="true" pass_input_to_children='true'
+						OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","ALIGNMENT_INFO","ALIGN_CE","INFOPANE_TEXT")
+						OnGainedFocus='UIPane_Input_Click()'
+						>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="ALIGN_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="align_ce.tga" />
+						</UIButton>
+						<UIButton name="ALIGN_TEXT" strref="120" width="PARENT_WIDTH" height="PARENT_HEIGHT">
+							<UIText name="ALIGN_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+	
+				<UIListBox name="DEITY_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false"
+					hidden='true'  OnUpdate=UIListBox_OnUpdate_CreateDeityList("LEVELUP","DEITY_IMAGE","DEITY_TEXT","INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")>
+	
+					<UIPane name="DEITY_PROTO" width='PARENT_WIDTH' height='60' tupple='true' update='true' updaterate="0.5" prototype='true' pass_input_to_children='true' 
+							OnGainedFocus='UIPane_Input_Click()'>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="DEITY_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="skill_points_container.tga" />
+						</UIButton>
+						<UIButton name="DEITY_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="DEITY_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+                
+                
+				<UIListBox name="ABILITIES_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12"
+					hidden='true' >
+	
+					<UIPane name="STR_PANE" width='PARENT_WIDTH' height='60' tupple='true' pass_input_to_children='true' 
+							OnMouseEnter=UIButton_Input_SetCharGenInfo("LEVELUP","STRENGTH","INFOPANE_TEXT")
+							OnGainedFocus=UIButton_Input_SetCharGenInfo("LEVELUP","STRENGTH","INFOPANE_TEXT")>
+						<UIPane width='100' height='PARENT_HEIGHT' x='ALIGN_RIGHT' margin_r='20'>
+							<UIButton name='left' x='ALIGN_LEFT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatDecrease("LEVELUP","STRENGTH")>
+								<UIFrame state=up		fill="slider_arrow_left.tga" />
+								<UIFrame state=down		fill="slider_arrow_left.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+							</UIButton>
+							<UIButton name='right' x='ALIGN_RIGHT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatIncrease("LEVELUP","STRENGTH")>
+								<UIFrame state=up		fill="slider_arrow_right.tga" />
+								<UIFrame state=down		fill="slider_arrow_right.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+							</UIButton>
+							<UIText name="NUM" text='1' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+								update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","STR_MOD")/>
+						</UIPane>
+						<UIButton width='PARENT_WIDTH' height='PARENT_HEIGHT' tupple='true'>
+							<UIFrame state=hilited style='EE_SELECTION_FRAME'/>
+							<UIInputCB inputid='UI_RIGHT' callback='UIButton_Input_StatIncrease("LEVELUP","STRENGTH")'/>
+							<UIInputCB inputid='UI_LEFT' callback='UIButton_Input_StatDecrease("LEVELUP","STRENGTH")'/>
+						</UIButton>
+						<UIText name="NUM" x='260' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+							update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_STR")/>
+						<UIText name="NAME" strref='181269' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='16' color='949285'/>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					
+					<UIPane name="DEX_PANE" width='PARENT_WIDTH' height='60' tupple='true' pass_input_to_children='true' 
+							OnMouseEnter=UIButton_Input_SetCharGenInfo("LEVELUP","DEXTERITY","INFOPANE_TEXT")
+							OnGainedFocus=UIButton_Input_SetCharGenInfo("LEVELUP","DEXTERITY","INFOPANE_TEXT")>
+						<UIPane width='100' height='PARENT_HEIGHT' x='ALIGN_RIGHT' margin_r='20'>
+							<UIButton name='left' x='ALIGN_LEFT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatDecrease("LEVELUP","DEXTERITY")>
+								<UIFrame state=up		fill="slider_arrow_left.tga" />
+								<UIFrame state=down		fill="slider_arrow_left.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+							</UIButton>
+							<UIButton name='right' x='ALIGN_RIGHT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatIncrease("LEVELUP","DEXTERITY")>
+								<UIFrame state=up		fill="slider_arrow_right.tga" />
+								<UIFrame state=down		fill="slider_arrow_right.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+							</UIButton>
+							<UIText name="NUM" text='1' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+								update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","DEX_MOD")/>
+						</UIPane>
+						<UIButton width='PARENT_WIDTH' height='PARENT_HEIGHT' tupple='true'>
+							<UIFrame state=hilited style='EE_SELECTION_FRAME'/>
+							<UIInputCB inputid='UI_RIGHT' callback='UIButton_Input_StatIncrease("LEVELUP","DEXTERITY")'/>
+							<UIInputCB inputid='UI_LEFT' callback='UIButton_Input_StatDecrease("LEVELUP","DEXTERITY")'/>
+						</UIButton>
+						<UIText name="NUM" x='260' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+							update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_DEX")/>
+						<UIText name="NAME" strref='181270' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='16' color='949285'/>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					
+					<UIPane name="CON_PANE" width='PARENT_WIDTH' height='60' tupple='true' pass_input_to_children='true' 
+							OnMouseEnter=UIButton_Input_SetCharGenInfo("LEVELUP","CONSTITUTION","INFOPANE_TEXT")
+							OnGainedFocus=UIButton_Input_SetCharGenInfo("LEVELUP","CONSTITUTION","INFOPANE_TEXT")>
+						<UIPane width='100' height='PARENT_HEIGHT' x='ALIGN_RIGHT' margin_r='20'>
+							<UIButton name='left' x='ALIGN_LEFT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatDecrease("LEVELUP","CONSTITUTION")>
+								<UIFrame state=up		fill="slider_arrow_left.tga" />
+								<UIFrame state=down		fill="slider_arrow_left.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+							</UIButton>
+							<UIButton name='right' x='ALIGN_RIGHT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatIncrease("LEVELUP","CONSTITUTION")>
+								<UIFrame state=up		fill="slider_arrow_right.tga" />
+								<UIFrame state=down		fill="slider_arrow_right.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+							</UIButton>
+							<UIText name="NUM" text='1' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+								update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","CON_MOD")/>
+						</UIPane>
+						<UIButton width='PARENT_WIDTH' height='PARENT_HEIGHT' tupple='true'>
+							<UIFrame state=hilited style='EE_SELECTION_FRAME'/>
+							<UIInputCB inputid='UI_RIGHT' callback='UIButton_Input_StatIncrease("LEVELUP","CONSTITUTION")'/>
+							<UIInputCB inputid='UI_LEFT' callback='UIButton_Input_StatDecrease("LEVELUP","CONSTITUTION")'/>
+						</UIButton>
+						<UIText name="NUM" x='260' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+							update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_CON")/>
+						<UIText name="NAME" strref='181271' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='16' color='949285'/>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					
+					<UIPane name="INT_PANE" width='PARENT_WIDTH' height='60' tupple='true' pass_input_to_children='true' 	
+							OnMouseEnter=UIButton_Input_SetCharGenInfo("LEVELUP","INTELLIGENCE","INFOPANE_TEXT")
+							OnGainedFocus=UIButton_Input_SetCharGenInfo("LEVELUP","INTELLIGENCE","INFOPANE_TEXT")>
+						<UIPane width='100' height='PARENT_HEIGHT' x='ALIGN_RIGHT' margin_r='20'>
+							<UIButton name='left' x='ALIGN_LEFT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatDecrease("LEVELUP","INTELLIGENCE")>
+								<UIFrame state=up		fill="slider_arrow_left.tga" />
+								<UIFrame state=down		fill="slider_arrow_left.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+							</UIButton>
+							<UIButton name='right' x='ALIGN_RIGHT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatIncrease("LEVELUP","INTELLIGENCE")>
+								<UIFrame state=up		fill="slider_arrow_right.tga" />
+								<UIFrame state=down		fill="slider_arrow_right.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+							</UIButton>
+							<UIText name="NUM" text='1' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+								update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","INT_MOD")/>
+						</UIPane>
+						<UIButton width='PARENT_WIDTH' height='PARENT_HEIGHT' tupple='true'>
+							<UIFrame state=hilited style='EE_SELECTION_FRAME'/>
+							<UIInputCB inputid='UI_RIGHT' callback='UIButton_Input_StatIncrease("LEVELUP","INTELLIGENCE")'/>
+							<UIInputCB inputid='UI_LEFT' callback='UIButton_Input_StatDecrease("LEVELUP","INTELLIGENCE")'/>
+						</UIButton>
+						<UIText name="NUM" x='260' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+							update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_INT")/>
+						<UIText name="NAME" strref='181272' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='16' color='949285'/>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					
+					<UIPane name="WIS_PANE" width='PARENT_WIDTH' height='60' tupple='true' pass_input_to_children='true' 
+							OnMouseEnter=UIButton_Input_SetCharGenInfo("LEVELUP","WISDOM","INFOPANE_TEXT")
+							OnGainedFocus=UIButton_Input_SetCharGenInfo("LEVELUP","WISDOM","INFOPANE_TEXT")>
+						<UIPane width='100' height='PARENT_HEIGHT' x='ALIGN_RIGHT' margin_r='20'>
+							<UIButton name='left' x='ALIGN_LEFT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatDecrease("LEVELUP","WISDOM")>
+								<UIFrame state=up		fill="slider_arrow_left.tga" />
+								<UIFrame state=down		fill="slider_arrow_left.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+							</UIButton>
+							<UIButton name='right' x='ALIGN_RIGHT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatIncrease("LEVELUP","WISDOM")>
+								<UIFrame state=up		fill="slider_arrow_right.tga" />
+								<UIFrame state=down		fill="slider_arrow_right.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+							</UIButton>
+							<UIText name="NUM" text='1' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+								update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","WIS_MOD")/>
+						</UIPane>
+						<UIButton width='PARENT_WIDTH' height='PARENT_HEIGHT' tupple='true'>
+							<UIFrame state=hilited style='EE_SELECTION_FRAME'/>
+							<UIInputCB inputid='UI_RIGHT' callback='UIButton_Input_StatIncrease("LEVELUP","WISDOM")'/>
+							<UIInputCB inputid='UI_LEFT' callback='UIButton_Input_StatDecrease("LEVELUP","WISDOM")'/>
+						</UIButton>
+						<UIText name="NUM" x='260' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+							update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_WIS")/>
+						<UIText name="NAME" strref='181273' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='16' color='949285'/>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					
+					<UIPane name="CHA_PANE" width='PARENT_WIDTH' height='60' tupple='true' pass_input_to_children='true' 
+							OnMouseEnter=UIButton_Input_SetCharGenInfo("LEVELUP","CHARISMA","INFOPANE_TEXT")
+							OnGainedFocus=UIButton_Input_SetCharGenInfo("LEVELUP","CHARISMA","INFOPANE_TEXT")>
+						<UIPane width='100' height='PARENT_HEIGHT' x='ALIGN_RIGHT' margin_r='20'>
+							<UIButton name='left' x='ALIGN_LEFT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatDecrease("LEVELUP","CHARISMA")>
+								<UIFrame state=up		fill="slider_arrow_left.tga" />
+								<UIFrame state=down		fill="slider_arrow_left.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+							</UIButton>
+							<UIButton name='right' x='ALIGN_RIGHT' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_StatIncrease("LEVELUP","CHARISMA")>
+								<UIFrame state=up		fill="slider_arrow_right.tga" />
+								<UIFrame state=down		fill="slider_arrow_right.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+							</UIButton>
+							<UIText name="NUM" text='1' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+								update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","CHA_MOD")/>
+						</UIPane>
+						<UIButton width='PARENT_WIDTH' height='PARENT_HEIGHT' tupple='true'>
+							<UIFrame state=hilited style='EE_SELECTION_FRAME'/>
+							<UIInputCB inputid='UI_RIGHT' callback='UIButton_Input_StatIncrease("LEVELUP","CHARISMA")'/>
+							<UIInputCB inputid='UI_LEFT' callback='UIButton_Input_StatDecrease("LEVELUP","CHARISMA")'/>
+						</UIButton>
+						<UIText name="NUM" x='260' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'
+							update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_CHA")/>
+						<UIText name="NAME" strref='181274' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='16' color='949285'/>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+                
+				<UIPane name="PACKAGES_PANE" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' hidden='true'>
+					<UIPane name="CUSTOMIZE" width='PARENT_WIDTH' height='60' tupple='true' update='false' updaterate="0.5" pass_input_to_children='true'
+							OnSelected0=UIButton_Input_SetText("INFOPANE_TITLE","183344")
+							OnSelected1=UIButton_Input_ShowObject("PACKAGES_SELECT_PROMPT")
+							OnUnselected0=UIButton_Input_HideObject("PACKAGES_SELECT_PROMPT")
+							OnGainedFocus0=UIPane_Input_Click() groupid='26' groupmemberid='1'>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="PACKAGE_IMAGE" x="0" y="0" width="0" height="60" >
+							<UIFrame state="base" fill="skill_points_container.tga" />
+						</UIButton>
+						<UIButton name="PACKAGE_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="PACKAGE_TEXTFIELD" strref='113698' x="10" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIButton width='60' height='60' x='ALIGN_RIGHT' y='ALIGN_CENTER' inputmodebehaviour='3' ClickHotkey='UI_ACTIVATE'  focus_indicator='true'/>						
+						<UIInputCB inputid='UI_ACTIVATE' callback='UIButton_Input_ChargenCustomizePackage("LEVELUP")'/>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIListBox name="PACKAGES_LIST" y='64' width='PARENT_WIDTH' height='634' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+						showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
+						OnUpdate=UIListBox_OnUpdate_CreatePackageList("LEVELUP","PACKAGE_IMAGE","PACKAGE_TEXT","INFOPANE_TEXT","INFOPANE_TITLE")>
+		
+						<UIPane name="PACKAGE_PROTO" width='PARENT_WIDTH' height='60' tupple='true' update='false' updaterate="0.5" prototype='true' pass_input_to_children='true' groupid='26'
+							OnGainedFocus='UIPane_Input_Click()'>
+							<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+								<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+							</UIButton>
+							<UIButton name="PACKAGE_IMAGE" x="0" y="0" width="0" height="60" >
+								<UIFrame state="base" fill="skill_points_container.tga" />
+							</UIButton>
+							<UIButton name="PACKAGE_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+								<UIText name="PACKAGE_TEXTFIELD" x="10" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+								<UIFrame state="down" style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+							</UIButton>
+							<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+						</UIPane>
+						<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+					</UIListBox>
+				</UIPane>
+				
+				<UIPane name='SKILL_PANE' width='PARENT_WIDTH' height='770' hidden='true'>
+					<UIText name="SKILL_POINT_POOL_TEXT" x="704" width="40" height="60" align="center" valign="middle" fontfamily="EE_Regular" style='1' color='E6E4D0'
+						update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","SKILL_POINTS_REMAINING") />
+					<UIListBox name="SKILL_LIST" y='70' width='PARENT_WIDTH' height='700' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false' 
+						showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false"
+						OnUpdate=UIListBox_OnUpdate_SkillList("LEVELUP","SKILL_RANK","SKILL_IMAGE","SKILL_TEXT","INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE") 
+						OnSelected='UIButton_Input_ShowSkillDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")'>
+						<UIPane name="SKILL_PROTO" width='PARENT_WIDTH' height='60' update='true' prototype='true' pass_input_to_children='true'
+							OnUpdate=UIObject_OnUpdate_Skill("LEVELUP","SKILL_RANK","SKILL_IMAGE","SKILL_TEXT","BUTTON_RANK_INCREASE","BUTTON_RANK_DECREASE")>
+							<UIButton name='BUTTON_RANK_DECREASE' x='680' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_SkillDecrease("LEVELUP")>
+								<UIFrame state=up		fill="slider_arrow_left.tga" />
+								<UIFrame state=down		fill="slider_arrow_left.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+								<UIInputCB inputid='UI_LEFT' callback='UIPane_Input_Click()'/>
+							</UIButton>
+							<UIButton name='BUTTON_RANK_INCREASE' x='740' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' parent_state_render='6'
+								OnLeftClick=UIButton_Input_SkillIncrease("LEVELUP")>
+								<UIFrame state=up		fill="slider_arrow_right.tga" />
+								<UIFrame state=down		fill="slider_arrow_right.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+								<UIInputCB inputid='UI_RIGHT' callback='UIPane_Input_Click()'/>
+							</UIButton>
+							<UIInputCB inputid='UI_ACTIVATE' callback='UIPane_Input_Click()'/>
+							<UIPane name='SKILL_TUPPLE' width='PARENT_WIDTH' height='PARENT_HEIGHT' tupple='true'
+								OnGainedFocus=UIButton_Input_ShowSkillDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+								OnMouseEnter=UIButton_Input_ShowSkillDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")>
+								<UIButton width='PARENT_WIDTH' height='PARENT_HEIGHT' >
+									<UIFrame state=hilited style='EE_SELECTION_FRAME'/>
+								</UIButton>
+								<UIButton name="SKILL_IMAGE" width="60" height="60" >
+									<UIFrame state="base" fill="skill_points_container.tga" />
+								</UIButton>
+								<UIText name="SKILL_TEXT" strref='181269' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='70' color='949285'/>
+								<UIText name="SKILL_RANK" text='1' x='690' width='60' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285'/>
+								<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+							</UIPane>
+						</UIPane>
+						<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+					</UIListBox>
+				</UIPane>
+				
+				<UIListBox name="RANGER_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false"
+					hidden='true'>
+	
+					<UIPane name="STYLE_RANGED_BUTTON" width='PARENT_WIDTH' height='60' tupple='true' updaterate="0.5" pass_input_to_children='true' 
+							 OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","RANGER_COMBAT_STYLE","FEAT_COMBATSTYLE_RANGER_ARCHERY","INFOPANE_TEXT")
+							OnGainedFocus=UIPane_Input_Click()>
+	
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='focused' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						
+						<UIButton name="STYLE_RANGED_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="STYLE_RANGED_TEXTFIELD" strref='113857' x="10" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIPane name="STYLE_MELEE_BUTTON" width='PARENT_WIDTH' height='60' tupple='true' updaterate="0.5" pass_input_to_children='true' 
+							 OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","RANGER_COMBAT_STYLE","FEAT_COMBATSTYLE_RANGER_DUAL_WIELD","INFOPANE_TEXT")
+							OnGainedFocus=UIPane_Input_Click()>
+	
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='focused' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						
+						<UIButton name="STYLE_MELEE_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="STYLE_RANGED_TEXTFIELD" strref='113858' x="10" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIPane name="STYLE_XBOW_BUTTON" width='PARENT_WIDTH' height='60' tupple='true' updaterate="0.5" pass_input_to_children='true' 
+							 OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","RANGER_COMBAT_STYLE","FEAT_COMBATSTYLE_RANGER_XBOW","INFOPANE_TEXT")
+							OnGainedFocus=UIPane_Input_Click()>
+	
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='focused' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						
+						<UIButton name="STYLE_XBOW_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="STYLE_XBOW_TEXTFIELD" strref='242158' x="10" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIPane name="STYLE_2HAND_BUTTON" width='PARENT_WIDTH' height='60' tupple='true' updaterate="0.5" pass_input_to_children='true' 
+							 OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","RANGER_COMBAT_STYLE","FEAT_COMBATSTYLE_RANGER_TWO_HANDED","INFOPANE_TEXT")
+							OnGainedFocus=UIPane_Input_Click()>
+	
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='focused' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						
+						<UIButton name="STYLE_2HAND_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="STYLE_2HAND_TEXTFIELD" strref='242603' x="10" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIPane name="STYLE_ANCOM_BUTTON" width='PARENT_WIDTH' height='60' tupple='true' updaterate="0.5" pass_input_to_children='true' 
+							 OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","RANGER_COMBAT_STYLE","FEAT_COMBATSTYLE_RANGER_ANIMCOMP","INFOPANE_TEXT")
+							OnGainedFocus=UIPane_Input_Click()>
+	
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='focused' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						
+						<UIButton name="STYLE_ANCOM_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="STYLE_ANCOM_TEXTFIELD" strref='242803' x="10" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>					
+					
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+
+				
+				<UIPane name='LIST_HEADER' width='PARENT_WIDTH' height='64'>
+					<UIText name="POINT_POOL_TEXT" x='700' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='E6E4D0'
+							update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","STAT_POINTS_REMAINING") hidden='true' />	
+					<UIText name='LIST_TITLE' strref="113760" x='15' width='500' height='60' align='left' valign='middle' color='e6e4d0'
+						fontfamily="EE_Regular" style='1'/>
+					<UIFrame x='-6' y='-6' width='PARENT_WIDTH' margin_r='-6' style="EE_SUBHEADER_FRAME"/>
+				</UIPane>
+                
+				<UIListBox name="AVAILABLE_FEAT_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
+					hidden='true' OnUpdate=UIListBox_OnUpdate_AvailableFeatList("LEVELUP","FEAT_TEXT","FEAT_IMAGE","FEAT_ACTION","NORMAL_FEAT_SWITCH","FEATS_SELECT_PROMPT")>
+	
+					<UICollapsable name="PROTO_COL" width='PARENT_WIDTH' yPadding=4 xPadding=5 indent=10 isexpanded=true prototype=true groupid='25'>
+						<UIButton name="HEADER_BUTTON" width='PARENT_WIDTH' height='60' header='true'
+							OnGainedFocus0=UIButton_Input_HideObject("FEAT_ASSIGN_BUTTONPROMPT")
+							OnGainedFocus1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("FEATS_SELECT_PROMPT")
+							OnSelected0=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("FEATS_SELECT_PROMPT")
+							OnLostFocus=UIButton_Input_ShowObject("FEAT_ASSIGN_BUTTONPROMPT")>
+							<UIFrame name='selection' style='EE_SELECTION_FRAME' focus_indicator='true'/>
+							<UIText strref="5632" indent='60' align=left valign=middle fontfamily="EE_Regular" style='1' color='949285' />
+							<UIFrame state='up'			fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='down'		fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='hilited'	fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='header'		fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='hiheader'	fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='downheader'	fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='base'		fill="droplist_back.tga" width='840'/>
+						</UIButton>
+						
+						<UIPane name="FEATPANE_PROTO" width='PARENT_WIDTH' height='60' prototype='true' pass_input_to_children='true' groupid='25' tupple='true'
+							MouseDownSFX="gui_quick_add" MouseUpSFX="gui_quick_add"
+							OnSelected0=UIButton_Input_ShowFeatDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+							OnSelected1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("FEATS_SELECT_PROMPT")
+							OnGainedFocus0=UIButton_Input_ShowFeatDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+							OnGainedFocus1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("FEATS_SELECT_PROMPT")>
+							<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+								<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+							</UIButton>
+							<UIButton name='FEAT_ACTION' x='ALIGN_RIGHT' margin_r='6' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false'
+								OnLeftClick=UIButton_Input_FeatAdd("LEVELUP") DefaultToolTip=174214
+								OnToolTip=UIObject_Tooltip_DisplayObject(OBJECT_X,OBJECT_Y,SCREEN_TOOLTIP_2,ALIGN_NONE,ALIGN_NONE,0,0,ALIGN_LEFT) >
+								<UIFrame state=up		fill="slider_arrow_right.tga" />
+								<UIFrame state=down		fill="slider_arrow_right.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+							</UIButton>
+							<UIButton name="FEAT_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT' >
+								<UIText name="FEAT_TEXT" x='60' width='600' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='10' color='949285'/>
+								<UIFrame state="down" style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+								<UIInputCB inputid='UI_ACTIVATE' callback='UIButton_Input_FeatAdd("LEVELUP")'/>
+							</UIButton>
+							<UIButton name="FEAT_IMAGE" x='ALIGN_LEFT' y='ALIGN_CENTER' width='60' height='60' style="STYLE_SKILL_ICON_CHARSHEET_EE" focusable='false'/>
+							<UIPane name='PASSIVE_PANE' x='ALIGN_RIGHT' width='303' height='60' hidden='true'>
+								<UIText name='PASSIVE_TEXT' strref='235012' x='152' y='16' fontfamily="EE_Regular" style='1' color='949285'/>
+								<UIIcon name='PASSIVE_IMAGE' width='PARENT_WIDTH' height='PARENT_HEIGHT' img='parchment_passive.tga'/>
+							</UIPane>
+							<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+						</UIPane>
+					</UICollapsable>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+
+				
+				<UIListBox name="AVAILABLE_BONUS_FEAT_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
+					hidden='true' OnUpdate=UIListBox_OnUpdate_AvailableFeatList("LEVELUP","FEAT_TEXT","FEAT_IMAGE","FEAT_ACTION","BONUS_FEAT_SWITCH","BONUS_FEATS_SELECT_PROMPT")>
+	
+					<UICollapsable name="PROTO_COL" width='PARENT_WIDTH' yPadding=4 xPadding=5 indent=10 isexpanded=true prototype=true >
+						<UIButton name="HEADER_BUTTON" width='PARENT_WIDTH' height='60' header='true' 
+							OnGainedFocus0=UIButton_Input_HideObject("FEAT_ASSIGN_BUTTONPROMPT")
+							OnGainedFocus1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("BONUS_FEATS_SELECT_PROMPT")
+							OnSelected0=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("BONUS_FEATS_SELECT_PROMPT")
+							OnLostFocus=UIButton_Input_ShowObject("FEAT_ASSIGN_BUTTONPROMPT")>
+							<UIFrame name='selection' style='EE_SELECTION_FRAME' focus_indicator='true'/>
+							<UIText strref="5632" indent='60' align=left valign=middle fontfamily="EE_Regular" style='1' color='949285' />
+							<UIFrame state='up'			fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='down'		fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='hilited'	fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='header'		fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='hiheader'	fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='downheader'	fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='base'		fill="droplist_back.tga" width='840'/>
+						</UIButton>
+						
+						<UIPane name="FEATPANE_PROTO" width='PARENT_WIDTH' height='60' prototype='true' pass_input_to_children='true'
+							MouseDownSFX="gui_quick_add" MouseUpSFX="gui_quick_add" groupid='29' tupple='true'
+							OnSelected0=UIButton_Input_ShowFeatDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+							OnSelected1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("BONUS_FEATS_SELECT_PROMPT")
+							OnGainedFocus0=UIButton_Input_ShowFeatDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+							OnGainedFocus1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("BONUS_FEATS_SELECT_PROMPT")>
+							<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+								<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+							</UIButton>
+							<UIButton name='FEAT_ACTION' x='ALIGN_RIGHT' margin_r='6' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false'
+								OnLeftClick=UIButton_Input_FeatAdd("LEVELUP") DefaultToolTip=174214
+								OnToolTip=UIObject_Tooltip_DisplayObject(OBJECT_X,OBJECT_Y,SCREEN_TOOLTIP_2,ALIGN_NONE,ALIGN_NONE,0,0,ALIGN_LEFT) >
+								<UIFrame state=up		fill="slider_arrow_right.tga" />
+								<UIFrame state=down		fill="slider_arrow_right.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+							</UIButton>
+							<UIButton name="FEAT_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT' >
+								<UIText name="FEAT_TEXT" x='60' width='600' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='10' color='949285'/>
+								<UIFrame state="down" style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+								<UIInputCB inputid='UI_ACTIVATE' callback='UIButton_Input_FeatAdd("LEVELUP")'/>
+							</UIButton>
+							<UIButton name="FEAT_IMAGE" x='ALIGN_LEFT' y='ALIGN_CENTER' width='60' height='60' style="STYLE_SKILL_ICON_CHARSHEET_EE" 
+									 focusable='false'/>
+							<UIPane name='PASSIVE_PANE' x='ALIGN_RIGHT' width='303' height='60' hidden='true'>
+								<UIText name='PASSIVE_TEXT' strref='235012' x='152' y='16' fontfamily="EE_Regular" style='1' color='949285'/>
+								<UIIcon name='PASSIVE_IMAGE' width='PARENT_WIDTH' height='PARENT_HEIGHT' img='parchment_passive.tga'/>
+							</UIPane>
+							<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+						</UIPane>
+					</UICollapsable>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+				
+				<UIListBox name="AVAILABLE_DOMAIN_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
+					hidden='true' OnUpdate=UIListBox_OnUpdate_AvailableDomainList("LEVELUP","DOMAIN_IMAGE","DOMAIN_TEXT","DOMAIN_ACTION")>
+	
+					<UIPane name="FEATPANE_PROTO" width='PARENT_WIDTH' height='60' prototype='true' pass_input_to_children='true' groupid='28' tupple='true'
+						MouseDownSFX="gui_quick_add" MouseUpSFX="gui_quick_add"
+						OnSelected0=UIButton_Input_ShowDomainDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+						OnSelected1=UIButton_OnUpdate_UpdateDomainAddRemovePrompt()	
+						OnGainedFocus=UIPane_Input_Click()>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>						
+						<UIButton name='DOMAIN_ACTION' x='ALIGN_RIGHT' margin_r='6' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false'
+							OnLeftClick=UIButton_Input_DomainAdd("LEVELUP") DefaultToolTip=183946
+							OnToolTip=UIObject_Tooltip_DisplayObject(OBJECT_X,OBJECT_Y,SCREEN_TOOLTIP_2,ALIGN_NONE,ALIGN_NONE,0,0,ALIGN_LEFT) >
+							<UIFrame state=up		fill="slider_arrow_right.tga" />
+							<UIFrame state=down		fill="slider_arrow_right.tga" />
+							<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+						</UIButton>
+						<UIButton name="DOMAIN_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="FEAT_TEXT" x='60' width='600' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='10' color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+							<UIInputCB inputid='UI_ACTIVATE' callback='UIButton_Input_DomainAdd("LEVELUP")'/>
+						</UIButton>
+						<UIButton name="DOMAIN_IMAGE" x='ALIGN_LEFT' y='ALIGN_CENTER' width='60' height='60' style="STYLE_SKILL_ICON_CHARSHEET_EE" 
+								focusable='false'/>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+				
+				<UIListBox name="SCHOOL_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false"
+					hidden='true' OnUpdate=UIListBox_OnUpdate_CreateSchoolList("LEVELUP","SCHOOL_IMAGE","SCHOOL_TEXT","INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")>
+	
+					<UIPane name="SCHOOL_PROTO" width='PARENT_WIDTH' height='60' tupple='true' updaterate="0.5" prototype='true' pass_input_to_children='true'
+							OnGainedFocus='UIPane_Input_Click()'>
+	
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='focused' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						
+						<UIButton name="SCHOOL_IMAGE" x="0" y="0" width="60" height="60" >
+							<UIFrame state="base" fill="skill_points_container.tga" />
+						</UIButton>
+	
+						<UIButton name="SCHOOL_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="SCHOOL_TEXTFIELD" x="60" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+				
+			
+				<UIListBox name="AVAILABLE_SPELL_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
+					hidden='true' OnUpdate=UIListBox_OnUpdate_AvailableSpellList("LEVELUP","SPELL_TEXT","SPELL_IMAGE","SPELL_ACTION")>
+	
+					<UIPane name="SPELLPANE_PROTO" width='PARENT_WIDTH' height='60' prototype='true' pass_input_to_children='true' groupid='27' tupple='true'
+						MouseDownSFX="gui_quick_add" MouseUpSFX="gui_quick_add"
+						OnSelected0=UIButton_Input_ShowSpellDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+						OnSelected1=UIButton_OnUpdate_UpdateSpellAddRemovePrompt()	
+						OnGainedFocus=UIPane_Input_Click()
+						>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name='SPELL_ACTION' x='ALIGN_RIGHT' margin_r='6' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false'
+							OnLeftClick=UIButton_Input_SpellAdd("LEVELUP") DefaultToolTip=179918
+							OnToolTip=UIObject_Tooltip_DisplayObject(OBJECT_X,OBJECT_Y,SCREEN_TOOLTIP_2,ALIGN_NONE,ALIGN_NONE,0,0,ALIGN_LEFT) >
+							<UIFrame state=up		fill="slider_arrow_right.tga" />
+							<UIFrame state=down		fill="slider_arrow_right.tga" />
+							<UIFrame state=hilited	fill="slider_arrow_right.tga" />
+						</UIButton>
+						<UIButton name="SPELL_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="FEAT_TEXT" x='60' width='600' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='10' color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+							<UIInputCB inputid='UI_ACTIVATE' callback='UIButton_Input_SpellAdd("LEVELUP")'/>
+						</UIButton>
+						<UIButton name="SPELL_IMAGE" x='ALIGN_LEFT' y='ALIGN_CENTER' width='60' height='60' style="STYLE_SKILL_ICON_CHARSHEET_EE" 
+								focusable='false'/>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+                
+               <UIPane name='FAMILIAR_PANE' y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' hidden='true'>
+					<UIPane name="FAMNAME_CONTAINER" width='PARENT_WIDTH' height='60' tupple='true' groupid='19' groupmemberid='999'
+						OnLeftClick='UIObject_Input_SetFocus(FAM_NAME_FIELD)'
+						OnSelected0='UIButton_Input_ShowObject("FAMNAME_RAND")'
+						OnSelected1='UIButton_Input_ShowObject("FAM_EDIT_PROMPT")'
+						OnSelected2='UIButton_Input_HideObject("FAM_SELECT_PROMPT")'
+						OnUnselected0='UIButton_Input_HideObject("FAMNAME_RAND")'
+						OnUnselected1='UIButton_Input_HideObject("FAM_EDIT_PROMPT")'
+						OnUnselected2='UIButton_Input_ShowObject("FAM_SELECT_PROMPT")'
+						OnGainedFocus='UIPane_Input_Select()'>
+						<UIPane width='340' height='PARENT_HEIGHT' x='ALIGN_RIGHT' margin_r='60' focusable='false'>
+							<UIIcon y='ALIGN_CENTER' width='78' height='60' img='content_frame_selected.tga' focus_indicator='true'/>
+							<UIIcon x='ALIGN_RIGHT' y='ALIGN_CENTER' width='78' height='60' img='content_frame_selected_r.tga' focus_indicator='true'/>
+							<UIIcon y='ALIGN_CENTER' width='78' height='60' img='content_frame_unselected.tga'/>
+							<UIIcon x='ALIGN_RIGHT' y='ALIGN_CENTER' width='78' height='60' img='content_frame_unselected_r.tga'/>
+							<UIText name="FAM_NAME_FIELD" align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285' filter="everything_6digit"
+								maxlength="15" sanitized="true" OnLostFocus=UIText_Misc_SetCharGenData("LEVELUP","FAMILIAR_COMPANION_NAME") update="true" OnUpdate=UIText_Misc_SetCharGenData("LEVELUP","FAMILIAR_COMPANION_NAME") editable="true"/>
+							<UIInputCB inputid='UI_BACK' callback='UIObject_Input_SetFocus("FAMNAME_CONTAINER")'/>
+						</UIPane>
+						<UIButton width='PARENT_WIDTH' height='PARENT_HEIGHT' tupple='true' style='EE_FOCUS_CHOICE'>
+							<UIText name="FAM_NAME" strref='181283' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='16' color='949285'/>
+							<UIButton width='60' height='60' x='ALIGN_RIGHT' y='ALIGN_CENTER' inputmodebehaviour='3' ClickHotkey='UI_ACTIVATE'  focus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+						<UIInputCB inputid='UI_ACTIVATE' callback='UIObject_Input_SetFocus("FAM_NAME_FIELD")'/>
+					</UIPane>
+                    <UIListBox name="FAMILIAR_LIST" y='64' width='PARENT_WIDTH' height='634' yPadding='4' xPadding='6' manualscrolling='false' searchgroupmembersoutside="true"
+						showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" selectonleftclick='true'
+						OnUpdate=UIListBox_OnUpdate_CreateFamiliarList("LEVELUP","FAMILIAR_COMPANION","INFOPANE_TEXT","FAMNAME_CONTAINER")>
+		
+						<UIButton name="COMPANION_BUTTON" width='PARENT_WIDTH' height='60' tupple='true' update='false'  style='EE_FOCUS_CHOICE'
+							updaterate="0.5" prototype='true' pass_input_to_children='true' groupid='19'
+							OnGainedFocus0=UIPane_Input_Click()>
+							<UIText name="COMPANION_TEXTFIELD" x="10" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+						</UIButton>
+						<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+					</UIListBox>
+                </UIPane>
+				
+               <UIPane name='ANIMAL_PANE' y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' hidden='true'>
+					<UIPane name="ANIMALNAME_CONTAINER" width='PARENT_WIDTH' height='60' tupple='true' groupid='20' groupmemberid='999'
+						OnLeftClick='UIObject_Input_SetFocus(ANIMAL_NAME_FIELD)'
+						OnSelected0='UIButton_Input_ShowObject("ANIMAL_NAME_RAND")'
+						OnSelected1='UIButton_Input_ShowObject("ANIMAL_EDIT_PROMPT")'
+						OnSelected2='UIButton_Input_HideObject("ANIMAL_SELECT_PROMPT")' 
+						OnUnselected0='UIButton_Input_HideObject("ANIMAL_NAME_RAND")'
+						OnUnselected1='UIButton_Input_HideObject("ANIMAL_EDIT_PROMPT")'
+						OnUnselected2='UIButton_Input_ShowObject("ANIMAL_SELECT_PROMPT")'
+						OnGainedFocus='UIPane_Input_Select()'>
+						<UIPane width='340' height='PARENT_HEIGHT' x='ALIGN_RIGHT' margin_r='60' focusable='false'>
+							<UIIcon y='ALIGN_CENTER' width='78' height='60' img='content_frame_selected.tga' focus_indicator='true'/>
+							<UIIcon x='ALIGN_RIGHT' y='ALIGN_CENTER' width='78' height='60' img='content_frame_selected_r.tga' focus_indicator='true'/>
+							<UIIcon y='ALIGN_CENTER' width='78' height='60' img='content_frame_unselected.tga'/>
+							<UIIcon x='ALIGN_RIGHT' y='ALIGN_CENTER' width='78' height='60' img='content_frame_unselected_r.tga'/>
+							<UIText name="ANIMAL_NAME_FIELD" align='center' valign='middle' fontfamily="EE_Regular" style='1' color='949285' 
+								maxlength="15" sanitized="true" OnLostFocus=UIText_Misc_SetCharGenData("LEVELUP","ANIMAL_COMPANION_NAME") update="true" OnUpdate=UIText_Misc_SetCharGenData("LEVELUP","ANIMAL_COMPANION_NAME") editable="true"/>
+							<UIInputCB inputid='UI_BACK' callback='UIObject_Input_SetFocus("ANIMALNAME_CONTAINER")'/>
+						</UIPane>
+						<UIButton width='PARENT_WIDTH' height='PARENT_HEIGHT' tupple='true' style='EE_FOCUS_CHOICE'>
+							<UIText name="FAM_NAME" strref='181283' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='16' color='949285'/>
+							<UIButton width='60' height='60' x='ALIGN_RIGHT' y='ALIGN_CENTER' inputmodebehaviour='3' ClickHotkey='UI_ACTIVATE'  focus_indicator='true'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+						<UIInputCB inputid='UI_ACTIVATE' callback='UIObject_Input_SetFocus("ANIMAL_NAME_FIELD")'/>
+					</UIPane>
+                    <UIListBox name="ANIMAL_LIST" y='64' width='PARENT_WIDTH' height='634' yPadding='4' xPadding='6' manualscrolling='false' searchgroupmembersoutside="true"
+						showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" selectonleftclick='true'
+						OnUpdate=UIListBox_OnUpdate_CreateFamiliarList("LEVELUP","ANIMAL_COMPANION","INFOPANE_TEXT","ANIMALNAME_CONTAINER")>
+		
+						<UIButton name="COMPANION_BUTTON" width='PARENT_WIDTH' height='60' tupple='true' update='false' updaterate="0.5" style='EE_FOCUS_CHOICE'
+							prototype='true' pass_input_to_children='true' groupid='20'
+							OnGainedFocus0=UIPane_Input_Click()>
+							<UIText name="COMPANION_TEXTFIELD" x="10" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+						</UIButton>
+						<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+					</UIListBox>
+                </UIPane>
+		          				
+				<UIFrame  style="EE_GREY_FRAME"/>
+			</UIPane>
+			
+			<UIPane name='SELECTED_FEATS_PANE' x='640' height='PARENT_HEIGHT' width='600' pass_input_to_children='true' hidden='true'>
+				
+				<UIListBox name="SELECTED_FEATS_LIST" y='70' width='PARENT_WIDTH' height='700' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
+					OnUpdate=UIListBox_OnUpdate_AddedFeatList("LEVELUP","ADDED_FEAT_TEXT","ADDED_FEAT_IMAGE","FEAT_ACTION","FEATS_SELECT_PROMPT")>
+	
+					<UICollapsable name="PROTO_COL" width='PARENT_WIDTH' yPadding=4 xPadding=5 indent=10 isexpanded=true prototype=true  groupid='25'>
+						<UIButton name="HEADER_BUTTON" width='PARENT_WIDTH' height='60' header='true' 
+							OnGainedFocus0=UIButton_Input_HideObject("FEAT_ASSIGN_BUTTONPROMPT")
+							OnGainedFocus1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("FEATS_SELECT_PROMPT")
+							OnSelected0=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("FEATS_SELECT_PROMPT")
+							OnLostFocus=UIButton_Input_ShowObject("FEAT_ASSIGN_BUTTONPROMPT")>
+							<UIFrame name='selection' style='EE_SELECTION_FRAME' focus_indicator='true'/>
+							<UIText strref="5632" indent='60' align=left valign=middle fontfamily="EE_Regular" style='1' color='949285' />
+							<UIFrame state='up'			fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='down'		fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='hilited'	fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='header'		fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='hiheader'	fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='downheader'	fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='base'		fill="droplist_back.tga" width='840'/>
+						</UIButton>
+						
+						<UIPane name="FEATPANE_PROTO" width='PARENT_WIDTH' height='60' prototype='true' pass_input_to_children='true' groupid='25' tupple='true'
+							MouseDownSFX="gui_quick_add" MouseUpSFX="gui_quick_add"
+							OnSelected0=UIButton_Input_ShowFeatDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+							OnSelected1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("FEATS_SELECT_PROMPT")
+							OnGainedFocus0=UIButton_Input_ShowFeatDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+							OnGainedFocus1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("FEATS_SELECT_PROMPT")>
+							<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+								<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+							</UIButton>
+							<UIButton name='FEAT_ACTION' x='6' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false'
+								OnLeftClick=UIButton_Input_FeatRemove("LEVELUP") DefaultToolTip=174215
+								OnToolTip=UIObject_Tooltip_DisplayObject(OBJECT_X,OBJECT_Y,SCREEN_TOOLTIP_2,ALIGN_NONE,ALIGN_NONE,0,0,ALIGN_LEFT) >
+								<UIFrame state=up		fill="slider_arrow_left.tga" />
+								<UIFrame state=down		fill="slider_arrow_left.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+							</UIButton>
+							<UIButton name="ADDED_FEAT_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT' >
+								<UIText name="ADDED_FEAT_TEXT" x='90' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='10' color='949285'/>
+								<UIFrame state="down" style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+								<UIInputCB inputid='UI_ACTIVATE' callback='UIButton_Input_FeatRemove("LEVELUP")'/>
+							</UIButton>
+							<UIButton name="ADDED_FEAT_IMAGE" x='30' y='ALIGN_CENTER' width='60' height='60' style="STYLE_SKILL_ICON_CHARSHEET_EE"
+								hotbartype="HOTBAR_FEAT"/>
+							<UIPane name='PASSIVE_PANE' x='ALIGN_RIGHT' width='303' height='60' hidden='true'>
+								<UIText name='PASSIVE_TEXT' strref='235012' x='152' y='16' fontfamily="EE_Regular" style='1' color='949285'/>
+								<UIIcon name='PASSIVE_IMAGE' width='PARENT_WIDTH' height='PARENT_HEIGHT' img='parchment_passive.tga'/>
+							</UIPane>
+							<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+						</UIPane>
+					</UICollapsable>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+				
+				<UIPane width='PARENT_WIDTH' height='64'>
+					<UIText name="NORMAL_FEATS_POINT_POOL_TEXT" x='500' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='E6E4D0'
+							update="false" OnUpdate=UIText_OnUpdate_GetFeatsRemaining("LEVELUP","NORMAL_FEAT_SWITCH") />	
+					<UIText name='LIST_TITLE' strref="181303" x='15' width='500' height='60' align='left' valign='middle' color='e6e4d0'
+						fontfamily="EE_Regular" style='1'/>
+					<UIFrame x='-6' y='-6' width='PARENT_WIDTH' margin_r='-6' style="EE_SUBHEADER_FRAME"/>
+				</UIPane>
+	
+				<UIFrame  style="EE_GREY_FRAME"/>
+			</UIPane>
+			
+			<UIPane name='SELECTED_BONUS_FEATS_PANE' x='640' height='PARENT_HEIGHT' width='600' pass_input_to_children='true' hidden='true'>
+				
+				<UIListBox name="SELECTED_BONUS_FEATS_LIST" y='70' width='PARENT_WIDTH' height='700' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
+					OnUpdate=UIListBox_OnUpdate_AddedFeatList("LEVELUP","ADDED_FEAT_TEXT","ADDED_FEAT_IMAGE","FEAT_ACTION","BONUS_FEATS_SELECT_PROMPT")>
+	
+					<UICollapsable name="PROTO_COL" width='PARENT_WIDTH' yPadding=4 xPadding=5 indent=10 isexpanded=true prototype=true >
+						<UIButton name="HEADER_BUTTON" width='PARENT_WIDTH' height='60' header='true' 
+							OnGainedFocus0=UIButton_Input_HideObject("FEAT_ASSIGN_BUTTONPROMPT")
+							OnGainedFocus1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("BONUS_FEATS_SELECT_PROMPT")
+							OnSelected0=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("BONUS_FEATS_SELECT_PROMPT")
+							OnLostFocus=UIButton_Input_ShowObject("FEAT_ASSIGN_BUTTONPROMPT")>
+							<UIFrame name='selection' style='EE_SELECTION_FRAME' focus_indicator='true'/>
+							<UIText strref="5632" indent='60' align=left valign=middle fontfamily="EE_Regular" style='1' color='949285' />
+							<UIFrame state='up'			fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='down'		fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='hilited'	fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='header'		fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='hiheader'	fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='downheader'	fill="pointer_down.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
+							<UIFrame state='base'		fill="droplist_back.tga" width='840'/>
+						</UIButton>
+						<UIPane name="FEATPANE_PROTO" width='PARENT_WIDTH' height='60' prototype='true' pass_input_to_children='true'
+							MouseDownSFX="gui_quick_add" MouseUpSFX="gui_quick_add" groupid='29' tupple='true'
+							OnSelected0=UIButton_Input_ShowFeatDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+							OnSelected1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("BONUS_FEATS_SELECT_PROMPT")
+							OnGainedFocus0=UIButton_Input_ShowFeatDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+							OnGainedFocus1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("BONUS_FEATS_SELECT_PROMPT")>
+							<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+								<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+							</UIButton>							
+							<UIButton name='FEAT_ACTION' x='6' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false'
+								OnLeftClick=UIButton_Input_FeatRemove("LEVELUP") DefaultToolTip=174215
+								OnToolTip=UIObject_Tooltip_DisplayObject(OBJECT_X,OBJECT_Y,SCREEN_TOOLTIP_2,ALIGN_NONE,ALIGN_NONE,0,0,ALIGN_LEFT) >
+								<UIFrame state=up		fill="slider_arrow_left.tga" />
+								<UIFrame state=down		fill="slider_arrow_left.tga" />
+								<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+							</UIButton>
+							<UIButton name="ADDED_FEAT_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+								<UIText name="ADDED_FEAT_TEXT" x='90' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='10' color='949285'/>
+								<UIFrame state="down" style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+								<UIInputCB inputid='UI_ACTIVATE' callback='UIButton_Input_FeatRemove("LEVELUP")'/>
+							</UIButton>
+							<UIButton name="ADDED_FEAT_IMAGE" x='30' y='ALIGN_CENTER' width='60' height='60' style="STYLE_SKILL_ICON_CHARSHEET_EE"
+								 focusable='false' >
+							</UIButton>
+							<UIPane name='PASSIVE_PANE' x='ALIGN_RIGHT' width='303' height='60' hidden='true'>
+								<UIText name='PASSIVE_TEXT' strref='235012' x='152' y='16' fontfamily="EE_Regular" style='1' color='949285'/>
+								<UIIcon name='PASSIVE_IMAGE' width='PARENT_WIDTH' height='PARENT_HEIGHT' img='parchment_passive.tga'/>
+							</UIPane>
+							<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+						</UIPane>	
+					</UICollapsable>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>				
+				<UIPane width='PARENT_WIDTH' height='64'>
+					<UIText name="BONUS_FEATS_POINT_POOL_TEXT" x='500' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='E6E4D0'
+							update="false" OnUpdate=UIText_OnUpdate_GetFeatsRemaining("LEVELUP","BONUS_FEAT_SWITCH") />	
+					<UIText name='LIST_TITLE' strref="181297" x='15' width='500' height='60' align='left' valign='middle' color='e6e4d0'
+						fontfamily="EE_Regular" style='1'/>
+					<UIFrame x='-6' y='-6' width='PARENT_WIDTH' margin_r='-6' style="EE_SUBHEADER_FRAME"/>
+				</UIPane>
+	
+				<UIFrame  style="EE_GREY_FRAME"/>
+			</UIPane>
+			
+			<UIPane name='ADDED_DOMAIN_PANE' x='640' height='PARENT_HEIGHT' width='600' pass_input_to_children='true' hidden='true'>
+				
+				<UIListBox name="ADDED_DOMAIN_LIST" y='70' width='PARENT_WIDTH' height='700' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
+					OnUpdate=UIListBox_OnUpdate_AddedDomainList("LEVELUP","DOMAIN_IMAGE","DOMAIN_TEXT","DOMAIN_ACTION")>
+	
+					<UIPane name="DOMAINPANE_PROTO" width='PARENT_WIDTH' height='60' prototype='true' pass_input_to_children='true' groupid='28' tupple='true'
+						MouseDownSFX="gui_quick_add" MouseUpSFX="gui_quick_add"
+						OnSelected0=UIButton_Input_ShowDomainDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+						OnSelected1=UIButton_OnUpdate_UpdateDomainAddRemovePrompt()	
+						OnGainedFocus=UIPane_Input_Click()>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>						
+						<UIButton name='DOMAIN_ACTION' x='6' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false'
+							OnLeftClick=UIButton_Input_DomainRemove("LEVELUP") DefaultToolTip=183947
+							OnToolTip=UIObject_Tooltip_DisplayObject(OBJECT_X,OBJECT_Y,SCREEN_TOOLTIP_2,ALIGN_NONE,ALIGN_NONE,0,0,ALIGN_LEFT) >
+							<UIFrame state=up		fill="slider_arrow_left.tga" />
+							<UIFrame state=down		fill="slider_arrow_left.tga" />
+							<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+						</UIButton>
+						<UIButton name="DOMAIN_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="DOMAIN_TEXT" x='90' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='10' color='949285'/>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+							<UIInputCB inputid='UI_ACTIVATE' callback='UIButton_Input_DomainRemove("LEVELUP")'/>
+						</UIButton>
+						<UIButton name="DOMAIN_IMAGE" x='30' y='ALIGN_CENTER' width='60' height='60' style="STYLE_SKILL_ICON_CHARSHEET_EE"
+							focusable='false' >
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+				
+				<UIPane width='PARENT_WIDTH' height='64'>
+					<UIText name="DOMAIN_POINT_POOL_TEXT" x='500' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='E6E4D0'
+							update="true" OnUpdate=UIText_OnUpdate_GetDomainsRemaining("LEVELUP") />	
+					<UIText name='LIST_TITLE' strref="181298" x='15' width='500' height='60' align='left' valign='middle' color='e6e4d0'
+						fontfamily="EE_Regular" style='1'/>
+					<UIFrame x='-6' y='-6' width='PARENT_WIDTH' margin_r='-6' style="EE_SUBHEADER_FRAME"/>
+				</UIPane>
+	
+				<UIFrame  style="EE_GREY_FRAME"/>
+			</UIPane>
+
+			<UIPane name='ADDED_SPELL_PANE' x='640' height='PARENT_HEIGHT' width='600' pass_input_to_children='true' hidden='true'>
+				
+				<UIListBox name="ADDED_SPELL_LIST" y='70' width='PARENT_WIDTH' height='700' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" pass_input_to_children='true' searchgroupmembersoutside="true"
+					OnUpdate=UIListBox_OnUpdate_AddedSpellList("LEVELUP","SPELL_TEXT","SPELL_IMAGE","SPELL_ACTION")>
+
+					<UIPane name="SPELLPANE_PROTO" width='PARENT_WIDTH' height='60' tupple='true' pass_input_to_children='true' prototype='true' groupid='27'
+						MouseDownSFX="gui_quick_add" MouseUpSFX="gui_quick_add"
+						OnSelected0=UIButton_Input_ShowSpellDesc("INFOPANE_TEXT","INFOPANE_IMAGE","INFOPANE_TITLE")
+						OnSelected1=UIButton_OnUpdate_UpdateSpellAddRemovePrompt()	
+						OnGainedFocus=UIPane_Input_Click()>
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='hilited' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						<UIButton name="SPELL_TEXT" width='PARENT_WIDTH' height='60'>
+							<UIFrame state='down' style='EE_HIGHLIGHT_FRAME' nonfocus_indicator='true'/>
+							<UIText name="DOMAIN_TEXT" x='90' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle'
+								fontfamily="EE_Regular" style='1' indent='10' color='949285'/>
+						</UIButton>
+						<UIButton name='SPELL_ACTION' x='6' y='ALIGN_CENTER' width='22' height='28' scale='1.3' scale_time='0.1' focusable='false' 
+							OnLeftClick=UIButton_Input_SpellRemove("LEVELUP") DefaultToolTip=179919
+							OnToolTip=UIObject_Tooltip_DisplayObject(OBJECT_X,OBJECT_Y,SCREEN_TOOLTIP_2,ALIGN_NONE,ALIGN_NONE,0,0,ALIGN_LEFT) >
+							<UIFrame state=up		fill="slider_arrow_left.tga" />
+							<UIFrame state=down		fill="slider_arrow_left.tga" />
+							<UIFrame state=hilited	fill="slider_arrow_left.tga" />
+						</UIButton>
+						<UIButton name="SPELL_IMAGE" x='30' y='ALIGN_CENTER' width='60' height='60' style="STYLE_SKILL_ICON_CHARSHEET_EE"
+							 focusable='false' >
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>
+					<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+				</UIListBox>
+				
+				<UIPane width='PARENT_WIDTH' height='64'>
+					<UIText name="SPELL_POINT_POOL_TEXT" x='500' width='50' height='PARENT_HEIGHT' align='center' valign='middle' fontfamily="EE_Regular" style='1' color='E6E4D0'
+							update="true" OnUpdate=UIText_OnUpdate_GetSpellsRemaining("LEVELUP") />	
+					<UIText name='LIST_TITLE' strref="181307" x='15' width='500' height='60' align='left' valign='middle' color='e6e4d0'
+						fontfamily="EE_Regular" style='1'/>
+					<UIFrame x='-6' y='-6' width='PARENT_WIDTH' margin_r='-6' style="EE_SUBHEADER_FRAME"/>
+				</UIPane>
+	
+				<UIFrame  style="EE_GREY_FRAME"/>
+			</UIPane>
+		
+
+			<UIGrid name='DESC_GRID' x='ALIGN_RIGHT' height='PARENT_HEIGHT' width='DYNAMIC' rows='1' columns='3' name_prefix='false' capturemouseclicks='false' pass_input_to_children='true'>
+				<UIPane name='DESC_PANE' width='445' height='PARENT_HEIGHT' focusable='false' pass_input_to_children='true'>
+					<UIButton name='INFO_TAB_BUTTON' x='0' y='0' width='220' height='105' groupid='2' groupmemberid='1'
+						OnSelected0='UIButton_Input_ShowObject("RACESDESC_LISTBOX")'
+						OnSelected1='UIButton_Input_UpdateDoubleTabPrompt("STATS_TAB_BUTTON","CLASS_DETAILS_PROMPT","ALIGNMENT_DETAILS_PROMPT","DEITY_DETAILS_PROMPT","ABILITIES_DETAILS_PROMPT","PACKAGES_DETAILS_PROMPT","SKILL_DETAILS_PROMPT","RANGER_DETAILS_PROMPT","FEATS_DETAILS_PROMPT","BONUS_DETAILS_PROMPT","SCHOOL_DETAILS_PROMPT","DOMAIN_DETAILS_PROMPT","BACKGROUND_DETAILS_PROMPT","SPELL_DETAILS_PROMPT","ANIMAL_DETAILS_PROMPT","FAMILIAR_DETAILS_PROMPT","FINISH_DETAILS_PROMPT")'
+						OnUnselected='UIButton_Input_HideObject("RACESDESC_LISTBOX")'>
+						<UIText height='55' align='center' valign='middle' strref="181231" fontfamily="EE_Regular" color='949285'/>
+						<UIFrame state='up' style='EE_CHAR_TAB_LEFT_UNSELECTED'/>
+						<UIFrame state='hilited' style='EE_CHAR_TAB_LEFT_UNSELECTED'/>				
+						<UIFrame state='down' style='EE_CHAR_TAB_LEFT_SELECTED'/>
+					</UIButton>
+					
+					<UIButton name='STATS_TAB_BUTTON' x='225' y='0' width='220' height='105' groupid='2' groupmemberid='2'
+						OnSelected0='UIButton_Input_ShowObject("STATS_LISTBOX")'
+						OnSelected1='UIButton_Input_UpdateDoubleTabPrompt("INFO_TAB_BUTTON","CLASS_DETAILS_PROMPT","ALIGNMENT_DETAILS_PROMPT","DEITY_DETAILS_PROMPT","ABILITIES_DETAILS_PROMPT","PACKAGES_DETAILS_PROMPT","SKILL_DETAILS_PROMPT","RANGER_DETAILS_PROMPT","FEATS_DETAILS_PROMPT","BONUS_DETAILS_PROMPT","SCHOOL_DETAILS_PROMPT","DOMAIN_DETAILS_PROMPT","BACKGROUND_DETAILS_PROMPT","SPELL_DETAILS_PROMPT","ANIMAL_DETAILS_PROMPT","FAMILIAR_DETAILS_PROMPT","FINISH_DETAILS_PROMPT")'
+						OnUnselected='UIButton_Input_HideObject("STATS_LISTBOX")'>
+						<UIText height='55' align='center' valign='middle' strref="113779" fontfamily="EE_Regular" color='949285'/>
+						<UIFrame state='up' style='EE_CHAR_TAB_RIGHT_UNSELECTED'/>
+						<UIFrame state='hilited' style='EE_CHAR_TAB_RIGHT_UNSELECTED'/>
+						<UIFrame state='down' style='EE_CHAR_TAB_RIGHT_SELECTED'/>
+					</UIButton>
+					
+					<UIPane x='ALIGN_CENTER' y='35' width='5' height='35'>
+						<UIIcon img='tabs_s9_unselected_underline_5.tga' width='35' height='35'/>
+					</UIPane>
+					
+					<UIListBox name="RACESDESC_LISTBOX" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' margin_b='6' yPadding='4' xPadding='6' showpartialchild='true' scrollbaronright='true'
+						hidescrollbarwhennotneeded='true' scrollsegmentsize='30' unequalcontrols='true' manualscrolling='true' hidden='true' update="true" OnUpdate='UIListBox_OnUpdate_ScrollPrompt("SCROLL_PROMT_INFO","DYNAMIC_HEIGHT_PANE")'>
+						<UIText x='16' name="INFOPANE_HELPTEXT" strref="183337" width="PARENT_WIDTH" height="DYNAMIC" align="left" valign="top" fontfamily="EE_Regular" color='949285'/>
+
+						<UIPane x='16' width="PARENT_WIDTH" height="48">
+							<UIIcon y='ALIGN_CENTER' height='2' img='underline_pattern.tga'/>
+						</UIPane>
+						<UICollapsable name="INFO_CONTAINER_1" x="16" y="0" width="PARENT_WIDTH" height="DYNAMIC">
+							<UIPane name="INFO_CONTAINER" width="PARENT_WIDTH" height="84">
+								<UIIcon name="INFOPANE_IMAGE" img="b_empty.tga" x="5" y="ALIGN_TOP" width="60" height="60" ignoreevents="true" />
+								<UIText name="INFOPANE_TITLE" x="76" y="ALIGN_TOP" width="DYNAMIC" height="60" align="left" valign="middle" fontfamily="EE_Subheader"  />
+							</UIPane>
+						</UICollapsable>
+
+						<UIPane x='16' width='PARENT_WIDTH' height='DYNAMIC'>
+							<UICollapsable width='PARENT_WIDTH' height='DYNAMIC' yPadding='4' isexpanded='true' collapselock='true'>
+								<UIPane width='PARENT_WIDTH' height='DYNAMIC'>
+									<UICollapsable name="CLASS_CONTAINER" width='PARENT_WIDTH' height='DYNAMIC' isexpanded='true' yPadding='4' collapselock='true' hidden='true'>
+										<UIText name="CLASS_STR" width='PARENT_WIDTH' height='DYNAMIC' sizetofit='true' align='left' valign='bottom' fontfamily="EE_Regular" style='1' color='949285' strref="6388"/>
+										<UIPane width='PARENT_WIDTH' height='DYNAMIC'>
+											<UIIcon name='CLASS_ICON' width='60' height='60' img='fx_white.tga' color='FFFFFF' />
+											<UIText name="CLASS_NAME" x='60' width='PARENT_WIDTH' height='PARENT_HEIGHT' align='left' valign='middle' fontfamily="EE_Regular" style='1' indent='10' color='E6E4D0'/>
+										</UIPane>
+									</UICollapsable>
+								</UIPane>
+								<UIText name="INFOPANE_TEXT" width='PARENT_WIDTH' height='DYNAMIC' sizetofit='true' align='left' fontfamily="EE_Regular" style='1' multiline="true" color='949285' />
+
+								<UIPane width='PARENT_WIDTH' height='DYNAMIC'>
+									<UICollapsable name="SPELLS_ADDED_LIST" width='PARENT_WIDTH' height='DYNAMIC' isexpanded='true' yPadding='4' collapselock='true' hidden='true'>
+										<UIText name="SPELLS_ADDED" width='PARENT_WIDTH' height='DYNAMIC' sizetofit='true' align='left' valign='bottom' fontfamily="EE_Regular" style='1' color='949285' strref="6390"/>
+									</UICollapsable>
+								</UIPane>
+								<UIPane width='PARENT_WIDTH' height='DYNAMIC'>
+									<UICollapsable name="SPELLS_REMOVED_LIST" width='PARENT_WIDTH' height='DYNAMIC' isexpanded='true' yPadding='4' collapselock='true' hidden='true'>
+										<UIText name="SPELLS_REMOVED" width='PARENT_WIDTH' height='DYNAMIC' sizetofit='true' align='left' valign='bottom' fontfamily="EE_Regular" style='1' color='949285' strref="10587"/>
+									</UICollapsable>
+								</UIPane>
+								<UIPane width='PARENT_WIDTH' height='DYNAMIC'>
+									<UICollapsable name="FEATS_ADDED_LIST" width='PARENT_WIDTH' height='DYNAMIC' isexpanded='true' yPadding='4' collapselock='true' hidden='true'>
+										<UIText name="FEATS_ADDED" width='PARENT_WIDTH' height='DYNAMIC' sizetofit='true' align='left' valign='bottom' fontfamily="EE_Regular" style='1' color='949285' strref="6392"/>
+									</UICollapsable>
+								</UIPane>
+								<UIPane width='PARENT_WIDTH' height='DYNAMIC'>
+									<UICollapsable name="SKILLS_ADDED_LIST" width='PARENT_WIDTH' height='DYNAMIC' isexpanded='true' yPadding='4' collapselock='true' hidden='true'>
+										<UIText name="SKILLS_ADDED" width='PARENT_WIDTH' height='DYNAMIC' sizetofit='true' align='left' valign='bottom' fontfamily="EE_Regular" style='1' color='949285' strref="6391"/>
+									</UICollapsable>
+								</UIPane>
+							</UICollapsable>
+						</UIPane>
+						<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+						<UIFrame fill='fx_white.tga' color='12120F' alpha='0.5' />
+					</UIListBox>
+					
+					<UIListBox name="STATS_LISTBOX" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' margin_b='6' yPadding='4' xPadding='6' showpartialchild=true
+						unequalcontrols=true scrollsegmentsize=30 hidden='true' update="true" OnUpdate='UIListBox_OnUpdate_ScrollPrompt("SCROLL_PROMT_STAT","DYNAMIC_HEIGHT_PANE")'>
+                        
+						<UIPane name="FULLNAME_CONTAINER" width="PARENT_WIDTH" height="60" >
+							<UIText name='F_TEXT' x='16' y='0' width='PARENT_WIDTH' height='PARENT_HEIGHT' color='E6E4D0'
+                                fontfamily='EE_Regular' style='1' align='left' valign='middle'
+                                update='true' OnUpdate='UIObject_OnUpdate_GetCharacterData("LEVELUP","FULLNAME")'/>
+                            <UIIcon name="SUBRACE_TEXT_BG" img='fx_white.tga' color='0F0F11' alpha='0.5'/>
+                        </UIPane>
+						
+						<UIPane name="SUBRACE_CONTAINER" width="PARENT_WIDTH" height="60" >
+                            <UIButton name="SUBRACE_ICON" x="16" width="60" height="60" style="STYLE_EMPTY_BUTTON" 
+                                update=true OnUpdate=UIObject_OnUpdate_GetCharacterIcon("LEVELUP","SUBRACE")/>
+                            <UIText name="SUBRACE_TEXT" x="92" fontfamily="EE_Regular" align="left" valign="middle" indent="5" hangingindent="5" color='E6E4D0'
+                                update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","SUBRACE")/>
+                            <UIIcon name="SUBRACE_TEXT_BG" img='fx_white.tga' color='0F0F11' alpha='0.5'/>
+                        </UIPane>
+                        
+                        <UIPane name="ALIGNMENT_CONTAINER" width="PARENT_WIDTH" height="60" >
+                            <UIButton name="ALIGNMENT_ICON" x="16" width="60" height="60" style="STYLE_EMPTY_BUTTON" 
+                                update=true OnUpdate=UIObject_OnUpdate_GetCharacterIcon("LEVELUP","ALIGNMENT_ICON")/>
+                            <UIText name="ALIGNMENT_TEXT" x="92" fontfamily="EE_Regular" align="left" valign="middle" indent="5" hangingindent="5" color='E6E4D0'
+                                update=true OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","ALIGNMENT_TITLE")/>
+                            <UIIcon name="ALIGNMENT_TEXT_BG" img='fx_white.tga' color='0F0F11' alpha='0.5'/>
+                        </UIPane>
+                        
+                        <UICollapsable name="CLASS_COL" x="0" y="6" height='DYNAMIC' width='PARENT_WIDTH' yPadding='2' xPadding='0' isexpanded='true' collapselock='true' 
+                            update=true OnUpdate=UICollapsable_OnUpdate_UpdateClassList("LEVELUP")>
+                            <UIButton name="HEADER_BUTTON" strref="144" width="PARENT_WIDTH" height="60"  header="true" >
+                                <UIText x="16" y="0" align="left" valign="middle" fontfamily="EE_Regular" multiline="false" color='949285'/>
+                                <UIFrame state="base" fill="fx_white.tga" color='0F0F11' alpha='0.5'/>
+                            </UIButton>
+                            <UIPane name="CLASS_PROTO" x="0" y="0" width="PARENT_WIDTH" height="60" prototype="true" >
+                                <UIIcon name="CLASS_ICON" img="b_empty.tga" x="32" y="0" width="60" height="60" />
+                                <UIText name="CLASS_TEXT" x="108" y="0" align="left" valign="middle" fontfamily="EE_Regular" multiline="true" maxlines="2" color='E6E4D0'/>
+                                <UIIcon img='fx_white.tga' color='0F0F11' alpha='0.5'/>
+                            </UIPane>
+                        </UICollapsable>
+                        
+                        <UIText name='PACKAGE_TEXT' x='16' y='0' width='PARENT_WIDTH' height='DYNAMIC' color='acaa9c'
+                                fontfamily='EE_Regular' style='1' align='left' valign='middle'
+                                update='true' OnUpdate='UIObject_OnUpdate_GetCharacterData("LEVELUP","PACKAGE")'/>
+                        
+                        <UIPane name="BACKGROUND_CONTAINER" width="PARENT_WIDTH" height="60" y="6">
+                            <UIButton name="BACKGROUND_ICON" x="16" y="0" width="60" height="60" style="STYLE_EMPTY_BUTTON" 
+                                update=true OnUpdate=UIObject_OnUpdate_GetCharacterIcon("LEVELUP","BACKGROUND")/>
+                            <UIText name="BACKGROUND_TEXT" x="92" y="0" fontfamily="EE_Regular" align="left" valign="middle" indent="5" hangingindent="5" color='E6E4D0'
+                                update=true OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BACKGROUND")/>
+                            <UIIcon name="BACKGROUND_TEXT_BG" img='fx_white.tga' color='0F0F11' alpha='0.5'/>
+                        </UIPane>
+                        
+                        <UIPane name="DEITY_CONTAINER" width="PARENT_WIDTH" height="60" >
+                            <UIButton name="DEITY_ICON" x="16" y="0" width="60" height="60" style="STYLE_EMPTY_BUTTON" 
+                                update=true OnUpdate=UIObject_OnUpdate_GetCharacterIcon("LEVELUP","DEITY")/>
+                            <UIText name="DEITY_TEXT" x="92" y="0" fontfamily="EE_Regular" align="left" valign="middle" indent="5" hangingindent="5" color='E6E4D0'
+                                update=true OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","DEITY")/>
+                            <UIIcon name="DEITY_TEXT_BG" img='fx_white.tga' color='0F0F11' alpha='0.5'/>
+                        </UIPane>
+                        
+                        <UIPane name="SCHOOL_CONTAINER" width="PARENT_WIDTH" height="60" >
+                            <UIButton name="SCHOOL_ICON" x="16" y="0" width="60" height="60" style="STYLE_EMPTY_BUTTON" 
+                                update=true OnUpdate=UIObject_OnUpdate_GetCharacterIcon("LEVELUP","SCHOOL")/>
+                            <UIText name="SCHOOL_TEXT" x="92" y="0" fontfamily="EE_Regular" align="left" valign="middle" indent="5" hangingindent="5" color='E6E4D0'
+                                update=true OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","SCHOOL")/>
+                            <UIIcon name="SCHOOL_TEXT_BG" img='fx_white.tga' color='0F0F11' alpha='0.5'/>
+                        </UIPane>
+                        
+                        <UIText name='DOMAINS_TEXT' x='16' y='0' width='PARENT_WIDTH' height='DYNAMIC' color='acaa9c'
+                                fontfamily='EE_Regular' style='1' align='left' valign='middle'
+                                update='true' OnUpdate='UIObject_OnUpdate_GetCharacterData("LEVELUP","DOMAINS")'/>
+                        <UIText name='SPELLRESIST_TEXT' x='16' y='0' width='PARENT_WIDTH' height='DYNAMIC' color='acaa9c'
+                                fontfamily='EE_Regular' style='1' align='left' valign='middle'
+                                update='true' OnUpdate='UIObject_OnUpdate_GetCharacterData("LEVELUP","SPELL_RESIST")'/>
+                        <UIText name='ARCANESPELLFAIL_TEXT' x='16' y='0' width='PARENT_WIDTH' height='DYNAMIC' color='acaa9c'
+                                fontfamily='EE_Regular' style='1' align='left' valign='middle'
+                                update='true'
+                                OnUpdate='UIObject_OnUpdate_GetCharacterData("LEVELUP","ARCANE_SPELL_FAILURE")'/>
+						<UIPane name="EE_ABILITIES" width="PARENT_WIDTH" height="DYNAMIC" >
+							<UIGrid width='PARENT_WIDTH' height='DYNAMIC' rows='6' columns='1' yPadding='2'>
+								<UIPane width='PARENT_WIDTH' height='40'>
+									<UIText name="STR_TEXT"	x='16' width="PARENT_WIDTH" height="PARENT_HEIGHT" strref="135" fontfamily="EE_Regular" align="left" valign="middle" color='949285' />
+									<UIText name="STR_RANK" x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle" 
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_STR") />
+									<UIText name="STR_MOD" x='ALIGN_RIGHT' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle"
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","STR_MOD") />
+									<UIIcon x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" img="fx_white.tga" color="242526" alpha='0.5'/>
+									<UIIcon width="PARENT_WIDTH" height="PARENT_HEIGHT" img="fx_white.tga" color="0F0F11" alpha='0.5'/>
+								</UIPane>
+								<UIPane width='PARENT_WIDTH' height='40'>
+									<UIText name="STR_TEXT"	x='16' width="PARENT_WIDTH" height="PARENT_HEIGHT" strref="133" fontfamily="EE_Regular" align="left" valign="middle" color='949285' />
+									<UIText name="STR_RANK" x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle" 
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_DEX") />
+									<UIText name="STR_MOD" x='ALIGN_RIGHT' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle"
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","DEX_MOD") />
+									<UIIcon x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" img="fx_white.tga" color="242526" alpha='0.5'/>
+									<UIIcon width="PARENT_WIDTH" height="PARENT_HEIGHT" img="fx_white.tga" color="242526" alpha='0.5'/>
+									<UIIcon width="PARENT_WIDTH" height="PARENT_HEIGHT" img="fx_white.tga" color="0F0F11" alpha='0.5'/>
+								</UIPane>
+								<UIPane width='PARENT_WIDTH' height='40'>
+									<UIText name="STR_TEXT"	x='16' width="PARENT_WIDTH" height="PARENT_HEIGHT" strref="132" fontfamily="EE_Regular" align="left" valign="middle" color='949285' />
+									<UIText name="STR_RANK" x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle" 
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_CON") />
+									<UIText name="STR_MOD" x='ALIGN_RIGHT' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle"
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","CON_MOD") />
+									<UIIcon x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" img="fx_white.tga" color="242526" alpha='0.5'/>
+									<UIIcon width="PARENT_WIDTH" height="PARENT_HEIGHT" img="fx_white.tga" color="0F0F11" alpha='0.5'/>
+								</UIPane>
+								<UIPane width='PARENT_WIDTH' height='40'>
+									<UIText name="STR_TEXT"	x='16' width="PARENT_WIDTH" height="PARENT_HEIGHT" strref="134" fontfamily="EE_Regular" align="left" valign="middle" color='949285' />
+									<UIText name="STR_RANK" x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle" 
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_INT") />
+									<UIText name="STR_MOD" x='ALIGN_RIGHT' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle"
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","INT_MOD") />
+									<UIIcon x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" img="fx_white.tga" color="242526" alpha='0.5'/>
+									<UIIcon width="PARENT_WIDTH" height="PARENT_HEIGHT" img="fx_white.tga" color="242526" alpha='0.5'/>
+									<UIIcon width="PARENT_WIDTH" height="PARENT_HEIGHT" img="fx_white.tga" color="0F0F11" alpha='0.5'/>
+								</UIPane>
+								<UIPane width='PARENT_WIDTH' height='40'>
+									<UIText name="STR_TEXT"	x='16' width="PARENT_WIDTH" height="PARENT_HEIGHT" strref="136" fontfamily="EE_Regular" align="left" valign="middle" color='949285' />
+									<UIText name="STR_RANK" x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle" 
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_WIS") />
+									<UIText name="STR_MOD" x='ALIGN_RIGHT' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle"
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","WIS_MOD") />
+									<UIIcon x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" img="fx_white.tga" color="242526" alpha='0.5'/>
+									<UIIcon width="PARENT_WIDTH" height="PARENT_HEIGHT" img="fx_white.tga" color="0F0F11" alpha='0.5'/>
+								</UIPane>
+								<UIPane width='PARENT_WIDTH' height='40'>
+									<UIText name="STR_TEXT"	x='16' width="PARENT_WIDTH" height="PARENT_HEIGHT" strref="131" fontfamily="EE_Regular" align="left" valign="middle" color='949285'/>
+									<UIText name="STR_RANK" x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle" 
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","BASE_CHA") />
+									<UIText name="STR_MOD" x='ALIGN_RIGHT' width="100" height="PARENT_HEIGHT" fontfamily="EE_Regular" align="center" valign="middle"
+										update="true" OnUpdate=UIObject_OnUpdate_GetCharacterData("LEVELUP","CHA_MOD") />
+									<UIIcon x='ALIGN_RIGHT' margin_r='100' width="100" height="PARENT_HEIGHT" img="fx_white.tga" color="242526" alpha='0.5'/>
+									<UIIcon width="PARENT_WIDTH" height="PARENT_HEIGHT" img="fx_white.tga" color="242526" alpha='0.5'/>
+									<UIIcon width="PARENT_WIDTH" height="PARENT_HEIGHT" img="fx_white.tga" color="0F0F11" alpha='0.5'/>
+								</UIPane>
+							</UIGrid>
+						</UIPane>
+		
+						<UIScrollBar name='SB' style='EE_SCROLLBAR'/>
+					</UIListBox>
+					
+					<UIFrame  style="EE_GREY_FRAME"/>
+				</UIPane>
+				<UIPane width='DYNAMIC'>
+					<UIPane name="DESC_DOLL_OFFSET" width='454'/>
+				</UIPane>
+				<UIPane width='DYNAMIC'>
+					<UIPane name="DESC_FINISH_OFFSET" width='420' hidden='true'/>
+				</UIPane>
+				<UIPane width='DYNAMIC' height='DYNAMIC' pass_input_to_children='true'>
+					<UIButton name='DUMMY_FOCUS' focusable='true' tupple='true' hidden='true'/>
+				</UIPane>
+			</UIGrid>
+			
+		</UIPane>
+
+		<UIPane name='CLASS_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='6' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='6' height='60' name_prefix='false'>
+				<UIButton name="RECOMMEND_PROMPT" strref="235472" ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON'
+					OnLeftClick=UIButton_Input_CharGenRecommend("LEVELUP","CHARGEN_CLASS","CLASS_LIST")/>
+				<UIButton name="CLASS_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"CLASS_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("CLASS_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_CLASS") 
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_CLASS")/>
+		</UIPane>
+
+		<UIPane name='ALIGNMENT_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='5' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='5' height='60' name_prefix='false'>
+				<UIButton name="SELECT_PROMPT" strref='7863' inputmodebehaviour='3' ClickHotkey='UI_ACTIVATE' style='EE_MENU_PROMPT_BUTTON' />
+				<UIButton name="ALIGNMENT_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"ALIGNMENT_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("ALIGNMENT_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_ALIGNMENT") 
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_ALIGNMENT")/>
+		</UIPane>
+
+		<UIPane name='DEITY_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='5' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='5' height='60' name_prefix='false'>
+				<UIButton name="DEITY_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"DEITY_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("DEITY_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_DEITY")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_DEITY")/>
+		</UIPane>
+
+		<UIPane name='ABILITIES_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='6' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='5' height='60' name_prefix='false'>
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"ABILITIES_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("ABILITIES_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+				<UIButton name="ABILITIES_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="RECOMMEND_PROMPT" strref="235472" ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON'
+					OnLeftClick=UIButton_Input_CharGenRecommend("LEVELUP","CHARGEN_ABILITIES")/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_ABILITIES")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_ABILITIES")/>
+		</UIPane>
+
+		<UIPane name='BACKGROUND_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='5' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='5' height='60' name_prefix='false'>
+				<UIButton name="BACKGROUND_SELECT_PROMPT" strref='7863' inputmodebehaviour='3' ClickHotkey='UI_ACTIVATE' style='EE_MENU_PROMPT_BUTTON' />
+				<UIButton name="BACKGROUND_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"BACKGROUND_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("BACKGROUND_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_BACKGROUND")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_BACKGROUND")/>
+		</UIPane>
+
+		<UIPane name='PACKAGES_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='6' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='6' height='60' name_prefix='false'>
+				<UIPane width='DYNAMIC' height='60'>
+					<UIButton name="PACKAGES_SELECT_PROMPT" strref='7863' inputmodebehaviour='2' ClickHotkey='UI_ACTIVATE' style='EE_MENU_PROMPT_BUTTON' hidden='true'
+						OnLeftClick=UIButton_Input_ChargenCustomizePackage("LEVELUP")/>
+				</UIPane>
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"PACKAGES_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("PACKAGES_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+				<UIButton name="PACKAGES_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="RECOMMEND_PROMPT" strref="235472" ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON'
+					OnLeftClick=UIButton_Input_CharGenRecommend("LEVELUP","CHARGEN_PACKAGES","PACKAGES_LIST")/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_PACKAGES")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_PACKAGES")/>
+		</UIPane>
+
+		<UIPane name='SKILL_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='6' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='5' height='60' name_prefix='false'>
+				<UIButton name="RECOMMEND_PROMPT" strref="235472" ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON'
+					OnLeftClick=UIButton_Input_CharGenRecommend("LEVELUP","CHARGEN_SKILLS","SKILL_LIST")/>
+				<UIButton name="SKILL_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"SKILL_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("SKILL_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_SKILLS")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_SKILLS")/>
+		</UIPane>
+
+		<UIPane name='RANGER_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='5' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='5' height='60' name_prefix='false'>
+				<UIButton name="RANGER_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"RANGER_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("RANGER_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+			</UIGrid>
+			<UIButton name="RANGER_NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_RANGER")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_RANGER")/>
+		</UIPane>
+
+		<UIPane name='FEATS_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='5' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='5' height='60' name_prefix='false'>
+				<UIPane width='DYNAMIC' height='DYNAMIC'>
+					<UIButton name="FEATS_SELECT_PROMPT" strref='235544' inputmodebehaviour='2' ClickHotkey='UI_ACTIVATE' style='EE_MENU_PROMPT_BUTTON' hidden='true'/>
+				</UIPane>
+				<UIButton name="RECOMMEND_PROMPT" strref="235472" ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON'
+					OnLeftClick=UIButton_Input_CharGenRecommend("LEVELUP","CHARGEN_NORMAL_FEATS")/>
+				<UIButton name="FEATS_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_NORMAL_FEATS")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_NORMAL_FEATS")/>
+		</UIPane>
+
+		<UIPane name='BONUS_FEATS_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='5' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='5' height='60' name_prefix='false'>
+				<UIPane width='DYNAMIC' height='DYNAMIC'>
+					<UIButton name="BONUS_FEATS_SELECT_PROMPT" strref='7863' inputmodebehaviour='2' ClickHotkey='UI_ACTIVATE' style='EE_MENU_PROMPT_BUTTON' hidden='true'/>
+				</UIPane>
+				<UIButton name="BONUS_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="RECOMMEND_PROMPT" strref="235472" ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON'
+					OnLeftClick=UIButton_Input_CharGenRecommend("LEVELUP","CHARGEN_BONUS_FEATS")/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_BONUS_FEATS")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_BONUS_FEATS")/>
+		</UIPane>
+
+		<UIPane name='SCHOOL_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='6' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='6' height='60' name_prefix='false'>
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"SCHOOL_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("SCHOOL_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+				<UIButton name="SCHOOL_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="RECOMMEND_PROMPT" strref="235472" ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON'
+					OnLeftClick=UIButton_Input_CharGenRecommend("LEVELUP","CHARGEN_SCHOOL","SCHOOL_LIST")/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_SCHOOL") 
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_SCHOOL")/>
+		</UIPane>
+
+		<UIPane name='DOMAIN_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='6' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+			<UIGrid x='ALIGN_CENTER' rows='1' columns='5' height='60' name_prefix='false'>
+				<UIButton name="DOMAIN_SELECT_PROMPT" strref='7863' inputmodebehaviour='2' ClickHotkey='UI_ACTIVATE' style='EE_MENU_PROMPT_BUTTON' hidden='true'/>
+				<UIButton name="DOMAIN_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="RECOMMEND_PROMPT" strref="235472" ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON'
+					OnLeftClick=UIButton_Input_CharGenRecommend("LEVELUP","CHARGEN_DOMAIN","AVAILABLE_DOMAIN_LIST")/>
+			</UIGrid>
+            <UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_DOMAIN")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_DOMAIN")/>
+		</UIPane>
+
+		<UIPane name='SPELL_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='5' focusable='false' hidden='true' name_prefix='false'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+            <UIGrid x='ALIGN_CENTER' rows='1' columns='5' height='60' name_prefix='false'>
+				<UIPane width='DYNAMIC' height='DYNAMIC'>
+					<UIButton name="SPELL_SELECT_PROMPT" strref='235543' inputmodebehaviour='2' ClickHotkey='UI_ACTIVATE' style='EE_MENU_PROMPT_BUTTON' hidden='true'/>
+				</UIPane>
+				<UIButton name="RECOMMEND_PROMPT" strref="235472" ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON'
+					OnLeftClick=UIButton_Input_CharGenRecommend("LEVELUP","CHARGEN_SPELLS")/>
+				<UIButton name="SPELL_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_SPELLS")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_SPELLS")/>
+		</UIPane>
+
+		<UIPane name='ANIMAL_BUTTONS' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='6' focusable='false' hidden='true'>
+			<UIButton name="BACK_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+			<UIGrid x='ALIGN_CENTER' rows='1' columns='7' height='60' name_prefix='false'>
+				<UIButton name="ANIMAL_DETAILS_PROMPT" text='DETAILS' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>    
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"ANIMAL_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("ANIMAL_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>.
+				<UIPane width='DYNAMIC' height='DYNAMIC'>
+					<UIButton name="ANIMAL_EDIT_PROMPT" strref='7183' inputmodebehaviour='3' ClickHotkey='UI_ACTIVATE' style='EE_MENU_PROMPT_BUTTON' />
+				</UIPane>
+				<UIPane width='DYNAMIC' height='DYNAMIC'>
+					<UIButton name="ANIMAL_NAME_RAND" strref='1505' ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON' OnLeftClick='UIButton_Input_GenerateRandomName("ANIMAL_COMPANION_NAME","ANIMAL_NAME_FIELD")'/>
+				</UIPane>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_ANIMAL")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_ANIMAL")/>
+		</UIPane>
+
+		<UIPane name='FAMILIAR_BUTTONS' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='6' focusable='false' hidden='true'>
+			<UIButton name="BACK_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+			<UIGrid x='ALIGN_CENTER' rows='1' columns='7' height='60' name_prefix='false'>
+				<UIButton name="FAMILIAR_DETAILS_PROMPT" text='DETAILS' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>    
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"FAMILIAR_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("FAMILIAR_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+				<UIPane width='DYNAMIC' height='DYNAMIC'>
+					<UIButton name="FAM_EDIT_PROMPT" strref='7183' inputmodebehaviour='3' ClickHotkey='UI_ACTIVATE' style='EE_MENU_PROMPT_BUTTON' />
+				</UIPane>
+				<UIPane width='DYNAMIC' height='DYNAMIC'>
+					<UIButton name="FAMNAME_RAND" strref='1505' ClickHotkey='UI_HOTBAR' style='EE_MENU_PROMPT_BUTTON' OnLeftClick='UIButton_Input_GenerateRandomName("FAMILIAR_COMPANION_NAME","FAM_NAME_FIELD")'/>
+				</UIPane>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="181415" ClickHotkey='UI_CONTEXT_MENU' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_FAMILIAR")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_FAMILIAR")/>
+		</UIPane>
+
+		<UIPane name='FINISH_BUTTONS' x='ALIGN_CENTER' y="ALIGN_BOTTOM" width='PARENT_WIDTH' height='60' rows='1' columns='5' focusable='false' hidden='true'>
+			<UIButton name="CANCEL_PROMPT" strref='67' ClickHotkey='UI_BACK' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP")/>
+			<UIGrid x='ALIGN_CENTER' rows='1' columns='6' height='60' name_prefix='false'>
+				<UIButton name="FINISH_DETAILS_PROMPT" strref='235009' inputmodebehaviour='3' ClickHotkey='UI_PAGE_SWITCH' style='EE_MENU_PROMPT_BUTTON' 
+					OnLeftClick='UIButton_Input_SelectAdjacentInGroup("2","next","true")'/>
+				<UIButton name="VIEW_BUTTONPROMT" strref="235046" style='EE_MENU_PROMPT_BUTTON' ClickHotkey='UI_PAUSE' inputmodebehaviour='3'
+					OnLeftClick0=UIObject_Misc_SetLocalVarString(local:50,"FINISH_BUTTONS")
+					OnLeftClick1=UIButton_Input_HideObject("FINISH_BUTTONS")
+					OnLeftClick2=UIButton_Input_ShowObject("DOLL_BUTTONS")
+					OnLeftClick3=UIObject_Input_SetFocus("DOLLS_CONTAINER")/>
+			</UIGrid>
+			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="113711" ClickHotkey='UI_MENU_OPTIONS' style='EE_MENU_PROMPT_BUTTON'
+				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_FINISH")
+				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_FINISH")/>
+		</UIPane>
+
+	</UIPane>
+</UIPane>
+
+<UIIcon name="BG_BLACK_FADE" img="fx_white.tga" width='PARENT_WIDTH' height='PARENT_HEIGHT' color='000000' alpha='0.8'/>
+
+<UIPane x='ALIGN_CENTER' y='ALIGN_CENTER' width='DYNAMIC' height='PARENT_HEIGHT'>
+    <UIFrame style='EE_AREAMAP_LIGHT_FRAME' width='PARENT_WIDTH' height='PARENT_HEIGHT' />
+    <UIIcon name="MAIN_MENU_BG" img="menu_bg_art.tga" width='DYNAMIC' height='PARENT_HEIGHT'/>
+</UIPane>
+<UIIcon name="MAIN_MENU_BG_BLACK" img="fx_white.tga" width='PARENT_WIDTH' height='PARENT_HEIGHT' color='000000'/>

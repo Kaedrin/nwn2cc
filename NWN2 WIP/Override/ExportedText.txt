@@ -1,6 +1,6 @@
-#// Exported at 2025-07-21 00:33:25 // Simiy's Neverwinter Nights 2 TLK Editor __BEGIN
+#// Exported at 2025-08-18 09:40:20 // Simiy's Neverwinter Nights 2 TLK Editor __BEGIN
 #// File Path: 'C:\Users\mattw\OneDrive\Documents\GitHub\nwn2cc\NWN2 WIP\Override\dialog.TLK'
-#// Language: English, Total Item = [143629/243093]
+#// Language: English, Total Item = [143638/243401]
 #// 
 0 := Bad Strref
 1 := Barbarians
@@ -165471,42 +165471,6 @@ A character can achieve a maximum of 5 levels in the Shadow Thief of Amn prestig
 
 - <b>Improved Uncanny Dodge:</b> At 5th level the shadow thief can no longer be sneak attacked except by a character with 4 more total levels in classes that grant sneak attack than the shadow thief's level.
 233958 := Rocks
-233959 := <color=Gold><b>Neverwinter Nine</b></color>
-
-<color=Red>(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)</color>
-
-The Neverwinter Nine are part of a close circle of bodyguards that protect Lord Nasher and, to a greater extent, Neverwinter itself. The Neverwinter Nine are selfless wardens with powers to shield others from harm and react to danger with equal parts focus and fury. While bodyguard by title, the Neverwinter Nines' abilities aren't strictly defensive; they are trained to kill swiftly, not to endlessly absorb punishment until more help arrives. Members of the Nine come from all walks of life, though the job is most suited for fighters, rangers, paladins, rogues, and monks who have the necessary mix of martial prowess and combat reflexes.
-
-A character can achieve a maximum of 5 levels in the Neverwinter Nine prestige class.
-
-<color=Gold>Requirements:</color>
-
-<b>Base Attack Bonus:</b> +6
-
-<color=Gold>Class Features:</color>
-
-- <b>Hit Die:</b> d8
-
-- <b>Base Attack Bonus:</b> High.
-
-- <b>High Saves:</b> Reflex and Will.
-
-- <b>Weapon Proficiencies:</b> None.
-
-- <b>Armor Proficiencies:</b> None.
-
-- <b>Skill Points:</b> 4 + Int modifier.
-
-- <b>Class Skills:</b> Concentration, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Diplomacy, Heal, Intimidate, Listen, Lore, Search, Spot, and Parry.
-
-- <b>Protective Aura:</b> At 1st level, the Nine gain an aura that grants +2 to all saving throws, +1 deflection bonus to armor class for all allies within 10 feet. This bonus does NOT apply to the Nine, only to his allies). At 4th level, this bonus increases to +3 saving throws, +2 deflection bonus, and the protection extends to allies within 15 feet.
-
-- <b>Guarding the Lord:</b> Beginning at 3rd level, the Nine can protect one selected ally within 30 feet. This protection acts as the shield other spell cast at the Nine's character level. The only difference with the spell is that the target only takes 30% damage (instead of 50%), and the member of the Nine takes half the initial damage rounded down (instead of the remaining). This ability can be used three times per day.
-
-- <b>Frantic Reactions:</b> At 3rd level, the Nine can rush across the battlefield and defeat enemies plaguing his allies.  This translates to a +10% increase in movement speed, +2 bonus to AC against attacks of opportunity provoked by movement and +2d6 sneak attack damage.
-
-- <b>All-Out Assault:</b> At 5th level, the Nine can concentrate for a round and focus his strength, making all of his melee attacks for the next three rounds inflict maximum damage. However, at the end of each of these three rounds, the Nine takes 10 points of damage from the incredible strain. This ability can be used once per day.
-
 233960 := Exploration Mode
 233961 := These ebon gauntlets were originally created for a small Banite order of monks called the Black Hand, allowing them to channel their lord's power through their every strike. Nowadays they can occasionally be found among the upper echelon of Bane's faithful, who prize them as instruments of exquisite torture.
 233962 := TIP: A character can wear two magical rings, one on each hand. Each ring must be unique, though, as identical effects will not stack.
@@ -166727,6 +166691,9 @@ Use: Automatic.
 Prerequisite: Deep Imaskari, Elf, half-elf, or gnome; spirit shaman level 20; or Heartwarder 10.
 Specifics: Low-light vision grants the ability to see in the dark, but not as far as darkvision.
 Use: Selected.
+240006 := Type of Feat: Class
+Prerequisite: Turn Undead, Extra Turning
+Specifics: You can expend a turn undead attempt to create a pulse of divine energy. All living creatures within 60 feet of you heal an amount of damage equal to 1d8 for every 2 points of Charisma modifier plus your Charisma modifier (if any). All undead creatures in this area take damage equal to 1d8 for every 2 points of Charisma modifier plus your Charisma modifier (if any).
 240007 := Tempest
 240008 := Tempests
 240009 := tempest
@@ -167659,7 +167626,7 @@ At 9th level the Shocking Blade and Holy Blade abilities will also grant a +2 at
 240146 := At 5th level, the shining blade can cause a melee weapon he is holding to become a holy weapon, dealing an extra 2d6 points of divine damage against evil on a successful hit.  The weapon is enchanced this way for up to a number of rounds equal to the shining blade's level plus his Charisma modifier (if any).  In a given combat a shining blade can spend one standard action to make his weapon holy and another to make it a shock weapon with Shocking Blade.
 
 At 9th level the Shocking Blade and Holy Blade abilities will also grant a +2 attack bonus. If both abilities are used on the same weapon the bonus will stack.
-240147 := <color=Gold><b>War Priest</b></color>
+240147 := <color=Gold><b>Warpriest</b></color>
 
 <color=Red>(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)</color>
 
@@ -168473,7 +168440,7 @@ Use: Selected. When used against undead creatures it is treated as a touch attac
 240298 := Type of Feat: Reserve
 You can channel magical energy into orbs of acid.
 Prerequisite: Ability to cast 2nd-level spells.
-Benefit: As long as you have an acid spell of 2nd level or higher available to cast, you can throw an orb of acid as a ranged touch attack. The attack has a range of 5 feet per level of the highest-level acid spell you have available to cast and deals 1d3+3 points of damage per level of that acid spell.
+Benefit: As long as you have an acid spell of 2nd level or higher available to cast, you can throw an orb of acid as a ranged touch attack. The attack has a range of 65 feet and deals 1d3+3 points of damage per level of your highest-level acid spell memorized.
 
 This spell gains damage from Sneak Attack and Death Attack when appropriate.
 
@@ -168492,7 +168459,7 @@ Trigger Spells: Cacophonic Burst, Shout, Greater Shout, Castigate, Energized Shi
 240302 := Type of Feat: Reserve
 You channel your magical talent into a blast of fire.
 Prerequisite: Ability to cast 2nd-level spells.
-Benefit: As long as you have a fire spell of 2nd level or higher available to cast, you can spend a standard action to create a 30-foot-radius burst of fire at a range of 65 feet. This burst deals 1d6 points of fire damage per level of the highest-level fire spell you have available to cast. A successful Reflex save halves the damage. Having levels of Mystic Reservist removes the Reflex save. This ability does not affect allies.
+Benefit: As long as you have a fire spell of 2nd level or higher available to cast, you can spend a standard action to create a 20-foot-radius burst of fire at a range of 65 feet. This burst deals 1d3+3 points of fire damage per level of the highest-level fire spell you have available to cast. A successful Reflex save halves the damage. If you have levels of Mystic Reservist, there is no Reflex save. This ability does not affect allies.
 
 Trigger Spells: Deadly Lahar, Delayed Blast Fireball, Elemental Shield, Fire Storm, Fireball, Flame Arrow, Flame Strike, Incendiary Cloud, Meteor Swarm, Shades, Wall of Fire, Firebrand, Inferno, Combust, Flame Weapon, Fireburst, Greater Fireburst, Shroud of Flame, Body of the Sun, Scorching Ray, Lesser Energized Shield, Energized Shield, Flame of Faith, Weapon of Energy, Orb of Fire, Heartfire
 
@@ -168507,7 +168474,7 @@ Trigger Spells: Flaywind Burst, Gust of Wind, Elemental Swarm
 240306 := Type of Feat: Reserve
 You create tiny darts of force.
 Prerequisite: Ability to cast 3rd-level spells.
-Benefit: As long as you have a force spell of 3rd level or higher available to cast, you can use a standard action to hurl a tiny needle-shaped projectile created from pure force. This attack requires a successful ranged touch attack roll, and the dart has a range of 5 feet per level of the force spell. The needle deals 1d3+3 points of damage per level of the highest-level force spell you have available.
+Benefit: As long as you have a force spell of 3rd level or higher available to cast, you can use a standard action to hurl a tiny needle-shaped projectile created from pure force. This attack requires a successful ranged touch attack roll, and the dart has a range of 65 feet. The needle deals 1d3+3 points of damage per level of the highest-level force spell you have available.
 
 This spell gains damage from Sneak Attack and Death Attack when appropriate.
 
@@ -168530,7 +168497,7 @@ Having at least one use left of Wildshape allows Minor Shapeshift to be used as 
 240310 := Type of Feat: Reserve
 The electrical energy contained within your magic rages inside you, begging to be released.
 Prerequisite: Ability to cast 3rd-level spells.
-Benefit: As long as you have a electricity spell of 3rd level or higher available to cast, you can fire a 60-foot line of electricity as a standard action. This bolt deals 1d6 points of electricity damage per level of the highest-level electricity spell you have available to cast. Stormsingers gain a bonus number of dice equal to their class level as well as a boost to DC equal to half their class level. A successful Reflex save halves damage. Having levels of Mystic Reservist removes the Reflex save. This ability does not affect allies.
+Benefit: As long as you have a electricity spell of 3rd level or higher available to cast, you can fire a 30-foot line of electricity as a standard action. This bolt deals 1d3+3 points of electricity damage per level of the highest-level electricity spell you have available to cast. Stormsingers gain a bonus number of dice equal to their class level as well as a boost to DC equal to half their class level. A successful Reflex save halves damage. Having levels of Mystic Reservist removes the Reflex save. This ability does not affect allies.
 
 Trigger Spells: Arc of Lightning, Call Lightning, Chain Lightning, Lightning Bolt, Storm of Vengeance, Scintillating Sphere, Call Lightning Storm, Energized Shield, Weapon of Energy, Orb of Electricty, Lightning Blast
 240311 := Sickening Grasp
@@ -168555,7 +168522,7 @@ Trigger Spells: Elemental Swarm, Gate, Greater Shadow Conjuration, Shades, Shado
 240316 := Type of Feat: Reserve
 The frozen magic within you can burst forth in a hail of frost.
 Prerequisite: Ability to cast 2nd-level spells.
-Benefit: As long as you have a cold spell of 2nd level or higher available to cast, you can create a 30-foot cone-shaped burst of cold. This cone deals 1d6 points of cold damage per level of the highest-level cold spell you have available to cast. A successful Fortitude save halves the damage. Having levels of Mystic Reservist removes the Fortitude save. This ability does not affect allies.
+Benefit: As long as you have a cold spell of 2nd level or higher available to cast, you can create a 30-foot cone-shaped burst of cold. This cone deals 1d3+3 points of cold damage per level of the highest-level cold spell you have available to cast. A successful Fortitude save halves the damage. Having levels of Mystic Reservist removes the Fortitude save. This ability does not affect allies.
 
 Trigger Spells: Cone of Cold, Elemental Shield, Frost Breath, Shades, Ice Storm, Polar Ray, Hypothermia, Creeping Cold, Greater Creeping Cold, Glacial Wrath, Lesser Energized Shield, Energized Shield, Weapon of Energy, Orb Cold, Arc of Frost, and Call Frost.
 240317 := Holy Warrior
@@ -168571,8 +168538,9 @@ Trigger Spells: Power Word Kill, Power Word Stun, Blade Barrier, Divine Power, F
 Your fervor in protecting the wild has afforded you divine protection from danger which shields you from attacks.
 Prerequisite: Ranger 4, Ability to cast level 1 Ranger spells.
 Benefit: You gain a +1 Dodge AC bonus. This bonus increases to +2 at 24th level as a Ranger. 
-If you do not have levels in any other class except for Ranger, you instead gain the following benefits: At level 4 you gain a +2 Dodge AC bonus and a +1 Attack bonus. This bonus increases to +4 Dodge AC and +2 Attack bonus at 24th level.
+If you do not have levels in any other class except for Ranger, you instead gain the following benefits: At level 4 you gain a +1 Dodge AC bonus and a +1 Attack bonus. This bonus becomes +2 Dodge AC and a +1 Attack bonus at 8th level. This bonus becomes +3 Dodge AC and +1 Attack bonus at 11th level. This bonus becomes +4 Dodge AC and a +1 Attack bonus at 14th level. This bonus finally becomes +4 Dodge AC and +2 Attack bonus at 24th level.
 Use: Automatic.
+Note: If you have levels in Knight of the Wild, then Paladin levels and Knight of the Wild levels count as Ranger. If you have the feat Wildfire Blades, then Invisible Blade levels count as Ranger.
 240321 := Touch of Healing
 240322 := Type of Feat: Reserve
 You can channel divine energy into healing with a touch.
@@ -169648,7 +169616,7 @@ Druids and rangers most commonly become lions of Talisid, and only a character w
 
 - <b>Hit Die:</b> d8
 
-- <b>Base Attack Bonus:</b> Medium.
+- <b>Base Attack Bonus:</b> High.
 
 - <b>High Saves:</b> Fort, Will.
 
@@ -170079,11 +170047,6 @@ Level 5: Beam of Sunlight, Radiant Aura 3/day
 - <b>Searing Light:</b> Beginning at 2nd level, a master of radiance can use <i>searing light</i> once per round as long as her radiant aura is active. Treat the character's caster level for this effect as the equal to her highest divine caster level + 2.
 
 - <b>Beam of Sunlight:</b> A 5th-level master of radiance can evoke a dazzling beam of intense light (the equivalent of a beam from the sunbeam spell) once per round as long as her radiant aura is active. Treat the character's caster level for this effect as the equal to her highest divine caster level + 2.
-
-
-
-
-
 240577 := Default Master of Radiance
 240578 := <color=Gold><b>Default Master of Radiance</b></color>
 
@@ -171297,6 +171260,7 @@ A skullclan hunter is most often a rogue who has had a terrible encounter with a
 
 <color=Gold>Requirements:</color>
 
+<b>Class:</b> Paladin 1.
 <b>Alignment:</b> Any good.
 <b>Feats:</b> Turn Undead.
 <b>Skills:</b> Lore 8.
@@ -171899,9 +171863,6 @@ Level 10: Bonus Feat: Sacred Vengeance
 - <b>Sacred Stealth:</b> A shadowbane stalker can channel some of her divine power to become stealthier. She expends one use of Turn Undead and gains a +4 sacred bonus to Hide and Move Silently checks for a number of minutes equal to her Charisma bonus. At 7th level, the bonus increases to +8.
 
 - <b>Discover Subterfuge:</b> A shadowbane stalker trains diligently to detect subterfuge and the misdirection of others. At 2nd level and higher, she gains a +2 competence bonus on Search checks. This bonus increases to +4 at 5th level and +6 at 8th level.
-
-
-
 240982 := Default Shadowbane Stalker
 240983 := <color=Gold><b>Default Shadowbane Stalker</b></color>
 
@@ -172005,8 +171966,6 @@ When an elemental warrior reaches 5th level, this ability improves. The extra da
 Air, Earth: Target takes 10d6 points of blunt damage from the crushing touch attack and is knocked down (Fort save negates knockdown).
 Fire: Target takes 10d6 points of fire damage and catches fire for 1d4 rounds (Fort save negates catching on fire). The target takes 1d6 fire damage for each round they are on fire unless they make a Reflex save, in which case the flames end.
 Water: Target takes 10d6 points of magic damage as moisture is drawn from its body and becomes nauseated for 1 round (Fort save negates nausea).
-
-
 241004 := Elemental Affinity (Air)
 241005 := Elemental Affinity (Earth)
 241006 := Elemental Affinity (Fire)
@@ -172107,8 +172066,6 @@ Level 10: Minor Teleportation, Critical Sense (+2 attack bonus)
 - <b>Expert Tumbling:</b> At 5th level the Whirling Dervish gains the ability to use her tumbling skills to better avoid being hit in combat. She gains a +1 Dodge AC bonus.
 
 - <b>Minor Teleportation:</b> At tenth level, the Whirling Dervish gains the supernatural ability to disappear from sight and travel a short distance without the enemy finding her (equal to the ethereal jaunt spell for 10 rounds). The Whirling Dervish may do this three times per day.
-
-
 241025 := Default Whirling Dervish
 241026 := <color=Gold><b>Default Whirling Dervish</b></color>
 
@@ -172333,9 +172290,6 @@ Level 10: Energy Resistance 10, True Strike 2/day
 - <b>Lightning Reflexes:</b> A dragonslayer gains Lightning Reflexes as a bonus feat at 6th level.
 
 - <b>Greater Spell Penetration:</b> A dragonslayer gains Greater Spell Penetration as a bonus feat at 7th level.
-
-
-
 241304 := Default Dragonslayer
 241305 := <color=Gold><b>Default Dragonslayer</b></color>
 
@@ -172572,7 +172526,7 @@ Affected spells: Elemental Swarm, Greater Planar Binding, Lesser Planar Binding,
 241368 := Ashbound
 241369 := Type of Feat: Spellcasting
 You have been trained in a druidic tradition focusing on becoming one of nature's avengers. You consider the use of arcane magic to be a vile and unnatural act.
-Prerequisite: Animal Companion, Elemental Companion, or Telthor Companion
+Prerequisite: Animal Companion or Telthor Companion
 Benefit: The duration of your summon creature spells is doubled. Creatures summoned by those spells receive a +3 bonus on their attack rolls.
 Use: Automatic.
 
@@ -172615,7 +172569,7 @@ Use: Automatic.
 241386 := Type of Feat: General
 By following an ancient druidic ritual, your ability to track while in wildshape is heightened.
 Prerequisite: Base Fortitude +4, Wild Shape.
-Benefit: You gain a +4 Survival bonus while wildshaped.
+Benefit: You gain a Survival bonus while wildshaped equal to half your level, +10 max.
 Use: Automatic.
 241387 := Unstoppable Ferocity
 241388 := Type of Feat: General
@@ -172705,6 +172659,45 @@ You can apply a selected metamagic feat to your spells more easily.
 Prerequisite: Spellcraft 8, Quicken Spell, Level 3 spells.
 Benefit: When applying the chosen metamagic feat to a spell, the spell uses a spell slot one level lower than normal for the applied metamagic feat.
 Use: Automatic.
+241417 := <color=Gold><b>Aasimar</b></color>
+
+Carrying the blood of a celestial, an aasimar typically fights against evil in the world. Some have a minor physical trait suggesting their heritage such as silver hair, golden eyes, or an unnaturally intense stare. Those descended from a celestial minion often carry a birthmark in the shape of the deity's holy symbol or some other mark significant to that faith. 
+
+<color=Gold><b>Racial Traits:</b></color>
+
+- <b>Ability Adjustments:</b> +2 Wisdom, +2 Charisma. 
+
+- <b>Darkvision:</b> Aasimar can see in the dark up to 60 feet. 
+
+- <b>Celestial Resistance:</b> Acid, cold, and electricity resistance 5.
+
+- <b>Spell-like abilities:</b>
+
+     1/day - <i>Light</i> as sorcerer of equal level.
+
+- <b>Keen Senses:</b> +2 racial bonus to Listen and Spot checks.
+
+- <b>Favored Class:</b> Paladin.  A multiclass aasimar's paladin class does not count when determining whether she takes an experience point penalty for multiclassing.
+241418 := <color=Gold><b>Tiefling</b></color>
+
+Because they are descended from evil outsiders, those who know their ancestry immediately consider most tieflings evil and untrustworthy. Not all tieflings are evil or untrustworthy, but enough are that the prejudice tends to cling. Some tieflings have a minor physical trait suggesting their heritage, such as pointed teeth, red eyes, small horns, the odor of brimstone, cloven feet, or just an unnatural aura of wrongness. Those descended from an infernal minion often carry a birthmark of the deity's holy symbol or another trait related to that evil faith.
+
+<color=Gold><b>Racial Traits:</b></color>
+
+- <b>Ability Adjustments:</b> +2 Dexterity, +2 Intelligence, -2 Charisma. 
+
+- <b>Darkvision:</b> Tieflings can see in the dark up to 60 feet. 
+
+- <b>Infernal Resistance:</b> Cold, fire, and electricity resistance 5.
+
+- <b>Spell-like abilities:</b>
+
+     1/day - <i>Darkness</i> as a sorcerer of equal level.
+
+- <b>Skill Affinities:</b> +2 racial bonus to Bluff and Hide checks.
+
+- <b>Favored class:</b> Rogue. A multiclass tiefling's rogue class does not count when determining whether she takes an experience point penalty for multiclassing.
+
 241419 := Fist of the Forest
 241420 := Fists of the Forest
 241421 := fist of the forest
@@ -173048,8 +173041,7 @@ Arcane Spell Failure: 0%
 Feats Required: Light Armor
 241472 := Type of Feat: Class
 Prerequisite: Frenzied Berserker level 1
-Specifics: The frenzied berserker gains this ability at 1st level. Frenzy works like a modified version of the barbarian's rage ability. It adds a +6 bonus to Strength (no Constitution bonus), imposes a -4 penalty to AC,  and gives the frenzied berserker a single extra attack at his highest Base Attack Bonus (this does not stack with Haste or other effects that add an additional attack). Each round of the frenzy, the frenzied berserker takes 2 points of damage (6 if they do not have any Barbarian levels). The effects last 3 + Constitution modifier rounds, after which the frenzied berserker is fatigued for 5 rounds, suffering -2 Strength, -2 Dexterity, and -10% movement penalties. Initially, this ability can be used once per day and at 3rd level and every odd level after that, the frenzied berserker gains an additional use per day. This is an instantly activated ability.
-Special: Bonuses and penalties (including fatigue penalties) from Frenzy and Barbarian Rage stack. Extend rage also extends the duration of frenzy.
+Specifics: - A 1st-level frenzied berserker gains the ability to frenzy. Frenzy adds a +6 bonus to Strength (no Constitution bonus), imposes a -4 penalty to AC,  and gives the frenzied berserker a single extra attack at his highest Base Attack Bonus (this does not stack with Haste or other effects that add an additional attack). Each round of the frenzy, the frenzied berserker takes 6 points of damage (2 if he has any barbarian levels). The effects last 3 + Constitution modifier rounds, after which the frenzied berserker is fatigued for 5 rounds, suffering -2 Strength, -2 Dexterity, and -10% movement penalties. Level 10 Frenzied Berserkers are no longer fatigued by using Frenzy. Initially, this ability can be used once per day and at 3rd level and every odd level after that, the frenzied berserker gains an additional use per day. Bonuses and penalties (including fatigue effects) from Frenzy and Barbarian Rage stack with each other. The Tireless feat also prevents this fatigue. 
 Use: Selected. This ability cannot be re-used until the fatigue effects have expired.
 241473 := Sword Dancer Spellcasting Class (Cleric)
 241474 := Sword Dancer Spellcasting Class (Druid)
@@ -173221,8 +173213,6 @@ Level 5: Anti-Magic Melody
 - <b>Break Concentration:</b> At 3rd level, a dissonant chord becomes expert at distracting spellcasters, her discordant ways interfering with spellcasting. Any enemies within 30' of the dissonant chord suffer a penalty to concentration equal to the dissonant chord's class level plus Charisma modifier.
 
 - <b>Anti-Magic Melody:</b> At 5th level, a dissonant chord can use her Perform skill to negate magic. This works as Mordenkainen's Disjunctions with a cap equal to her bard level (no prestige classes count and this has a +25 max cap). This potent ability is quite exhausting to use as each time it is activated it uses three of her bardic music uses for the day.
-
-
 241506 := Default Dissonant Chord
 241507 := <color=Gold><b>Default Dissonant Chord</b></color>
 
@@ -173367,8 +173357,6 @@ Level 10: Dancing Shadows 3/day, Night Form
 - <b>Dancing Shadows:</b> At 3rd level, you can grant yourself 50% concealment for one round per class level. At 7th level and above, you can use dancing shadows twice per day. At 10th level, you can use dancing shadows three times per day. This is an instant feat.
 
 - <b>Night Form:</b> For 1 minute per day, you can take the form of a Nightwalker while retaining your ability to cast spells.
-
-
 241534 := Default Child of Night
 241535 := <color=Gold><b>Default Child of Night</b></color>
 
@@ -173539,7 +173527,7 @@ Use: Automatic.
 
 Wild, exotic, and as dangerous as her whirling blades, the dervish epitomizes speed, quickness, and abandon. Her motions appear to be as random as they are graceful, but the steps of her lethal dance play out according to their own rhythm.
 
-Nearly all dervishes belong to nomadic cultures. These nomads are not simple wanderers with no roots to call their own - they have their ancient traditions, and their societies simply do not consider permanent settlements an important part of their nature. They are gypsies, keeping their own traditions and forging their own familial and societal bonds while they move throughout the world. Often, these tribes adopt the attitudes and even some of the laws of the lands they live in - for the sake of expedience, if nothing else. The dervish treats fighting styles the same way. A dervish learns the dance of war as she grows up among her family and her tribe. She watches others as she travels, however, and brings new steps to the dance as she goes.
+Nearly all dervishes belong to nomadic cultures. These nomads are not simple wanderers with no roots to call their own - they have their ancient traditions, and their societies simply do not consider permanent settlements an important part of their nature. They are wanderers, keeping their own traditions and forging their own familial and societal bonds while they move throughout the world. Often, these tribes adopt the attitudes and even some of the laws of the lands they live in - for the sake of expedience, if nothing else. The dervish treats fighting styles the same way. A dervish learns the dance of war as she grows up among her family and her tribe. She watches others as she travels, however, and brings new steps to the dance as she goes.
 
 Fighters, rangers, and monks often take up the role of the dervish. Many paladins look at the wildness of the dance and assume it has some roots in chaos, but those who look past the seeming randomness can find things to learn. Barbarians seldom choose to learn the ways of the dance - the dervish depends on subtlety more than brute force. The way of the dervish has been known to appeal to some druids, bards, and even sorcerers - those who wish to learn a type of fighting that does not rely on heavy arms or armor find the class interesting.
 
@@ -174801,7 +174789,7 @@ Range: Medium
 Target: Allies in a 20-ft.-radius burst
 Duration: 1 minute/level
 
-Allies gain a +1 bonus to their Dodge AC and saving throws. This spell does not affect the caster.
+Allies gain a +1 bonus to their Dodge AC and saving throws. This spell does not affect the caster unless they are a paladin.
 
 <i>You call upon your holy powers to aid your companions and a golden light appears from above, bathing them with sparkling radiance.</i>
 241900 := Reckless Offensive
@@ -175049,7 +175037,7 @@ Components: V,S
 Area: 20-ft. radius burst
 Duration: Instantaneous
 
-Nearby allies when the spell is cast are cured of 1d8 +1 point per caster level (maximum +10) damage. They also gain 1 point of regen for 1 minute per caster level.
+Nearby allies when the spell is cast are cured of 1d8 +1 point per caster level (maximum +10) damage. They also gain 2 points of regen for 1 minute per caster level.
 241963 := Insignia of Warding
 241964 := Enchantment
 Level: Paladin 3, Ranger 3
@@ -175406,6 +175394,11 @@ This package does not give any special abilities to your character. It simply co
 Specifics: At each Feywild Warden level, the character gains new divine spells per day as if she had also gained a Spirit Shaman level.
 Use: Automatic.
 242030 := Faerie Fire (at will)
+242031 := Type of Feat: Class
+Prerequisite: Frenzied berserker level 6.
+Specifics: At 6th level, the frenzied berserker can inspire Frenzy in all allies. This ability has no effect on the frenzied berserker, only the berserker's allies. The Frenzy effect adds a +6 bonus to Strength (no Constitution bonus, +10 Strength at 8th level), imposes a -4 penalty to AC,  and gives the subjects a single extra attack at their highest Base Attack Bonus (this does not stack with Haste or other effects that add an additional attack). Each round of the frenzy, the subjects takes 6 points of damage (2 if they have any barbarian levels). The effects last 3 + Con modifier rounds, after which the subjects are fatigued for 5 rounds, suffering -2 Strength, -2 Dexterity, and -10% movement penalties. The frenzied berserker can use this ability once per day at 6th level, twice at 8th level, and three times at 10th level. 
+Special: Bonuses from Inspire Frenzy and Barbarian Rage do not stack, though penalties do. If both abilities are used, only the highest modifiers are applied and all penalties take effect.
+Use: Selected. The frenzied berserker must wait at least four rounds between uses of this ability.
 242032 := Spirit Journey
 242034 := Rejuvenate
 242036 := Heartfire
@@ -175507,17 +175500,18 @@ Use: Automatic.
 Prerequisite: Plant Shape (Verdant Guardian)
 Specifics: The verdant guardian can use wild shape to take the form of a treant or shambling mound two additional times per day (with a druid level equal to his verdant guardian level). The verdant guardian can cast spells normally while in plant shape.
 Use: Selected.
-242062 := Wild Marksman
+242062 := Wild Hunter
+
 242063 := Your bow is not your only companion.
-Prerequisites: Marksman 1, Natural Bond
-Benefit: Your Marksman level (-3) is added to your Ranger levels for determining your companions effectiveness.
+Prerequisites: Marksman 1 or Arbalest 1, Natural Bond
+Benefit: Your Marksman level (-3) or Arbalest level (-3) is added to your Ranger levels for determining your companions effectiveness.
 242064 := Battlefield Surveyor
 242065 := Your skill at studying the shifting tides of battle have improved your ability to hear or spot enemies.
 Prerequisites: Tracking, Scout 5
 Benefit: You gain a +1 bonus to Listen and Spot for every 3 levels of Scout and Wilderness Stalker.
 242066 := Epic Empty Body
 242067 := Prerequisites: Empty Body
-Benefit: A monk gains haste while using Empty Body. The duration of Empty Body is extended by his Wisdom modifier. Arcane Fist, Sacred Fist, and Spiritual Fist levels are treated as Monk levels.
+Benefit: A monk gains haste while using Empty Body. The duration of Empty Body is extended by his Wisdom modifier. Sacred Fist levels are treated as Monk levels.
 242074 := Invocation Type: Dark
 Spell Level Equivalent: 9
 
@@ -175821,13 +175815,13 @@ Level 10: Daggerspell Flurry, Wild Shape (4/day)
 
 - <b>Sneak Attack:</b> Beginning at 3rd level, a daggerspell shaper deals an extra dice of sneak attack. It increases to two dice at 6th level and three dice at 9th level.
 
-- <b>Daggercast: When making a melee touch attack spell the shaper uses her dagger to deliver the spell, adding her right hand's dagger damage to the spells (base dagger damage plus any enhance bonus). Supported spells are Cause Light Wounds, Cause Moderate Wounds, Cause Serious Wounds, Harm, and the reserve feat Clap of Thunder.
+- <b>Daggercast:</b> When making a melee touch attack spell the shaper uses her dagger to deliver the spell, adding her right hand's dagger damage to the spells (base dagger damage plus any enhance bonus). Supported spells are Cause Light Wounds, Cause Moderate Wounds, Cause Serious Wounds, Harm, and the reserve feat Clap of Thunder.
 
-- <b>Wild Shape: Daggerspell shaper class levels stack with druid levels (along with Lion of Talisid and Nature's Warrior) to determine wild shape abilities. A daggerspell shaper gains one additional daily use of her wild shape ability at 1st level, 4th level, 7th level, and 10th level.
+- <b>Wild Shape:</b> Daggerspell shaper class levels stack with druid levels (along with Lion of Talisid and Nature's Warrior) to determine wild shape abilities. A daggerspell shaper gains one additional daily use of her wild shape ability at 1st level, 4th level, 7th level, and 10th level.
 
-- <b>Dagger Claws: When a daggerspell shaper of 2nd level or higher uses wild shape, she adds the enhance bonus from the dagger she is holding in her right hand into the natural attacks of her new form.  
+- <b>Dagger Claws:</b> When a daggerspell shaper of 2nd level or higher uses wild shape, she adds the enhance bonus from the dagger she is holding in her right hand into the natural attacks of her new form.  
 
-- <b>Daggerspell Flurry: A 10th-level daggerspell shaper can blend spellcasting with a flurry of dagger attacks. When delivering a touch attack spell and wielding daggers, the daggerspell shaper adds each of her dagger's damage (base damage plus any enhance bonus) to the touch spell's damage. This replaces the Daggercast ability by adding both daggers damage instead of the main hand's damage. Supported spells are Cause Light Wounds, Cause Moderate Wounds, Cause Serious Wounds, Harm, and the reserve feat Clap of Thunder. Each dagger's damage is applied separately of the touch spell's affect.
+- <b>Daggerspell Flurry:</b> A 10th-level daggerspell shaper can blend spellcasting with a flurry of dagger attacks. When delivering a touch attack spell and wielding daggers, the daggerspell shaper adds each of her dagger's damage (base damage plus any enhance bonus) to the touch spell's damage. This replaces the Daggercast ability by adding both daggers damage instead of the main hand's damage. Supported spells are Cause Light Wounds, Cause Moderate Wounds, Cause Serious Wounds, Harm, and the reserve feat Clap of Thunder. Each dagger's damage is applied separately of the touch spell's affect.
 242125 := Default Daggerspell Shaper
 242126 := <color=Gold><b>Default Daggerspell Shaper</b></color>
 
@@ -175898,6 +175892,11 @@ When you use this invocation, you gain remarkable resilience to any one energy t
 242155 := Ignore the Pyre (Electricity)
 242156 := Ignore the Pyre (Fire)
 242157 := Ignore the Pyre (Sonic)
+242158 := Crossbow Combat Style
+242159 := Type of Feat: Class
+Prerequisite: Ranger 2
+Specifics: You have chosen to train in the art of the crossbow. As your ranger level increases, you gain the following bonus feats: Rapid Reload at 2nd level, Crossbow Sniper at 6th level (full bonus), Crossbow Mastery at 11th level, and Epic Rapid Reload at 21st. You gain the benefit of these feats even if you do not meet their prerequisites.
+Use: Automatic.
 242160 := Guttural Invocations
 242161 := Type of Feat: Spellcasting
 Prerequisites: Warlock level 5, 13 Wisdom.
@@ -176115,7 +176114,7 @@ This spell imparts to all allies in its area a shared awareness of their surroun
 <i>Your senses are muddied for a moment, but when they clear, your sight and hearing are improved.</i>
 242211 := Hawkeye
 242212 := Transmutation
-Level: Druid 2, Ranger 1
+Level: Druid 1, Ranger 1
 Components: V
 Range: Personal
 Target: You
@@ -176743,12 +176742,8 @@ At first level an Elite Commando chooses a path to follow which will dictate the
 - <b>Way of the Slayer:</b> An Elite Commando who chooses the way of the slayer seeks to master the art of war with a minor emphasis on stealth and gains +1 Dodge AC at 1st level, a +1 Attack Bonus at 3rd level, and +2 magic damage at 5th level.
 
 - <b>Way of the Tome:</b> An Elite Commando who chooses the way of the tome seeks to blend the ways of war and stealth with further studies of magic. They gain +1 level of spellcasting progression as a Wizard at levels 3, 4, and 5.
+242288 := 
 
-
-242288 := Type of Feat: Epic
-Prerequisites: 20/day Bard Songs, Perform 24.
-Specifics: This song damages all enemies within 20 feet for 5 rounds. The total sonic damage caused is equal to 2*Perform skill; the minimum damage caused per target is Perform/3. For example, with Perform 30, a total of 60 points of damage is inflicted each round. If six (or more) enemies are affected, they would each take 10 sonic damage per round. This ability has a cooldown of 20 rounds.
-Use: Selected.
 242289 := Default Elite Commando
 242290 := <color=Gold><b>Default Elite Commando</b></color>
 
@@ -176823,7 +176818,7 @@ The random madness of the thunderstorm and the unpredictability of the slaadi co
 
 - <b>Toughness:</b> A 1st-level frenzied berserker gains Toughness as a bonus feat.
 
-- <b>Frenzy:</b> A 1st-level frenzied berserker gains the ability to frenzy. Frenzy adds a +6 bonus to Strength (no Constitution bonus), imposes a -4 penalty to AC,  and gives the frenzied berserker a single extra attack at his highest Base Attack Bonus (this does not stack with Haste or other effects that add an additional attack). Each round of the frenzy, the frenzied berserker takes 2 points of damage. The effects last 3 + Constitution modifier rounds, after which the frenzied berserker is fatigued for 5 rounds, suffering -2 Strength, -2 Dexterity, and -10% movement penalties. Level 10 Frenzied Berserkers are no longer fatigued by using Frenzy. Initially, this ability can be used once per day and at 3rd level and every odd level after that, the frenzied berserker gains an additional use per day. Bonuses and penalties (including fatigue effects) from Frenzy and Barbarian Rage stack with each other.
+- <b>Frenzy:</b> A 1st-level frenzied berserker gains the ability to frenzy. Frenzy adds a +6 bonus to Strength (no Constitution bonus), imposes a -4 penalty to AC,  and gives the frenzied berserker a single extra attack at his highest Base Attack Bonus (this does not stack with Haste or other effects that add an additional attack). Each round of the frenzy, the frenzied berserker takes 6 points of damage (2 if he has any barbarian levels). The effects last 3 + Constitution modifier rounds, after which the frenzied berserker is fatigued for 5 rounds, suffering -2 Strength, -2 Dexterity, and -10% movement penalties. Level 10 Frenzied Berserkers are no longer fatigued by using Frenzy. Initially, this ability can be used once per day and at 3rd level and every odd level after that, the frenzied berserker gains an additional use per day. Bonuses and penalties (including fatigue effects) from Frenzy and Barbarian Rage stack with each other. The Tireless feat also prevents this fatigue.
 
 - <b>Supreme Cleave:</b> At 2nd level, whenever the frenzied berserker drops an opponent in melee, he gains two cleave attacks against an adjacent foe instead of one.
 
@@ -176831,7 +176826,7 @@ The random madness of the thunderstorm and the unpredictability of the slaadi co
 
 - <b>Enhanced Power Attack:</b> At 5th level, the frenzied berserker gains a +5 damage bonus using the Power Attack feat. Using the Improved Power Attack feat the frenzied berserker gains a +10 damage bonus.  This translates to +10 with two-handed weapons for standard Power Attack and +20 for Improved Power Attack.
 
-- <b>Inspire Frenzy:</b> Specifics: At 6th level, the frenzied berserker can inspire Frenzy in all allies. This ability has no effect on the frenzied berserker, only the berserker's allies. The Frenzy effect adds a +6 bonus to Strength (no Constitution bonus), imposes a -4 penalty to AC,  and gives the subjects a single extra attack at their highest Base Attack Bonus (this does not stack with Haste or other effects that add an additional attack). Each round of the frenzy, the subjects takes 12 points of damage. The effects last 2 rounds, after which the subjects are fatigued for 2 rounds, suffering -2 Strength, -2 Dexterity, and -10% movement penalties. The frenzied berserker can use this ability once per day at 6th level, twice at 8th level, and three times at 10th level. Bonuses from Inspire Frenzy and Barbarian Rage do not stack, though penalties do. If both abilities are used, only the highest modifiers are applied and all penalties take effect.
+- <b>Inspire Frenzy:</b> Specifics: At 6th level, the frenzied berserker can inspire Frenzy in all allies. This ability has no effect on the frenzied berserker, only the berserker's allies. The Frenzy effect adds a +6 bonus to Strength (no Constitution bonus, +10 Strength at 8th level), imposes a -4 penalty to AC,  and gives the subjects a single extra attack at their highest Base Attack Bonus (this does not stack with Haste or other effects that add an additional attack). Each round of the frenzy, the subjects takes 6 points of damage (2 if they have any barbarian levels). The effects last 3 + Con modifier rounds, after which the subjects are fatigued for 5 rounds, suffering -2 Strength, -2 Dexterity, and -10% movement penalties. The frenzied berserker can use this ability once per day at 6th level, twice at 8th level, and three times at 10th level. Bonuses from Inspire Frenzy and Barbarian Rage do not stack, though penalties do. If both abilities are used, only the highest modifiers are applied and all penalties take effect.
 
 - <b>Greater Frenzy:</b> At 8th level, the frenzied berserker gains a +10 bonus to Strength while frenzying instead of a +6.
 
@@ -177495,7 +177490,7 @@ At every odd level after 1st a hexblade gains the ability to use her curse one a
 
 - <b>Greater Hexblade's Curse:</b> When a hexblade attains 7th level, the penalty on attacks, saves, skill checks, and armor class rolls incurred by a target of the hexblade's curse becomes -4 instead of -2.
 
-- <b>Aura of Unluck:</b> Once per day, a hexblade of 12th level or higher can create a baleful aura of misfortune. Any melee or ranged attack made against the hexblade while this aura of unluck is active has a 20% miss chance (similar to the effect of concealment). The aura lasts for a number of rounds equal to 4 + the hexblade's Charisma bonus (if any).
+- <b>Aura of Unluck:</b> Once per day, a hexblade of 12th level or higher can create a baleful aura of misfortune. Any melee or ranged attack made against the hexblade while this aura of unluck is active has a 20% miss chance (similar to the effect of concealment). The aura lasts for a number of rounds equal to 4 + the hexblade's Charisma bonus (if any). This ability is instant.
 
 At 16th level and every four levels after that (20th, 24th, and 28th) the hexblade gains an additional use of the aura.
 
@@ -177583,7 +177578,7 @@ Use: Automatic
 
 242376 := Aura of Unluck
 242377 := Type of Feat: Class
-Specifics: Once per day, a hexblade of 12th level or higher can create a baleful aura of misfortune. Any melee or ranged attack made against the hexblade while this aura of unluck is active has a 20% miss chance (similar to the effect of concealment). The aura lasts for a number of rounds equal to 4 + the hexblade's Charisma bonus (if any).
+Specifics: Once per day, a hexblade of 12th level or higher can create a baleful aura of misfortune. Any melee or ranged attack made against the hexblade while this aura of unluck is active has a 20% miss chance (similar to the effect of concealment). The aura lasts for a number of rounds equal to 4 + the hexblade's Charisma bonus (if any). This ability is instant.
 
 At 16th level and every four levels after that (20th, 24th, and 28th) the hexblade gains an additional use of the aura.
 Use: Selected
@@ -177707,7 +177702,7 @@ Operating in the border between light and darkness, shadowdancers are nimble art
 
 - <b>Summon Shadow:</b> Once per day, a 3rd-level shadowdancer can use summon shadow as a spell-like ability.
 
-- <b>Shadow Daze:</b> Once per day the shadowdancer may inflict an illusory daze upon a target. This daze lasts for 5 rounds. The DC is 10 + Class Level + Dexterity mod.
+- <b>Shadow Daze:</b> Three times per day the shadowdancer may inflict an illusory daze upon a target. This daze lasts for 5 rounds. The DC is 10 + Class Level + Dexterity mod.
 
 - <b>Shadow Evade:</b> At 4th level, a shadowdancer may conceal herself in shadow. For two rounds per class level, shadowdancer has a 5% concealment bonus, 5/magic damage reduction and +1 dodge AC bonus. At 6th level, the bonus becomes 10% concealment, 5/alchemical silver damage reduction, and +2 dodge AC bonus at level 6. At 8th level it becomes 15% concealment, 10/alchemical silver damage reduction and +3 dodge AC. At 10th level, Shadow Evade grants 20% concealment, 10/adamantine damage reduction and a +4 dodge AC bonus.
 
@@ -178165,7 +178160,7 @@ Level 4: 0 spells per day at 13th, 1 spell per day at level 14, 2 spells per day
 
 - <b>Camouflage:</b> At 13th level the ranger does not suffer a movement penalty for using stealth mode when in outdoor areas.
 
-- <b>Hide in Plain Sight:</b> When outdoors, a 14th level ranger has the ability to use the Hide skill even when being watched and in combat.
+- <b>Hide in Plain Sight:</b> At 14th level, a ranger has the ability to use the Hide skill even when being watched and in combat.
 242444 := Type of Feat: General
 Prerequisite: None.
 Required for: Rapid Shot.
@@ -178391,36 +178386,39 @@ Use: Automatic
 Specifics: 
 Use: Automatic
 
-242501 := Extra Spell (Ghostly Visage)
-242502 := Type of Feat: Class
-Specifics: 
-Use: Selected.
+242501 := White Wolf
+242502 := White Leopard
+242503 := Leopards use speed and are capable of approaching within striking distance before their intended prey is even aware of them. By then, it's usually too late.
+242504 := <color=Gold><b>Half-Drow</b></color>
 
-242503 := Extra Spell (Shield)
-242504 := Type of Feat: Class
-Specifics: 
-Use: Selected.
+Half-drow are often just as dark-hearted as their elven parents, but with a bitter resentment that comes from knowing that they are considered second-class members of drow society. Despite this, good half-drow are much less rare than good drow. Half-drow have dusky skin, silver or white hair, and a broad range of eye colors.
 
-242505 := Extra Spell (Heroism)
-242506 := Type of Feat: Class
-Specifics: 
-Use: Selected.
+<color=Gold><b>Racial Traits:</b></color>
 
-242507 := Extra Spell (Haste)
-242508 := Type of Feat: Class
-Specifics: 
-Use: Selected.
+- <b>Hardiness vs. Enchantments:</b> Immunity to magical sleep effects, +2 racial bonus to saving throws against enchantment spells or effects.
 
-242509 := Extra Spell (Keen)
-242510 := Type of Feat: Class
-Specifics: 
-Use: Selected.
+- <b>Ability Adjustments:</b> +2 Constitution.
 
-242511 := Extra Spell (Spiderskin)
-242512 := Type of Feat: Class
-Specifics: 
-Use: Selected.
+- <b>Darkvision:</b> Half-drow can see in the dark up to 60 feet.
 
+- <b>Keen Senses:</b> +1 racial bonus to Listen, Search, and Spot checks.
+
+- <b>Amiable:</b> +2 racial bonus to Diplomacy and Bluff checks.
+
+- <b>Favored Class:</b> Any. When determining whether a multiclass half-drow takes an experience point penalty, her highest-level class does not count.
+
+242505 := Caster Level(s): Cleric 3, Paladin 3
+Innate Level: 3
+School: Transmutation
+Descriptor(s): Armor Enchantment
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Creature, Armor or Shield
+Duration: 1 Hour / Level
+Save: None
+Spell Resistance: No
+
+You empower the touched armor or shield with a +1 AC bonus per 4 caster levels (maximum of +5). 
 242513 := Caster Level(s): Cleric 4, Druid 5, Paladin 4 
 Innate Level: 4
 School: Necromancy
@@ -178563,7 +178561,7 @@ This spell gains damage from Sneak Attack and Death Attack when appropriate.
 242553 := Remove Curse
 242554 := Shadow Form
 242555 := Hound of Doom
-242556 := Hound of Doom.
+242556 := You shape the essence of the Plane of Shadow to create a powerful doglike companion that serves you loyally.
 242557 := Spellscale
 242558 := Spellscales
 242559 := spellscale
@@ -179314,6 +179312,8 @@ Specifics: The character can cast the Epic Spell Epic Mass Heal.
  
 All allies within the area of effect regain 300 hit points and are cured of the following status effects: blinded, confused, dazzled, deafened, diseased, feebleminded, insane, nauseated, poisoned, and stunned. Healing spells have a reverse effect on undead, harming instead of healing them (allowing a will save for half damage).
 
+Usable twice per day. 
+
 Use: Selected.
 242682 := Epic Spell: Epic Call Lightning Storm
 242683 := Type of Feat: Epic
@@ -179587,7 +179587,7 @@ A cone of frost and snow shoots forth from the caster's hands, doing 1d8 points 
 242743 := Hide in Plain Sight
 242744 := Type of Feat: Class
 Prerequisite: Rogue 13+.
-Specifics: The shadowdancer is able to use the Hide skill even while being observed. Note: This ability will not always be successful in the frenzy of combat -- but disengaging from the enemy before attempting to hide in plain sight will succeed.
+Specifics: The rogue or shadowdancer is able to use the Hide skill even while being observed. Note: This ability will not always be successful in the frenzy of combat -- but disengaging from the enemy before attempting to hide in plain sight will succeed.
 Use: Automatic.
 242745 := Sacred Touch
 242746 := Your faith has granted you another use of your Lay on Hands ability.
@@ -180185,7 +180185,10 @@ Water genasi are patient and slow to change, preferring to wear away opposition 
 - <b> Favored Class:</b> Fighter. A water genasi's fighter class does not count when determining whether he takes an experience point penalty for multiclassing.
 242862 := Songblade
 242863 := Healer
-242865 := Marshal
+242864 := Type of Feat: Class
+Prerequisite: Neverwinter Nine level 1
+Specifics: At 1st level, the Nine gain an aura that grants +2 to all saving throws, +1 dodge bonus to armor class for all allies within 20 feet. This bonus does NOT apply to the Nine, only to his allies). At 4th level, this bonus increases to +3 saving throws, +2 dodge bonus, and the protection extends to allies within 30 feet.
+Use: Automatic, this aura is always in effect and automatically improves at 4th level.
 242866 := Extra Shadow Evade I
 242867 := Type of Feat: Class
 Prerequisite: Shadowdancer level 6.
@@ -180196,7 +180199,15 @@ Use: Selected.
 Prerequisite: Shadowdancer level 9.
 Specifics: Five times per day the shadowdancer can call upon the shadows in the area to help conceal her. She gains a 5% concealment bonus, damage reduction of 5/magic and a +1 dodge AC. This improves to 10% concealment, 5/alchemical silver damage reduction, and +2 dodge AC bonus at level 6. At 8th level it becomes 15% concealment, 10/alchemical silver damage reduction and +3 dodge AC. At 10th level, Shadow Evade grants 20% concealment, 10/adamantine damage reduction and a +4 dodge AC bonus. The effects last for 2 rounds per level of shadowdancer.
 Use: Selected.
-242870 := <color=Gold>Requirements:</color>
+242870 := <color=Gold><b>Neverwinter Nine</b></color>
+
+<color=Red>(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)</color>
+
+The Neverwinter Nine are part of a close circle of bodyguards that protect Lord Nasher and, to a greater extent, Neverwinter itself. The Neverwinter Nine are selfless wardens with powers to shield others from harm and react to danger with equal parts focus and fury. While bodyguard by title, the Neverwinter Nines' abilities aren't strictly defensive; they are trained to kill swiftly, not to endlessly absorb punishment until more help arrives. Members of the Nine come from all walks of life, though the job is most suited for fighters, rangers, paladins, rogues, and monks who have the necessary mix of martial prowess and combat reflexes.
+
+A character can achieve a maximum of 5 levels in the Neverwinter Nine prestige class.
+
+<color=Gold>Requirements:</color>
 
 <b>Base Attack Bonus:</b> +6
 
@@ -180216,25 +180227,26 @@ Use: Selected.
 
 - <b>Class Skills:</b> Concentration, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Diplomacy, Heal, Intimidate, Listen, Lore, Parry, Search, Spot, and Taunt.
 
-- <b>Protective Aura:</b> At 1st level, the protector gains an aura that grants +2 to all saving throws, +1 dodge ac bonus for all allies within 10 feet. This bonus does NOT apply to the protector, only to his allies). At 4th level, this bonus increases to +3 saving throws, +2 dodge ac bonus, and the protection extends to allies within 15 feet.
+- <b>Protective Aura:</b> At 1st level, the Nine gains an aura that grants +2 to all saving throws, +1 dodge ac bonus for all allies within 10 feet. This bonus does NOT apply to the Nine, only to his allies). At 4th level, this bonus increases to +3 saving throws, +2 dodge ac bonus, and the protection extends to allies within 15 feet.
 
-- <b>Guarding the Lord:</b> Beginning at 3rd level, the protector can protect one selected ally within 30 feet. This protection acts as the shield other spell cast at the protector's character level. The only difference with the spell is that the target only takes 30% damage (instead of 50%), and the member of the protector takes half the initial damage rounded down (instead of the remaining). This ability can be used three times per day.
+- <b>Guarding the Lord:</b> Beginning at 3rd level, the Nine can protect one selected ally within 30 feet. This protection acts as the shield other spell cast at the Nine's character level. The only difference with the spell is that the target only takes 30% damage (instead of 50%), and the member of the Nine takes half the initial damage rounded down (instead of the remaining). This ability can be used three times per day.
 
 - <b>Frantic Reactions:</b> At 3rd level, the Nine can rush across the battlefield and defeat enemies plaguing his allies.  This translates to a +10% increase in movement speed, +2 bonus to AC against attacks of opportunity provoked by movement and +2d6 sneak attack damage.
 
 - <b>All-Out Assault:</b> At 5th level, the Nine can concentrate for a round and focus his strength, making all of his melee attacks for the next three rounds inflict maximum damage. However, at the end of each of these three rounds, the Nine takes 10 points of damage from the incredible strain. This ability can be used once per day.
 
-242871 := <color=Gold><b>Dwarven Defender</b></color>
+242871 := <color=Gold><b>Stalwart Defender</b></color>
 
 <color=Red>(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)</color>
 
-The dwarven defender is a sponsored champion of a dwarven cause, a dwarf aristocrat, a dwarven deity, or the dwarven way of life. As the name might imply, this character is a skilled combatant trained in the arts of defense. A line of dwarven defenders is a far better defense than a 10- foot-thick wall of stone, and much more dangerous. Most dwarven defenders are fighters, paladins, rangers, or clerics, although ex-barbarians, sorcerers, wizards, and druids can certainly all benefit from the defensive capabilities of this prestige class. Rogues, bards, and monks usually depend too heavily on mobility to use the abilities of the dwarven defender class to their fullest.
+Drawn from the ranks of guards, knights, mercenaries, and thugs alike, stalwart defenders are masters of claiming an area and refusing to relinquish it. This behavior is more than a tactical decision for stalwart defenders; it’s an obsessive, stubborn expression of the need to be undefeated. When stalwart defenders set themselves in a defensive stance, they place their whole effort into weathering whatever foe, conflict, or threat comes their way.
+
+Most stalwart defenders come from the ranks of fighters, often those desiring to be better guards for friends and allies. Dwarves are particularly suited to the role, though stalwart defenders of all races exist. More rarely, barbarians take the path of the stalwart defender as a matter of pride, to overcome some perceived shortcoming. Such characters often seem to suffer from dual personalities, flinging themselves recklessly into combat one moment, then calmly fending off all attackers the next.
+
+Stalwart defenders are masters of melee combat, striving to prove that the best offense is a good defense. Stalwart defenders are normally found on the front lines of battle, holding a position to cover their allies, leaping into breaches of opposing formations and holding them open for others, and guarding more vulnerable allies by acting as mobile fortifications, stable points in the ever-changing chaos of battle.
 
 <color=Gold>Requirements:</color>
 
-<b>Race:</b> Dwarf.
-
-<b>Alignment:</b> Any lawful.
 
 <b>Base Attack Bonus:</b> +7.
 
@@ -180345,11 +180357,11 @@ After a lifetime of work, few can claim even a fraction of the versatility that 
 
 As a factotum, you are a jack of all trades. For short periods of time, you can stand in for almost any other member of the party. Your intellect, training, and experiences allow you to bolster your efforts in almost any situation. But your magical abilities are at best limited. You can master potent spells, but your lack of formal training makes it difficult for you to use them more than once each day. Furthermore, your understanding of magic is broad rather than deep.
 
-This is a base class. <color=Red>You MUST have 10 levels of Factotum by level 30. Arcane Dilettante not will provide any bonus if you have the Able Learner feat.</color>
+This is a base class. <color=Red>You MUST have 10 levels of Factotum by level 30. Arcane Dilettante will not provide any bonus if you have the Able Learner feat.</color>
 
 <color=Gold>Requirements:</color>
 
-- <b>Alignment:</b> Any non-Lawful
+None
 
 <color=Gold>Class Features:</color>
 
@@ -180397,6 +180409,22 @@ Factotum gain a bonus epic feat at 23rd, 26th, 29th level, and 30th level.
 
 - <b>Arcane Dilettante:</b> At 2nd level, you acquire a vague understanding of magic. You know that with a few weird hand gestures and an array of grunts and bizarre words, you can conjure up something that looks like a spell. The spell is cast as though you were a wizard with a caster level equal to your class level immediately after resting and lasts 24 hours. <color=Red>Arcane Dilettante not will provide any bonus if you have the Able Learner feat.</color>
 
+Spells
+Level 2: Mage Armor
+Level 4: Ghostly Visage
+Level 6: Heroism
+Level 7: Greater Magic Weapon
+Level 9: Greater Resistance
+Level 10: Improved Mage Armor
+Level 12: Lesser Mind Blank
+Level 14: Greater Heroism
+Level 17: True Seeing
+Level 18: Superior Resistance
+Level 20: Shadow Shield
+Level 24: Greater Stoneskin
+Level 27: Premonition
+Level 28: Chasing Perfection
+
 - <b>Brains over Brawn:</b> At 3rd level, you gain your Intelligence bonus as a modifier on checks involving skills based on Strength or Dexterity. This bonus is capped by half your class level (maximum +15 at 30th). The affected skills are: Hide, Move Silently, Open Lock, Parry, Set Trap, Sleight of Hand, and Tumble.
 
 - <b>Opportunistic Piety:</b> Factotums are legendary for the number of holy symbols, lucky trinkets, and blessed items they keep handy. As the saying goes, there are no atheists in the dungeon. You can channel divine energy (expend a turn undead use) to heal injuries or harm undead. If you use this ability to heal injuries, you channel positive energy to heal a living creature of a number of points of damage equal to twice your factotum level + your Int modifier. The energy will also deal the same amount of damage to undead targets.
@@ -180408,7 +180436,7 @@ Factotum gain a bonus epic feat at 23rd, 26th, 29th level, and 30th level.
 242888 := Arcane Dilettante
 242889 := Type of Feat: Class
 Prerequisite: Factotum level 2
-Specifics: At 2nd level, you acquire a vague understanding of magic. You know that with a few weird hand gestures and an array of grunts and bizarre words, you can conjure up something that looks like a spell. The spell is cast as though you were a wizard with a caster level equal to your class level immediately after resting. <color=Red>Arcane Dilettante not will provide any bonus if you have the Able Learner feat.</color>
+Specifics: At 2nd level, you acquire a vague understanding of magic. You know that with a few weird hand gestures and an array of grunts and bizarre words, you can conjure up something that looks like a spell. The spell is cast as though you were a wizard with a caster level equal to your class level immediately after resting. <color=Red>Arcane Dilettante will not provide any bonus if you have the Able Learner feat.</color>
 
 Spells
 Level 2: Mage Armor
@@ -180611,86 +180639,67 @@ Benefit: You gain the benefits of the Heroism spell at all times. These benefits
 Prerequisites: Arcane Mastery
 Specifics: Once per minute you can tap the weave to restore a use of your curse and aura of unluck abilities. You take damage equal to your character level as magic damage (unresistable) as a result of the strain. You gain a +1 DC bonus on curses.
 Use: 60s Cooldown, Selected.
-242947 := Type of Feat: Epic
-Prerequisites: 20 Bard Songs/day, Perform 24.
-Specifics: This song damages enemies within 20 feet for 5 rounds. The damage caused to the first enemy is equal to the Perform skill; the second enemy receives Perform skill * (2/3) damage; three or more enemies receive damage equal to Perform skill/2. The total damage is capped at 6 enemies. This ability has a cooldown of 20 rounds.
-Use: Selected.
-242948 := Type of Feat: Epic
-Prerequisites: 20 Bard Songs/day, Song of Requiem, Perform 30.
-Specifics: The character's Song of Requiem now also heals all party members. The amount healed is Perform Skill/2 per each ally.  For example, with Perform 30, each ally is healed for 15 hit points per round.  The maximum number of allies is 6.
-Use: Automatic.
-242949 := <color=Gold><b>Swiftblade</b></color>
+242947 := <color=Gold><b>Sacred Fist</b></color>
 
 <color=Red>(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)</color>
 
-While sorcerers and wizards consider haste one of many spells in their repertoire, swiftblades covet haste above all others. As a swiftblade, your arcane-assisted speed combined with melee skill can turn your first strike into a deadly assault. Swiftblades discover unconventional ways to utilize the haste spell, permanently augmenting their speed and fusing complimentary spell effects into each casting. In a very real sense, swiftblades bond to their chosen spell until the two become immutable.
+Sacred fists are independent organizations found within many temples. Their ascetic members have turned their divine magic inward, bringing their bodies and wills into harmony. Sacred fists have forsworn the use of weapons and heavy armor. They consider their bodies and minds gifts from their deity, and they believe that not developing those gifts to their fullest potential is a sin. Spellcasting does not dishonor them or their deity. Sacred fists are strong in faith, will, and body. 
 
-The swiftblade is an excellent choice for martially-orientated arcane spellcasters. Although the swiftblade requires spellcasting compromises, it does empower the character with the ability to switch between melee and spell combat. When compared to more studious arcane practitioners, swiftblades are better able to survive encounters after all their spells have been used for the day. This allows the members of this prestige class to fill multiple rolls within an adventuring party.
-
-While most swiftblades are resolved to lives of danger and excitement, some darker members of this prestige class resort to working as assassins. It's also not uncommon to find swiftblades among rangers and scouts, as they are well suited to skirmish warfare.
+Clerics are excellent candidates for sacred fist orders. Paladins may also choose to join them, but are seldom comfortable surrendering the trappings of their calling. Fighters, rogues, bards, and even ex-monks may make good candidates, provided they have enough levels in a class that grants divine spells. Druids occasionally find the class's combat skills useful, but sorcerers and wizards find little to interest them.
 
 <color=Gold>Requirements:</color>
 
-<b>Feats:</b> Dodge, Mobility.
-<b>Weapon Proficiency:</b> Bard, Elf, Grey Orc, or Martial.
-<b>Base Attack Bonus:</b> +3
-<b>Skills:</b> Concentration 6, Spellcraft 6.
-<b>Spellcasting:</b> Able to cast 3rd level arcane spells.
-<b>Spell Known:</b> Haste
+- <b>Base Attack Bonus:</b> +4
+
+- <b>Feats:</b> Improved Unarmed Strike, Stunning Fist, Combat Casting
+
+- <b>Skills:</b> Lore 8 ranks
+
+- <b>Spellcasting:</b> Ability to cast 1st level divine spells.
 
 <color=Gold>Class Features:</color>
 
-- <b>Hit Die:</b> d6
+- <b>Hit Die:</b> d8
 
 - <b>Base Attack Bonus:</b> High.
 
-- <b>High Saves:</b> Reflex, Will.
+- <b>High Saves:</b> Fortitude and Reflex.
 
-- <b>Weapon Proficiencies:</b> None.
+- <b>Proficiencies:</b> Sacred fists gain no proficiency with any weapons, armor, or shields.
 
-- <b>Armor Proficiencies:</b> None.
+- <b>Skill Points:</b> 4 + Int Modifier.
 
-- <b>Skill Points:</b> 4 + Int modifier.
+- <b>Class Skills:</b> Concentration, Heal, Lore, Spellcraft, and Tumble.
 
-- <b>Class Skills:</b> Bluff, Craft Weapon, Craft Armor, Craft Alchemy, Concentration, Diplomacy, Listen, Lore, Parry, Spellcraft, Spot, Tumble.
+- <b>Spells per Day/Spells Known:</b> When a new sacred fist level is gained, the character gains new spells per day (and spells known, if applicable) as though he had gained a level in whatever divine spellcasting class gave him access to 1st-level divine spells. If the character had more than one applicable divine spellcasting class, he must pick one to improve.
 
-<color=Gold>Class Abilities:</color>
+- <b>AC Bonus:</b> When unencumbered and wearing light or no armor, a 1st level sacred fist gains a +1 AC bonus. This bonus increases to +2 at 5th level, and +3 at 10th level.
 
-Level 1: Bonus Feat: Spring Attack, Swift Surge (+1 AB, +1 Dodge AC, +1 Reflex Save), Spellcasting Progression
-Level 2: Blurred Alacrity
-Level 3: Residual Celerity
-Level 4: Arcane Reflexes
-Level 5: Evasive Celerity
-Level 6: Fortified Hustle
-Level 7: Bonus Feat: Uncanny Dodge, Swift Surge (+2 AB, +2 Dodge AC, +2 Reflex Save, +d6 damage)
-Level 8: Diligent Rapidity
-Level 9: Perpetual Celerity
-Level 10: Innervated Speed, Swift Surge (+2 AB, +2 Dodge AC, +2 Reflex Save, +2d6 damage)
+- <b>Unarmed Damage:</b> A sacred fist deals unarmed combat as a monk of equal level. A sacred fist's monk level (if any) stacks with his class level for the purposes of determining unarmed damage.
 
-- <b>Spellcasting:</b> At levels 2,3,5,6,8, and 9 you gain new spells per day and an increase in caster level (and spells known) as if you had also gained a level in an arcane spellcasting class to which you belonged before adding the prestige class level. If you had more than one arcane spellcasting class before becoming a swiftblade, you must decide which class gains the increased casting ability.
+- <b>Fast Movement:</b> If the sacred fist has levels of monk, his sacred fist level stacks with his monk level for purposes of determining Monk Speed. Otherwise he gets the equivalent of Monk Speed at 3rd level, and it progresses identically to the 3rd level monk ability Monk Speed.
 
-- <b>Spring Attack:</b> At 1st level you gain the bonus feat Spring Attack.
+- <b>Sacred Flames:</b> At 4th level the sacred fist can invoke sacred flames around his fists. These flames add to the sacred fist's unarmed damage. The additional damage is equal to the sacred fist's class level plus Wisdom modifier. This lasts 10 combat rounds. This ability initially can only be used once per day, increasing to twice per day at 8th level.
 
-- <b>Swift Surge:</b> Your body is augmented with the residual energy of previous haste castings. You gain a +1 bonus on attack rolls, a +1 dodge bonus to AC, and a +1 bonus to Reflex saves. At 7th level, these bonuses increase to +2 and you deal an extra 1d6 points of damage.  At 10th level you gain 2d6 points of bonus damage. These bonuses stack with the bonuses gained from the haste spell.
+- <b>Uncanny Dodge:</b> At 6th level the sacred fist retains any Dexterity bonus to AC when flat-footed or struck by an invisible attacker.
 
-- <b>Blurred Alacrity:</b> At 2nd level, your understanding of the haste spell makes you difficult to target with melee and ranged attacks. While under the effect of a haste spell that you cast yourself, you gain concealment (20% miss chance). This miss chance increases by 10% at 3rd, 4th, and 5th level. The effect of this ability does not stack with blur, displacement, or similar spell effects.
+- <b>Inner Armor:</b> At 10th level, the sacred fist can protect himself from harm once per day. He gets a +4 sacred bonus to AC, a +4 sacred bonus on all saves, and spell resistance equal to 25 for a number of rounds equal to his Wisdom modifier.
+242948 := Type of Feat: Epic
+Prerequisites: 20 Bard Songs/day, Song of Requiem, Perform 30.
+Specifics: The character's Song of Requiem now also heals all party members. The amount healed is the same as the damage caused by the Hymn and is divided among all party members; the minimum amount healed per ally is Perform/3. For example, if the total damage dealt is 60 and four characters are in the party, each is healed 15 hit points per round.
+Use: Automatic.
+242949 := Caster Level(s): Bard 3, Wizard / Sorcerer 3
+Innate Level: 3
+School: Enchantment
+Descriptor(s): Compulsion, Mind-Affecting
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect/Target: Huge
+Duration: 18 seconds + 6 seconds / Level
+Save: Will negates
+Spell Resistance: Yes
 
-- <b>Residual Celerity:</b> At 3rd level, your body retains more of the energy imbued by the haste spell allowing it to last longer. When casting the haste spell on yourself the duration is increased by 3 rounds.
-
-- <b>Arcane Reflexes:</b> At 4th level, you infuse the energy of previous haste castings into your natural reaction time. This grants the bonus feat Improved Initiative.
-
-- <b>Evasive Celerity:</b> At 5th level, your knowledge of the haste spell makes you difficult to target with spells. While under the effect of a haste spell that you cast yourself, you gain a Spell Resistance equal to 10 + character level. The effect of this ability does not stack with other effects that grant spell resistance.
-
-- <b>Fortified Hustle:</b> At 6th level, you learn how to intuitively absorb the haste spell into your body. While under the effect of a haste spell that you cast yourself, the effect becomes extraordinary rather than a normal spell effect, and therefore cannot be dispelled by any means.
-
-- <b>Uncanny Dodge:</b> At 7th level you gain the bonus feat Uncanny Dodge.
-
-- <b>Diligent Rapidity:</b> At 8th level, you automatically overcome magic and mundane obstacles with the haste spell. While under the effect of a haste spell that you cast yourself, you can move and attack normally, even under the influence of magic that usually impedes movement, as the freedom of movement spell.
-
-- <b>Perpetual Celerity:</b> At 9th level, the haste spell lingers even longer in your body before it dissipates. When casting the haste spell on yourself the duration is increased by 6 rounds.
-
-- <b>Innervated Speed:</b> At 10th level, your mastery of the haste spell seems to bring the world around you to a standstill. This effect is comparable to the slow spell with a 100' radius effect and lasting 10 rounds. This burst of speed is available for use once every five minutes.
-
+This spell functions like sleep, except that it affects a max of 10 HD and up to d10 + 10 HD of creatures.
 242950 := <color=Gold><b>Monk</b></color>
 
 The key feature of the monk is her ability to fight unarmed and unarmored. Thanks to her rigorous training, she can strike as hard as if she were armed and strike faster than a warrior with a sword. Though a monk casts no spells, she has a magic of her own. She channels a subtle energy, called <i>ki,</i> which allows her to perform amazing feats. The monk's best-known feat is her ability to stun an opponent with an unarmed blow. A monk also has a preternatural awareness that allows her to dodge an attack even if she is not consciously aware of it. As a monk gains experience and power, her mundane and <i>ki</i>-oriented abilities grow, giving her more and more power over herself and, sometimes, over others.
@@ -180896,24 +180905,7 @@ Save: Will negates
 Spell Resistance: Yes
 
 This spell destroys summoned creatures (elementals and outsiders) in the area of effect. You can affect up to twice your level in HD worth of creatures.
-242963 := Alchemist
-242964 := Alchemists
-242965 := alchemist
-242966 := Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected school of magic, the alchemist is often regarded as being just as unstable, unpredictable, and dangerous as the concoctions he brews. While some creators of alchemical items content themselves with sedentary lives as merchants, providing tindertwigs and smokesticks, the true alchemist answers a deeper calling. Rather than cast magic like a spellcaster, the alchemist captures his own magic potential within liquids and extracts he creates, infusing his chemicals with virulent power to grant him impressive skill with poisons, explosives, and all manner of self-transformative magic.
-
-The key ability of the Alchemist is Intelligence.
-
-Class Features
-
-HD: d8
-BAB: Medium
-High Saves: Fort, Ref
-Weapon proficiency: Simple.
-Armor proficiency: Light armor.
-
-Class Skills: Appraise, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Disable Device, Diplomacy, Heal, Intimidate, Listen, Lore, Open Locks, Parry, Search, Sleight of Hand, Spellcraft, Spot, Survival, Tumble, and Use Magic Device
-Skill Points: 6 + Int modifier
-242967 := Armiger
+242967 := Alchemist
 242968 := Alchemists
 242969 := alchemist
 242970 := Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected school of magic, the alchemist is often regarded as being just as unstable, unpredictable, and dangerous as the concoctions he brews. While some creators of alchemical items content themselves with sedentary lives as merchants, providing tindertwigs and smokesticks, the true alchemist answers a deeper calling. Rather than cast magic like a spellcaster, the alchemist captures his own magic potential within liquids and extracts he creates, infusing his chemicals with virulent power to grant him impressive skill with poisons, explosives, and all manner of self-transformative magic.
@@ -180930,67 +180922,10 @@ Armor proficiency: Light armor.
 
 Class Skills: Appraise, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Disable Device, Diplomacy, Heal, Intimidate, Listen, Lore, Open Locks, Parry, Search, Sleight of Hand, Spellcraft, Spot, Survival, Tumble, and Use Magic Device
 Skill Points: 6 + Int modifier
-242971 := Beastmaster
-242972 := Alchemists
-242973 := alchemist
-242974 := Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected school of magic, the alchemist is often regarded as being just as unstable, unpredictable, and dangerous as the concoctions he brews. While some creators of alchemical items content themselves with sedentary lives as merchants, providing tindertwigs and smokesticks, the true alchemist answers a deeper calling. Rather than cast magic like a spellcaster, the alchemist captures his own magic potential within liquids and extracts he creates, infusing his chemicals with virulent power to grant him impressive skill with poisons, explosives, and all manner of self-transformative magic.
-
-The key ability of the Alchemist is Intelligence.
-
-Class Features
-
-HD: d8
-BAB: Medium
-High Saves: Fort, Ref
-Weapon proficiency: Simple.
-Armor proficiency: Light armor.
-
-Class Skills: Appraise, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Disable Device, Diplomacy, Heal, Intimidate, Listen, Lore, Open Locks, Parry, Search, Sleight of Hand, Spellcraft, Spot, Survival, Tumble, and Use Magic Device
-Skill Points: 6 + Int modifier
-242975 := Knight
-242976 := Alchemists
-242977 := alchemist
-242978 := Whether secreted away in a smoky basement laboratory or gleefully experimenting in a well-respected school of magic, the alchemist is often regarded as being just as unstable, unpredictable, and dangerous as the concoctions he brews. While some creators of alchemical items content themselves with sedentary lives as merchants, providing tindertwigs and smokesticks, the true alchemist answers a deeper calling. Rather than cast magic like a spellcaster, the alchemist captures his own magic potential within liquids and extracts he creates, infusing his chemicals with virulent power to grant him impressive skill with poisons, explosives, and all manner of self-transformative magic.
-
-The key ability of the Alchemist is Intelligence.
-
-Class Features
-
-HD: d8
-BAB: Medium
-High Saves: Fort, Ref
-Weapon proficiency: Simple.
-Armor proficiency: Light armor.
-
-Class Skills: Appraise, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Disable Device, Diplomacy, Heal, Intimidate, Listen, Lore, Open Locks, Parry, Search, Sleight of Hand, Spellcraft, Spot, Survival, Tumble, and Use Magic Device
-Skill Points: 6 + Int modifier
-242979 := Type of Feat: Epic
-Prerequisite: 21st level, ability to cast 9th level spells, Spellcraft 24.
-
-Specifics: The character can cast the Epic Spell Vampiric Feast.
- 
-Classes: Cleric, Druid, Spirit Shaman, Wizard, Sorcerer, Warlock, Arcane Scholar of Candlekeep, Arcane Trickster, Eldrich Knight, Pale Master, Red Wizard, Stormlord, Harper Agent, Sacred Fist, Warpriest
-Spellcraft Required: 24
-Caster Level: Epic
-Innate Level: Epic
-School: Necromancy
-Descriptor(s): Evil
-Components: Verbal, Somatic
-Range: Personal
-Area of Effect / Target: All hostile creatures within 20 ft. of caster.
-Duration: Instant
-Save: Fortitude ½ (DC +5)
-Spell Resistance: Yes
- 
-When this spell is cast, you drink in the life force of all enemies in the area of effect. Creatures who succeed at a Fortitude save (DC +5) lose only half their remaining hit points, while those who fail their saving throw lose all their remaining hit points and are instantly slain. The total amount of damage done by this spell is then added to the caster's hit point total.
-
-You are only able to absorb sufficient hit points to return you to full health. Any remaining life force dissipates into the fabric of the Weave.
- 
-Use: Selected.
 242980 := Type of Feat: Class
 Prerequisite: Rogue level 10 or shadowdancer level 5.
 Specifics: If the rogue is struck by a potentially lethal blow, they make a Reflex saving throw (DC = damage dealt). If succesful, they take only half damage from the blow.
-Use: Automatic, but limited to one use per day. Flat-footed characters cannot make a defensive roll.
+Use: Automatic, but limited to ten uses per day. Flat-footed characters cannot make a defensive roll.
 242981 := Type of Feat: Class
 Prerequisite: Protector level 3
 Specifics: At 3rd level, the protector can rush across the battlefield and defeat enemies plaguing his allies.  This translates to a +10% increase in movement speed, +2 bonus to AC against attacks of opportunity provoked by movement and +2d6 sneak attack damage.
@@ -181003,9 +180938,6 @@ Use: Selected, this ability can be used 3 times per day.
 Prerequisite: Protector level 5.
 Specifics:At 5th level, the protector can concentrate for a round and focus his strength, making all of his melee attacks for the next three rounds inflict maximum damage. However, at the end of each of these three rounds, the protector takes 10 points of damage from the incredible strain.
 Use: Selected, this ability can be used once per day.
-242984 := Protector
-242985 := Protectors
-242986 := protector
 242987 := Reserve Feat Mastery
 242988 := Your mastery over Reserve feats improves.
 Prerequisites: Acidic Splatter, Clap of Thunder, Fiery Burst, Invisible Needle, Storm Bolt, or Winter's Blast.
@@ -181013,11 +180945,11 @@ Benefit: You add an additional half of the spells level to the DC, rounded up (m
 242989 := Epic Reserve Feat Mastery
 242990 := Your mastery over Reserve feats becomes truly epic.
 Prerequisites: Reserve Feat Mastery.
-Benefit: You add an additional bonus to the DC equal to the spells level (maximum +9).
+Benefit: You add an additional bonus to the DC equal to the spells level (maximum +9). This replaces the bonus from Reserve Feat Mastery.
 242991 := Reserve Feat Enhancement
 242992 := You learn to add secondary effects to some of your reserve feats.
 Prerequisites: Reserve Feat Mastery.
-Benefit: Winter's Blast can blind, Fiery Burst can daze, Storm Bolt can slow, Clap of Thunder can deafen, Acidic Splatter can sicken, and Invisible Needle can reduce the dodge AC of the target by 2. A Fortitude save negates the secondary effect. Secondary effects do not stack and last for one round.
+Benefit: Winter's Blast can inflict -2 Saves, Fiery Burst can inflict a -1 AB/-1AC penalty, Storm Bolt can inflict slow, Clap of Thunder can deafen with a +2 DC, Acidic Splatter can inflict a -2 AB penalty, and Invisible Needle can reduce the dodge AC of the target by 2. A Fortitude save negates the secondary effect. Secondary effects do not stack and last for one round.
 242993 := Improved Reserve Feats
 242994 := Your ability to channel the elements allows you to sometimes bypass elemental resists.
 Prerequisites: Reserve Feat Mastery
@@ -181344,6 +181276,95 @@ Living by their wits rather than their muscles, goblins favor the Rogue class.
 
 - <b>Level Adjustment +1:</b> Gray orcs are slightly more powerful and gain levels more slowly than other, more common races. It will take more experience for a gray orc to reach level 2 than it would for normal races, for example.
 
+243093 := Stalwart Defender
+243094 := Stalwart Defenders
+243095 := stalwart defender
+ 
+243096 := Ranged Cure Critical Wounds
+243097 := Caster Level(s): Bard 5, Cleric 5, Druid 6
+Innate Level: 5x
+School: Conjuration
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: Single
+Duration: Instant
+Save: Will 1/2
+Spell Resistance: Yes
+
+The target creature is healed of 4d8 points of damage, + 1 point per caster level to a maximum of +20. 
+243098 := Ranged Cure Light Wounds
+243099 := Caster Level(s): Bard 2, Cleric 2, Druid 2, Paladin 2, Ranger 2
+Innate Level: 2x
+School: Conjuration
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: Single
+Duration: Instant
+Save: Will 1/2
+Spell Resistance: Yes
+
+The target creature is healed for 1d8 points of damage, +1 point per caster level (to a maximum of +5).
+243100 := Ranged Cure Moderate Wounds
+243101 := Caster Level(s): Bard 3, Cleric 3, Druid 4, Paladin 4, Ranger 4
+Innate Level: 3x
+School: Conjuration
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: Single
+Duration: Instant
+Save: Will 1/2
+Spell Resistance: Yes
+
+The target creature is healed for 2d8 points of damage, +1 point per caster level (to a maximum of +10).
+243102 := Ranged Cure Serious Wounds
+243103 := Caster Level(s): Bard 4, Cleric 4, Druid 5
+Innate Level: 4
+School: Conjuration
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: Single
+Duration: Instant
+Save: Will 1/2
+Spell Resistance: Yes 
+
+The target creature is healed for 3d8 points of damage, +1 point per caster level (to a maximum of +15).
+243104 := Ranged Heal
+243105 := Caster Level(s): Cleric 7, Druid 8
+Innate Level: 7
+School: Conjuration
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: Single
+Duration: Instant
+Save: Will 1/2
+Spell Resistance: Yes
+
+The target recovers 10 hit points per caster level (maximum 150) and is cured of the following status effects: blinded, confused, dazzled, deafened, diseased, feebleminded, insane, nauseated, poisoned, and stunned.
+243106 := Crossbow Mastery
+243107 := Type of Feat: General
+Requirements: Dex 15, Point-Blank Shot, Rapid Reload, Rapid Shot.
+Benefit: When using a crossbow you gain a bonus attack. This bonus attack stacks with Epic Rapid Reload.
+Use: Automatic.
+243108 := Epic Rapid Reload
+243109 := Type of Feat: General
+Requirements: Rapid Reload, Level 21+
+Benefit: When using a crossbow you gain a bonus attack. This bonus attack stacks with Crossbow Mastery.
+Use: Automatic.
+243110 := Nobanion
+243111 := Nobanion (pronounced no-BAN-yun), also known as the King of Beasts, Lord Firemane or the Lion King, is a primal spirit sometimes worshiped as a deity of royalty, lions, and other felines, as well as good beasts. Nobanion was considered to have originally been an interloper deity on Toril, but since his arrival he has firmly established himself within the Faerûnian pantheon. His worship is especially strong in Gulthmere Forest and among the wemics of the Shining Plains.
+243112 := Deep Sasheles
+243113 := Lord of the Undersea, the Dolphin Prince Alignment: Chaotic Good Domains: Chaos, Elf, Good, Knowledge, Ocean, Water. Portfolio :Sea Elves, Knowledge,Creation
+243114 := Uthgar
+243115 := Father of the Uthgardt, Battle Father Alignment: Chaotic Neutral Domains: Animal, Chaos, Retribution, Strength, War Favoured weapon: Battleaxe worshipers: Barbarians, Uthgardt tribes. Portfolio: Physical strength Uthgardt Barbarian Tribes
+243116 := Tiamat
+243117 := The Dragon Queen, Nemesis of the Gods, the Dark Lady Alignement: Lawful Evil Domains: Evil, Law, Scalykind, Strength, Tyranny. Worshipers: Chromatic dragons, Cult of the Dragon, evil dragons, evil reptiles, fighters, sorcerers, thieves, and vandals
+243118 := Ulutiu
+243119 := Ulutiu (pronounced oo-LOO-tee-oo[1]), also known as The Lord in the Ice or The Eternal Sleeper, is the lawful neutral father of the giant-kin races and the god of glaciers, polar environments, and arctic dwellers. His domains consist of animals, cold, law, ocean and protection. Ulutiu's symbol is a necklace of blue and white ice crystals.
 #// 
-#// [143629] String(s) Exported...
+#// [143638] String(s) Exported...
 #// ___END___
