@@ -359,6 +359,138 @@ namespace NWN2ToolKit
             }
         }
 
+        private void MakeMPAmmoCost()
+        {
+
+            ArrayList UpdatedFile = new ArrayList();
+            using (System.IO.StreamWriter sw = new
+
+                System.IO.StreamWriter(sFileInputName + "_"))
+            {
+
+                sw.WriteLine("2DA\tV2.0");
+                sw.WriteLine();
+                sw.WriteLine(columnrow.ToString());
+                string linew = "";
+
+                foreach (DataGridViewRow CurrentLine in _dataGridView1.Rows)
+                {
+                    if (CurrentLine.Index != (_dataGridView1.Rows.Count - 1))
+                    {
+                        if (!CurrentLine.Cells[1].Value.ToString().Contains("*"))
+                        {
+                            string ss = CurrentLine.Cells[1].Value.ToString();
+                            long lVal = Convert.ToInt32(ss);
+                            if (lVal >= 240000)
+                            {
+                                CurrentLine.Cells[1].Value = lVal + 16551217;
+                            }
+                        }
+                        foreach (DataGridViewCell s in CurrentLine.Cells)
+                        {
+                            linew = linew + s.FormattedValue + "\t";
+                        }
+                        sw.WriteLine(linew);
+                        linew = "";
+                    }
+                }
+
+                sw.Close();
+
+            }
+        }
+
+        private void MakeMPMetamagic()
+        {
+
+            ArrayList UpdatedFile = new ArrayList();
+            using (System.IO.StreamWriter sw = new
+
+                System.IO.StreamWriter(sFileInputName + "_"))
+            {
+
+                sw.WriteLine("2DA\tV2.0");
+                sw.WriteLine();
+                sw.WriteLine(columnrow.ToString());
+                string linew = "";
+
+                foreach (DataGridViewRow CurrentLine in _dataGridView1.Rows)
+                {
+                    if (CurrentLine.Index != (_dataGridView1.Rows.Count - 1))
+                    {
+                        if (!CurrentLine.Cells[1].Value.ToString().Contains("*"))
+                        {
+                            string ss = CurrentLine.Cells[1].Value.ToString();
+                            long lVal = Convert.ToInt32(ss);
+                            if (lVal >= 240000)
+                            {
+                                CurrentLine.Cells[1].Value = lVal + 16551217;
+                            }
+                        }
+                        foreach (DataGridViewCell s in CurrentLine.Cells)
+                        {
+                            linew = linew + s.FormattedValue + "\t";
+                        }
+                        sw.WriteLine(linew);
+                        linew = "";
+                    }
+                }
+
+                sw.Close();
+
+            }
+        }
+
+        private void MakeMPDeities()
+        {
+
+            ArrayList UpdatedFile = new ArrayList();
+            using (System.IO.StreamWriter sw = new
+
+                System.IO.StreamWriter(sFileInputName + "_"))
+            {
+
+                sw.WriteLine("2DA\tV2.0");
+                sw.WriteLine();
+                sw.WriteLine(columnrow.ToString());
+                string linew = "";
+
+                foreach (DataGridViewRow CurrentLine in _dataGridView1.Rows)
+                {
+                    if (CurrentLine.Index != (_dataGridView1.Rows.Count - 1))
+                    {
+                        if (!CurrentLine.Cells[4].Value.ToString().Contains("*"))
+                        {
+                            string ss = CurrentLine.Cells[4].Value.ToString();
+                            long lVal = Convert.ToInt32(ss);
+                            if (lVal >= 240000)
+                            {
+                                CurrentLine.Cells[4].Value = lVal + 16551217;
+                            }
+                        }
+                        if (!CurrentLine.Cells[5].Value.ToString().Contains("*"))
+                        {
+                            string ss = CurrentLine.Cells[5].Value.ToString();
+                            long lVal = Convert.ToInt32(ss);
+                            if (lVal >= 240000)
+                            {
+                                CurrentLine.Cells[5].Value = lVal + 16551217;
+                            }
+                        }
+                        foreach (DataGridViewCell s in CurrentLine.Cells)
+                        {
+                            linew = linew + s.FormattedValue + "\t";
+                        }
+                        sw.WriteLine(linew);
+                        linew = "";
+                    }
+                }
+
+                sw.Close();
+
+            }
+        }
+
 
         private void MakeMPBaseItems()
         {
@@ -1099,6 +1231,33 @@ namespace NWN2ToolKit
                 ParseFile(sFileInputName);
                 LoadParsedFileToDataGrid(false);
                 MakeMPHenComp();
+            }
+            _progressBarStatus.Value++;
+
+            sFileInputName = sDataPath + @"\iprp_ammocost.2da";
+            if (System.IO.File.Exists(sFileInputName))
+            {
+                ParseFile(sFileInputName);
+                LoadParsedFileToDataGrid(false);
+                MakeMPAmmoCost();
+            }
+            _progressBarStatus.Value++;
+
+            sFileInputName = sDataPath + @"\nwn2_deities.2da";
+            if (System.IO.File.Exists(sFileInputName))
+            {
+                ParseFile(sFileInputName);
+                LoadParsedFileToDataGrid(false);
+                MakeMPDeities();
+            }
+            _progressBarStatus.Value++;
+
+            sFileInputName = sDataPath + @"\metamagic.2da";
+            if (System.IO.File.Exists(sFileInputName))
+            {
+                ParseFile(sFileInputName);
+                LoadParsedFileToDataGrid(false);
+                MakeMPMetamagic();
             }
             _progressBarStatus.Value++;
 

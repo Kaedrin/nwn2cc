@@ -45,7 +45,7 @@ namespace NWN2ToolKit
 
             InitializeOEI();
 
-            progressBarStatus.Maximum = 10;
+            progressBarStatus.Maximum = 13;
         }
 
         private void buttonGenerateMPFiles_Click(object sender, EventArgs e)
