@@ -231,6 +231,7 @@ int GetEldritchBlastLevel(object oCaster)
 		if (sTag == "cmi_amulet02")
 			nBlstLvl += 2;					
 	}
+	//SendMessageToPC(oCaster, "nBlstLvl: " + IntToString(nBlstLvl));
     return nBlstLvl;
 }
 

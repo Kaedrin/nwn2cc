@@ -195,7 +195,11 @@
 				OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","RANGER_COMBAT_STYLE","FEAT_COMBATSTYLE_RANGER_XBOW","INFOPANE_TEXT")>
 				<UIText name="TEXTFIELD" indent=5 hangingindent=5 align=left valign=middle fontfamily=Title_Font style=1 />
 			</UIButton>				
-
+			<UIButton name="STYLE_SHADOW_BUTTON" strref=2116 buttontype=radio groupid=1 groupmemberid=4
+				OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","RANGER_COMBAT_STYLE","FEAT_COMBATSTYLE_RANGER_SHADOW","INFOPANE_TEXT")>
+				<UIText name="TEXTFIELD" indent=5 hangingindent=5 align=left valign=middle fontfamily=Title_Font style=1 />
+			</UIButton>	
+			
 			<UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>	
 		</UIListbox>
 

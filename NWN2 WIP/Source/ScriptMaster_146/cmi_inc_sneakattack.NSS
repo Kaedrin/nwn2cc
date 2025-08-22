@@ -167,6 +167,21 @@ int GetSneakLevels (object oTarget)
 	{
 		nSneakLevels = nSneakLevels + nClassLevel;
 	}
+	
+	nClassLevel = GetLevelByClass(CLASS_STALKER_DEPTHS, oTarget);
+	if (nClassLevel > 1)
+	{
+		nSneakLevels = nSneakLevels + nClassLevel;
+	}
+	
+	nClassLevel = GetLevelByClass(CLASS_TYPE_RANGER, oTarget);
+	if (nClassLevel > 1)
+	{
+		if (GetHasFeat(FEAT_COMBATSTYLE_RANGER_SHADOW , oTarget))
+		{
+			nSneakLevels = nSneakLevels + (nClassLevel - 1);
+		}
+	}		
 		
 	return nSneakLevels;
 	
@@ -354,7 +369,30 @@ int GetTotalSneakDice(object oTarget, object oSneakAttacker)
 	{
 		nDice = nDice + (nClassLevel + 2) / 4;
 		nSneakLevels = nSneakLevels + nClassLevel;
-	}							
+	}	
+	nClassLevel = GetLevelByClass(CLASS_STALKER_DEPTHS, oSneakAttacker);
+	if (nClassLevel > 0)
+	{
+		nDice = nDice + (nClassLevel + 1) / 3;
+		nSneakLevels = nSneakLevels + nClassLevel;
+	}
+	
+	nClassLevel = GetLevelByClass(CLASS_TYPE_RANGER, oSneakAttacker);
+	if (nClassLevel > 1)
+	{
+		if (GetHasFeat(FEAT_COMBATSTYLE_RANGER_SHADOW , oSneakAttacker))
+		{
+			if (nClassLevel > 10)
+				nDice += 3;
+			else 
+			if (nClassLevel > 5)
+				nDice += 2;
+			else 
+			if (nClassLevel > 1)
+				nDice += 1;
+
+		}		
+	}									
 	
 	if (GetHasFeat(FEAT_IMPROVED_UNCANNY_DODGE, oTarget, TRUE))
 	{

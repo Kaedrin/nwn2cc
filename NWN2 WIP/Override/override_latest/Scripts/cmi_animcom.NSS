@@ -102,8 +102,8 @@ int GetAnimCompRange(object oPC)
 		nRange = (nCompLevel / 3) + 1;
 	else 
 		nRange = 1;
-	//SendMessageToPC(oPC, IntToString(nRange));
-	//SendMessageToPC(oPC, IntToString(nCompLevel));	
+//	SendMessageToPC(oPC, IntToString(nRange));
+//	SendMessageToPC(oPC, IntToString(nCompLevel));	
 	return nRange;
 }
 
@@ -149,12 +149,13 @@ void SummonCMIAnimComp(object oPC)
 		sBlueprint = "cmi_ancom_telthor" + sRange;
 		nTelthor = 1;
 	}
-	
+		
 	if (sBlueprint == "")
 	{
 		SummonAnimalCompanion();
 		object oComp = GetAssociate(ASSOCIATE_TYPE_ANIMALCOMPANION, oPC);
-		string sTag = GetTag(oComp);
+		string sTag = GetTag(oComp);	
+			
 		//SendMessageToPC(oPC, "Tag: " + sTag);
 		//SendMessageToPC(oPC, "sRange: " + sRange);
 		if (FindSubString(sTag, "blue") > -1)
@@ -265,7 +266,8 @@ void SummonCMIAnimComp(object oPC)
 	{
 		SetFirstName( GetAssociate(ASSOCIATE_TYPE_ANIMALCOMPANION, oPC), "Spirit of");
 		SetLastName( GetAssociate(ASSOCIATE_TYPE_ANIMALCOMPANION, oPC), "the Land");
-	}	
+	}
+			
 	//object oComp = GetAssociate(ASSOCIATE_TYPE_ANIMALCOMPANION, oPC);
 	//string sTag = GetTag(oComp);
 	//SendMessageToPC(oPC, "Tag: " + sTag);	

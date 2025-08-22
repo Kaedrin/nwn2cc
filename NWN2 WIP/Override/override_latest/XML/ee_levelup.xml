@@ -1241,6 +1241,20 @@
 						</UIButton>
 						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
 					</UIPane>
+					<UIPane name="STYLE_SHADOW_BUTTON" width='PARENT_WIDTH' height='60' tupple='true' updaterate="0.5" pass_input_to_children='true' 
+							 OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","RANGER_COMBAT_STYLE","FEAT_COMBATSTYLE_RANGER_SHADOW","INFOPANE_TEXT")
+							OnGainedFocus=UIPane_Input_Click()>
+	
+						<UIButton name="SELECTOR" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIFrame state='focused' style='EE_SELECTION_FRAME'/>
+						</UIButton>
+						
+						<UIButton name="STYLE_SHADOW_TEXT" width='PARENT_WIDTH' height='PARENT_HEIGHT'>
+							<UIText name="STYLE_SHADOW_TEXTFIELD" strref='242068' x="10" align="left" valign="middle" fontfamily="EE_Regular" style="1" indent="10" color='949285'/>
+							<UIFrame state="down" style='EE_HIGHLIGHT_FRAME'/>
+						</UIButton>
+						<UIIcon width='PARENT_WIDTH' height='PARENT_HEIGHT' img='fx_white.tga' color='12120F' alpha='0.5'/>
+					</UIPane>					
 					<UIPane name="STYLE_2HAND_BUTTON" width='PARENT_WIDTH' height='60' tupple='true' updaterate="0.5" pass_input_to_children='true' 
 							 OnSelected=UIObject_Misc_SetCharGenData("LEVELUP","RANGER_COMBAT_STYLE","FEAT_COMBATSTYLE_RANGER_TWO_HANDED","INFOPANE_TEXT")
 							OnGainedFocus=UIPane_Input_Click()>
@@ -2316,6 +2330,7 @@
 			</UIGrid>
 			<UIButton name="NEXT_PROMPT" x='ALIGN_RIGHT' strref="113711" ClickHotkey='UI_MENU_OPTIONS' style='EE_MENU_PROMPT_BUTTON'
 				OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_FINISH")
+				OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ccs_player_levelup")				
 				update="true" OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_FINISH")/>
 		</UIPane>
 

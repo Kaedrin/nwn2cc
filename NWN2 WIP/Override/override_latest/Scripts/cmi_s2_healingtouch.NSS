@@ -26,7 +26,7 @@ int GetHealingReserveLevel()
 	if ( GetHasSpell(80) || GetHasSpell(1030) || GetHasSpell(142) || GetHasSpell(1004) || GetHasSpell(2231))
 		return 5;						
 
-	if ( GetHasSpell(31) || GetHasSpell(152) || GetHasSpell(2234) )
+	if ( GetHasSpell(31) || GetHasSpell(152) || GetHasSpell(2234))
 		return 4;																
 		
 	if ( GetHasSpell(35) || GetHasSpell(126) || GetHasSpell(145) || GetHasSpell(147) || 

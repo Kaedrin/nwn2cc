@@ -141,20 +141,21 @@ void SummonCMIAnimComp(object oPC)
 	int nRange = GetAnimCompRange(oPC);	    
 	sRange = IntToString(nRange);	
 	
-//	SendMessageToPC(oPC, "sBlueprint: " + sBlueprint);
-//	SendMessageToPC(oPC, "sRange: " + sRange);	
+	//SendMessageToPC(oPC, "sBlueprint: " + sBlueprint);
+	//SendMessageToPC(oPC, "sRange: " + sRange);	
 	
 	if (GetHasFeat(FEAT_TELTHOR_COMPANION, oPC, TRUE))
 	{
 		sBlueprint = "cmi_ancom_telthor" + sRange;
 		nTelthor = 1;
 	}
-	
+		
 	if (sBlueprint == "")
 	{
 		SummonAnimalCompanion();
 		object oComp = GetAssociate(ASSOCIATE_TYPE_ANIMALCOMPANION, oPC);
-		string sTag = GetTag(oComp);
+		string sTag = GetTag(oComp);	
+			
 		//SendMessageToPC(oPC, "Tag: " + sTag);
 		//SendMessageToPC(oPC, "sRange: " + sRange);
 		if (FindSubString(sTag, "blue") > -1)
@@ -265,7 +266,8 @@ void SummonCMIAnimComp(object oPC)
 	{
 		SetFirstName( GetAssociate(ASSOCIATE_TYPE_ANIMALCOMPANION, oPC), "Spirit of");
 		SetLastName( GetAssociate(ASSOCIATE_TYPE_ANIMALCOMPANION, oPC), "the Land");
-	}	
+	}
+			
 	//object oComp = GetAssociate(ASSOCIATE_TYPE_ANIMALCOMPANION, oPC);
 	//string sTag = GetTag(oComp);
 	//SendMessageToPC(oPC, "Tag: " + sTag);	

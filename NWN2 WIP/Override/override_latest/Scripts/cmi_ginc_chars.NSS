@@ -95,7 +95,7 @@ void StackHexbladeSpells(int nHexblade, object oPC=OBJECT_SELF)
 		if (nHexblade > 4)
 			nCount = 1 + nBonus1;
 		else
-			nCount = 0 + nBonus1;	
+			nCount = 0 + nBonus1;		
 			
 		if (nCount > 8)
 			nCount = 8;	
@@ -124,7 +124,7 @@ void StackHexbladeSpells(int nHexblade, object oPC=OBJECT_SELF)
 		if (nHexblade > 7)
 			nCount = 1 + nBonus2;
 		else
-			nCount = 0 + nBonus2;	
+			nCount = 0 + nBonus2;		
 			
 		if (nCount > 8)
 			nCount = 8;		
@@ -150,7 +150,7 @@ void StackHexbladeSpells(int nHexblade, object oPC=OBJECT_SELF)
 		if (nHexblade > 10)
 			nCount = 1 + nBonus3;
 		else
-			nCount = 0 + nBonus3;	
+			nCount = 0 + nBonus3;		
 			
 		if (nCount > 8)
 			nCount = 8;	
@@ -176,7 +176,7 @@ void StackHexbladeSpells(int nHexblade, object oPC=OBJECT_SELF)
 		if (nHexblade > 13)
 			nCount = 1 + nBonus4;
 		else
-			nCount = 0 + nBonus4;
+			nCount = 0 + nBonus4;		
 			
 		if (nCount > 8)
 			nCount = 8;	
@@ -790,7 +790,7 @@ int IsMWM_SValid()
 		bSlashing = FALSE;
 	// Assumes GetHasFeat(FEAT_MELEE_WEAPON_MASTERY_S) is true
 	// Slash wins over Blundgeon which wins over Pierce	
-	
+		
 	
 	/*	Either enforce for all 3 or disable for Slash, review for 1.47
 	oWeapon = GetItemInSlot(INVENTORY_SLOT_LEFTHAND,OBJECT_SELF);	
@@ -3006,9 +3006,13 @@ void EvaluateRWM(object oPC)
 
 int GetDCBonusByLevel(object oPC)
 {
+	//Assumes HD/CL over 20
 	int nDCBonus = 0;
 		
 	int nLevel = GetHitDice(oPC);
+	nDCBonus = (nLevel - 10) / 3;
+	
+	/*
 	if (nLevel > 28) //29
 		nDCBonus += 3;
 	else
@@ -3017,6 +3021,8 @@ int GetDCBonusByLevel(object oPC)
 	else
 	if (nLevel > 22) //23
 		nDCBonus += 1;
+	*/	//Changes 8-21-25 to allowed uncapped levels to scale
+		
 		
 	if (GetHasFeat(1114, oPC)) //Spellcasting Prodigy
 		nDCBonus += 1;
@@ -3416,6 +3422,7 @@ void StackSneakAttack(object oPC)
 	int nThug = GetLevelByClass(CLASS_THUG,oPC);
 	int nCharnag = GetLevelByClass(CLASS_UNDERDARK_MARAUDER, oPC);
 	int nStalkerDepth = GetLevelByClass(CLASS_STALKER_DEPTHS, oPC);
+	int nRanger = GetLevelByClass(CLASS_TYPE_RANGER, oPC);
 	
 	int nNinja = GetLevelByClass(CLASS_NINJA,oPC);
 	int nGFK = GetLevelByClass(CLASS_GHOST_FACED_KILLER,oPC);
@@ -3538,7 +3545,24 @@ void StackSneakAttack(object oPC)
 			nDice += 2;
 		else
 			nDice += 1;
+	}
+	
+	if (nRanger > 0)
+	{
+		if (GetHasFeat(FEAT_COMBATSTYLE_RANGER_SHADOW , oPC))
+		{
+			if (nRanger > 10)
+				nDice += 3;
+			else 
+			if (nRanger > 5)
+				nDice += 2;
+			else 
+			if (nRanger > 1)
+				nDice += 1;
+
+		}		
 	}	
+		
 	//SendMessageToPC(oPC,IntToString(nDice));		
 	//1 is 221
 	//2-10 is 345-353

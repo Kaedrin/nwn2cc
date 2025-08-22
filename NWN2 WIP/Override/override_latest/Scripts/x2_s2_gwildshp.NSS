@@ -69,42 +69,8 @@ void main()
     // with the feat.
     switch(nSpell)
     {
-        // Greater Wildshape I
-        case 646: nSpell = Random(5)+658; break;
-        // Greater Wildshape II
-        case 675: switch(Random(3))
-                  {
-                    case 0: nSpell = 672; break;
-                    case 1: nSpell = 678; break;
-                    case 2: nSpell = 680;
-                  }
-                  break;
-        // Greater Wildshape III
-        case 676: switch(Random(3))
-                  {
-                    case 0: nSpell = 670; break;
-                    case 1: nSpell = 673; break;
-                    case 2: nSpell = 674;
-                  }
-                  break;
-        // Greater Wildshape IV
-        case 677: switch(Random(3))
-                  {
-                    case 0: nSpell = 679; break;
-                    case 1: nSpell = 691; break;
-                    case 2: nSpell = 694;
-                  }
-                  break;
-        // Humanoid Shape
-        case 681:  nSpell = Random(3)+682; break;
-        // Undead Shape
-        case 685:  nSpell = Random(3)+704; break;
         // Dragon Shape
         case 725:  nSpell = Random(3)+707; break;
-        // Outsider Shape
-        case 732:  nSpell = Random(3)+733; break;
-        // Construct Shape
-        case 737:  nSpell = Random(3)+738; break;
         // Magical Beast Wild Shape
         case SPELLABILITY_MAGICAL_BEAST_WILD_SHAPE:
             nSpell = Random(3)+SPELLABILITY_MAGICAL_BEAST_WILD_SHAPE_CELESTIAL_BEAR; break;
@@ -115,7 +81,8 @@ void main()
 	
 	int nFeatId = 0;
 	int nSR = 0;
-
+	int nDruid = GetLevelByClass(CLASS_TYPE_DRUID);
+	int nHD = GetWildShapeLevel(OBJECT_SELF);
     //--------------------------------------------------------------------------
     // Determine which form to use based on spell id, gender and level
     //--------------------------------------------------------------------------
@@ -127,8 +94,6 @@ void main()
        //-----------------------------------------------------------------------
        case 707: 
 	   {
-	   int nDruid = GetLevelByClass(CLASS_TYPE_DRUID);
-	   int nHD = GetWildShapeLevel(OBJECT_SELF);
 		if (nDruid > 29)
 		{
 			nPoly = DRAGONSHAPE_RED_DRAGON_30;
@@ -144,13 +109,11 @@ void main()
 		{
 			nPoly = DRAGONSHAPE_RED_DRAGON_25;	
 			nSR = 23;
-		}		
+		}	
 	   }		break;    // Red Dragon
 	   
        case 708: 
 	   {
-	   int nDruid = GetLevelByClass(CLASS_TYPE_DRUID);
-	   int nHD = GetWildShapeLevel(OBJECT_SELF);
 		if (nDruid > 29)
 		{
 			nPoly = DRAGONSHAPE_BLUE_DRAGON_30;
@@ -171,8 +134,6 @@ void main()
 	   
        case 709: 
 	   {
-	   int nDruid = GetLevelByClass(CLASS_TYPE_DRUID);
-	   int nHD = GetWildShapeLevel(OBJECT_SELF);
 		if (nDruid > 29)
 		{
 			nPoly = DRAGONSHAPE_BLACK_DRAGON_30;
@@ -194,8 +155,6 @@ void main()
 	   
        case Greater_Wild_Shape_Bronze_Dragon: 
 	   {
-	   int nDruid = GetLevelByClass(CLASS_TYPE_DRUID);
-	   int nHD = GetWildShapeLevel(OBJECT_SELF);
 		if (nDruid > 29)
 		{
 			nPoly = DRAGONSHAPE_BRNZE_DRAGON_30;
@@ -216,8 +175,6 @@ void main()
 	   	   
        case Greater_Wild_Shape_White_Dragon: 
 	   {
-	   int nDruid = GetLevelByClass(CLASS_TYPE_DRUID);
-	   int nHD = GetWildShapeLevel(OBJECT_SELF);
 		if (nDruid > 29)
 		{
 			nPoly = DRAGONSHAPE_WHITE_DRAGON_30;
@@ -307,7 +264,7 @@ void main()
     // Here the actual polymorphing is done
     //--------------------------------------------------------------------------
     ePoly = EffectPolymorph(nPoly, FALSE, TRUE);	// AFW-OEI 06/06/2007: Use 3rd boolean to say this is a wildshape polymorph.
-    if (nSR > 0)
+	if (nSR > 0)
 	{
 		effect eSR = EffectSpellResistanceIncrease(nSR);
 		ePoly = EffectLinkEffects(ePoly, eSR);
@@ -501,7 +458,7 @@ void main()
 		
 	WildshapeAbilityBuffs(OBJECT_SELF, fDuration, oWeaponOld, oShield);
 	
-	int nHD = GetTotalLevels(OBJECT_SELF,FALSE);	
+	//nHD = GetTotalLevels(OBJECT_SELF,FALSE);	XTC25
 	
 	//FEAT_EXALTED_WILD_SHAPE
 	if (GetHasFeat(FEAT_EXALTED_WILD_SHAPE))
