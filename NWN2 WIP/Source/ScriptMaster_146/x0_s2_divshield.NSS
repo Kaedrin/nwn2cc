@@ -18,13 +18,13 @@
 void main()
 {
 
-	if (GetLevelByClass(CLASS_FACTOTUM) > 4)
+	if (GetLevelByClass(CLASS_FACTOTUM) > 0)
 	{
 		int nValid = 0;
 		if ( 
 		(GetLevelByClass(CLASS_TYPE_CLERIC) > 0) ||
 		(GetLevelByClass(CLASS_TYPE_PALADIN) > 3) ||
-		(GetLevelByClass(CLASS_TYPE_BLACKGUARD) > 3) ||
+		(GetLevelByClass(CLASS_TYPE_BLACKGUARD) > 2) ||
 		(GetLevelByClass(CLASS_MASTER_RADIANCE) > 0) )
 			nValid = 1; 
 		
