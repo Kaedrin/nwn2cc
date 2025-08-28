@@ -38,10 +38,12 @@ Barbarian gains Spot as a class skill
 
 Pathfinder Rogue Update
 Hit Dice upgraded to d8
+Rogue gains Poison Use at level 2
 Rogue gains Bleeding Wound 2 at level 4
+Rogue gains Skills Focus (Spot) at level 6 (Canny Observer)
 Rogue gains Bleeding Wound 4 at level 8
 Rogue gains Bleeding Wound 6 at level 12
-Bonus Feat gained at level 15
+Rogue gains Camouflage at level 15
 Bonus Feat gained at level 18
 Bonus Feat gained at level 20
 Bonus Feat at 22, 25, 28
@@ -118,7 +120,7 @@ These abilities are cumulative. For example, a 12th-level paladin's lay on hands
 
 Channel Positive Energy: When a paladin reaches 4th level, she gains the supernatural ability to channel positive energy like a cleric. Using this ability consumes two uses of her lay on hands ability. A paladin uses her level as her effective cleric level when channeling positive energy. This is a Charisma-based ability.
 
-Spells: Beginning at 4th level, a paladin gains the ability to cast a small number of divine spells which are drawn from the paladin spell list. A paladin must choose and prepare her spells in advance. At 4th level and higher, her caster level is equal to her paladin level – 3.
+Spells: Beginning at 4th level, a paladin gains the ability to cast a small number of divine spells which are drawn from the paladin spell list. A paladin must choose and prepare her spells in advance. At 4th level and higher, her caster level is equal to her paladin level â€“ 3.
 
 To prepare or cast a spell, a paladin must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a paladin's spell is 10 + the spell level + the paladin's Charisma modifier.
 
