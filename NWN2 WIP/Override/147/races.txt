@@ -1,0 +1,75 @@
+Aasimar (Idyllkin) +2 Con, +2 Cha  Favored: Druid
+Aasimar (Angelkin) +2 Str, +2 Cha  Favored: Paladin
+Aasimar (Lawbringers) +2 Con, +2 Wis  Favored: Paladin
+Aasimar (Musetouched) +2 Dex, +2 Cha  Favored: Bard
+Aasimar (Plumekith) +2 Dex, +2 Wis  Favored: Any
+Aasimar (Emberkin) +2 Int, +2 Cha  Favored: Any
+Drow (Surface)  +2 Dex, +2 Cha, -2 Con Favored: Any
+Fetchling (Kayal) +2 Dex, +2 Cha, -2 Wis Favored: Ninja
+Planetouched, Ifrit  +2 Dex, +2 Cha, -2 Wis Favored: Bard
+Planetouched, Magma Ifrit +2 Con, +2 Int, -2 Dex Favored: Any
+Planetouched, Solar Ifrit +2 Str, +2 Cha, -2 Wis Favored: Paladin
+Planetouched, Oread +2 Str, +2 Wis, -2 Cha Favored: Monk
+Planetouched, Crystal Oread +2 Str, +2 Cha, -2 Wis Favored: Bard 
+Planetouched, Metal Oread +2 Con, +2 Wis, -2 Dex  Favored: Monk
+Planetouched, Sylph +2 Dex +2 Int, -2 Con Favored: Rogue
+Planetouched, Fume Sylph +2 Dex, +2 Cha, -2 Con Favored: Sorcerer 
+Planetouched, Lightning Sylph +2 Dex, +2 Cha, -2 Wis Favored: Bard
+Planetouched, Undine +2 Dex, +2 Wis, -2 Str Favored: Druid
+Planetouched, Vapor Undine +2 Con, +2 Wis, -2 Int Favored: Cleric
+Planetouched, Frost Undine +2 Dex, +2 Int, -2 Cha Favored: Wizard
++2 Dex, +2 Int, -2 Cha
+Tiefling (Daemon-Spawn) +2 Dex, +2 Int, -2 Wis  Favored: Any
+Tiefling (Demodand-Spawn) +2 Con, +2 Wis, -2 Int  Favored: Any 
+Tiefling (Demon-Spawn) +2 Str, +2 Cha, -2 Int  Favored: Barbarian
+Tiefling (Devil-Spawn) +2 Con, +2 Wis, -2 Cha Favored: Any
+Tiefling (Div-Spawn)  +2 Dex, +2 Cha, -2 Int Favored: Swashbuckler
+Tiefling (Kyton-Spawn) +2 Con, +2 Cha, -2 Wis Favored: Warlock
+Tiefling (Rakshasa-Spawn) +2 Dex, +2 Cha, -2 Wis Favored: Bard
+Elf, Snow +2 Dex, -2 Cha Favored: Wizard
+Gruwaar -2 Str, +2 Dex, -2 Wis, +2 Cha Favored: Rogue (Fey)
+Planetouched, Axani +2 Int, +2 Wis Favored: Monk
+Planetouched, Cansin +2 Int, +2 Cha Favored: Sorcerer
+Planetouched, Celadrin +2 Dex, -2 Con, +2 Cha Favored: Bard
+Planetouched, Chaond +2 Dex, +2 Con, -2 Cha Favored: 
+Planetouched, D'hin'ni +2 Dex, -2 Wis, +2 Cha Favored: Sorcerer
+Duskling +2 Con, -2 Int Favored:  (Fey)
+Killoren Favored: Druid (Fey)
+Planetouched, Maeluth -2 Dex, +4 Con Favored: Cleric
+Planetouched, Dust Para Genasi +4 Dex, -2 Con, +2 Int, -2 Cha Favored: Rogue
+Planetouched, Ice Para Genasi -2 Dex, +4 Con, +2 Wis, -2 Cha Favored: Fighter
+Planetouched, Magma Para Genasi +2 Str, +2 Con, -2 Int, -2 Wis Favored: Fighter
+Planetouched, Ooze Para Genasi +4 Con, -2 Cha Favored: Fighter
+Planetouched, Smoke Para Genasi +2 Dex, +2 Int, -2 Cha Favored: Wizard
+Planetouched, Steam Para Genasi +2 Dex, -2 Cha Favored: Rogue
+Planetouched, Shadowswyft +2 Dex, -2 Con Favored: Rogue
+Warforged +2 Str, +2 Con, -2 Cha Favored: Fighter
+Warforged, Scout +2 Con, +2 Dex, -2 Cha Favored: Scout
+Warforged, Superior +2 Dex, +2 Int, -2 Cha Favored: Any (Android)
+Warforged, Advisor +2 Int, +2 Wis, -2 Dex Favored: Any (Android)
+Warforged, Amici +2 Cha, +2 Wis, -2 Str Favored: Any (Android)
+Warforged, Guardian +2 Con, +2 Cha, -2 Dex Favored: Any (Relluk) 
+Planetouched, Wispling -2 Str, +4 Dex, +2 Int Favored: Rogue
+Planetouched, Zenythri +2 Dex, +2 Wis, -2 Cha Favored: Monk
+Suli +2 Str, +2 Cha, -2 Int Favored: Any
+Vishkanya +2 Dex, +2 Cha, -2 Wis Favored: Bard
+Wayang +2 Dex, +2 Int, -2 Wis Favored: Wizard
+Oakling +2 Str, +2 Wis, -2 Cha Favored: Ranger
+Volodni +2 Wis, +2 Con, -2 Int, -2 Cha Favored: Druid
+Svartalfar +2 Dexterity, +2 Charisma, -2 Constitution Favored: Sorcerer
+Lythari +2 Con, +2 Int, -2 Dex Favored: Scout
+Mongrelfolk +4 Con, -2 Int, -4 Cha Favored: Rogue
+Underfolk No bonus Favored: Any
+Changeling +2 Wis, +2 Cha, -2 Con Favored: Any
+Changeling, Witchborn +2 Int, +2 Cha, -2 Con Favored: Witch
+Planetouched, Verdant Oread +2 Con, +2 Wis, -2 Int Favored: Druid
+Dwarrow +2 Con, +2 Wis Favored: Artificer
+
+Review existing races:
+Essentially pathfinder is at it's core two +2 and one -2 or any two +2 if they have less features
+Rare cases of +4, -2, -2
+Sometimes they have a stat boost as part of their "abilities"
+There shouldn't be any single +stat and -stat races. It should all be two plus, one minus. So halflings should be –2 Str, +2 Dex, +2 Cha not -2 Str, +2 Dex
+
+
+

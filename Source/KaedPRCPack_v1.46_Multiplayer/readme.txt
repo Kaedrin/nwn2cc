@@ -1,1 +1,1 @@
-This is the multiplayer version of 1.46
+I generate these files dynamically using a tool (NWN2TK) which pulls the latest changes from the files. 

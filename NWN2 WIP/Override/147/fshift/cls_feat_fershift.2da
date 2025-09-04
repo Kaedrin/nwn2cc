@@ -1,0 +1,33 @@
+2DA V2.0
+
+     FeatLabel                                   FeatIndex List GrantedOnLevel OnMenu 
+0    WeapProfSim                                 46        3    1              0      
+1    ImpStrike                                   21        3    1              0      
+2    FEAT_FERSHIFT_CHOSENFORM                    3932      3    1              1      
+3    FEAT_CHOSENFORM_WORG                        3933      2    1              0      
+4    FEAT_CHOSENFORM_TELTHOR_BEAR                3934      2    1              0      
+5    FEAT_CHOSENFORM_WHITE_TIGER                 3935      2    1              0      
+6    FEAT_CHOSENFORM_STAG_BEETLE                 3936      2    1              0      
+7    FEAT_CHOSENFORM_PHASE_SPIDER                3937      2    1              0      
+8    darkvision                                  228       3    1              0      
+9    LowLightVision                              354       3    1              0      
+10   FEAT_TRACK                                  1116      3    1              0      
+11   WeapProfCreature                            289       3    1              0      
+12   WeapFocCreature                             291       3    2              0      
+13   WeapFocUnArm                                100       3    2              0      
+14   FEAT_MULTIATTACK                            1784      3    3              0      
+15   FEAT_SCENT                                  2178      3    4              0      
+16   ImpCritCreature                             292       3    5              0      
+17   ImpCritUnArm                                62        3    5              0      
+18   FEAT_SWIFT_TRACKER                          1393      3    9              0      
+19   WeapSpecCreature                            290       3    10             0      
+20   WeapSpeUnArm                                138       3    10             0      
+21   FEAT_FERSHIFT_NATRECOV                      3938      3    13             0      
+22   FEAT_GREATER_WEAPON_FOCUS_CREATURE          1157      3    15             0      
+23   FEAT_GREATER_WEAPON_FOCUS_UNARMED           1129      3    15             0      
+24   FEAT_GREATER_WEAPON_SPECIALIZATION_CREATURE 1197      3    20             0      
+25   FEAT_GREATER_WEAPON_SPECIALIZATION_UNARMED  1169      3    20             0      
+26   FEAT_EPIC_WEAPON_FOCUS_CREATURE             656       3    25             0      
+27   FEAT_EPIC_WEAPON_FOCUS_UNARMED              630       3    25             0      
+28   FEAT_EPIC_WEAPON_SPECIALIZATION_CREATURE    694       3    30             0      
+29   FEAT_EPIC_WEAPON_SPECIALIZATION_UNARMED     668       3    30             0      
