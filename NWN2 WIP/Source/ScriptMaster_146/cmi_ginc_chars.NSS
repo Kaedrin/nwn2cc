@@ -2241,6 +2241,9 @@ void StackSwashbucklerDodge(object oPC)
 
 	int nTotal=0;
 	int nDaringOutlawCap = GetLocalInt(GetModule(), "DaringOutlawCap");	
+	int nSwiftHunterCap = GetLocalInt(GetModule(), "SwiftHunterCap");	
+	int nSwiftAmbushCap = GetLocalInt(GetModule(), "SwiftAmbushCap");	
+	int nBonus = 0;
 		
 	int nWildStlk = GetLevelByClass(CLASS_WILD_STALKER,oPC);
 	if (nWildStlk > 3)
@@ -2249,21 +2252,50 @@ void StackSwashbucklerDodge(object oPC)
 	int nRogue = GetLevelByClass(CLASS_TYPE_ROGUE,oPC);
 	int nNinja = GetLevelByClass(CLASS_NINJA, oPC);
 	int nSwash = GetLevelByClass(CLASS_TYPE_SWASHBUCKLER,oPC);	
-		
 	int nScout = GetLevelByClass(CLASS_SCOUT,oPC);
 	
 	if (GetHasFeat(FEAT_SWIFT_AMBUSHER , oPC))
 	{
 		if (GetHasFeat(FEAT_DARING_OUTLAW , oPC))
 		{	
-			nScout += nRogue;
-			nScout += nNinja;
-			nScout += nSwash;
+			nBonus = 0;
+			int nDoubleCap = 0;
+			nBonus += nRogue;
+			nBonus += nNinja;
+			if (nDaringOutlawCap > 0)
+			{
+				nDoubleCap = nDaringOutlawCap;
+			}
+			if (nSwiftAmbushCap > 0)
+			{
+				nDoubleCap += nSwiftAmbushCap;
+			}
+			if (nDoubleCap != 0)
+			{
+				if (nBonus > nDoubleCap)
+					nScout += nDoubleCap;
+				else
+					nScout += nBonus;
+			}
+			else
+				nScout += nBonus; //Both uncapped
 		}
 		else
 		{
-			nScout += nRogue;
-			nScout += nNinja;		
+			if (nSwiftAmbushCap > 0)
+			{
+				nBonus = 0;
+				nBonus += nRogue;
+				nBonus += nNinja;
+				if (nBonus > nSwiftAmbushCap)
+					nBonus = nSwiftAmbushCap;
+				nScout += nBonus;
+			}
+			else
+			{
+				nScout += nRogue;
+				nScout += nNinja;		
+			}
 		}
 	}
 	else
@@ -2285,9 +2317,16 @@ void StackSwashbucklerDodge(object oPC)
 	}
 	if (GetHasFeat(FEAT_SWIFT_HUNTER , oPC))
 	{
-		int nRanger = GetLevelByClass(CLASS_TYPE_RANGER, oPC);	
-		nScout += nRanger;
-	}	
+		int nRanger = GetLevelByClass(CLASS_TYPE_RANGER, oPC);
+		
+		if (nSwiftHunterCap > 0)
+		{
+			if (nRanger > nSwiftHunterCap)
+				nScout += nSwiftHunterCap;
+		}
+		else
+			nScout += nRanger;
+	}		
 	
 	nTotal += ((nScout + 1)/4);
 	nTotal += nSwash/5; 	
@@ -3193,7 +3232,13 @@ int IsModuleSupported(int LoadOptions)
 		SetLocalInt(GetModule(), "UseConFix", nValue);
 		nValue = StringToInt(Get2DAString("cmi_options","Value",CMI_OPTIONS_UseDeathwardFix));	
 		SetLocalInt(GetModule(), "UseDeathwardFix", nValue);		
-									
+				
+		nValue = StringToInt(Get2DAString("cmi_options","Value",CMI_OPTIONS_SwiftHunterCap));	
+		SetLocalInt(GetModule(), "SwiftHunterCap", nValue);	
+		nValue = StringToInt(Get2DAString("cmi_options","Value",CMI_OPTIONS_SwiftAmbushCap));	
+		SetLocalInt(GetModule(), "SwiftAmbushCap", nValue);	
+						
+							
 		return TRUE;
 	}
 		
@@ -3495,13 +3540,34 @@ void StackSneakAttack(object oPC)
 	{
 		if (GetHasFeat(FEAT_SWIFT_AMBUSHER , oPC))
 		{
-			nRogue += nScout;
-			nScout = 0;
+			int nSwiftAmbushCap = GetLocalInt(GetModule(), "SwiftAmbushCap");
+			if (nSwiftAmbushCap > 0)
+			{
+				if (nScout > nSwiftAmbushCap)
+					nRogue += nSwiftAmbushCap;
+				else
+					nRogue += nScout;
+			}
+			else
+			{
+				nRogue += nScout;
+				nScout = 0;
+			}
 			//nDice += ((nScout+1)/2);
 		}
 		if (GetHasFeat(FEAT_SWIFT_HUNTER , oPC))
 		{
-			nScout += GetLevelByClass(CLASS_TYPE_RANGER,oPC);;
+			int nRanger = GetLevelByClass(CLASS_TYPE_RANGER,oPC);
+			int nSwiftHunterCap = GetLocalInt(GetModule(), "SwiftHunterCap");
+			if (nSwiftHunterCap > 0)
+			{
+				if (nRanger > nSwiftHunterCap)
+					nScout += nSwiftHunterCap;
+				else
+					nScout += nRanger;
+			}		
+			else
+				nScout += nRanger;
 			//nDice += ((nScout+nRanger+1)/2);
 		}		
 		nDice += (1 + ((nScout - 1)/4));
