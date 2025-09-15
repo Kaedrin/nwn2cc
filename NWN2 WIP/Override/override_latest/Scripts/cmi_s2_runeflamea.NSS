@@ -57,6 +57,9 @@ void main()
 	int nDamageDice = GetFieryBurstReserveDamageDice(oCaster);
 	int nDC = GetReserveSpellSaveDC(nDamageDice,oCaster);
 	nDamageDice = nDamageDice * 2;
+	
+	int iEmpower = GetHasFeat(FEAT_EMPOWER_RESERVEFEATS);
+	int iMaximize = GetHasFeat(FEAT_MAXIMIZE_RESERVEFEATS);
 				
     effect eDam;
     effect eExplode = EffectVisualEffect(VFX_RUNE_FLAME);
@@ -80,6 +83,11 @@ void main()
                     SignalEvent(oTarget, EventSpellCastAt(oCaster, SPELL_DELAYED_BLAST_FIREBALL));
                     {
                         nDamage = d6(nDamageDice);
+						if (iMaximize)
+							nDamage = 6 * nDamageDice;
+						if (iEmpower)
+							nDamage = (nDamage*3)/2;
+						
                         //Change damage according to Reflex, Evasion and Improved Evasion
                         nDamage = GetReflexAdjustedDamage(nDamage, oTarget, nDC, SAVING_THROW_TYPE_FIRE, oCaster);
                         //Set up the damage effect

@@ -470,7 +470,17 @@ void main()
 	if ( GetLevelByClass( nNewClass, oPC ) < GetLevelByClass( CLASS_HEXBLADE, oPC ) ) 
 	{
 		nNewClass = CLASS_TYPE_FIGHTER;
-	}			
+	}
+	
+	if ( GetLevelByClass( nNewClass, oPC ) < GetLevelByClass( CLASS_SKALD, oPC ) ) 
+	{
+		nNewClass = CLASS_TYPE_BARD;
+	}
+	
+	if ( GetLevelByClass( nNewClass, oPC ) < GetLevelByClass( CLASS_FACTOTUM, oPC ) ) 
+	{
+		nNewClass = CLASS_TYPE_WIZARD;
+	}					
 
 	switch ( nNewClass )
 	{

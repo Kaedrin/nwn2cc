@@ -13,10 +13,9 @@
 void main()
 {
 
-	object oPC = GetFirstPC();
-    //object oPC = GetFirstFactionMember(oPC, FALSE);
+	//object oPC = GetFirstPC();
+    object oPC = GetFirstFactionMember(oPC, FALSE);
 	int nElaborateParry = GetLocalInt(OBJECT_SELF, "ElaborateParry");
-	int nElaborateParryCap = GetLocalInt(OBJECT_SELF, "ElaborateParryCap");
 	
     while(GetIsObjectValid(oPC) == TRUE)
     {

@@ -39,7 +39,14 @@ void main()
 		int nBonus = 0;
 		nBonus = GetDamageBonusByValue(GetAbilityModifier(ABILITY_DEXTERITY,OBJECT_SELF));
 		
+		int nUseFullBonus = 0;
+	 	if (GetHasFeat(FEAT_COMBATSTYLE_RANGER_XBOW, OBJECT_SELF))
+			nUseFullBonus = 1;
+		
 		if (GetLocalInt(GetModule(), "CrossbowSniper50PercentDexCap"))
+			nUseFullBonus = 0;
+			
+		if (nUseFullBonus == 0)	
 			nBonus = nBonus/2;
 		
 		if (nBonus == 0)

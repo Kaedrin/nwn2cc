@@ -33,9 +33,11 @@ void ApplyFatigue3(object oTarget, int nFatigueDuration);
 
 void main()
 {
+	int nBarb = GetLevelByClass(CLASS_TYPE_BARBARIAN);
 	// If you're already in a rage, don't apply effects again
     if(!GetHasFeatEffect(FEAT_BARBARIAN_RAGE))
     {
+		RemoveEffectsFromSpell(OBJECT_SELF, FATIGUE); //Remove debuff when you start raging again
 		// JLR - OEI 06/21/05 NWN2 3.5
 		// AFW-OEI 04/11/2006: Implement Mighty Rage.
         int nIncrease;
@@ -70,7 +72,7 @@ void main()
         }
 
         //Determine the duration by getting the con modifier after being modified
-        int nRageDuration = 3 + GetAbilityModifier(ABILITY_CONSTITUTION) + (nIncrease/2);
+        int nRageDuration = 4 + GetAbilityModifier(ABILITY_CONSTITUTION) + (nIncrease/2);
         if (GetHasFeat(FEAT_EXTEND_RAGE))
         {
             nRageDuration += 5;
@@ -103,8 +105,41 @@ void main()
 			eWill = SetEffectSpellId(eWill, -GetSpellId());
 			eWill = ExtraordinaryEffect(eWill);
 			ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eWill, OBJECT_SELF, fRageDuration);
-		}		
-
+		}
+		
+		//Level 14
+		effect eDmgBonus = EffectDamageIncrease(DAMAGE_BONUS_1d6, DAMAGE_TYPE_FIRE);
+		if (GetHasFeat(FEAT_ICE_TROLL_BERSERKER))
+			eDmgBonus = EffectDamageIncrease(DAMAGE_BONUS_1d6, DAMAGE_TYPE_COLD);
+			
+		//Level 8
+		int nRegenBonus = nBarb/6;
+		if (nRegenBonus == 0)
+			nRegenBonus = 1;
+		effect eRegen = EffectRegenerate(nRegenBonus, 6.0);
+		
+		//Level 6
+		if (nBarb > 5)
+		{
+			int nHealValue = 0;
+			int nHealDice = 1;
+			if (nBarb > 4)
+				nHealDice = (nBarb/4);
+			
+			nHealValue = d8(nHealDice) + GetAbilityModifier(ABILITY_CONSTITUTION) + (nIncrease/2);
+			
+			effect eHeal = EffectHeal(nHealValue);	
+			effect eHealVis = EffectVisualEffect(VFX_IMP_HEALING_S);
+			DelayCommand(0.1f, ApplyEffectToObject(DURATION_TYPE_INSTANT, eHeal, OBJECT_SELF));	
+			DelayCommand(0.2f, ApplyEffectToObject(DURATION_TYPE_INSTANT, eHealVis, OBJECT_SELF));	
+		}
+		
+		//Level 24 Renewed Vitality
+		effect eImmuneAbilDmg = EffectImmunity(IMMUNITY_TYPE_ABILITY_DECREASE);
+    	effect eDeath = EffectImmunity(IMMUNITY_TYPE_DEATH);
+		effect eNeg = EffectDamageResistance(DAMAGE_TYPE_NEGATIVE, 9999, 0);	
+    	effect eLevel = EffectImmunity(IMMUNITY_TYPE_NEGATIVE_LEVEL);		
+		
 		if (GetHasFeat(FEAT_BARB_WHIRLWIND_FRENZY))
 		{
 	        if (nRageDuration > 0)
@@ -122,6 +157,22 @@ void main()
 		        effect eLink = EffectLinkEffects(eStr, eSave);
 		        eLink = EffectLinkEffects(eLink, eAC);
 		        eLink = EffectLinkEffects(eLink, eDur);
+				
+				if (nBarb > 7)	
+				{
+					eLink = EffectLinkEffects(eLink, eRegen);
+				}
+				if (nBarb > 13)
+				{
+					eLink = EffectLinkEffects(eLink, eDmgBonus);
+				}
+				if (nBarb > 23)
+				{
+					eLink = EffectLinkEffects(eLink, eImmuneAbilDmg);
+					eLink = EffectLinkEffects(eLink, eDeath);
+					eLink = EffectLinkEffects(eLink, eNeg);
+					eLink = EffectLinkEffects(eLink, eLevel);	
+				}								
 				
 				if (!GetHasSpellEffect(SPELL_HASTE,OBJECT_SELF))
 				{			
@@ -189,6 +240,22 @@ void main()
 		        eLink = EffectLinkEffects(eLink, eSave);
 		        eLink = EffectLinkEffects(eLink, eAC);
 		        eLink = EffectLinkEffects(eLink, eDur);
+				
+				if (nBarb > 7)	
+				{
+					eLink = EffectLinkEffects(eLink, eRegen);
+				}
+				if (nBarb > 13)
+				{
+					eLink = EffectLinkEffects(eLink, eDmgBonus);
+				}
+				if (nBarb > 23)
+				{
+					eLink = EffectLinkEffects(eLink, eImmuneAbilDmg);
+					eLink = EffectLinkEffects(eLink, eDeath);
+					eLink = EffectLinkEffects(eLink, eNeg);
+					eLink = EffectLinkEffects(eLink, eLevel);	
+				}				
 				
 				effect eNaturalAC;
 				if (GetHasFeat(FEAT_ICE_TROLL_BERSERKER, OBJECT_SELF, TRUE))

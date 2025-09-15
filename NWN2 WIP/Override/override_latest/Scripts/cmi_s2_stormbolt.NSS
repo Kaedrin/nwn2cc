@@ -90,7 +90,7 @@ void main()
                 	SignalEvent(oTarget, EventSpellCastAt(OBJECT_SELF, GetSpellId()));
 
 					int nDamage = HandleReserveMeta(nDamageDice, 3);
-					nDamage = nDamage + (nDamageDice * 3); //d3+3 damage now					
+					//nDamage = nDamage + (nDamageDice * 3); //d3+3 damage now					
 					
 					if (GetLevelByClass(CLASS_MYSTIC_RESV) == 0)
 					{

@@ -1,3 +1,5 @@
+//This file is nonfunctional and will eventually be an option to replace the cmi_options 2da file for PWs
+
 const int cmi_option_PaladinFullCaster = 1;
 const int cmi_option_SneakAttackSpells	= 1;
 const int cmi_option_TouchofHealingUse50PercentCap	= 1;	
