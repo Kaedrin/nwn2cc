@@ -83,9 +83,9 @@ void main()
 					}
 
 	                    //Detemine damage
-	                    nDamage = d3(nReserveLevel);
+	                    //nDamage = d3(nReserveLevel);
 						nDamage = HandleReserveMeta(nReserveLevel, 3);
-						nDamage = nDamage + (nReserveLevel * 3); //d3+3 damage now
+						//nDamage = nDamage + (nReserveLevel * 3); //d3+3 damage now
 
 						if (GetLevelByClass(CLASS_MYSTIC_RESV) == 0)
 						{

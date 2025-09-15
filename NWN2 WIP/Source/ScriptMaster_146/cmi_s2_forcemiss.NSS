@@ -37,8 +37,7 @@ void main()
     //Declare major variables
     object oTarget = GetSpellTargetObject();	
 	int iForceMage = GetLevelByClass(CLASS_FORCE_MAGE);
-    int nMissiles = iForceMage;
-    //effect eMissile = EffectVisualEffect(VFX_IMP_MIRV);	// handled by SpawnSpellProjectile()
+    int nMissiles = 1 + iForceMage + ( GetHitDice(OBJECT_SELF)/10); //Max 9
     effect eVis = EffectVisualEffect(VFX_IMP_MAGBLUE);
     float fDelay, fTime, fTime2;
 	int nSpell = GetSpellId();
@@ -49,6 +48,8 @@ void main()
 	float fTravelTime;
 	
 
+	int iEmpower = GetHasFeat(FEAT_EMPOWER_RESERVEFEATS);
+	int iMaximize = GetHasFeat(FEAT_MAXIMIZE_RESERVEFEATS);
 	
     if (spellsIsTarget(oTarget, SPELL_TARGET_STANDARDHOSTILE, OBJECT_SELF))
     {
@@ -63,35 +64,17 @@ void main()
 				//Apply a single damage hit for each missile instead of as a single mass
 				for (nCnt = 1; nCnt <= nMissiles; nCnt++)
 				{
-					fTravelTime = GetProjectileTravelTime( lSourceLoc, lTarget, nPathType );
-					if ( nCnt == 0 )	
-						fDelay = 0.0f;
-					else				
+					fTravelTime = GetProjectileTravelTime( lSourceLoc, lTarget, nPathType );				
 						fDelay = GetRandomDelay( 0.1f, 0.3f ) + (0.1f * IntToFloat(nCnt));
 				   
 		                //Roll damage
-		                int nDam = d4(3) + 3; //Default value in case something is set wrong in the options
+		                int nDam = d3() + 3; //Default value in case something is set wrong in the options
 						
-						if (cmi_option_forcemage_use_flat_scaling)
-						{	
-							nDam = iForceMage + GetLevelByClass(CLASS_TYPE_WIZARD) + GetLevelByClass(CLASS_TYPE_SORCERER);
-							nDam = nDam*2;
-						}
-						else
-						{
-							if (cmi_option_forcemissile_die_size == 4)
-								nDam = d4(cmi_option_forcemissile_die_count)+cmi_option_forcemissile_bonus_value;
-							else						
-							if (cmi_option_forcemissile_die_size == 3)
-								nDam = d3(cmi_option_forcemissile_die_count)+cmi_option_forcemissile_bonus_value;
-							else						
-							if (cmi_option_forcemissile_die_size == 6)
-								nDam = d6(cmi_option_forcemissile_die_count)+cmi_option_forcemissile_bonus_value;							
-							else
-							if (cmi_option_forcemissile_die_size == 2)
-								nDam = d2(cmi_option_forcemissile_die_count)+cmi_option_forcemissile_bonus_value;																
-						}
-		
+						if (iMaximize)
+							nDam = 6;
+						if (iEmpower)
+							nDam = (nDam*3)/2;
+						
 		                //Set damage effect
 		                effect eDam = EffectDamage(nDam, DAMAGE_TYPE_MAGICAL, DAMAGE_POWER_NORMAL, TRUE);
 		                //Apply the MIRV and damage effect
@@ -100,8 +83,5 @@ void main()
 						DelayCommand( fDelay, SpawnSpellProjectile(OBJECT_SELF, oTarget, lSourceLoc, lTarget, nSpell, nPathType) );
 		       	}	
 		}
-
-	
-
 	}
 }

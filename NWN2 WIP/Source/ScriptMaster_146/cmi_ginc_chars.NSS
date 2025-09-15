@@ -828,8 +828,18 @@ int GetHighestMentalStatModifier(object oPC)
 
 int HandleReserveMeta(int nDice, int nDieType)
 {
-
-	int nReserveMeta = GetLocalInt(GetModule(), "EnableReserveMeta");
+	
+	int iEmpower = GetHasFeat(FEAT_EMPOWER_RESERVEFEATS);
+	int iMaximize = GetHasFeat(FEAT_MAXIMIZE_RESERVEFEATS);
+		
+	int nReserveMeta = 0;
+	if (iEmpower)
+		nReserveMeta = 1;
+	if (iMaximize)
+		nReserveMeta = 2;
+	
+	if ((iEmpower == 1) && (iMaximize ==1))
+		nReserveMeta = 3;
 		
 	// 0 = Disabled
 	// 1 = Empower
@@ -837,82 +847,44 @@ int HandleReserveMeta(int nDice, int nDieType)
 	// 3 = Emp + Max
 			
 	int nDamage = 0;
-	
-	if (!nReserveMeta)
-	{
-		if (GetLevelByClass(CLASS_MYSTIC_RESV) > 0)
-			nReserveMeta = 1;	
-	}
-	
+		
 	if (nReserveMeta)
-	{
-		int nReserveEmpower;
-		int nReserveMaximize;
-		int nReserveEmpPlusMax;	
-		
-		if (nReserveMeta == 3)
-		{
-			nReserveEmpPlusMax = 1;
-			nReserveEmpower = 1;
-			nReserveMaximize = 1;
-		}
-		else
-		if (nReserveMeta == 2)
-		{
-			nReserveMaximize = 1;
-		}	
-		else
-		{
-			nReserveEmpower = 1;
-		}			
-		
-		if (nReserveEmpower && !GetHasFeat(FEAT_EMPOWER_SPELL))
-			nReserveEmpower = 0;
-		if (nReserveMaximize && !GetHasFeat(FEAT_MAXIMIZE_SPELL))
-			nReserveMaximize = 0;
-		if (nReserveEmpower == 0 || nReserveMaximize == 0)
-			nReserveEmpPlusMax = 0;
-		
-		if (GetLevelByClass(CLASS_MYSTIC_RESV) > 0)
-		{
-			if (nReserveEmpower == 0)
-				nReserveEmpower = 1;
-		}			
+	{			
 			
-		if (nReserveEmpPlusMax)
+		if (nReserveMeta == 3) // Empower and Maximize
 		{
-			if (nDieType == 6)
+			if (nDieType == 6) // 1d6, no longer used
 			{
 				nDamage = (6 * nDice * 3) / 2;
 			}
 			else
-			if (nDieType == 3)
+			if (nDieType == 3) // d3+3
 			{
 				nDamage = (3 * nDice * 3);
 			}				
 		}
 		else
-		if (nReserveMaximize)
+		if (nReserveMeta == 2) // Maximize
 		{
-			if (nDieType == 6)
+			if (nDieType == 6) // 1d6, no longer used
 			{
 				nDamage = 6 * nDice;
 			}
 			else
-			if (nDieType == 3)
+			if (nDieType == 3) // d3+3
 			{
 				nDamage = 6 * nDice;
 			}		
 		}
 		else
-		if (nReserveEmpower)
+		if (nReserveMeta == 1) // Empower
 		{
-			if (nDieType == 6)
+			if (nDieType == 6) // 1d6, no longer used
 			{
 				nDamage = (d6(nDice) * 3)/2;
 			}
 			else
-			if (nDieType == 3)
+			if (nDieType == 3) // d3+3
 			{
 				nDamage = (d3(nDice) * 3)/2;
 				nDamage += ((nDice*3*3)/2);
@@ -920,12 +892,12 @@ int HandleReserveMeta(int nDice, int nDieType)
 		}
 		else // No valid metamagics available
 		{
-			if (nDieType == 6)
+			if (nDieType == 6) // 1d6, no longer used
 			{
 				nDamage = d6(nDice);
 			}
 			else
-			if (nDieType == 3)
+			if (nDieType == 3) // d3+3
 			{
 				nDamage = d3(nDice) + (nDice*3);
 			}		

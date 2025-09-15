@@ -51,17 +51,16 @@ void main()
 				int nMax = (nCasterLvl*6);
 				nDamage = ApplyMetamagicVariableMods( nDamage, nMax );	
 				
-				/*
+				
 				if (GetLevelByClass(CLASS_FORCE_MAGE, OBJECT_SELF) > 4)
 				{
 					int nMeta = GetMetaMagicFeat();
 					if (nMeta == METAMAGIC_MAXIMIZE)
 						nDamage = (nMax*3)/2;
 					else
-					if (nMeta != METAMAGIC_EMPOWER)
 						nDamage = (nDamage*3)/2;	
 				}
-				*/				
+								
 				
 				
 				

@@ -64,136 +64,104 @@ void main()
 	float fTravelTime;
 	
 	int iForceMage = GetLevelByClass(CLASS_FORCE_MAGE);
+	int iForceMissileCount = nMissiles + iForceMage;
 	
     if (spellsIsTarget(oTarget, SPELL_TARGET_STANDARDHOSTILE, OBJECT_SELF))
     {
         //Fire cast spell at event for the specified target
         SignalEvent(oTarget, EventSpellCastAt(OBJECT_SELF, SPELL_MAGIC_MISSILE));
-        
+        		
 		//Limit missiles to five
         if (nMissiles > 5)
         {
             nMissiles = 5;
         }
 		
-	if (iForceMage > 0)
-	{
-
-		nMissiles += iForceMage;
-		
-		int nDoubleMissiles = 0;		
-		if (nMissiles > 5)
+		if (iForceMage > 0)
 		{
-			nDoubleMissiles = nMissiles - 5;
-			nMissiles = 5;
-		}		
-    		RemoveEffectsFromSpell(oTarget, SPELL_SHIELD);
-		
-			//Apply a single damage hit for each missile instead of as a single mass
-			for (nCnt = 1; nCnt <= nMissiles; nCnt++)
-			{
-				fTravelTime = GetProjectileTravelTime( lSourceLoc, lTarget, nPathType );
-				if ( nCnt == 0 )	
-					fDelay = 0.0f;
-				else				
-					fDelay = GetRandomDelay( 0.1f, 0.3f ) + (0.1f * IntToFloat(nCnt));
-			   
-	                //Roll damage
-	                int nDam = d4(1) + 1;
-	     	          //Enter Metamagic conditions
-	                nDam = ApplyMetamagicVariableMods(nDam, 5);
-					
-					/*
-					if (iForceMage == 5)
-					{						
-						int nMeta = GetMetaMagicFeat();
-						if (nDoubleMissiles > 0)
-						{
-							if (nMeta == METAMAGIC_EMPOWER)
-								nDam = 15;
-							else
-								nDam = 10;		
-							nDoubleMissiles--;
-						}
-						else
-						{
-							if (nMeta == METAMAGIC_EMPOWER)
-								nDam = 8;
-							else
-								nDam = 5;						
-						}					
-					}
-					else
-					*/
-					{
-						if (nDoubleMissiles > 0)
-						{
-							nDam = d4(2) + 2;
-							nDam = ApplyMetamagicVariableMods(nDam, 10);
-							nDoubleMissiles--;
-						}
-					}
 	
-	                //Set damage effect
-	                effect eDam = EffectDamage(nDam, DAMAGE_TYPE_MAGICAL, DAMAGE_POWER_NORMAL, TRUE);
-	                //Apply the MIRV and damage effect
-	                DelayCommand(fDelay + fTravelTime, ApplyEffectToObject(DURATION_TYPE_INSTANT, eDam, oTarget));
-	                DelayCommand(fDelay + fTravelTime, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eVis, oTarget));
-					DelayCommand( fDelay, SpawnSpellProjectile(OBJECT_SELF, oTarget, lSourceLoc, lTarget, nSpell, nPathType) );
-	       	}	
-	}
-	else
-	{
-		effect eMantle = GetFirstEffect(oTarget);
-		while (GetIsEffectValid(eMantle) &&
-			(GetEffectSpellId(eMantle) != SPELL_LEAST_SPELL_MANTLE) &&
-			(GetEffectSpellId(eMantle) != SPELL_LESSER_SPELL_MANTLE) &&
-			(GetEffectSpellId(eMantle) != SPELL_SPELL_MANTLE) &&
-			(GetEffectSpellId(eMantle) != SPELL_GREATER_SPELL_MANTLE))
-		{
-			eMantle = GetNextEffect(oTarget);
-		}
-		if (GetIsEffectValid(eMantle)) 
-		{
-			MyResistSpell(OBJECT_SELF, oTarget, fDelay);
-			for (nCnt = 1; nCnt <= nMissiles; nCnt++)
-			{
-				fDelay = GetRandomDelay( 0.1f, 0.5f ) + (0.5f * IntToFloat(nCnt));
-				DelayCommand( fDelay, SpawnSpellProjectile(OBJECT_SELF, oTarget, lSourceLoc, lTarget, nSpell, nPathType) );
-			}
+			nMissiles = 1;
+					
+	    		RemoveEffectsFromSpell(oTarget, SPELL_SHIELD);
+			
+				// Come back and clean this up, no loop 9-14-25
+				//Apply a single damage hit
+				for (nCnt = 1; nCnt <= nMissiles; nCnt++)
+				{
+					fTravelTime = GetProjectileTravelTime( lSourceLoc, lTarget, nPathType );				
+					fDelay = GetRandomDelay( 0.1f, 0.3f ) + (0.1f * IntToFloat(nCnt));
+				   
+		                //Roll damage
+		                int nDam = d4(1) + 1;
+		     	          //Enter Metamagic conditions
+		                nDam = ApplyMetamagicVariableMods(nDam, 5);
+						
+						int nMeta = GetMetaMagicFeat();
+						if ((nMeta == METAMAGIC_EMPOWER) && (iForceMage == 5))
+							nDam = 7;
+						
+						nDam = nDam * iForceMissileCount;	
+								
+		                //Set damage effect
+		                effect eDam = EffectDamage(nDam, DAMAGE_TYPE_MAGICAL, DAMAGE_POWER_NORMAL, TRUE);
+		                //Apply the MIRV and damage effect
+		                DelayCommand(fDelay + fTravelTime, ApplyEffectToObject(DURATION_TYPE_INSTANT, eDam, oTarget));
+		                DelayCommand(fDelay + fTravelTime, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eVis, oTarget));
+						DelayCommand( fDelay, SpawnSpellProjectile(OBJECT_SELF, oTarget, lSourceLoc, lTarget, nSpell, nPathType) );
+		       	}	
 		}
 		else
 		{
-			//Apply a single damage hit for each missile instead of as a single mass
-			for (nCnt = 1; nCnt <= nMissiles; nCnt++)
+			effect eMantle = GetFirstEffect(oTarget);
+			while (GetIsEffectValid(eMantle) &&
+				(GetEffectSpellId(eMantle) != SPELL_LEAST_SPELL_MANTLE) &&
+				(GetEffectSpellId(eMantle) != SPELL_LESSER_SPELL_MANTLE) &&
+				(GetEffectSpellId(eMantle) != SPELL_SPELL_MANTLE) &&
+				(GetEffectSpellId(eMantle) != SPELL_GREATER_SPELL_MANTLE))
 			{
-				fTravelTime = GetProjectileTravelTime( lSourceLoc, lTarget, nPathType );
-				if ( nCnt == 0 )	fDelay = 0.0f;
-				else				fDelay = GetRandomDelay( 0.1f, 0.5f ) + (0.5f * IntToFloat(nCnt));
-				
-				/*
-				fTime = fDelay + ((nCnt - 1) * 0.25);
-				fTime2 = ((nCnt - 1) * 0.25);
-				*/			        
-				
-				//Make SR Check
-		        if (!MyResistSpell(OBJECT_SELF, oTarget, fDelay))
-			  	{
-	                //Roll damage
-	                int nDam = d4(1) + 1;
-	     	          //Enter Metamagic conditions
-	                nDam = ApplyMetamagicVariableMods(nDam, 5);
-	
-	                //Set damage effect
-	                effect eDam = EffectDamage(nDam, DAMAGE_TYPE_MAGICAL);
-	                //Apply the MIRV and damage effect
-	                DelayCommand(fDelay + fTravelTime, ApplyEffectToObject(DURATION_TYPE_INSTANT, eDam, oTarget));
-	                DelayCommand(fDelay + fTravelTime, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eVis, oTarget));
+				eMantle = GetNextEffect(oTarget);
+			}
+			if (GetIsEffectValid(eMantle)) 
+			{
+				MyResistSpell(OBJECT_SELF, oTarget, fDelay);
+				for (nCnt = 1; nCnt <= nMissiles; nCnt++)
+				{
+					fDelay = GetRandomDelay( 0.1f, 0.5f ) + (0.5f * IntToFloat(nCnt));
+					DelayCommand( fDelay, SpawnSpellProjectile(OBJECT_SELF, oTarget, lSourceLoc, lTarget, nSpell, nPathType) );
 				}
-				DelayCommand( fDelay, SpawnSpellProjectile(OBJECT_SELF, oTarget, lSourceLoc, lTarget, nSpell, nPathType) );
-	       	}
-		}	
-	}
+			}
+			else
+			{
+				//Apply a single damage hit for each missile instead of as a single mass
+				for (nCnt = 1; nCnt <= nMissiles; nCnt++)
+				{
+					fTravelTime = GetProjectileTravelTime( lSourceLoc, lTarget, nPathType );
+					if ( nCnt == 0 )	fDelay = 0.0f;
+					else				fDelay = GetRandomDelay( 0.1f, 0.5f ) + (0.5f * IntToFloat(nCnt));
+					
+					/*
+					fTime = fDelay + ((nCnt - 1) * 0.25);
+					fTime2 = ((nCnt - 1) * 0.25);
+					*/			        
+					
+					//Make SR Check
+			        if (!MyResistSpell(OBJECT_SELF, oTarget, fDelay))
+				  	{
+		                //Roll damage
+		                int nDam = d4(1) + 1;
+		     	          //Enter Metamagic conditions
+		                nDam = ApplyMetamagicVariableMods(nDam, 5);
+		
+		                //Set damage effect
+		                effect eDam = EffectDamage(nDam, DAMAGE_TYPE_MAGICAL);
+		                //Apply the MIRV and damage effect
+		                DelayCommand(fDelay + fTravelTime, ApplyEffectToObject(DURATION_TYPE_INSTANT, eDam, oTarget));
+		                DelayCommand(fDelay + fTravelTime, ApplyEffectToObject(DURATION_TYPE_TEMPORARY, eVis, oTarget));
+					}
+					DelayCommand( fDelay, SpawnSpellProjectile(OBJECT_SELF, oTarget, lSourceLoc, lTarget, nSpell, nPathType) );
+		       	}
+			}	
+		}
 	
 
 	}
