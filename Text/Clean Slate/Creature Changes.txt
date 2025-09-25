@@ -1,0 +1,10 @@
+Aberration - Skillpoints increased to 4 + Int
+Animal - Skillpoints increased to 2 + Int
+Constructs - BAB increased to full, Skillpoints increased to 2 + Int
+Fey - BAB increased to medium
+Humanoid - - Skillpoints increased to 2 + Int
+Monstrous Humanoid - HD increased to d10, Skillpoints increased to 4 + Int
+Outsider - HD increased to d10, Skillpoints decreased to 6 + Int
+Elemental - HD increased to d10, BAB increased to full, Skillpoints increased to 6 + Int, Saves boosted to Fort+Ref
+Undead - BAB increased to medium
+Vermin - Skillpoints increased to 2 + In

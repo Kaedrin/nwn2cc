@@ -1,0 +1,47 @@
+Second Wind not working properly. 
+Description says the spell applies to any touched target. When casting, the cursor allows others to be targeted and the spell is cast successfully (as in it the daily slot is spent). However, the effect stays on the caster instead of the recipient.
+
+The effects are:
+
+- Target gains Toughness feat
+- Target gains regen 2
+- Target is healed instantly for a number of hit points (not sure what the math for it is)
+
+All of the effects are applied to the caster and none of them are applied to the recipient.
+
+**
+
+http://dalelandsbeyond.forumotion.com/t32630-glitterdust-not-working
+
+Thanks I did another test vs hostile PC:
+Will save success = no effect
+Will save failure = -4 to Hide and Blindness (but no other effects that are described in spell)
+Text says -40 not -4 as in the source
+Text says that will save can negate blindness only, not everything
+
+**
+
+Factotum Greater Magic Weapon
+http://dalelandsbeyond.forumotion.com/t31310-factotum-greater-magic-weapon
+
+When equipped with a heavy crossbow, GMW applies to gloves instead.
+
+**
+
+http://dalelandsbeyond.forumotion.com/t33841-master-mechanical-bug-log
+Kaedrin wrote:
+    Trying to find the thread where someone was asking for the Hexblade buffs to lose their visual like the normal spells.
+
+This is the thread.
+
+|Dash| wrote:
+    Visuals/Sounds
+    Can Shadow Form (Hexblade) have Darkness effect on character instead of Bard Blur Spell Visuals?
+    Can Vampiric Blades (Vengeance Taker) voice casting sound like Vampiric Feast or Vampiric Touch or other Necromancy Sounding spells?
+
+Empower Harm Touch has same story as Vampiric Blades. And Harm Touch could probably have better voice casting sound that it does, but even currently it is far better than how Vampric Blades and Empower Harm Touch sound.
+
+|Dash| wrote:
+    Is there really no builder or DM reading this topic to reply about its current state/progress? Can we at least have hexblade bubble spell effects made invisible as we did with those from arcane spell book? Shuch is shield and protection from alignment?
+
+Entropic shield spell has some bubble too but I think its present on everyone not just Hexblade.

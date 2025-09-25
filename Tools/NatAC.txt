@@ -1,0 +1,1 @@
+Line  553: * All polymorphs with more than 20 natural AC have been adjusted since the game only handles a 20 base natural AC. This allows the dragon shapes to finally have their correct AC. 

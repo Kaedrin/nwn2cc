@@ -1,0 +1,47 @@
+Further ideas on Metamagics:
+
+http://www.d20pfsrd.com/feats/metamagic-feats/elemental-spell-metamagic/
+http://www.d20pfsrd.com/feats/metamagic-feats/piercing-spell-metamagic/
+http://www.d20pfsrd.com/feats/metamagic-feats/selective-spell-metamagic/
+http://www.d20pfsrd.com/feats/metamagic-feats/heighten-spell-metamagic-final/
+http://www.d20pfsrd.com/feats/metamagic-feats/intensified-spell-metamagic/
+http://www.d20pfsrd.com/feats/3rd-party-feats/flaming-crab-games/metamagic-feats-3rd-party-flaming-crab-games/magnified-spell-metamagic/
+
+- Still
+- Persistent
+- Extend
+- Silent
+- Permanent (maybe, this could be hard coded)
+
+Make all non-combat buffs last 30 minutes regardless of level
+Spells like displacement (1 round/level) being combat spells can stay as is. The shorter rest timer means you can rest more often and get back your combat spells and you don't need multiples for the non-combat buffs.
+
+Boost would be based on the descriptor for the spell and be a +1 level. Sonic would be concussive, cold would be Rime, Illusion would be Threatening Illusion, Fire/Electricity/Light would be Flaring
+
+Selective won't be needed if we turn off friendly fire on the server.
+
+Boost Metas (some of them)
+http://www.d20pfsrd.com/feats/metamagic-feats/concussive-spell-metamagic
+http://www.d20pfsrd.com/feats/metamagic-feats/rime-spell-metamagic
+http://www.d20pfsrd.com/feats/metamagic-feats/threatening-illusion-metamagic
+http://www.d20pfsrd.com/feats/metamagic-feats/flaring-spell-metamagic
+
+Order of add priority
+
+1. Elemental
+2. Heighten (+5)
+3. Intensify
+4. Boost
+5. Magnified
+6. Piercing
+
+Order of removal priority
+1. Persistent
+2. Maximize
+3. Permanent (if possible)
+4. Silent
+5. Still (replace with feat/item properties/prc)
+6. Extend
+
+Other feats
+http://www.d20pfsrd.com/feats/3rd-party-feats/rogue-genius-games/general-feats/metamagic-focus/

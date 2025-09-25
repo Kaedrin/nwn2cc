@@ -1,0 +1,94 @@
+This thread and all of the posts are a list of possible content for the Dalelands Beyond server. Do not post the contents of this thread anywhere else please.
+
+Possible base class list:
+[list]
+[*][url=http://dalelandsbeyond.forumotion.com/t21565-possible-new-base-class-weave-walker]Weave Walker[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t20311-possible-new-base-class-songblade]Songblade[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t12473-glimpse-ahead-marshal-base-class]Marshal[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t12246-glimpse-ahead-knight-base-class]Knight[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t12501-glimpse-ahead-alchemist]Alchemist[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t20463-possible-base-class-factotum]Factotum[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t19414p30-healer-base-class]Healer[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t20247-possible-new-base-class-skald]Skald[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21617-possible-new-base-class-summoner]Summoner[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21618-possible-new-base-class-arcane-disciple]Arcane Disciple[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21619-possible-new-base-class-artificer]Artificer[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21627-possible-new-base-class-feral-shifter]Feral Shifter[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21626-possible-new-base-class-witchblade]Witchblade[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21620-possible-new-base-class-elementalist]Elementalist[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21621-possible-new-base-class-primal-fury]Primal Fury[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21622-possible-new-base-class-dragonfire-adept]Dragonfire Adept[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21623-possible-new-base-class-dragon-shaman]Dragon Shaman[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21624-possible-new-base-class-duskblade]Duskblade[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t21625-possible-new-base-class-dark-champion]Dark Champion[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t22386-pathfinder-base-classes]Pathfinder Paladin[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t22437-possible-new-base-class-beastmaster]Beastmaster[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t22199-good-aligned-base-class]Healing Rogue (name TBD)[/url]
+[*][url=http://dalelandsbeyond.forumotion.com/t22199-good-aligned-base-class]Singing Healer (name TBD)[/url]
+[/list]
+
+Possible pathfinder upgrades:
+http://dalelandsbeyond.forumotion.com/t22386-pathfinder-base-classes
+
+[spoiler="Dread Necromancer"]
+
+I'd implement this class as a Sorcerer prc with 29 levels.
+
+Dread Necromancer
+
+A specialist wizard who calls himself a necromancer or a cleric with the Death domain has significant power over undead and the forces of negative energy, but a dread necromancer is their true master. A practicioner of vile and forbidden arts, she calls upon restless, tormented spirits of the dead, seeking their arcane secrets. She might be a consummate villain, or perhaps a tortured hero whose obsession with death leads her along questionable moral paths.
+
+Alignment must be non-good.
+
+Class Features
+
+HD: d6
+BAB: Low
+High Saves: Will
+Weapon proficiency: Simple, Martial
+Armor proficiency: Light
+
+Class Skills: Bluff, Concentration, Craft Armor, Craft Weapon, Hide, Intimidate, Lore, and Spellcraft.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Charnel Touch, Turn Undead
+Level 2: Lich Body (DR 2)
+Level 3: Negative Energy Burst 1/day
+Level 4: Mental Bastion +2, Advanced Learning
+Level 5: Fear Aura
+Level 6: Scabrous Touch 1/day
+Level 7: Lich Body (DR 4), Summon Familiar
+Level 8: Negative Energy Burst 2/day, Undead Mastery, Advanced Learning
+Level 9: Negative Energy Resistance
+Level 10:
+Level 11: Lich Body (DR 6), Scabrous Touch 2/day
+Level 12: Enervating Touch 3/day, Advanced Learning
+Level 13: Negative Energy Burst 3/day
+Level 14: Mental Bastion +4
+Level 15: Lich Body (DR 8)
+Level 16: Scabrous Touch 3/day, Enervating Touch 4/day, Advanced Learning
+Level 17: Enervating Touch 8/day
+Level 18: Negative Energy Burst 4/day, Enervating Touch 9/day
+Level 19: Craft Wondrous Item
+Level 20: Enervating Touch 10/day, Lich Transformation, Advanced Learning
+Level 21: Scabrous Touch 4/day
+Level 22: Enervating Touch 11/day
+Level 23: Negative Energy Burst 5/day
+Level 24: Mental Bastion +6, Enervating Touch 12/day, Advanced Learning, Bonus Feat
+Level 25:
+Level 26: Scabrous Touch 5/day, Enervating Touch 13/day
+Level 27:
+Level 28: Negative Energy Burst 6/day, Enervating Touch 14/day, Advanced Learning, Bonus Feat
+Level 29:
+Level 30: Enervating Touch 15/day
+
+Spells per Day (Charisma based)[/spoiler]
+
+http://www.d20pfsrd.com/classes/3rd-party-classes/adamant-entertainment/tos---warlord
+http://www.d20pfsrd.com/classes/3rd-party-classes/kobold-press/elven-archer
+http://www.d20pfsrd.com/classes/3rd-party-classes/super-genius-games/Shadow-Assassin
+
+http://paizo.com/pathfinderRPG/prd/advanced/baseClasses/inquisitor.html
+http://paizo.com/pathfinderRPG/prd/advanced/baseClasses/witch.html

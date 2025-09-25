@@ -1,0 +1,133 @@
+Force Mage changes:
+
+Reduce the entrance requirements to level 3 arcane caster.
+Auto-maximize force missiles and magic missiles at level 5.
+Removed the ASF penalty.
+Provide a bonus feat at 4th level.
+Orb of Force spells are auto-empowered at level 5.
+Tweaked the time of flight and casting time.
+Update class text with what it ignores as well as what it does do.
+
+Monk Update:
+
+Additional Class Skills: Intimidate
+Bonus Feat at 1st: Weapon Focus (Unarmed), Weapon Focus (Quarterstaff)
+Bonus Feat at 4th: Unarmed Combat Mastery
+Bonus Feat at 10th: Weapon Specialization (Unarmed), Weapon Specialization (Quarterstaff)
+Bonus Feat at 14th: Greater Weapon Focus (Unarmed), Greater Weapon Focus (Quarterstaff)
+Bonus Feat at 18th: Greater Weapon Specialization(Unarmed), Greater Weapon Specialization(Quarterstaff)
+Bonus Feat at 22nd: Epic Weapon Focus (Unarmed), Epic Weapon Focus (Quarterstaff)
+Bonus Feat at 26th: Epic Weapon Specialization (Unarmed), Epic Weapon Specialization (Quarterstaff)
+Bonus Feat at 30th
+
+Wholeness of Body can be used 1 time for every 3 monks levels. Wholeness of Body now provides 1 point of regen for 3 minutes when used if the character only has Monk levels.
+
+Change bonus epic feats from 24/28 to 23/26/29
+
+The Versatile Unarmed Strike feat listed below is melted and made a part of the Unarmed Combat Mastery feat.
+
+Tiger Combat Style
+Type of Feat: General
+Prerequisites: Improved Unarmed Strike, Intimidate 3
+Benefit: You inflict the wounding property (DC 10 + 1/2 your class level + your Wis modifier) on your foes with your unarmed strikes. Further, you gain your Wisdom modifier on Demoralize Opponent checks as well as gain the feat itself if you do not already have it. The DC suffers a -6 penalty if you multiclass.
+
+New Feat: Lightning Strikes Twice
+Prerequisites: Monk 5
+You gain an attack bonus with unarmed and quarterstaff attacks, starting at +1. This bonus improves by +1 for every 5 additional monk levels (to a maximum of +4 at 20th level). You also deal an additional 2 points of lightning damage on your unarmed or quarterstaff attacks. This is an activated ability with a 24 hour duration.
+
+New Feat: Sweeping Kicks
+Your masterful legwork while fighting allows you to make a sweeping set of strikes to attempt to knockdown all foes within 10' of you.
+Prerequisites: Knockdown, Improved Knockdown, Monk 5
+Benefit: While unarmed or using a quarterstaff, you make make a special Knockdown attempt as a full round action against every foe within 10' of you. This ability has a 30s cooldown. If you only have monk levels, you use your Wisdom modifier if it is higher than your Strength modifier for the knockdown attempt and the knockdown lasts for two rounds instead of one.
+
+New Feat: Fist of the Heavens
+Your favor with the Gods has gifted you with the ability to wreathe your fists or quarterstaff with sacred flames.
+Prerequisites: Ki strike (Adamantine), Intuitive Attack
+Benefit: You add your Wisdom modifier as damage (half divine, half blunt) to your unarmed and quarterstaff attacks (bonus may not exceed 1/2 your Monk level). This bonus caps at +1 of each damage type if you multiclass.
+
+New Feat: Versatile Unarmed Strike (Merged into Unarmed Combat Mastery)
+Type: General
+Prerequisite: Improved Unarmed Strike
+Text: You employ a variety of unarmed fighting styles, allowing you to alter the type of damage your attacks deal.
+Benefit: You buff your gloves or gauntlets to deal slashing and piercing damage as well as blunt. This bonus lasts 24 hours and can be used at will.
+
+New Feat: Epic Diamond Soul
+Prerequisites: Diamond Soul
+Benefit: A monk gains spell resistance equal to his current monk level + 14.
+
+New Feat: Epic Perfect Self
+Prerequisites: Perfect Self
+Benefit: A monk gains DR 10/Adamantine instead of DR 10/Magic as well as 1 point of regen.
+
+New Feat: Heroic Ki
+You follow a path of enlightenment that lauds heroism and martial prowess.
+Prerequisites: Monk 5
+Benefit: You gain the benefits of the Heroism spell at all times. Note: This feat has no effect if you take any non-Monk levels. This improves to Greater Heroism at 11th level. This feat has no effect if you take any non-Monk levels.
+
+Skald Update:
+
+Tweak #1 - Adrenaline Boost text no longer no mentions the Skald is not affected. He is, as it should be in pnp (where Adrenaline Boost is from) since I made tweaks to tone it down from what I was going to give the Skald originally. I forgot the remove that part of the text.
+
+Tweak #2 - Adrenaline Boost grants 10 + Skald level temporary hit points instead of just Skald level (+10 points) making the ability useful even at level 1 (as 1 HP is incredibly weak for a 3 minute timer).
+
+Tweak #3 - The class will get a small text section indicating what to do to fix your character if your timer for Adrenaline Boost bugs out. Right click your character and use your ability from that GUI. This is a change I'd like to slowly roll out to any class/feat that has a timer. Common knowledge is apparently now as common as I thought for folks knowing how to fix it.
+
+The new feats are meant to address quality of life issues and to improve them a bit while still keeping them much less of a powerhouse than a bard, cleric, druid, etc. The stun/silence immunities are there strictly because the class is 100% deprived of all function when stunned or silenced. They don't have spells, divine might/shield, etc to fall back on like Bards who are silenced. Stun breaks the inspiration and causes the player to waste two rounds "recasting" just like an inspiration. Not much I can do to fix that problem, it's an engine issue as I've given it a go many times already.
+
+New Feat: Hero's Call
+You drive your allies even harder with tales of the greatest heroes in the land.
+Prerequisites: Skald 1
+Benefit: Your adrenaline boost ability now always provides twice the bonus as though you and your allies were always below 50% health. In addition, your allies (but not yourself) gain a +1 bonus to Dodge AC. You become immune to silence.
+
+New Feat: Improved Hero's Call
+You personalize your encouragement to your allies, driving them on as though they were the great heroes of lore.
+Prerequisites: Skald 1, Hero's Call
+Benefit: Your adrenaline boost ability now always provides twice the bonus as though you and your allies were always below 50% health. If they actually are below 50% health they instead gain three times the bonus. In addition, your allies (but not yourself) gain a +1 bonus to Dodge AC and attack bonus.
+
+New Feat: Inspire Heroics (Aggression)
+Prerequisites: Skald 1
+Benefit: Your inspire heroics ability now also provides 2 point of bonus magic damage on attacks. This improves to 3 points at 11th and 4 points at 21st level.
+
+New Feat: Improved Inspire Heroics
+Prerequisites: Skald 5
+Benefit: Your Inspire Heroics (Health) ability now provides an additional point of regeneration. Your Inspire Heroics (Aggression) ability now provides an additional point of damage. Your Inspire Heroics (Protection) ability now provides an additional point of Dodge AC.
+
+New Feat: Greater Inspire Heroics
+Prerequisites: Skald 11, Improved Inspire Heroics
+Benefit: Your Inspire Heroics (Show of Arms) ability now provides an additional +2 enhance bonus to Strength and Dexterity. Your Inspire Heroics ability now provides +1 to Will saves for every five levels of Skald (maximum +6 at 30th).
+
+New Feat: Inspire Heroics (Toughness)
+Prerequisites: Skald 1
+Benefit: Your inspire heroics ability now also provides 1% physical damage immunity for every 2 levels of Skald (maximum +15% to blunt, piercing, and slashing at 30th level). You become immune to being stunned.
+
+General 1.45 changes:
+
+
+    Ranger Power Attack line mentions the -4 AB penalty in armor heavier than light.
+    Missing RP text for Bloodline Exemplar, Knight of the Wild, Force Mage, and Mystic Reservist.
+    Hexblade removes the upcoming feats section of the class description
+    Monk and Rogue class descriptions mention high bab at 21-30
+    Adrenaline Boost now correctly auto-targets the skald.
+    Adrenaline Boost lasts a minimum of 3 minutes.
+    Skald icon changed to Swashbuckler icon
+    Spell sneak attack disabled if Daring Outlaw/etc is present.
+    Thunder Clap now activates with Crumble, Leonal's Roar, and Wounding Whispers.
+    Mystic Reservist requirement changed from level 3 spells to level 3 caster.
+    Mystic Reservist now correctly gains 4 skill points per level.
+    Templar text no longer mentions deity's favored weapon
+    Ghostly Visage enabled for Hexblades (formerly augment familiar)
+    The Fatigue spell, Snowflake Wardance feat, and Inspire Frenzy abilities will no longer apply fatigue if you have the Tireless feat. Currently only Rage, Frenzy, and Dervish Dance ignore fatigue for Tireless.
+    Roll With It I-6 added (new feats)
+    Epic Damage Reduction IV added (requires 22 Con)
+    Epic Damage Reduction V added (requires 23 Con)
+    Epic Damage Reduction VI added (requires 24 Con)
+    New Prestige Class: Grey Guard
+    Factotum's Greater Magic Weapon now affects both hands to support dual wielders.
+    Factotum's Cunning Defense now mentions it is uncapped if you do not multiclass (or only have Swashbuckler).
+    Factotum is now allowed to take Swashbuckler without Cunning Defense suffering the multiclass penalty.
+    Templar levels now stack with Paladin for determining the effectiveness of Lay on Hands.
+    Neverwinter Nine's Protective Aura now provides Dodge AC instead of Deflection AC. Aura range doubled.
+    Lion of Talisid correctly mentions Medium BAB for the class
+    Neverwinter Nine renamed to Warden
+    Vampiric Feast no longer summons a shadow.
+    Ghost Step now has alternate text to indicate the player just dissapeared.

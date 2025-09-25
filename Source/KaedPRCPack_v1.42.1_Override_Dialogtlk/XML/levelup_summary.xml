@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Neverwinter Nights 2 -->
+<!-- Copyright (c) 2006 Obsidian Entertainment, Inc. -->
+
+<UIScene name="SCREEN_LEVELUP_FINISH" width=1024 height=768 OnAdd=UIObject_Misc_DisplayLevelUpSummary("INFOPANE_TEXT") priority="SCENE_INGAME_FULLSCREEN" fullscreen=true cullrenderables=true />
+
+	<!-- Title Pane -->
+    <UIPane name="TitlePane" x=ALIGN_CENTER y=ALIGN_TOP width=984 height="74" capturemouseclicks="false" ignoreevents="true" >
+        <UIText name="TITLE_TEXT" strref="113711" x=ALIGN_CENTER y=12 width=356 height=30 align="center" valign="middle" 
+	        fontfamily="Special_Font" style="4" />
+        <UIIcon img="main_sub_titles.tga" x="0" y="0" width="PARENT_WIDTH" height="PARENT_HEIGHT"/>
+    </UIPane>
+
+	<UIPane name="CONTENTS_PANE" x=ALIGN_RIGHT y=ALIGN_CENTER width=557 height=675 >
+
+    <!-- Info and Stats Container Pane -->
+    <UIPane name="InfoStatsPane" x=260 y=21 width="308" height="654" >
+
+        <!-- Info Pane-->
+        <UIPane name="PANE_INFO" x="6" y="11" width="272" height="630" >
+            <UIListBox name="INFOPANE_LISTBOX" x="24" y="33" width="248" height="580" yPadding="0" xPadding="0" showpartialchild="true"
+                unequalcontrols="true" scrollsegmentsize="30" hidescrollbarwhennotneeded="true" >
+                <UIText name="INFOPANE_TEXT" width="PARENT_WIDTH" height="DYNAMIC" align="left" valign="top" fontfamily="NWN1_Dialog" multiline="true" />
+                <UIScrollBar name="SB" style="STYLE_SB_THIN"></UIScrollBar>
+            </UIListBox>
+        </UIPane>
+
+        <UIFrame x="0" y="6" width="304" height="647" topleft="frame_main_TL.tga" topright="frame_main_TR.tga" 
+		    bottomleft="frame_main_BL.tga" bottomright="frame_main_d_BR.tga" top="frame_main_T.tga" bottom="frame_main_b.tga"
+		    left="frame_main_l.tga" right="frame_main_r.tga" fillstyle="stretch" fill="frame_main_bg.tga"  border="64" />
+    </UIPane>
+
+	</UIPane>
+
+	<UIPane name="CAMERA_CONTAINER" x="22" y="612" width="76" height="70" usescalar=true >
+		<!-- Model Zoom Buttons -->
+		<UIButton name="CAMERA_ZOOM_OUT" x="0" y="0" width="35" height="34" buttontype="radio" groupid="2" groupmemberid="1" DefaultToolTip="181294"
+			OnSelected=UIButton_Input_Move3DCamera("TEMP_CHARACTER_SCENE","PLAYER_CREATURE","SET_POSITION","-1.25","0.0","1.3","-0.90","4.0","1.1","0.5")
+			OnToolTip=UIObject_Tooltip_DisplayObject(OBJECT_X,OBJECT_Y,SCREEN_TOOLTIP_2,ALIGN_NONE,ALIGN_NONE,0,0,ALIGN_LEFT") >
+			<UIFrame state="up"			fill="b_body_normal.tga" />
+			<UIFrame state="down"		fill="b_body_hover_pressed.tga" />
+			<UIFrame state="focused"	fill="b_body_hover.tga" />
+			<UIFrame state="hilited"	fill="b_body_hover.tga" />
+			<UIFrame state="hifocus"	fill="b_body_hover_pressed.tga" />
+			<UIFrame state="disabled"	fill="b_body_normal.tga" />
+		</UIButton>
+		<UIButton name="CAMERA_ZOOM_IN" x="40" y="0" width="35" height="34" buttontype="radio" groupid="2" groupmemberid="2" DefaultToolTip="181295"
+			OnSelected=UIButton_Input_Move3DCamera("TEMP_CHARACTER_SCENE","PLAYER_CREATURE","ZOOM_IN","0.5") 
+			OnToolTip=UIObject_Tooltip_DisplayObject(OBJECT_X,OBJECT_Y,SCREEN_TOOLTIP_2,ALIGN_NONE,ALIGN_NONE,0,0,ALIGN_LEFT") >
+			<UIFrame state="up"			fill="b_face_normal.tga" />
+			<UIFrame state="down"		fill="b_face_hover_pressed.tga" />
+			<UIFrame state="focused"	fill="b_face_hover.tga" />
+			<UIFrame state="hilited"	fill="b_face_hover.tga" />
+			<UIFrame state="hifocus"	fill="b_face_hover_pressed.tga" />
+			<UIFrame state="disabled"	fill="b_face_normal.tga" />
+		</UIButton>
+		<!-- Rotate and Update Buttons -->
+		<UIButton name="ROTATE_LEFT" x="0" y="36" width="35" height="34" repeatcallback="true" update="true" 
+			OnLeftClick=UIButton_Input_Rotate3DCamera("TEMP_CHARACTER_SCENE","PLAYER_CREATURE","LEFT") >
+			<UIFrame state=up		fill="b_rotl_normal.tga" /> 
+			<UIFrame state=down		fill="b_rotl_hover_pressed.tga" />
+			<UIFrame state=focused	fill="b_rotl_hover.tga" />
+			<UIFrame state=hilited	fill="b_rotl_hover.tga" />
+			<UIFrame state=hifocus	fill="b_rotl_hover_pressed.tga" />
+			<UIFrame state=disabled	fill="b_rotl_disabled.tga" />
+		</UIButton>
+		<UIButton name="ROTATE_RIGHT" x="40" y="36" width="35" height="34" repeatcallback="true" update="true" 
+			OnLeftClick=UIButton_Input_Rotate3DCamera("TEMP_CHARACTER_SCENE","PLAYER_CREATURE","RIGHT") >
+			<UIFrame state=up		fill="b_rotr_normal.tga" />
+			<UIFrame state=down		fill="b_rotr_hover_pressed.tga" />
+			<UIFrame state=focused	fill="b_rotr_hover.tga" />
+			<UIFrame state=hilited	fill="b_rotr_hover.tga" />
+			<UIFrame state=hifocus	fill="b_rotr_hover_pressed.tga" />
+			<UIFrame state=disabled	fill="b_rotr_disabled.tga" />
+		</UIButton>
+	</UIPane>
+
+	<UIPane name="CANCEL_CONTAINER" x=0 y=723 width=176 height=45 >
+		<UIButton name="CHOICE_CANCEL" strref="113678" x=ALIGN_RIGHT y=0 style="STYLE_MENU_BUTTON_SML" 
+			OnLeftClick=UIButton_Input_CharGenCancel("LEVELUP") >
+		</UIButton>
+	</UIPane>
+
+  	<UIPane name="CHARGEN_BUTTONS" x=ALIGN_RIGHT y=723 width=520 height=45 >
+		<UIButton name="CHOICE_FINISH" strref="113712" x="336" y="0" style="STYLE_MENU_BUTTON_SML" 
+			OnLeftClick=UIButton_Input_CharGenCommit("LEVELUP","CHARGEN_FINISH") 
+			OnLeftClick0=UIObject_Misc_ExecuteServerScript("gui_ccs_player_levelup")
+			update=true OnUpdate=UIButton_OnUpdate_CheckCharGenStage("LEVELUP","CHARGEN_FINISH") >
+		</UIButton>
+	</UIPane>
+
+    <!-- Character Model 3D Scene-->
+    <UI3DScene name="TEMP_CHARACTER_SCENE" x="0" y="0" width="1024" height="768" texture="main_sub_bg.tga" scalewithscene=true 
+		cameralook_x="-1.25" cameralook_y="0.0" cameralook_z="1.3" 
+		camerapos_x="-0.90" camerapos_y="4.0" camerapos_z="1.1" 	
+        ambground_intens=".4" ambgroundcolor_r=".7" ambgroundcolor_g=".55" ambgroundcolor_b=".4"           
+        ambsky_intens=".8" ambskycolor_r=".3" ambskycolor_g=".4" ambskycolor_b=".78"         
+        light_intens="0" lightdir_x="1.0" lightdir_y="1.0" lightdir_z="2.15" diffusecolor_r="1.10" diffusecolor_g="1.0" diffusecolor_b="1.0"	
+        update="true" OnUpdate=UI3DScene_OnUpdate_UpdateCamera()
+        OnRender=UI3DScene_OnRender_DisplayTempCreature("PLAYER_CREATURE") >
+
+        <!-- FILL LIGHT -->
+        <UIPointLight active="true" pos_x="0" pos_y="1" pos_z="3" radius="4" intensity=".4" 
+        color_r="1" color_g=".6" color_b="0" 
+        speccolor_r=".5" speccolor_g=".2" speccolor_b="0" />
+
+        <!-- LEFT SIDE -->
+        <UIPointLight active="true" pos_x="1" pos_y="1" pos_z="2.4" radius="3" intensity="2.0" 
+        color_r=".31" color_g=".42" color_b=".58" 
+        speccolor_r=".31" speccolor_g=".42" speccolor_b=".58" />
+
+        <!-- RIGHT SIDE -->
+        <UIPointLight active="true" pos_x="-2" pos_y="1" pos_z="2.5" radius="3" intensity="2.5" 
+        color_r=".6" color_g=".55" color_b=".5" 
+        speccolor_r=".6" speccolor_g=".55" speccolor_b=".5" />
+    </UI3DScene>
+

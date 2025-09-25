@@ -1,0 +1,57 @@
+Negative Energy Burst
+Caster Level(s): Sorcerer/Wizard 3
+Innate Level: 3
+School: Necromancy
+Descriptor(s): Negative
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: 20-ft.-radius burst
+Duration: Instantaneous
+Save: Will half (see text)
+Spell Resistance: Yes
+
+The burst deals 1d8 points of damage to living creatures in the area +1 point per caster level (maximum 1d8+10).  A successful Will save reduces damage by half.
+
+Since undead are powered by negative energy, this spell cures them of a like amount of damage, rather than harming them.
+
+<i>You release a silent burst of negative energy from a point you indicate.</i>
+
+***
+
+Negative Energy Ray
+Caster Level(s): Sorcerer/Wizard 1
+Innate Level: 1
+School: Necromancy
+Descriptor(s): Negative
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: One Target
+Duration: Instantaneous
+Save: Will half (see text)
+Spell Resistance: Yes
+
+You must succeed at a ranged touch attack with a ray to deal damage to a target.  The ray deals 1d6 points of damage to a living creature.
+
+For every two extra levels of experience past 1st, you deal an extra 1d6 points of damage.  You deal 2d6 at 3rd level, 3d6 at 5th level, 4d6 at 7th level, and a maximum of 5d6 points of damage at 9th level or higher.
+
+Since undead are powered by negative energy, this spell cures them of a like amount of damage, rather than harming them.
+
+<i>A ray of negative energy projects from your pointing finger.</i>
+
+***
+
+Protection from Negative Energy
+Caster Level(s): Cleric 3
+Innate Level: 3
+School: Abjuration
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Living creature touched
+Duration: 10 min./level
+Save: None
+Spell Resistance: None
+
+The warded creature gains partial protection against negative energy effects.  Subtract 10 from the hit point damage dealt by any negative energy effect (such as <i>inflict</i> spells) that affects the warded creature.
+
+Negative energy effects that don't directly deal hit point damage (such as <i>energy drain</i>) affect the target normally.

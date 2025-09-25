@@ -1,0 +1,16 @@
+2DA V2.0
+
+     LABEL                 ReqType  ReqParam1 ReqParam2 
+0    Lore                  SKILL    7         10        
+1    Spellcraft            SKILL    16        10        
+2    Arcane                ARCSPELL 3         ****      
+3    Empower               FEATOR   11        ****      
+4    Maximize              FEATOR   25        ****      
+5    Quicken               FEATOR   29        ****      
+6    Silent                FEATOR   33        ****      
+7    Still                 FEATOR   37        ****      
+8    Persistent            FEATOR   1679      ****      
+9    FEAT_SKILL_FOCUS_LORE FEAT     180       ****      
+10   Extend                FEAT     12        ****      
+11   Eldritch_Knight       CLASSNOT 52        ****      
+12   Knight_Tierdrial      CLASSNOT 132       ****      

@@ -1,0 +1,86 @@
+[color=#339933][size=14][b]General items:[/b][/size][/color]
+[list]
+[*]Re-add 1.45.3 fixes
+[*]The spell "Cloak of Bravery" (Paladin 2, Cleric 3) says and is supposed to work 10 minutes/level but only lasts 1 minute/level. 
+[*]Second Wind spell updated to be self only
+[*]Temp HP from Harm Touch stacks with itself
+[*]Investigate Hexblade Minor Shapeshift (feat unavailable?)
+[*]Empower Harm Touch ability incorrectly reports "Character casts Vampiric Blades"
+[*]Ranger's Two-handed feat penalty removed on rest (If resting removes the penalty while you are still wearing heavy armor then that is a bug. The -4 AB when wearing heavy and using a two-handed weapon is valid. )
+[*]Try to only apply the Ranger's Two-handed feat penalty when using a two-handed weapon
+[*]Arcane Archer description updated to clarify enhance arrow.
+[*]Update animal comp description with elemental progression and new changes
+[*]Investigate Hex spells for vfx removal
+[*]"Epic Gate's summons should have different alignment. Otherwise you have Solar summons influenced by Smite Evil etc."
+[*]Add sneak attack damage to Frightful Attack damage.
+[*]http://dalelandsbeyond.forumotion.com/t29264-master-of-radience
+[*]"The Earth Elemental 21 level version (I think. The one before the final one) is the wrong size, has the wrong portrait and misses some feats."
+[*]Master of Radiance issues (scorching ray issues)
+[*]Shadowdancer description updated with new custom feats available to the class
+[*]Update GFK description to indicate armor usage and ability limits.
+[*]Curse of Silence: Now affects the area indirectly so that all targets within are automatically silenced as per the silence spell (no save curse). (Change may not occur)
+[*]Add class skill section to paladin description
+[*]Changes to existing scripts that check for weapon types to support the new weapons.
+[*]Ashbound feat now accepts Telthor Companion and Beastmaster Companion
+[*]Oversized two-weapon fighting fixed for small races (courtesy of the PW Ashaba)
+[*]Fix for Rune abilities not clearing the VFX (courtesy of the PW Realms of Trinity)
+[*]Investigate Restoration spells removing Hexblade curses
+[*]http://dalelandsbeyond.forumotion.com/t34037-curse-of-blood
+[*]Investigate and potentially remove skill bonuses granted by the Wildshape fix code (stacking on server save)
+[*]Investigate Assassin spells having a different effect than the normal version
+[*]http://dalelandsbeyond.forumotion.com/t32630-glitterdust-not-working
+[*]Critical fix for engine bug with Practiced Invoker causing Eldritch Blasts to only deal 2d6 regardless of what your blast die should be/shows on the character sheet.  
+[*]Look into Factotum GMW being overwritten
+[*]Fiery Fist and Fiery Ki Defense are now instant feats 
+[*]New PrC: Arbalest (Marksman with Heavy Crossbow)
+[*]New Base Class: Beastmaster
+[*]New Background Feat: Pack Hunter
+[*]New Feat: Spirited Pack Warfare
+[*]New Feat: Companion Shielding
+[*]New Feat: Greater Nature's Gift
+[*]New Feat: Improved Natural Attack
+[*]New Feat: Companion Barding (Light)
+[*]New Feat: Companion Bleeding Wound I
+[*]New Feat: Epic Beastmaster Companions
+[*]New Feat: Companion Improved Criticals
+[*]New Feat: Spirit's Gift (20% concealment)
+[*]New animal companions available (optional download)
+[*]Warlock spells no longer alter alignment (can be put back but will be done differently)
+[/list]
+
+New Weapon: Bec de Corbin (Martial, Halberd, Blunt or Piercing Damage, d10, 20, x3, Two-Handed)
+New Weapon: Bardiche (Martial, Halberd, Slashing and Piercing, d10, 19-20, x2, Two-Handed)
+New Weapon: Guisarme (Martial, Halberd, Slashing only, 2d4, 20, x3, Two-Handed)
+New Weapon: Fauchard (Exotic, Halberd, Slashing and Piercing, d10, 18-20, x2, Two-Handed)
+New Weapon: Lucerne Hammer (Martial, Warhammer, Blunt or Piercing Damage, d12, 20, x2, Two-Handed)
+New Weapon: Dwarven Longhammer (Exotic, Warhammer, Blunt, 2d6, 20, x3, Two-Handed)
+New Weapon: Shortspear (Martial, Spear, Piercing, d6, 20, x2, One-Handed)
+New Weapon: Pike (Exotic, Spear, Piercing, d10, 20, x3, Two-Handed)
+New Weapon: Hooked Spear (Martial, Spear, Piercing, d8, 20, x4, Two-Handed)
+New Weapon: Ranseur (Martial, Spear, Piercing, 2d4, 20, x3, Two-Handed)
+New Weapon: Elven Curve Blade (Exotic, Greatsword, Slashing and Piercing, d10, 18-20, x2, Two-Handed)
+New Weapon: Maul  (Martial, Warmace, Blunt, 2d6, 20, x3, Two-Handed)
+New Weapon: Great Flail (Martial, Flail, Blunt, d10, 19-20, x2, Two-Handed)
+New Weapon: Broadsword (Martial, Longsword, Slashing and Piercing, 2d4, 20, x2, One-Handed)
+New Weapon: Heavy Flail (Martial, Flail, d8, Blunt, 19-20, x2, One-Handed) (Added in 1.41, default Flail now)
+New Weapon: Flail (xyz, some flails use this baseitems rule)
+
+New Spell: Heal Light Wounds (level 2 ranged Cure Light Wounds)
+New Spell: Heal Moderate Wounds (level 3 ranged Cure Moderate Wounds)
+New Spell: Heal Serious Wounds (level 4 ranged Cure Serious Wounds)
+New Spell: Heal Critical Wounds (level 5 ranged Cure Critical Wounds)
+New Spell: Heal Wounds (level 7 ranged Heal) 
+
+Example (using a cleric), * means a new spell.
+Cure Light Wounds - level 1, touch range, heals d8 +5 max.
+* Heal Light Wounds - level 2, medium range, heals d8 +10 max.
+Cure Moderate Wounds - level 2, touch range, heals 2d8 +10 max.
+* Heal Moderate Wounds - level 3, medium range, heals 2d8 +15 max.
+Cure Serious Wounds - level 3, touch range, heals 3d8 +15 max.
+* Heal Serious Wounds - level 4, medium range, heals 3d8 + 20 max.
+Cure Critical Wounds - level 4, touch range, heals 4d8 +20 max.
+* Heal Critical Wounds - level 5, touch range, heals 4d8 +25 max.
+Heal - level 6, touch range, heals 150 max.
+* Heal Wounds - level 7, medium range, heals 200 max (10 * CL).
+* Greater Heal, level 9, touch range, heals 300 max (15 * CL).
+Mass Heal - level 9, short range, heals 250 max (10 * CL).

@@ -1,0 +1,27 @@
+2DA V2.0
+
+   FeatLabel             FeatIndex List GrantedOnLevel OnMenu 
+0  WeapProfRogue         50        3    1              0      
+1  ArmProfLgt            3         3    1              0      
+2  SneakAttack           221       3    1              0      
+3  WeapProfSim           46        3    1              0      
+4  SneakAttack2          345       3    5              0      
+5  SneakAttack3          346       3    9              0      
+6  SneakAttack4          347       3    13             0      
+7  SneakAttack5          348       3    17             0      
+8  SneakAttack6          349       3    21             0      
+9  SneakAttack7          350       3    25             0      
+10 SneakAttack8          351       3    29             0      
+11 FEAT_TRAPFINDING      1857      3    1              0      
+12 UncannyDodge1         195       3    2              0      
+13 FEAT_DASH             1337      3    3              0      
+14 TracklessStep         201       3    3              0      
+15 Evasion               206       3    5              0      
+16 FEAT_CAMOUFLAGE       1772      3    8              0      
+17 ImpInit               377       3    11             0      
+18 HIDE_IN_PLAIN_SIGHT   433       3    14             1      
+19 BlindFight            408       3    20             0      
+20 FEAT_SCOUT_BATTLEFORT 3706      3    2              0      
+21 FEAT_SCOUT_SKIRMISH4  3707      3    15             0      
+22 FEAT_SCOUT_FREEMOVE   3708      3    18             0      
+23 FEAT_SCOUT_SKIRMISHAC 3709      3    3              0      

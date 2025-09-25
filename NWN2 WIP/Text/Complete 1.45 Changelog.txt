@@ -1,0 +1,370 @@
+[color=#0099ff]No ETA - a few things need to be discussed.[/color]
+
+[color=#ff0000]Items under review:
+[/color]
+[list]
+[*]Pathfinder Ninja upgrades based on http://paizo.com/pathfinderRPG/prd/ultimateCombat/classes/ninja.html
+[*]Non-evil PrC for Hexblades/Paladins (possibly based on Soldier of Light)
+[*]Hexblade changes - http://dalelandsbeyond.forumotion.com/t27327-class-focus-hexblade
+[*]Breach changes - http://dalelandsbeyond.forumotion.com/t27483-breach-spell-list
+[*]FoM changes - http://dalelandsbeyond.forumotion.com/t27698-bigby-s-grasping
+[*]Bigby's issue - http://dalelandsbeyond.forumotion.com/t26322-forceful-hand-still-vanilla
+[*]Barbarian PrC - http://dalelandsbeyond.forumotion.com/t27655-barbarian-prestige-class
+[*]Paladin PrC - http://dalelandsbeyond.forumotion.com/t27656-paladin-prestige-class
+[*]Rogue HiPS at 10, not 13
+[*]Deep slumber changes - http://dalelandsbeyond.forumotion.com/t27113-any-way-of-fixing-deep-slumber
+[*]Arcane Servant (hexblade feat)
+[*]http://dalelandsbeyond.forumotion.com/t21505-couple-hexblade-bugs
+[*]Stage II ranger changes (should they be done)
+[*]New Skald feats due to invalid stacking assumptions?
+[*]Barb rage change [spoiler][color=#339933][size=14][b]Barbarian changes:[/b][/size][/color]
+Whirling Frenzy now adds Dexterity instead of Dodge AC/Reflex bonuses. [color=#ff0000]Possibly tied to a new feat?[/color][/spoiler]
+[*]Roll With It I-6 added (new feats)
+[*]Epic Damage Reduction IV added (requires 22 Con)
+[*]Epic Damage Reduction V added (requires 23 Con)
+[*]Epic Damage Reduction VI added (requires 24 Con)
+[*]Evaluate Single target version of Healing Blast
+[*]Evaluate Healing Blast for non-allied healing (hard cap on the count)
+[*]Swift Ambusher, Swift Hunter, Daring Outlaw changes
+[*]Skald Aura size (increase per request?)
+[*]Reserve feat review (friendly fire)
+[*]Master of Radiance issues (scorching ray issues)
+[*]Frightful Attack issue - autokill problem
+[*]Rune persistence issue? (graphic not dissapearing)
+[/list]
+
+
+
+
+
+[spoiler="Swift Hunter, Swift Ambusher, Daring Outlaw"]
+Currently
+
+Daring Outlaw turns Swashbuckler levels into Rogue levels (up to the Daring Outlaw cap).
+Swift Ambusher turns Scout levels into Rogue levels.
+Swift Hunter turns Ranger levels into Scout levels.
+
+So..
+
+For every 2 levels of swashbuckler you get 1d6 sneak from Daring Outlaw.
+For every 2 levels of Scout you get 1d6 sneak from Swift Ambusher.
+For every 4 levels of Ranger you get 1d6 sneak from Swift Hunter.
+
+***
+
+After the fix it will be:
+
+Swift Ambusher provides +1d6 for every 4 levels of scout, to a maximum of +2d6 at 8th level.
+Swift Hunter provides +1d6 for every 4 levels of Ranger, to a maximum of +2d6 at 8th level.
+Daring Outlaw provides +1d6 for every 4 levels of Swashbuckler, to a maximum of +2d6 at 8th level.
+
+A 30 Scout would burn one feat and have 10d6 sneak. That is only 2d6 more than a 30 Scout without.
+A Scout 14/Ranger8/Swash8 would burn 3 feats and have 10d6 sneak. That is only 2d6 more than a 30 Scout.
+A Scout 22/Ranger 8 would burn 2 feats and have 10d6 sneak. That is only 2d6 more than a 30 Scout.
+A Swash8/Scout14/DL8 would burn 2 feats and have 12d6 sneak. That is only 2d6 more than a 22 Scout/8 DL.
+
+So essentially it turns those feats into a non-epic "Improved Sneak Attack" that actually requires an investment in the other classes. A pure scout would get slightly more benefit from a single feat as would multi-classed scouts that do NOT take any other classes that provide sneak attack.
+
+Any excess sneak attack from existing characters will be correctly removed. No more Rangers with 15d6 Sneak.
+[/spoiler]
+
+[color=#339933][size=14][b]Bard changes:[/b][/size][/color]
+Bard now has Intimidate as a class skill.
+
+[color=#339933][size=14][b]Thug changes:[/b][/size][/color]
+Thug now has Appraise as a class skill.
+
+[color=#339933][size=14][b]Barbarian changes:[/b][/size][/color]
+Whirling Frenzy now adds Dexterity instead of Dodge AC/Reflex bonuses. [color=#ff0000]Possibly tied to a new feat?[/color]
+
+[color=#339933][size=14][b]Swashbuckler changes:[/b][/size][/color]
+[color=#ff0000]Swashbuckler changes are still being discussed[/color]
+[list]
+[*]Evasion is now granted at level 9
+[*]Improved Evasion is now granted at level 16
+[*]Bleeding Wound - At 6th level, when a Swashbuckler hits with a successful sneak attack, he inflicts a bleeding wound that deals 2 points of damage per round for 3 rounds. This damage stacks with previous damage caused by a Bleeding Wound attack. He must be either unarmed or wielding only light weapons in order to inflict a Bleeding Wound. At 12th level, the damage increases to 4 per round, and at 18th level, it increases to 6 points per round. Each level of Bleeding Wound counts as one die of sneak attack damage for purposes of class and feat prerequisites.
+[*]Swashbucklers gain a bonus feat at 6, 10, 14, 18, 22, 26, and 30.
+[/list]
+
+[color=#339933][b][size=14]Paladin changes:[/size][/b][/color]
+[color=#ff0000]Paladin changes are still being discussed[/color]
+[list]
+[*]New Spell: Longstrider (Pathfinder's Linebreaker)
+[*]New Spell: Vestment of the Champion (Pathfinder)
+[*]New Spell: Weapon of Awe (Pathfinder)
+[*]New Spell: Archon's Aura (Pathfinder)
+[*]Paladin gains Spellcraft as a class skill
+[*]Will is now a High save
+[*]Lay on Hands gains one use per 3 Paladin levels.
+[*]Lay on Hands has a new effect: With one use of this ability, a paladin can heal 1d6 hit points of damage for every two paladin levels she possesses. Alternatively, a paladin can use this healing power to deal damage to undead creatures, dealing 1d6 points of damage for every two levels the paladin possesses.
+[*]New Ability: Channel Positive Energy (Su): When a paladin reaches 4th level, she gains the supernatural ability to channel positive energy. Using this ability consumes two uses of her turn undead ability. Channeling energy causes a burst that affects all creatures of one type (either undead or living) in a 30-foot radius centered on the cleric. The amount of damage dealt or healed is equal to 1d6 points of damage plus 1d6 points of damage for every two cleric levels beyond 1st (2d6 at 3rd, 3d6 at 5th, and so on). Creatures that take damage from channeled energy receive a Will save to halve the damage. The DC of this save is equal to 10 + 1/2 the cleric's level + the cleric's Charisma modifier.
+[*]Aura of Resolve (Su): At 8th level, a paladin is immune to charm spells and spell-like abilities. Each ally within 10 feet of her gains a +4 morale bonus on saving throws against charm effects.
+[*]Aura of Righteousness (Su): At 17th level, a paladin gains DR 5/Adamantine
+[*]Holy Champion (Su): At 20th level, a paladin becomes a conduit for the power of her god. Her DR increases to 10/Adamantine. In addition, whenever she channels positive energy or uses lay on hands to heal a creature, she heals the maximum possible amount.
+[*]Paladin spellcasting now provides more spells per day by level 20 (4 level 1, 4 level 2, 3 level 3, and 3 level 4 spells - an increase of +1 level 1 and 2 spells. For example, 3 level 1 spells are available at level 13 instead of level 18). See [url=http://paizo.com/pathfinderRPG/prd/classes/paladin.html#_paladin]http://paizo.com/pathfinderRPG/prd/classes/paladin.html#_paladin[/url] for more details.
+[*]Mercy: At 3rd level, and every three levels thereafter, a paladin gains a mercy. Each mercy adds an effect to the paladin's lay on hands ability. Whenever the paladin uses lay on hands to heal damage to one target, the target also receives the additional effects from all of the mercies possessed by the paladin.
+
+At 3rd level, the paladin gains Shaken (the target is no longer shaken).
+At 6th level, the paladin gains Diseased (the target is no longer diseased).
+At 9th level, the paladin gains Poisoned (the target is no longer poisoned).
+At 12th level, the paladin gains Cursed (the target is no longer cursed).
+At 15th level, the paladin gains Fatigued (the target is no longer fatigued).
+At 18th level, the paladin gains Sickened (the target is no longer sickened).
+
+These abilities are cumulative. For example, a 12th-level paladin's lay on hands ability heals 6d6 points of damage and also removes diseases, curses, the shaken effect and neutralizes poisons.
+[/list]
+[color=#339933][size=14][b]Ranger changes: (Stage I)[/b][/size][/color]
+
+Ranger gains Spellcraft as a class skill
+Ranger gains Intimidate as a class skill
+Ranger gains Demoralize Opponent at level 1
+Ranger spellcasting now provides more spells per day by level 20 (4 level 1, 4 level 2, 3 level 3, and 3 level 4 spells - an increase of +1 level 1 and 2 spells. For example, 3 level 1 spells are available at level 13 instead of level 18). See [url=http://paizo.com/pathfinderRPG/prd/classes/ranger.html#_ranger]http://paizo.com/pathfinderRPG/prd/classes/ranger.html#_ranger[/url] for more details.
+
+[color=#339933][size=14][b]Ranger changes: (Stage II)[/b][/size][/color]
+
+Hit Dice upgraded to d10
+Bonus Feat gained at level 14
+[color=#ff0000]Improved Evasion gained at level 16[/color] - [color=#ff0000]Improved Evasion may be cut. Final decision pending.[/color]
+Bonus Feat gained at level 18
+New Spell: Gravity Bow (Pathfinder)
+New Spell: Abundant Ammunition (Pathfinder)
+New Spell: Longstrider (Pathfinder's Linebreaker)
+New Spell: (Greater) Animal Aspect (Pathfinder)
+New Spell: Bloodhound (3.5's Scent)
+New Spell: Chameleon Stride (Pathfinder)
+New Spell: Strong Jaw (Pathfinder)
+New Spell: Aspect of the Wolf (Pathfinder)
+
+
+[color=#339933][size=14][b]Companion changes:[/b][/size][/color]
+
+Silver Fang companion feat renamed to Unstoppable Ferocity and changed to be +1 regen for every 3 HD (maximum +5 regen). No change at this time for the Druid version.
+
+All companions gain bonus feats from the following list in the order listed (one free feat for every 3 HD of the companion). This is due to animal companions only being given one feat by OEI and not the one per 3 HD they should have. All companions get the same feats (bear, wolf, etc).
+1. Luck of Heroes (at 3 HD)
+2. Dodge (at 6 HD)
+3. Weapon Focus (Creature) (at 9 HD)
+4. Toughness (at 12 HD)
+5. Steadfast Determination (at 15 HD)
+6. Blind Fight (at 18 HD)
+7. Epic Precision (at 21 HD)
+8. Epic Toughness I (at 24 HD)
+
+[color=#339933][size=14][b]Force Mage changes:[/b][/size][/color]
+
+Reduce the entrance requirements to level 3 arcane caster.
+Auto-maximize force missiles and magic missiles at level 5.
+Removed the ASF penalty.
+Provides Empower Spell as a bonus feat at level 4.
+Orb of Force spells are auto-empowered at level 5.
+Tweaked the time of flight and casting time.
+Update class text with what it ignores as well as what it does do.
+Force Missiles is no longer subject to Silence like other reserve feats.
+
+[color=#339933][size=14][b]Monk Update:[/b][/size][/color]
+
+Additional Class Skills: Intimidate
+Bonus Feat at 1st: Weapon Focus (Unarmed), Weapon Focus (Quarterstaff)
+Bonus Feat at 4th: Unarmed Combat Mastery
+Bonus Feat at 10th: Weapon Specialization (Unarmed), Weapon Specialization (Quarterstaff)
+Bonus Feat at 14th: Greater Weapon Focus (Unarmed), Greater Weapon Focus (Quarterstaff)
+Bonus Feat at 18th: Greater Weapon Specialization(Unarmed), Greater Weapon Specialization(Quarterstaff)
+Bonus Feat at 22nd: Epic Weapon Focus (Unarmed), Epic Weapon Focus (Quarterstaff)
+Bonus Feat at 26th: Epic Weapon Specialization (Unarmed), Epic Weapon Specialization (Quarterstaff)
+Bonus Feat at 30th
+
+Wholeness of Body can be used 1 time for every 3 monks levels. Wholeness of Body now provides 1 point of regen for 3 minutes when used if the character only has Monk levels.
+
+Change bonus epic feats from 24/28 to 23/26/29
+
+The Versatile Unarmed Strike feat listed below is melted and made a part of the Unarmed Combat Mastery feat.
+
+Unarmed Combat Mastery now provides a -8 AB penalty when using polymorph effects.
+
+Tiger Combat Style
+Type of Feat: General
+Prerequisites: Improved Unarmed Strike, Intimidate 3
+Benefit: You inflict the wounding property (DC 10 + 1/2 your class level + your Wis modifier) on your foes with your unarmed strikes. Further, you gain your Wisdom modifier on Demoralize Opponent checks as well as gain the feat itself if you do not already have it. The DC suffers a -8 penalty if you multiclass.
+
+New Feat: Lightning Strikes Twice
+Prerequisites: Monk 5
+You gain an attack bonus with unarmed and quarterstaff attacks, starting at +1. This bonus improves by +1 for every 5 additional monk levels (to a maximum of +4 at 20th level). You also deal an additional 2 points of lightning damage on your unarmed or quarterstaff attacks. This is an activated ability with a 24 hour duration.
+
+New Feat: Sweeping Kicks
+Your masterful legwork while fighting allows you to make a sweeping set of strikes to attempt to knockdown all foes within 10' of you.
+Prerequisites: Knockdown, Improved Knockdown, Monk 5
+Benefit: While unarmed or using a quarterstaff, you make make a special Knockdown attempt as a full round action against every foe within 10' of you. This ability has a 30s cooldown. If you only have monk levels, you use your Wisdom modifier if it is higher than your Strength modifier for the knockdown attempt and the knockdown lasts for two rounds instead of one.
+
+New Feat: Fist of the Heavens
+Your favor with the Gods has gifted you with the ability to wreathe your fists or quarterstaff with sacred flames.
+Prerequisites: Ki strike (Adamantine), Intuitive Attack
+Benefit: You add your Wisdom modifier as damage (half divine, half blunt) to your unarmed and quarterstaff attacks (bonus may not exceed 1/2 your Monk level). This bonus caps at +1 of each damage type if you multiclass.
+
+New Feat: Versatile Unarmed Strike (Merged into Unarmed Combat Mastery)
+Type: General
+Prerequisite: Improved Unarmed Strike
+Text: You employ a variety of unarmed fighting styles, allowing you to alter the type of damage your attacks deal.
+Benefit: You buff your gloves or gauntlets to deal slashing and piercing damage as well as blunt. This bonus lasts 24 hours and can be used at will.
+
+New Feat: Epic Diamond Soul
+Prerequisites: Diamond Soul
+Benefit: A monk gains spell resistance equal to his current monk level + 14.
+
+New Feat: Epic Perfect Self
+Prerequisites: Perfect Self
+Benefit: A monk gains DR 10/Adamantine instead of DR 10/Magic as well as 1 point of regen.
+
+New Feat: Heroic Ki
+You follow a path of enlightenment that lauds heroism and martial prowess.
+Prerequisites: Monk 5
+Benefit: You gain the benefits of the Heroism spell at all times. Note: This feat has no effect if you take any non-Monk levels. This improves to Greater Heroism at 11th level. This feat has no effect if you take any non-Monk levels.
+
+[color=#339933][size=14][b]Skald Update:[/b][/size][/color]
+
+Tweak #1 - Adrenaline Boost text no longer no mentions the Skald is not affected. He is, as it should be in pnp (where Adrenaline Boost is from) since I made tweaks to tone it down from what I was going to give the Skald originally. I forgot the remove that part of the text.
+
+Tweak #2 - Adrenaline Boost grants 10 + Skald level temporary hit points instead of just Skald level (+10 points) making the ability useful even at level 1 (as 1 HP is incredibly weak for a 3 minute timer).
+
+Tweak #3 - The class will get a small text section indicating what to do to fix your character if your timer for Adrenaline Boost bugs out. Right click your character and use your ability from that GUI. This is a change I'd like to slowly roll out to any class/feat that has a timer. Common knowledge is apparently not as common as I thought for folks knowing how to fix it.
+
+The new feats are meant to address quality of life issues and to improve them a bit while still keeping them much less of a powerhouse than a bard, cleric, druid, etc. The stun/silence immunities are there strictly because the class is 100% deprived of all function when stunned or silenced. They don't have spells, divine might/shield, etc to fall back on like Bards who are silenced. Stun breaks the inspiration and causes the player to waste two rounds "recasting" just like an inspiration. Not much I can do to fix that problem, it's an engine issue as I've given it a go many times already.
+
+New Feat: Hero's Call
+You drive your allies even harder with tales of the greatest heroes in the land.
+Prerequisites: Skald 1
+Benefit: Your adrenaline boost ability now always provides twice the bonus as though you and your allies were always below 50% health. In addition, your allies (but not yourself) gain a +1 bonus to Dodge AC. You become immune to silence.
+
+New Feat: Improved Hero's Call
+You personalize your encouragement to your allies, driving them on as though they were the great heroes of lore.
+Prerequisites: Skald 1, Hero's Call
+Benefit: Your adrenaline boost ability now always provides twice the bonus as though you and your allies were always below 50% health. If they actually are below 50% health they instead gain three times the bonus. In addition, your allies (but not yourself) gain a +1 bonus to Dodge AC and attack bonus.
+
+[color=#ff0000]New Feat: Inspire Heroics (Aggression)
+Prerequisites: Skald 1
+Benefit: Your inspire heroics ability now also provides 2 point of bonus magic damage on attacks. This improves to 3 points at 11th and 4 points at 21st level.[/color] 
+
+[color=#ff0000]This ability is under review and may not be part of the update.[/color]
+
+New Feat: Improved Inspire Heroics
+Prerequisites: Skald 5
+Benefit: Your Inspire Heroics (Health) ability now provides an additional point of regeneration. Your Inspire Heroics (Aggression) ability now provides an additional point of damage. Your Inspire Heroics (Protection) ability now provides an additional point of Dodge AC.
+
+New Feat: Greater Inspire Heroics
+Prerequisites: Skald 11, Improved Inspire Heroics
+Benefit: Your Inspire Heroics (Show of Arms) ability now provides an additional +2 enhance bonus to Strength and Dexterity. Your Inspire Heroics ability now provides +1 to Will saves for every five levels of Skald (maximum +6 at 30th). 
+
+New Feat: Inspire Heroics (Toughness)
+Prerequisites: Skald 1
+Benefit: Your inspire heroics ability now also provides 1% physical damage immunity for every 2 levels of Skald (maximum +15% to blunt, piercing, and slashing at 30th level). You become immune to being stunned.
+
+[color=#339933][size=14][b]General 1.45 changes:[/b][/size][/color]
+
+[list]
+[*]New feat to add synergy between Ninja and Shadowdancer
+[*]Test stack sizes of 999 for ammo and thrown weapons
+[*]Arcane Archer description updated to clarify enhance arrow.
+[*]Ghost-faced Killer gains Ghost Sight at 7th per pnp.
+[*]Hawkeye is correctly set to be a level 1 spell.
+[*]Gift of Healing now shows the affected area
+[*]Banishment now affects elementals
+[*]Dismissal and Banishment no longer kills animal companions and familiars
+[*]New Prestige Class: Grey Guard
+[*]Rogue description updated to indicate they have access to HiPS at 13+
+[*]Ranger Power Attack line mentions the -4 AB penalty in armor heavier than light.
+[*]Missing RP text for Bloodline Exemplar, Knight of the Wild, Force Mage, and Mystic Reservist.
+[*]Hexblade removes the upcoming feats section of the class description
+[*]Monk and Rogue class descriptions mention high bab at 21-30
+[*]Adrenaline Boost now correctly auto-targets the skald.
+[*]Adrenaline Boost lasts a minimum of 3 minutes.
+[*]Skald icon changed to Swashbuckler icon
+[*]Spell sneak attack disabled if Daring Outlaw/etc is present.
+[*]Thunder Clap now activates with Crumble, Leonal's Roar, and Wounding Whispers.
+[*]Mystic Reservist requirement changed from level 3 spells to level 3 caster.
+[*]Mystic Reservist now correctly gains 4 skill points per level.
+[*]Templar text no longer mentions deity's favored weapon
+[*]Ghostly Visage enabled for Hexblades (formerly augment familiar)
+[*]The Touch of Fatigue spell, Snowflake Wardance feat, and Inspire Frenzy abilities will no longer apply fatigue if you have the Tireless feat. Currently only Rage, Frenzy, and Dervish Dance ignore fatigue for Tireless.
+[*]Roll With It I-6 added (new feats)
+[*]Epic Damage Reduction IV added (requires 22 Con)
+[*]Epic Damage Reduction V added (requires 23 Con)
+[*]Epic Damage Reduction VI added (requires 24 Con)
+[*]Hexblade and Factotum's Greater Magic Weapon now affects both hands to support dual wielders.
+[*]Factotum's Cunning Defense now mentions it is uncapped if you do not multiclass (or only have Swashbuckler).
+[*]Factotum is now allowed to take Swashbuckler without Cunning Defense suffering the multiclass penalty.
+[*]Factotum description updated regarding Combat Insight and the bonus feat at 22. http://dalelandsbeyond.forumotion.com/t22916-factotum-insightful-strike-not-working#186546
+[*]Neverwinter Nine's Protective Aura now provides Dodge AC instead of Deflection AC. Aura range doubled.
+[*]Neverwinter Nine's Protective Aura affected area is now 20' and improves to 30' at 4th level.
+[*]Lion of Talisid correctly mentions Medium BAB for the class
+[*]Neverwinter Nine renamed to Protector
+[*]Vampiric Feast no longer summons a shadow.
+[*]Ghost Step now has alternate text to indicate the player just dissapeared.
+[*]Ghost Step now has a 12s cooldown.
+[*]Unarmed Combat Mastery now applies a -8 AB penalty while polymorphed.
+[*]Bards may now cast Gust of Wind
+[*]Check widen aura of despair
+[*]Check Hexblade spellbook issue/curse of lethargy issue
+[*]Update animal comp description with elemental progression and new changes
+[*]Update Skullclan Hunter description with Paladin spellcasting progression.
+[*]Investigate http://dalelandsbeyond.forumotion.com/t26322-forceful-hand-still-vanilla
+[*]Doomguide description mentions it gets exotic weapon proficiency
+[/list]
+
+
+[color=#339933][size=14][b]Gray Guard[/b][/size][/color]
+
+[spoiler]
+<color=Gold><b>Gray Guard</b></color>
+
+<color=Red>(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)</color>
+
+Gray guards are less restrained by their knightly vows, doing what must be done, no matter how unpleasant.
+
+This is a 10 level prestige class.
+
+<color=Gold>Requirements:</color>
+
+<b>Alignment:</b> Lawful Good.
+<b>Class:</b> Paladin.
+<b>Feats:</b> Smite Evil 2/day.
+<b>Required Spell:</b> Angelskin.
+<b>Skills:</b> Lore 8.
+<b>Spellcasting:</b> Able to cast 2nd level divine spells.
+
+<color=Gold>Class Features:</color>
+
+- <b>Hit Die:</b> d10
+- <b>Base Attack Bonus:</b> High.
+- <b>High Saves:</b> Fort, Will.
+- <b>Weapon Proficiencies:</b> None.
+- <b>Armor Proficiencies:</b> Tower Shields.
+- <b>Skill Points:</b> 2 + Int modifier.
+- <b>Class Skills:</b> Bluff, Concentration, Craft Weapon, Craft Armor, Diplomacy, Heal, Intimidate, Lore, Parry, Spellcraft, and Tumble.
+
+<color=Gold>Class Abilities:</color>
+
+Level 1: Spellcasting Progression, Turn Undead, Lay on Hands, Sacrament of Trust
+Level 2: Debilitating Touch
+Level 3: 
+Level 4: 
+Level 5:
+Level 6: 
+Level 7: Unbound Justice
+Level 8: 
+Level 9: 
+Level 10: Sacrament of the True Faith
+
+- <b>Turn Undead:</b> Gray Guard levels stack with all other classes for the purpose of turning undead.
+
+- <b>Lay on Hands:</b> Gray Guard levels stack with all other classes for determining the effects of Lay on Hands.
+
+- <b>Spellcasting:</b> At each level, a Gray Guard gains new spells per day (and spells known, if applicable) as if she had also gained a Paladin level.
+
+- <b>Sacrament of Trust:</b> Upon entering this prestige class, you take a vow of allegiance to your faith beyond that of any ordinary paladin. This vow grants you a measure of freedom to act on your cause's behalf without fear of retribution should your duties require you to break your code of conduct.
+
+- <b>Debilitating Touch:</b> At 2nd level, you learn to channel your smite evil ability into a painful touch attack against any alignment. Each use of Debilitating Touch uses up one use of Smite Evil. Many gray guards use debilitating touch during interrogation, since it reduces the target's ability to successfully bluff. Using debilitating touch does not provoke attacks of opportunity and requires a melee touch attack to succeed. 
+
+An opponent hit by this attack suffers 5 points of divine damage for every paladin and gray guard level, maximum of 150 (though they are always left with 1 hit point). The target is also debuffed with terrible pain (-10 Bluff, -5 on all saves, and -2 AB). A successful Fortitude save (DC 10 + your Paladin level + your gray guard level + your Cha modifier) negates the pain effect and halves the damage.
+
+- <b>Unbound Justice:</b> At 7th level, unrestricted by your code of honor, you can employ unorthodox methods that are all the more effective because they're unexpected. You add half your gray guard level (round down) as a competence bonus on Bluff and Intimidate skill checks.
+
+- <b>Sacrament of the True Faith:</b> At 10th level, you gain your order's full confidence. You are granted the freedom to act on behalf of your faith as you deem necessary. Thus, you never risk losing your class abilities in the pursuit of a just cause and never need to atone for violating your code of conduct. This trust does not grant you the freedom to act as violently or immorally as you wish, however. Release from your code of conduct depends on your acting as an exemplar of your order's ideals. If you violate this trust by habitually acting in an immoral or corrupt manner, the leaders or deity of your faith might revoke their blessing and banish you from the ranks of the faithful.[/spoiler]

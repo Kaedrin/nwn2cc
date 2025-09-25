@@ -1,0 +1,108 @@
+Thoughts?
+
+Duskblade
+
+The duskblade blurs the line between spellcaster and warrior, marrying the power of magic with hand-to-hand combat prowess.
+
+A student of ancient elven spellcasting techniques, the duskblade combines arcane spellcasting with the combat skills of a fighter. While the ability to cast arcane spells in armor originated with the elves, over the millennia the secrets of the duskblade have been disseminated to the other races, and today members of any race can become a duskblade.
+
+Duskblade spellcasting is based on Intelligence.
+
+This is a base class. It may be unable to qualify for prestige classes that expect a certain arcane level or caster level.
+
+Class Features
+
+HD: d8
+BAB: High
+High Saves: Fort, Will
+Weapon proficiency: All simple and martial weapons.
+Armor proficiency: All armor and shields (except tower shields).
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Intimidate, Lore, Parry, and Spellcraft.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Armored Mage (Light Armor, Light Shield)
+Level 2: Combat Casting
+Level 3: Arcane Channeling
+Level 4: Armored Mage (Medium)
+Level 5:
+Level 6: Spell Power +2
+Level 7: Armored Mage (Heavy Shield)
+Level 8:
+Level 9:
+Level 10:
+Level 11: Spell Power +3
+Level 12:
+Level 13: Arcane Channeling (Full Attack)
+Level 14:
+Level 15:
+Level 16: Spell Power +4
+Level 17:
+Level 18: Spell Power +5
+Level 19:
+Level 20:
+Level 21:
+Level 22:
+Level 23: Spell Power +6, Bonus Epic Feat
+Level 24:
+Level 25:
+Level 26:Bonus Epic Feat
+Level 27:
+Level 28: Spell Power +7
+Level 29: Bonus Epic Feat
+Level 30:
+
+Duskblades gain bonus epic feats at 23rd, 26th, and 29th level.
+
+Duskblade Spell List
+0 Level: Acid Splash, Disrupt Undead, Ray of Frost, Touch of Fatigue
+1st Level: Burning Hands, Ghostly Visage, Kelgore's Fire Bolt, Ray of Enfeeblement, Shocking Grasp
+2nd Level: Bear's Endurance, Bull's Strength, Invisibility, Scorching Ray, Seeking Ray
+3rd Level: Dispelling Touch, Doom Scarabs, Greater Magic Weapon, Keen Edge, Vampiric Touch
+4th Level: Bigby's Interposing Hand, Enervate, Fire Shield, Pyroburst, Shout
+5th Level: Chain Lightning, Disintegrate, Polar Ray, Slashing Dispel, Sonic Shield
+
+Spells Per Day (Intelligence based for bonus spells)
+0 Level: 3 at 1st, 4 at 2nd, 5 at 3rd, and 6 at 4th
+1st level: 2 at 1st, 3 at 2nd, 4 at 3rd, 5 at 4th, 6 at 6th, 7 at 8th, 8 at 10th, 9 at 13th, and 10 at 17th.
+2nd Level: 2 at 5th, 3 at 6th, 5 at 7th, 6 at 8th, 7 at 10th, 8 at 12th, 9 at 16th, and 10 at 19th.
+3rd Level: 2 at 9th, 3 at 10th, 5 at 11th, 6 at 12th, 7 at 14th, 8 at 16th, 9 at 19th, and 10 at 20th.
+4th Level: 2 at 13th, 3 at 14th, 5 at 15th, 6 at 16th, 7 at 18th, and 8 at 20th.
+5th Level: 2 at 17th, 3 at 18th, 5 at 19th, and 6 at 20th.
+
+Armored Mage: Normally, armor of any type interferes with an arcane spellcaster's gestures, which can cause spells to fail if those spells have a somatic component. A duskblade's limited focus and specialized training, however, allows you to avoid arcane spell failure so long as you stick to light armor and light shields. This training does not apply to spells gain from a different spellcasting class.
+
+At 4th level, you learn to use medium armor with no chance of arcane spell failure.
+
+At 7th level, you learn to use a heavy shield with no chance of spell failure.
+
+Combat Casting: At 2nd level, you gain Combat Casting as a bonus feat.
+
+Arcane Channeling: Beginning at 3rd level, you can deliver any touch spell you know through your weapon with a melee attack. If the melee attack is successful, the attack deals damage normally; then the effect of the spell is resolved.
+
+At 13th level, you can deliver any touch spell you know as part of a full attack action. You get your full number of attacks in a round against a target and then the spell is resolved.
+
+Spell Power: Starting at 6th level, you can more easily overcome the spell resistance of any opponent. You gain a +2 bonus on your caster level check to overcome spell resistances. This bonus increases to +3 at 11th level, to +4 at 16th level, +5 at 18th level, +6 at 23rd level, and to +7 at 28th level.
+
+New feats for the class:
+
+Practiced Caster (Duskblade)
+
+Content expected when the Duskblade is released that it will have access to or may be created to shore up the class based on feedback:
+
+   I'm adding 4 feats that the Duskblade will have access to (only the hexblade, duskblade, artificer, and dread necromancer will be able to take). Duskblades will only get the level 1-5 bonus spells.
+       New Feat: Arcane Disciple (Mysticism) - Gain Divine Favor (1), Spiritual Weapon (2), Lesser Visage of the Deity (3), Weapon of the Deity (4), Righteous Might (5), Visage of the Deity (6), Holy Word (7), Holy Aura (8), Greater Visage of the Deity (9) to a custom caster spellbook
+       New Feat: Arcane Disciple (Healing) - Gain Cure Light Wounds (1), Cure Moderate Wounds (2), Cure Serious Wounds (3), Cure Critical Wounds (4), Heal (5), Regenerate (7), Mass Cure Critical Wounds (8), Mass Heal (9) to a custom caster spellbook
+       New Feat: Arcane Disciple (Magic) - Gain Mage Armor (1), Melf's Acid Arrow (2), Assay Resistance (3), Spell Resistance (5), Spell Mantle (6), Greater Dispel Magic (7), Blackstaff (8), Mord's Disjunction (9) to a custom caster spellbook
+       New Feat: Arcane Disciple (Wrath) - Bear's Endurance (1), Bull's Strength (2), Rage (3), Shout (4), Righteous Might (5), Song of Discord (6), Tenser's Transformation (7), Greater Shout (8), Storm of Vengeance (9) to a custom caster spellbook
+   I'm adding the feat Dreadful Wrath. It's a level 1 background feat that provides a Debuff Aura like the Blackguard has (Will Save vs DC 10 + 1/2 Char Level + Cha Mod or suffer -2 Saves, -2 AC, -2 AB). It will stack with Dark Companion, the Blackguard's aura, and the Hexblade's curse.
+   I'm adding the feat Battle Casting. It's only for the custom spellbook casters and adds a +2 Dodge AC bonus for 6 seconds after casting a hexblade spell (from RotW).
+   I may add support for the Devotion feats to the custom spellbook casters.
+   Arcane Duelist for a 2 level dip gives huge rewards. Blackguard 3 has great synergy as well.
+   New Items such as Veil of Allure (+2 Cha based DCs), Bloodstone enchant (MIC), and Ring of Arcane Might (+1 CL, +1 all DCs)
+   New feat granted a level 1 to the Hexblade and Blackguard (possibly any with Intimidate as a class skill): Demoralize Opponent - Use a standard action and make an opposed Intimidate check to fear your enemy (Shaken effect for -2 AC, -2 AB, -2 Saves). Stacks with all other types of negatives.
+   I'm open to adding Dragon Leadership + Epic Leadership as feats for the custom spellbook casters that will allow them to summon a dragon companion based on their level + charisma bonus. A level 30 character with a 40 Charisma would summon a level 28 Dragon. I'm also open to using this as the foundation of my "pet upgrade" system where you give pets magic items (following the pnp rules that allow animals to equip most types of magic items). This would be quite a buff to the pet (at the expense of drops) and provide a level 23-28 full BAB, nasty pet for two feats.
+   I'm open to adding Obtain Familiar + Improved Familiar which will grant the Duskblade a Winter Wolf that follows the normal pnp familiar rules (1/2 Duskblades HP, HD equal to Duskblade levels -3 at full BAB, up to +10 Natural Armor bonus on top of the +5 the WW already has, etc) The Leadership + Familiar lines could be used at the same time if both are added.
+   I could add the polymorph spells (alter self, polymorph) to their spell list which opens up any form desired and allows Minor Shapeshift (reserve feat) to be used to continually refresh free temporary hit points.

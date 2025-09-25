@@ -1,0 +1,9 @@
+2DA V2.0
+
+  LABEL       ReqType ReqParam1        ReqParam2 
+0 ScriptVar   VAR     cmi_AllowNSInfil 0         
+1 Alertness   FEAT    0                ****      
+2 Evasion     FEAT    206              ****      
+3 Search      SKILL   14               5         
+4 OpenLock    SKILL   9                5         
+5 DisableTrap SKILL   2                10        

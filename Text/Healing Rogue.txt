@@ -1,0 +1,57 @@
+(Healing Rogue Type)
+
+x
+
+This class has Charisma as it's primary attribute.
+Required Alignment: Any good.
+
+You may not take any other classes as an X.
+
+Class Features
+
+HD: d6
+BAB: Low
+High Saves: Ref, Will
+Weapon proficiency: Simple and Spirit Shaman.
+Armor proficiency: Light Armor and all Shields (except Tower).
+
+Class Skills: Appraise, Bluff, Craft Alchemy, Disable Device, Heal, Hide, Listen, Lore, Move Silently, Open Lock, Search, Spellcraft, Spot, Tumble, and Use Magic Device
+
+Skill Points: 6 + Int modifier
+
+Class Abilities
+
+Level 1: Trapfinding, Turn Undead, Healing Balm, Healing Creed
+Level 2: Hide in Plain Sight
+Level 3: Evasion
+Level 4: Bonus Feat
+Level 5: Sacred Healing
+Level 6: Sneak Attack 1d6
+Level 7: Pilfer magic (1/day)
+Level 8: Bonus Feat
+Level 9: Divine Health
+Level 10: Improved Evasion
+Level 11: Pilfer magic (2/day)
+Level 12: Bonus Feat
+Level 13: Defensive Roll
+Level 14: Sneak Attack 2d6
+Level 15: Pilfer magic (3/day)
+Level 16: Bonus Feat
+Level 17: Crippling Strike
+Level 18:
+Level 19: Pilfer magic (4/day)
+Level 20: Bonus Feat, Divine Grace
+Level 21:
+Level 22: Sneak Attack 3d6
+Level 23: Bonus Epic Feat, Pilfer magic (5/day)
+Level 24: Bonus Feat
+Level 25:
+Level 26: Bonus Epic Feat
+Level 27: Pilfer magic (6/day)
+Level 28: Bonus Feat
+Level 29: Bonus Epic Feat
+Level 30: Sneak Attack 4d6
+
+Healing Creed: Due to a focus on protection and healing instead of combat, you only receive half the normal benefit provided by Divine Might and Epic Divine Might. Divine Shield has twice the normal duration.
+
+Healing Balm: An x with a Charisma score of 12 or higher can heal wounds her own or those of others) by touch. Each time she can heal a total number of hit points of damage equal to her x level times her Charisma bonus. For example, a 7th-level x with a 16 Charisma (+3 bonus) can heal 21 points of damage each time. Using Healing Balm requires a use of Turn Undead.

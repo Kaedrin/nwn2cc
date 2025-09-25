@@ -1,0 +1,27 @@
+[list=1]
+[*]Companions and Familiars do not cause an experience deficit.
+[*]Summons cause a minor experience deficit.
+[*]Temporary item properties are removed when an item is unequipped.
+[*]Very few spells/items/feats stack (following pnp stacking rules).
+[*]+ Skill enchants can only be placed on item locations with an affinity for a specific skill.
+[*]Death Attack replaced with a pnp ability (no archer exploits).
+[*]No XP penalty for multiclassing base classes.
+[*]No non-magical drops from creatures that are not cash, crafting materials, or quest objects.
+[*]Damage bonuses will be on items, not characters (no ignoring resists, multiplied on a crit).
+[*]Very few immunities (including sneak/criticals). Energy Immunity is to one element at a time.
+[*]Clerics do not get domains and instead get +1 spells/level max and a bonus feat at level 1. This will remove a ton of the exploits and bugs related to domain spells and prevent having to rebalance the domains.
+[/list]
+
+Exploit Fixes:
+Plenty of things in my content (and in some cases the base game) are overly strong. I have a suggestion to help bring the whole set down a notch.
+
+1. Temporary item properties are removed when they are unequipped. This will fix the exploit with item properties "sticking" which is why damage bonuses are applied directly to the character instead of their items (to prevent unlimited/permanent use when it should be based on a timer). Their was an alchemy item added that adds a minor amount of fire damage which allows the trolls to be killed so no more excuses for needing to keep X weapon buffed with fire in your inventory.
+
+2. All character based damage bonuses are changed to be item properties. Character-based bonuses ignore resistances completely and can crit. Neither should be happening. Only a handful of these bonuses should stay character based and it should be on strictly performance issue case by case basis (likely only Skald/Bard getting to keep it due to buffing a party every round).
+
+3. Death Attack and class specific sneak dice are removed from all characters and the appropriate amount of normal sneak attack dice are granted (matching pnp). The goal of this would be to remove all of the exploits relating to Many Shot and Epic Precision that death attack currently has. Please read what Death Attack is actually supposed to be in pnp: 
+[spoiler="3.5 Death Attack"] If an assassin studies his victim for 3 rounds and then makes a sneak attack with a melee weapon that successfully deals damage, the sneak attack has the additional effect of possibly either paralyzing or killing the target (assassin’s choice). While studying the victim, the assassin can undertake other actions so long as his attention stays focused on the target and the target does not detect the assassin or recognize the assassin as an enemy. If the victim of such an attack fails a Fortitude save (DC 10 + the assassin’s class level + the assassin’s Int modifier) against the kill effect, she dies. If the saving throw fails against the paralysis effect, the victim is rendered helpless and unable to act for 1d6 rounds plus 1 round per level of the assassin. If the victim’s saving throw succeeds, the attack is just a normal sneak attack. Once the assassin has completed the 3 rounds of study, he must make the death attack within the next 3 rounds.
+
+If a death attack is attempted and fails (the victim makes her save) or if the assassin does not launch the attack within 3 rounds of completing the study, 3 new rounds of study are required before he can attempt another death attack. [/spoiler]
+
+4. Divine Power should cap at 20 BAB like in pnp. Most high bab divine classes are worthless (and subpar) right now due to this one spell. Warpriest is a lot more effective when you can't just jump from 22 to 30 BAB.

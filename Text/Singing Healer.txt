@@ -1,0 +1,64 @@
+(Singing Healer)
+
+x 
+
+This class has Constitution as it's primary attribute.
+
+You may not take any other classes as an X (no multiclassing)
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Ref, Will
+Weapon proficiency: Simple and Bard.
+Armor proficiency: Light Armor, Medium Armor, and Shields (except Tower).
+
+Class Skills: Appraise, Craft Alchemy, Heal, Intimidate, Listen, Lore, Parry, Survival, Spot, Taunt, and Tumble.
+
+Skill Points: 4 + Int modifier
+
+Class Abilities
+
+Level 1: Aria of Life (Regen), Dash
+Level 2: Weakening Chord (Str Debuff)
+Level 3: Insightful Strike
+Level 4: Aria of Defense (Dodge AC)
+Level 5: Combat Insight
+Level 6: Bonus Feat
+Level 7: Aria of Vigor (Temporary HP) 
+Level 8: Evasion
+Level 9: Fast Movement
+Level 10: Aria of Health (Bonus HP)
+Level 11: Maladroit Chord (Dex Debuff)
+Level 12: Bonus Feat
+Level 13: Aria of Energy Protection (Energy Immunity)
+Level 14: Deflect Arrows
+Level 15: 
+Level 16: Aria of Physical Protection (Physical Immunity)
+Level 17: 
+Level 18: Bonus Feat
+Level 19: Aria of Speed (Haste)
+Level 20: Dispiriting Chord (Int and Wis Debuff)
+Level 21: Epic Precision
+Level 22: 
+Level 23: Bonus Epic Feat
+Level 24: Bonus Feat
+Level 25:
+Level 26: Bonus Epic Feat
+Level 27:
+Level 28: 
+Level 29: Bonus Epic Feat
+Level 30: Bonus Feat
+
+Arias: All arias have a 1 minute duration (plus your Constitution modifier), a 4 minute cooldown, and will affect all allies (including yourself) within 80 feet. Only one aria can be active at a time and a newly activated aria cancels any previously running aria.
+
+Aria of Life (Regen) - Regen equal to half your Constitution modifier every 6s.
+Aria of Defense (Dodge AC) - Dodge AC bonus equal to your Constitution modifier
+Aria of Vigor (Temporary HP) - Temporary HP bonus equal to the target's Constitution modifier times their Hit Dice.
+Aria of Health (Bonus HP) - Bonus HP (and a minor heal to restore the targets to the new level) equal to half the targets Constitution modifier times their Hit Dice.
+Aria of Energy Protection (Energy Immunity) - Percent immunity to the elements (Fire, Acid, Electricity, Cold) equal to your class level plus your Constitution modifier. 
+Aria of Physical Protection (Physical Immunity) - Percent immunity to physical damage (Slashing, Blunt, Piercing) equal to your class level plus your Constitution modifier.
+Aria of Speed (Haste): As the Haste spell with a duration in rounds equal to your class level plus your Constitution modifier.
+
+Chords: These debuffs have a DC of 10 + 1/2 your class level + your Constitution modifier. They debuff the indicated attribute by 2 plus half your Constitution modifier for a number of rounds equal to your Constitution modifier.

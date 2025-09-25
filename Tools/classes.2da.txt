@@ -1,0 +1,162 @@
+.2da file. The 2D Array that contains all the classes used in-game, usable or not by PCs.
+
+Here is a description of the various columns:
+Column	Example	Explanation	Note
+*void*	86	Row's ID (unique)	-
+Label	Cicciurro	Indicative name of the class	-
+Name	184703	Index in the TLK file of the class' name (1st letter capital)	-
+Plural	184704	Index in the TLK file of the class' name (plural)	-
+Lower	184705	Index in the TLK file of the class' name (no capital letters)	-
+Description	184706	Index in the TLK file of the class' description	-
+Icon	ic_b_xx	Icon's name (TGA file), in this case ic_b_xx.tga	-
+BorderedIcon	ic_xx	Bordered icon name (TGA file), in this case ic_xx.tga	-
+HitDie	12	Hit Die (that is: how many HP a class can take for each level)	Without CON bonus
+AttackBonusTable	CLS_ATK_XX	Base Attack Bonus for the various levels	If you prefere, you can use other classes' 2DAs
+FeatsTable	CLS_FEAT_XX	Available feats for the class	-
+SavingThrowTable	CLS_SAVTHR_XX	Class's Base Saving Throws for each level	-
+SkillsTable	CLS_SKILL_XX	Class's skills	-
+BonusFeatsTable	CLS_BFEAT_XX	Number of bonus feats given at each level	They are bonus feats, but they are allways listed in the CLS_FEAT_XX 2DA
+SkillPointBase	4	Number of skill points given at each level	Without INT bonus
+SpellGainTable	****	Number of available spells for class's level/spell	In this case the value is void (****), but can be set to CLS_SPGN_XX
+SpellKnownTable	****	Number of spells knew for class's level/spell	In this case the value is void (****), but can be set to CLS_SPKN_XX
+PlayerClass	1	1 = Playable class, 0 = Not playable class	-
+SpellCaster	0	1 = Can cast spells, 0 = Cannot cast spell	-
+MetaMagicAllowed	0	1 = Can cast metamagic spells, 0 = Cannot cast metamagic spells	-
+MemorizesSpells	0	1 = The character must memorize the spells that want to cast (e.g. Wizard), 0 = Directly casts spells (e.g. Sorcerer)	Only appears to affect the spellbook GUI; Setting this to 1 on a Sorcerer, for example, has no affect on actual spellcasting.
+HasArcane	0	1 = Casts arcane spells, 0 = Doesen't cast arcane spells	-
+HasDivine	0	1 = Casts divine spells, 0 = Doesen't cast divine spells	-
+HasSpontaneousSpells	****	List of Spontaneous Spells	In this case the value is void (****), but can be setted as CLS_SPON_XX
+SpellSwapMinLvl	5	Minimum level for spell swap	The first level at which the character gets to swap one spell for another of their choice
+SpellSwapLvlInterval	3	Level interval for spell swap	How many levels after the first the character gets to swap one more spell
+SpellSwapLvlDiff	2	Spell swap difficulty level	When the character gets to swap a spell, it must be at least this many difficulty levels below their current highest casting level
+AllSpellsKnown	0	True/False of whether the character knows all spells that are available to his spellcasting class	This is 0 if the character is not a spellcasting class or needs to select spells at level up (like a sorcerer) or 1 if spells need not be selected (cleric or druid).
+HasInfiniteSpells	0	1 = Infinite spells, 0 = Finite spells	-
+HasDomains	0	1 = The PC has domains (i.e. Cleric), 0 = The PC hasn't domains (e.g. Sorcerer)	-
+HasSchool	0	1 = The PC has Schools of Magic (e.g. Sorcerer), 0 = The PC hasn't Schools of Magic (e.g. Cleric)	-
+HasFamiliar	0	1 = The PC has a familiar (e.g. Sorcerer), 0 = The PC hasn't a familiar (e.g. Ranger)	-
+HasAnimalCompanion	0	1 = The PC has an animal companion (e.g. Ranger), 0 = The PC hasn't an animal companion (e.g. Sorcerer)	-
+Str	16	Suggested model of STRENGTH	-
+Dex	14	Suggested model of DEXTERITY	-
+Con	14	Suggested model of CONSTITUTION	-
+Wis	10	Suggested model of WISDOM	-
+Int	14	Suggested model of INTELLIGENCE	-
+Cha	10	Suggested model of CHARISMA	-
+PrimaryAbil	STR	Primary ability	STR,DEX,CON,WIS,INT,CHA
+SpellAbil	****	Ability-key for casting spells	STR,DEX,CON,WIS,INT,CHA
+AlignRestrict	0x00	Alignment Restriction	See separated table
+AlignRstrctType	0x0	Alignment Restriction Type	See separated table
+InvertRestrict	0	Inverts the Alignment Restrictions. 1 = Yes, 0 = No	-
+Constant	CLASS_TYPE_XX	Class's constant. Purely indicative	It has no value in NWScript
+EffCRLvl01	1	Effective Challenge rating for level 1	Used to measure the difficulty of a NPC when the player examines it.
+
+A EffCRlvl03 of 2 means that the CR for the third level of that class is equivalent to the CR of the second level of a common class.
+EffCRLvl20	20	Effective Challenge Rating for level 20	Used to measure the difficulty of a NPC when the player examines it.
+
+A EffCRlvl03 of 2 means that the CR for the third level of that class is equivalent to the CR of the second level of a common class.
+PreReqTable	****	Prerequirements table (only for prestigious classes)	In this case the value is void (****), but can be set to CLS_PRES_XX
+MaxLevel	0	Maximum level for the class. 0 = infinite, else as specified	-
+XPPenalty	0	Experience penality (in points). Used for classes with LEP > 1	-
+BonusSpellcasterLevelTable	****	???	Bonus spell table. Used in prestige classes like Eldritch Knight that provide bonus spells based on a previous spellcasting class.
+ArcSpellLvlMod	0	???	Don't know, but all classes have 0
+DivSpellLvlMod	0	???	Don't know, but all classes have 0
+EpicLevel	-1	At what level the class becomes epic. -1 = level 21°, otherwise as specified	-
+Package	0	Suggested class's Model.	See: packages.2DA
+FEATPracticedSpellcaster	1246	Practiced Spell Caster feat	If class uses Practiced Spell Caster feat, add feat's row number from feat.2da
+FEATExtraSlot	1283	Extra Slot feat	If class uses Extra Slot feat, add feat's row number from feat.2da
+FEATArmoredCaster	1859	Armored Caster feat	If class uses Armored Caster feat, add feat's row number from feat.2da
+CharGen_Chest	nw_armor_barb	This is the clothing that the PC appears in on the creation screens. Possibly affects what the character is wearing on creation as well.	See: chargenclothes.2da
+CharGen_Feet	****	???	Don't know, but all classes have ****
+CharGen_Hands	****	???	Don't know, but all classes have ****
+CharGen_Cloak	****	???	Don't know, but all classes have ****
+CharGen_Head	****	???	Don't know, but all classes have ****
+
+
+
+NOTA.1: xx e XX means the first letters of our class. xx and XX are purely indicative
+
+AlignRestrict
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Possible Values:
+
+0x00 - No restrictions
+0x01 - No Neutral
+
+0x02 - No Lawful
+0x03 - No Lawful, No Neutral
+0x04 - No Chaotic
+0x05 - No Chaotic, No Neutral
+0x06 - No Chaotic, No Lawful
+0x07 - No Chaotic, No Lawful, No Neutral
+0x08 - No Good
+0x09 - No Good, No Neutral
+0x0A - No Good, No Lawful
+0x0B - No Good, No Lawful, No Neutral
+0x0C - No Good, No Chaotic
+0x0D - No Good, No Chaotic, No Neutral
+0x0E - No Good, No Chaotic, No Lawful
+0x0F - No Good, No Chaotic, No Lawful, No Neutral
+0x10 - No Evil
+0x11 - No Evil, No Neutral
+0x12 - No Evil, No Lawful
+0x13 - No Evil, No Lawful, No Neutral
+0x14 - No Evil, No Chaotic
+0x15 - No Evil, No Chaotic, No Neutral
+0x16 - No Evil, No Chaotic, No Lawful
+0x17 - No Evil, No Chaotic, No Lawful, No Neutral
+0x18 - No Evil, No Good
+0x19 - No Evil, No Good, No Neutral
+0x1A - No Evil, No Good, No Lawful
+0x1B - No Evil, No Good, No Lawful, No Neutral
+0x1C - No Evil, No Good, No Chaotic
+0x1D - No Evil, No Good, No Chaotic, No Neutral
+0x1E - No Evil, No Good, No Chaotic, No Lawful
+0x1F - No Evil, No Good, No Chaotic, No Lawful, No Neutral
+
+
+
+AlignRstrctType
+
+
+
+
+
+
+	Possible Values:
+
+0x0 None
+0x1 = Law/Chaos
+
+0x2 = Good/Evil
+0x3 = Both

@@ -1,0 +1,7 @@
+2DA V2.0
+
+  LABEL                                     ReqType ReqParam1 ReqParam2 
+0 WeapFocHXBow                              FEAT    92        ****      
+1 FEAT_COMBATSTYLE_RANGER_XBOW              FEAT    3129      ****      
+2 Ranger                                    CLASSOR 7         ****      
+3 LoreSkill                                 SKILL   7         4         

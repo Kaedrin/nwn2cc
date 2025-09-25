@@ -1,0 +1,7 @@
+2DA V2.0
+
+  LABEL       ReqType ReqParam1        ReqParam2 
+0 Diplomacy   SKILL   12               4         
+1 Spot        SKILL   17               4         
+2 Bluff       SKILL   23               4         
+3 Base_Attack BAB     5                ****      

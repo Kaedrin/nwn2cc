@@ -1,0 +1,62 @@
+Dread Necromancer
+
+A palemaster, specialist wizard who calls himself a necromancer, or a cleric with the 
+Death domain has significant power over undead and the forces of negative 
+energy, but a dread necromancer is their true master. A practicioner of 
+vile and forbidden arts, she calls upon restless, tormented spirits of the 
+dead, seeking their arcane secrets. She might be a consummate villain, or 
+perhaps a tortured hero whose obsession with death leads her along 
+questionable moral paths.
+
+Alignment must be non-good.
+
+Class Features
+
+HD: d6
+BAB: Low
+High Saves: Will
+Weapon proficiency: Simple, Scythe
+Armor proficiency: Light
+
+Class Skills: Bluff, Concentration, Craft Armor, Craft Weapon, Hide, 
+Intimidate, Lore, and Spellcraft.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Turn Undead, Channel Negative Energy, Dread Choice, Necrotic Blast
+Level 2: Infused Bone Armor, Necromantic Talent
+Level 3: Field, Undeath Choice (Negative Energy Resistance)
+Level 4: Necromantic Talent, Aura
+Level 5: Undead Mastery, Cone
+Level 6: Touch of the Grave, Necromantic Talent
+Level 7: Command Undead, AE 
+Level 8: Necromantic Talent
+Level 9: Empowered Blast
+Level 10: Necromantic Talent
+Level 11: Empowered Field
+Level 12: Necromantic Talent
+Level 13: Empowered Cone
+Level 14: Necromantic Talent
+Level 15: Empowered Touch
+Level 16: Necromantic Talent
+Level 17: Empowered AE
+Level 18: Necromantic Talent
+Level 19: Empowered Aura
+Level 20: Necromantic Talent
+Level 21:
+Level 22: 
+Level 23: Bonus Epic Feat
+Level 24: Necromantic Talent
+Level 25:
+Level 26: Bonus Epic Feat
+Level 27:
+Level 28: Necromantic Talent
+Level 29: Bonus Epic Feat
+Level 30:
+
+New Feats/Necromanctic Talents:
+Charnel Shield, Dark Sacrifice, Disrupting Energy, Corpse Explosion, Enervating Touch, Embrace of the Grave, Spirit Shield, Infuse Scythe, Corpsecrafter, Deadly Chill, Destructive Retribution, Necromantic Might, Necromantic Presence, Profane Vigor, Ignore Turn Resistance, Undead Leadership, Sacred Vitality, Profane Lifeleech, Profane Aura, Tomb Tainted Soul, Undead Leadership, Various Ability Focus feats for the class abilities that need 
+a DC check, Hardened Flesh, Nimble Bones, Siphon Undeath, Pierce the Veil, Resist Life, Touch of the Void
+
+Quick save till I get home and delete

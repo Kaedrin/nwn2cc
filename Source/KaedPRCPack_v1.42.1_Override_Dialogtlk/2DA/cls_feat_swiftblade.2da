@@ -1,0 +1,22 @@
+2DA V2.0
+
+   FeatLabel                             FeatIndex List GrantedOnLevel OnMenu 
+0  FEAT_SWIFTBLADE_SPELLCASTING_BARD     3160      2    1              0      
+1  FEAT_SWIFTBLADE_SPELLCASTING_SORCERER 3161      2    1              0      
+2  FEAT_SWIFTBLADE_SPELLCASTING_WIZARD   3162      2    1              0      
+3  FEAT_SWIFTBLADE_SWIFTSURGE            3163      3    1              0      
+4  SpringAttack                          392       3    1              0      
+5  FEAT_SWIFTBLADE_BLURRED_ALACRITY      3164      3    2              0      
+6  FEAT_SWIFTBLADE_RESIDUAL_CELERITY     3165      3    3              0      
+7  ImpInit                               377       3    4              0      
+8  FEAT_SWIFTBLADE_EVASIVE_CELERITY      3166      3    5              0      
+9  FEAT_SWIFTBLADE_FORTIFIED_HUSTLE      3167      3    6              0      
+10 UncannyDodge1                         195       3    7              0      
+11 FEAT_SWIFTBLADE_DILIGENT_RAPIDITY     3168      3    8              0      
+12 FEAT_SWIFTBLADE_PERPETUAL_CELERITY    3169      3    9              0      
+13 FEAT_SWIFTBLADE_INNERVATED_SPEED      3170      3    10             1      
+14 FEAT_EPIC_SPELL_ENTROPIC_HUSK         1992      0    21             2      
+15 FEAT_EPIC_SPELL_EPIC_GATE             1993      0    21             2      
+16 FEAT_EPIC_SPELL_MASS_FOWL             1994      0    21             2      
+17 FEAT_EPIC_SPELL_VAMPIRIC_FEAST        1995      0    21             2      
+18 FEAT_EPIC_SPELL_HELLBALL              876       0    21             2      

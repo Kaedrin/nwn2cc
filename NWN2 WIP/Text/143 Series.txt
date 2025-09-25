@@ -1,0 +1,136 @@
+1.43 Final Update Notes
+
+
+
+    New Base Classes
+    New Base Class: Skald
+    New Base Class: Factotum
+
+    New PrC Class
+    New PrC: Bloodline Exemplar
+    New PrC: Force Mage
+    New PrC: Mystic Reservist
+    New PrC: Templar
+    New PrC: Knight of the Wild - http://nwn2customcontent.wikidot.com/knight-of-the-wild
+    New PrC: Stalker of the Depths - http://nwn2customcontent.wikidot.com/stalker-of-the-depths
+    New PrC: Beast Heart Adept
+
+    Hexblade Changes
+    Hexblade - New Feat: Arcane Heroism
+    Hexblade - New Feat: Siphon the Weave
+    Hexblade - New Feat: Arcane Mastery
+    Hexblade - Replace Slow with Spiderskin (no VFX)
+    Hexblade - Replace Identify with Shield
+    Hexblade - Replace Hound of Doom with Haste
+    Hexblade - Replace Augment Familiar with Ghostly Visage
+    Hexblade Minor Shapeshift now provides a +1 DC with curses
+    Hexblade Minor Shapeshift now lasts 1 round per caster level
+    Lingering Aura replaced with Arcane Mastery
+    Lingering Curse is going to provide a +1 DC with curses
+    Arcane Strikes will provide a +1
+    Boon of the Unlucky will provide a +1 DC with curses
+    Hexblade bonus feats at 5,10,15,20,25,30
+    Aura of Unluck is now instant
+    Curse of Lethargy and Curse of Silence updated with a targeting UI
+    Dark Companion spell name corrected (no longer Dreadful Wrath)
+    Curse of Lethargy and Curse of Silence can no longer affect the original target twice
+    Curse of Lethargy and Curse of Silence now get the location of the target to cycle spells instead of using the GetSpellTargetLocation call.
+
+
+    Class Skills
+    Wilderness Stalker now has Taunt and Parry as class skills
+    Whirling Dervish now has Taunt and Parry as class skills
+    Warrior of Darkness now has Taunt as a class skill
+    Scout now has Taunt and Parry as class skills
+    Ranger now has Taunt as a class skill
+    Paladin now has Taunt as a class skill
+    NWN9 now has Taunt as a class skill
+    Nightsong Enforcer now has Taunt and Parry as class skills
+    Ninja now has Taunt and Parry as class skills
+    Dwarven Defender now has Lore and Taunt as class skills
+    Dread Pirate now has Taunt and Parry as class skills
+    Dragon Warrior now has Taunt as a class skill
+    Champion of the Wild now has Taunt as a class skill
+    Blackguard now has Taunt as a class skill
+    Anointed Knight now has Taunt as a class skill
+    Shadow Daze can now be used three times per day
+
+    Warlock Changes
+    Warlock's Caster's Lament removes Ret Invis and Walk Unseen
+    Warlock's Devour Magic removes Ret Invis and Walk Unseen
+    Warlock's Curse of Despair removes Ret Invis and Walk Unseen
+    Warlock's Invisibility Purge removes Ret Invis and Walk Unseen
+    Warlock's Voracious Dispel removes Ret Invis and Walk Unseen
+    Warlock's Charm removes Ret Invis and Walk Unseen
+    Warlock's Dead Walk removes Ret Invis and Walk Unseen
+    Word of Changing now gains the 28 SR the form has
+    Devour Magic now has a caster level cap of 25, up from 20
+
+    Fighter Changes
+    Armor Training: Starting at 3rd level, a fighter learns to be more maneuverable while wearing armor. Whenever he is wearing armor, he reduces the armor check penalty by 1 (to a minimum of 0) and increases the maximum Dexterity bonus allowed by his armor by 1. Every four levels thereafter (7th, 11th, and 15th), these bonuses increase by +1 each time, to a maximum –4 reduction of the armor check penalty and a +4 increase of the maximum Dexterity bonus allowed. This bonus is lost if the character has levels in any class other than Fighter, Divine Champion, or Weapon Master.
+    Armor Mastery: At 19th level, a fighter gains DR 5/— whenever he is wearing armor or using a shield. This bonus is lost if the character has levels in any class other than Fighter, Divine Champion, or Weapon Master.
+    Weapon Training: Starting at 5th level, a fighter gains a +1 bonus on attack and damage rolls. Every four levels thereafter (9th, 13th, 17th, and 20th), the bonuses increase by +1. This bonus is lost if the character has levels in any class other than Fighter, Divine Champion, or Weapon Master.
+
+
+    General Changes
+    Oversized two-weapon fighting fixed for small races (courtesy of the PW Ashaba)
+    Utterdark blast no longer mentions healing undead.
+    CICraftCraftWand function in x2_inc_craft fixed so that FS/SS are added to the divine use limitation set
+    Ember Guard is no longer a specific form. It is now a bonus when using the Earth Elemental Shape. It provides a +2 AB bonus, +1d6 Fire Shield, and +1d6 Fire damage to melee. All previous cmi_options for Ember Guard are removed.
+    Web spell no longer mentions a spell resistance check
+    Rage duration on NPCs 10x
+    Whirling Dervish levels now correctly stack for sneak attack
+    Protective Ward feat - it treats Paladin and Knight of the Wild levels as Ranger levels at level 2 Knight of the Wild
+    cmi_s2_fervor needs to cap at 10 Templar levels, not 24 (+5 vs +12)
+    Sacred Purification now has a 12s cooldown.
+    Sacred Purification now heals/harms for 1d8 for every 2 points of Charisma modifier plus your Charisma modifier. A 22 Charisma (+6) now heals for 3d8 + 6.
+    Tortoise Skin no longer has a VFX (replaced with Premonition)
+    Wildfire blades allows IB levels to count as Ranger for Protective Ward.
+    Frenzy no longer damages npcs
+    Frenzy lasts 10x at long for NPCs
+    Genasi no longer have +1 ECL, no longer gain free martial weapon proficiency
+    Clone spells may no longer be cast while possessing a familiar.
+    Blind-Fighting now provides immunity to blindness (except for the Yuan-ti)
+    Improved Aura of Despair requirements changed from 25 Cha to 21 Cha/Blackguard 8
+    Half-elves gain a +2 Con bonus
+    Devoted Tracker now only requires a single level of Paladin instead of 5.
+    Child of Night no longer shows Listen as a class skill
+    Blade of Shadows prereqs changed to include normal 2d6 sneak attack, no longer account for NWN9's frantic reactions.
+    Arcane Archer description no longer indicates Tumble is a class skill
+    Rangers with the power attack line in armor heavier than light suffer a -4 AB penalty
+    Paladin and Ranger caster level options gains a new option for CL - 3 (matching Pathfinder)
+    Ranger Full Caster level option now accounts for Marksman
+    Elemental Warrior gains 20 to their energy resist at level 5.
+    Bonus HP fix from RoT
+    IsLightArmorValid split into IsNoArmorValid and IsLightArmorValid so light armor works correctly (Dervish armor issue)
+    Improved Aura of Despair no longer requires Cha 25, now requires Cha 21 and Blackguard 8
+
+
+
+
+
+
+1.43.1 changelog:
+Templar is turned on
+Skald's Inspire Heroism correctly works
+Skald's Adrenaline Rush is no longer Frost Fireball Wink
+
+1.43.2 changelog:
+Factotum's Opportunistic Piety correctly uses Turn Undead as a dependent feat (heal and harm variant)
+Factotum gains Combat Insight instead of Insightful Strike, level 22 feat changed to Bonus Epic.
+Factotum's text updated
+
+1.43.3 changelog:
+
+
+    Resting will add the passive feats for Fighters if they do not have it yet
+    Resting will add Combat Insight to Factotums that qualify if they do not have it yet
+    Swiftblade description updated with correct server implementation, not my original description.
+    Adrenaline Boost now provides 5 additional points of temporary health.
+    Templar now mentions it gets exotic weapon proficiency at level 1
+    Factotum True Seeing renamed Greater See Invisibility
+    Force Mage, Mystic Reservist, and Beast Heart Adept get the missing 2da file needed to provide spellcasting progression.
+    Adrenaline Boost now autotargets the caster.
+    Half-Drow gain +2 Con
+    Inspire Heroics no longer breaks on area transitions
+    Inspire Heroics now correctly allows regeneration

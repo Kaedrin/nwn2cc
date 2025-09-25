@@ -1,0 +1,74 @@
+Knight Of The Cage
+
+A rare few Martyrs have been appointed "Knights of the Cage". This is
+not intended to imply they are somehow beholden to Sigil - far from it.
+They have been appointed to defend good everywhere in the multiverse
+individually, crossing back and forth through the City of Doors as they
+do. Those that serve as members of this elite order are most often seen
+in Sigil, but can be found from the elemental planes to the lower
+gate-burgs, doing whatever they can do to stem the tide of darkness.
+
+Requirements
+
+Faction: Mercykillers
+BAB: +7
+Skills: Diplomacy 5, Survival 2
+Feats: Expertise, Disarm, Turn Undead
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort, Will
+Weapon and Armor proficiency: All armor, shields (except Tower), simple
+weapons, and martial weapons.
+
+Class Skills: Concentration, Craft Armor, Craft Weapon, Hide,
+Intimidate, Lore, Move Silently, Perform, and Tumble.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Turn Undead
+Level 2: Smite Evil, +1 divine spellcasting progression
+Level 3: Bonus Feat
+Level 4: +1 divine spellcasting progression
+Level 5: Turn Fiends
+Level 6: Bonus Feat, +1 divine spellcasting progression
+Level 7: Mien of Goodness
+Level 8: +1 divine spellcasting progression
+Level 9: Bonus Feat
+Level 10: Heaven's Gate, +1 divine spellcasting progression
+
+Spellcasting progression: At every even level the Knight of the Cage
+gains a level of progression in a divine spellcasting class they had
+before entering the class. If they had more than one, they have to
+choose at first level which to advance in.
+
+Turn Undead: The character may add his Knight of the Cage class levels
+to the effective cleric level for turning undead.
+
+Smite Evil: Once per day at 2nd level, a Knight of the Cage may attempt
+to smite evil with one normal melee attack. He adds his Charisma bonus
+(if any) to his attack roll and deals 1 extra point of damage per level.
+If the Knight accidentally smites a creature that is not evil, the smite
+has no effect but is used up for the day. If the character already has
+the smite evil class feature, such as from the Paladin class, add the
+Knight of the Cage class level minus one to that class when determining
+extra damage.
+
+Bonus Feats: The Knight of the Cage gains a bonus feat at 3rd, 6th, and
+9th level. This may be chosen from any faction or divine feat he meets
+the requirements of.
+
+Turn Fiend: At 5th level, the Knight's ability to turn undead can now
+affect evil outsiders in addition to undead, but they add their SR
+halved to their HD as turn resistance when doing so. All other aspects
+of turning remain unchanged.
+
+Mien of Goodness: At 7th level, the Knight's good alignment suffuses his
+being sufficiently that the character gains a +2 enhance bonus to his
+Charisma.
+
+Heaven's Gate: At 10th level, the Knight can use <i>Gate</i> as a
+spell-like ability once per day.

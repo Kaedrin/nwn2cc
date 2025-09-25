@@ -1,0 +1,2684 @@
+This list is current as of v1.39.2. I'll alphabetize it shortly.
+Last Updated: January 2nd, 2010
+
+[[tabview]]
+[[tab New Feat Overview]]
+
+[[table style="margin: 0 0px;"]]
+[[row]]
+[[cell]]
+**Name**
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+**Type**
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+**Pre-Reqs**
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Ascetic Stalker
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Ki Power, Ki Strike (Magic)
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Martial Stalker
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Ki Power, +1 BAB
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Devoted Tracker
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Paladin level 5, Tracking, and Animal Companion or Telthor Companion.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Extra Spirit Form
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spirit Form 1/day
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Extra Spirit Journey
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spirit Journey 1/day
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Telthor Companion
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spirit Shaman 4.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Swift Ambusher
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Scout Level 3, Sneak Attack +1d6
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Swift Hunter
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Scout level 3, Ranger level 2
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Expanded Ki Pool
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Ninja 1.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Improved Natural Bond
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Telthor Companion or Devoted Tracker, Natural Bond.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Protective Ward
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Wild
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Ranger 4
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Snowflake Wardance
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Bardic Music, Perform 6.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Melee Weapon Mastery (Slashing)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Fighter 12.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Melee Weapon Mastery (Piercing)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Fighter 12.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Melee Weapon Mastery (Blunt)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Fighter 12.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Weapon Supremacy
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Fighter level 18, any Melee Weapon Mastery feat
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Sanctify Strikes
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Paladin level 8, Cha 15
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Dragonsong
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Cha 13, Lore 4, Perform 6, Bard Songs
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Ability Focus (Bard Songs)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Bard Songs
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Ability Focus (Invocations)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Warlock level 1
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Ability Focus (Eldritch Blast)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Warlock level 1
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Silver Fang
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Fortitude +4, Wild Shape
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Silver Fang (Companion)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base Fortitude +4, Animal Companion
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Ashbound
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcasting
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Animal Companion or Elemental Companion
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Augment Elemental
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcasting
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Lore 2
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Epic of the Lost King
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Bardic Music, Perform 6.
+[[/cell]]
+[[/row]]
+
+[!--
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Practical Metamagic (Chain)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Metamagic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcraft 8, Chain Spell, Level 3 spells.
+[[/cell]]
+[[/row]]
+--]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Practical Metamagic (Empower)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Metamagic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcraft 8, Empower Spell, Level 3 spells.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Practical Metamagic (Extend)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Metamagic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcraft 8, Extend Spell, Level 3 spells.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Practical Metamagic (Maximize)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Metamagic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcraft 8, Maximize Spell, Level 3 spells.
+[[/cell]]
+[[/row]]
+
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Practical Metamagic (Silent)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Metamagic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcraft 8, Silent Spell, Level 3 spells.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Practical Metamagic (Still)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Metamagic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcraft 8, Still Spell, Level 3 spells.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Practical Metamagic (Quicken)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Metamagic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcraft 8, Quicken Spell, Level 3 spells.
+[[/cell]]
+[[/row]]
+
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Shared Fury
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Survival 4, Animal Companion, Rage or Frenzy
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Greater Heavy Armor Optimization
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Heavy Armor Optimization, Base Attack Bonus +8
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Heavy Armor Optimization
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Armor Proficiency (Heavy), Base Attack Bonus +4
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Elemental Shape (Ember Guard)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Elemental Shape
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Acidic Splatter
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+2nd level spells
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Armor Specialization (Heavy)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General	
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+BAB +12, Heavy armor proficiency
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Armor Specialization (Medium)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+BAB +12, Medium armor proficiency
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Battle Dancer
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Bard 6, BAB +2
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Beckon the Frozen
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Augment Summoning, Spell Focus (Conjuration)
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Clap of Thunder
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+3rd level spells
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Crossbow Sniper
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+None
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Daring Outlaw
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Grace +1, Sneak Attack +2d6, Rogue level 3.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Deadly Defense
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Combat Expertise.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Divine Armor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Divine
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Turn Undead, Caster level 5
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Divine Cleansing
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Divine
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Turn Undead
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Divine Fortune
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Divine
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Turn Undead, Caster level 5
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Divine Vigor
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Divine
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Turn Undead
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Elemental Essence
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Wild
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Wildshape
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Epic Inspiration
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Epic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Cha 25, Perform 30, Bardic Music
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Epic Skill Focus (Tumble)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Epic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+21st level, 20 ranks in the chosen skill.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Epic Skill Focus (Perform)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Epic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+21st level, 20 ranks in the chosen skill.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Exalted Companion
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Wild
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+BAB +6, Wild Shape
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Exalted Natural Attack
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Divine
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+BAB +5
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Fast Healing I
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Epic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Con 25
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Fast Healing II
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Epic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Con 25
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Fiery Burst
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+2nd level spells
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Fiery Fist
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+BAB +8, Dex 13, Wis 13, Improved Unarmed Strike, Stunning Fist
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Fiery Ki Defense
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+BAB +8, Dex 13, Wis 13, Improved Unarmed Strike, Stunning Fist
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Greater Two-Weapon Defense
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+BAB +11, Dex 19, Improved Two-Weapon Fighting, Improved Two-Weapon Defense
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Holy Warrior
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+4th level spells, War domain
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Hurricane Breath
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+2nd level spells
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Improved Aura of Despair
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Epic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Cha 25
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Intuitive Attack
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Base attack bonus +1.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Invisible Needle
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+3rd level spells
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Melodic Casting
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Perform 4, Spellcraft 4, bardic music 1/day
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Minor Shapeshift
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+4th level spells
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Oversized Two-Weapon Fighting
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Str 13, Two-Weapon Fighting
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Penetrating Shot
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Str 15, Point Blank Shot, BAB +10
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[cell]]
+Practiced Caster (Assassin)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcraft 4 ranks.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Practiced Caster (Avenger)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcraft 4 ranks.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Practiced Caster (Blackguard)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Spellcraft 4 ranks.
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Sacred Vow
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Skill
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+None
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Sickening Grasp
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+3rd level spells
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Song of the Heart
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Bard Music, Inspire Competence, Perform 6
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Spell Specialization (Melee Touch)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Weapon Focus (Melee Touch), Caster Level 4th
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Spell Specialization (Ranged Touch)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Weapon Focus (Ranged Touch), Caster Level 4th
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Storm Bolt
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+3rd level spells
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Touch of Healing
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+2nd level spells
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Toxic Gift
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Wild
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Plant Shape
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Umbral Shroud
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+3rd level spells
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Weapon Mastery (Ranged)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+BAB +8, Weapon Specialization with a ranged weapon
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Weapon Mastery (Unarmed)
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+General
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+BAB +8, Weapon Specialization (Unarmed)
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell]]
+Widen Aura of Despair
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Epic
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Cha 25
+[[/cell]]
+[[/row]]
+
+[[row style="background-color: #DDEEDD;"]]
+[[cell]]
+Winter's Blast
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+Reserve
+[[/cell]]
+[[cell style="padding-left: 20px;"]]
+3rd level spells
+[[/cell]]
+[[/row]]
+
+[[/table]]
+
+[[/tab]]
+
+
+[[tab Full Feat Descriptions]]
+These are feats which I have added to the game. 
+[[table style="margin: 0 0px;"]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Ascetic Stalker**
+Type: General
+Prerequisite: Ki Power, Ki Strike (Magic)
+Benefit: Your monk and ninja levels stack for the purpose of determining the size of your ki pool. For example, a 4th-level monk/2nd-level ninja with this feat could use her ki powers 6 times per day.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Martial Stalker**
+Type: General
+Prerequisite: Ki Power, +1 BAB.
+Benefit: Your fighter, thug, and ninja levels stack for the purpose of determining the size of your ki pool, as well as your AC bonus. 
+Special: A fighter can select Martial Stalker as one of his fighter bonus feats.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Devoted Tracker**
+Type: General
+Prerequisite: Paladin level 5, Tracking, and Animal Companion or Telthor Companion.
+Benefit: Your Paladin levels count for the purpose of determining your animal companion's level (at Paladin level - 4). Your companion also gains Dash, Improved Evasion, and a +2 dodge AC bonus. If you have 15 levels or more of Paladin then your companion gains Spell Resistance equal to 5 + it's hit dice.  Your effective Druid companion level is equal to any druid levels plus Ranger - 3, Paladin - 4, and any Lion of Talisid levels. It can be further modified with the Natural Bond and Epic Animal Companion feats. This feat will also work for the Telthor Companion feat (stacking full Spirit Shaman levels and Paladin - 4 levels).
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Extra Spirit Form**
+Type of Feat: General
+Prerequisite: Spirit Form 1/day
+Benefit: You gain two extra daily uses of your spirit form ability.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Extra Spirit Journey**
+Type of Feat: General
+Prerequisite: Spirit Journey 1/day
+Benefit: You gain two extra daily uses of your spirit journey ability.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Telthor Companion**
+Type of Feat: Class
+Prerequisite: Spirit Shaman 4.
+Specifics: A Telthor wolf companion may be summoned (and unsummoned) by the character. An unsummoned companion can be recalled after a short cooldown time. If the companion is killed, it cannot be summoned again until the spirit shaman rests. Note that a spirit shaman's effective level is level - 3 for determining their telthor companion's abilities and hit dice and only Spirit Shaman and Feywild Warden levels count. Natural Bond and Epic Animal Companion can increase your companion's hit dice. Warning: Taking Telthor Companion will prevent any other companion type (such as Dinosaur, Magical Beast, or Dragon) from being used.
+Use: Selected.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Swift Ambusher**
+You combine your scout training with the stealth of a rogue or ninja to open up new methods of ambushing enemies.
+Type: General
+Prerequisite: Scout Level 3, Sneak Attack +1d6
+Benefit: Your scout levels are treated as rogue levels for the purpose of determining your total number of sneak dice (ie, the progression is faster).
+
+For example, a 4th-level scout/7th-level rogue would have a +6d6 Sneak Attack (as a level 11 rogue).
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Swift Hunter**
+You have applied the hit-and-run tactics learned from scouting to your strong hunting abilities.
+Type: General
+Prerequisite: Scout level 3, Ranger level 2
+Benefit: Your ranger and scout levels stack for the purpose of determining how many dice of sneak attack you have.
+
+For example, a 3rd-level scout/4th-level ranger would have +2d6 dice of sneak attack.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Improved Natural Bond**
+Type of Feat: General
+Prerequisite: Telthor Companion or Devoted Tracker, Natural Bond.
+Specifics: The character's level for determining their animal or telthor companion increases by 6, up to the character's total level. This bonus replaces the benefit gained by Natural Bond and stacks with Devoted Tracker and Epic Animal Companion. For example, a 10th level spirit shaman/8th level paladin would now have an telthor companion as if they were an 13th level druid (17th if they had Devoted Tracker).
+Use: Automatic.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Snowflake Wardance**
+Type of Feat: Bardic Music
+You have mastered the snowflake wardance, a mystical style of fighting with slashing weapons that allows you to leap and almost seem to float haphazardly across the battlefield like a whirling, razor-edged snowflake.
+Prerequisite: Bardic Music, Perform 6.
+Benefit: By expending one of your daily uses of bardic music, you may perform a deadly style of combat known as the snowflake wardance. Once activated, you add your Charisma modifier to your attack rolls with any slashing melee weapon you are wielding in one hand. This bonus to hit stacks with any bonuses you get from a high Strength score (or Dexterity score, if you are using Weapon Finesse).
+You cannot use this feat if you are carrying a shield, wearing medium or heavy armor, or carrying a medium or heavy load. If dual wielding, both weapons must be slashing. This does not work with two-handed weapons.
+A snowflake wardance lasts for a number of rounds equal to 1 + your ranks in Perform. Performing a snowflake wardance is physically tiresome - when the dance ends, you become fatigued for the next 10 minutes. Fatigue causes a -2 penalty to Strength and Dexterity as well as a 10% movement speed reduction. It can only be removed by resting and the bardic song <i>Epic of the Lost King</i>
+Use: Selected.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Protective Ward**
+Type of Feat: Wild
+Your fervor in protecting the wild has afforded you divine protection from danger which shields you from attacks.
+Prerequisite: Ranger 4
+Benefit: You gain a +1 Dodge AC bonus. This bonus increases to +2 at 24th level as a Ranger.
+If you do not have levels in any other class except for Ranger, you instead gain the following benefits: At level 4 you gain a +2 Dodge AC bonus and a +1 Attack bonus. This bonus increases to +4 Dodge AC and +2 Attack bonus at 24th level.
+Use: Automatic.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[!--
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Sniper Shot**
+Type of Feat: General
+Your skill with a crossbow has become such that you can choose to place a single, deadly shot against a foes most vulnerable area. 
+Prerequisite: Crossbow Sniper
+Benefit: You can choose to make a single, unerring attack in a round that is guaranteed to hit. You also gain the benefit of any sneak attack dice you have for the strike if the target is vulnerable to critical hits.
+Special: A fighter can select Sniper Shot as one of his fighter bonus feats.
+Use: Selected. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+--]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Melee Weapon Mastery (Slashing)**
+Type of Feat: General
+You have mastered a wide range of weapons. 
+Prerequisite: Fighter level 12.
+Benefit: When using any melee weapon that has the damage type you selected, you gain a +2 bonus on attack rolls and a +2 bonus on damage rolls. Weapons that deal more than one type of damage will NOT gain any benefit from having a melee weapon mastery in each damage type.
+Special: A fighter can choose Melee Weapon Mastery as one of his bonus fighter feats.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Melee Weapon Mastery (Piercing)**
+Type of Feat: General
+You have mastered a wide range of weapons. 
+Prerequisite: Fighter level 12.
+Benefit: When using any melee weapon that has the damage type you selected, you gain a +2 bonus on attack rolls and a +2 bonus on damage rolls. Weapons that deal more than one type of damage will NOT gain any benefit from having a melee weapon mastery in each damage type.
+Special: A fighter can choose Melee Weapon Mastery as one of his bonus fighter feats.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Melee Weapon Mastery (Blunt)**
+Type of Feat: General
+You have mastered a wide range of weapons. 
+Prerequisite: Fighter level 12.
+Benefit: When using any melee weapon that has the damage type you selected, you gain a +2 bonus on attack rolls and a +2 bonus on damage rolls. Weapons that deal more than one type of damage will NOT gain any benefit from having a melee weapon mastery in each damage type.
+Special: A fighter can choose Melee Weapon Mastery as one of his bonus fighter feats.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Weapon Supremacy**
+Type of Feat: General
+You are a grandmaster in the use of weaponry and no foe can stand against you.
+Prerequisite: Fighter level 18, any Melee Weapon Mastery feat
+Benefit: You gain a +1 AB bonus and a +1 Dodge AC bonus.
+Special: A fighter can choose Weapon Supremacy as one of his bonus fighter feats.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Sanctify Strikes**
+Type of Feat: General
+Sacred power suffuses your attacks.
+Prerequisite: Paladin level 8, Cha 15
+Benefit: You deal 2 extra points of divine damage with your attacks.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Dragonsong**
+Type of Feat: General
+Your song or poetics echo the power of the dragonsong, an ancient style of vocal performance created by dragons in the distant past. 
+Prerequisite: Cha 13, Lore 4, Perform 6, Bard Songs
+Benefit: You gain a +2 bonus with the Perform skill as well as +2 to the DC of any bardic music effects.
+Affected songs: Cloud Mind, Fascinate, and Inspire Slowing.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Ability Focus (Bard Songs)**
+Type of Feat: General
+Your chosen ability becomes more potent than normal.
+Prerequisite: Bard Songs
+Benefit: Add +2 to the DC for all saving throws against the chosen ability.
+Affected songs: Cloud Mind, Fascinate, and Inspire Slowing.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Ability Focus (Invocations)**
+Type of Feat: General
+Your chosen ability becomes more potent than normal.
+Prerequisite: Warlock level 1
+Benefit: Add +2 to the DC for all saving throws against the chosen ability.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Ability Focus (Eldritch Blast)**
+Type of Feat: General
+Your chosen ability becomes more potent than normal.
+Prerequisite: Warlock level 1
+Benefit: Add +2 to the DC for all saving throws against the chosen ability.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Silver Fang**
+Type of Feat: General
+By following an ancient druidic ritual, your natural attacks are suffused with the power of silver and are fully effective against lycanthropes.
+Prerequisite: Base Fortitude +4, Wild Shape
+Benefit: Your natural attacks change to alchemical silver.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Silver Fang (Companion)**
+Type of Feat: General
+By following an ancient druidic ritual, your companion's natural attacks are suffused with the power of silver and are fully effective against lycanthropes.
+Prerequisite: Base Fortitude +4, Animal Companion
+Benefit: Your companion's natural attacks change to alchemical silver.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Ashbound**
+Type of Feat: Spellcasting
+You have been trained in a druidic tradition focusing on becoming one of nature's avengers. You consider the use of arcane magic to be a vile and unnatural act.
+Prerequisite: Animal Companion or Elemental Companion
+Benefit: The duration of your summon creature spells is doubled. Creatures summoned by those spells receive a +3 bonus on their attack rolls.
+Use: Automatic. 
+
+Affected spells: Elemental Swarm, Greater Planar Binding, Lesser Planar Binding, Planar Binding and Summon Creature I-IX
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Augment Elemental**
+Type of Feat: Spellcasting
+Your knowledge of elemental magic allows you to imbue your summoned elementals with extraordinary combat prowess and durability.
+Prerequisite: Lore 2
+Benefit: Elementals you conjure gain a +2 enhancement bonus for their attacks and temporary hit points equal to twice its Hit Dice.
+Use: Automatic. 
+
+Affected spells: Elemental Swarm, Greater Planar Binding, Lesser Planar Binding, Summon Creature VII, Summon Creature VIII, and Summon Creature IX
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+//1 Divine
+**Imbued Healing**
+Type of Feat: Spellcasting
+You imbue your healing spells with additional benefits based on the power of your belief.
+Prerequisite: 
+Benefit: Whenever you cast a conjuration (healing) spell, you not only heal your subject of hit point damage, but you also confer on it a bonus effect. The bonus is 1 temporary hit point per level/HD of the target and lasts for one hour. These temporary hit points do not stack with other sources of temporary hit points.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Epic of the Lost King**
+Type of Feat: Bardic Music
+You can channel the power of  your bardic music to reinvigorate your allies.
+Prerequisite: Bardic Music, Perform 6.
+Benefit: As an instant action, you can expend one daily use of your bardic music ability to remove fatigue or exhaustion from yourself and allies within 30 feet.
+This removes the negative effects of frenzy, inspire frenzy, hypothermia, rage, and touch of fatigue.
+Use: Selected. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[!--
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Practical Metamagic (Chain)**
+Type of Feat: Spellcasting
+You can apply a selected metamagic feat to your spells more easily.
+Prerequisite: Spellcraft 8, Chain Spell, Level 3 spells.
+Benefit: When applying the chosen metamagic feat to a spell, the spell uses a spell slot one level lower than normal for the applied metamagic feat.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+--]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Practical Metamagic (Empower)**
+Type of Feat: Spellcasting
+You can apply a selected metamagic feat to your spells more easily.
+Prerequisite: Spellcraft 8, Empower Spell, Level 3 spells.
+Benefit: When applying the chosen metamagic feat to a spell, the spell uses a spell slot one level lower than normal for the applied metamagic feat.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Practical Metamagic (Extend)**
+Type of Feat: Spellcasting
+You can apply a selected metamagic feat to your spells more easily.
+Prerequisite: Spellcraft 8, Extend Spell, Level 3 spells.
+Benefit: When applying the chosen metamagic feat to a spell, the spell uses a spell slot one level lower than normal for the applied metamagic feat.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Practical Metamagic (Maximize)**
+Type of Feat: Spellcasting
+You can apply a selected metamagic feat to your spells more easily.
+Prerequisite: Spellcraft 8, Maximize Spell, Level 3 spells.
+Benefit: When applying the chosen metamagic feat to a spell, the spell uses a spell slot one level lower than normal for the applied metamagic feat.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Practical Metamagic (Silent)**
+Type of Feat: Spellcasting
+You can apply a selected metamagic feat to your spells more easily.
+Prerequisite: Spellcraft 8, Silent Spell, Level 3 spells.
+Benefit: When applying the chosen metamagic feat to a spell, the spell uses a spell slot one level lower than normal for the applied metamagic feat.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Practical Metamagic (Still)**
+Type of Feat: Spellcasting
+You can apply a selected metamagic feat to your spells more easily.
+Prerequisite: Spellcraft 8, Still Spell, Level 3 spells.
+Benefit: When applying the chosen metamagic feat to a spell, the spell uses a spell slot one level lower than normal for the applied metamagic feat.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Practical Metamagic (Quicken)**
+Type of Feat: Spellcasting
+You can apply a selected metamagic feat to your spells more easily.
+Prerequisite: Spellcraft 8, Quicken Spell, Level 3 spells.
+Benefit: When applying the chosen metamagic feat to a spell, the spell uses a spell slot one level lower than normal for the applied metamagic feat.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[!--
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Chain Spell**
+Type of Feat: Spellcasting
+You can cast spells that arc to other targets in addition to the primary target.
+Prerequisite: Any metamagic feat, level 3 spells.
+Benefit: Any spell that specifies a single target and has a range greater than touch can be chained so as to affect that primary target normally, then arc to a number of secondary targets equal to your caster level (maximum 20). Each arc affects one secondary target, all of which must be within 30 feet of the primary target. This only affects hostile targets.
+
+If the chained spell deals damage, the secondary targets each take half as much damage as the primary target (rounded down) and can attempt Reflex saving throws for half damage (whether the spell allows the original target a save or not). 
+
+For spells that don't deal damage, the save DCs against arcing effects are reduced by 4. For example, if a 10th-level wizard normal casts cause fear at DC 14, a chained cause fear could target the primary target at DC 14 and up to 10 of the nearby targets at DC 10.
+
+A chained spell uses up a spell slot 3 levels higher than the spell's actual level.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+--]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Healing Hymn**
+Type of Feat: Class
+When you play your healing hymn, your allies can cast curative spells more effectively.
+Bards at 1st level can choose between Fascinate and Healing Hymn
+Benefit: If you have 3 or more ranks of Perform, you can use your music or poetics to create an area conducive to healing. To be affected, an ally must be able to see and hear you perform. The effect lasts for 10 rounds. An affected ally who casts any conjuration (healing) spell gains a +1 bonus on the roll for each base rank you have in the Perform skill. Each use of healing hymn counts as one daily use of your bardic music ability.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Shared Fury**
+Type of Feat: General
+Your fearsome rage spurs your animal companion to greater heights.
+Prerequisite: Survival 4, Animal Companion, Rage or Frenzy
+Benefit: When you rage or frenzy, your animal companion gains the same benefits and penalties from your rage/frenzy that you do.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Greater Heavy Armor Optimization**
+Type of Feat: General
+You have mastered the use of heavy armor, maximizing its protective qualities while moving more easily in it.
+Prerequisite: Heavy Armor Optimization, Base Attack Bonus +8
+Benefit: When you are wearing heavy armor, lessen the armor check penalty by 2 and increase the armor bonus by 2. This is done as a +skill bonus to (Hide, Move Silently, Parry, Set Trap, Sleight of Hand, Tumble) and a +2 Dodge AC bonus. This bonus replaces the one from Heavy Armor Optimization.
+Special: A fighter can choose Greater Heavy Armor Optimization as one of his bonus fighter feats.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Heavy Armor Optimization**
+Type of Feat: General
+You have trained extensively in heavy armor, and you have learned to take advantage of the protection it offers.
+Prerequisite: Armor Proficiency (Heavy), Base Attack Bonus +4
+Benefit: When you are wearing heavy armor, lessen the armor check penalty by 1 and increase the armor bonus by 1. This is done as a +skill bonus to (Hide, Move Silently, Parry, Set Trap, Sleight of Hand, Tumble) and a +1 Dodge AC bonus.
+Special: A fighter can choose Heavy Armor Optimization as one of his bonus fighter feats.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Elemental Companion (Fire)**
+Type of Feat: Class
+Druids at 1st level can choose between Animal Companion and Elemental Companion.
+Specifics: An elemental companion may be summoned (and unsummoned) by the character. An unsummoned companion can be recalled after a short cooldown time. If an elemental companion is killed, it cannot be summoned again until the ranger or druid rests. At 1st level you summon a small elemental. At 4th level it grows into a medium elemental. At 10th level it grows into a large elemental. At 16th level it grows into a huge elemental. At 22nd level it grows into a greater elemental. At 28th level it grows into an elder elemental.
+Use: Automatic. 
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Elemental Shape (Ember Guard)**
+Type of Feat: Wild
+Prerequisite: Elemental Shape
+Specifics: You gain the ability to shift into a more powerful elemental form, the Ember Guard.
+Use: Selected.
+
+Ember Guards have the following statistics: Str 30, Dex 15, Con 26, AC 35 (10 Base, 22 Natural AC, -1 Size, +4 Dex), Fast Healing 5, DR 15/-, Immune to Fire, Immune to Poison, Resist Acid 10, Resist Cold 10, Vulnerability to Cold, Immunity to Disease, Immunity to Critical Hits, Immunity to Paralysis, Immunity to Sneak Attacks, Spell Resistance (24), and Darkvision. It deals d8 blunt plus d6 fire damage in melee and has a 1d6 fire damage shield.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Epic Skill Focus (Perform)**
+Type of Feat: Epic
+Prerequisite: 21st level, 20 ranks in the chosen skill.
+Benefit: The character gains a +10 bonus on all skill checks with the chosen skill.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Epic Skill Focus (Tumble)**
+Type of Feat: Epic
+Prerequisite: 21st level, 20 ranks in the chosen skill.
+Benefit: The character gains a +10 bonus on all skill checks with the chosen skill.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Intuitive Attack**
+Type of Feat: General
+Prerequisite: Base Attack Bonus +1.
+Benefit: With a simple or natural weapon, you may use your Wisdom modifier instead of your Strength modifier on attack rolls. This bonus is applied when you equip/unequip a weapon or change shapes. This includes unarmed fighting.
+Special: A fighter may select Intuitive Attack as one of his fighter bonus feats.
+Use: Automatic. (This bonus is calculated and applied when you equip/unequip items)
+If you have Weapon Finesse you will get the difference between your Wisdom and the higher of (Str or Dex). A 14 Str, 20 Dex, 30 Wis character with weapon finesse will get a +5 (30 Wis - 20 Dex) AB bonus. Without weapon finesse the bonus for the same character would be +8 (30 Wis - 14 Str).
+<i>You fight by faith more than brute strength.</i>
+Valid Weapons: Club, Dagger, Dart, Light Mace, Sickle, Spear, Morning Star, Light Crossbow, Heavy Crossbow, Quarterstaff, Sling, Silver Sword of Gith, and unarmed attacks.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Practiced Caster (Assassin)**
+Type of Feat: General
+Prerequisite: Spellcraft 4 ranks.
+Benefit: Your caster level for the chosen spellcasting class increases by +4. This can't increase your caster level beyond your HD. However, even if you can't benefit from the full bonus immediately, if you later gain noncaster-level HD you may be able to apply the rest of the bonus. For example, a human 5th-level cleric/3rd-level fighter who selects this feat would increase his cleric caster level from 5th to 8th (since he has 8 HD). If he later gained a fighter level, he would gain the remainder of the bonus and his cleric caster level would become 9th (since he now has 9 HD). A character with two or more spellcasting classes (such as a bard/sorcerer or a ranger/druid) must choose which class gains the feat's effect. This does not affect your spells per day or spells known. It only increases your caster level, which would help you penetrate SR and increase the duration and other effects of your spells. You may select this feat multiple times. Each time you choose it, you must apply it to a different spellcasting class. For instance, a 4th-level cleric/5th-level wizard who had selected this feat twice would cast cleric spells as an 8th-level caster and wizard spells as a 9th-level caster.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Practiced Caster (Avenger)**
+Type of Feat: General
+Prerequisite: Spellcraft 4 ranks.
+Benefit: Your caster level for the chosen spellcasting class increases by +4. This can't increase your caster level beyond your HD. However, even if you can't benefit from the full bonus immediately, if you later gain noncaster-level HD you may be able to apply the rest of the bonus. For example, a human 5th-level cleric/3rd-level fighter who selects this feat would increase his cleric caster level from 5th to 8th (since he has 8 HD). If he later gained a fighter level, he would gain the remainder of the bonus and his cleric caster level would become 9th (since he now has 9 HD). A character with two or more spellcasting classes (such as a bard/sorcerer or a ranger/druid) must choose which class gains the feat's effect. This does not affect your spells per day or spells known. It only increases your caster level, which would help you penetrate SR and increase the duration and other effects of your spells. You may select this feat multiple times. Each time you choose it, you must apply it to a different spellcasting class. For instance, a 4th-level cleric/5th-level wizard who had selected this feat twice would cast cleric spells as an 8th-level caster and wizard spells as a 9th-level caster.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Practiced Caster (Blackguard)**
+Type of Feat: General
+Prerequisite: Spellcraft 4 ranks.
+Benefit: Your caster level for the chosen spellcasting class increases by +4. This can't increase your caster level beyond your HD. However, even if you can't benefit from the full bonus immediately, if you later gain noncaster-level HD you may be able to apply the rest of the bonus. For example, a human 5th-level cleric/3rd-level fighter who selects this feat would increase his cleric caster level from 5th to 8th (since he has 8 HD). If he later gained a fighter level, he would gain the remainder of the bonus and his cleric caster level would become 9th (since he now has 9 HD). A character with two or more spellcasting classes (such as a bard/sorcerer or a ranger/druid) must choose which class gains the feat's effect. This does not affect your spells per day or spells known. It only increases your caster level, which would help you penetrate SR and increase the duration and other effects of your spells. You may select this feat multiple times. Each time you choose it, you must apply it to a different spellcasting class. For instance, a 4th-level cleric/5th-level wizard who had selected this feat twice would cast cleric spells as an 8th-level caster and wizard spells as a 9th-level caster.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Daring Outlaw**
+Type of Feat: General
+Prerequisite: Grace +1, Sneak Attack +2d6, Rogue level 3.
+Benefit: Your rogue and swashbuckler levels stack for the purpose of determining your competence bonus on Reflex saves from the grace class feature and the swashbuckler's dodge bonus to AC. For example, a 7th-level rogue/4th-level swashbuckler has grace +2 and gains a +2 dodge bonus to AC, as if she were an 11th-level swashbuckler. 
+
+Your rogue and swashbuckler levels also stack for the purpose of determining your sneak attack bonus damage. For example, a 7th-level rogue/4th-level swashbuckler would deal an extra 6d6 points of damage with her sneak attacks, as if she were an 11th-level rogue. Only Swashbuckler levels count as Rogue levels for determining the new sneak dice granted by the feat and these dice stack with other Sneak Dice classes.
+
+<i>You combine grace and stealth to deadly effect.<i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Deadly Defense**
+Type: General
+Prerequisite: Combat Expertise
+Specifics: Benefit: When using Combat Expertise (or Improved Combat Expertise), you deal an extra 1d6 points of damage with any light weapon or with any weapon to which the Weapon Finesse feat applies (such as Rapier). This benefit only applies when you are unarmored or wearing light armor and not using a shield.
+Special: A fighter can select Deadly Defense as one of his bonus feats.
+Use: Automatic
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Melodic Casting**
+Type: General
+Prerequisite: Perform 4, Spellcraft 4, bardic music 1/day
+Benefit: You gain a bonus to Concentration checks (equal to the difference) if your Perform is greater than your Concentration skill. Only the base ranks in the skill are compared.
+<i>You can weave your music and magic together into a single perfect voice.</i>
+Use: Automatic.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Widen Aura Of Despair**
+Type of Feat: Epic
+Prerequisite: Cha 25, Aura of Despair.
+Benefit: Your aura of despair extends to all enemies within 100 feet of you.
+Use: Automatic
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Improved Aura Of Despair**
+Type of Feat: Epic
+Prerequisite: Cha 25, Aura of Despair.
+Benefit: Your aura of despair causes a -4 morale penalty on all saving throws.
+Use: Automatic
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Spell Specialization (Melee Touch)**
+Type of Feat: Spellcasting
+Prerequisite: Weapon Focus (Melee Touch Attack), caster level 4th.
+Specifics: Damage-dealing spells that require a melee touch attack roll gain a +2 bonus on the damage they deal.  This extra damage applies only to the first successful attack of spells that create multiple rays or missiles, or the first round of damage for spells that deal damage over multiple rounds on a single successful attack.  Only spells that deal hit point damage can be affected by this feat.
+Use: Automatic
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Spell Specialization (Ranged Touch)**
+Type of Feat: Spellcasting
+Prerequisite: Weapon Focus (Ranged Touch Attack), caster level 4th.
+Specifics: Damage-dealing spells that require a ranged touch attack roll gain a +2 bonus on the damage they deal.  This extra damage applies only to the first successful attack of spells that create multiple rays or missiles, or the first round of damage for spells that deal damage over multiple rounds on a single successful attack.  Only spells that deal hit point damage can be affected by this feat.
+Use: Automatic
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lay on Hands (Harm Undead)**
+Type of Feat: Class
+Prerequisite: Paladin level 2, Divine Champion level 1, Hospitaler level 1.
+Specifics: With this feat, characters can deal damage equal to their class level multiplied by their Charisma modifier to undead.
+Use: Selected. When used against undead creatures it is treated as a touch attack spell that delivers damage.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Acidic Splatter**
+Type of Feat: Reserve
+You can channel magical energy into orbs of acid.
+Prerequisite: Ability to cast 2nd-level spells.
+Benefit: As long as you have an acid spell of 2nd level or higher available to cast, you can throw an orb of acid as a ranged touch attack. The attack has a range of 5 feet per level of the highest-level acid spell you have available to cast and deals 1d6 points of damage per level of that acid spell.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+Trigger Spells: Acid Fog, Greater Shadow Conjuration, Melfs Acid Arrow, Storm of Vengeance, Mestils Acid Breath, Vitriolic Sphere, Lesser Energized Shield, Energized Shield, Weapon of Energy, Orb of Acid
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Clap of Thunder**
+Type of Feat: Reserve
+You can deliver a thunderous roar with a touch.
+Prerequisite: Ability to cast 3rd-level spells.
+Benefit: As long as you have a sonic spell of 3rd level or higher available to cast, you can deliver a melee touch attack as a standard action. This attack deals 1d6 points of sonic damage per level of the highest-level sonic spell you have available to cast. Additionally, the subject must succeed on a Fortitude save or be deafened for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+Trigger Spells: Cacophonic Burst, Shout, Greater Shout, Castigate, Energized Shield, Sonic Shield, Lion's Roar, Resonating Bolt, Sound Blast, and Orb of Sound
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Fiery Burst**
+Type of Feat: Reserve
+You channel your magical talent into a blast of fire.
+Prerequisite: Ability to cast 2nd-level spells.
+Benefit: As long as you have a fire spell of 2nd level or higher available to cast, you can spend a standard action to create a 5-foot-radius burst of fire at a range of 30 feet. This burst deals 1d6 points of fire damage per level of the highest-level fire spell you have available to cast. A successful Reflex save halves the damage.
+
+Trigger Spells: Deadly Lahar, Delayed Blast Fireball, Elemental Shield, Fire Storm, Fireball, Flame Arrow, Flame Strike, Incendiary Cloud, Meteor Swarm, Shades, Wall of Fire, Firebrand, Inferno, Combust, Flame Weapon, Fireburst, Greater Fireburst, Shroud of Flame, Body of the Sun, Scorching Ray, Lesser Energized Shield, Energized Shield, Flame of Faith, Weapon of Energy, Orb of Fire, Heartfire
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Hurricane Breath**
+Type of Feat: Reserve
+The power of elemental air you hold in your mind allows you to exhale the wind.
+Prerequisite: Ability to cast 2nd-level spells.
+Benefit: As long as you have a air spell of 2nd level or higher available to cast, you can attempt to knock a single creature within 30 feet back with a blast of wind. This requires a standard action and functions like a knockdown; roll 1d20 + the level of the highest-level air spell you have available to cast opposed by your opponent's Strength check. If you succeed, you knock the creature down.
+
+Trigger Spells: Gust of Wind, Elemental Swarm, Flaywind Burst
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Invisible Needle**
+Type of Feat: Reserve
+You create tiny darts of force.
+Prerequisite: Ability to cast 3rd-level spells.
+Benefit: As long as you have a force spell of 3rd level or higher available to cast, you can use a standard action to hurl a tiny needle-shaped projectile created from pure force. This attack requires a successful ranged attack roll, and the dart has a range of 5 feet per level of the force spell. The needle deals 1d4 points of damage per level of the highest-level force spell you have available.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+Trigger Spells: Mordenkainens Sword, Isaacs Lesser Missile Storm, Isaacs Greater Missile Storm, Bigbys Interposing Hand, Bigbys Forceful Hand, Bigbys Grasping Hand, Bigbys Clenched Fist, Bigbys Crushing Hand, Orb of Force
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Minor Shapeshift**
+Type of Feat: Reserve
+Your mastery of shapeshifting magic allows you to reshape your flesh in small but significant ways.
+Prerequisite: Ability to cast 4th-level spells.
+Benefit: As long as you have a polymorph spell of 4th level or higher available to cast, you can spend a standard action to grant yourself one of the following benefits:
+
+Might: +2 bonus on melee damage rolls.
+Speed: +5-foot enhancement bonus to movement.
+Vigor: Temporary hit points equal to your HD.
+
+The chosen benefit lasts for a number of rounds equal to the level of the highest-level polymorph spell you have available to cast. If you activate this feat a second time while a previous feat is still in effect, the first benefit ends immediately.
+
+Trigger Spells: Poly Self, Shapechange, Tensers Transformation
+Having at least one use left of Wildshape allows Minor Shapeshift to be used as if a level 9 spell were memorized.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Storm Bolt**
+Type of Feat: Reserve
+The electrical energy contained within your magic rages inside you, begging to be released.
+Prerequisite: Ability to cast 3rd-level spells.
+Benefit: As long as you have a electricity spell of 3rd level or higher available to cast, you can fire a 20-foot line of electricity as a standard action. This bolt deals 1d6 points of electricity damage per level of the highest-level electricity spell you have available to cast. A successful Reflex save halves damage.
+
+Trigger Spells: Call Lightning, Chain Lightning, Lightning Bolt, Storm of Vengeance, Scintillating Sphere, Call Lightning Storm, Energized Shield, Weapon of Energy, Orb of Electricty
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Sickening Grasp**
+Type of Feat: Reserve
+You wreak havoc with the inner organs of a target, causing it to grow ill.
+Prerequisite: Ability to cast 3rd-level spells.
+Benefit: As long as you have a necromancy spell of 3rd level or higher available to cast, you can make a melee touch attack against living creatures which becomes sickened for a number of rounds equal to the level of the highest-level necromancy spell you have available. The subject can reduce this duration to 1 round with a successful Fortitude save.
+
+A sickened creature takes a -2 penalty on attack rolls, weapon damage rolls, saving throws, and skill checks.
+
+Trigger Spells: Animate Dead, Circle of Death, Mass Inflict Light Wounds, Cloudkill, Contagion, Control Undead, Create Greater Undead, Create Undead, Death Ward, Energy Drain, Enervation, Fear, Finger of Death, Harm, Poison, Slay Living, Vampiric Touch, Wail of the Banshee, Destruction, Horrid Wilting, Inflict Serious Wounds, Inflicts Critical Wounds, Infestation of Maggots, Undeath to Death, Mass Inflict Moderate Wounds, Mass Inflict Serious Wounds, Mass Inflict Critical Wounds, Mass Contagion, Mass Death Ward, Avasculate, Mass Curse of Blades, Blood of the Martyr, Scourge
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Winter's Blast**
+Type of Feat: Reserve
+The frozen magic within you can burst forth in a hail of frost.
+Prerequisite: Ability to cast 2nd-level spells.
+Benefit: As long as you have a cold spell of 2nd level or higher available to cast, you can create a 15-foot cone-shaped burst of cold. This cone deals 1d4 points of cold damage per level of the highest-level cold spell you have available to cast. A successful Reflex save halves the damage.
+
+Trigger Spells: Frost Breath, Cone of Cold, Elemental Shield, Shades, Ice Storm, Polar Ray, Hypothermia, Creeping Cold, Greater Creeping Cold, Glacial Wrath, Lesser Energized Shield, Energized Shield, Weapon of Energy, and Orb Cold
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Holy Warrior**
+Type of Feat: Reserve
+Your zeal on the battlefield allows you to deal extra damage in combat.
+Prerequisite: Ability to cast 4th-level spells, War domain
+Benefit: As long as you have a War domain spell of 4th level or higher available to cast, you gain a bonus on your weapon damage rolls equal to the level of the highest-level War spell you have available to cast.
+
+Trigger Spells: Power Word Kill, Power Word Stun, Blade Barrier, Divine Power, Flame Strike, Power Word Blind
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Touch of Healing**
+Type of Feat: Reserve
+You can channel divine energy into healing with a touch.
+Prerequisite: Ability to cast 2nd-level spells.
+Benefit: As long as you have a conjuration(healing) spell of 2nd level or higher available to cast, you can spend a standard action to touch a target creature and heal 3 points of damage per level of the highest-level conjuration(healing) spell you have available to cast. This ability has no effect on creatures that can't be healed by cure spells. Sorcerers, Warlocks, and Wizards should NOT take this feat unless they have another casting class that has access to the listed trigger spells.
+
+Trigger Spells: Cure Critical Wounds, Mass Cure Critical Wounds, Mass Cure Light Wounds, Cure Moderate Wounds, Mass Cure Moderate Wounds, Cure Serious Wounds, Mass Cure Serious Wounds, Heal , Mass Heal, Heal Animal Companion, Neutralize Poison, Raise Dead, Regenerate, Rejuvenation Cocoon, Remove Blindness/Deafness, Remove Disease, Remove Paralysis, Restoration, Greater Restoration, Lesser Restoration, Resurrection, Vigor, Mass Lesser Vigor, Vigorous Circle
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Umbral Shroud**
+Type of Feat: Reserve
+You control darkness and shadows.
+Prerequisite: Ability to cast 3rd-level spells.
+Benefit: As long as you have a darkness spell of 3rd level or higher available to cast, shadows and darkness appear to obey your will. As a standard action, you can direct these shadows to obscure the vision of one foe within 30 feet. If your target fails a Will save, its attacks have a miss chance equal to 5% per level of the highest-level darkness spell you have available to cast. This effect lasts until the beginning on your next action.
+
+Creatures that do not rely on sight are unaffected by this effect, and those with Blind-fight or similar abilities can fight as they normally would.
+
+Trigger Spells: Mass Blindness and Deafness, Shadow Conjuration, Shadow Shield
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Beckon the Frozen**
+Type of Feat: General
+Creatures you summon are infused with cold energy and have the cold subtype.
+Prerequisites: Augment Summoning, Spell Focus (Conjuration)
+Benefit: When you summon a creature using any summon spell, the summoned creature gains the cold subtype (100% cold immunity, 50% fire vulnerability, and its natural attacks deal an additional 1d6 points of cold damage.
+Use: Automatic.
+Affected Spells: Animate Dead, Create Undead, Epic Gate, Gate, Glass Doppleganger, Greater Create Undead, Greater Planar Binding, Lesser Planar Binding, Mordenkainen’s Sword, Palemaster's Animate Dead, Palemaster's Summon Undead, Planar Ally, Planar Binding, Shadow Simulacrum, Summon Creature I-IX, Summon Fiendish Servant, The Dead Walk
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Crossbow Sniper**
+Type of Feat: General
+Benefit: When using a crossbow for which you have the Weapon Focus feat, you gain a bonus on damage rolls equal to 1/2 your Dexterity bonus.
+Use: Automatic.
+
+Note: There is a cmi_options.2da entry that allows the full dex bonus to be added as a damage bonus.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Toxic Gift**
+Type of Feat: Wild
+Prerequisites: Plant Shape
+Benefit: You can expend one daily use of wild shape to gain +1d4 bonus acid damage on all attacks for 1 round per caster level you possess.
+Use: Selected.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Medium Armor Specialization**
+Type of Feat: General
+Prerequisites: BAB +12, Medium Armor Proficiency
+Benefit: When wearing medium armor you gain damage reduction 2/-. 
+Special: A fighter may select Medium Armor Specialization as one of his fighter bonus feats.
+Use: Automatic.
+Through long wear and hours of combat, you have trained your body to believe in its armor. Where others flinch, you confront. When the sword falls, your instincts, born of bruises and rent flesh, present your cuirass, cuisse, helm, or gorget to meet the blade at the perfect angle, causing it to skitter off harmlessly.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Heavy Armor Specialization**
+Type of Feat: General
+Prerequisites: BAB +12, Heavy Armor Proficiency
+Benefit: When wearing heavy armor you gain damage reduction 2/-. 
+Special: A fighter may select Heavy Armor Specialization as one of his fighter bonus feats.
+Use: Automatic.
+Through long wear and hours of combat, you have trained your body to believe in its armor. Where others flinch, you confront. When the sword falls, your instincts, born of bruises and rent flesh, present your cuirass, cuisse, helm, or gorget to meet the blade at the perfect angle, causing it to skitter off harmlessly.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Penetrating Shot**
+Type of Feat: General
+You send a powerful shot cleaving through your enemies.
+Prerequisites: Str 15, Point Blank Shot, BAB +10
+Benefit: You can choose to make a single, mighty attack that blasts through multiple opponents with a ranged weapon. This attack requires a standard action, and your shot takes the form of a 60-foot line. Make a seperate attack roll against each creature in the line. If struck, creatures along this line take damage from your shot, though any extra damage (such as from a sneak attack or a flaming weapon) is applied only against the first creature struck.
+Special: A fighter can select Penetrating Shot as one of his fighter bonus feats.
+Use: Selected.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Sacred Vow**
+Type of Feat: General
+You have willingly given yourself to the service of a deity or cause, denying yourself an ordinary life to better serve your highest ideals.
+Benefit: You gain a +2 perfection bonus on Diplomacy checks.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Exalted Natural Attack**
+Type of Feat: Wild
+You can focus holy or unholy power into your natural attacks.
+Prerequisites: BAB +5
+Benefit: Each time you deal damage with a natural attack, you deal 1 extra point of divine damage, or 1d4 points of magic damage to outsiders and undead.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Exalted Wild Shape**
+Type of Feat: Wild
+You can use your wild shape ability to take the form of a good-aligned or evil-aligned magical beast (depending on your alignment).
+Prerequisites: Wild Shape, +6 BAB
+Benefit: You can use your wild shape ability to turn yourself into a celestial (if good or neutral) or fiendish (if evil) version of any animal you can normally transform into. You gain the extraordinary and supernatural abilities of that creature. This ability counts as a use of your wild shape ability and functions the same way.
+Both Fiendish and Celestial Animals gain:
+Spell Resistance equal to their hit dice + 5
+Damage Reduction 10/Magic if level 12 or higher, 5/Magic otherwise.
+Darkvision
+Fiendish creatures gain Damage Resistance (Cold and Fire) 10 if level 8 or higher, 5 otherwise.
+Celestial creatures gain Damage Resistance (Cold, Electricity, and Acid) 10 if level 8 or higher, 5 otherwise.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Exalted Companion**
+Type of Feat: Wild
+Instead of an animal companion, you have a celestial animal of good alignment or a fiendish animal of evil alignment.
+Prerequisites: Animal Companion.
+Benefit: Your animal companion gains the Celestial template if you are good or neutral and the Fiendish template if you are evil.
+Both Fiendish and Celestial Animals gain:
+Spell Resistance equal to their hit dice + 5
+Damage Reduction 10/Magic if level 12 or higher, 5/Magic otherwise.
+Darkvision
+Fiendish creatures gain Damage Resistance (Cold and Fire) 10 if level 8 or higher, 5 otherwise.
+Celestial creatures gain Damage Resistance (Cold, Electricity, and Acid) 10 if level 8 or higher, 5 otherwise.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Weapon Mastery (Ranged)**
+Type of Feat: General
+You have mastered a wide range of weapons.  Your training with one specific weapon now extends to other weapons of a similar sort.
+Prerequisites: BAB +8, Weapon Specialization in one of the following weapons: Short Bow, Long Bow, Light Crossbow, Heavy Crossbow, or Sling.
+Benefit: When using any ranged weapon, you gain a +2 bonus on attacks and a +2 bonus on damage.
+Special: A fighter can choose Weapon Mastery (Ranged) as one of his fighter bonus feats.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Battle Dancer**
+Type of Feat: General
+Prerequisites: BAB +2, Bard 6
+Benefit: You gain a +2 morale bonus on your attack rolls.
+Special: A fighter can select Battle Dancer as one of his fighter bonus feats.
+<i>You strike at your foes in rime with the music you sing or in cadence with an oration you deliver. The magical power of your bardic performance drives you forward and improves your fighting ability.</i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Fast Healing I**
+Type of Feat: Epic
+Prerequisites: Con 25
+Specifics: You gain 3 points of regeneration.
+Use: Automatic.
+<i>You heal your wounds very quickly.</i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Fast Healing II**
+Type of Feat: Epic
+Prerequisites: Con 25
+Specifics: You gain 6 points of regeneration.
+Use: Automatic.
+<i>You heal your wounds very quickly.</i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Greater Two-Weapon Defense**
+Type of Feat: General
+Prerequisites: Dex 19, Improved Two-Weapon Fighting, Improved Two-Weapon Defense, BAB +11
+Benefit: When wielding two weapons, you gain a +3 shield bonus to your AC.
+When you are fighting defensively this shield bonus increases to +6.
+Special: A fighter may select Greater Two-Weapon Defense as one of his fighter bonus feats.
+<i>When fighting with two weapons, your defenses are extraordinarily strong.</i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Song of the Heart**
+Type of Feat: General
+Prerequisites: Bardic music, Inspire Competence, Perform 6.
+Benefit: When you use a bard song, any bonus granted by your music increases by +1. Thus, at 15th level bard with this feat grants his allies a +4 bonus on attack rolls, damage rolls, and saving throws. Cloud Mind, Fascinate, and Inspire Slowing have their DC increased by 1.
+Affected Songs: inspire courage, inspire competence, inspire defense, inspire regeneration, inspire toughness, inspire heroics, inspire slowing, clound mind, and fascinate.
+<i>Your bardic music reaches the depths of its listener's hearts.<i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Divine Armor**
+Type of Feat: General
+Prerequisite: Turn Undead, Minimum caster level 5.
+Specifics: The character may spend one of his turn undead attempts to gain DR 5/- for a number of rounds equal to the Charisma bonus.
+Use: Selected.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Divine Fortune**
+Type of Feat: General
+Prerequisite: Turn Undead, Minimum caster level 5.
+Specifics: The character may spend one of his turn undead attempts to gain +4 Saving Throws for a number of rounds equal to the Charisma bonus.
+Use: Selected.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Divine Cleansing**
+Type of Feat: General
+Prerequisite: Turn Undead.
+Specifics: The character may spend one of his turn undead attempts to grant all allies (including yourself) within a 60-foot burst a +2 Sacred bonus on Fortitude saving throws for a number of turns equal to the Charisma bonus.
+Use: Selected.
+<i>You can channel energy to improve your allies' ability to resist attacks against their vitality and health.</i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Divine Vigor**
+Type of Feat: General
+Prerequisite: Turn Undead.
+Specifics: The character may spend one of his turn undead attempts to gain a 33% movement speed buff as well as gain +2 temporary hit points per character level. These effects last a number of minutes equal to your Charisma bonus.
+Use: Selected.
+<i>You can channel energy to increase your speed and durability.<i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Elemental Essence**
+Type of Feat: Wild
+Prerequisites: Wild Shape
+Benefit: You can expend one daily use of wild shape to surround your limbs and weapons with an aura of the chosen energy. While this effect is active, each attack you make deals an extra 1d6 points of the appropriate type of energy damage. The energy damage types available are acid, cold, electricity, and fire. Additionally, you gain resistance 5 against that type of energy. These effects last for 10 rounds.
+Use: Selected.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Epic Inspiration**
+Type of Feat: Epic
+Prerequisites: Bardic music, Charisma 25, Perform 30.
+Benefit: You gain a +2 bonus to your bardic music inspiration abilities. This bonus stacks with the bonus from Song of the Heart.
+<i>Your bardic music provides greater inspiration than normally possible.<i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[!--
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Melee Weapon Mastery (Slashing)**
+Type of Feat: General
+You have mastered a wide range of slashing weapons.  Your training with one specific weapon now extends to other weapons of a similar sort.
+Prerequisites: BAB +8, Weapon Specialization with a slashing weapon.
+Benefit: When using any slashing weapon, you gain a +2 bonus on attacks and a +2 bonus on damage.
+Special: A fighter can choose Melee Weapon Mastery (Slashing) as one of his fighter bonus feats.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Melee Weapon Mastery (Crushing)**
+Type of Feat: General
+You have mastered a wide range of crushing weapons.  Your training with one specific weapon now extends to other weapons of a similar sort.
+Prerequisites: BAB +8, Weapon Specialization with a crushing weapon.
+Benefit: When using any crushing weapon, you gain a +2 bonus on attacks and a +2 bonus on damage.
+Special: A fighter can choose Melee Weapon Mastery (Crushing) as one of his fighter bonus feats.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Melee Weapon Mastery (Piercing)**
+Type of Feat: General
+You have mastered a wide range of piercing weapons.  Your training with one specific weapon now extends to other weapons of a similar sort.
+Prerequisites: BAB +8, Weapon Specialization with a piercing weapon.
+Benefit: When using any piercing weapon, you gain a +2 bonus on attacks and a +2 bonus on damage.
+Special: A fighter can choose Melee Weapon Mastery (Piercing) as one of his fighter bonus feats.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+--]
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Fiery Fist**
+Type of Feat: General
+Prerequisites: BAB +8, Dex 13, Wis 13, Improved Unarmed Strike, Stunning Fist
+Benefit: You can expend one of your uses of the Stunning Fist feat to surround your fists and feet in flame. You gain an extra 1d6 points of fire damage on your unarmed strikes for a number of rounds equal to 1 + your Wisdom modifier.
+Special: A fighter can choose Fiery Fist as one of his fighter bonus feats.
+<i>By channeling your ki energy, you sheathe your limbs in magical fire. Your unarmed strikes deal extra fire damage.</i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Fiery Ki Defense**
+Type of Feat: General
+Prerequisites: BAB +8, Dex 13, Wis 13, Fiery Fist, Improved Unarmed Strike, Stunning Fist
+Benefit: You can expend one of your uses of the Stunning Fist feat to cloak yourself in flame. Any creature that strikes you with a melee attack takes 1d6 points of fire damage. This benefit lasts for a number of rounds equal to 1 + 1/2 of your Wisdom modifier.
+Special: A fighter can choose Fiery Ki Defense as one of his fighter bonus feats.
+<i>You channel your ki energy into a cloak of flame that injures all who attempt to strike you.</i>
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Oversized Two-Weapon Fighting**
+Type of Feat: General
+Prerequisites: Str 13, Two-Weapon Fighting.
+Benefit: When wielding a one-handed weapon in your off hand, you gain a +2 Attack Bonus if the weapon is larger than a light weapon.
+Special: A fighter can choose Oversized Two-Weapon Fighting as one of his fighter bonus feats.
+<i>You are adept at wielding larger than normal weapons in your off hand.</i>
+Valid weapons are Bastard Sword, Battle Axe, Club, Dwarven Waraxe, Falchion, Great Axe, Great Club, Great Sword, Halberd, Katana, Light Flail, Longsword, Magic Staff, Morningstar, Quarterstaff, Rapier, Scimitar, Scythe, Spear, Universal Sword (Silver Sword), Warhammer, and War Mace
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Weapon Mastery (Unarmed)**
+Type of Feat: General
+You have mastered combat with hand to hand and natural weapons.
+Prerequisites: BAB +8, Weapon Specialization in Unarmed Strike.
+Benefit: When using natural or no weapons, you gain a +2 bonus on attacks and a +2 bonus on damage.
+Special: A fighter can choose Weapon Mastery (Unarmed) as one of his fighter bonus feats.
+[[/cell]]
+[[/row]]
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[/table]]
+[[/tab]]
+[!--
+[[tab Planned Feats]]
+This is a work in progress.
+
+[[span style="color: blue;"]]Anarchic Strike - Your attacks deal incredible damage to lawful creatures. [[/span]]
+[[span style="color: blue;"]]Awesome Smite - Through a combination of sheer muscle and mystical acumen, you can deliver devastating smite attacks. [[/span]]
+[[span style="color: blue;"]]Axiomatic Strike - Your attacks deal incredible damage to chaotic creatures. [[/span]]
+[[span style="color: blue;"]]Battle Casting - [[/span]]
+[[span style="color: blue;"]]Battle Hardened - [[/span]]
+[[span style="color: blue;"]]Beckon the Frozen - [[/span]]
+[[span style="color: blue;"]]Blindsense - [[/span]]
+[[span style="color: blue;"]]Brutal Strike - [[/span]]
+[[span style="color: blue;"]]Bulwark of Defense - [[/span]]
+[[span style="color: blue;"]]Celestial Mount - [[/span]]
+[[span style="color: blue;"]]Corpsecrafter - [[/span]]
+[[span style="color: blue;"]]Deadly Chill - [[/span]]
+[[span style="color: blue;"]]Deadly Defense - [[/span]]
+[[span style="color: blue;"]]Destructive Retribution - [[/span]]
+[[span style="color: blue;"]]Devoted Performer - [[/span]]
+[[span style="color: blue;"]]Disciple of the Sun - [[/span]]
+[[span style="color: blue;"]]Divine Accuracy? - [[/span]]
+[[span style="color: blue;"]]Doomspeak - [[/span]]
+[[span style="color: blue;"]]Dragon Cohort - [[/span]]
+[[span style="color: blue;"]]Dragon Familiar - [[/span]]
+[[span style="color: blue;"]]Dragon Steed - [[/span]]
+[[span style="color: blue;"]]Dragonsong - [[/span]]
+[[span style="color: blue;"]]Elemental Companion - [[/span]]
+[[span style="color: blue;"]]Elemental Healing - [[/span]]
+[[span style="color: blue;"]]Elemental Smiting - [[/span]]
+[[span style="color: blue;"]]Empower Turning - [[/span]]
+[[span style="color: blue;"]]Enhanced Turning - [[/span]]
+[[span style="color: blue;"]]Epic Divine Resistance - [[/span]]
+[[span style="color: blue;"]]Epic Divine Vigor - [[/span]]
+[[span style="color: blue;"]]Epic Fiendish Resiliance - [[/span]]
+[[span style="color: blue;"]]Exalted Turning - [[/span]]
+[[span style="color: blue;"]]Force of Personality - [[/span]]
+[[span style="color: blue;"]]Frightful Presence - [[/span]]
+[[span style="color: blue;"]]From Smite to Song - [[/span]]
+[[span style="color: blue;"]]Great Smiting - [[/span]]
+[[span style="color: blue;"]]Green Ear - [[/span]]
+[[span style="color: blue;"]]Haunting Melody - [[/span]]
+[[span style="color: blue;"]]Holy Potency - [[/span]]
+[[span style="color: blue;"]]Holy Strike - [[/span]]
+[[span style="color: blue;"]]Ignore Turn Resistance - [[/span]]
+[[span style="color: blue;"]]Imbued Healing - [[/span]]
+[[span style="color: blue;"]]Improved Fiendish Servant - [[/span]]
+[[span style="color: blue;"]]Improved Shieldmate - [[/span]]
+[[span style="color: blue;"]]Improved Smiting - [[/span]]
+[[span style="color: blue;"]]Insightful Reflexes - [[/span]]
+[[span style="color: blue;"]]Inspire Excellence - [[/span]]
+[[span style="color: blue;"]]Intensify Turning - [[/span]]
+[[span style="color: blue;"]]Invoke Divine Wrath - [[/span]]
+[[span style="color: blue;"]]Lasting Inspiration - [[/span]]
+[[span style="color: blue;"]]Leap Attack - [[/span]]
+[[span style="color: blue;"]]Lesser Dragon Wildshape - [[/span]]
+[[span style="color: blue;"]]Lord of all Essences - [[/span]]
+[[span style="color: blue;"]]Magical Beast Companion - [[/span]]
+[[span style="color: blue;"]]Master of the Elements - [[/span]]
+[[span style="color: blue;"]]Melodic Casting - [[/span]]
+[[span style="color: blue;"]]Morpheme Savant - [[/span]]
+[[span style="color: blue;"]]Music of the Gods - [[/span]]
+[[span style="color: blue;"]]Necromantic Might - [[/span]]
+[[span style="color: blue;"]]Necromantic Presence - [[/span]]
+[[span style="color: blue;"]]Paragon Visionary - [[/span]]
+[[span style="color: blue;"]]Parrying Shield - [[/span]]
+[[span style="color: blue;"]]Positive Energy Aura - [[/span]]
+[[span style="color: blue;"]]Practiced Caster (Assassin) - [[/span]]
+[[span style="color: blue;"]]Practiced Caster (Blackguard) - [[/span]]
+[[span style="color: blue;"]]Profane Aura - [[/span]]
+[[span style="color: blue;"]]Profane Lifeleech - [[/span]]
+[[span style="color: blue;"]]Profane Vigor - [[/span]]
+[[span style="color: blue;"]]Ranged Inspiration - [[/span]]
+[[span style="color: blue;"]]Ranged Smite Evil - [[/span]]
+[[span style="color: blue;"]]Rapid Regeneration - [[/span]]
+[[span style="color: blue;"]]Reckless Offense - [[/span]]
+[[span style="color: blue;"]]Requiem - [[/span]]
+[[span style="color: blue;"]]Roll with it - [[/span]]
+[[span style="color: blue;"]]Sacred Healing - [[/span]]
+[[span style="color: blue;"]]Sacred Purification - [[/span]]
+[[span style="color: blue;"]]Sacred Vitality - [[/span]]
+[[span style="color: blue;"]]Sanctify Martial Strike - [[/span]]
+[[span style="color: blue;"]]Shared Fury - [[/span]]
+[[span style="color: blue;"]]Shieldmate - [[/span]]
+[[span style="color: blue;"]]Silver Blood - [[/span]]
+[[span style="color: blue;"]]Silver Fang - [[/span]]
+[[span style="color: blue;"]]Snowflake Wardance - [[/span]]
+[[span style="color: blue;"]]Storm of Throws - [[/span]]
+[[span style="color: blue;"]]Swarm of Arrows - [[/span]]
+[[span style="color: blue;"]]Tactile Trapsmith - [[/span]]
+[[span style="color: blue;"]]Thrown Weapon Mastery - [[/span]]
+[[span style="color: blue;"]]Undead Leadership - [[/span]]
+[[span style="color: blue;"]]Unholy Strike - [[/span]]
+[[span style="color: blue;"]]Vile Turning - [[/span]]
+[[span style="color: blue;"]]Wolverine's Rage - [[/span]]
+[[/tab]]
+--]
+[!--
+[[tab Possible feats]]
+Details to come.
+[[/tab]]
+--]
+
+[[/tabview]]
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

@@ -1,0 +1,47 @@
+Arcane Duelist
+
+This description is a work in progress and is not yet complete.
+This PrC is ONLY available for Duskblades, Hexblades, and Dread Necromancers
+x
+
+Requirements
+
+Base Attack Bonus: +6
+Class: Duskblade 8, Hexblade 8, or Dread Necromancer 8
+Feats: Dodge, Mobility, Weapon Proficiency (Martial, Bard, Rogue, or Wizard)
+Skills: Perform 5, Tumble 5.
+
+Class Features
+
+HD: d8
+BAB: High
+High Saves: Ref, Will
+Weapon and Armor proficiency: None
+
+Class Skills: Bluff, Craft Armor, Craft Weapon, Intimidate, Lore, Perform, Spellcraft, Spot, and Tumble.
+Skill points: 4 + Int modifier
+
+Class Abilities
+
+Level 1:
+Level 2: Apparent Defense
+Level 3: Dexterous Attack
+Level 4:
+Level 5: Blur
+Level 6:
+Level 7: Greater Dexterous Attack
+Level 8:
+Level 9: Mirror Image
+Level 10: Flurry of Swords
+
+Apparent Defense: Due to trickery and force of personality, the arcane duelist adds her Charisma bonus to her Armor Class as Dodge AC. This bonus is capped at her Arcane Duelist level.
+
+Dexterous Attack: Because the arcane duelist values successful hits over actual damage dealt, she can subtract 3 points of damage from every hit and adds the same amount to her attack bonus. This is an activated mode.
+
+Greater Dexterous Attack: This is an improved version of Dexterous Attack that subtracts 5 points of damage from every hit and grants a +5 attack bonus. This is an activated mode and will not stack with Dexterous Attack.
+
+Blur: The arcane duelist can activate a blur effect, as the spell cast by a caster of her arcane duelist level. She can use this power at will.
+
+Mirror Image: The arcane duelist can activate a mirror image effect as the spell cast by a caster of her arcane duelist level at will.
+
+Flurry of Swords: The pinnacle of the arcane duelist's power is to create a flurry of sword attacks against a single target. When this power is activated, the arcane duelist gains two bonus attacks for one round (this is an instantly activated feat with a bonus that lasts 6 seconds). This power is usable once per day per arcane duelist level. It does not stack with haste effects.

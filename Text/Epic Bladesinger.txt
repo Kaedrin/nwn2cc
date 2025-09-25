@@ -1,0 +1,33 @@
+The topic of epic levels for bladesinger came up and I ran the numbers which follow. For reference, epic bladesingers get epic feats at 11, 14, 17, and 20 as well as +1 CL at all epic levels except 14 and 18.
+
+Character A
+3 Dragonslayer
+10 EK
+10 Bladesinger
+7 Wiz
+26 BAB, 27 CL
+
+Character B
+10 Bladesinger
+10 Swiftblade
+6 Wiz
+4 EK
+27 BAB, 23 CL
+
+Character C
+10 Swiftblade
+7 Wiz
+10 EK
+3 Dragonslayer
+26 BAB, 27 CL
+
+Character D (new option)
+20 Bladesinger (5 CL for 1-10, +8 CL for 11-20)
+6 Wiz
+4 Ek
+27 BAB, 26 CL
++4 bonus feats, allow Bladesong Style in medium armor (net total of +1 AC). Weaker offense than Swiftblade/EK but more feats/variety. Could be a slightly better caster (+2 DC if 4 Int feats).
+
+***
+
+Thoughts? It's balanced against the other 3 options which players can already do while allowing purist bladesingers a better shot (and possibly opening up slightly stronger casters).

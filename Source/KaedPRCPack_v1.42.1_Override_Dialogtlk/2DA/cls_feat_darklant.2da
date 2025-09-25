@@ -1,0 +1,15 @@
+2DA V2.0
+
+   FeatLabel               FeatIndex List GrantedOnLevel OnMenu 
+0  SneakAttack             221       3    2              0      
+1  SneakAttack2            345       3    4              0      
+2  SneakAttack3            346       3    6              0      
+3  SneakAttack4            347       3    8              0      
+4  SneakAttack5            348       3    10             0      
+5  SkillFocusDisa          174       3    5              0      
+6  SkillFocusOpen          182       3    5              0      
+7  SkillFocusSearch        187       3    5              0      
+8  SlipperMind             259       3    7              0      
+9  HIDE_IN_PLAIN_SIGHT     433       3    9              0      
+10 FEAT_DARKLANT_CIT_TRAIN 3261      3    1              0      
+11 CripplingStrike         222       1    -1             0      

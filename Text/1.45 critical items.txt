@@ -1,0 +1,6 @@
+[*]http://dalelandsbeyond.forumotion.com/t21505-couple-hexblade-bugs
+[*]Deep slumber changes - http://dalelandsbeyond.forumotion.com/t27113-any-way-of-fixing-deep-slumber
+[*]Skald Aura size (increase per request?)
+[*]Master of Radiance issues (scorching ray issues)
+[*]Frightful Attack issue - autokill problem
+[*]Rune persistence issue? (graphic not dissapearing)

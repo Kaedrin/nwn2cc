@@ -1,0 +1,83 @@
+Necromancer
+
+x
+
+Alignment must be non-good.
+
+Class Features
+
+HD: d6
+BAB: Low
+High Saves: Will
+Weapon proficiency: Simple, Martial
+Armor proficiency: Light
+
+Class Skills: Bluff, Concentration, Craft Armor, Craft Weapon, Hide, Intimidate, Lore, and Spellcraft.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Negative Energy Touch, Turn Undead, Undead Companion
+Level 2: Animate Dead
+Level 3: Negative Energy Burst
+Level 4: 
+Level 5: 
+Level 6: 
+Level 7: 
+Level 8: Bonus Feat (Corpsecrafter)
+Level 9: 
+Level 10:
+Level 11: 
+Level 12: 
+Level 13: 
+Level 14: 
+Level 15: 
+Level 16:  
+Level 17: 
+Level 18: 
+Level 19: 
+Level 20: 
+Level 21: 
+Level 22: 
+Level 23: 
+Level 24: 
+Level 25:
+Level 26: 
+Level 27:
+Level 28: 
+Level 29:
+Level 30: 
+
+Negative Energy Blast: Once per round a Necromancer may make a ranged touch attack that deals 1d6 negative energy damage. This damage increases at each odd level of Necromancer to a maximum of 15d6 at 29th level.
+
+[spoiler="Possible new feat descriptions"]
+
+Corpsecrafter
+Type: General
+Undead you raise or create are tougher than normal.
+Benefit: Each undead you raise or create with any necromancy spell gains a +4 enhancement bonus to Strength and +2 hit points per Hit Die.
+
+Deadly Chill
+Type: General
+Undead you raise or create deal more damage than normal.
+Prerequisite: Corpsecrafter.
+Benefit: Each corporeal undead you raise or create with any necromancy spell deals an extra 1d6 points of cold damage with its natural weapons.
+
+Destruction Retribution
+Type: General
+Undead you raise or create harbor a retributive curse that is unleashed if they are destroyed.
+Prerequisite: Corpsecrafter
+Benefit: Each undead you raise or create with any necromancy spell releases a burst of negative energy upon its destruction, dealing 1d6 points of damage plus an additional 1d6 points per 2 Hit Dice to every creature within a 10-foot spread (Reflex DC x half). This damage comes from negative energy, and it therefore heals undead creatures.
+
+Necromantic Might
+Type: General
+Undead you control gain benefits when they are near you.
+Prerequisite: Necromantic Presence.
+Benefit: Whenever undead you control are within 60 feet of you, they are physically inspired by your necromantic aura, and gain a +2 enhancement bonus on their attack rolls and saving throws.
+
+Necromantic Presence
+Type: General
+Undead you control are harder to turn when they are near you.
+Benefit: Whenever undead you control are within 60 feet of you, they gain a +4 bonus to their turn resistance.
+
+[/spoiler]

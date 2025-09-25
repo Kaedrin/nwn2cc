@@ -1,0 +1,18 @@
+This is the data I generated based on pnp as to what the stats of animal comps *should* be.
+
+https://spreadsheets.google.com/spreadsheet/ccc?key=0AmlX8q_uREr-dFpIVzZCdjNsSWo1VTc0eER5N1pyVEE&hl=en_US
+
+The current values are here:
+http://nwn2.wikia.com/wiki/Animal_companion
+
+For the levels 21-33 data (epic animal comp is 33) add 10 HD, 10 NatAC, 5 Str, and 5 Dex.
+
+In NWN2 the animal comps have d10 HD when they should have d8. Their skill and saves are very bad/wrong too.
+
+***
+
+That said... OEI 'worked backwards' when it comes to the companions. The brown bear is only supposed to be available to level 4+ druids as it is a 3 HD creature. So to 'fix' that OEI decided to drop any HD needed to get the level 1 blueprint to be 1 HD. So the 2 HD spider becomes a 1 HD spider. The 3 HD bear becomes a 1 HD bear. If the same approach is taken (instead of giving the player a slightly stronger pet to start with that won't advance for a while) then 1-2 HD comes off the max in my spreadsheet. OEI also fudged everything to where 23 HD is the max (when it should be somewhere between 23 and 28). The stats don't really match up with pnp very well either for OEI's version.
+
+My spreadsheet matches pnp exactly except for giving level 1 druids the 2-3 HD pets (which they wouldn't get till 4th). I could create a 1 HD 'version' to be the weak starter if needed.
+
+I still need to add the Fire Elemental Companion to this chart so you can see it for comparison along with what the stats should be for the Air/Earth/Water companions (they are on my to-do list).

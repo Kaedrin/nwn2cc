@@ -1,0 +1,16 @@
+2DA V2.0
+
+   FeatLabel                       FeatIndex List GrantedOnLevel OnMenu 
+0  FEAT_NATWAR_SPELLCASTING_DRUID  3252      3    1              0      
+1  FEAT_NATWAR_SPELLCASTING_RANGER 3253      3    1              0      
+2  FEAT_EPIC_SPELL_ENTROPIC_HUSK   1992      0    21             2      
+3  FEAT_EPIC_SPELL_EPIC_GATE       1993      0    21             2      
+4  FEAT_EPIC_SPELL_MASS_FOWL       1994      0    21             2      
+5  FEAT_EPIC_SPELL_VAMPIRIC_FEAST  1995      0    21             2      
+6  FEAT_NATWARR_WILDING            3254      3    1              0      
+7  FEAT_NATWARR_NATARM_CROC        3255      2    1              0      
+8  FEAT_NATWARR_NATARM_BLAZE       3256      2    1              0      
+9  FEAT_NATWARR_NATARM_GRIZZLY     3257      2    1              0      
+10 FEAT_NATWARR_NATARM_EARTH       3258      2    1              0      
+11 FEAT_NATWARR_NATARM_CLOUD       3259      2    1              0      
+12 FEAT_NATWARR_NATARM_GROWTH      3260      2    1              0      

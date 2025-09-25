@@ -1,0 +1,60 @@
++++ Content Credits
+
+##green|Brian Meyer##
+Class and Domain icons (need to generate a new, comprehensive list)
+
+##green|Luckmann##
+Feat and Spell icons (need to generate a new, comprehensive list)
+
+##green|Reeron, PRC group from NWN1##
+Sneak attack include help.
+
+##green|DedoITA/GilGwath##
+Multisummons help and code.
+
+##green|Tyrannactus##
+Custom spell VFX (Resonating Bolt)
+
+##green|Lady Elvenstar##
+Custom spell VFX, Creature/Companion development help
+
+This is a very rough wip listing of those modules and PW's using my content.
+
++++ Known Users
+[http://www.nwncoa.com/news.php Kingdom of Winterhaven] - Persistent World
+[http://www.bgtscc.com/forum/ Baldur's Gate - Tales of the Sword Coast] - Persistent World
+[http://www.dalelandsbeyond.com Dalelands Beyond] - Persistent World
+[http://dmg.kalusia.com/dmg/news.php World of Skullport, Waterdeep and the Undermountain] - Persistent World
+[http://www.realmsoftrinity.com/ Realms of Trinity] - Persistent World
+[http://www.shadowofiniquity.com/index.php Shadow of Iniquity] - Persistent World
+[http://nwvault.ign.com/View.php?view=NWN2Gameworlds.Detail&id=226 Northern Cormyr] - Persistent World
+[http://www.moonlightandshadows.com/portal/portal.php Moonlight and Shadows] - Persistent World
+[http://www.lunesdargent.com/forum/ Lunes d'Argent] - French Persistent World
+[http://nwvault.ign.com/View.php?view=NWN2ModulesEnglish.Detail&id=310 Subtlety of Thay - Chapter 2 by Dirtywick ] - Single Player Adventure
+[http://nwvault.ign.com/View.php?view=NWN2ModulesEnglish.Detail&id=317 Trial and Terror by Indira Lightfoot] - Single Player Adventure
+[http://www.alventyr.com/ Alventyr] - Persistent World
+
++++ Retired PWs
+[http://worldoftalernon.com/news.php World of Talernon 3] - Persistent World
+[http://www.nwn2-ldoa.blogspot.com/ Lost Dungeons of Adventure] - Persistent World
+[http://nwn2thefrontier.com/ The Frontier] - Persistent World
+[http://www.jrit.dk/phpBB2/index.php Nylmir] - Persistent World
+Dungeon Eternal X 2 - Persistent World (Currently down)
+
++++ Upcoming Users
+[http://risenheronwn2.blogspot.com/ Risen Hero] - Single Player Adventure
+
+Let me know and I'll add you to the list if you are a module or PW developer.
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

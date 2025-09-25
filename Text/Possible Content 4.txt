@@ -1,0 +1,491 @@
+Armored Fist
+[spoiler]
+Requirements: Wholeness of Body, No Sacred Fist or Arcane Fist levels.
+BAB: High
+Saves: All
+Skill Pts: 4
+HD: d10
+Levels: 5
+L1: Sacred Fist Code of Conduct, Weapon Specialization (Unarmed)
+L2: Martial Accuracy (+Enhance bonus to gloves/gauntlets equal to one half your class level (rounded down), only stacks with permanent item bonuses, does not stack with any other kind of enhance booster)
+L3: Greater Weapon Specialization (Unarmed)
+L4: Weapon Mastery (Unarmed)
+L5: DR 5/-
+
+Armored Fist levels count as Monk levels for Diamond Soul, Wholeness of Body, and Empty Body.
+
+[/spoiler]
+
+Spiritual Fist
+[spoiler]
+Requirements: Purity of Body, Heal 4, Tumble 8, No Fighter, Thug, Sacred Fist, or Arcane Fist levels.
+BAB: High
+Saves: All
+Skill Pts: 4
+HD: d8
+Levels: 5
+L1: Spiritual Force, Sacred Fist Code of Conduct
+L2: +1 Dodge AC
+L3: Improved Wholeness of Body
+L4: +2 Dodge AC
+L5: Defensive Roll
+
+Spiritual Force: Any gauntlets you wear gain an enhance bonus equal to
+half your class level (rounded down). This bonus stacks with any permanent enhance bonus on
+the gauntlets (maximum +12). It does not stack with any other kind of enhance booster.
+
+Improved Wholeness of Body: Wholeness of Body now heals four times a
+monk's class level. Arcane Fist, Sacred Fist, and Spiritual Fist levels
+are treated as Monk levels. The purity that washes over the monk leaves
+a residual trace, providing renegeration 2 for the rest of the day (24
+hours).
+
+Spiritual Fist levels count as Monk levels for Diamond Soul and Empty Body.
+
+[/spoiler]
+
+Arcane Fist
+[spoiler]
+Requirements: No Eldritch Knight, Dragon Warrior, Sacred Fist, Spiritual Fist, or Armored Fist levels, Ki Strike (Magic), Level 2 arcane spells
+BAB: Medium
+Saves: All
+Skill Pts: 4
+HD: d8
+Levels: 5
+5/5 Arcane progression
+L1: Arcane Armor (Gain AC bonus from Int or Cha instead of Wis) (Counts against +20 Dodge cap), Sacred Fist Code of Conduct
+L2: Arcane Accuracy (+Enhance bonus to gloves/gauntlets equal to 1/2 class level, does not stack with any other kind of enhance booster)
+L3: Arcane Palm
+L4: Arcane Flames (Fiery Fist feat deals magic damage instead of fire)
+L5: Weapon Mastery (Unarmed)
+
+Arcane Palm: Your Quivering Palm now uses the highest of your Wisdom, Charisma, or Intelligence modifier. Each Arcane Fist level counts as two Monk levels for determining the DC of Quivering Palm.
+
+Arcane Fist levels count as Monk levels for Diamond Soul, Wholeness of Body, and Empty Body.
+
+[/spoiler]
+
+[spoiler="Arcane Sentinel"]Arcane Sentinel
+
+(PRESTIGE CLASS: This class is not available at character creation and must be unlocked by meeting special requirements, listed below.)
+
+Arcane sentinels operate in secret, working to hold the line against the tides of dark magic that sweep the land. They focus their training on defensive battles, prefering to cast spells while wearing light armor. This training has led to their mastery of armor based metamagics and eventually allows them to cast spells without failure when not using metamagics. Their study of the weave and arcane magic has allowed them a greater understanding of how to unravel magic and how to counter the magics of their enemies.
+
+Requirements:
+
+Alignment: Any good
+Feats: Still Spell
+Skills: Spellcraft 8 ranks
+Spellcasting: Able to cast 3rd level Arcane spells.
+
+Class Features:
+
+- Hit Die: d8
+- Base Attack Bonus: Low.
+- High Saves: Will.
+- Weapon Proficiencies: Simple.
+- Armor Proficiencies: Light.
+- Skill Points: 2 + Int modifier.
+- Class Skills: Appraise, Craft Armor, Craft Weapon, Concentration, Listen, Lore, Spellcraft, and Spot.
+
+Class Abilities:
+
+Level 1: Practical Metamagic (Still Spell), Spellcasting Progression
+Level 2: Unbind Magic (+1)
+Level 3: Mantle Mastery (+1)
+Level 4: ASF Reduction (5%)
+Level 5: Unbind Magic (+2)
+Level 6: Mantle Mastery (+2)
+Level 7: ASF Reduction (10%)
+Level 8: Unbind Magic (+3)
+Level 9: Mantle Mastery (+3)
+Level 10: ASF Reduction (15%)
+
+- Spellcasting: At each level except 2nd, you gain new spells per day and an increase in caster level and spells known as if you had also attained a level in a casting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained such as bonus feats. If you had more than one spellcasting class before becoming an arcane sentinel, you must decide which class to progress in. This is a 9/10 progression class in Arcane magic.
+
+- Practical Metamagic (Still Spell): At first level, an arcane sentinel learns how to cast any spell as a Still Spell with no cost.
+
+- Unbind Magic: At 2nd level, an arcane sentinel gains additional proficiency in dispelling magic, gaining a +1 bonus on dispel checks. This bonus improves to +2 at 5th level and +3 at 8th level. This bonus ignores all caps on dispels.
+
+- Mantle Mastery: At 3rd level, an arcane sentinel gains additional proficiency in using spell mantles, gaining a +1 bonus on the number of spell levels it will deflect. This bonus improves to +2 at 6th level and +3 at 9th level. This bonus is applied after any metamagics such as empower or maximize.
+
+- ASF Reduction: Through her mastery of armored casting, the arcane sentinel is less affected by armor when casting spells without using the Still Spell metamagic. At 4th level the reduction is 5%, at 7th level it is 10%, and at 10th level it is 15%.[/spoiler]
+
+[spoiler="Battle Archer"]Battle Archer
+Requirements: Point Blank Shot, Weapon Focus (Ranged Weapon)
+BAB: Medium
+Saves: Fort
+Skill Pts: 2
+HD: d8
+L1: +1 Mighty (stacks with the bow's existing bonus)
+L2: +1d6 Sneak
+L3: +2 Mighty (stacks with the bow's existing bonus)
+L4: Weapon Mastery (Ranged)
+L5: Keen, +3 Mighty (stacks with the bow's existing bonus)[/spoiler]
+
+[spoiler="Battle Herald"]Battle Herald
+Requirements: Combat Expertise, Mobility, Background (Natural Leader), May not have Marshal levels
+BAB: High
+Saves: All
+Skill Pts: 4
+HD: d8
+L1: Inspire Troops (Stand Fast) +2 Fort, +2 Ref
+L2: Inspire Troops (Shake It Off) +2 Will
+L3: Inspire Troops (None Shall Fall) +1 Regen
+L4: Inspire Troops (Hold the Line) DR 5/-
+L5: Inspire Troops (Rally Squad) +2 AB
+Inspire Troops improves with each level gaining the new bonus. Will not stack with inspirations.[/spoiler]
+
+[spoiler="Chaotic Wilder"]Chaotic Wilder
+Requirements: 10 Spellcraft
+BAB: Low
+Saves: Fort, Will
+Skill Pts: 4
+HD: d8
+Levels: 5
+No spellcasting progression, adds 5% spell failure per class level
+Class abilities ignore spell resistance, have a 50% chance to ignore damage resistance, a 5% chance to deal 3x the damage, and a save vs (d6 + d4) * Class level DC for half dmg.
+L1 Ability: Touch of Chaos - melee touch attack deals (4*class level)d6 of a random element (fire, elec, acid, cold, positive, negative, divine, slashing, blunt, piercing).
+L2 Ability: Lash of Chaos - ranged touch attack that deals (2*class level)d6 of a random element (see Touch)
+L3 Ability: Breath of Chaos - 60' cone blast that deals (4*class level)d4 of a random element (see Touch)
+L4 Ability: Howl of Chaos - PBAE that deals (3*class level)d4 of a random element (see Touch)
+L5 Ability: Burst of Chaos - Ranged sphere that deals (3*class level)d4 of a random element[/spoiler]
+
+[spoiler="Combat Perfectionist"]Combat Perfectionist
+Requirements: BAB +6, No base class with spellcasting ability
+BAB: Medium
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d12
+Levels: 5
+L1: +1 Enhance bonus to melee weapons (stacks with existing)
+L2: +1 Enhance bonus to armor (not shields, stacks with existing)
+L3: +2 Enhance bonus to melee weapons (stacks with existing)
+L4: +2 Enhance bonus to armor (not shields, stacks with existing)
+L5: +3 Enhance bonus to melee weapons (stacks with existing)
+Melee weapons include gauntlets for monks.[/spoiler]
+
+[spoiler="Dragon Lord"] Dragon Lord
+
+A dragon lord is the general at the head of an army, the emperor at the helm of an empire, or the warleader who dominates a battlefield. He learns much from dragons, modeling his philosophy and strategies after the powerful creatures with great success. Dragon lords strike fear into the hearts of all who cross their path and use brilliant combat tactics that mirror those of the true dragons. In many legends, a dragon lord is the spirit of a dead dragon reborn into a different body, slowly awakening over time and coming to realize the power of its former self.
+
+Requirements
+
+Base Attack Bonus: +6.
+Skills: Intimidate 9.
+
+Class Features
+
+HD: d10
+BAB: High
+High Saves: Fort
+Weapon proficiency: Simple and Martial
+Armor proficiency: All armor and shields (including Tower Shields)
+
+Class Skills: Craft Armor, Craft Weapon, Intimidate, Lore, and Tumble.
+Skill points: 2 + Int modifier
+
+Class Abilities
+
+Level 1: Draconic Aura +1, 1 Aura known, Totem Dragon
+Level 2: Reckless Devotion 1/day
+Level 3: Uncanny Dodge
+Level 4: Leadership, 2 Auras known
+Level 5: Draconic Aura +2
+Level 6: Reckless Devotion 2/day
+Level 7: 3 Auras known
+Level 8: Improved Uncanny Dodge
+Level 9: Draconic Aura +3
+Level 10: Reckless Devotion 3/day, 4 Auras known
+
+Draconic Aura: You can channel the mighty powers of dragonkind to project an aura that grants you and nearby allies a special benefit. An aura remains in effect until you dismiss it or you activate another aura in it's place. Your draconic aura affects all allies within 30 feet (including yourself).
+
+The bonus granted by your aura begins at +1 and increases to +2 at 5th level and +3 at 9th level. You start with one aura and gain another at 4th, 7th, and 10th level.
+
+Your draconic aura stacks with that of the Dragon Shaman, adding your class level to the Dragon Shamans to determine the aura's bonus.
+
+Totem Dragon: At first level, you choose which type of true dragon you venerate above all others. The effects of your auras will be based upon the dragon you select.
+
+Reckless Devotion: When soliders learn that a dragon fights on their side, they have greater incentive to struggle valiantly against the enemy - when victory seems assured, all want a share of the glory. Starting at 2nd level, you learn to inspire this kind of zeal in your allies, granting them a temporary boost in their combat abilities driven by fanatical devotion. Once per day, allies gain 10 temporary hit points, a +2 bonus on attack and damage rolls, and a +2 bonus on saves. All benefits last for a number of rounds equal to your class level. At 6th level you can use this ability twice per day, and at 10th level, you can use it three times per day.
+
+Uncanny Dodge: A dragon lord gains Uncanny Dodge as a bonus feat at 3rd level.
+
+Leadership: A dragon lord gains Leadership as a bonus feat at 4th level.
+
+Improved Uncanny Dodge: A dragon lord gains Improved Uncanny Dodge as a bonus feat at 8th level.
+
+Auras:
+
+   Energy Shield: Any creature striking you or your ally is dealt 2 points of energy damage for each point of your aura bonus. The energy type is that of your totem dragon's damage dealing breath weapon (see below).
+   Power: Bonus on melee damage rolls equal to your aura bonus.
+   Presence: Bonus on Bluff, Diplomacy, and Intimidate checks equal to your aura bonus.
+   Resistance: Resistance to your totem dragon's energy type equal to 5 x your aura bonus.
+   Senses: Bonus on Listen and Spot checks equal to your aura bonus.
+   Toughness: DR 1/Magic for each point of your aura bonus.
+   Vigor: Fast healing 1 for each point of your aura bonus, but only affects characters at or below one-half their full normal hit points. (NOTE: if this is not doable then the regen value will be changed to every 2 rounds ala the bard regen)
+   Insight: This aura grants you a bonus on Lore and Spellcraft checks.
+   Resolve: This aura grants you a bonus on Concentration checks and on saves against fear, paralysis, and sleep effects.
+   Stamina: This aura grants you a bonus on Fortitude saves.
+
+Dragon Colors and their element:
+
+   Black, Copper, Green: Acid
+   Blue, Bronze: Electricity
+   Brass, Gold, Red: Fire
+   Silver, White: Cold
+
+New Feat:
+Double Draconic Aura
+You can project two draconic auras simultaneously.
+Prerequisite: Character level 12, Dragon Lord 4
+Benefit: You can project two draconic auras simultaneously. You must activate or dimiss your aura's separately.
+
+New Feat: Extra Reckless Devotion I, II
+You gain two more uses of reckless devotion.
+Prerequisite: Dragon Lord 10
+[/spoiler]
+
+[spoiler="Energy Specialist"] Energy Specialist
+
+Requirements: Level 3 Spells
+BAB: Medium
+Saves: Will
+Skill Pts: 2
+HD: d6
+Levels: 5
+5/5 Arcane, Divine, or Invocation spellcasting progression
+L1: Bonus Feat
+L2:
+L3: Bonus Feat
+L4:
+L5: Bonus Feat
+Bonus Feats are drawn from the five Energy Substitution feats
+[/spoiler]
+
+[spoiler="Favored Slayer"]
+
+Favored Slayer
+Requirements: Level 6 Combat Style
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 6
+HD: d10
+Levels: 5
+Armor Proficiency Granted: Medium
+Favored Slayer counts as Ranger for Protective Ward
+Class grants the normal version of Ranger dual wield feats
+Companion progression, No spell progression
+L1: Bonus Feat
+L2: Bonus Feat
+L3: Bonus Feat
+L4: Bonus Feat
+L5: Bonus Feat, Foe Hunting (Teamwork)
+
+Bonus Feats are drawn from Improved Favored Enemy, Favored Power Attack, Power Attack, Improved Power Attack, and Protective Ward.
+[/spoiler]
+
+[spoiler="Feral Brute"]Feral Brute
+Requirements: Wildshape 3/day
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d10
+Levels: 5
+No spellcasting or companion progression. Wildshape progression.
+L1: +AB bonus when shifted equal to class level
+L2:
+L3:
+L4:
+L5: Feral Claws (material of the weapon in your right hand transferred to your claws)[/spoiler]
+
+[spoiler="Kinslayer"]Kinslayer
+Requirements: BAB +5
+BAB: High
+Saves: Fort
+Skill Pts: 4
+HD: d10
+Levels: 5
+L1: Gain a damage bonus against your race equal to your class level
+L2: Gain an AC bonus against your race equal to half your class level (+1 at 2nd, +2 at 4th)[/spoiler]
+
+[spoiler="Mage Hunter"]Mage Hunter
+Requirements: 8 Survival, 5 Spellcraft
+BAB: High
+Saves: Fort, Will
+Skill Pts: 4
+HD: d8
+L1: Tracking, Skill Focus (Survival)
+L2: +2 all saves
+L3: Anti-Concentration aura (same as Dissonant Chord)
+L4: Scent, Swift Tracking
+L5: Spell Resistance of 12 + Character Level[/spoiler]
+
+[spoiler="Master Craftsman"]
+
+Master Craftsman
+Requirements: Craft Alchemy 5, Craft Weapon 8, Craft Armor 8
+BAB: Medium
+Saves: Fort
+Skill Pts: 8
+Skills: Appraise, Bluff, Concentration, Craft Alchemy, Craft Armor, Craft Trap, Craft Weapon, Diplomacy, Disable Device, Heal, Listen, Lore, Open Lock, Parry, Search, Set Trap, Spellcraft, Perform
+HD: d6
+Levels: 5
+L1: Bonus Feat, Trap Sense +1
+L2: Bonus Feat
+L3: Bonus Feat, Trap Sense +2
+L4: Bonus Feat
+L5: Bonus Feat, Trapfinding
+
+Bonus Feats are drawn from Brew Potion, Craft Magic Arms and Armor, Brew Potion, Craft Trap, Craft Wondrous Item, Craft Wand, Scribe Scroll, and Skill Focus feats in crafting, setting traps, and disabling devices.
+[/spoiler]
+
+[spoiler="Mesmer"]Mesmer
+Requirements: Level 2 spells
+BAB: Low
+Saves: Will
+Skill Pts: 2
+HD: d4
+Levels: 5
+5/5 Arcane/Divine progression
+L1: Mind Fog at will (2 minute cooldown)
+L2: Deepest Slumber at will (2 minute cooldown)
+L3: Fear at will (2 minute cooldown)
+L4: Confusion at will (2 minute cooldown)
+L5: Crushing Despair at will (2 minute cooldown)[/spoiler]
+
+http://nwn2.wikia.com/wiki/Master_of_many_forms
+
+[spoiler="Paragon Summoner"]Paragon Summoner
+Requirements: 10 Spellcraft, Augment Summoning
+BAB: Medium
+Saves: Will
+Skill Pts: 2
+HD: d6
+Levels: 5/5 Spellcasting progression
+L1: Your summons gain bonus hit points equal to twice their hit dice.
+L2: Your summons gain an enhance bonus on their weapons equal to your class level and an attack bonus (+1 at 1st, +2 at 3rd, and +3 at 5th).
+L3: Your summons gain a deflection and armor enhance bonus equal to your class level. (This does not stack with Warden abilities)
+L4: Your summons gain 2 points of regen (3 at level 5)
+L5: Your summons gain spell resistance equal to 12 + your hit dice and 5 points of DR/-[/spoiler]
+
+[spoiler="Pit Fighter"]Pit Fighter
+Requirements: Iron Will, Toughness, +5 BAB, May not have Weapon Master levels
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 4
+HD: d14
+Levels: 5
+Shouts have a 6 round cooldown and last a number of rounds equal to your class level.
+L1: Call for Blood! (+AB equal to class level, -AC equal to half class level rounded up)
+L2: My Eyes! (Blind enemy for 1 round)
+L3: One Shall Stand (+AC equal to class level, -50% speed)
+L4: Death From Above! (+2d6 physical damage, -3 AB, -3 AC)
+L5: One Shall Fall! (+100% speed, +1 Attack)[/spoiler]
+
+[spoiler="Sword Dancer"] Sword Dancer
+
+Eilistraee the Dark Maiden encourages drow to return to the surface world and reestablish themselves as rightful, nonevil inhabitants of the Night Above. Although they need not be drow themselves, sword dancers are expected to lead that migration and work to promote harmony between drow and surface-dwelling races. They nurture beauty, music, the craft of making musical instruments, and song wherever they find it, assist hunters and hunting, and help others in acts of kindness whenever they see ways to do so.
+
+Requirements
+
+Base Attack Bonus: +7
+Class: Not Monk
+Feats: Dodge, Combat Expertise, Skill Focus (Perform), Weapon Focus (any sword)
+Race: Elf, Half-Elf, or Half-Drow
+Skills: Diplomacy 5, Perform 5
+Spellcasting: Able to cast 2nd-level divine spells.
+
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Concentration, Diplomacy, Heal, Hide, Listen, Lore, Move Silently, Perform, Spellcraft, and Tumble.
+Skill points: 2 + Int modifier
+
+Class Features
+
+HD: d8
+BAB: Medium
+High Saves: Ref, Will
+Weapon proficiency: None
+Armor proficiency: None
+
+Class Abilities
+
+Level 1: Low-light vision, Spellcasting Progression, Sword Song
+Level 2:
+Level 3: Sword Dance
+Level 4: Mobility
+Level 5: Craft magic Arms and Armor
+Level 6: Faerie Fire 1/day
+Level 7: Spring Attack
+Level 8: Faerie Fire 2/day
+Level 9:
+Level 10: Sword Shield
+Level 11: Singing Sword
+Level 12: Moonfire 1/day
+Level 13: Silverhair Armor +2
+Level 14: Bonus Epic Feat
+Level 15:
+Level 16: Moonfire 2/day
+Level 17: Silverhair Armor +4
+Level 18: Bonus Epic Feat
+Level 19:
+Level 20: Moonfire 3/day, Bonus Epic Feat
+Level 21: Silverhair Armor +6
+Level 22: Bonus Epic Feat
+
+Spellcasting Progression: At each sword dancer level, the character gains new divine spells per day as if she had also gained a level in a divine spellcasting class to which she belonged before adding the prestige class level.
+
+Sword Song: Once a day, a sword dancer wielding a sword in her right hand causes the sword to sing heroic songs, granting her a +2 bonus on attack and damage rolls and a +3 morale bonus on saving throws against mind-affecting spells and effects. This ability is instantly activated an lasts a number of rounds equal to her class level plus her Charisma modifier.
+
+Sword Dance: At 3rd level, a sword dancer causes a ghostly sword (identical to the one in her right hand) to come to life and begin attacking the enemy. It has a BAB equal to the sword dancer's and cannot be killed. The sword remains for four rounds and can be used a number of times per day equal to her class level. This is an instantly activated ability.
+
+Sword Shield: At 10th level, as an instant action, a sword dancer may command her dancing sword to fight in a defensive manner, taking a penalty of -5 on the sword's attacks in order to add the same number to her AC as a shield AC bonus.
+
+Singing Sword: At 11th level, the sword wielded in the right hand of the sword dancer is infused with the divine power of Eilistraee. It gains the ability to use bardic music to inspire courage as a bard of equal level to the character level of the sword dancer who infused it; neither the sword nor the sword dancer need have any ranks in the Perform skill to use this ability. This ability lasts for 20 rounds and is usable once per day at 11th level, twice a day at 15th level, and three times a day at 19th level.
+
+The sword also gains the Thundering ability, gaining a +1d6 sonic damage bonus at all times.
+
+Silverhair Armor: At 13th level the sword dancer's hair becomes infused with divine energy and glows softly with silver light. As long as she is not wearing armor or using a shield, she gains a +2 dodge AC bonus. This bonus increases to +4 at 17th level and to +6 at 21st level.
+
+Moonfire Details:
+Components: V,S
+Area: 60' Cone
+Duration: Instantaneous (see text)
+Saving Throw: Reflex half (see text)
+Spell Resistance: Yes
+
+A cone of fiery, white moonlight springs from your hand. Living creatures in the area feel an unnatural chill and take 1d8 points of divine damage per two caster levels, to a maximum of 10d8. Undead and shapechangers take double damage. This application of the spell allows a Reflex save for half damage.
+
+Shapechanged or polymorphed creatures and objects in the spell's area at the time the spell is cast must make Will saves or immediately return to their normal forms.
+
+(The electricity immunity part of the spell for the area the cone hit is not really possible to do in NWN2 so I'll either cut it or add electrical immunity to all subjects)
+[/spoiler]
+
+[spoiler="Thayan Knight"]Thayan Knight
+Requirements: Human, Nongood alignment, +5 BAB, Intimidate 2, Lore 4, Iron Will, Weapon Focus (longsword).
+BAB: High
+Saves: Fort, Ref
+Skill Pts: 2
+HD: d10
+Levels: 5
+L1: Tower Shields, +2 saves vs Fear, +1 saves vs Charm, +2 Intimidate
+L2: +2 AB, +2 Dmg
+L3: Bonus Feat
+L4: +4 saves vs Fear/+2 saves vs Charm (replaces level 1 ability), Final Stand (+2d10 Temp HP for allies for 2 minutes)
+L5: +4 Intimidate (replaces level 1 ability), +1 all saves[/spoiler]
+
+[spoiler="Weave Master"]Weave Master
+Requirements: No RW levels, Combat Casting
+BAB: Low (BAB lost here WILL affect the divine power cap making it 27 at 5/5 Weave Master)
+Saves: Will
+Skill Pts: 2
+HD: d4
+Levels: 5
+L1 ability: Evocation Specialist (Evocations gain +dmg equal to class level plus spell level)
+L3 ability: Illusion Specialist (Illusions gain +1 DC per class level)
+L4 ability: Enchantment Specialist (Enchantments gain +2 DC)
+L5 ability: Shape Magic (spells no longer affect non-hostiles)
+5/5 spellcasting progression in any class[/spoiler]
+
+Golden Lion (Torm) - 10 level melee
+Silverstar (Selune) - 10 level divine - http://dndtools.eu/classes/silverstar/
+Deepwarden - 10 level dwarven melee - http://dndtools.eu/classes/deepwarden/
+Radiant Servant 10 levels divine for Lathandar/Sun deities - http://dndtools.eu/classes/radiant-servant-of-pelor/

@@ -1,0 +1,20 @@
+2DA V2.0
+
+   LABEL                                 ReqType  ReqParam1      ReqParam2 
+0  Dodge                                 FEAT     10             ****      
+1  CombatExpertise                       FEAT     389            ****      
+2  SkillFocusPerf                        FEAT     184            ****      
+3  DiplomacySkill                        SKILL    12             5         
+4  PerformSkill                          SKILL    11             5         
+5  Divine                                DIVSPELL 2              ****      
+6  Base_Attack                           BAB      5              ****      
+7  Elf                                   RACE     1              ****      
+8  Half-Elf                              RACE     4              ****      
+9  WeapFocShortSword                     FEATOR   103            ****      
+10 WeapFocRapier                         FEATOR   104            ****      
+11 WeapFocScim                           FEATOR   105            ****      
+12 WeapFocLSw                            FEATOR   106            ****      
+13 WeapFocGSw                            FEATOR   107            ****      
+14 WeapFocKatana                         FEATOR   122            ****      
+15 WeapFocBSw                            FEATOR   123            ****      
+16 FEAT_WEAPON_FOCUS_FALCHION            FEATOR   1590           ****      

@@ -1,0 +1,9 @@
+While Alpha/Beta is in development, players will be allowed to freely rebuild as they see fit with one minor rule.
+
+A rebuild is defined as being set to level 1 while preserving the amount of experience the player has accumulated. The player *must* preserve the classes they took when they are rebuilding but they are allowed to change the levels within a class.
+
+For example, a 10/10 Fighter/Rogue can rebuild into a 19 Fighter/1 Rogue or a 16 Rogue/4 Fighter but may not get rid of Rogue or Fighter.
+
+This is to preserve the character RP that led you to the choices you have made while allowing flexibility in the story that is told (ie, focusing on spellcasting at the cost of martial skill, focusing on martial skill and letting your thief skills grow rusty, etc).
+
+I'd like to see this system survive Alpha/Beta but that's a discussion for another time.

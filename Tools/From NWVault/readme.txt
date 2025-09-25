@@ -1,0 +1,1 @@
+NWN2Packer.7z may be an old version that needs to be checked

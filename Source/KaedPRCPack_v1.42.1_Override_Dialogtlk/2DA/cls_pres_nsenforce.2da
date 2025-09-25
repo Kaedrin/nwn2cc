@@ -1,0 +1,8 @@
+2DA V2.0
+
+  LABEL        ReqType ReqParam1          ReqParam2 
+0 ScriptVar    VAR     cmi_AllowNSEnforce 0         
+1 ImpInit      FEAT    377                ****      
+2 Evasion      FEAT    206                ****      
+3 Hide         SKILL   5                  10        
+4 MoveSilently SKILL   8                  10        

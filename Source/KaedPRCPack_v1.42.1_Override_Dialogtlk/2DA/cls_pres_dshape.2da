@@ -1,0 +1,16 @@
+2DA V2.0
+
+   LABEL                                                  ReqType ReqParam1 ReqParam2 
+0  WildShape                                              FEAT    305       ****      
+1  WeapFocDagger                                          FEAT    90        ****      
+2  Concentration                                          SKILL   1         8         
+3  SneakAttack                                            FEATOR  221       ****      
+4  FEAT_BLACKGUARD_SNEAK_ATTACK_1D6                       FEATOR  460       ****      
+5  FEAT_NW9_SNEAK_ATTACK_1                                FEATOR  1497      ****      
+6  FEAT_ARCTRICKSTER_SNEAK_ATTACK_1                       FEATOR  1502      ****      
+7  FEAT_SHADOWTHIEFAMN_SNEAK_ATTACK_1                     FEATOR  1562      ****      
+8  FEAT_NW9_FRANTIC_REACTIONS                             FEATOR  1806      ****      
+9  FEAT_PRESTIGE_DEATH_ATTACK_1                           FEATOR  455       ****      
+10 FEAT_BLEEDING_WOUND_I                                  FEATOR  2052      ****      
+11 FEAT_COMBATSTYLE_RANGER_DUAL_WIELD_TWO_WEAPON_FIGHTING FEATOR2 1734      ****      
+12 TwoWeap                                                FEATOR2 41        ****      

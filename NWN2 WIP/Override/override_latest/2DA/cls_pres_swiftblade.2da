@@ -1,0 +1,14 @@
+2DA V2.0
+
+   LABEL                        ReqType  ReqParam1 ReqParam2 
+0  ConcentrationSkill           SKILL    1         6         
+1  SpellcraftSkill              SKILL    16        6         
+2  BAB                          BAB      3         ****      
+3  Dodge                        FEAT     10        ****      
+4  Mobility                     FEAT     26        ****      
+5  WeapProfMar                  FEATOR   45        ****      
+6  WeapProfElf                  FEATOR   256       ****      
+7  FEAT_WEAPON_PROFICIENCY_BARD FEATOR   1763      ****      
+8  Arcane                       ARCSPELL 3         ****      
+9  Haste                        SPELLOR  78        ****      
+10 WeapProfGrayOrc              FEATOR   2177      ****      

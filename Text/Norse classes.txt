@@ -1,0 +1,27 @@
+You know that mythical PW ruleset I was originally developing base classes for? They were for a Norse PW idea before I switched to custom classes still set in Faerun. You can see it in my class development.
+
+Feral Shifter: Idealized champion of Loki, blessed with the blood of Fenrir (werewolf only model).
+
+Primal Fury: Idealized berserker of Odin, often clad in bear or wolf skins and taking the fight toe to toe with the enemy.
+
+Thunderborn: Idealized champion of Thor, wielding hammer and storms.
+
+Dark Soul: Idealized champion of Hel, a scythe wielding necromantic melee type which deals in undeath and the exchange of life energies.
+
+Valkyrie: Idealized champion of Freyja, granted the ability to bring the dead back to life while being an exemplary melee combatant.
+
+Healer: Idealized champion of Eir, a focused healer who mends the wounds of those not yet slain.
+
+Hunter: Idealized champion of Skadi, typically using a spear and bow, tracking the foes of the gods.
+
+Watcher: Idealized champion of Heimdal, incredibly resistant to physical damage and unable to be surpised or caught unaware.
+
+Skald: Idealized champion of Bragi, a melee combatant who inspires others with songs of glory and battle. More of a Marshal than a Bard (no spells at all).
+
+Beastmaster: Generalized champion of the Wild Hunt. Utilizing multiple wolves to hunt down their foes. Usually a worshipper of Odin or Frigga.
+
+Runecarver: Generalized champion focusing on Norse magic. Divination, healing, necromancy, and enhancement of others.
+
+Free man: Generalized champion focusing on melee combat, particularly shield and spear. Tied to no particular deity.
+
+Shieldmaiden: Generalized champion focusing on defensive combat utilizing a shield. Often tied to Sif, Frigga, or Frejya.

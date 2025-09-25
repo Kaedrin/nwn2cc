@@ -1,0 +1,12 @@
+[size=18][color=red]1.43.3 changelog:[/color][/size]
+Resting will add the passive feats for Fighters if they do not have it yet
+Resting will add Combat Insight to Factotums that qualify if they do not have it yet
+Swiftblade description updated with correct server implementation, not my original description.
+Adrenaline Boost now provides 5 additional points of temporary health.
+Templar now mentions it gets exotic weapon proficiency at level 1
+Factotum True Seeing renamed Greater See Invisibility
+Force Mage, Mystic Reservist, and Beast Heart Adept get the missing 2da file needed to provide spellcasting progression.
+Adrenaline Boost now autotargets the caster.
+Half-Drow gain +2 Con
+Inspire Heroics no longer breaks on area transitions 
+Inspire Heroics now correctly allows regeneration

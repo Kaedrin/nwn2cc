@@ -1,0 +1,35 @@
+The following is a list of my content that can be found on NWVault:
+
+[http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=194 Blackguard Fiendish Servant Upgrade]
+
+[http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=209 Kaedrin's PrC Pack v1.42.1 ] This features 3 base classes, 46 prestige classes, 123 spells, 93 feats, 13 domains, new crafting options, and a variety of game fixes.
+
+[http://nwvault.ign.com/View.php?view=NWN2Other.Detail&id=162 Kaedrin's PrC Pack Non-English Dialog.TLK files v1.40 (MotB)] This provides non-English support for my content.
+
+[http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=214 Crafted Ammo, Enchanted Ranged Weapons, Crafted Thrown Weapons, and Enchanted Thrown Weapons (Both) v1.21] This is my crafting work as a stand-alone option and is included in my PrC Pack.
+
+[http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=212 Paladin and Cleric Spell Pack (non-MotB)] This is a retired project that added roughly 25 new spells for clerics and paladins and was the precursor to my PrC pack.
+
+**For Developers**
+
+[http://nwvault.ign.com/View.php?view=NWN2Other.Detail&id=147 Bonus Spells by Ability 2DA] This 2DA file lists all of the bonus spell slots that should be available for a high spellcasting attribute and is used for the custom Assassin/Blackguard spellbooks.
+
+[http://nwvault.ign.com/View.php?view=NWN2ModulesEnglish.Detail&id=219 Module Event Tagged Module]
+
+**For MotB players**
+
+[http://nwvault.ign.com/View.php?view=NWN2Scripts.Detail&id=187 MotB pre-order items] This download has the three pre-orders for MotB.
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

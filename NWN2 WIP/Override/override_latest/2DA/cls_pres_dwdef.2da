@@ -1,0 +1,7 @@
+2DA V2.0
+
+ LABEL ReqType ReqParam1 ReqParam2
+0 Dodge FEAT 10 ****
+1 Toughness FEAT 40 ****
+2 Base_Attack BAB 7 ****
+3 ScriptVar VAR X1_AllowDwDef 0

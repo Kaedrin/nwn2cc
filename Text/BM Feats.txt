@@ -1,0 +1,151 @@
+[spoiler="Beastmaster"]
+Beastmaster
+
+Class Features:
+
+HD: d6
+BAB: High (1-10), Medium (11-30)
+High Saves: Fort, Reflex
+Weapon proficiency: All simple and martial weapons.
+Armor proficiency: Light armor and shields (except tower shields).
+Skill points: 6 + Int modifier
+Class Skills: Craft Alchemy, Craft Armor, Craft Weapon, Craft Trap, Heal, Hide, Intimidate, Listen, Lore, Move Silently, Parry, Search, Set Trap, Spot, Survival, Taunt, and Tumble.
+
+Class Abilities:
+
+Level 1: Track, Animal Companion
+Level 2: Nature's Gift
+Level 3: Toughness
+Level 4: Long Gait
+Level 5: Scent
+Level 6: Second Animal Companion
+Level 7: Heal Companions
+Level 8: Woodland Stride, Swift Tracker
+Level 9: Evasion
+Level 10: Exalted Companion
+Level 11: Epic Animal Companions
+Level 12:
+Level 13: Camouflage
+Level 14:
+Level 15:
+Level 16:
+Level 17: Hide in Plain Sight
+Level 18:
+Level 19:
+Level 20:
+Level 21: Second Wind
+Level 22:
+Level 23: Bonus Epic Feat
+Level 24:
+Level 25:
+Level 26: Bonus Epic Feat
+Level 27:
+Level 28:
+Level 29: Bonus Epic Feat
+Level 30:
+
+Animal Companion: A beastmaster begins the game with an Animal companion. Animal companions are loyal allies in any battle. As your character gains experience, his or her animal companion will also grow in power (as though you were a druid).
+
+Animal companions cannot be directly controlled by their master. They can be controlled with limited efficiency through vocal commands, and set to defensive or offensive behaviors as well as force them to enter stealth. They become more powerful as the master advances. The only penalty the master suffers from the animal companion's death is that they cannot summon the companion again until they have rested.
+
+Second Animal Companion: At level 6, a beastmaster can have a second animal companion of the same type as their first companion out at the same time.
+
+[color=#339933]Heal Companions: At level 7, a beastmaster can heal her companions once every five minutes. This heals both of the animal companions for 10 times your class level.[/color]
+
+[color=#339933]Second Wind: At level 21, a beastmaster can call upon each animal companion an additional time per day.[/color]
+
+Animal Companion Advancement:
+
+[color=#339933]Nature's Gift: At second level, your animal companions gains a passive regeneration of 1 point. This improves to 2 points at level 7 and 3 points at level 12.[/color]
+
+Level 4: Your animal companions become well trained. This alteration grants your animal companions a +1 luck bonus on attack rolls and damage rolls. This bonus improves to +2 at level 6, +3 at level 9, +4 at level 12, and +5 at level 15.
+
+Level 6: Your animal companions grow more dangerous. This alteration grants your animal companions a +2 enhancement bonus on their attacks. This bonus improves to +3 at level 9, +4 at level 12, and a +5 bonus at level 15.
+
+Level 8: Your animal companions grow in strength. This alteration grants your animal companions a +4 enhancement bonus to Strength.
+
+Level 10: Your animal companions grow in ferocity. This alteration grants your animal companions a +3 deflection bonus to Armor Class. This bonus improves to +4 at level 12.
+
+Level 11: Your animal companions grow in savageness. This alteration grants your animal companions a +4 natural armor bonus. This bonus improves to +5 at level 13 and grants your animal companions a 1d6 piercing damage shield.
+
+[color=#339933]Level 14: Your animal companions gain a second chance when near death. This alteration grants your animal companions a heal on death equal to 10 times your class level.[/color]
+
+Level 15: Your animal companions grow in size and strength. This alteration grants your animal companions a +8 enhancement bonus to Strength (replacing the +4 bonus gained at level 8).
+
+Level 16: Your animal companions grow in vitality. This alteration grants your animal companions a +4 enhancement bonus to Constitution.
+
+Level 19: Your animal companions grow in agility. This alteration grants your animal companions a +4 enhancement bonus to Dexterity.
+
+[/spoiler]
+
+I have a few questions and I'm working on testing and polishing the class now (so it probably won't make tomorrow but it will be available soon).
+
+Do you feel HiPS is a good feature for the class (it is gained at level 17 since it mirrors some of the Rangers progression)? I'm tempted to pull it and grant the BM Improved Evasion or possibly d8 HD.
+
+Companion Barding requires Natural Bond in order to take the feat. This is a problem because unless you multiclass Natural Bond is worthless for a Beastmaster. I'll probably add Natural Bond at level 1 to avoid this issue (it provides no benefit but it will be there for taking Companion Barding).
+
+Three new bonus feats I'm thinking of adding:
+
+Companion Shielding
+You add enchanted bracers of armor to your companions in order to replace the bulky chain barding. Instead of barding you add a new type of light and flexible armor meant to shield your pet from harm.
+Prerequisites: Companion Barding, Beastmaster.
+Benefit: Your companions gains a +4 shield enhance bonus.
+
+Greater Nature's Gift
+Prerequisites: Nature's Gift, Beastmaster
+Benefit: Your companions gain a +4 Con Enhance bonus (which stacks with the level 16 bonus) as well as 1 additional point of regeneration for every 10 Beastmaster levels (maximum +3 at level 30, minimum bonus of +1).
+
+Improved Natural Attack
+Prerequisites: Nature's Gift, Beastmaster, BAB +4
+Benefit: Your companions damage increases by one step (from d8 to 2d6). (Design note: this may be done as a +3 damage bonus)
+
+*
+
+New feat that is already done: 
+Epic Beastmaster Companions
+Prerequisite: Beastmaster 21
+Specifics: Your animal companion's abilities are determined as if you had three additional levels. Your companions will now be at (Level + 3) and (Level - 3).
+
+*
+
+I keep trying to think of a Background feat that applies for Beastmasters (something nice but not required) that somewhat competes with Tireless, Spellcasting Prodigy, and Luck of Heroes. Something that applies to Animal Companions (I'll try to come up with a new background for martial classes for the Knight update). Maybe a boost to pet speed (since that's a nice to have and not really needed).
+
+Anyone have any thoughts on additional feats (including a background feat)?
+
+
+
+
+Change set (new feats are in addition to those listed in the first post):
+
+HD improved to d8
+Medium Armor proficiency gained.
+HiPS removed at level 17.
+Steadfast Determination gained at level 17.
+
+The change being to focus more on using Stealth to set up ambushes but not to be a stealth class if that makes sense. Your pets go into stealth when you do so I'm not sure it's going to be possible to use hips or stealth defensively so this seems like a decent middle ground. You can still hide until the enemy is near perception range and then open up with your pets.
+
+New Background:
+Pack Hunter
+Requirements: Animal Companion
+Benefit: Your animal companions gain a +1 AB and +1 Dodge AC bonus. You and your companions gain a 30% move speed bonus. Additional bonus for Beastmasters without levels in any other class: you gain any regeneration your companions receive from Unstoppable Ferocity, Nature's Gift, or Greater Nature's Gift.
+
+New Feat: 
+Spirited Pack Warfare
+Requirements: Pack Hunter, Second Animal Companion
+Benefit: The move speed bonus of your companions improves to 50%. If you only have Beastmaster class levels, you and your companions gain a +1 Vampiric damage bonus on attacks for every 10 levels of Beastmaster (minimum +1, maximum +3).
+
+
+
+Currently, your first pet is equal to your BM level and your second pet is equal to your class level -6. 
+
+Epic Animal Companion has no effect at all. Beastmasters will get their own version of the feat that only affects BM pets (ie, raise it to BM 33 max for the extra +2 HD just like Druids/Rangers). I'll edit my original post to indicate that. I didn't mention it in the new stuff since it's already done.
+
+Natural Bond/Improved Natural Bond will not raise either of those values above where they are at. However, if you multiclass you CAN use those to regain lost BM levels.
+
+Examples:
+[list=1]
+[*]A level 20 BM has a BM 20 and BM 14 pet.
+[*]A level 10 BM/10 Fighter has a BM 10 and BM 4 pet.
+[*]A level 10 BM/10 Fighter with Natural Bond and Improved Natural Bond has a BM 16 and BM 10 pet.
+[*]A level 20 BM with Natural Bond and Improved Natural Bond has a BM 20 and BM 14 pet. Two wasted feats.
+[/list]

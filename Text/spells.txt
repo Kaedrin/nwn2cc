@@ -1,0 +1,2473 @@
+This list is current as of v1.39.6. I'll try to alphabetize it shortly.
+Last Updated: January 23, 2010
+
+A = Assassin, BG = Blackguard, C = Cleric/Favored Soul, D = Druid/Spirit Shaman, P = Paladin, R = Ranger, SW = Sorcerer/Wizard, Wlk = Warlock
+
+[[tabview]]
+
+[[tab Overview]]
+Angelskin (P2)
+Animal Growth (D5, R4)
+Awaken Sin (C3, P2)
+Blasphemy (Hate 7)
+Blessed Aim (B4, BG1, C1, P1, R3)
+Blessing of Bahumut (P3)
+Blessing of the Righteous (C4, P4)
+Blood of the Martyr (P4)
+Briar Web (D2, R2)
+Caster's Lament (Warlock - Dark)
+Castigate (C4, P4)
+Caustic Web (Warlock - Greater)
+Chasing Perfection (C6, P6, SW6)
+Cloak of Bravery (C3, P2)
+Dark Foresight (Warlock - Dark)
+Deadly Lahar (D8, SW8)
+Deafening Clang (P1)
+Draconic Might (P4)
+Eldritch Glaive (Wlk 1)
+Embrace the Wild (D2, R1)
+Energized Shield (C3, P2)
+Energized Shield, Lesser (C2, P1)
+Enrage Animal (D1, R1)
+Faerie Fire (D1)
+Flame of Faith (C3, P2)
+Flaywind Burst (C5, D5, SW5)
+Frightful Presence (Warlock - Lesser)
+Frost Breath (C2, D2, SW2)
+Halo of Sand (D2, R2)
+Hand of Divinity (BG2, C2, P2)
+Hawkeye (D2, R2)
+Heartfire (B2, D2)
+Hellspawned Grace (Warlock - Greater)
+Holy Word (Mysticism 7)
+Ignore the Pyre (Warlock - Lesser)
+Inspirational Boost (B1)
+Instill Vulnerability (Warlock - Dark)
+Lawful Sword (P4)
+Leonal's Roar (D8)
+Lesser Aura of Cold (D3, P4, R4)
+Lesser Visage of the Deity (BG4, C3, P4)
+Linked Perception (D2, R1)
+Lionheart (P1)
+Lion's Roar (C8)
+Living Undeath (C2)
+Mark of Justice (Fate 5)
+Nature's Favor (D2, R2)
+Nixie's Grace (B6)
+Orb of Acid (SW4)
+Orb of Acid, Lesser (SW1)
+Orb of Cold (SW4)
+Orb of Cold, Lesser (SW1)
+Orb of Electricity (SW4)
+Orb of Electricity, Lesser (SW1)
+Orb of Fire (SW4)
+Orb of Fire, Lesser (SW1)
+Orb of Force (SW4)
+Orb of Sound (SW4)
+Orb of Sound, Lesser (SW1)
+Phantom Bear (D9)
+Phantom Wolf (D8)
+Plant Body (D5)
+Repelling Blast (Warlock - Greater)
+Resonating Bolt (B4)
+Righteous Fury (P3)
+Scourge (Pestilience 7)
+Second Wind (P1)
+Shield of Warding (C3, P2)
+Silverbeard (P1)
+Sirine's Grace (B4, D5)
+Skin of the Cactus (D4, R3)
+Sonic Shield (B3)
+Sonic Weapon (B2)
+Sound Blast (B5, SW5)
+Splinterbolt (D2)
+Strategic Charge (BG1, P1)
+Strength of Stone (P2)
+Tempest Blast (Warlock - Lesser)
+Thorn Skin (D3)
+Trip Vine (D2, R2)
+Undead Bane Weapon (C4, P3)
+Undead Baneful Blast (Warlock - Lesser)
+Visage of the Deity (C6, Mysticism 5)
+Weapon of Energy (C3, SW3)
+Weapon of the Deity (BG3, C3, P3)
+Wild Instincts (D2, R3)
+Zeal (BG2, Competition 2, P2)
+[[/tab]]
+
+[[tab Complete Spell Descriptions]]
+These are spells which I have added to the game. 
+[[table style="margin: 0 0px;"]]
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Splinterbolt**
+Caster Level(s): Druid 2
+Innate Level: 2
+School: Conjuration
+Component(s): Verbal, Somatic, Material
+Range: Short
+Area of Effect / Target: One creature
+Duration: Instantaneous
+Save: None
+Spell Resistance: No
+
+You must make a ranged attack to hit the target. If you hit, the splinterbolt deals 4d6 points of magic damage. You can fire one additional splinterbolt for every 4 levels beyond 3rd (to a maximum of three at 11th level).
+
+This spell gains the benefit of Sneak Attack or Death Attack when appropriate.
+
+<i>You extend your hand toward your foe, flicking a single sliver of wood into the air, and a splinter larger than a titan's javelin whistles through the air.</i>
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lesser Aura of Cold**
+Caster Level(s): Cleric 3, Druid 3, Paladin 4, Ranger 4
+Innate Level: 3
+School: Transmutation
+Descriptor(s): Cold
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: 5-ft.-radius sphere centered on you
+Duration: 1 round/level 
+You are covered in a thin layer of white frost and frigid cold emanates from your body, dealing 1d6 points of cold damage at the start of your round to each creature within 5 feet.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Animal Growth**
+Transmutation
+Levels: Druid 5, Ranger 4
+Components: V, S
+Target: Animal Companion.
+Duration: 1 minute/level.
+
+Your animal companion grows in size and strength. This alteration grants your animal companion a +8 enhancement bonus to Strength, a +4 enhancement bonus to Constitution, a +1 Dodge AC bonus, and imposes a -2 penalty to Dexterity and -1 penalty to attack bonus. This spell only affects animals (standard animal companions and the dinosaur).
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Enrage Animal**
+Necromancy
+Level: Druid 1, Ranger 1
+Components: V, S
+Range: Long
+Target: One animal companion
+Duration: 1 round/level
+
+Enrage animal bestows the effects of the whirlwind frenzy rage: a +4 bonus to Strength and a +2 dodge bonus to Armor Class and on Reflex saves. While in a whirling frenzy, the animal companion may make one extra attack in a round at its highest base attack bonus, but this attack takes a -2 penalty, as does each other attack made that round.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Halo of Sand**
+Abjuration (Earth)
+Level: Druid 2, Ranger 2
+Components: V,S
+Range: Personal
+Duration: 10 min/level
+
+Halo of sand creates a thin band of sand that swirls and twists around your body, helping to deflect incoming attacks. This halo grants a +1 deflection bonus to AC which increases by 1 for every 3 caster levels above 3rd, to a maximum of +4 at caster level 12th.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Skin of the Cactus**
+Abjuration
+Caster Level(s): Druid 4, Ranger 3
+Innate Level: 4
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Living creature touched
+Duration: 10 minutes/level
+
+This spell grants a living creature the toughness, resilience, and needles of a cactus. The effect grants a +3 enhancement bonus to the creature's existing natural armor bonus. This enhancement bonus increases to +4 at caster level 10th and to a maximum of +5 at caster level 13th.
+
+In addition to the enhancement bonus, skin of the cactus causes the subject to grow needles from its skin, clothing, or armor. Any creature striking it will take 1d6 points of piercing damage from the needles.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Briar Web**
+Transmutation
+Caster Level(s): Druid 2, Ranger 2
+Component(s): Verbal, Somatic
+Range: Medium
+Area of Effect / Target: 40-ft.-radius spread
+Duration: 3 minutes.
+Save: None
+Spell Resistance: No
+
+This spell causes grasses, weeds, bushes, and even trees to grow thorns and wrap and twist around creatures in or entering the area. The spell's area becomes difficult terrain and creatures move at half speed within the affected area. Any creature moving through the area or that stays within it takes 6 points of piercing damage.
+
+A creature with <i>Freedom of Movement</i> or the woodland stride ability is unaffected by this spell.
+
+<i>With a sound like a thousand knives being unsheathed, the plants in the area grow sharp thorns and warp into a thick briar patch.</i>
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Embrace the Wild**
+Transmutation
+Level: Druid 2, Ranger 1
+Components: V
+Range: Personal
+Target: Self
+Duration: 10 minutes/level
+
+Upon casting the spell, you gain the senses of animal creatures. You gain low-light vision and blind-fighting. You also gain a +2 bonus on Listen and Spot checks.
+
+<i>While picturing a certain kind of animal in your mind, you cry out in imitation of its most common call. Immediately thereafter, you perceive your surroundings as the animal you imagined would.</i>
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Linked Perception**
+Divination
+Level: Druid 2, Ranger 1
+Components: VS
+Area: 20-ft.-radius centered on you
+Duration: 1 minute/level
+
+This spell imparts to all allies in its area a shared awareness of their surroundings. Each ally in the area (including yourself) gains a +2 bonus on Spot and Listen checks per each ally in the area. For example, if you and three allies are in the area, each of you gains a +6 bonus.
+
+<i>Your senses are muddied for a moment, but when they clear, your sight and hearing are improved.</i>
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Hawkeye**
+Transmutation
+Level: Druid 1, Ranger 1
+Components: V
+Range: Personal
+Target: You
+Duration: 10 minute/level
+
+You gain a +5 bonus on Spot checks and a +1 attack bonus with ranged weapons.
+
+<i>By crying out like a hawk, you improve your eyesight. Distant objects and creatures seem closer and more distinct.</i>
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Trip Vine**
+Transmutation
+Level: Druid 2, Ranger 2
+Components: VS
+Range: Medium
+Area: 20-ft.-radius
+Duration: 3 minutes
+Saving Throw: Reflex negates
+Spell Resistance: No
+
+Trip vine causes plants within the area to grow together to form a tangle. Any creature entering or within the affected area must succeed on a Reflex save or be knocked down.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Caster's Lament**
+Invocation Type: Dark; 
+Spell Level Equivalent: 8
+
+Greater Dispelling attempts to strip all magical effects from a single target. To remove an effect, you make a dispel check of 1d20 +1 per caster level (to a maximum of +15) against a DC of 11 + the spell effect's caster level.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Caustic Web**
+Invocation Type: Greater; 
+Spell Level Equivalent: 4
+
+Sticky strands cling to all creatures within the area of effect, entangling them. Creatures who make their save can move, but at a reduced rate dependent on their Strength. Entering the web causes 2d6 points of acid damage while those that remain within the area suffer 1d6 points of damage each round.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Dark Foresight**
+Invocation Type: Dark
+Spell Level Equivalent: 9
+
+Your dark powers allow you to foresee flashes of the future, granting you +2 Dodge AC, +2 Reflex AC, and Immunity to Sneak Attacks for 10 minutes per warlock level. This invocation can only be used on one target at a time.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Frightful Presence**
+Invocation Type: Lesser;
+Spell Level Equivalent: 3
+
+Any enemies within 30 feet of you who fail a Will save become shaken for 10 minutes. This is a mind-affecting fear effect. The shaken effect applies a -2 penalty to attack bonus, skills, and damage.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Hellspawned Grace**
+Invocation Type: Greater; 
+Spell Level Equivalent: 6
+
+You take on the form and statistics of an agile hellhound for a number of rounds equal to your invocation caster level. This is a polymorph effect.
+
+Hellhound statistics
+Speed: Fast
+AC: +7 Natural AC
+Melee: 2 claws (d8), 1 bite (2d8)
+Special Qualities: Damage Reduction: 5/Good, Darkvision, Improved Invisibility, Resistance to fire 10, Blind-Fight, Spell Resistance 19, Dodge, Improved Initiative, and 50% concealment.
+Abilities: Str 23, Dex 21, Con 17
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Ignore the Pyre**
+Invocation Type: Lesser; 
+Spell Level Equivalent: 4
+
+When you use this invocation, you gain remarkable resilience to any one energy type (acid, cold, electricity, fire, or sonic). For 24 hours, you gain resistance equal to your invocation caster level against the energy type of your choice.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Instill Vulnerability**
+Invocation Type: Dark; 
+Spell Level Equivalent: 7
+
+You imbue a single creature within 30 feet with vulnerability to a particular type of energy (acid, cold, electricity, fire, or sonic). A successful Fortitude save negates the effect. 
+
+The vulnerability lasts for 24 hours or until you use the invocation on the creature a second time, in which case the first effect ends and the new vulnerability and duration take effect.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Repelling Blast**
+Invocation Type: Greater; Eldritch Essence
+Spell Level Equivalent: 6
+
+This eldritch essence invocation allows you to change your eldritch blast into a repelling blast. Anyone failing a Reflex save is knocked down for 4 seconds.
+NOTE: This blast is a point-blank area-of-effect blast centered on the caster that only affects hostiles and requires a ranged touch attack to hit.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Tempest Blast**
+Invocation Type: Lesser; Eldritch Essence
+Spell Level Equivalent: 4
+
+This eldritch essence invocation allows you to change your eldritch blast into a tempest blast. This blast deals electrical damage and any creatures failing a Reflex save are dazed for 1 round.
+NOTE: This blast is a point-blank area-of-effect blast centered on the caster that only affects hostiles and requires a ranged touch attack to hit.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Undead Baneful Blast**
+Invocation Type: Lesser; Eldritch Essence
+Spell Level Equivalent: 3
+
+This eldritch essence invocation allows you to change your eldritch blast into an undead bane blast. Undead take an additional +2d6 damage from this essence. 
+NOTE: This blast is a point-blank area-of-effect blast centered on the caster that only affects hostiles and requires a ranged touch attack to hit.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Angelskin**
+Caster Level(s): Paladin 2
+Innate Level: 2
+School: Abjuration
+Descriptor(s): Good
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Single
+Duration: 1 round / level
+Save: None
+Spell Resistance: No
+
+The subject gains Damage Reduction 5/Adamantine and Damage Resistance 5/Negative Energy for 1 round/level.
+
+<i>You touch your ally with the holy symbol and invoke the blessed words.  An opalescent glow spreads across her skin, imbuing it with a pearl-like sheen.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Awaken Sin**
+Caster Level(s): Paladin 2, Cleric 3
+Innate Level: 3
+School: Enchantment
+Descriptor(s): Fear, Good, Mind-Affecting
+Component(s): Verbal, Somatic
+Range: Touch.
+Area of Effect / Target: One evil creature with Intelligence 3+
+Duration: Instantaneous
+Save: Will negates
+Spell Resistance: Yes
+
+The subject immediately takes 1d6 points of blunt damage per caster level (maximum 10d6) and is stunned for 1 round.  
+
+<i>A command for repentance issues from your mouth, carrying with it the power of the spell.  The crushing feeling of guilt that grew within you while you cast the spell lifts as you project the feeling at your target.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Blessed Aim**
+Caster Level(s): Paladin 1, Cleric 1, Blackguard 1
+Innate Level: 1
+School: Divination
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: 50 ft.
+Area of Effect / Target: 50-ft.-radius spread centered on you
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+This spell grants your allies within the spread a +2 morale bonus on ranged attack rolls.
+
+<i>With the blessing of your deity, you bolster your allies' aim with an exhortation.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Blessing of Bahumut**
+Caster Level(s): Paladin 3
+Innate Level: 3
+School: Abjuration
+Descriptor(s): Good
+Component(s): Verbal, Somatic, Material
+Range: Personal
+Area of Effect / Target: Self
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+You gain damage reduction 10/Adamantine for the spell's duration.
+
+<i>You hear a distant dragon's roar that no one else detects, and your skin takes on a platinum sheen.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Blessing of the Righteous**
+Caster Level(s): Paladin 4, Cleric 4
+Innate Level: 4
+School: Evocation
+Descriptor(s): Good
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: All allies in a 40-ft.-radius burst centered on you
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+You bless yourself and your allies.  You and your allies' melee and ranged attacks deal an extra 1d6 points of holy damage and are considered good-aligned for the purpose of overcoming damage reduction.
+
+<i>A sudden burst of warm, radiant light engulfs you and your allies.  The light fades quickly but lingers on the weapons of those affected.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Castigate**
+Caster Level(s): Paladin 4, Cleric 4, Purification 4
+Innate Level: 4
+School: Evocation
+Descriptor(s): Sonic
+Component(s): Verbal
+Range: 10 ft.
+Area of Effect / Target: 10-ft.-radius burst centered on you
+Duration: Instantaneous
+Save: Fortitude half
+Spell Resistance: Yes
+
+This spell has no effect on creatures that cannot hear.  All creatures whose alignment differs from yours on both the law-chaos and the good-evil axes take 1d4 points of damage per caster level (maximum 10d4).  All creatures whose alignment differs from yours on one component take half damage, and this spell does not deal damage to those who share your alignment.
+
+<i>Shouting your deity's teachings, you rebuke your foes with the magic of your sacred words.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Cloak of Bravery**
+Caster Level(s): Paladin 2, Cleric 3, Courage 3
+Innate Level: 3
+School: Abjuration
+Descriptor(s): Mind-Affecting
+Component(s): Verbal, Somatic
+Range: 60 ft.
+Area of Effect / Target: 60-ft.-radius burst centered on you
+Duration: 10 minutes/level
+Save: No
+Spell Resistance: No
+
+All allies within the emanation (including you) gain a morale bonus on saves against fear effects equal to your caster level (to a maximum of +10 at caster level 10th).
+
+<i>Summoning up your courage, you throw out your arm and sweet it over the area, cloaking all your allies in a glittering mantle of magic that bolsters their bravery.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+
+Deadly Lahar
+Conjuration (Earth, Fire)
+Level: Druid 8, Sorcerer/Wizard 8
+Components: V,S
+Range: 60 ft.
+Area: Cone
+Duration: Instant
+Saving Throw: Reflex partial
+Spell Resistance: No
+
+You create a liquid landslide of molten-hot volcanic material. All creatures in the area of the spell take 10d6 points of fire damage. Additionally, those creatures are coated in a thick layer of viscous substance, slowing them for the next 3 rounds and dealing an additional 5d6 points of dire damage per round. A successful Reflex save reduces the initial damage by half and prevents the slow effect and the additional damage.
+
+<i>A rushing torrent of liquid rock bursts from the ground, washing over your foes.</i>
+
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Deafening Clang**
+Caster Level(s): Paladin 1
+Innate Level: 1
+School: Transmutation
+Descriptor(s): Sonic
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Your Weapon
+Duration: 1 round / level
+Save: None
+Spell Resistance: No
+
+You empower the touched weapon with magic that causes it to emit a loud clang when it is struck against a hard surface, such as a floor, wall, or creature.  The weapon deals 1d6 points of sonic damage with each successful hit, and any creature struck by the weapon must succeed on a Fortitude saving throw or be deafened for 1 minute.
+
+<i>At your touch, the weapon rings like a struck tuning fork.  The sound diminishes until it's imperceptible, but when you touch the weapon you can feel the vibration.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Draconic Might**
+Caster Level(s): Paladin 4
+Innate Level: 4
+School: Transmutation
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Living creature touched
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+The subject of the spell gains a +4 enhancement bonus to Strength, Constitution, and Charisma.  It also gains a +4 enhancement bonus to natural armor.  Finally, it has immunity to magic sleep and paralysis effects.
+
+<i>Upon casting this spell, your ally's face is covered briefly with a fine pattern of yellow scales.  The scales fade, but the golden radiance remains.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lesser Energized Shield**
+Caster Level(s): Paladin 1, Cleric 2
+Innate Level: 2
+School: Abjuration
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Shield touched
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+When this spell is cast, the shield touched appears to be made entirely out of one type of energy (fire, cold, electricity, acid, or sonic).  Whoever bears the shield gains resistance 5 against the chosen energy type.  Additionally, if the wielder is hit with an attack, the attacker takes 1d6 points of the appropriate energy damage.  The energy type must be chosen when the spell is cast and cannot be changed during the duration of the spell.  The energy resistance overlaps (and does not stack) with resist elements.  A given shield cannot be the subject of more than one lesser energized shield or energized shield spell at the same time.
+
+<i>A silver aura surrounds the touched shield for a moment before it appears to transform into the chosen type of energy.  The shield hums with power.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Energized Shield**
+Caster Level(s): Paladin 2, Cleric 3
+Innate Level: 3
+School: Abjuration
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Shield touched
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+When this spell is cast, the shield touched appears to be made entirely out of one type of energy (fire, cold, electricity, acid, or sonic).  Whoever bears the shield gains resistance 10 against the chosen energy type.  Additionally, if the wielder is hit with an attack, the attacker takes 2d6 points of the appropriate energy damage.  The energy type must be chosen when the spell is cast and cannot be changed during the duration of the spell.  The energy resistance overlaps (and does not stack) with resist elements.  A given shield cannot be the subject of more than one lesser energized shield or energized shield spell at the same time.
+
+<i>A silver aura surrounds the touched shield for a moment before it appears to transform into the chosen type of energy.  The shield hums with power.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Eldritch Glaive**
+
+Invocation Type: Least; Blast Shape
+Spell Level Equivalent: 2
+
+Your eldritch blast takes on physical substance, appearing similar to a glaive. As a full-round action, you can make a single melee touch attack. If you hit, your target is affected as if struck by your eldritch blast (including any eldritch essence applied to the blast).
+
+If your base attack bonus is +6 or higher, you can (as part of the full-round action) make as many attacks with your <i>eldritch glaive</i> as your base attack bonus allows (maximum of 4). For example, a 12th-level warlock could attack twice, once with a base attack bonus of +9, and again with a base attack bonus of +4.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Flame of Faith**
+Caster Level(s): Paladin 2, Cleric 3
+Innate Level: 3
+School: Evocation
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Weapon touched
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+You can temporarily turn any single normal or masterwork melee weapon into a magic, flaming one.  For the duration of the spell, the weapon acts as a +1 flaming burst weapon.
+
+<i>Using your faith as a guide for your magic, you touch the weapon and it bursts into flame.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+Flaywind Burst
+Evocation (Air, Earth)
+Level: Cleric 5, Druid 5, Sorcerer/Wizard 5
+Components: V,S
+Range: 60'
+Area: Cone-shaped burst
+Duration: Instant
+Saving Throw: Reflex half
+Spell Resistance: No
+
+This spell produces a brief windstorm, filled with scouring, supernatural grit that literally strips flesh. Creatures within the area take 1d6 points of damage per caster level (maximum 10d6) from the scouring sands and are knocked down. A successful Reflex save halves this damage and avoids the knockdown effect.
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+Frost Breath
+Caster Level(s): Cleric 2, Druid 2, Sorcerer/Wizard 2
+Innate Level: 2
+School: Evocation
+Descriptor(s): Cold
+Component(s): Verbal, Somatic, Material
+Range: Personal
+Area of Effect / Target: 30-ft. cone-shaped burst
+Duration: Instantaneous
+Save: Reflex half
+Spell Resistance: Yes
+
+You breathe a cone of intense cold at your foes. The spell deals 1d4 points of cold damage per two caster levels (maximum 5d4). In addition, all creatures damaged by the frost breath that fail their Reflex save are dazed for 1 round by the sudden shock of cold.
+
+<i>Giving a forceful exhale across your cupped hand, your breath shoots forth tinged with frost and crystals of ice.</i>
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Hand of Divinity**
+Caster Level(s): Paladin 2, Cleric 2, Blackguard 2
+Innate Level: 2
+School: Evocation
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Creature touched
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+If your deity is non-evil, this spell grants a +2 sacred bonus on saving throws, and the spell is a good spell.  If your deity is evil, this spell grants a +2 profane bonus on saving throws, and the spell is an evil spell.
+
+This spell works only on a creature with the same deity as you or the same alignment as your deity.  If cast on a target that does not meet this criteria, the spell has no effect.
+
+<i>You call upon your beliefs and a great pair of hands appears around your target, cradling it in its power.  The effect fades, but your target briefly glows with a healthy orange nimbus.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lawful Sword**
+Caster Level(s): Paladin 4
+Innate Level: 4
+School: Evocation
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Weapon touched
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+This spell functions like holy sword, except as follows.  The weapon functions as a +5 axiomatic weapon (+5 enhancement bonus on attack rolls and damage rolls, lawful-aligned, deals an extra 2d6 points of damage against chaotic opponents).  It also emits a magic circle against chaos effect (as the spell).
+
+<i>Calling to mind thoughts of justice, you run your fingers along the weapon, imbuing it with power.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lesser Visage of the Deity**
+Caster Level(s): Blackguard 4, Cleric 3, Mysticism 3, Paladin 4
+Innate Level: 4
+School: Transmutation
+Descriptor(s): Evil or Good
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+You gain a +4 enhancement bonus to Charisma.  You also gain resistance to acid 10, cold 10, and electricity 10 if you are good, or resistance to cold 10 and fire 10 if you are evil.
+
+<i>As you end your prayer, you can feel the hand of your deity upon you.  Your appearance reflects her divine power, and her touch grants you resistance from some of the damage of this world.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lionheart**
+Caster Level(s): Paladin 1
+Innate Level: 1
+School: Abjuration 
+Descriptor(s): Mind-Affecting
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Creature touched
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+The subject gains immunity to fear effects.
+
+<i>You touch your ally while intoning the spell.  Where your finger touches, a warm glow appears, then fades.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Righteous Fury**
+Caster Level(s): Paladin 3
+Innate Level: 3
+School: Transmutation 
+Descriptor(s):
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+Summoning the power of your deity, you charge yourself with positive energy.  This gives you 5 temporary hit points per caster level (maximum 50), a +2 bonus on attack rolls, and +2 points of divine damage on attacks.  These temporary hit points last for up to 1 hour.
+
+<i>You pull a holy aura about you that glows a golden red.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Second Wind**
+Caster Level(s): Paladin 1
+Innate Level: 1
+School: Transmutation 
+Descriptor(s):
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Creature touched
+Duration: 1 hour/level
+Save: None
+Spell Resistance: No
+
+This spell grants the Toughness feat for an hour per level.
+
+<i>You feel slightly winded but energized, as if having just run a long distance but knowing you could run farther.  When touching the spell's intended recipient, your breathing returns to normal but you note the spell's subject heaves a deep, refreshing breath.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Shield of Warding**
+Caster Level(s): Cleric 3, Paladin 2
+Innate Level: 3
+School: Abjuration  
+Descriptor(s):  Good
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: One shield or buckler touched
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+The touched shield or buckler grants its wielder a +1 sacred bonus to Armor Class and on Reflex saves, +1 per five caster levels (maximum +5 at 20th level).  The bonus applies only when the shield is worn or carried normally (but not, for instance, if it is slung over the shoulder). Clerics and Favored Souls only recieve the Reflex save bonus.
+
+<i>You press your palm against the shield and speak the words of power.  A silver radiance, in the shape of your holy symbol spreads over the shield.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Silverbeard**
+Caster Level(s): Paladin 1
+Innate Level: 1
+School: Transmutation  
+Descriptor(s):
+Component(s): Verbal
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+Your beard grows and turns to pure and magically hardened silver, providing you with a +2 sacred bonus to AC.  If you do not have a beard, you grow one for the duration of this spell (even if you are a creature that cannot normally grow a beard, such as an elf or a female human).  You also gain a +2 Diplomacy bonus.
+
+<i>You evoke the greater powers of good, and your beard stiffens, turning metallic and reaching halfway down your chest, giving you greater protection.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Strategic Charge**
+Caster Level(s): Blackguard 1, Paladin 1
+Innate Level: 1
+School: Abjuration  
+Descriptor(s):
+Component(s): Verbal
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+You gain the benefit of the Mobility feat, even if you do not meet the prerequisites.  You do not have to be charging to gain this benefit.
+
+<i>A red nimbus surrounds you as you move smoothly across the crowded battlefield.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Strength of Stone**
+Caster Level(s): Paladin 2
+Innate Level: 2
+School: Transmutation  
+Descriptor(s):
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 round/level.
+Save: None
+Spell Resistance: No
+
+The spell grants you a +8 enhancement bonus to Strength.  The spell ends instantly if you lose contact with the ground.
+
+<i>You call upon the fortitude of the powers of good, and your flesh turns an ivory-gray hue as you draw power up through the earth itself.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Undead Bane Weapon**
+Caster Level(s): Cleric 4, Paladin 3
+Innate Level: 4
+School: Transmutation  
+Descriptor(s):
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Weapon touched
+Duration: 1 hour/level
+Save: None
+Spell Resistance: No
+
+You give a weapon the undead bane special ability in addition to any other properties it has.  Against undead, your weapon's enhancement bonus is 2 higher than normal, and it deals an extra 2d6 points of damage against undead.  The spell has no effect if cast upon a weapon that already has the undead bane special ability.
+
+Alternatively, you can affect up to fifty arrows, bolts, or bullets.
+
+The weapon is treated as good-aligned for the purpose of overcoming damage reduction.
+
+<i>Your hand glows with a dull light, and when you touch the weapon, the light shifts to it, so that it sheds a serene gray radiance as bright as a candle.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Weapon of the Deity**
+Caster Level(s): Blackguard 3, Cleric 3, Paladin 3
+Innate Level: 3
+School: Transmutation  
+Descriptor(s):
+Component(s): Verbal
+Range: Touch
+Area of Effect / Target: Weapon touched
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+The weapon gains a +1 enhancement bonus on attack rolls and damage rolls and the additional special ability Keen. 
+
+When you reach caster level 9th, the enhancement bonus of the weapon increases to +2.  At 12th level, the bonus rises to +3, at 15th level it is +4, and at 18th level it becomes +5.
+
+<i>Wielding the weapon your deity favors, you call upon that divine force to imbue it with power.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Zeal**
+Caster Level(s): Competition 2, Blackguard 2, Paladin 2
+Innate Level: 2
+School: Abjuration  
+Descriptor(s):
+Component(s): Verbal
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+You are treated as having the Spring Attack and Uncanny Dodge feats.
+
+<i>You invoke a divine shield to protect you as you close with a chosen opponent.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Blood of the Martyr**
+Caster Level(s): Cleric 4, Paladin 4
+Innate Level: 4
+School: Necromancy  
+Descriptor(s):
+Component(s): Verbal, Somatic
+Range: Medium (100' + 10'/level)
+Area of Effect / Target: Target Creature
+Duration: None
+Save: None
+Spell Resistance: No
+
+You may transfer your own hit points directly to a target creature within range.  You must transfer at least 20 points.  Transferred hit points are damage to you.  The creature takes your transferred hit points as if receiving a <i>cure wounds</i> spell and cannot gain more hit points than its maximum allows; any excess points are lost.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Righteous Glory**
+Caster Level(s): Paladin 4
+Innate Level: 4
+School: Abjuration  
+Descriptor(s):
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+Summoning the power of your deity, you wrap yourself with a divine glow.  This gives you a +4 sacred bonus to Charisma.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Blasphemy**
+Caster Level(s): Hatred 7
+Innate Level: 7
+School: Transmutation
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: 40'
+Area of Effect / Target: Enemies within 40'
+Duration: Varies (see details)
+Save: None or Will Negates (see details)
+Spell Resistance: Yes
+
+Any nonevil creature within the area of a blasphemy spell suffers the following ill effects.
+
+Equal to caster level: Dazed 
+Up to caster level -1: Weakened, dazed 
+Up to caster level -5: Paralyzed, weakened, dazed 
+Up to caster level -10: Killed, paralyzed, weakened, dazed 
+
+The effects are cumulative and concurrent. 
+No saving throw is allowed against these effects. 
+
+Dazed
+The creature can take no actions for 1 round, though it defends itself normally. 
+
+Weakened
+The creature’s Strength score decreases by 2d6 points for 2d4 rounds. 
+
+Paralyzed
+The creature is paralyzed and helpless for 1d10 minutes. 
+
+Killed
+Living creatures die. Undead creatures are destroyed. 
+
+Furthermore, if you are on your home plane when you cast this spell, nonevil extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the blasphemy. The banishment effect allows a Will save (at a -4 penalty) to negate. 
+
+Creatures whose Hit Dice exceed your caster level are unaffected by blasphemy. 
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Holy Word**
+Caster Level(s): Mysticism 7
+Innate Level: 7
+School: Transmutation
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: 40'
+Area of Effect / Target: Enemies within 40'
+Duration: Varies (see details)
+Save: None or Will Negates (see details)
+Spell Resistance: Yes
+
+Any nongood creature within the area of a holy word spell suffers the following ill effects.
+
+Equal to caster level: Dazed 
+Up to caster level -1: Weakened, dazed 
+Up to caster level -5: Paralyzed, weakened, dazed 
+Up to caster level -10: Killed, paralyzed, weakened, dazed 
+
+The effects are cumulative and concurrent. 
+No saving throw is allowed against these effects. 
+
+Dazed
+The creature can take no actions for 1 round, though it defends itself normally. 
+
+Weakened
+The creature’s Strength score decreases by 2d6 points for 2d4 rounds. 
+
+Paralyzed
+The creature is paralyzed and helpless for 1d10 minutes. 
+
+Killed
+Living creatures die. Undead creatures are destroyed. 
+
+Furthermore, if you are on your home plane when you cast this spell, nongood extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the holy word. The banishment effect allows a Will save (at a -4 penalty) to negate. 
+
+Creatures whose Hit Dice exceed your caster level are unaffected by holy word. 
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Visage of the Deity**
+Caster Level(s): Cleric 6, Mysticism 5
+Innate Level: 6
+School: Transmutation
+Descriptor(s): Evil or Good
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+You gain a 20 Spell Resistance, Damage Reduction: 10/Adamantine, and Darkvision.  You also gain resistance to acid 20, cold 20, and electricity 20 if you are good, or resistance to cold 20 and fire 20 if you are evil.
+
+<i>As you end your prayer, you can feel the hand of your deity upon you.  Your appearance reflects her divine power, and her touch grants you resistance from some of the damage of this world.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Scourge**
+Caster Level(s): Pestilence 7
+Innate Level: 7
+School: Necromancy
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: 400'
+Area of Effect / Target: Enemies within 60'
+Duration: Permanent
+Save: None or Will Negates (see details)
+Spell Resistance: Yes
+
+The target creatures are infected with a vile disease unless they Succeed on a Fortitude save.  Once it has infected a creature, the disease immediately deals d6 points of Strength damage and d6 points of Dexterity damage.  The symptoms persist until the creature receives a <i>remove curse</i> spell.
+
+<i>Picking out those you wish revenge upon, you cause their bodies to erupt in painful and debilitating blackened boils, magenta blotches, violet lesions, seeping abscesses, and malignant cysts.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Chasing Perfection**
+Caster Level(s): Cleric 6, Druid 6, Sorcerer/Wizard 6
+Innate Level: 6
+School: Transmutation  
+Descriptor(s):
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Creature touched
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+The subject improves in all ways.  It gains a +4 enhancement bonus to each of its ability scores.
+
+<i>Energy courses through the creature touched.  Its muscles grow and become more defined, it starts to move with greater alacrity and grace, and its bearing increases.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Sonic Shield**
+Caster Level(s): Bard 3
+Innate Level: 5
+School: Evocation  
+Descriptor(s):
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+This spell grants you a +4 deflection bonus to AC.  In addition, anyone who successfully hits you with an attack takes 1d8 sonic damage.  
+
+<i>The air around you shifts and shimmers as a field of pure sonic energy forms before you.  This shield repels all attacks with a blast of energy that sends the attacker stumbling backward.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Inspirational Boost**
+Caster Level(s): Bard 1
+Innate Level: 1
+School: Enchantment  
+Descriptor(s): Mind-Affecting, Sonic
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 minute/level.
+Save: None
+Spell Resistance: No
+
+The morale bonus granted by your inspire courage bardic music increases by 1.  
+
+<i>You concentrate on assisting your friends as you begin the short chant and simple hand-chopping motion necessary to cast the spell.  As you finish, the spell's chant allows you to segue easily into bolstering your allies.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lion's Roar**
+Caster Level(s): Cleric 8, Courage 8
+Innate Level: 8
+School: Evocation  
+Descriptor(s): Sonic
+Component(s): Verbal, Somatic
+Range: 120 ft.
+Area of Effect / Target: 120 ft. radius burst centered on you
+Duration: Instantaneous or 1 minute/level (see text)
+Save: Fortitude partial
+Spell Resistance: Yes
+
+All enemies within the spell's area take 1d8 points of sonic damage per two caster levels (maximum 10d8) and are stunned for 1 round.  A successful Fortitude save halves the damage and negates the stunning effect.
+
+In addition, all allies within the spell's area gain +1 morale bonus on attack rolls and saves against fear effects, plus temporary hit points equal to 1d8 + caster level (to a maximum of 1d8 + 20 temporary hit points at caster level 20th).
+
+<i>You open your mouth and emit a tremendous roar, a sound like a lion but as loud as a mountain falling.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Living Undeath**
+Caster Level(s): Cleric 2
+Innate Level: 2
+School: Necromancy  
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Creature touched
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+This spell imparts a physical transformation upon the subject, not unlike the process that produces a zombie.  While the subject does not actually become the undead, its vital processes are temporarily bypassed with no seeming ill effect.  The subject is not subject to sneak attacks and critical hits for the duration of the spell, as if it were undead.
+
+While the spell is in effect, the subject takes a -4 penalty to its Charisma score.
+
+<i>You invoke the will of your gods and your skin sags and becomes sallow, your eyes hollow, and your flesh foul and rotted.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Nature's Favor**
+Caster Level(s): Druid 2, Ranger 2
+Innate Level: 2
+School: Evocation  
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Animal Companion touched
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+You grant the subject animal companion a +1 luck bonus on attack rolls and damage rolls for every three caster levels you possess (maximum +5).
+
+<i>Rubbing the animal's side, you whisper the final bit of the spell's ritual.  The animal glances at you before turning its attention to your foes, bristling as it does so.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Nixie's Grace**
+Caster Level(s): Bard 6
+Innate Level: 6
+School: Transmutation  
+Descriptor(s): Water
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: You
+Duration: 10 minutes/level
+Save: None
+Spell Resistance: No
+
+This potent spell infuses you with powerful fey magic, granting you many of the traits and abilities of a nixie.  You gain low-light vision and damage reduction 5/cold iron.  You also gain a +6 enhancement bonus to Dexterity, a +2 enhancement bonus to Wisdom, and a +8 enhancement bonus to Charisma.
+
+<i>You feel a longing for cool waters, and a forceful confidence manifests within you.  Your movements and thoughts become filled with grace.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Orb of Cold**
+Caster Level(s): Sorcerer/Wizard 4
+Innate Level: 4
+School: Conjuration  
+Descriptor(s): Cold
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of cold about 3 inches across shoots from your palm at its target, dealing 1d6 points of cold damage per caster level (maximum 15d6).  You must succeed on a ranged touch attack to hit your target.
+
+In addition, a creature struck by an orb of cold must make a Fortitude save or be blinded for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>Your hand takes on a blue tint and your fingers turn numb and unresponisve as you complete the spell.  From your chilled palm flies an orb composed of blue ice.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lesser Orb of Cold**
+Caster Level(s): Sorcerer/Wizard 1
+Innate Level: 1
+School: Conjuration  
+Descriptor(s): Cold
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of cold about 2 inches across shoots from your palm at its target, dealing 1d8 points of cold damage per two caster levels (maximum 5d8).  You must succeed on a ranged touch attack to hit your target.
+
+In addition, a creature struck by an orb of cold must make a Fortitude save or be blinded for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>Your hand takes on a blue tint and your fingers turn numb and unresponisve as you complete the spell.  From your chilled palm flies an orb composed of blue ice.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Orb of Electricity**
+Caster Level(s): Sorcerer/Wizard 4
+Innate Level: 4
+School: Conjuration  
+Descriptor(s): Electricity
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of electricity about 3 inches across shoots from your palm at its target, dealing 1d6 points of electrical damage per caster level (maximum 15d6).  You must succeed on a ranged touch attack to hit your target.
+
+In addition, a creature struck by an orb of electricity must make a Fortitude save or be slowed for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>The air crackles around your outstrectched hand and the smell of ozone assaults your nostrils as a ball of electrical energy, its surface crackling with bolts of lightning, streaks from your opened palm.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lesser Orb of Electricity**
+Caster Level(s): Sorcerer/Wizard 1
+Innate Level: 1
+School: Conjuration  
+Descriptor(s): Electricity
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of electricity about 2 inches across shoots from your palm at its target, dealing 1d8 points of electrical damage per two caster levels (maximum 5d8).  You must succeed on a ranged touch attack to hit your target.
+
+In addition, a creature struck by an orb of electricity must make a Fortitude save or be slowed for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>The air crackles around your outstrectched hand and the smell of ozone assaults your nostrils as a ball of electrical energy, its surface crackling with bolts of lightning, streaks from your opened palm.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Orb of Fire**
+Caster Level(s): Sorcerer/Wizard 4
+Innate Level: 4
+School: Conjuration  
+Descriptor(s): Fire
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of fire about 3 inches across shoots from your palm at its target, dealing 1d6 points of fire damage per caster level (maximum 15d6).  You must succeed on a ranged touch attack to hit your target.
+
+In addition, a creature struck by an orb of fire must make a Fortitude save or be dazed for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>Your hand heats to an uncomfortable temperature just moments before you release the spell's energy in the form of an orb of white flames speeding from your outward facing palm.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lesser Orb of Fire**
+Caster Level(s): Sorcerer/Wizard 1
+Innate Level: 1
+School: Conjuration  
+Descriptor(s): Fire
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of fire about 2 inches across shoots from your palm at its target, dealing 1d8 points of fire damage per two caster levels (maximum 5d8).  You must succeed on a ranged touch attack to hit your target.
+
+In addition, a creature struck by an orb of fire must make a Fortitude save or be dazed for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>Your hand heats to an uncomfortable temperature just moments before you release the spell's energy in the form of an orb of white flames speeding from your outward facing palm.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Resonating Bolt**
+Caster Level(s): Bard 4
+Innate Level: 3
+School: Evocation  
+Descriptor(s): Sonic
+Component(s): Verbal, Somatic
+Range: 60'
+Area of Effect / Target: 60' line
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+The bolt of sonic energy deals 1d4 points of sonic damage per caster level (maximum 10d4) to each creature within its area.
+
+<i>Your quick momements and rapid utterances release the spell's energy, culminating in a final cry that unleashes a tremendous bolt of sonic energy from your open hand.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Sirine's Grace**
+Caster Level(s): Bard 4, Druid 5
+Innate Level: 5
+School: Evocation  
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+For the duration of this spell, you gain a +4 enhancement bonus to Charisma and Dexterity, a deflection bonus to AC equal to your Charisma modifier, and a +8 bonus on Perform checks.
+
+<i>Upon completion of this spell, you are infused with unearthly grace and confidence.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Sonic Weapon**
+Caster Level(s): Bard 2
+Innate Level: 2
+School: Transmutation  
+Descriptor(s): Sonic
+Component(s): Verbal
+Range: Touch
+Area of Effect / Target: Weapon touched
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+While the spell is in effect, the affected weapon deals an extra 1d6 points of sonic damage with each successful attack.  The sonic energy does not harm the weapon's wielder.  Bows, crossbows, and slings that are affected by this spell bestow the sonic energy upon their ammunition.
+
+<i>Holding the weapon to your mouth, you whisper the spell's arcane words, shrouding the weapon in visible sound like a thin sheen of water.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+
+Sound Blast
+Evocation (Sonic)
+Level: Bard 5, Sorcerer/Wizard 5
+Components: V,S
+Range: 30-foot cone
+Duration: Instant
+Saving Throw: Fortitude half
+Spell Resistance: Yes
+
+This spell creates a cone of sonic energy that blasts your enemies. It deals 1d8 points of sonic damage per caster level in a 30-foot cone (no cap on the dice).
+
+<i>You channel energy into shimmering waves of sound, sending a thunderous blast into your foes.</i>
+
+
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Weapon of Energy**
+Caster Level(s): Cleric 3, Sorcerer/Wizard 3
+Innate Level: 3
+School: Transmutation  
+Descriptor(s): [Energy]
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Weapon touched
+Duration: 1 round/level
+Save: None
+Spell Resistance: No
+
+You cause a weapon to gain the ability to deal energy damage in addition to its other abilities, similar to how a flaming burst weapon deals extra fire damage on a hit or critical hit.  The weapon can deal acid, cold, electricity, or fire damage, chosen by you at the time of casting.  The weapon deals an extra 1d6 points of damage of that energy type on a successful hit.  The weapon also gains the massive criticals property.
+
+The spell can be cast on a weapon that already deals energy damage, and if the weapon already creates the same type of damage as the spell, the effects stack.
+
+<i>Your hand glows slightly.  With a touch, you transfer the glow from your hand onto the intended weapon.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Wild Instincts**
+Caster Level(s): Druid 2, Ranger 3
+Innate Level: 2
+School: Divination  
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Personal
+Area of Effect / Target: You
+Duration: 1 minute/level
+Save: None
+Spell Resistance: No
+
+You gain a +10 Insight bonus on Listen and Spot checks.  In addition, you retain your Dexterity bonus to AC even if
+Flat-Footed and/or attacked by an unseen opponent (granted Uncanny Dodge feat).
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Faerie Fire**
+Caster Level(s): Druid 1
+Innate Level: 1
+School: Evocation
+Descriptor(s): [Light]
+Component(s): Verbal, Somatic
+Range: Long (400 ft + 40 ft./level)
+Area of Effect / Target: Creatures within a 5-ft.-radius burst
+Duration: 1 minute/level
+Save: None
+Spell Resistance: Yes
+
+A pale glow surrounds and outlines the subjects.  Outlined creatures do not benefit from the concealment normally provided by darkness, blur, displacement, invisibility, or similar effects.  The light is too dim to have any special effect on undead or dark-dwelling creatures vurnerable to light.  The faerie fire does not cause any harm to the creatures thus outlined.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Heartfire**
+Caster Level(s): Bard 2, Druid 2
+Innate Level: 2
+School: Evocation
+Descriptor(s): [Light, Fire]
+Component(s): Verbal, Somatic
+Range: Close (25 ft + 5 ft./2 levels)
+Area of Effect / Target: Living creatures within a 5-ft.-radius burst
+Duration: 1 round/level
+Save: Fortitude partial
+Spell Resistance: Yes
+
+Outlined creatures do not benefit from the concealment normally provided by darkness, blur, displacement, invisibility, or similar effects.  In addition, if they fail a Fortitude save, affected creatures take 1d4 points of fire damage each round as their passions manifest as physically damaging fire.  Creatures that make a successful Fortitude save take only half damage each round for the duration of the spell (minimum 1 point per round).
+
+<i>A flickering red fire bursts in the area you intended.  Creatures in the area are outlined in the flame, some more intensely than others.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Orb of Acid**
+Caster Level(s): Sorcerer/Wizard 4
+Innate Level: 4
+School: Conjuration  
+Descriptor(s): Acid
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of acid about 3 inches across shoots from your palm at its target, dealing 1d6 points of acid damage per caster level (maximum 15d6).  You must succeed on a ranged touch attack to hit your target.
+
+In addition, a creature struck by an orb of acid must make a Fortitude save or be sickened for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>Your hand takes on a green tint and your fingers burn with acrid smoke as you complete the spell.  From your smoking palm flies an orb composed of viscous acid.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lesser Orb of Acid**
+Caster Level(s): Sorcerer/Wizard 1
+Innate Level: 1
+School: Conjuration  
+Descriptor(s): Acid
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of acid about 2 inches across shoots from your palm at its target, dealing 1d8 points of acid damage per two caster levels (maximum 5d8).  You must succeed on a ranged touch attack to hit your target.
+
+In addition, a creature struck by an orb of acid must make a Fortitude save or be sickened for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>Your hand takes on a green tint and your fingers burn with acrid smoke as you complete the spell.  From your smoking palm flies an orb composed of viscous acid.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Orb of Sound**
+Caster Level(s): Sorcerer/Wizard 4
+Innate Level: 4
+School: Conjuration  
+Descriptor(s): Sonic
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of sound about 3 inches across shoots from your palm at its target, dealing 1d4 points of sonic damage per caster level (maximum 15d4).  You must succeed on a ranged touch attack to hit your target.
+
+In addition, a creature struck by an orb of sound must make a Fortitude save or be deafened for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>Symbols recognizable as musical notation - the visual representation of sound - appear in midair within the curve of your palm accompanied by the fractious sounds they represent.  The notes begin to whirl and stretch, forming into a spherical whirlwind of cacophonic chaos, as you make ready to release the spell.  At last, you send the sphere of noise toward your chosen target.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Lesser Orb of Sound**
+Caster Level(s): Sorcerer/Wizard 1
+Innate Level: 1
+School: Conjuration  
+Descriptor(s): Sonic
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of sound about 2 inches across shoots from your palm at its target, dealing 1d6 points of sonic damage per two caster levels (maximum 5d6).  You must succeed on a ranged touch attack to hit your target.
+
+In addition, a creature struck by an orb of sound must make a Fortitude save or be deafened for 1 round.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>Symbols recognizable as musical notation - the visual representation of sound - appear in midair within the curve of your palm accompanied by the fractious sounds they represent.  The notes begin to whirl and stretch, forming into a spherical whirlwind of cacophonic chaos, as you make ready to release the spell.  At last, you send the sphere of noise toward your chosen target.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Orb of Force**
+Caster Level(s): Sorcerer/Wizard 4
+Innate Level: 4
+School: Conjuration  
+Descriptor(s): Force
+Component(s): Verbal, Somatic
+Range: 25' + 5'/2 levels.
+Area of Effect / Target: Target Creature
+Duration: Instantaneous
+Save: Fortitude partial (see text)
+Spell Resistance: No
+
+An orb of force about 3 inches across shoots from your palm at its target, dealing 1d6 points of magic damage per caster level (maximum 10d6).  You must succeed on a ranged touch attack to hit your target.
+
+This spell gains damage from Sneak Attack and Death Attack when appropriate.
+
+<i>As you gather the energies of the spell, you feel against your palm a spherical weight that seems almost bonded to your skin.  The sphere grows, until with a final precise movement, you release the translucent blue orb, sending it hurtling toward your intended target.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Leonal's Roar**
+Caster Level(s): Druid 8
+Innate Level: 8
+School: Evocation
+Descriptor(s): Sonic
+Component(s): Verbal
+Range: 40'
+Area of Effect / Target: Enemies within 40'
+Duration: Varies (see details)
+Save: Fortitude partial (see details)
+Spell Resistance: Yes
+
+Any nongood creature within the area of a holy word spell suffers the following ill effects:
+
+2d6 Sonic damage. A successful Fortitude saving throw negates the sonic damage, but not the other effects of the spell.
+
+The effects of the holy word are:
+
+Equal to caster level: Dazed 
+Up to caster level -1: Weakened, dazed 
+Up to caster level -5: Paralyzed, weakened, dazed 
+Up to caster level -10: Killed, paralyzed, weakened, dazed 
+
+The effects are cumulative and concurrent. 
+No saving throw is allowed against these effects. 
+
+Dazed
+The creature can take no actions for 1 round, though it defends itself normally. 
+
+Weakened
+The creature’s Strength score decreases by 2d6 points for 2d4 rounds. 
+
+Paralyzed
+The creature is paralyzed and helpless for 1d10 minutes. 
+
+Killed
+Living creatures die. Undead creatures are destroyed. 
+
+Furthermore, if you are on your home plane when you cast this spell, nongood extraplanar creatures within the area are instantly banished back to their home planes. Creatures so banished cannot return for at least 24 hours. This effect takes place regardless of whether the creatures hear the holy word. The banishment effect allows a Will save (at a -4 penalty) to negate. 
+
+Creatures whose Hit Dice exceed your caster level are unaffected by holy word. 
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Phantom Bear**
+Caster Level(s): Druid 9
+Innate Level: 9
+School: Conjuration
+Components: V,S
+Casting Time: 1 standard action
+Range: Medium
+Effect: One summoned phantom bear.
+Duration: 1 round/level
+
+You conjure forth an incorporeal white bear with abnormally large, frosty jaws. This phantom bear follows your mental commands, acting on your behalf as long as it remains within range. A phantom bear appears where you designate and acts as you direct on your turn. You don't need to maintain line of sight once the spell is cast.
+
+<i>The ghostly image of a great bear appears before you. It rises silently on its hind legs and violently falls onto its forepaws, still making no sound. Then it opens its mouth, releasing a tremendous roar.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Phantom Wolf**
+Caster Level(s): Druid 8
+Innate Level: 8
+School: Conjuration
+Components: V,S
+Casting Time: 1 standard action
+Range: Medium
+Effect: One summoned phantom wolf.
+Duration: 1 round/level
+
+You conjure forth an incorporeal white wolf with abnormally large, frosty jaws. This phantom bear follows your mental commands, acting on your behalf as long as it remains within range. A phantom wolf appears where you designate and acts as you direct on your turn. You don't need to maintain line of sight once the spell is cast.
+
+<i>Cupping a hand to your mouth, you howl like a wolf, and in a moment, mist coalesces into a wolflike form with terrible jaws.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Plant Body**
+Caster Level(s): Druid 5
+Innate Level: 5
+School: Transmutation
+Components: V,S
+Casting Time: 1 standard action
+Range: Personal
+Target: You
+Duration: 10 minutes/level
+
+You imbue yourself with powerful transformative magic, gaining some of the characteristics of the plant type. Any spell or effect that would affect plant creatures also affects you, for the duration of plant body.
+
+When subject to this spell, you are immune to extra damage from critical hits, mind-affecting spells and abilities, poison, sleep, paralysis, stunning, and polymorphing.
+
+<i>Radiating out from your hands, moss and ivy covers your flesh until you resemble a shambling mound.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Thorn Skin**
+Caster Level(s): Druid 3
+Innate Level: 3
+School: Transmutation
+Components: V,S, M
+Casting Time: 1 standard action
+Range: Personal
+Target: You
+Duration: 1 round/level
+
+Your skin sprouts thorns when this spell is cast, increasing the damage you do in combat and harming those that strike you. You deal an extra 1d6 points of piercing damage. In addition, any creature that hits you takes 5 points of piercing damage.
+
+<i>You push a thorn against your skin to complete the spell. Instead of piercing your skin, the thorn melds into it. An instant later, hundreds of similar thorns sprout all over your body.</i>
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 10px; background-color: #DDEEDD; border: 1px solid silver"]]
+**Mark of Justice**
+Caster Level(s): Fate 5
+Innate Level: 5
+School: Transmutation
+Descriptor(s): 
+Component(s): Verbal, Somatic
+Range: Touch
+Area of Effect / Target: Single
+Duration: Permanent
+Save: Will Negates
+Spell Resistance: Yes
+
+Mark of Justice curses the target and lowers all of the target creature's ability scores by 4.
+[[/cell]]
+[[/row]]
+
+[[row]]
+[[cell style="padding: 5px;"]]
+[[/cell]]
+[[/row]]
+
+
+[[/table]]
+[[/tab]]
+
+[[tab Cleric Spells]]
+Awaken Sin (C3, P2)
+Blasphemy (Hate 7)
+Blessed Aim (B4, BG1, C1, P1, R3)
+Blessing of the Righteous (C4, P4)
+Castigate (C4, P4)
+Chasing Perfection (C6, P6, SW6)
+Cloak of Bravery (C3, P2)
+Energized Shield (C3, P2)
+Energized Shield, Lesser (C2, P1)
+Flame of Faith (C3, P2)
+Flaywind Burst (C5, D5, SW5)
+Frost Breath (C2, D2, SW2)
+Hand of Divinity (BG2, C2, P2)
+Holy Word (Mysticism 7)
+Lesser Visage of the Deity (BG4, C3, P4)
+Lion's Roar (C8)
+Living Undeath (C2)
+Mark of Justice (Fate 5)
+Scourge (Pestilience 7)
+Shield of Warding (C3, P2)
+Undead Bane Weapon (C4, P3)
+Visage of the Deity (C6, Mysticism 5)
+Weapon of Energy (C3, SW3)
+Weapon of the Deity (BG3, C3, P3)
+Zeal (BG2, Competition 2, P2)
+[[/tab]]
+
+[[tab Druid Spells]]
+Animal Growth (D5, R4)
+Briar Web (D2, R2)
+Deadly Lahar (D8, SW8)
+Embrace the Wild (D2, R1)
+Enrage Animal (D1, R1)
+Faerie Fire (D1)
+Flaywind Burst (C5, D5, SW5)
+Frost Breath (C2, D2, SW2)
+Halo of Sand (D2, R2)
+Hawkeye (D2, R2)
+Heartfire (B2, D2)
+Leonal's Roar (D8)
+Lesser Aura of Cold (D3, P4, R4)
+Linked Perception (D2, R1)
+Nature's Favor (D2, R2)
+Phantom Bear (D9)
+Phantom Wolf (D8)
+Plant Body (D5)
+Sirine's Grace (B4, D5)
+Skin of the Cactus (D4, R3)
+Splinterbolt (D2)
+Thorn Skin (D3)
+Trip Vine (D2, R2)
+Wild Instincts (D2, R3)
+[[/tab]]
+
+[[tab Sorc/Wiz Spells]]
+Chasing Perfection (C6, P6, SW6)
+Deadly Lahar (D8, SW8)
+Flaywind Burst (C5, D5, SW5)
+Frost Breath (C2, D2, SW2)
+Orb of Acid (SW4)
+Orb of Acid, Lesser (SW1)
+Orb of Cold (SW4)
+Orb of Cold, Lesser (SW1)
+Orb of Electricity (SW4)
+Orb of Electricity, Lesser (SW1)
+Orb of Fire (SW4)
+Orb of Fire, Lesser (SW1)
+orb of Force (SW4)
+Orb of Sound (SW4)
+Orb of Sound, Lesser (SW1)
+Sound Blast (B5, SW5)
+Weapon of Energy (C3, SW3)
+[[/tab]]
+
+
+[[tab Bard Spells]]
+Blessed Aim (B4, BG1, C1, P1, R3)
+Heartfire (B2, D2)
+Inspirational Boost (B1)
+Nixie's Grace (B6)
+Resonating Bolt (B4)
+Sirine's Grace (B4, D5)
+Sonic Shield (B3)
+Sonic Weapon (B2)
+Sound Blast (B5, SW5)
+[[/tab]]
+
+[[tab Paladin Spells]]
+Blessed Aim (BG1, C1, P1)
+Hand of Divinity (BG2, C2, P2)
+Heartfire (B2, D2)
+Angelskin (P2)
+Awaken Sin (C3, P2)
+Blessed Aim (BG1, C1, P1)
+Blessing of Bahumut (P3)
+Blessing of the Righteous (C4, P4)
+Blood of the Martyr (P4)
+Castigate (C4, P4)
+Chasing Perfection (C6, P6, SW6)
+Cloak of Bravery (C3, P2)
+Deafening Clang (P1)
+Draconic Might (P4)
+Energized Shield (C3, P2)
+Energized Shield, Lesser (C2, P1)
+Flame of Faith (C3, P2)
+Hand of Divinity (BG2, C2, P2)
+Lawful Sword (P4)
+Lesser Aura of Cold (D3, P4, R4)
+Lesser Visage of the Deity (P4, C3, BG4)
+Lionheart (P1)
+Righteous Fury (P3)
+Second Wind (P1)
+Shield of Warding (C3, P2)
+Silverbeard (P1)
+Strategic Charge (BG1, P1)
+Strength of Stone (P2)
+Undead Bane Weapon (C4, P3)
+Weapon of the Deity (BG3, C3, P3)
+Zeal (BG2, Competition 2, P2)
+[[/tab]]
+
+[[tab Ranger Spells]]
+Animal Growth (D5, R4)
+Blessed Aim (B4, BG1, C1, P1, R3)
+Briar Web (D2, R2)
+Embrace the Wild (D2, R1)
+Enrage Animal (D1, R1)
+Halo of Sand (D2, R2)
+Hawkeye (D2, R2)
+Lesser Aura of Cold (D3, P4, R4)
+Linked Perception (D2, R1)
+Nature's Favor (D2, R2)
+Skin of the Cactus (D4, R3)
+Trip Vine (D2, R2)
+Wild Instincts (D2, R3)
+[[/tab]]
+
+[[tab Warlock Invocations]]
+Caster's Lament (Warlock - Dark)
+Caustic Web (Warlock - Greater)
+Dark Foresight (Warlock - Dark)
+Eldritch Glaive (Warlock - Least)
+Frightful Presence (Warlock - Lesser)
+Hellspawned Grace (Warlock - Greater)
+Ignore the Pyre (Warlock - Lesser)
+Instill Vulnerability (Warlock - Dark)
+Repelling Blast (Warlock - Greater)
+Tempest Blast (Warlock - Lesser)
+Undead Baneful Blast (Warlock - Lesser)
+[[/tab]]
+
+[!--
+[[tab Blackguard Spells]]
+Lesser Visage of the Deity (BG4, C3, P4)
+Strategic Charge (BG1, P1)
+Weapon of the Deity (BG3, C3, P3)
+Zeal (BG2, Competition 2, P2)
+[[/tab]]
+--]
+
+[[/tabview]]
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

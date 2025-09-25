@@ -1,0 +1,12 @@
+After talking with Mustang I gave it a spin and it works with a few caveats.
+
+You can add whatever blueprint you want for ammo (such as adamantine arrows, cold iron arrows, +12 adamantine arrows with +10d6 of each element, etc).
+
+You MUST name it something that already exists in OEI's section of the Dialog.tlk file as the toolset won't read any custom text. So for adamantine arrows I had to use "Adamantine" which is not a problem. If I wanted to add +5 Adamantine arrows though, you would need to name the bow "+5 xxx" and then the arrows would still say "Adamantine" even though they have the +5.
+
+So if you want to add unlimited arrows that have poison... no problem.
+New material based arrows (the blueprints already exist as part of my content)... no problem.
+New elemental arrows such as +1d6 negative energy or +1d6 divine... no problem.
+Happy, fluffy, rainbow named arrows... denied.
+
+There was one odd thing I noticed. The damage bonus for adamantine arrows (+2 magic damage) got doubled to +4 when used as unlimited ammo. Some odd bug in the engine. The blueprints you create need to be half damage to account for this. I do not know what happens if you add more +1d6 elements if they will work correctly or get doubled, that would need to be tested.

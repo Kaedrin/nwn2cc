@@ -1,0 +1,43 @@
+Website: http://nwn2customcontent.wikidot.com/races
+
+These lists include all available NWN2 races done in the PrC pack or NWN2 proper. 
+
+From what I remember of the original sourcebooks, Waterdeep has a decent number of shield dwarves, moon elves, and lightfoot halflings with the majority being human. Past that you get very exotic, very fast (which is ok for a port city, to a degree).
+
+[color=#0000ff]Allowed Player Races[/color]
+[list]
+[*]Gold dwarf
+[*]Shield dwarf
+[*]Sun elf
+[*]Drow
+[*]Wood elf
+[*]Wild elf 
+[*]Rock Gnome 
+[*]Half-elf
+[*]Half-drow
+[*]Half-orc 
+[*]Strongheart halfling
+[*]Lightfoot halfling
+[*]Human
+[*]Aasimar 
+[*]Tiefling
+[*]Air genasi
+[*]Earth genasi
+[*]Fire genasi
+[*]Water genasi
+[*]Star Elf
+[/list]
+
+[color=#ff0000]Removed Player Races[/color]
+[list]
+[*]Deep gnome - Removed until the UD is established. 
+[*]Gray dwarf - Removed until the UD is established.
+[*]Yuan-ti pureblood - Powerbuild race, overly strong for what it should have, stacking racial abilities that shouldn't stack, etc. If we really want that race in the game, I'd suggest using the lesser version from Players Guide to Faerun (you lose the ECL and a LOT of perks, so that you focus on the "RP")
+[*]Painted Elf - There aren't any petrified forests near Waterdeep that I know of and the race is a bit xenophobic so this doesn't make sense even for a travel port.
+[*]Imaskari - Should be too few in quantity for most timelines.
+[*]Spellscale - Draconic race I added from one of the splatbooks due to a handful of single player folks wanting it. Bleh.
+[*]Feytouched (Lyrical) - The world truly doesn't need more fey touched anything.
+[*]Feytouched (Shadowy) - The world truly doesn't need more fey touched anything.
+[*]Ghostwise Halfling - Isolationist barbarian halflings. Not really the touchy-feely-trading type.
+[*]Gray orc - 
+[/list]

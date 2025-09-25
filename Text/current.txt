@@ -1,0 +1,547 @@
+[[span style="color: green;"]]Last Updated: August 2nd, 2011 [[/span]]
+
+These updates will be folded into my primary project as usual: [http://nwvault.ign.com/View.php?view=NWN2HakpaksOriginal.Detail&id=209 Kaedrin's PrC Pack]
+As an ongoing effort I will be working to add more new PrCs to NWN2: [[[PrC|New PrCs]]]
+
+[[span style="color: green;"]]
++++  The current update being developed is 1.42 and details on it can be found on the [[[wip| work in progress]]] page. [[/span]]
+
+Future content is to be determined.
+
+[!--
+
++++ 1.42
+* AK/WoD/CotW/Hosp bonus feats cleaned up in the 2da and the description. More will be available.
+* All animal companions redone so that they have a more correct feat and skill set. They will all get the "free" template Warbeast from MM2 (effectively +3 Str, +3 Con, +2 Wis at no cost)
+* Artist background feat now scales to 23 uses/day and stacks with Extra Music.
+* Characters with Swift Hunter or Swift Ambusher scanned to make sure they do not have more sneak dice than expected. If so, they lose the extra dice.
+* Check if Vampiric works for ranged weapons (WoD buff)
+* Descriptions for Phantom Bear, Phantom Wolf, Blackguard's Pet upgrade at 8, Elemental Companion, and Telthor companion updated to indicate the creatures statistics.
+* Dragon Companion breath weapon has an unlimited use, 3 round cooldown if it doesn't already.
+* Dragon Companion updated with correct stats (including damage reduction, spell resistance, and sneak attack immunity)
+* Dragon Shape has a new option: "Frost-Touched Bronze" (Silver Dragon stats using Bronze model/color)
+* Fire Elemental Companion retouched. Other elements evaluated for inclusion
+* Frenzy now calls the rage script. Updated to grant any bonus past +12 as AB/Dmg.
+* New 0-level Druid spell: Breath of the Dragon (only works while dragonshaped, provides access to the breath weapon up to 6x/day) (50%)
+* New Base Class:  [[[Hexblade]]]
+* New Base Class: [[[Marshal]]]
+* Rewritten Blast code
+* Test resting fix for bonus hit points on items. Update to 100% heal if death occurs. Players will still be slapped for the difference between current and max if they cancel. ;)
+* The value of a barbarian rage that exceeds the +12 cap is now turned into a +AB/Dmg bonus (ie, +18 Strength becomes +12 Strength, +3 AB, +3 Dmg).
+* Utterdark Blast heals allied undead, invoker (if they have Tomb-Tainted Soul)
+* VFX cleanup
+
++++ Possibly Upcoming
+* [[span style="color: green;"]]Test 1d6 Sneak + 10d6 Improved Sneak Attack and see if the engine uses the full 11d6. [[/span]] [[span style="color: purple;"]]Test was successful, so award an epithet feat for 8d6 and change the improved sneak line to use 8d6 *or* the epithet feat. This will allow classes with custom sneak dice (such as Arcane Trickster) or death attack dice to take the improved sneak attack dice line of epic feats (once their total sneak equivalent dice equals 8).  [[/span]]
+* Add cmi_option to grant Shadowdancers +1d6 sneak per 3 levels.
+* All Druid abilities based on changing shapes (exalted wild shape, etc) now linked to the wildshape effect so that they are lost when returning to normal form.
+* Barbarians gain a bonus feat at 5th instead of Improved Uncanny Dodge (which is broken). Improved Uncanny Dodge becomes a bonus feat they can select.
+* Druid/Ranger/Hexblade spells that are cast on themselves now transfer to their companions when valid
+* Eldritch Glaive updated to handle haste/slow interaction (TonyK fix)
+* Energy Substitution
+* Enforceable domains by deity. [[[New domains]]]
+* Exalted Companion now applies a -2 to your effective druid level for determining the pet's HD.  In return, it now has full BAB and high ref saves as a Magical Beast instead of an animal/beast.
+* FB Frenzy spell changed to Rage, Rage script now handles both sets of abilities so that they will both do the ability stacking like Rage currently does.
+* Feat GUI
+* Feats and Spells marked removed are cleaned out of the 2da file
+* Glory Domain approximation added for Warpriests. Disrupt Undead 1/day at level 1. Bless Weapon 1/day at level 2. Holy Sword 1/day at level 4. Bolt of Glory 1/day at level 8 Crown of Glory at level 10 (though Crown of Glory will not function in the targets have Divine Favor, Divine Power, Heroism, or Greater Heroism active - these four spells will remove the crown of glory benefit when cast on the subject). 
+* Integrated code for Cyphre's companions into my code base. This will resolve the SoZ cargo bug. Until then, you cannot use anything later than 1.40.0 with Cyphre's work.
+* Mage Tome spells with support for my additions (touch spells/sneak attack, Paladin/Ranger full casting) when valid
+* New Background Feat: Tireless (PGtF)
+* New Bard alternate class feature: Spellbreaker Song (choice between Countersong and Spellbreaker Song) (Enemy spellcasters within 30' suffer 20% ASF for 3 rounds).
+* New bard spells
+* New Base Class: [[[Dark Soul2 | Dark Soul]]]
+* New Base Class: [[[Dragon Shaman]]]
+* New Base Class: [[[Dragonfire Adept]]]
+* New Base Class: [[[Dread Necromancer]]]
+* New Base Class: [[[Duskblade]]]
+* New Base Class: [[[Knight]]]
+* New CMI option: Spell Focus (Conjuration) grants a +2 AB bonus to summons. This improves to +4 for Greater Spell Focus and +6 for Epic Spell Focus. This cmi_option will include a value to use half this value (+1/+2/+3).
+* New enchantment scroll: adds 10% ASF reduction to the armor currently worn (Twilight enchantment)
+* New Epic Spell: Superb Dispel (has a CL + 10 bonus (40 max), deals 10d6 to the caster) (25%)
+* New Epic Spell: Superb Dispel (has a CL + 10 bonus (40 max), deals 10d6 to the caster) (25%)
+* New Epic Spells: Aura of Fire Protection, Aura of Cold Protection, Aura of Electricity Protection, Aura of Acid Protection, Aura of Sonic Protection, Aura of Warding, Epic Mage Armor, Epic Barkskin, Epic Spell Protection, Epic Bolster Spell Resist, Epic Animate Dead, Epic Aura of the Sun
+* New Feat: Arcane Disciple [Time Domain] available for Hexblades and Duskblades to gain the Haste spell. This allows access to the Swiftblade PrC.
+* New Feat: Augment Elemental (stacks with Augment Summoning)
+* New Feat: Battle Blessing
+* New Feat: Companion Barding (melts a piece of armor and grants it to the companion)
+* New Feat: Dreadful Wrath
+* New Feat: Elven Spell Lore (PH2)
+* New Feat: Epic Blackguard Summon (summons a demon or devil, requires Blackguard 10).
+* New Feat: Epic Divine Vigor (25%)
+* New Feat: Expose Vulnerability (ranged/thrown expose weakness)
+* New Feat: Extra Dervish Dance (+3/day)
+* New Feat: Extra Invocation (Hideous Blow) - instant, 12s cooldown, same functionality as spell
+* New Feat: Healing Hymn (25%)
+* New Feat: Imbued Healing (25%)
+* New Feat: Invoke Spirit Wrath (Requires 26 Lore, Chastise Spirit, Level 21 Spirit Shaman) As a full-round action, you can spend one of your Chastise Spirit attempts to blast a single creature within 60 feet with divine energies channeled directly from your spirit guide. The targeted creature must make a successful Fortitude saving throw (DC = 10 + half your spirit shaman caster level + your Charisma modifier) or take 1d8 points of divine damage per two class levels.
+* New Feat: Law Devotion
+* New Feat: Lord of All Essences (provides Penetrating Blast as a free essence on all blasts, raises DC of all blasts by 2).
+* New Feat: Martial Spirit
+* New Feat: Master of the Elements (summons 24 HD random elder elemental, 10 to all resists that does not stack)
+* New Feat: Raging Vigor (level 7 barb, use rage to heal 2x HD)
+* New Feat: Roll With It I (25%)
+* New Feat: Roll With It II (25%)
+* New Feat: Roll With It III (25%)
+* New Feat: Roll With It IV (25%)
+* New Feat: Roll With It V (25%)
+* New Feat: Roll With It VI (25%)
+* New Feat: Sacred Healing (25%)
+* New Feat: Sacred Vitality (25%)
+* New Feat: Shadowmaster (free casting of the Shades spell defensive subradial, no other benefit)
+* New Feat: Shield Slam (CW)
+* New Feat: Terrifying Rage
+* New Feat: Thunderous Rage
+* New Feat: Vanguard Strike
+* New Feat: Weakening Touch (CW)
+* New Invocation: Relentless Dispelling
+* New PrC: [[[Arcane Duelist]]]  (Hexblade/Duskblade/Dread Necromancer only)
+* New PrC: [[[Dragon Lord]]]
+* New PrC: [[[Eldritch Theurge]]] (Bard/Assassin/Avenger/Hexblade/Duskblade/Dread Necromancer only)
+* New PrC: [[[MoMF]]]
+* New PrC: [[[Sword Dancer]]] (30%)
+* New PrC: [[[Warshaper]]]
+* New PrC: Wearer of Purple
+* New Race: [[[Lythari]]]
+* New Race: Silverbrow Humans
+* New Spell: Grace (B2)
+* New Spell: Improvisation (B1)
+* New Spell: Soul of Light  (25%)
+* Possible: Look at feasibility of a new AC system for Wildshape. Allows all AC types to transfer correctly.
+* Rewrite Turn Undead
+* Rewritten Polymorph routine
+* Scaling Animate Dead spell (using 1-30 HD zombies), The Dead Walk also upgraded with this
+* Silence spell gains a new subradial that allows self-targeting for a silence aura
+* Spells on scrolls
+* Test which ACs transfer and evaluate wildshape changes. Nerfs may occur.
+
+--]
+
+[!--
+
+Some descriptions for content can be found here: http://nwn2customcontent.wikidot.com/forum/t-187617/official-1-40-update-thread
+
++++ The Top 10 List (not in order)
+* Feat GUI
+* [[[Dark Soul2 | Dark Soul]]]
+* [[[Dragon Shaman]]]
+* [[[Dragonfire Adept]]]
+* [[[Dread Necromancer]]]
+* [[[Dungeon Keeper]]]
+* [[[Duskblade]]]
+* [[[Hexblade]]]
+* [[[MoMF]]]
+* [[[Primal Fury]]]
+* Spell scrolls
+* [http://nwvault.ign.com/View.php?view=NWN2VisualEffects.Detail&id=57 Eldritch Glaive VFX Upgrade]
+
+
+[[tabview]]
+[[tab Content Pool]]
+* [[span style="color: red;"]]Possible [[/span]]New Feat: Dark Leadership (Half-fiend Thug/BG/WoD)
+* [http://nwvault.ign.com/View.php?view=NWN2VisualEffects.Detail&id=57 Eldritch Glaive VFX Upgrade]
+* 2WD line of feats updated to make clearer what defensive stance is.
+* Add Cleave/Greater Cleave support to Glaive
+* AK/WoD/CotW/Hosp bonus feats cleaned up in the 2da and the description. More will be available.
+* Alternate Turn Undead rule now accounts for Turn Resistance on a creature's hide.
+* Award the epic Warlock caster epithet feat for caster level > 20 in the levelup script.
+* Award the Warlock "caster level" feats for each of the 4 invocation tiers. Needed for Extra Invocation feats.
+* Blackguards gain Protection from Good as a level 1 spell.
+* Blightlord updated to prohibit the Forest Master, Verdant Guardian prestige (and reverse)
+* Check PnP if Utterdark should stack negative levels, if so add it if it is not already
+* Chilling tentacles retouched.
+* Classes that grant skill bonuses to counter armor check penalties (Nightsongs) updated to account for the new script functionality in 1.23 (bonus will no longer increase the skill above the armor's penalty).
+* Cleric domain (forget which one) updated to reference Live Oak
+* Code completed to do a stand-alone spellpack
+* Crossbow Sniper changed to OnEquip/OnUnequip buff and not a pulse. Too many issues with the campaigns stopping/restarting/not starting custom heartbeats.
+* Dark One's Own Luck expanded to 3 more spell options. Fortitude Focus, Reflex Focus, and Willpower Focus. Only one (main or one of the focuses) can be active at a time. The Focus lines each add a save bonus equal to your Charisma bonus, capped by your warlock level but only for that saving throw (not all like the primary cast).
+* Divine Protection no longer affects the caster, only his/her allies
+* Eld Glaive now benefits from sneak attack on the first attack. Eld Chain can benefit from sneak attack against the first target only.
+* Eld Glaive uses a constant spellid now.
+* Eldritch Glaive updated to handle haste/slow interaction (TonyK fix)
+* Exalted Companion now applies a -2 to your effective druid level for determining the pet's HD.  In return, it now has full BAB and high ref saves as a Magical Beast instead of an animal/beast.
+* Faerie Fire gains 3 new vfx (randomly selected)
+* Fire Elemental Companion retouched. Other elements evaluated for inclusion
+* Fix wording in Weakening Touch: "make an melee" to "make a melee"
+* Forest Master Oaken Skin description updated to indicate it stacks with Verdant Lord's Gift of the Green.
+* Glaive no longer requires a full 5 bab to get the second (and later) attacks
+* Heal/Harm gains the benefit of augment healing, melee touch spell specialization, critical hits, and sneak attack.
+* Heals updated to fully support Augment Healing and Healing Domain. Including the Mass versions.
+* Hellfire blast no longer inflicts Con damage per target, just per blast (shape/essence ignored).
+* IPRP_Spells entries for Etherealness, Ethereal Jaunt corrected
+* Levelup script now counts the number of sneak dice and sets it on the char for speedy reference. Removes issue with me forgetting where all the places are that need to check on stacking dice numbers. ;) -1 or > 0 are valid numbers, 0 = PW reset so recalc the number.
+* Melt, clean, and document all cmi libraries into a single include file
+* New Base Class: [[[Primal Fury]]] (20%)
+* New Blueprint: Twilight Banded
+* New Blueprint: Twilight Battle Plate (Note: Twilight indicates they come with a -10% ASF enchantment. Alternate blueprints such as Zalantar or Adamantine may be examined in the future or by request)
+* New Blueprint: Twilight Bondleaf Ivy
+* New Blueprint: Twilight Breastplate
+* New Blueprint: Twilight Chain Shirt
+* New Blueprint: Twilight Chainmail
+* New Blueprint: Twilight Full-Plate
+* New Blueprint: Twilight Half-Plate
+* New Blueprint: Twilight Heavy Shield
+* New Blueprint: Twilight Hide
+* New Blueprint: Twilight Leather
+* New Blueprint: Twilight Light Shield
+* New Blueprint: Twilight Living Coral
+* New Blueprint: Twilight Mithral Banded
+* New Blueprint: Twilight Mithral Battle Plate
+* New Blueprint: Twilight Mithral Breastplate
+* New Blueprint: Twilight Mithral Chain Shirt
+* New Blueprint: Twilight Mithral Chainmail
+* New Blueprint: Twilight Mithral Full-Plate
+* New Blueprint: Twilight Mithral Half-Plate
+* New Blueprint: Twilight Mithral Mountain Plate
+* New Blueprint: Twilight Mithral Scale
+* New Blueprint: Twilight Mithral Splint
+* New Blueprint: Twilight Mountain Plate
+* New Blueprint: Twilight Nightscale
+* New Blueprint: Twilight Padded
+* New Blueprint: Twilight Scale
+* New Blueprint: Twilight Sharkskin
+* New Blueprint: Twilight Spidersilk
+* New Blueprint: Twilight Splint
+* New Blueprint: Twilight Studded Leather
+* New Blueprint: Twilight Tower Shield
+* New cmi_option for setting the size of the Treant/Shambling Mound to 50%
+* New cmi_option: Healing Hymn perform cap (0-80, 0 being no cap)
+* New Epic Spell: Superb Dispel (has a CL + 10 bonus (40 max), deals 10d6 to the caster) (25%)
+* New Epic Spells: Aura of Fire Protection, Aura of Cold Protection, Aura of Electricity Protection, Aura of Acid Protection, Aura of Sonic Protection, Aura of Warding, Epic Mage Armor, Epic Barkskin, Epic Spell Protection, Epic Bolster Spell Resist, Epic Animate Dead, Epic Aura of the Sun
+* New Feat line: Epic Skirmish I-IV (grants a cumulative +1 AC bonus, requires level 15 equivalent in Skirmishing).
+* New Feat Line: Extra Invocation (one for each non-blast shape/essence invocations)
+* New Feat: Battle Blessing (25%)
+* New Feat: Celestial Affinity (as Infernal, vs evil)
+* New Feat: Chaos Devotion (25%)
+* New Feat: Corpsecrafter
+* New Feat: Daring Buccaneer (25%)
+* New Feat: Dazzling Illusion
+* New Feat: Deadly Chill
+* New Feat: Death Devotion (25%)
+* New Feat: Demoralize Opponent (25%)
+* New Feat: Destructive Retribution
+* New Feat: Doomspeak (CoR p20) (25%)
+* New Feat: Dreadful Wrath (25%)
+* New Feat: Eldritch Precision (Eldritch Shapes no longer affect allies, Spear/Glaive/Basic gains +1 AB)
+* New Feat: Eldritch Sculptor (requires Eldritch Mastery, doubles size/range of all blast shapes, UI targetting does not account for this, changes EB to 2 blasts that must hit and which do full damage instead of 1 blast at +50% damage, Eldritch Glaive is not affected by this feat)
+* New Feat: Epic Divine Vigor (25%)
+* New Feat: Epic Undead Leadership (as Undead Leadership, caps at 23 HD)
+* New Feat: Evil Devotion (25%)
+* New Feat: Extra Death Strike
+* New Feat: Extra Death Strike
+* New Feat: Extra Reckless Devotion I
+* New Feat: Extra Reckless Devotion II
+* New Feat: Extra Sword Song
+* New Feat: Fearsome Necromancy
+* New Feat: Fists of Iron (25%)
+* New Feat: Freezing the Lifeblood (25%)
+* New Feat: From Smite to Song (25%)
+* New Feat: Good Devotion (25%)
+* New Feat: Greenbound Summoning (25%)
+* New Feat: Healing Hymn  (25%)
+* New Feat: Ignore Turn Resistance
+* New Feat: Imbued Healing (25%)
+* New Feat: Infernal Affinity - http://www.wizards.com/default.asp?x=dnd/frcc/20070314
+* New Feat: Initiate of Ilmater
+* New Feat: Insightful Reflexes
+* New Feat: Invoke Divine Wrath (Requires 26 Lore, Turn Undead, Level 21 Favored Soul) As a full-round action, you can spend one of your turn/rebuke undead attempts to blast a single creature within 60 feet with divine energies channeled directly from your deity. The targeted creature must make a successful Fortitude saving throw (DC = 10 + half your favored soul caster level + your Charisma modifier) or take 1d8 points of damage per two class levels. Although damage done by Invoke Divine Wrath looks like a blast of fire in a color associated with your deity, the damage itself is divine in nature and penetrates all forms of damage reduction and energy resistance.
+* New Feat: Invoke Spirit Wrath (Requires 26 Lore, Chastise Spirit, Level 21 Spirit Shaman) As a full-round action, you can spend one of your Chastise Spirit attempts to blast a single creature within 60 feet with divine energies channeled directly from your spirit guide. The targeted creature must make a successful Fortitude saving throw (DC = 10 + half your spirit shaman caster level + your Charisma modifier) or take 1d8 points of divine damage per two class levels. 
+* New Feat: Law Devotion (25%)
+* New Feat: Lord of All Essences (provides Penetrating Blast as a free essence on all blasts, raises DC of all blasts by 2).
+* New Feat: Lore Devotion (25%)
+* New Feat: Master of the Elements (summons 24 HD random elder elemental, 10 to all resists that does not stack)
+* New Feat: Necromantic Might
+* New Feat: Necromantic Presence
+* New Feat: Penetrating Shot
+* New Feat: Piercing Evocation
+* New Feat: Plunging Shot (+1d6 damage)
+* New Feat: Profane Aura
+* New Feat: Profane Lifeleech
+* New Feat: Profane Vigor
+* New Feat: Protection Devotion (25%)
+* New Feat: Quasilycanthrope Companion
+* New Feat: Reckless Offensive (25%)
+* New Feat: Roll With It I (25%)
+* New Feat: Roll With It II  (25%)
+* New Feat: Roll With It III  (25%)
+* New Feat: Roll With It IV  (25%)
+* New Feat: Roll With It V  (25%)
+* New Feat: Roll With It VI  (25%)
+* New Feat: Sacred Healing (25%)
+* New Feat: Sacred Vitality (25%)
+* New Feat: Sense Weakness (Negate DR for 1 round, 3 round cooldown, must wield a ranged weapon)
+* New Feat: Shadowmaster (free casting of the Shades spell defensive subradial, no other benefit)
+* New Feat: Sniper Shot
+* New Feat: Spellbreaker Song (CM p35) (25%)
+* New Feat: Spinning Halberd (25%)
+* New Feat: Spirit Devotion (25%)
+* New Feat: Tomb-Tainted Soul (can self heal with negative energy such as Inflict spells and Utterdark Blast Essence)
+* New Feat: Undead Leadership (overrides all other animal comp feats, provides char level - 7 death knight companion not affected by any other companion feats, caps at 13 HD, takes Fighter to 8, BlkGrd to 3, WoD to 8, Fighter to 12)
+* New Feat: Unsettling Enchantment
+* New Feat: Weakening Touch (25%)
+* New Feat: Weapon Mastery (requires Weapon Supremacy) - grants a bonus attack similar to haste.
+* New Function to get total effective druid level for wildshape
+* New Invocation: Lesser Baneful Blast (Essence)
+* New Invocation: Relentless Dispelling
+* New Invocation: Steal Summoning
+* New PrC: [[[Blightlord]]] (20%)
+* New PrC: [[[Bone Knight]]] (60%)
+* New PrC: [[[Death Blade]]] (20%)
+* New PrC: [[[Doomlord]]]
+* New PrC: [[[Feywild Warden]]] (20%)
+* New PrC: [[[momf | Master of Many Forms]]]
+* New PrC: [[[Optimist]]]
+* New PrC: [[[Radiant Servant]]] (20%)
+* New PrC: [[[Sword Dancer]]] (30%)
+* New PrC: [[[Verdant Lord | Verdant Guardian]]] (80%)
+* New PrC: [[[Warshaper]]]
+* New PrC: [[[Wildbow]]] (20%)
+* New Spell: Antimagic Aura
+* New Spell: Antimagic Field
+* New Spell: Antimagic Ray
+* New Spell: Baleful Utterance
+* New Spell: Blinding Spittle
+* New Spell: Call Nightmare
+* New Spell: Chain Dispel
+* New Spell: Cometstrike
+* New Spell: Creaking Cacophony (25%)
+* New Spell: Divine Storm  (25%)
+* New Spell: Find the Gap (25%)
+* New Spell: Fires of Purity (25%)
+* New Spell: Foebane (25%)
+* New Spell: Golden Barding  (25%)
+* New Spell: Grace (25%)
+* New Spell: Hailstones
+* New Spell: Healing Lorecall  (25%)
+* New Spell: Holy Mount (P2)  (25%) - Grants Celestial template to Animal Companions
+* New Spell: Improvisation (25%)
+* New Spell: Languor (25%)
+* New Spell: Live Oak (25%)
+* New Spell: Lucent Lance
+* New Spell: Mage Burr
+* New Spell: Mystical Backlash
+* New Spell: Ray Deflection
+* New Spell: Reaving Dispel
+* New Spell: Reciprocal Gyre
+* New Spell: Rhino's Rush (25%)
+* New Spell: Righteous Aura
+* New Spell: Silvered Claws  (25%)  (D1, R1) 1 minute/level Animal Companion has silver claws
+* New Spell: Slashing Dispel
+* New Spell: Soul of Dark
+* New Spell: Soul of Light  (25%)
+* New Spell: Sound Blast
+* New Spell: Targeting Ray
+* New Spell: Undying Vigor of the Dragonlords
+* New Spell: Wracking Touch
+* New Zombie system
+* nx1_inc_epicsave Updated with PrCs
+* OEI spells changed to my scripts for duplicate spells (re-adds sneak attack, triggers for reserves, etc to the OEI spells)
+* Oversized Two-Weapon Fighting now works for the little people
+* Paladin now has access to the Heal Animal Companion spell (instead of Heal Mount/Special Companion) for Paladin/Ranger synergy
+* Practiced Invoker now works with dispels
+* Reserve feats checked to make sure they trigger off OEI spells
+* Revamp StackWildShapeUses to allow Lion of Talisid uses to count instead of simply adding Druid level (adds more uses for LoT characters)
+* Rewrite Turn Undead
+* Rewritten Blast code
+* Rewritten Polymorph routine
+* Scaling Animate Dead spell (using 1-30 HD zombies), The Dead Walk also upgraded with this
+* Silver Sword updated for the new base class
+* Snowflake Wardance can no longer by used by the small races if the weapon is size S. Appearance.2da checked for racial size. Check if Kukri is a slashing weapon.
+* Spell Resist fix for Warlocks added
+* Stat boosting spells now call abilities scripts that depend on stats (such as +dex spells now call Elegant Strike's script). The only case not touched now will be when a spell expires (not really something we can hook) or is removed through other means.
+* Test EB Atk roll with Intuitive Attack
+* Utterdark Blast heals allied undead, invoker (if they have Tomb-Tainted Soul)
+* [[span style="color: green;"]]Test 1d6 Sneak + 10d6 Improved Sneak Attack and see if the engine uses the full 11d6. [[/span]] [[span style="color: purple;"]]Test was successful, so award an epithet feat for 8d6 and change the improved sneak line to use 8d6 *or* the epithet feat. This will allow classes with custom sneak dice (such as Arcane Trickster) or death attack dice to take the improved sneak attack dice line of epic feats (once their total sneak equivalent dice equals 8).  [[/span]]
+# Test Blackguard
+# Test Arcane Trickster
+# Test Sneak Attack
+# Test Frantic Reactions + Invisible Blade + Blackguard 3d6 (8d6)
+# Test Shadow Thief
+# Test Assassin Death Attack
+[[/tab]]
+[[/tabview]]
+
++++ v1.? Dungeon Keeper: Rise of an Overlord
+* [[[Dungeon Keeper]]]
+
+
+[[table]]
+[[row]]
+[[cell style="padding: 9px;"]]  
+[[/cell]] 
+[[/row]]
+[[row]]
+[[cell style="padding: 9px;"]]  
+[[/cell]] 
+[[/row]]
+[[/table]]
+
+----
+
+[[table]]
+[[row]]
+[[cell style="padding: 9px;"]]  
+[[/cell]] 
+[[/row]]
+[[row]]
+[[cell style="padding: 9px;"]]  
+[[/cell]] 
+[[/row]][[row]]
+[[cell style="padding: 9px;"]]  
+[[/cell]] 
+[[/row]]
+[[row]]
+[[cell style="padding: 9px;"]]  
+[[/cell]] 
+[[/row]]
+[[/table]]
+
+[[tabview]]
+[[tab Possible Classes]]
+* New Base Class: [[[Dark Soul2| Dark Soul]]]
+* New Base Class: [[[Dragonfire Adept]]]
+* New PrC: [[[Arcane Duelist]]] for Hexblade, Duskblade, and Dread Necromancer ONLY (with adjustments for NWN2)
+* New Base Class: [[[Artificer]]]
+* New Base Class: [[[Dragon Shaman]]]
+* New Base Class: [[[Dread Necromancer]]]
+* New Base Class: [[[Duskblade]]]
+* New PrC: [[[Dragon Lord]]]
+* New PrC: [[[Elemental Savant]]]
+* New Base Class: [[[Hexblade]]]
+* New Prc: [[[Silverstar]]]
+* New PrC: [[[Songblade]]]
+* New Base Class: Tactical Archer (similar to Primal Fury/Dark Soul)
+* New PrC: Silver Shadow (see Lythari)
+* New Base Class: Warforged Titan
+[[/tab]]
+
+[[tab Possible Feats]]
+* New Feat: Practiced Caster (Duskblade)
+[[/tab]]
+
+[[tab Possible Domains]]
+* New Domain: Dragon
+* New Domain: Moon (with new spells)
+[[/tab]]
+
+[[tab Possible New Races]]
+* New Race: [[[Lythari]]]
+* New Race: Warforged
+[[/tab]]
+
+[[tab Possible New Misc Content]]
+* All spells on scrolls
+* Assassin/Avenger Spellbook (GUI)
+* Blackguard Spellbook (GUI)
+* Craft Rod/Staff added to the crafting system
+* New cmi_option: Full caster level for all Ranger spells.
+* New IPRP_Spells and supporting 2da files/uti's that allow for the full range of caster levels for every valid spell. All generated programatically.
+* Possible: Look at feasibility of a new AC system for Wildshape. Allows all AC types to transfer correctly.
+* Test which ACs transfer and evaluate wildshape changes. Nerfs may occur.
+[[/tab]]
+
+[[tab Possible New Spells]]
+* [[[Spellpack Update I]]]
+* [[[Invocations | Spellpack Update II]]]
+* [[[Spellpack Update A | Spellpack Update III]]]
+* [[[Spellpack Update B | Spellpack Update IV]]]
+* [[[Spellpack Update C | Spellpack Update V]]]
+* [[[Spellpack Update D | Spellpack Update VI]]]
+[[/tab]]
+
+[[tab Possible Projects]]
+* [[[New Projects]]]
+[[/tab]]
+
+[[tab Future Work]]
++++ Future Work
+* New Feats/GUI introducing Energy Substitution (Stage I : damage types)
+* Energy Substitution Stage II : VFX/2da impact SEFs
+* Energy Shield spells streamlined (down to 2 scripts, no stacking)
+* Integrate K2's emitter's as a cmi_option
+* New GUI to allow feat usage while wild-shaped
+* Removal of polymorph orb
+* New Feat/Spellcasting System for Rangers/Paladins: Sword of the Arcane Order (Paladin/Ranger can cast Arcane spells using a custom GUI that expends memorized divine spells). For example: Heroism, Haste, Ice Storm, Mirror Image, Greater Invis, etc etc. Requires Mystra or Azuth as a deity
+* New Dispel system (based on Brian Meyers)
+* New spells
+* Dispels streamlined to 2 subradials (friendly, hostile). Targeting the ground is AE, targeting a creature is single target.
+* http://nwvault.ign.com/View.php?view=NWN2Other.Detail&id=135
+* Levelup code to evaluate the caster level of each base class and award and epithet feat (Divine - 3rd, etc). All PrCs with arcane caster level progression changed to use the epithet feat. This allows the new base classes to also qualify for any arcane/divine prestige class.
+* New Feat: Practiced Caster (Hexblade)
+* New Feat: Ability Focus (Hexblade's Curse)
+* Silver Sword updated for the new base class
+* New Feat: Battle Casting (custom casters only)
+* New Feat: Extra Hexblade Curse I, II, III (+2 uses/day)
+* New Feat: Extra Aura of Unluck I, II, III  (+2 uses/day)
+* Silver Sword updated for the new base class
+* New Feat: Arcane Disciple (Mysticism) - Gain Divine Favor (1), Spiritual Weapon (2), Lesser Visage of the Deity (3), Weapon of the Deity (4), Righteous Might (5), Visage of the Deity (6),  Holy Word (7), Holy Aura (8), Greater Visage of the Deity (9) to a custom caster spellbook
+* New Feat: Arcane Disciple (Healing) - Gain Cure Light Wounds (1), Cure Moderate Wounds (2), Cure Serious Wounds (3), Cure Critical Wounds (4), Heal (5), Regenerate (7), Mass Cure Critical Wounds (8), Mass Heal (9) to a custom caster spellbook
+* New Feat: Arcane Disciple (Magic) - Gain Mage Armor (1), Melf's Acid Arrow (2), Assay Resistance (3), Spell Resistance (5), Spell Mantle (6), Greater Dispel Magic (7), Blackstaff (8), Mord's Disjunction (9) to a custom caster spellbook
+* New Feat: Arcane Disciple (Wrath) - Bear's Endurance (1), Bull's Strength (2), Rage (3), Shout (4), Righteous Might (5), Song of Discord (6), Tenser's Transformation (7), Greater Shout (8), Storm of Vengeance (9) to a custom caster spellbook
+* New Feat: Extra Draconic Invocation
+* New Feat: Dragontouched
+* New Feat: Ability Focus (Dragon Breath)
+* New Feat: Double Draconic Aura
+* New Feat: Ability Focus (Draconic Invocation)
+* New Feats: Draconic Aura (see Dragon Shaman for the Auras) (The aura grants a +1 bonus when taken. For dragonfire adepts the bonus improves to +2 at 7th level, +3 at 14th level, +4 at 20th level, and a +5 bonus at 27th level. It does not stack with Dragon Shaman auras)
+* New Feats: Epic Dragon Breath (+1d6) through Epic Dragon Breath (+10d6)
+* New Feat: Entangling Exhalation
+* New Feat: Reverberation
+* New Feat: Dragon Cohort
+* New System: Pet Upgrades
+* New Item: Dragon Spirit Cincture - A belt-slot item that adds +1d6 to breath weapon damage and +1 to your breath weapon's DC.
+* Silver Sword updated for the new base class
+* New Feat: Draconic Mastery
+
+Documentation (ongoing)
+* Complete Documentation update with release in PDF format
+* All spells will have their description adjusted to indicate valid metamagics.
+* Add Note to all reserve feats about the fact they ignore SR.
+* All PrC's updated to indicate which Epic spells they have access to (when appropriate)
+* All PrC's updated to indicate which lines they can progress in for spells (arcane, divine, invocation).
+
+Optional/ongoing work
+* Test Ranged/Melee touch attacks. If confirmed that they don't account for finesse, adjust a new wrapper for all touch attack code that handles it.
+* k_mod_player_rest now hooked to properly decrement the uses per day for: Minor Teleport (Whirling Dervish), Lips of Rapture (Heart Warder), and Forest Dominion (Forest Master)
+* Generate Attack function updated with new optimizations, support for favored enemy, power attack, vs Race, Sneak Attack, Weapon Master, and Weapon Specialization
+* Equip/Unequip code changed to check the item for which code set to call (optimization/speedup)
+* Check on the heartbeat code switch
+* Clean up the levelup and pc_loaded code
+
+[[/tab]]
+
+[[/tabview]]
+
+--]
+
+[!--
++++ 1.61 Exit stage right (update may or may not get done)
+* New Dungeon: Nexus of Tier'Kalath
+* Overlord system
+* Elemental Mastery system
+* Final boss preview: [[[Tamawrath]]] updated with new classes/better gear and companions (banshee bard, iron golem guardian)
+--]
+
+
+[!--
+
+* New Spells including: Holy Water - 4 versions, Rhino's Rush, Holy Storm - 4 versions, Seek Eternal Rest, Sacred Haven, Divine Sacrifice, Lantern Light, Glory of the Martyr, Crown of Smiting, Meteoric Strike, Divine Protection, Clear Mind, Golden Barding, Holy Mount, Mantle of Good, Mantle of Law, Word of Binding, Divine Retaliation, Righteous Aura, Aura of Glory, Soul of Light, Conduit of Light, Divine Presence, Deific Bastion, War Mount, Aligned Aura, Seed of Life, Aura of the Sun
+* New Spells: Abyssal Might, Anarchic Storm, Angry Ache, Arrowsplit, Bloodfreeze Arrow, Curse of Ill Fortune, Darkflame Arrow, Deific Bastion, Demonflesh, Demonhide, Divine Sacrifice, Ebon Ray of Doom, Ferocity of Sanguine Rage, Fire Shuriken, Flesh Armor, Fleshripper, Golden Barding, Heartripper, Hell's Power, Ice Knife, Mantle of Evil, Shadow Arrow, Shadow Form, Shadow Phase, Soul of Shadow, Spider Poison, Stop Heart, Summon Undead I, Summon Undead II, Summon Undead III, Summon Undead IV, Summon Undead V, Unholy Storm, Veil of Shadow, Wave of Grief
+* New Feats: Sanctify Water, Invoke Divine Wrath (Epic), Positive Energy Aura (Epic)
+* New Spells including: Bastion of Good, Chaav's Laugh, Crown of Flame, Crown of Smiting, Death Pact, Deific Vengeance, Divine Agility, Dust to Dust, Fire in the Blood, Fortunate Fate, Frostbite, Frostburn, Lesser Frostburn, Mass Frostburn, Greater Harm, Last Judgement, Mark of Judgement, Renewal Pact, Righteous Exile, Righteous Smite, Shivering Touch, Lesser Shivering Touch , Mass Spell Resistance, Thousand Needles, Winter's Embrace, and Wretched Blight
+* New Spells including: Aspect of the Icy Hunter, Bleakness, Boiling Blood, Burning Blood, Burning Rage, Call Nightmare, Crushing Fist of Spite, Damning Darkness, Darkbolt, Deadly Sunstroke, Doom Scarabs, Ectoplasmic Enhancement, Emerald Flame Fist, Energy Vulnerability, Evil Eye, Fire and Brimstone, Golden Dragonmail, Gutwrench, Healing Touch, Ice Web, Iceberg, Incendiary Surge, Incorporeal Enhancement, Lash of Force, Lingering Flames, Luminous Swarm, Mindfrost, Night's Caress, Nightstalker's Transformation, Parboil, Pulse of Hate, Shape of the Hellspawned Stalker, Silver Dragonmail, and Sword of Darkness
+--]
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]

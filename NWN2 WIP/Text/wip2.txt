@@ -1,0 +1,599 @@
+This page will show the progress of the updates and when items are completed their text color will be changed to green. Purple items are completed but in need of testing.
+[[span style="color: green;"]]Last updated: October 31st, 2012[[/span]]
+[!--
++++ [[span style="color: blue;"]]Details on future updates can be found on the [[[current | Current Release Plans]]] page. [[/span]]
+--]
+
+[[span style="color: green;"]]   [[/span]]
+
+* Update cmi_options text
+
++++ 1.42.2
+* [[span style="color: green;"]]Devour Magic now properly flags the caster as hostile   [[/span]]
+* [[span style="color: green;"]]Voracious Dispel now properly flags the caster as hostile   [[/span]]
+* [[span style="color: green;"]]The Dead Walk now properly flags the caster as hostile   [[/span]]
+* [[span style="color: green;"]]Resonating Bolt description updated to indicate the save is Reflex for half.   [[/span]]
+* [[span style="color: green;"]]Shield proficiency description updated to remove the note about which classes do not have proficiency.   [[/span]]
+* [[span style="color: green;"]]Reduce Animal now works on friendly magical beasts that are not the caster.   [[/span]]
+* [[span style="color: green;"]]Lesser Emberguard damage shield adjusted to d4 (down from d6)   [[/span]]
+* [[span style="color: green;"]]Lesser Emberguard damage reduction changed to 10 points (down from 15)   [[/span]]
+* [[span style="color: green;"]]Emberguard and Lesser Emberguard now have DR/Adamantine    [[/span]]
+* [[span style="color: green;"]]Paragon Visionary now requires 8d6 eldritch blast.    [[/span]]
+* [[span style="color: green;"]]Piercing MWM will not fire if the player has Slashing MWM and a hybrid weapon is equipped.    [[/span]]
+* [[span style="color: green;"]]The descriptions for Mass Drown no longer mentions a spell resistance check.    [[/span]]
+* [[span style="color: green;"]]Loremaster gains Toughness at level 10    [[/span]]
+* [[span style="color: green;"]]Long range spells changed to 35m to remove AI exploit    [[/span]]
+* [[span style="color: green;"]]Tenacious Plague now caps at 6 swarms per PnP    [[/span]]
+* [[span style="color: green;"]]Epic Mass Heal now has 2 uses per day, now actually heals.    [[/span]]
+* [[span style="color: green;"]]Hellspawn Grace now lasts minutes per CL    [[/span]]
+* [[span style="color: green;"]]Reward of life gains a 33% chance to not consume a use of Lay on Hands.   [[/span]]
+* [[span style="color: green;"]]War Glory debuff now only affects enemies   [[/span]]
+* [[span style="color: green;"]]Duelist description updated with perform.   [[/span]]
+* [[span style="color: green;"]]Lion of Talisid class description indicates that leopard shape is gained if no druid levels are present   [[/span]]
+* [[span style="color: green;"]]Vigor spells may now be cast on those not in the party   [[/span]]
+* [[span style="color: green;"]]New PrC: [[[Loremaster]]]   [[/span]]
+* [[span style="color: green;"]]New Feat: Holy Icon of War   [[/span]]
+* [[span style="color: green;"]]New Feat: Reward of Life   [[/span]]
+* [[span style="color: green;"]]New Feat: Companion Barding   [[/span]]
+* [[span style="color: green;"]]New Feat: Wild Marksman   [[/span]]
+* [[span style="color: green;"]]New Feat: Battlefield Surveyor   [[/span]]
+* [[span style="color: green;"]]New Feat: Epic Empty Body   [[/span]]
+* [[span style="color: green;"]]New Feat: Extra Recall Spirit I   [[/span]]
+* [[span style="color: green;"]]New Feat: Extra Recall Spirit II   [[/span]]
+* [[span style="color: green;"]]Shadow Daze now refunds it's use if it fails to affect the target.   [[/span]]
+* [[span style="color: green;"]]New Feat: Warband Arcanist   [[/span]]
+* [[span style="color: green;"]]New Feat: Shadow Lyrist   [[/span]]
+* [[span style="color: green;"]]New Feat: Wildfire Blades   [[/span]]
+* [[span style="color: green;"]]New Feat: Blade of the Shadow   [[/span]]
+* [[span style="color: green;"]]Touch of Healing now accounts for Insignia of Healing   [[/span]]
+* [[span style="color: green;"]]Craft Alchemy is now correctly a class skill for Shining Blade   [[/span]]
+* [[span style="color: green;"]]Shadow Shield spell no longer provides immunity to necromancy spells   [[/span]]
+* [[span style="color: green;"]]Shadow Shield spell no longer provides immunity to negative energy   [[/span]]
+* [[span style="color: green;"]]Shadow Shield spell now provides negative energy protection (10 points per CL, 150 max)   [[/span]]
+* [[span style="color: green;"]]Shadow Shield spell damage reduction now blocks 10 points per CL, 250 max   [[/span]]
+* [[span style="color: green;"]]Hexblade hound of doom and augment familiar spells have been disabled until 1.42.3   [[/span]]
+* [[span style="color: green;"]]Hexblade's Vampiric Touch now sends a message when you use it on an invalid target   [[/span]]
+* [[span style="color: green;"]]Telthor Companion now qualifies for Ashbound    [[/span]]
+* [[span style="color: green;"]]Dervish now correctly only gets the expertise bonus at level 7+    [[/span]]
+* [[span style="color: green;"]]PC_Loaded code no longer fires on the whole server when a new player loads in    [[/span]]
+* [[span style="color: green;"]]Curse of Silence and Curse of Lethargy now cycles targets better.    [[/span]]
+
+1.42.3
+* "I only have a single problem with this - the descriptions of the spells do not reflect the changes to whether they are affected by spell resistance. Examples include web, cloud of bewilderment, curse of impending blades. For quite a while I thought that SR was broken entirely."
+* [[span style="color: green;"]]Devoted Tracker now only requires a single level of Paladin instead of 5.    [[/span]]
+* Curse of Lethargy and Curse of Silence updated with a targeting UI
+* Curse of Lethargy and Curse of Silence can no longer affect the original target twice
+* Curse of Lethargy and Curse of Silence now get the location of the target to cycle spells instead of using the GetSpellTargetLocation call.
+* [[span style="color: green;"]]Sacred Purification now heals/harms for 1d8 for every 2 points of Charisma modifier plus your Charisma modifier. A 22 Charisma (+6) now heals for 3d8 + 6.    [[/span]]
+* [[[Knight of the Wild]]]
+* [[[Stalker of the Depths]]]
+* New Base Class: Skald (finish two scripts)
+* [[span style="color: green;"]]Charm removes Ret Invis and Walk Unseen    [[/span]]
+* [[span style="color: green;"]]Dead Walk removes Ret Invis and Walk Unseen    [[/span]]
+* [[span style="color: green;"]]Wildfire blades allows IB levels to count as Ranger for Protective Ward.    [[/span]]
+* Paladin caster level option gains a new option for CL - 3
+* Runes of Ice account for piercing frost? Use same cmi_options as frost breath reserve
+[!-- Fiery blast affects the user? --]
+* [[span style="color: green;"]]Blind-Fighting now provides immunity to blindness (except for the Yuan-ti)   [[/span]]
+* [[span style="color: green;"]]Clone spells may no longer be cast while possessing a familiar.   [[/span]] [!-- http://ecb2nwn2.faerunonline.com/builds/data2/general312846.html --]
+* Nature's Ward: Poly Reserve feat now applies to companion as well
+* Nature's Ward: Heal Reserve feat now applies to companion as well 
+* Cap spear at 35m in case it has engine support for exceeding L range
+* Check Snowflake applying fatigue
+* Nightsong party buff no longer an aura, now an activated bonus that clearly tells the recipients they gained sneak attack dice.
+* Rangers with the power attack line in armor heavier than light suffer a -4 AB penalty
+* New PrC: Black Fist (Bane) - 10 level melee/divine hybrid
+* New PrC: Golden Lion (Torm) - 10 level melee
+* New PrC: Silverstar (Selune) - 10 level divine
+* New PrC: Thayan Knight - 5 level melee
+* New PrC: Deepwarden - 10 level dwarven melee
+* New PrC: Radiant Servant 10 levels divine for Lathandar
+* New PrC: Deepwood Sniper
+* New PrC: Dreadmaster
+* New PrC: Beastmaster
+* New PrC: Spiritual Fist
+* New PrC: Bloodline Exemplar
+* New PrC: Thane
+* New PrC: Bonded Summoner
+* Oversized two-weapon fighting fixed for small races (courtesy of the PW Ashaba)
+* Templar may change to become a long sword expert instead of a deity weapon
+* New PrC: Templar
+* Hexblade - Replace Slow with Spiderskin (no VFX)
+* Hexblade - Replace Identify with Shield
+* Hexblade - Replace Augment Familiar with Ghostly Visage
+* Hexblade - Replace Hound of Doom with Haste
+* Hexblade - New Feat: Arcane Mastery
+* Hexblade - New Feat: Arcane Heroism
+* Hexblade - New Feat: Arcane Servant of Darkness
+* Hexblade - New Feat: Siphon the Weave
+* Hexblade - New Feat: Divine Torment
+* New Feat: Defensive Grasp (requires disarm, provides disarm immunity)
+* New Base Class: Marshal
+* New Base Class: Skald
+* New Base Class: Knight
+* New Base Class: Songblade
+* Swift Ambusher, Swift Hunter, and Daring Outlaw will be fixed with the new rules.
+* Warlock's Eldritch Glaive now does half damage while Word of Changing is active.
+* Ember Guard is no longer a specific form. It is now a bonus when using the Earth Elemental Shape. It provides a +2 AB bonus, +1d6 Fire Shield, and +1d6 Fire damage to melee. All previous cmi_options for Ember Guard are removed.
+* [[span style="color: green;"]]Half-elves gain a +2 Con bonus   [[/span]]
+* [[span style="color: green;"]]Genasi no longer have +1 ECL, no longer gain free martial weapon proficiency   [[/span]]
+* New PrC: Healer (29 level base class extension for Cleric/FS)
+* Stage I of Alchemy Crafting
+* Death Attack exploit fixes
+* Remove Hosp convo
+* Hospitaler no longer requires a conversation to pick the spellcasting class, now gains a free bonus feat instead of the limited fighter feats.
+* Possible Fighter base class upgrades (when no other classes are present)
+* Remove custom gauntlets, add new gauntlet with both types of extra damage on them.
+* Check CoN for Listen/Spot. Clean up desc?
+* Blackguard (other melees?) gains Taunt
+* Frenzy no longer damages npcs, duration is 10x
+* Rage duration on NPCs 10x
+* Sacred Purification now has a 30s cooldown.
+* CICraftCraftWand function in x2_inc_craft fixed so that FS/SS are added to the divine use limitation set
+* Paladin spirit feats gain complete description
+
+1.42.4
+* New PrC: Master Craftsman
+* New PrC: Favored Slayer
+* New PrC: Mystic Reservist
+* New PrC: Feywild Warden
+* New PrC: Verdant Guardian
+* Adjust Runes?
+* Reserve feats affected area improves
+* Daring Outlaw now mentions that only real sneak attack dice qualify
+* AK/WoD wpn buff changed to 2 uses per day, elemental damages will not stack.
+* Check bladed gaunts for damage
+* Add Darkleaf armors
+* Add Ironwood armors
+* Test Holy Warrior
+* http://dalelandsbeyond.forumotion.com/t19179-hexblades-synergy-and-the-future
+* Combat Perfectionist
+* Thayan Knight
+* Bloodline Exemplar
+* Spiritual Fist
+* Silverstar
+* Thane 
+* Check SP vs MP hooks.
+* CCS scripts are removed/hidden behind a new SP only cmi_option
+* CotSF description updated with more Paladin order specific flavor text.
+* Discuss replacing Swash Dodge with pure Dodge
+* New Feat: Paragon of Cruelty (BG 6, Hex 8, counts BG levels as Hex for curse)
+* Check/Update Warlock/Feat SR code with Assay Resist and see if Breach has a spell effect (don't think so). No effect = no way to tell and no way to grant the bonus.
+* Decide if a Str less than 10 should allow the cap for Intuitive to change slightly
+* Evaluate Fiery Fist, Improved Reaction, Divine Wrath, and Shadow Evade for instant feat status
+* Bigby's pulse checks if target is alive?
+* "Nature's Favor and Awaken does not include description to work on telthor companion, but they work, I don't know is it bug or wrong description."
+* Remove Hosp convo
+* Hospitaler no longer requires a conversation to pick the spellcasting class, now gains a free bonus feat instead of the limited fighter feats.
+* Evaluate Scout feats prereqs post Skirmish change
+* Test Dodge Debuff issue
+* Integrate LoA frost armor fix
+* Reserve feat DC function
+* Rune VFX upgrade courtesy of Gray Isles (visual marker of the element at the center): http://www.youtube.com/watch?v=_fK00Z5vVKM
+* Glaive always plays it's animation (even on a miss) courtesy of Gray Isles
+* New VFX for Healing Blast courtesy of EsteveCS85 (waiting for final approval)
+* cmi_option for always use lesser emberguard
+* Hexblade hound now has a cmi option to control the caster level cap
+* Aura of Cold spells have their aura changed to a blue version 
+* Vamp Feast kills to avoid shield issue?
+
+
+[!--
++++ 1.43
+* Add fluff text for FS that indicates humanoid form led to a focus on healing and alchemy. Clarify class abilities that can only be used in humanoid form and/or create the feat use GUI for shifting.
+* Possible Base Class: [[[Arcane Disciple]]]
+* Search added as Alchemist class skill (Pathfinder's Perception)
+* Possible new base class: [[[Alchemist]]]
+* New PrC: [[[Armored Titan]]] ?
+* Content from [[[Misc]]] ?
+* [[span style="color: green;"]]New PrC: [[[Warlock Hunter]]]   [[/span]] - Needs testing
+* [[span style="color: green;"]]New PrC: [[[Bloodline Exemplar]]]   [[/span]] - Needs testing
+* [[span style="color: green;"]]Protective Ward applies to the companion if the player has the animal comp combat style.   [[/span]] - Needs testing
+* [[span style="color: green;"]]New PrC: [[[Thane]]]   [[/span]] - Needs testing
+* [[span style="color: green;"]]New Feat: Greater Epic Rage   [[/span]] - Needs testing
+* Partial fix for wasted Rage: Any enhance bonus to Strength that exceeds +12 is converted to an appropriate amount of Attack Bonus. For example, wearing a belt of +4 Strength and using Epic Rage (+10 Str) will be converted into a +1 Attack Bonus.
+* Caps on daring outlaw style feats use daring outlaw cap
+* L1 Warlocks gain a bonus feat (pact source)?
+* New cmi_options method
+* Check Epic Gate for summoning buff issue/upcoming feat
+* Swift Hunter and Swift Ambusher now use the same cap as Daring Outlaw.
+* Test new Ranger XMLs with MP text numbers
+* New Shield and Xbow combat styles added (possibly spellcaster and hidden strikes as well)
+* New Base Class: [[[Feral Shifter]]]
+* New PrC: [[[Thunderborn]]]
+* New PrC: [[[Thayan Knight]]]
+* New Base Class: [[[Knight]]]
+* New Base Class: [[[Marshal]]]
+* Diff possible new feats page with last version and update the TLK info with the updates
+* New Reserve Feat: Wind-Guided Arrows (requires Haze of Swirling Dust be memorized, grants +2 AB to ranged attacks).
+* New Spell: Haze of Swirling Dust (Ranger 3 only, 8rd duration, anyone in 20' burst area has 50% concealment, anyone in area takes 1d4 per 2 CL (max 5d4), Reflex save for half).
+* All RTA/MTA spells updated to use warlock touch code (new non-warlock version actually)
+* Investigate possible exploit with instant feats.
+* Glaive and HiPS block is now controlled by the cmi_options (still defaults to blocked)
+* New cmi_option: Full Hexblade CL as DC for curse (defaults to off, which is 1/2 as it currently is)
+* Reserve feats no longer affect allies (optional)
+* Fix possible abuse with Hawkeye
+* New cmi_option: Allow BG/Hex/Warlock stacking (defaults to off, which is the current setting)
+
+--]
+
+[!--
++++ Future (possible only, not planned)
+* New PrC: [[[Loremaster]]]
+* New PrC: [[[Battlemage]]]
+* New PrC: [[[Grand Magi]]]
+* [[[Pathfinder Paladin]]]
+* [[[Possible New Feats]]]
+* [[[Possible New Spells 2]]]
+* [[[Songblade]]]
+* [[[Alchemist]]]
+* [[[Arcane Disciple]]]
+* [[[Artificer]]]
+* [[[Duskblade]]]
+* [[[Witchblade]]]
+* [[[Dark Champion]]]
+* All partial melee classes granted Parry, all d10+ HD melees granted taunt.
+* [[[Knight of the Wild]]]
+* [[[Arcane Sentinel]]]
+* [[[Shaman]]]
+* [[[Skald]]]
+* [[[Fury]]]
+* [[[Dreadnaught]]]
+* [[[Weave Master]]]
+* [[[Spellblade]]]
+* [[[Chaotic Wilder]]]
+* [[[Battle Mage]]]
+* [[[Master Healer]]]
+* [[[Warden]]]
+* [[[Paragon Summoner]]]
+* [[[Battle Archer]]]
+* [[[Battle Herald]]]
+* [[[Mage Hunter]]]
+* [[[Beastmaster]]]
+* [[[Arcane Fist]]]
+* [[[Mystic Reservist]]]
+* [[[Thaumaturge]]]
+* [[[Mesmer]]]
+* [[[Pit Fighter]]]
+* [[[Eldritch Sculptor]]]
+* [[[Favored Slayer]]]
+* [[[Wilderness Champion]]]
+* [[[Combat Perfectionist]]]
+* [[[Master Craftsman]]]
+* [[[Elementalist]]]
+* [[[Feral Brute]]]
+* [[[Kinslayer]]]
+* [[[Warlock Hunter]]]
+* [[[Wildrunner]]]
+* [[[Wildbow]]]
+* [[[Blade Dancer]]]
+* [[[Feywild Warden]]]
+* [[[Dragon Shaman]]]
+* [[[Dragonfire Adept]]]
+--]
+
++++ Future
+* Frost Mage NatAC stacking issue with cmi option on.
+* Update Marshal/Knight so that when it says “allies” it means “self and allies”
+* Adjust Thane/Thunderborn description to indicate the sonic damage booster will not stack.
+
++++ 1.41.4 + 1.42 (Website)
+* Add Epic Fiendish Resil 2-4 feat to website
+* Epic Skill Focus (Bluff,Taunt,Heal) added to the website.
+* Update Armor Specs feats on the website to match the game
+* Dark Transient isn’t on the websites feat list
+* Lord of All Essences needs to be added to the websites feat list
+* Liveoak added to the website spell list
+* Remove Healing Hymn from the site list
+* Add the rest of the epic focus feats to the website
+* All new 1.42 feats/spells
+[!--
++++ Possible content
+* Sanctuary/Ethereal spells change active mode to parry.
+* Magic Circle against Alignment now applies the protection bonus to each ally in range at the time of casting (it is no longer an aura).
+* Aura versus Alignment now applies the protection bonus to each ally in range at the time of casting (it is no longer an aura). Reduce save bonus if the target has Protection from Alignment
+* http://dalelandsbeyond.forumotion.com/t11694-fm-forest-s-hammer-and-dual-wield#81406
+* Instant Feats gain an impact VFX to notify the user the feat has been activated.
+* Daggerspells descriptions cleaned up
+* Red Dragon Shape’s color isn’t correct?
+* New PrC: Warlock Hunter
+* New Base Class: [[[Marshal]]] (50%)
+* New Base Class: [[[Knight]]] (25%)
+* New PrC: [[[Master Craftsman]]] (10%)
+* New PrC: [[[Favored Slayer]]] (10%)
+* New PrC: [[[Mystic Reservist]]] (10%)
+* New PrC: [[[Beastmaster]]] (10%)
+* New PrC: [[[Thayan Knight]]] (10%)
+* New PrC: [[[Combat Perfectionist]]] (10%)
+* New PrC: [[[Stalker of the Depths]]] (10%)
+* New PrC: [[[Paragon Summoner]]] (33%)
+* New PrC: [[[Master Healer]]] (10%)
+* Rewrite Deep Slumber so that it works correctly. Check Assassins for the correct DC (make sure OEI DC call is working correctly). DC for the feat based version (fey presence) needs to use Cha.
+* New Feat: Improved Battle Fervor. +1 bonus.
+* Epic Spell descriptions updated to indicate they take advantage of spell focus feats
+* Revise daring/swift and review cmi_options.
+* Add documentation of what wildshape transfers to the feats
+* Dreadful Wrath changed to be like the Blackguard's feat (feats.2da) and then Background.
+* Populate Spells.2da (still needs targeting, script names, text IDs) for Dreadful Wrath
+* Script for aura (dread wrath)
+* Enter feat description for Dreadful Wrath
+* Remove excess swash dodge feats
+* Glitterdust actively blocks all invis effects from taking hold 
+* Review cmi_options for glaive damage after code rewrite in last few versions
+* Test using a tower shield, a -4 AC decrease (shield), and a +4 AC increase (deflection). Test GetAC function on ring/cloak of protection ->  Determine if Parrying Shield is possible for [[[Knight]]]
+* Levelup script now counts the number of sneak dice and sets it on the char for speedy reference. Removes issue with me forgetting where all the places are that need to check on stacking dice numbers. ;) -1 or > 0 are valid numbers, 0 = PW reset so recalc the number.
+* Silver Sword updated for the new base classes (Knight, Marshal)
+* Decide what to do about the stacking dodge feats (swift hunter/ambusher).
+* Do a pass for UMD/Perform to make sure all classes have it correctly.
+* Rage/Frenzy bonuses past the  12 cap converted to  AB/ SlashDmg
+* Requiem and other delaycommand/heartbeat style spells will now correctly break stealth if you stealth AFTER the casting knocks you out of stealth.
+* Spell Sneak Attack code efficiency increased (local int used for dice, reset on levelup, same as how warlock dice are going to be calculated)
+* Meteor Swarm for Druids now accounts for piercing cold
+* cmi_option added to use cmi_inc_PWConstants or the 2da system
+* New cmi_option for SP or PW. Module events will use this (allowing player loops to work on companions in SP).
+* New cmi_option to allow SP users to turn off the Con fix code.
+* All getcmi option calls replaced with a function that checks if PW mode or SP mode. PW returns a code constant, SP does the 2da lookup.
+* GetPal/Rng caster level now caches the value (localint - hd, localint - cl, gethd call to confirm it's current, old code to generate cl if not or == 0) 
+* 'Special' Sneak Attacks swapped for normal sneak attack (blackguard, AT, etc).
+* Sneak stacking feats evaluated (swift ambusher, etc)
+* Add new unlimited ammos for bows, xbows, and slings (+1, +2, and +1d6 of Sonic/Acid as well as material based ammos)
+* New Spell: Lifetheft
+* New Spell: Greater Magic Missile
+* New Spell: Arrow Storm
+* New Spell: Greater Bestow Curse
+* New Spell: Cyclonic Blast
+* New Spell: Exacting Shot
+* New Spell: Fleshiver
+* New Spell: Foebane
+* New Spell: Hailstones
+* New Spell: Languor
+* New Spell: Call Frost Storm (75%)
+* New Spell: Frost Storm (75%)
+* New Spell: Frost Strike (75%)
+* New Spell: Frost Weapon (75%)
+* New Spell: Frost Avatar (75%)
+* New Spell: Frostball (75%)
+* New Spell: Delayed Blast Frostball (75%)
+* New Spell: Frost Arrow (75%)
+* New Spell: Frostbrand (75%)
+* New Spell: Frostburst (75%)
+* New Spell: Greater Frostburst (75%)
+* New Spell: Freezing Fog (75%)
+* New Spell: Frost Sphere (75%)
+* New Spells: Zone of Natural Purity, Grace, Improvisation, Languor
+* New Feat: Roll With It I-VI (DR/- increases by 2/-)
+* New Feat: Weakening Touch
+* New Feat: Freezing the Lifeblood
+* New Feat: Daring Buccaneer
+* New Feat: Fists of Iron
+* New Feat: Called Shot
+* New Feat: Combat Focus
+* New Feat: Combat Vigor
+* New Feat: Combat Stability
+* New Feat: Combat Awareness
+* New Feat: Combat Defense
+* New Feat: Imbued Healing
+* New Epic Spells: Epic Call Lightning
+* New Epic Spells: Epic Mass Heal
+* Test/Update desc for Imp Fav Enem to be +5?
+* Check deities.2da for new races
+* Add Lythari, Silverbrow Humans
+* Add Reserved Feats to the IPRP feat list
+* Ethereal spells renamed Greater Sanctuary
+* New PrC: [[[Templar]]]
+* Whirling dervish gains “stacking monk abilities” such as +1 AC at 5/10 and +1d6 unarmed at 5/10?
+* FotF gains 2 more levels (Adam Strike at 4, Feral Trance upgraded, +1d6 unarmed)?
+* New Feat: Daring Duelist?
+* Unlimited Ammo 1d6 Sonic has been added to the toolset.
+* Heal/Harm gains the benefit of augment healing, melee touch spell specialization, critical hits, and sneak attack.
+* Heals updated to fully support Augment Healing and Healing Domain. Including the Mass versions.
+* New Feat: Imbued Healing
+* Check Templar awarding deities feats - missing
+* Assess "Intimidate check opposed by the target's modified level check (d20 + hit dice + Wisdom bonus)" for Demoralize
+* All animal companions redone so that they have a more correct feat and skill set. They will all get the "free" template Warbeast from MM2 (effectively +3 Str, +3 Con, +2 Wis at no cost)
+* Artist background feat now scales to 23 uses/day and stacks with Extra Music.
+* Characters with Swift Hunter or Swift Ambusher scanned to make sure they do not have more sneak dice than expected. If so, they lose the extra dice.
+* Dragon Companion breath weapon has an unlimited use, 3 round cooldown if it doesn't already.
+* Dragon Companion updated with correct stats (including damage reduction, spell resistance, and sneak attack immunity)
+* [[[New domains]]]
+* New CMI option: Spell Focus (Conjuration) grants a +2 AB bonus to summons. This improves to +4 for Greater Spell Focus and +6 for Epic Spell Focus. This cmi_option will include a value to use half this value (+1/+2/+3).
+* New Epic Spell: Superb Dispel (has a CL + 10 bonus (40 max), deals 10d6 to the caster) (25%)
+* New Epic Spells: Aura of Fire Protection, Aura of Cold Protection, Aura of Electricity Protection, Aura of Acid Protection, Aura of Sonic Protection, Aura of Warding, Epic Mage Armor, Epic Barkskin, Epic Spell Protection, Epic Bolster Spell Resist, Epic Animate Dead, Epic Aura of the Sun
+* New Feat: Companion Barding (melts a piece of armor and grants it to the companion)
+* New Feat: Elven Spell Lore (PH2)
+* New Feat: Expose Vulnerability (ranged/thrown expose weakness)
+* New Feat: Extra Dervish Dance (+3/day)
+* New Feat: Extra Invocation (Hideous Blow) - instant, 12s cooldown, same functionality as spell
+* New Feat: Master of the Elements (summons 24 HD random elder elemental, 10 to all resists that does not stack)
+* New Feat: Shield Slam (CW)
+* New Feat: Terrifying Rage
+* New Feat: Thunderous Rage
+* New Feat: Vanguard Strike
+* New Invocation: Relentless Dispelling
+* New PrC: [[[MoMF]]]
+* New Race: Silverbrow Humans
+* Spells on scrolls
+* Blackguards gain Protection from Good as a level 1 spell.
+* Twilight armor
+* New Feat line: Epic Skirmish I-IV (grants a cumulative +1 AC bonus, requires level 15 equivalent in Skirmishing).
+* New Feat: Celestial Affinity (as Infernal, vs evil)
+* New Feat: Corpsecrafter
+* New Feat: Dazzling Illusion
+* New Feat: Deadly Chill
+* New Feat: Destructive Retribution
+* New Feat: Fearsome Necromancy
+* New Feat: Infernal Affinity - http://www.wizards.com/default.asp?x=dnd/frcc/20070314
+* New Feat: Insightful Reflexes
+* New Feat: Initiate of Ilmater
+* New Feat: Necromantic Might
+* New Feat: Necromantic Presence
+* New Feat: Penetrating Shot
+* New Feat: Piercing Evocation
+* New Feat: Plunging Shot (+1d6 damage)
+* New Feat: Profane Aura
+* New Feat: Profane Lifeleech
+* New Feat: Profane Vigor
+* New Feat: Sense Weakness (Negate DR for 1 round, 3 round cooldown, must wield a ranged weapon)
+* New Feat: Tomb-Tainted Soul (can self heal with negative energy such as Inflict spells and Utterdark Blast Essence)
+* New Feat: Unsettling Enchantment
+* New Invocation: Steal Summoning
+* New Spell: Antimagic Aura
+* New Spell: Antimagic Field
+* New Spell: Antimagic Ray
+* New Spell: Baleful Utterance
+* New Spell: Blinding Spittle
+* New Spell: Chain Dispel
+* New Spell: Cometstrike
+* New Spell: Lucent Lance
+* New Spell: Mage Burr
+* New Spell: Mystical Backlash
+* New Spell: Ray Deflection
+* New Spell: Reaving Dispel
+* New Spell: Reciprocal Gyre
+* New Spell: Righteous Aura
+* New Spell: Silvered Claws  (25%)  (D1, R1) 1 minute/level Animal Companion has silver claws
+* New Spell: Slashing Dispel
+* New Spell: Soul of Dark
+* New Spell: Targeting Ray
+* New Spell: Undying Vigor of the Dragonlords
+* New Spell: Wracking Touch
+* Oversized Two-Weapon Fighting now works for the little people
+* Paladin now has access to the Heal Animal Companion spell (instead of Heal Mount/Special Companion) for Paladin/Ranger synergy
+* Utterdark Blast heals allied undead, invoker (if they have Tomb-Tainted Soul)
+* New PrC: [[[Songblade]]
+* New Spells including: Holy Water - 4 versions, Rhino's Rush, Holy Storm - 4 versions, Seek Eternal Rest, Sacred Haven, Divine Sacrifice, Lantern Light, Glory of the Martyr, Crown of Smiting, Meteoric Strike, Divine Protection, Clear Mind, Golden Barding, Holy Mount, Mantle of Good, Mantle of Law, Word of Binding, Divine Retaliation, Righteous Aura, Aura of Glory, Soul of Light, Conduit of Light, Divine Presence, Deific Bastion, War Mount, Aligned Aura, Seed of Life, Aura of the Sun
+* New Spells: Abyssal Might, Anarchic Storm, Angry Ache, Arrowsplit, Bloodfreeze Arrow, Curse of Ill Fortune, Darkflame Arrow, Deific Bastion, Demonflesh, Demonhide, Divine Sacrifice, Ebon Ray of Doom, Ferocity of Sanguine Rage, Fire Shuriken, Flesh Armor, Fleshripper, Golden Barding, Heartripper, Hell's Power, Ice Knife, Mantle of Evil, Shadow Arrow, Shadow Form, Shadow Phase, Soul of Shadow, Spider Poison, Stop Heart, Summon Undead I, Summon Undead II, Summon Undead III, Summon Undead IV, Summon Undead V, Unholy Storm, Veil of Shadow, Wave of Grief
+* New Feats: Sanctify Water, Invoke Divine Wrath (Epic), Positive Energy Aura (Epic)
+* New Spells including: Bastion of Good, Chaav's Laugh, Crown of Flame, Crown of Smiting, Death Pact, Deific Vengeance, Divine Agility, Dust to Dust, Fire in the Blood, Fortunate Fate, Frostbite, Frostburn, Lesser Frostburn, Mass Frostburn, Greater Harm, Last Judgement, Mark of Judgement, Renewal Pact, Righteous Exile, Righteous Smite, Shivering Touch, Lesser Shivering Touch , Mass Spell Resistance, Thousand Needles, Winter's Embrace, and Wretched Blight
+* New Spells including: Aspect of the Icy Hunter, Bleakness, Boiling Blood, Burning Blood, Burning Rage, Call Nightmare, Crushing Fist of Spite, Damning Darkness, Darkbolt, Deadly Sunstroke, Doom Scarabs, Ectoplasmic Enhancement, Emerald Flame Fist, Energy Vulnerability, Evil Eye, Fire and Brimstone, Golden Dragonmail, Gutwrench, Healing Touch, Ice Web, Iceberg, Incendiary Surge, Incorporeal Enhancement, Lash of Force, Lingering Flames, Luminous Swarm, Mindfrost, Night's Caress, Nightstalker's Transformation, Parboil, Pulse of Hate, Shape of the Hellspawned Stalker, Silver Dragonmail, and Sword of Darkness
+* New PrCs: [[[Mesmer]]], [[[Pit Fighter]]], [[[Eldritch Sculptor]]], [[[Wilderness Champion]]], [[[Energy Specialist]]], [[[Feral Brute]]], [[[Kinslayer]]], [[[Shaman]]], [[[Thaumaturge]]], [[[Arcane Fist]]], [[[Skald]]], [[[Mage Hunter]]], [[[Battle Herald]]], [[[Battle Archer]]], [[[Warden2 | Warden]]], [[[Force Mage]]], [[[Chaotic Wilder]]], [[[Spellblade]]], [[[Weave Master]]], 
+* [[[Feywild Warden]]] ?
+* [[[Artificer]]] ?
+* [[[Blade Dancer]]] ?
+* [[[Lythari]]] ?
+* [[[New VFX]]] available to community.
+* [[[pw crafting system]]] ?
+* [[[crafting2]]] ? 
+* [[[possible-new-spells]]] ? 
+* [[[spells on scrolls]]] ? 
+* [[[Sword Dancer]]] ? 
+* [[[Wildbow]]] ?
+* [[[Wildrunner]]] ? 
+* [[[Craft Trap]]] ?
+* Avengers no longer have death attack dice or the death attack ability (replaced with regular sneak attack)? The class gains Crippling Strike at 10th level.
+* New Traps? [[[Trapsmith]]]
+* New Race: Spellscale, Feytouched (Lyrical), Feytouched (Shadowy)
+* New Feat: Foe Hunting (Teamwork)?
+* Leafweave armor (RotW)?
+* New Feats: Reckless Offensive, Greenbound Summoning, From Smite to Song, Spirit Devotion, Lore Devotion, Healing Hymn, Epic Divine Vigor, Doomspeak, Spellbreaker Song, Superb Dispelling
+* New Spells: Golden Barding, Soul of Light, Creaking Cacophony, Fires of Purity, Grace, Improvisation, Holy Mount, 
+* New Feat: [[[Craft Spell]]]
+* NWN9 renamed the Guardian Knight
+* Finish the warlock spells? (Draconic Toughness, Painful Slumber of Ages, Scalding Gust, Spider Shape, Steal Summoning, Terrifying Roar, Witchwood Step) and theoretical spells (Greater X blast series)
+* AK/WoD/etc description updated to indicate it buffs gauntlets as well as melee/ranged weapons.
+* New Hexblade caster prc?
+* http://nwn2.wikia.com/wiki/Etherealness
+* ccs_ script calls removed from the k_mod scripts?
+* Winter Wolf and White Tiger from dalelands? Guess not.
+* Righteous Fury adjusted?
+* New feat Improved Familiar (turned off by default).
+* Shadow Dancer's Summon Shadow replaced with a Shadow Simulacrum ability from Dalelands. (The word 'shadow' is now 42% more liberally bantered about) Discuss with Mustang plan for Improved Summon Shadow (possibly (capped at 3* SD class level in HD)
+* Fire Spirit Companion added for SS (same as druid/ranger fire elemental companion)?
+* Add a cmi_option for greater resto
+* Add an item container that melts items for gold. cmi_option to get it. 
+* Animalistic Power no longer checks for faction, now correctly affects allies
+* Assassin and Blackguard spells will fail if the required Int/Wis is too low
+* Aura of Glory
+* Banishment wrong, code issues
+* Burning hands size wrong
+* Castigate
+* Cause Fear is really bugged
+* Check Spike Growth for issues
+* Check web version of shadow conjuration greater
+* Classes that grant skill bonuses to counter armor check penalties (Nightsongs) updated to account for the new script functionality in 1.23 (bonus will no longer increase the skill above the armor's penalty).
+* Cloud of Bewilderment
+* Cloudkill
+* Cone of Cold, Burning Hands
+* Drow See Invisible replaced with Dancing Lights.
+* Ensure HAO and GHAO do not transition to wildshape
+* Faerie Fire now actively blocks all concealment effects from taking hold.
+* Haste will no longer provide swiftblade benefits when cast by a scroll or by a divine caster.
+* http://dalelandsbeyond.forumotion.com/t2606-elemental-warrior-vfx
+* New Feat: Shadow Replenishment (Shadow Daze is refreshed/available after each use of shadow evade)
+* New PW cmi_options for the poison content.
+* Oversized TWF - Look into the new code to handle the small people
+* Sleep needs fixed
+* SR on item code streamlined for MP
+* Update cmi_options for wildshape AC with the new AC system
+* Possible New Feat: Epic Heavy Armor Optimization
+* All arcane classes updated to mention that Wizard spellcasting progression requires 2 levels in the wizard base class to take.
+* Look for a small number of new Evocation spells
+* Investigate new icons
+* All uncapped spells cap at HD
+* Feat based Energy Sub introduced (Cold) - Piercing Cold will work *IF* the frost mage has 10 levels.
+* Joyful Noise
+* Greater Spell Breach
+* Check wpn focus unarmed in wildshape
+* Stats for the fire elemental companions added to the feat description
+* Dispels on Paladin/Rangers now account for engine granted 'full' levels vs my adjusted 'full' caster level.
+* Eldritch Spear description updated to indicate it can sneak attack if dice are available (if the option is turned on)
+* IPRP_Spells entries for Etherealness, Ethereal Jaunt corrected
+* War Cry fear now rd/CL, can be extended
+* Test changing HB scripts to EffectAoE with no enter/exit (just start/hb)
+* Test the new +2 Wisdom race issue fix
+* cmi_option added to control if maximize/empower eld blast should stack. 0 - No, 1 - Yes, 2 - Yes, but not Glaive.
+* cmi_option to split up hellfire blast and eld blast for maximize/empower/crits.
+* Test devour magic stacking it's temp hp as expected.
+* DissChord Break Conc aura removes old OEI code
+* Snowflake Wardance can no longer by used by the small races if the weapon is size S. Appearance.2da checked for racial size. Check if Kukri is a slashing weapon.
+* New Epic Spells
+* Sneak attack code now accounts for caster invisibility (if the target can't see invisible)
+* Update Utterdark blast to stack levels
+* http://community.wizards.com/go/thread/view/75882/19538942/Ultimate_Spell_List
+* Hellfire blast no longer inflicts Con damage per target, just per blast (shape/essence ignored).
+* Class based feats (especially fighter) have been streamlined for the Equip/Unequip/HB/LevelUp/Loaded scripts. Fewer level/feat checks.
+* Assassin/Blackguard spell upgrades
+* Double check assassins (level 3) getting magic circle vs good
+* Elemental shape DR fixed.
+* Nightshield, Animalistic Power can be extended
+* Death Knell changed to always grant bonus
+* Awaken works on all companions?
+* Nat Avatar works on all companions?
+* New Feat? Invoke Spirit Wrath (Requires 26 Lore, Chastise Spirit, Level 21 Spirit Shaman) As a full-round action, you can spend one of your Chastise Spirit attempts to blast a single creature within 60 feet with divine energies channeled directly from your spirit guide. The targeted creature must make a successful Fortitude saving throw (DC = 10 + half your spirit shaman level + your Charisma modifier) or take 1d8 points of divine damage per two class levels
+* New Feat? Eldritch Precision (Eldritch Shapes no longer affect allies, Spear/Glaive/Basic gains +1 AB)
+* Way of the Brute added for Elite Commando (+1 rage use at each odd level)
+* New Feat: Extra Rage II-IV?
+* All partial melee classes granted Parry, all d10+ HD melees granted taunt.
+* New cmi_option to turn on/off the Disarm code
+--]
+
++++ Optional Content
+* Optional Download for giving Monk and Rogue high BAB at epic levels (21-30).
+* Optional Download for the SS change. Assassin epic levels moved to this optional download.
+* [[span style="color: green;"]]Assassin now has it's epic levels available (11-20)   [[/span]]
+* [[span style="color: green;"]]Spirit Shaman spellcasting ability changed to Wisdom for all aspects. Documentation/original version can be made available on request.   [[/span]]
+* [[span style="color: green;"]]Spontaneous casters gain additional spells known progression for epic levels. This will allow them to swap spells from 1-30 as well as gain a small number of new known spells of each level (for SS/Sorc/FS they gain 1 additional spell of levels 2-9 and two additional first level spells; bards gain two spells known for levels 1-4 and one additional spell known for levels 5 and 6).   [[/span]]
+[!--
+
++++ Hexblade Post Release Possible Content
+* Enter descriptions for post-release feats 
+* Stacking spell gain code (Extra Slot)
+* Populate Spells.2da with Extra Spell entries (6 spells)
+* Extra spell series scripts(6)
+* Extra spell series feats.2da entries (99% complete)
+* Add Vampiric Feast epic spell version
+* Add new reserve feat – Negative Energy Burst (Hexblade only)
+* Battle Blessing
+--]
++++ Reminder
+* Update Feats content page
+* Update Spells content page
+* Update Blackguard content page
+* Update various class content pages
+* Update Race content page
+* Update page detailing new items added (new armors, chasubles, etc)
+* Upload Non-English TLKs
+
++++ Reminder to self: For the update the following has to be done!
+* MP cmi_options set to 0 for Serena's coin 
+* MP classes.2da set to 0 for KoT

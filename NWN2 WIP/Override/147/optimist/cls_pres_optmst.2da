@@ -1,0 +1,9 @@
+2DA V2.0
+
+  LABEL                           ReqType ReqParam1 ReqParam2 
+0 BAB                             BAB     6         ****      
+1 Concentration                   SKILL   1         8         
+2 Diplomacy                       SKILL   12        5         
+3 Heal                            SKILL   4         4         
+4 IronWill                        FEAT    22        ****      
+5 FEAT_OPTMST_HARNESS_DIVINITY    FEAT    3517      ****      

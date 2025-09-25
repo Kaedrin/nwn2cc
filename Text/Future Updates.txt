@@ -1,0 +1,102 @@
+[color=#0099ff][size=14][b]Potential 1.47 Update[/b][/size][/color]
+
+Knight
+Armiger
+Tactician
+Shadowblade
+
+[color=#399933][size=14][b]Custom Combat Feats[/b][/size][/color]
+Combat feats drawn from http://kaedrin-nwn2.blogspot.com/p/new-feats.html
+
+[color=#399933][size=14][b]Possible new feats from Pathfinder[/b][/size][/color]
+[spoiler]
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/combat-feats---3rd-party---louis-porter-jr/single-blade-style-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/necromancers-of-the-northwest/combat-feats---3rd-party---necromancers-of-the-northwest/unarmored-specialist-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/necromancers-of-the-northwest/combat-feats---3rd-party---necromancers-of-the-northwest/wild-swing-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/armor-focus
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/armor-specialization
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/create-opening-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rite-publishing/combat-feats---3rd-party---rite-publishing/short-blade-warrior-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/sean-k-reynolds-games/combat-feats---3rd-party---sean-k-reynolds-games/armor-defense-mastery-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rogue-genius-games/combat-feats/armor-focus-heavy-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rogue-genius-games/combat-feats/armor-focus-medium-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/rogue-genius-games/combat-feats/cloak-fighting-combat
+
+http://www.d20pfsrd.com/feats/3rd-party-feats/louis-porter-jr-design/general-feats---3rd-party---louis-porter-jr/shield-specialization[/spoiler]
+
+[color=#0099ff][size=14][b]Potential 1.48 Update[/b][/size][/color]
+
+Witch Hunter
+Witcher
+Witch
+Inquisitor
+
+Potential Witch Hexes
+[spoiler]Hex: Witches learn a number of magic tricks, called hexes, that grant them powers or weaken foes. At 1st level, a witch gains one hex of her choice. She gains an additional hex at 2nd level and for every 2 levels attained after 2nd level. The save to resist a hex is equal to 10 + 1/2 the witch's level + the witch's Charisma modifier. Using a hex is a full round action that does not provoke an attack of opportunity.
+
+Hex choices:
+
+Cauldron: The witch receives Brew Potion as a bonus feat and a +4 insight bonus on Craft (alchemy) skill checks.
+
+Charm: The target creature becomes allied to the witch. For the duration the spell, the charmed creature will protect the caster (and the caster's allies) and attack the caster's enemies.
+
+Misfortune: The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty to AC. This hex lasts for a number of rounds equal to 3 + the witch's Charisma modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.
+
+Evil Eye: The witch can cause doubt to creep into the mind of a foe within 30 feet that she can see. The target takes a –2 penalty to attack rolls. This hex lasts for a number of rounds equal to 3 + the witch's Charisma modifier. A Will save reduces this to just 1 round. This is a mind-affecting effect. At 8th level the penalty increases to –4.
+
+Healing: A witch can soothe the wounds of those she touches. This acts as a cure light wounds spell, using the witch's caster level. At 5th level, this hex acts like cure moderate wounds. This ability has a 18s cooldown.
+
+Slumber: A witch can cause a creature within 30 feet to fall into a deep, magical sleep, as per the spell sleep. The creature receives a Will save to negate the effect. If the save fails, the creature falls asleep for a number of rounds equal to the witch's level. This hex can affect a creature of any HD.
+
+Ward: A witch can use this hex to place a protective ward over one creature. The warded creature receives a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. A witch can have only one ward active at a time. If the witch uses this ability again, the previous ward immediately ends. At 8th level and 16th level, the bonuses provided by this ward increase by +1.
+
+Major Healing: By calling upon eerie powers, the witch's touch can mend even the most terrible wounds of those she touches. This acts as cure serious wounds, using the witch's caster level. At 15th level, this hex acts like cure critical wounds. This ability has a 18s cooldown. A witch must be at least 10th level to take this hex.
+
+Call Lightning: All enemies within the area of effect take 1d6 points of electrical damage per caster level, to a maximum of 10d6. A witch must be at least 10th level to take this hex. This ability has a 12s cooldown.
+
+Life Giver: Once per day the witch can, as a full round action, touch a dead creature and bring it back to life. This functions as resurrection. A witch must be at least 18th level to take this hex.
+
+Life Giver 2/day: Twice per day the witch can, as a full round action, touch a dead creature and bring it back to life. This functions as resurrection. A witch must be at least 18th level to take this hex and have the Life Giver hex.
+
+Natural Disaster: A witch using this hex calls down the forces of nature to wreak havoc on an area. This functions as a storm of vengeance combined with an earthquake that occurs on the second round of the effect (while acid is raining from the sky). A witch can only use this ability once per day. A witch must be at least 18th level to take this hex.
+
+Natural Disaster 2/day: A witch using this hex calls down the forces of nature to wreak havoc on an area. This functions as a storm of vengeance combined with an earthquake that occurs on the second round of the effect (while acid is raining from the sky). A witch can only use this ability once per day. A witch must be at least 18th level to take this hex and have the Natural Disaster hex.
+
+Poison: If you succeed at a melee touch attack, the target must make a Fortitude save or suffer the effects of x.
+
+Dire Prophecy: The witch curses the target so he is doomed to die (Will negates). As long as the curse persists, the target takes a –4 penalty to his Armor Class and on attack rolls, saves, ability checks, and skill checks. A witch must be at least 18th level to take this hex. Remove Curse will remove this hex.
+[/spoiler]
+
+[color=#0099ff][size=14][b]Potential 1.49 Update[/b][/size][/color]
+
+Necromancer
+Healer
+Artificer
+Runecarver
+
+Healing Revamp
+
+[color=#0099ff][size=14][b]Potential 1.50 Update[/b][/size][/color]
+
+Alchemist
+
+
+Sorry folks, my internet provider entered a service downtime right after I posted. In hindsight I'll just use one thread instead of one for each themed update.
+
+Here is my "wishlist" for doing updates/content. The big rock stuff. Of course this is just the goalpost stuff, I'll always be open to doing things before/during/after these updates as well. Particularly the possible spellbook casters in the new spellbook caster thread (such as Nightblade and Duskblade). 
+
+I've been talking with Sapphire and Archimedes about a way to do smaller, more often delivered updates instead of the massive milestone updates. This would still be a roadmap towards that where the pieces are simply carved off and added as they are finished. It should also help get stuff approved a bit faster. I'd essentially be joining the staff. I don't really do updates for a lot of servers any more (this one and Trinity are the only two still up) and the 1.42 update was were I merged the DB stuff into my baseline anyway.
+
+The potential 1.46 thread has been cleaned up quite a bit as well. It should be focused on the Beastmaster along with the Rogue/Barbarian discussions. With possible changes for archery and death attack and new feats to support those affected.
+
+I'll try to update my blog with as many descriptions as I can for stuff moving forward as a way to keep the developmental stuff separate from threads here until they are ready to be reviewed and discussed for an update.

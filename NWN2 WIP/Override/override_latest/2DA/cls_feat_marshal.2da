@@ -1,0 +1,10 @@
+2DA V2.0
+
+    FeatLabel                                      FeatIndex List GrantedOnLevel OnMenu 
+0   WeapProfMar                                    45        3    1              0      
+1   WeapProfSim                                    46        3    1              0      
+2   ArmProfLgt                                     3         3    1              0      
+3   ArmProfMed                                     4         3    1              0      
+4   ArmProfHvy                                     2         3    1              0      
+5   Shield                                         32        3    1              0      
+6   FEAT_BARB_WHIRLWIND_FRENZY                     3251      2    2              0      

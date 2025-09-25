@@ -1,0 +1,15 @@
+http://www.nexusmods.com/neverwinter2/mods/1091/
+http://www.nexusmods.com/neverwinter2/mods/1084/
+https://neverwintervault.org/project/nwn2/prefab/creature/dragon-faeries-pseudodragons-dragons-f%C3%A9%C3%A9riques-pseudodragons
+https://neverwintervault.org/project/nwn2/model/ankheg-nwn2
+https://neverwintervault.org/project/nwn2/prefab/creature/additional-familiar-choices-campaign-add
+https://neverwintervault.org/project/nwn2/audio/sound/purgatorio-sfx
+https://neverwintervault.org/project/nwn2/model/quake-shambler
+https://neverwintervault.org/project/nwn2/hakpak/original-hakpak/heeds-tint-pack
+https://neverwintervault.org/project/nwn2/hakpak/original-hakpak/rws-snow-textures
+https://neverwintervault.org/project/nwn2/images/texture/ruinvalor-lrock-pack-v02
+https://neverwintervault.org/project/nwn2/images/texture/snow-pack
+https://neverwintervault.org/project/nwn2/images/texture/trees-textures-overhaul
+https://neverwintervault.org/project/nwn2/images/texture/all-nwn2-terrain-re-bumped-mapped
+https://neverwintervault.org/project/nwn2/model/misc-pick-axe
+https://neverwintervault.org/project/nwn2/model/feys-spear-model-pack

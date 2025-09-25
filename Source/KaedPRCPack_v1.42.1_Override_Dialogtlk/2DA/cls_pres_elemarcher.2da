@@ -1,0 +1,15 @@
+2DA V2.0
+
+   LABEL                                     ReqType ReqParam1 ReqParam2 
+0  Point_Blank_Shot                          FEAT    27        ****      
+1  Base_Attack                               BAB     8         ****      
+2  Many_Shot                                 FEATOR2 1103      ****      
+3  FEAT_COMBATSTYLE_RANGER_ARCHERY_MANY_SHOT FEATOR2 1732      ****      
+4  WeapFocHXBow                              FEATOR  92        ****      
+5  WeapFocLgXBow                             FEATOR  93        ****      
+6  WeapFocLongBow                            FEATOR  101       ****      
+7  WeapFocShortBow                           FEATOR  102       ****      
+8  WeapFocTAxe                               FEATOR  109       ****      
+9  WeapFocShur                               FEATOR  120       ****      
+10 WeapFocSling                              FEATOR  99        ****      
+11 WeapFocDart                               FEATOR  91        ****      

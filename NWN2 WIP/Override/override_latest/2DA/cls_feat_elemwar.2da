@@ -1,0 +1,18 @@
+2DA V2.0
+
+     FeatLabel                                         FeatIndex List GrantedOnLevel OnMenu 
+0    FEAT_ELEMWAR_AFFINITY_AIR                         3500      2    1              0      
+1    FEAT_ELEMWAR_AFFINITY_EARTH                       3501      2    1              0      
+2    FEAT_ELEMWAR_AFFINITY_FIRE                        3502      2    1              0      
+3    FEAT_ELEMWAR_AFFINITY_WATER                       3503      2    1              0      
+4    FEAT_ELEMWAR_MANIFESTATION_2                      3504      3    2              1      
+5    FEAT_ELEMWAR_MANIFESTATION_3                      3505      3    3              1      
+6    FEAT_ELEMWAR_MANIFESTATION_4                      3506      3    4              1      
+7    FEAT_ELEMWAR_MANIFESTATION_5                      3507      3    5              1      
+8    FEAT_ELEMWAR_WEAPON_3                             3508      3    3              1      
+9    FEAT_ELEMWAR_WEAPON_4                             3509      3    4              1      
+10   FEAT_ELEMWAR_WEAPON_5                             3510      3    5              1      
+11   FEAT_DASH                                         1337      3    4              0      
+12   FEAT_ELEMWAR_SANCTUARY                            3511      3    4              1      
+13   FEAT_ELEMWAR_STRIKE                               3512      3    5              1      
+14   FEAT_ELEMWAR_EXTRA_STRIKE                         3513      1    -1             1      

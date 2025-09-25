@@ -1,0 +1,14 @@
+2DA V2.0
+
+               FeatLabel                               FeatIndex List GrantedOnLevel OnMenu 
+0              SkillFocusSet                           188       3    1              0      
+1              LowLightVision                          354       3    1              0      
+2              SneakAttack                             221       3    2              0      
+3              SkillFocCrftTrap                        407       3    2              0      
+4              darkvision                              228       3    2              0      
+5              FEAT_SCOUT_SKIRMISHAC                   3709      3    3              0      
+6              SkillFocusHide                          178       3    3              0      
+7              SkillFocusMove                          181       3    4              0      
+8              FEAT_SWIFT_TRACKER                      1393      3    4              0      
+9              SneakAttack2                            345       3    5              0      
+10             FEAT_SCENT                              2178      3    5              0      

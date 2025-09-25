@@ -1,0 +1,20 @@
+Cure spells become ranged (medium) instead of touch spells.
+Inflict spells become ranged (medium) instead of touch spells (still roll a ranged touch attack).
+Mass Cure spells are +1 level above the normal cure (mass cure light wounds at level 2, not level 5).
+Bulls/Bears/Cat's Grace/etc spells affect the entire party and not just the caster.
+Aid spell affects the entire party.
+Heroism spell affects the entire party.
+Greater Heroism spell affects the entire party.
+Vigor line of spells affect the entire party.
+Shades changed to match Pathfinder.
+Divine Power changed to match Pathfinder.
+
+Maybe the party buffs should cap at 4 targets?
+
+I'd like to adjust durations of buffs to be 24 hours for the normal buff spells (like heroism, bull's strength, etc) so that you don't have to fight with buffing all the time. The "combat buffs" like displacement, etc would stay 1 rd/level.
+
+Spells don't stack for saves, skills, AB, etc.
+
+I'm working on a much more comprehensive version of this post.
+
+I'd like to add Energy Substitution to make sure that mages can vary up their elements and I'll try to make sure that every spell level has a bolt/cone/rain/blast/etc type of spell of at least one element. That way the players will always have access to solid elemental damage spells that scale with level.

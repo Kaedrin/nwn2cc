@@ -1,0 +1,60 @@
+Name: Fiendish Hell Hound
+Description: The creature resembles a big, powerfully built dog with short, rust-red fur; its markings, teeth, and tongue are sooty black. It has red, glowing eyes.
+
+Subrace: Outsider
+
+Con: 13
+
+Str: 17
+
+Skill List: 
+Skill 3: 7
+Skill 5: 21
+Skill 6: 15
+Skill 8: 21
+Skill 17: 15
+Skill 29: 15
+
+Appearance_Type: Gold Dwarf
+
+Special Ability List: 
+Hell Hound Fire Breath (Caster Level 12, Users Per Day: 1)
+
+LawfulChaotic: 100
+
+NaturalAC: 12
+
+Wis: 12
+
+Int: 9
+
+Class List: 
+Outsider: 12
+
+MaxHitPoints: 108
+
+ChallengeRating: 13
+
+Cha: 6
+
+Dex: 14
+
+GoodEvil: 0
+
+Race: Fire Genasi
+
+Feat List: 
+Weapon Proficiency (Creature)
+Darkvision
+Improved Initiative
+Smite Good
+Improved Evasion
+Improved Critical (creature)
+Weapon Proficiency (Creature)
+Weapon Focus (Creature)
+Weapon Proficiency (Creature)
+
+WalkRate: 5
+
+Total AC: 24
+

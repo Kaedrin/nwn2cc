@@ -1,0 +1,16 @@
+Traps will be 5/10/15/20/25 skill to craft these:
+Acid Splash Trap
+Acid Blob Trap
+Electrical Trap
+Fire Trap
+Frost Trap
+Gas Trap
+Holy Trap
+Negative Energy Trap
+Sonic Trap
+Spike Trap
+Slicing Trap
+Crushing Trap
+
+15/20/25/30/35 DC on the trap
+5d6/10d6/15d6/20d6/25d6 damage. One trap per person can be active

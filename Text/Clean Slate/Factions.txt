@@ -1,0 +1,33 @@
+Mages Guild - I'd like to see a Mages guild of some kind that lets players contribute to custom content ideas. Like the ability to folks to contribute to unlocking new frost spells (such as a level 1 frostball or a level 6 bouncing frost bolt). Essentially they vote on a topic (specific implementation remains up to staff) and devote effort (gold and/or xp) and RP to it. Rewards would be the spells becoming available to players. Etc. (by Firefly)
+
+***
+
+[quote="Admin"]Factions are defined as large identifying groups, or overall identifying groups, of the server. Factions will directly link into the reputation system which will define and help to define PC roles and ranks within a faction, as well as open up various rewards for them.
+
+Guilds are defined as smaller groups that can overlap within a faction. They may or may not have anything to do with a faction and helping the faction they overlap with. They are not represented in the reputation system.
+
+[size=18]Factions[/size]
+<hr style="border-color: black">
+[size=15][b]Surface Factions:[/b][/size]
+Good - Waterdeep
+Evil - Pirates
+
+[size=15][b]Underdark Factions:[/b][/size]
+Each official drow house will count as a faction. By completing certain quests or actions, drow within a house will gain house reputation via the reputation system.
+
+[size=15][b]Later On Factions:[/b][/size]
+Skullport
+Waterdeep will split into a couple factions as the lords begin to fight for power after the initial pirate threat is over
+
+
+[size=18]Guilds[/size]
+<hr style="border-color: black">
+[size=15][b]Surface Guilds:[/b][/size]
+Mages guild
+Adventurers guild (which will double as the assassins guild)
+Waterdeep guards guild
+
+[size=15][b]Underdark Guilds:[/b][/size]
+Melee Magthere (Fighters)
+Arach-Tinilith (Clerics)
+Sorcere (Sorcerers)[/quote]

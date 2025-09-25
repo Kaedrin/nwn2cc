@@ -1,0 +1,8 @@
+2DA V2.0
+
+  LABEL                  ReqType ReqParam1 ReqParam2 
+0 Lore                   SKILL   7         8         
+1 Survival               SKILL   29        8         
+2 BAB                    BAB     4         ****      
+3 FEAT_TRACK             FEAT    1116      ****      
+4 WildShape              FEAT    305       ****      

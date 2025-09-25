@@ -1,0 +1,482 @@
+[[span style="color: green;"]]Last Updated: February 19, 2009 [[/span]]
+[[[mod-pw-docs| Return to the main page for Module and PW documentation]]]
+
+
++++ Configuration options for the cmi_options file.
+
+The cmi_options.2da file, found in the cmi_common directory, drives the optional content in my content pack.
+
+For the options: 0 is off, 1 is on.
+
+***
+
+[[span style="color: green;"]]Row 0 PaladinFullCaster 0 [[/span]]
+
+This option defaults to off. 
+The PnP compliant version is off.
+
+This option allows for a Paladin to receive their full class level when determining spellcaster level (spell effects and duration) instead of the official half-level value.
+
+Example: A level 20 paladin is a level 10 caster in NWN2.  
+Setting this option to 1 causes the Paladin to get the full 20 levels for determining spell effects and duration.
+
+***
+
+[[span style="color: green;"]]Row 1 SneakAttackSpells 1 [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This option allows for casters to gain sneak attack damage on ranged and melee touch attack spells when appropriate.  This bonus is only applied when a sneak attack would be valid.  
+
+Setting this option to 0 disables sneak attack on all spells.
+
+***
+
+[[span style="color: green;"]]Row 2 TouchofHealingUse50PercentCap 1   [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This option allows for the Touch of Healing Reserve feat to use the 50% cap on healing.  When this option is on if a target is at or above 50% health then feat will have no effect.
+Setting this option to 0 allows for the target to be healed regardless of their current health.
+
+***
+
+[[span style="color: green;"]]Row 3 TouchofHealingUseAugmentHealing 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is off.
+
+This option allows for the Augmented Healing feat to affect the Touch of Healing Reserve feat.  Touch of Healing gains +2 points per level of the triggering spell (18 points for a level 9 healing spell trigger).
+Setting this option to 0 disables the bonus from Augmented Healing.
+
+***
+
+[[span style="color: green;"]]Row 4 UseAlternateTurnUndeadRules 1    [[/span]]
+
+This option defaults to on.
+This is an optional system from PnP so on or off are both PnP compliant.
+
+Setting this option to 1 causes the turn undead ability to deal 1d6 damage per turning level in a 20' burst.
+Setting this option to 0 uses the standard turn undead rules for causing fear.
+
+More details on this option can be found here:
+http://nwn2forums.bioware.com/forums/viewtopic.html?topic=614716&forum=109&sp=0
+
+***
+
+
+[[span style="color: green;"]]Row 5 PaladinOnlyAlternateTurnUndeadRule 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is off. It has been added to strengthen the Paladin and Blackguard classes without boosting the Cleric.
+
+Setting this option to 1 causes the turn undead ability to deal 1d6 damage per turning level (to undead) in a 20' burst for the Paladin only.
+Setting this option to 0 uses the standard turn undead rules if UseAlternateTurnUndeadRules is 0.
+Setting this option to 0 uses the Alternate Turn Undead rules for all classes if UseAlternateTurnUndeadRules is 1.
+
+More details on this option can be found here:
+http://nwn2forums.bioware.com/forums/viewtopic.html?topic=614716&forum=109&sp=0
+
+***
+
+***
+
+[[span style="color: green;"]]Row 6 AmmoStacksToCreate 1    [[/span]]
+
+This option defaults to 1.
+The PnP compliant version is 1.
+The valid ranges of this option are 1 to 5.
+
+This option allows for more than stack of ammo to be crafted per attempt.
+
+***
+
+[[span style="color: green;"]]Row 7 TempestStackWithRanger 0    [[/span]]
+
+[[span style="color: red;"]]This code is executed when a player levels up. [[/span]]
+
+This option defaults to off.
+The PnP compliant version is off.
+
+This option allows for the Tempest levels to count as Ranger levels for determining when the character gets the Ranger's melee feats (16 Ranger/5 Tempest would get Perfect Two-Weapon fighting)
+
+***
+
+[[span style="color: green;"]]Row 8 ElaborateParry 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This option causes the Duelist with Elaborate Parry to get a bonus to their AC equal to their class level while they are in parry, expertise, and improved expertise modes.
+
+***
+
+[[span style="color: green;"]]Row 9 UseSacredFistFix 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is on.
+
+This option causes the OEI version of Sacred Fist to be removed from the character and a new feat added with the same name.  My version of the feat allows creature weapons to be used with a Sacred Fist (druids) without the -8 AB penalty they currently suffer.
+
+***
+
+[[span style="color: green;"]]Row 10 UseTwoWpnDefense 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This option doubles the ac bonus of Two-Weapon Defense feats while the character is in Parry, Expertise, or Improved Expertise modes.
+
+***
+
+[[span style="color: green;"]]Row 11 HolyWarriorCap 4    [[/span]]
+
+This option defaults to 4.
+The PnP compliant version is 9.
+The valid ranges of this option are 1 to 9.
+
+This option caps the divine damage bonus granted by the Holy Warrior feat.
+
+***
+
+[[span style="color: green;"]]Row 12 Stormlord24HrBuffDuration 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This option allows the Stormlord's buffs to last for 24 hours instead of 20 rounds per cast.
+
+***
+
+[[span style="color: green;"]]Row 13 ArcaneShapesCanCast 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is off.
+
+This option allows for spellcasting when using arcane shapeshifting forms (Tensers transformation, Word of Changing, Shapeshift). You need the Natural Spell feat to make it work though. If there is enough interest I can add the feat to the shape's hide.
+
+***
+
+[[span style="color: green;"]]Row 14 UnarmedPolymorphFeatFix 0    [[/span]]
+
+This option defaults to off.
+
+This option adds the Creature version of any Unarmed feat the character has when using any shapeshift spell or ability.
+
+***
+
+[[span style="color: green;"]]Row 15 DaringOutlawCap 0    [[/span]]
+
+This option defaults to 0.
+The PnP compliant version is 0.
+The valid ranges of this option are 0 to 30.
+
+This option caps the number of Swashbuckler levels that counts as a Rogue for determining the number of sneak dice the character has. A value of 0 indicates there is no cap in place.
+
+***
+
+[[span style="color: green;"]]Row 16 DivChampSpellcastingProgression 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is off.
+
+Setting this to 1 adds the spellcasting progression feats for Ranger and Paladin (if appropriate) to the character if they have Divine Champion levels.  This is a 5/10 progression (even levels) advancement.
+
+***
+
+[[span style="color: green;"]]Row 17 EldGlaiveAttackCap 2    [[/span]]
+
+This option defaults to 2.
+The PnP compliant version is 0 (uncapped).
+
+This setting controls how many attacks the Eldritch Glaive invocation is allowed to make (which is still limited by BAB). A 0 value will allow the character to make one blast for every 5 BAB as if they were making a melee attack.
+
+***
+
+[[span style="color: red;"]]Row 18 is not active/valid at this time.    [[/span]]
+
+***
+
+[[span style="color: green;"]]Row 19 EldGlaiveAllowEssence 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This setting controls whether or not Eldritch Glaive is allowed to use an essence.  Setting it to off will disable any essence used and stick with a standard eldritch blast for the attack cycle.
+
+***
+
+[[span style="color: green;"]]Row 20 EldGlaiveAllowCrits 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This setting controls whether or not Eldritch Glaive can critical hit.
+
+
+***
+
+[[span style="color: green;"]]Row 21 EldGlaiveAllowHasteBoost 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is on.
+
+This setting controls whether or not Eldritch Glaive gets a free attack due to haste at the characters highest BAB.  For example, a hasted level 10 Warlock would get 3 attacks  (+7/+7/+2) instead of the normal two (+7/+2).
+
+***
+
+[[span style="color: red;"]]Row 22 is not active/valid at this time.    [[/span]]
+
+***
+
+[[span style="color: green;"]]Row 23 CrossbowSniper50PercentDexCap 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is on.
+
+This setting controls whether or not the Crossbow Sniper feat damage bonus is capped at half of the character's dex modifier or not. 
+
+***
+
+[[span style="color: green;"]]Row 24 WintersBlastUsesPiercingCold 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is off.
+
+This setting controls whether or not the Winter's Blast reserve feat should ignore cold resists and immunity if the character has the Frost Mage prestige class (and the Piercing Cold feat).
+
+***
+
+[[span style="color: green;"]]Row 25 UseSRFix 0    [[/span]]
+
+This option defaults to off.
+
+This setting controls whether or not the OnEquip/OnUnEquip scripts will scan the player for items with spell resistance.  If this is turned on, it will add a spell effect to the character for the highest SR found which will fix the bug with spell resistance on items breaking after the first use. This needs some more testing as the engine may choose to use the item based SR over the effect base SR in which case I'll need to make the Effect version have a slightly higher SR to compensate.
+
+***
+
+[[span style="color: green;"]]Row 26 UseDRFix 0    [[/span]]
+
+This option defaults to off.
+
+This setting controls whether or not the OnEquip/OnUnEquip scripts will scan the player for items with physical damage resistance.  If this is turned on, it will add a damage reduction effect (equal to half the resistance) against all physical types.  This is a limited solution but the best possible one I could come up with.  This fixes the issue with physical damage resistance items providing NO benefit at all the player (even though the combat log shows the mitigation text, the player doesn't actually take less damage).
+
+***
+
+[[span style="color: green;"]]Row 27 UseEnhancedBGPet 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is off.
+
+This setting controls whether or not the Blackguard gets the Improved Fiendish Servant at 8th level. This is essentially a free feat to make up for the missing spells and smites that the Blackguard should have. The servant is a Nessian Hound (hellhound).
+
+***
+
+[[span style="color: green;"]]Row 28 UseWildShapeTiers 3    [[/span]]
+
+This option defaults to 3.
+The PnP compliant version is 2 (3 for Dragon Shape).
+Valid values are 0-3.
+
+This setting controls whether or not the wildshape forms get the item properties the player has on their equipped items.  Tier 1 (a setting value of 1) allows the rings, amulet, and bracers to be added to the form. Tier 2 (a setting value of 2) allows the gauntlet, belt, and boots to be added to the form. Tier 3 (a setting value of 3) allows the cloak to be added to the form.  Tier 3 allows the player the benefit of all their items except for equipped weapons.  The AC stacking issue inherit with polymorphing is still an issue.
+
+Note: I may add a value 4 option that only allows Tier3 to work with DragonShape so that this addition will match PnP exactly.
+
+***
+
+[[span style="color: green;"]]Row 29 LoadCMIOptions 1    [[/span]]
+
+This option defaults to 1.
+The valid values of this option are 0 (off) and 1 (on).
+
+This option indicates if the cmi_options.2da should be loaded and the module updated each time the PC is loaded.  If it is set to 0 the options will not be updated except for when the Module is started (k_mod_start and cmi_pw_mod_start).
+
+***
+
+[[span style="color: green;"]]Row 30 FreeEmberGuard 1   [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This setting controls whether or not Druids get the Ember Guard elemental shape as a free upgrade.
+
+***
+
+[[span style="color: green;"]]Row 31 PlanetouchedGetMartialWeaponProf 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This setting controls whether or not Planetouched Races (Aasimar, Tieflings, and Genasi) get the Martial Weapon proficiency as a free feat.
+
+***
+
+[[span style="color: green;"]]Row 32 FangLineExceeds20 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is off.
+
+This setting controls whether or not the Greater Magic Fang spell will exceed the standard +5 cap (caster level 20) and scale based on caster level / 4.  This was added to allow epic wildshapers access to +7 weapons on their forms.
+
+***
+
+[[span style="color: green;"]]Row 33 SpellSpecAdds1PerDie 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is off.
+
+This setting controls whether or not the Spell Specialization (Melee Touch) and Spell Specialization (Ranged Touch) feats grant a bonus of +1 per damage die instead of a flat +2 bonus on touch spells. This will allow the feats to scale with spell power (polar ray would get a +15 instead of a +2).
+
+***
+
+[[span style="color: green;"]]Row 34 SonicMightAffectsClapofThunder 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is unknown.
+
+This setting controls whether or not the Sonic Might ability of the Lyric Thaumaturge affects the reserve feat Clap of Thunder.  This was added as a way to beef up the spell damage of "caster bards."  This essentially doubles the damage of the Clap of Thunder feat for mid to high level bards (capped at 16d6).
+
+***
+
+[[span style="color: red;"]]Row 35 is not active/valid at this time.    [[/span]]
+
+***
+
+[[span style="color: green;"]]Row 36 UnlimitedWildshapeUses 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is off (mostly, see notes).
+
+This setting controls whether or not the Druid is refunded the feat use when they change shapes (granting them unlimited use of the forms).  They must have one use remaining to get this benefit.  Using wildshape uses to power abilities such as Elephant's Hide STILL decreases the uses normally.  This ONLY allows the Druid unlimited changing of forms and does not alter balance.  This was added to counteract the INSANE frequency that polymorph is stripped from characters by cutscenes. PnP has a variant rule that allows unlimited shifting but imposed limits on the forms (such as no supernatural abilities, which players can't use anyway due to the featbar being disabled.
+
+***
+
+[[span style="color: green;"]]Row 37 FrostMageArmorStacks 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is on.
+
+This setting controls whether or not the Frost Mage's natural armor bonus will stack with other natural armor bonuses.  In PnP this is supposed to improve Natural armor and not be an enhancement bonus like NWN2 forces it to be. This setting scans for natural armor bonuses (spell and item based), adds the Frost mage's bonus to that, and applies it as a much larger AC bonus to the player. This will cause a "you already have an item with that bonus type" message but the AC increase will happen.
+
+***
+
+[[span style="color: green;"]]Row 38 EnableReserveMeta 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is off.
+Valid values are 0-3.
+
+A value of 0 is off.
+A value of 1 allows Empower.
+A value of 2 allows Maximize.
+A value of 3 allows Empower AND Maximize (maximize first, then empower).
+
+This setting controls whether or not all reserve feats that deal damage gain a bonus from having the empower and/or maximize spell metamagics. A character must have the metamagic feats for these bonuses to be added and they only gain the bonus for feats they have (a setting of 3 will only empower a reserve feat if the character has empower but does not have maximize).  Since all reserve feats cap at 9d6 (or 9d4, depending on the feat), this was added as a way to boost their power and scaling.  The max theoretical damage is 81 pts in a round (still much weaker than high level spells, but not a paltry 31pt avg).
+
+***
+
+[[span style="color: green;"]]Row 39 GrantSerenasCoin 1    [[/span]]
+
+This option defaults to on.
+
+This option causes a coin to be given to players that brings up a store when used. This store sells my custom blueprints for new items added such as ammo molds, chasubles, new armors, etc.
+
+***
+
+[[span style="color: green;"]]Row 40 RangerFullCaster 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is off.
+
+This option allows for a Ranger to receive their full class level when determining spellcaster level (spell effects and duration) instead of the official half-level value.
+
+Example: A level 20 ranger is a level 10 caster in NWN2.
+Setting this option to 1 causes the ranger to get the full 20 levels for determining spell effects and duration.
+
+***
+
+[[span style="color: green;"]]Row 41 AllowWildshapeHeal 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This option controls if the druid is healed when they wildshape.
+
+A value of 0 is off.
+A value of 1 is on.
+
+***
+
+[[span style="color: green;"]]Row 42 TreatHellfireBlastSeparate 0    [[/span]]
+
+This option defaults to off.
+The PnP compliant version is off.
+
+This option controls if Hellfire Blast should be included into the base blast dice of Eldritch Blast when determining criticals, maximize, and empower. If set to on, the hellfire blast is a flat +xd6 after all other calculations have been done.
+
+A value of 0 is off.
+A value of 1 is on.
+
+***
+
+[[span style="color: green;"]]Row 43 AllowEldBlastToStackMaxEmpower 1    [[/span]]
+
+This option defaults to on.
+The PnP compliant version is on.
+
+This option controls if Eldritch Blast should allow both Maximize and Empower to stack.
+
+A value of 0 is off.
+A value of 1 is on.
+
+***
+
+[[span style="color: green;"]]Row 44 CapIntuitiveIfNotPureMonk 4   [[/span]]
+
+This option defaults to on with a cap of +4.
+The PnP compliant version is off.
+
+This option controls if Intuitive Attack should cap at a certain value if a character is not a pure monk.
+
+A value of 0 is off.
+Any non-zero value is a hard cap on the value that Intuitive Attack can grant.
+
+***
+
+
+[[span style="color: green;"]]Row 45 UnequipLosesTempProperties 0   [[/span]]
+
+This option defaults to off.
+
+This option controls if temporary item properties are removed when an item is unequipped.
+
+A value of 0 is off, a value of 1 is on.
+
+
+***
+
+[[span style="color: green;"]]Row 46 UncannyDodgeImprovement	 1   [[/span]]
+
+This option defaults to on.
+The PnP compliant version is off.
+
+This option controls if players with Uncanny Dodge receive a +1 Reflex save bonus (+2 if they have Improved Uncanny Dodge) when they rest.
+
+A value of 0 is off, a value of 1 is on.	
+
+
+
+[[embed]]
+<!-- Start of StatCounter Code -->
+<script type="text/javascript">
+var sc_project=3254369; 
+var sc_invisible=0; 
+var sc_partition=35; 
+var sc_security="43b75a81"; 
+</script>
+
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script><noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c36.statcounter.com/3254369/0/43b75a81/0/" alt="website stats" /></a></div></noscript>
+<!-- End of StatCounter Code -->
+[[/embed]]
