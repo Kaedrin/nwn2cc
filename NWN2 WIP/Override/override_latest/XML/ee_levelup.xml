@@ -183,7 +183,7 @@
 					OnSelected2='UIButton_Input_ShowObject("RANGER_BUTTONS")'
 					OnSelected3='UIButton_Input_SetText("LIST_TITLE","181396")'
 					OnSelected4='UIButton_Input_SetText("INFOPANE_HELPTEXT","181396")'				
-					OnSelected5='UIButton_Input_ExpandObject("INFO_CONTAINER")'
+					OnSelected5='UIButton_Input_CollapseObject("INFO_CONTAINER")'
 					OnSelected6='UIButton_Input_ShowObject("LIST_WIDTH_LARGE")'
 					OnSelected7='UIButton_Input_ShowObject("DOLL_PANE")'
 					OnSelected8='UIButton_Input_ShowObject("DOLL_POS_PANE")'
@@ -1301,13 +1301,14 @@
 					hidden='true' OnUpdate=UIListBox_OnUpdate_AvailableFeatList("LEVELUP","FEAT_TEXT","FEAT_IMAGE","FEAT_ACTION","NORMAL_FEAT_SWITCH","FEATS_SELECT_PROMPT")>
 	
 					<UICollapsable name="PROTO_COL" width='PARENT_WIDTH' yPadding=4 xPadding=5 indent=10 isexpanded=true prototype=true groupid='25'>
-						<UIButton name="HEADER_BUTTON" width='PARENT_WIDTH' height='60' header='true'
+						<UIButton name="HEADER_BUTTON" width='PARENT_WIDTH' height='DYNAMIC' header='true'
 							OnGainedFocus0=UIButton_Input_HideObject("FEAT_ASSIGN_BUTTONPROMPT")
 							OnGainedFocus1=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("FEATS_SELECT_PROMPT")
 							OnSelected0=UIButton_OnUpdate_UpdateFeatAddRemovePrompt("FEATS_SELECT_PROMPT")
 							OnLostFocus=UIButton_Input_ShowObject("FEAT_ASSIGN_BUTTONPROMPT")>
 							<UIFrame name='selection' style='EE_SELECTION_FRAME' focus_indicator='true'/>
-							<UIText strref="5632" indent='60' align=left valign=middle fontfamily="EE_Regular" style='1' color='949285' />
+							<UIPane x='ALIGN_RIGHT' y='ALIGN_CENTER' width='60' height='60'/>
+							<UIText strref="5632" x="60" y="ALIGN_CENTER" margin_t="10" margin_b="10" height='DYNAMIC' align=left valign='middle' fontfamily="EE_Regular" style='1' color='949285'/>
 							<UIFrame state='up'			fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
 							<UIFrame state='down'		fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
 							<UIFrame state='hilited'	fill="pointer_right.tga" width='25' height='25' x='10' y='ALIGN_CENTER'/>
@@ -1577,7 +1578,7 @@
 			
 			<UIPane name='SELECTED_FEATS_PANE' x='640' height='PARENT_HEIGHT' width='600' pass_input_to_children='true' hidden='true'>
 				
-				<UIListBox name="SELECTED_FEATS_LIST" y='70' width='PARENT_WIDTH' height='700' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+				<UIListBox name="SELECTED_FEATS_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
 					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
 					OnUpdate=UIListBox_OnUpdate_AddedFeatList("LEVELUP","ADDED_FEAT_TEXT","ADDED_FEAT_IMAGE","FEAT_ACTION","FEATS_SELECT_PROMPT")>
 	
@@ -1644,7 +1645,7 @@
 			
 			<UIPane name='SELECTED_BONUS_FEATS_PANE' x='640' height='PARENT_HEIGHT' width='600' pass_input_to_children='true' hidden='true'>
 				
-				<UIListBox name="SELECTED_BONUS_FEATS_LIST" y='70' width='PARENT_WIDTH' height='700' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+				<UIListBox name="SELECTED_BONUS_FEATS_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
 					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
 					OnUpdate=UIListBox_OnUpdate_AddedFeatList("LEVELUP","ADDED_FEAT_TEXT","ADDED_FEAT_IMAGE","FEAT_ACTION","BONUS_FEATS_SELECT_PROMPT")>
 	
@@ -1710,7 +1711,7 @@
 			
 			<UIPane name='ADDED_DOMAIN_PANE' x='640' height='PARENT_HEIGHT' width='600' pass_input_to_children='true' hidden='true'>
 				
-				<UIListBox name="ADDED_DOMAIN_LIST" y='70' width='PARENT_WIDTH' height='700' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+				<UIListBox name="ADDED_DOMAIN_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
 					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" searchgroupmembersoutside="true"
 					OnUpdate=UIListBox_OnUpdate_AddedDomainList("LEVELUP","DOMAIN_IMAGE","DOMAIN_TEXT","DOMAIN_ACTION")>
 	
@@ -1755,7 +1756,7 @@
 
 			<UIPane name='ADDED_SPELL_PANE' x='640' height='PARENT_HEIGHT' width='600' pass_input_to_children='true' hidden='true'>
 				
-				<UIListBox name="ADDED_SPELL_LIST" y='70' width='PARENT_WIDTH' height='700' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
+				<UIListBox name="ADDED_SPELL_LIST" y='70' width='PARENT_WIDTH' height='PARENT_HEIGHT' yPadding='4' xPadding='6' selectonleftclick="true" manualscrolling='false'
 					showpartialchild="true" scrollbaronright="true" unequalcontrols="true" scrollsegmentsize="12" update="false" pass_input_to_children='true' searchgroupmembersoutside="true"
 					OnUpdate=UIListBox_OnUpdate_AddedSpellList("LEVELUP","SPELL_TEXT","SPELL_IMAGE","SPELL_ACTION")>
 
@@ -1835,7 +1836,7 @@
 						<UICollapsable name="INFO_CONTAINER_1" x="16" y="0" width="PARENT_WIDTH" height="DYNAMIC">
 							<UIPane name="INFO_CONTAINER" width="PARENT_WIDTH" height="84">
 								<UIIcon name="INFOPANE_IMAGE" img="b_empty.tga" x="5" y="ALIGN_TOP" width="60" height="60" ignoreevents="true" />
-								<UIText name="INFOPANE_TITLE" x="76" y="ALIGN_TOP" width="DYNAMIC" height="60" align="left" valign="middle" fontfamily="EE_Subheader"  />
+								<UIText name="INFOPANE_TITLE" x="76" y="ALIGN_TOP" width="PARENT_WIDTH" height="60" align="left" valign="middle" fontfamily="EE_Subheader"  />
 							</UIPane>
 						</UICollapsable>
 
