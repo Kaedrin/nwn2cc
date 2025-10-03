@@ -10,11 +10,13 @@ namespace NWN2ToolKit
     public class StormTools
     {
         public string sDataPath = "";
+        public string sDataPathOutput = "";
         public DataGridView _dataGridView1;
         public StringBuilder columnrow;
         public ArrayList HeaderData = new ArrayList();
         public ArrayList ParsedFile = new ArrayList();
         public string sFileInputName;
+        public string sFileOutputName;
         public ManagedNWScript.ManagedScriptCompiler _MSC;
         public List<int> iList = new List<int>();
         public int iRemoved = 0;
@@ -315,7 +317,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -365,7 +367,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -406,7 +408,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -447,7 +449,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -498,7 +500,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -558,7 +560,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -609,7 +611,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -660,7 +662,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -695,6 +697,180 @@ namespace NWN2ToolKit
             }
         }
 
+        private void DocumentSpells()
+        {
+            using (System.IO.StreamWriter sw = new
+
+    System.IO.StreamWriter(sDataPathOutput + "\\Spells.txt"))
+            {
+
+                OEIShared.IO.TalkTable.TalkTableFile tlkFile = new OEIShared.IO.TalkTable.TalkTableFile();
+                tlkFile.Open(sDataPath + @"\Dialog.tlk", false);
+                tlkFile.Language = OEIShared.Utils.BWLanguages.BWLanguage.English;
+                OEIShared.IO.TalkTable.TalkTableElementCollection tlkElements1 = tlkFile.Elements;
+
+                string _Parse1 = "";
+                string _Parse2 = "";
+                bool isCustom = false;
+
+                foreach (DataGridViewRow CurrentLine in _dataGridView1.Rows)
+                {
+                    if (CurrentLine.Index != (_dataGridView1.Rows.Count - 1))
+                    {
+                        if (!CurrentLine.Cells[2].Value.ToString().Contains("*"))
+                        {
+                            string s1 = CurrentLine.Cells[2].Value.ToString();
+                            long lVal = Convert.ToInt32(s1);
+                            int iVal = Convert.ToInt32(s1);
+                            if (lVal >= 240000)
+                            {
+                                if ((!CurrentLine.Cells[10].Value.ToString().Contains("*")) || (!CurrentLine.Cells[11].Value.ToString().Contains("*")) || (!CurrentLine.Cells[12].Value.ToString().Contains("*")) || (!CurrentLine.Cells[13].Value.ToString().Contains("*")) || (!CurrentLine.Cells[14].Value.ToString().Contains("*")) || (!CurrentLine.Cells[15].Value.ToString().Contains("*")) || (!CurrentLine.Cells[16].Value.ToString().Contains("*")))
+                                {
+                                    //Custom Spell
+                                    //CurrentLine.Cells[2].Value = lVal + 16551217;
+                                    isCustom = true;
+                                    _Parse1 = tlkElements1[iVal].String;
+                                    _Parse1 = _Parse1.Replace("\n", "<br>");
+                                    _Parse1 += "<br>";
+                                    string s2 = CurrentLine.Cells[55].Value.ToString();
+                                    iVal = Convert.ToInt32(s2);
+                                    _Parse2 = tlkElements1[iVal].String;
+                                    _Parse2 = _Parse2.Replace("\n", "<br>");
+                                }
+                            }
+                        }
+                        if (!CurrentLine.Cells[55].Value.ToString().Contains("*"))
+                        {
+                            string s2 = CurrentLine.Cells[55].Value.ToString();
+                            long lVal = Convert.ToInt32(s2);
+                            int iVal = Convert.ToInt32(lVal);
+                            if (lVal >= 240000)
+                            {
+                                if ((!CurrentLine.Cells[10].Value.ToString().Contains("*")) || (!CurrentLine.Cells[11].Value.ToString().Contains("*")) || (!CurrentLine.Cells[12].Value.ToString().Contains("*")) || (!CurrentLine.Cells[13].Value.ToString().Contains("*")) || (!CurrentLine.Cells[14].Value.ToString().Contains("*")) || (!CurrentLine.Cells[15].Value.ToString().Contains("*")) || (!CurrentLine.Cells[16].Value.ToString().Contains("*")))
+                                {
+                                    //Altered Spell
+                                    //CurrentLine.Cells[55].Value = lVal + 16551217;
+                                    isCustom = true;
+                                    _Parse2 = tlkElements1[iVal].String;
+                                    _Parse2 = _Parse2.Replace("\n", "<br>");
+                                    string s1 = CurrentLine.Cells[2].Value.ToString();
+                                    iVal = Convert.ToInt32(s1);
+                                    _Parse1 = tlkElements1[iVal].String;
+                                    _Parse1 = _Parse1.Replace("\n", "<br>");
+                                    _Parse1 += "<br>";
+                                    
+                                }
+                            }
+                        }
+                        if (isCustom)
+                        {
+                            /*
+                            foreach (DataGridViewCell s in CurrentLine.Cells)
+                            {
+                                _Parse = _Parse + s.FormattedValue;
+                            }*/
+                            sw.WriteLine(_Parse1);
+                            sw.WriteLine(_Parse2);
+                            sw.WriteLine();
+                            _Parse1 = "";
+                            _Parse2 = "";
+                            isCustom = false;
+                        }
+                    }
+                }
+
+                sw.Close();
+
+            }
+        }
+        private void DocumentFeats()
+        {
+            using (System.IO.StreamWriter sw = new
+
+    System.IO.StreamWriter(sDataPathOutput + "\\Feats.txt"))
+            {
+
+                OEIShared.IO.TalkTable.TalkTableFile tlkFile = new OEIShared.IO.TalkTable.TalkTableFile();
+                tlkFile.Open(sDataPath + @"\Dialog.tlk", false);
+                tlkFile.Language = OEIShared.Utils.BWLanguages.BWLanguage.English;
+                OEIShared.IO.TalkTable.TalkTableElementCollection tlkElements1 = tlkFile.Elements;
+
+                string _Parse1 = "";
+                string _Parse2 = "";
+                string _ParseLast = "";
+                bool isCustom = false;
+
+                foreach (DataGridViewRow CurrentLine in _dataGridView1.Rows)
+                {
+                    if (CurrentLine.Index != (_dataGridView1.Rows.Count - 1))
+                    {
+                        if (!CurrentLine.Cells[2].Value.ToString().Contains("*"))
+                        {
+                            string s1 = CurrentLine.Cells[2].Value.ToString();
+                            long lVal = Convert.ToInt32(s1);
+                            int iVal = Convert.ToInt32(s1);
+                            if (lVal >= 240000)
+                            {
+                                {
+                                    //Custom Spell
+                                    //CurrentLine.Cells[2].Value = lVal + 16551217;
+                                    isCustom = true;
+                                    _Parse1 = tlkElements1[iVal].String;
+                                    _Parse1 = _Parse1.Replace("\n", "<br>");
+                                    _Parse1 += "<br>";
+                                    string s2 = CurrentLine.Cells[3].Value.ToString();
+                                    iVal = Convert.ToInt32(s2);
+                                    _Parse2 = tlkElements1[iVal].String;
+                                    _Parse2 = _Parse2.Replace("\n", "<br>");
+                                }
+                            }
+                        }
+                        if (!CurrentLine.Cells[3].Value.ToString().Contains("*"))
+                        {
+                            string s2 = CurrentLine.Cells[3].Value.ToString();
+                            long lVal = Convert.ToInt32(s2);
+                            int iVal = Convert.ToInt32(lVal);
+                            if (lVal >= 240000)
+                            {
+                                {
+                                    //Altered Spell
+                                    //CurrentLine.Cells[55].Value = lVal + 16551217;
+                                    isCustom = true;
+                                    _Parse2 = tlkElements1[iVal].String;
+                                    _Parse2 = _Parse2.Replace("\n", "<br>");
+                                    string s1 = CurrentLine.Cells[2].Value.ToString();
+                                    iVal = Convert.ToInt32(s1);
+                                    _Parse1 = tlkElements1[iVal].String;
+                                    _Parse1 = _Parse1.Replace("\n", "<br>");
+                                    _Parse1 += "<br>";
+
+                                }
+                            }
+                        }
+                        if (isCustom && (_Parse1 != _ParseLast) )
+                        {
+                            /*
+                            foreach (DataGridViewCell s in CurrentLine.Cells)
+                            {
+                                _Parse = _Parse + s.FormattedValue;
+                            }*/
+                            sw.WriteLine(_Parse1);
+                            sw.WriteLine(_Parse2);
+                            sw.WriteLine();
+                            _ParseLast = _Parse1;
+                            _Parse1 = "";
+                            _Parse2 = "";
+                            isCustom = false;
+                        }
+                    }
+                }
+
+                sw.Close();
+
+            }
+        }
+
+
 
         private void MakeMPSpells()
         {
@@ -702,7 +878,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -750,7 +926,7 @@ namespace NWN2ToolKit
                     }
                 }
 
-                sw.Close();
+                sw.Close();     
 
             }
         }
@@ -852,7 +1028,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -928,7 +1104,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -1022,7 +1198,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -1080,7 +1256,7 @@ namespace NWN2ToolKit
             ArrayList UpdatedFile = new ArrayList();
             using (System.IO.StreamWriter sw = new
 
-                System.IO.StreamWriter(sFileInputName + "_"))
+                System.IO.StreamWriter(sFileOutputName))
             {
 
                 sw.WriteLine("2DA\tV2.0");
@@ -1145,6 +1321,7 @@ namespace NWN2ToolKit
         public void GenerateMPFiles(ProgressBar _progressBarStatus)
         {
             sFileInputName = sDataPath + @"\iprp_feats.2da";
+            sFileOutputName = sDataPathOutput + @"\iprp_feats.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
@@ -1154,24 +1331,29 @@ namespace NWN2ToolKit
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\spells.2da";
+            sFileOutputName = sDataPathOutput + @"\spells.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
                 LoadParsedFileToDataGrid(false);
+                DocumentSpells();
                 MakeMPSpells();
             }
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\feat.2da";
+            sFileOutputName = sDataPathOutput + @"\feat.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
                 LoadParsedFileToDataGrid(false);
+                DocumentFeats();
                 MakeMPFeat();
             }
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\racialsubtypes.2da";
+            sFileOutputName = sDataPathOutput + @"\racialsubtypes.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
@@ -1181,6 +1363,7 @@ namespace NWN2ToolKit
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\armorrulestats.2da";
+            sFileOutputName = sDataPathOutput + @"\armorrulestats.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
@@ -1190,6 +1373,7 @@ namespace NWN2ToolKit
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\classes.2da";
+            sFileOutputName = sDataPathOutput + @"\classes.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
@@ -1199,6 +1383,7 @@ namespace NWN2ToolKit
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\domains.2da";
+            sFileOutputName = sDataPathOutput + @"\domains.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
@@ -1208,6 +1393,7 @@ namespace NWN2ToolKit
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\packages.2da";
+            sFileOutputName = sDataPathOutput + @"\packages.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
@@ -1217,6 +1403,7 @@ namespace NWN2ToolKit
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\baseitems.2da";
+            sFileOutputName = sDataPathOutput + @"\baseitems.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
@@ -1226,6 +1413,7 @@ namespace NWN2ToolKit
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\hen_companion.2da";
+            sFileOutputName = sDataPathOutput + @"\hen_companion.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
@@ -1235,6 +1423,7 @@ namespace NWN2ToolKit
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\iprp_ammocost.2da";
+            sFileOutputName = sDataPathOutput + @"\iprp_ammocost.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
@@ -1244,6 +1433,7 @@ namespace NWN2ToolKit
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\nwn2_deities.2da";
+            sFileOutputName = sDataPathOutput + @"\nwn2_deities.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);
@@ -1253,6 +1443,7 @@ namespace NWN2ToolKit
             _progressBarStatus.Value++;
 
             sFileInputName = sDataPath + @"\metamagic.2da";
+            sFileOutputName = sDataPathOutput + @"\metamagic.2da";
             if (System.IO.File.Exists(sFileInputName))
             {
                 ParseFile(sFileInputName);

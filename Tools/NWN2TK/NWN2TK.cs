@@ -33,6 +33,7 @@ namespace NWN2ToolKit
             int _Pos = Application.StartupPath.IndexOf(@"bin\");
             labelDataPath2.Text = Application.StartupPath.Substring(0, _Pos) + "Data";
             _STools.sDataPath = labelDataPath2.Text;
+            _STools.sDataPathOutput = Application.StartupPath.Substring(0, _Pos) + "MP";
         }
 
         public NWN2TK()
