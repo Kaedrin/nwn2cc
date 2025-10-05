@@ -811,8 +811,17 @@ namespace NWN2ToolKit
                             int iVal = Convert.ToInt32(s1);
                             if (lVal >= 240000)
                             {
+                                s1 = CurrentLine.Cells[24].Value.ToString();
+                                int iAllClasses = 0;
+                                int iRemoved = 0;
+                                if (s1 != "****")
+                                    iAllClasses = Convert.ToInt32(s1);
+                                s1 = CurrentLine.Cells[60].Value.ToString();
+                                if (s1 != "****")
+                                    iRemoved = Convert.ToInt32(s1);
+                                if ((iAllClasses > 0) && (iRemoved == 0))
                                 {
-                                    //Custom Spell
+                                    //Custom Feat
                                     //CurrentLine.Cells[2].Value = lVal + 16551217;
                                     isCustom = true;
                                     _Parse1 = tlkElements1[iVal].String;
@@ -832,8 +841,16 @@ namespace NWN2ToolKit
                             int iVal = Convert.ToInt32(lVal);
                             if (lVal >= 240000)
                             {
+                                s2 = CurrentLine.Cells[24].Value.ToString();
+                                int iAllClasses = 0;
+                                if (s2 != "****")
+                                    iAllClasses = Convert.ToInt32(s2);
+                                s2 = CurrentLine.Cells[60].Value.ToString();
+                                if (s2 != "****")
+                                    iRemoved = Convert.ToInt32(s2);
+                                if ((iAllClasses > 0) && (iRemoved == 0))
                                 {
-                                    //Altered Spell
+                                    //Altered Feat if not already Custom Feat
                                     //CurrentLine.Cells[55].Value = lVal + 16551217;
                                     isCustom = true;
                                     _Parse2 = tlkElements1[iVal].String;
