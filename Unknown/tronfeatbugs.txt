@@ -1,0 +1,37 @@
+993 should be 44 not 45
+Div Might/Shield need description updates
+1103 Manyshot needs description update
+844 new reqs/text desc
+1077 cooldown/text desc
+1086 cooldown/text desc
+1089 cooldown/text desc
+965 cooldown/text desc
+889 cooldown/text desc
+890 cooldown/text desc
+895 cooldown/text desc
+867 cooldown/text desc
+868 cooldown/text desc
+863 new reqs/text desc
+864 new reqs/text desc
+865 new reqs/text desc
+748-752 new reqs/text desc
+491 new uses/text desc
+450-454 cooldown/text desc
+434-436 cooldown/text desc
+413-414 new reqs/text desc
+390 new reqs/text desc
+299 new uses/text desc
+293 new uses/text desc
+211 cooldown/text desc
+1117 new reqs/text desc
+1253 needs changed to support AK/WoD
+1340 needs changed to support FotF, Extend Rage 2
+1403 new uses/text desc
+1427-1429 cooldown/text desc
+1462 last line
+
+Not on changes:
+Manyshot no longer requires dex (17 to 0)
+FEAT_TWO_WEAPON_DEFENSE no longer requires dex (15 to 0)
+Greater Weapon spec feats now only require 10 fighter not 12
+Frenzied Berskerer's Inspire Frenzy disabled (1460-1462)

@@ -1,0 +1,1 @@
+java -jar C:\Users\mattw\OneDrive\Desktop\NWN2\Archive\TlkEdit-R13b\tlkedit.jar
