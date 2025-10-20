@@ -33,4 +33,4 @@ Div Might/Shield need description updates
 Not on changes:
 Manyshot no longer requires dex (17 to 0)
 FEAT_TWO_WEAPON_DEFENSE no longer requires dex (15 to 0)
-Frenzied Berskerer's Inspire Frenzy disabled (1460-1462)
+Frenzied Berskerer's Inspire Frenzy instant (1460-1462)
