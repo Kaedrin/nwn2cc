@@ -30,8 +30,16 @@ Div Might/Shield need description updates
 1427-1429 cooldown/text desc
 1460-2 instant/text desc
 1925 FEAT_EPIC_DEVASTATING_CRITICAL_WARMACE enabled when it should be removed
+FEAT_GREATER_WEAPON_SPECIALIZATION_ text desc (lot)
+1761 new uses/text desc
+1766 needs a new armored caster for skjald, battle caster updated to include it, go back to anyclasscan use
+1774 new reqs/text desc
+1813-1819 cooldown/text desc
+1872-1875 cooldown/text desc
+1925 set to removed
+1930 instant/text desc
 
-last line
+last line 1988
 
 Not on changes:
 Manyshot no longer requires dex (17 to 0)
