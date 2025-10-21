@@ -28,10 +28,19 @@ Div Might/Shield need description updates
 1340 needs changed to support FotF, Extend Rage 2
 1403 new uses/text desc
 1427-1429 cooldown/text desc
-1462 last line
+1460-2 instant/text desc
+1925 FEAT_EPIC_DEVASTATING_CRITICAL_WARMACE enabled when it should be removed
+
+last line
 
 Not on changes:
 Manyshot no longer requires dex (17 to 0)
 FEAT_TWO_WEAPON_DEFENSE no longer requires dex (15 to 0)
-Greater Weapon spec feats now only require 10 fighter not 12
-Frenzied Berskerer's Inspire Frenzy disabled (1460-1462)
+Frenzied Berskerer's Inspire Frenzy instant (1460-1462)
+FEAT_SMITE_INFIDEL Divine Champion gets 3 uses per day instead of 1
+Battle Caster used to require Armored Caster Bard or Warlock and could be taken by anyone during levelup who met that. You can now only take it when taking Warlock/Bard/Skjald levels.
+Palemaster Warlock progression enabled (support will need to be added)
+FEAT_EPIC_DIVINE_MIGHT is instant
+
+ToDo
+Check all greater weapon specs are 10
