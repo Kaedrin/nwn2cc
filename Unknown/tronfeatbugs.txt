@@ -1,4 +1,4 @@
-993 should be 44 not 45
+993 should be 44 not 45 (Weapon Focus Whip is martial, not exotic)
 Div Might/Shield need description updates
 1103 Manyshot needs description update
 844 new reqs/text desc
