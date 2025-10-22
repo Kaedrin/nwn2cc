@@ -41,10 +41,8 @@ FEAT_GREATER_WEAPON_SPECIALIZATION_ text desc (lot)
 1991-2000 cooldown/text desc
 2092-2100 domain text changes
 2343 to 2357 move to Kaedrin range
-2601 to 2603
+2601 to 2603 move to Kaedrin range
  
-
-last line 1988
 
 Not on changes:
 Manyshot no longer requires dex (17 to 0)
