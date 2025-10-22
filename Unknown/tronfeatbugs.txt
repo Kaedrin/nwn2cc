@@ -38,6 +38,11 @@ FEAT_GREATER_WEAPON_SPECIALIZATION_ text desc (lot)
 1872-1875 cooldown/text desc
 1925 set to removed
 1930 instant/text desc
+1991-2000 cooldown/text desc
+2092-2100 domain text changes
+2343 to 2357 move to Kaedrin range
+2601 to 2603
+ 
 
 last line 1988
 
@@ -49,6 +54,8 @@ FEAT_SMITE_INFIDEL Divine Champion gets 3 uses per day instead of 1
 Battle Caster used to require Armored Caster Bard or Warlock and could be taken by anyone during levelup who met that. You can now only take it when taking Warlock/Bard/Skjald levels.
 Palemaster Warlock progression enabled (support will need to be added)
 FEAT_EPIC_DIVINE_MIGHT is instant
+FEAT_EPIC_SONG_OF_REQUIEM requires a 21 CL which would be better served with 20 bardsongs a day due to prcs
+Epic spells changed to cooldown
 
 ToDo
 Check all greater weapon specs are 10
