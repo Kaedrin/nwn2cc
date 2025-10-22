@@ -43,7 +43,6 @@ FEAT_GREATER_WEAPON_SPECIALIZATION_ text desc (lot)
 2343 to 2357 move to Kaedrin range
 2601 to 2603 move to Kaedrin range
  
-
 Not on changes:
 Manyshot no longer requires dex (17 to 0)
 FEAT_TWO_WEAPON_DEFENSE no longer requires dex (15 to 0)
@@ -57,3 +56,25 @@ Epic spells changed to cooldown
 
 ToDo
 Check all greater weapon specs are 10
+
+Spells.2da
+31-35 are now ranged, still mention touch in the their descriptions
+38 Death ward doesn't mention druid change in description, still has full immunity to negative not 50% in descr
+56 Finger of Death doesn't mention the range change in their description
+77 Harm is now ranged, still mention touch in the their description
+79-80 Heal and Mass Cure Light is now ranged, still mention touch in the their description
+82 Hold Monster is now a cleric spell, description doesn't mention it
+87 Implosion is now Medium range, description not updated
+114 Mass Heal is now Medium range, description not updated
+
+Changes Missing
+31-35 Cure Wounds do not mention ranged change 
+38 Death Ward changed to be Druid 4 from 5
+56 Finger of Death is now Medium Range
+77 Harm does not mention ranged change 
+79-80 Heal and Mass Cure Light does not mention ranged change 
+82 Hold Monster doesn't mention it is now a Cleric spell
+87 Implosion range changed
+114 Mass Heal range changed
+
+127 last line
